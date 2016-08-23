@@ -3,7 +3,8 @@
 #Do not remove
 Documentation status: stub
 Data source: semi-automatic
-Data available since: 
-License: 
+Data available since:
+License:
 Genre:
-Contributors: 
+Contributors:
+Contact:
