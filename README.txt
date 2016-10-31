@@ -1,7 +1,7 @@
 
 --- Machine readable metadata ---
 #Do not remove
-Documentation status: stub
+Documentation status: partial
 Data source: semi-automatic
 Data available since:
 License:
