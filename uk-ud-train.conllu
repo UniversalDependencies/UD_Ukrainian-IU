@@ -20,7 +20,7 @@
 5	.	.	PUNCT	punct	_	3	punct	_	_
 
 # sent_id 4
-1	Але	але	CONJ	conj:coord	_	4	discoarse	_	_
+1	Але	але	CONJ	conj:coord	_	4	discourse	_	_
 2	ти	ти	PRON	noun:anim:s:v_naz:&pron:pers:2	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 3	не	не	PART	part	_	4	neg	_	_
 4	думай	думати	VERB	verb:imperf:impr:s:2	Aspect=Imp|Mood=Imp|Number=Sing|Person=2	0	root	_	SpaceAfter=No
@@ -384,7 +384,7 @@
 7	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
 8	приречений	приречений	ADJ	adj:m:v_naz:&adjp:perf:pasv	Aspect=Perf|Case=Nom|Gender=Masc|Voice=Pass	0	root	_	_
 9	створити	створити	VERB	verb:perf:inf	Aspect=Perf	8	xcomp	_	_
-10	тільки	тільки	ADV	adv	_	11	discoarse	_	_
+10	тільки	тільки	ADV	adv	_	11	discourse	_	_
 11	фрагменти	фрагмент	NOUN	noun:inanim:p:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	dobj	_	SpaceAfter=No
 12	.	.	PUNCT	punct	_	8	punct	_	_
 
@@ -417,7 +417,7 @@
 4	,	,	PUNCT	punct	_	3	punct	_	_
 5	для	для	ADP	prep:rv_rod	Case=Gen	6	case	_	_
 6	чого	що	PRON	noun:inanim:n:v_rod:&pron:rel	Animacy=Inan|Case=Gen|Gender=Neut|PronType=Rel	8	nmod	_	_
-7	ще	ще	ADV	adv	_	8	discoarse	_	_
+7	ще	ще	ADV	adv	_	8	discourse	_	_
 8	передбачено	передбачити	VERB	verb:perf:impers	Aspect=Perf	3	ccomp	_	_
 9	використання	використання	NOUN	noun:inanim:n:v_zna	Animacy=Inan|Case=Acc|Gender=Neut	8	dobj	_	_
 10	цих	цей	DET	adj:p:v_rod:&pron:dem	Case=Gen|Number=Plur|PronType=Dem	11	det	_	_
@@ -997,14 +997,14 @@
 12	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id 134
-1	Так	так	INTJ	intj	_	7	intj	_	SpaceAfter=No
+1	Так	так	INTJ	intj	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	_	_
-3	лікарю	лікар	NOUN	noun:anim:m:v_kly	Animacy=Anim|Case=Voc|Gender=Masc	7	vocative	_	SpaceAfter=No
+3	лікарю	лікар	NOUN	noun:anim:m:v_kly	Animacy=Anim|Case=Voc|Gender=Masc	1	vocative	_	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	_	_
-5	саме	саме	PART	part	_	7	advmod	_	_
+5	саме	саме	PART	part	_	6	advmod	_	_
 6	цієї	цей	DET	adj:f:v_rod:&pron:dem	Case=Gen|Gender=Fem|PronType=Dem	7	det	_	_
-7	ночі	ніч	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	7	punct	_	_
+7	ночі	ніч	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	1	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id 135
 1	Першим	перший	ADJ	adj:m:v_oru:compb:&numr	Case=Ins|Degree=Pos|Gender=Masc|NumType=Ord	0	root	_	_
@@ -1342,7 +1342,7 @@
 3	?	?	PUNCT	punct	_	2	punct	_	_
 
 # sent_id 172
-1	Ось	ось	PART	part	_	4	discoarse	_	_
+1	Ось	ось	PART	part	_	4	discourse	_	_
 2	цей	цей	DET	adj:m:v_naz:&pron:dem	Case=Nom|Gender=Masc|PronType=Dem	4	nsubj	_	_
 3	буде	бути	VERB	verb:imperf:futr:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut	4	cop	_	_
 4	добрий	добрий	ADJ	adj:m:v_naz:compb	Case=Nom|Degree=Pos|Gender=Masc	0	root	_	SpaceAfter=No
@@ -1393,7 +1393,7 @@
 
 # sent_id 179
 1	Не	не	PART	part	_	2	neg	_	_
-2	те	те	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	5	discoarse	_	_
+2	те	те	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	5	discourse	_	_
 3	щоб	щоб	SCONJ	conj:subord	_	5	mark	_	_
 4	не	не	PART	part	_	5	neg	_	_
 5	знав	знати	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past	0	root	_	SpaceAfter=No
@@ -1403,8 +1403,8 @@
 9	.	.	PUNCT	punct	_	5	punct	_	_
 
 # sent_id 180
-1	Чи	чи	PART	part	_	6	discoarse	_	_
-2	то	то	PART	part	_	6	discoarse	_	_
+1	Чи	чи	PART	part	_	6	discourse	_	_
+2	то	то	PART	part	_	6	discourse	_	_
 3	не	не	PART	part	_	4	neg	_	_
 4	він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	nsubj	_	_
 5	це	це	PRON	noun:inanim:n:v_zna:&pron:dem	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Dem	6	dobj	_	_
@@ -1492,15 +1492,15 @@
 6	24	24	NUM	numr	NumType=Card	7	nummod	_	_
 7	градуси	градус	NOUN	noun:inanim:p:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	punct	_	7	punct	_	_
-9	і	і	CONJ	conj:coord	_	11	discoarse	_	_
-10	це	це	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	11	discoarse	_	_
+9	і	і	CONJ	conj:coord	_	11	discourse	_	_
+10	це	це	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	11	discourse	_	_
 11	тоді	тоді	ADV	adv:&pron:dem	PronType=Dem	7	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	punct	_	11	punct	_	_
 13	коли	коли	ADV	adv:&pron:rel	PronType=Rel	15	mark	_	_
 14	назовні	назовні	ADV	adv	_	15	advmod	_	_
 15	мороз	мороз	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	11	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	punct	_	15	punct	_	_
-17	аж	аж	PART	part	_	18	discoarse	_	_
+17	аж	аж	PART	part	_	18	discourse	_	_
 18	тріщить	тріщати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	parataxis	_	SpaceAfter=No
 19	.	.	PUNCT	punct	_	7	punct	_	_
 
@@ -1770,7 +1770,7 @@
 7	—	—	PUNCT	punct	_	2	punct	_	_
 8	срібну	срібний	ADJ	adj:f:v_zna	Case=Acc|Gender=Fem	3	remnant	_	SpaceAfter=No
 9	,	,	PUNCT	punct	_	2	punct	_	_
-10	а	а	CONJ	conj:coord	_	13	discoarse	_	_
+10	а	а	CONJ	conj:coord	_	13	discourse	_	_
 11	Петро	Петро	PROPN	noun:anim:m:v_naz:prop:fname	Animacy=Anim|Case=Nom|Gender=Masc	6	remnant	_	_
 12	—	—	PUNCT	punct	_	2	punct	_	_
 13	бронзову	бронзовий	ADJ	adj:f:v_zna	Case=Acc|Gender=Fem	8	remnant	_	SpaceAfter=No
@@ -1811,9 +1811,9 @@
 1	Василю	Василь	PROPN	noun:anim:m:v_kly:prop:fname	Animacy=Anim|Case=Voc|Gender=Masc	7	vocative	_	_
 2	Петровичу	Петрович	PROPN	noun:anim:m:v_kly:prop:patr	Animacy=Anim|Case=Voc|Gender=Masc	1	name	_	SpaceAfter=No
 3	,	,	PUNCT	punct	_	1	punct	_	_
-4	ну	ну	PART	part	_	5	discoarse	_	_
+4	ну	ну	PART	part	_	5	discourse	_	_
 5	що	що	PRON	noun:inanim:n:v_naz:&pron:int	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Int	0	root	_	_
-6	це	це	PART	part	_	5	discoarse	_	_
+6	це	це	PART	part	_	5	discourse	_	_
 7	Ви	ви	PRON	noun:anim:p:v_kly:&pron:pers:2	Animacy=Anim|Case=Voc|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	SpaceAfter=No
 8	?	?	PUNCT	punct	_	5	punct	_	_
 
@@ -1851,13 +1851,13 @@
 2	я	я	PRON	noun:anim:s:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	сплю	спати	VERB	verb:imperf:pres:s:1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 4	чи	чи	CONJ	conj:coord	_	6	mark	_	_
-5	то	то	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	6	discoarse	_	_
+5	то	то	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	6	discourse	_	_
 6	сниться	снитися	VERB	verb:rev:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	parataxis	_	_
 7	мені	я	PRON	noun:anim:s:v_dav:&pron:pers:1	Animacy=Anim|Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	SpaceAfter=No
 8	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id 239
-1	Ой	ой	INTJ	intj	_	11	discoarse	_	SpaceAfter=No
+1	Ой	ой	INTJ	intj	_	11	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	punct	_	3	punct	_	_
 3	говорила	говорити	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past	11	parataxis	_	_
 4	чиста	чистий	ADJ	adj:f:v_naz:compb	Case=Nom|Degree=Pos|Gender=Fem	5	amod	_	_
@@ -1879,18 +1879,18 @@
 6	знаю	знати	VERB	verb:imperf:pres:s:1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	1	conj	_	SpaceAfter=No
 7	,	,	PUNCT	punct	_	6	punct	_	_
 8	чи	чи	CONJ	conj:coord	_	11	mark	_	_
-9	то	то	PART	part	_	11	discoarse	_	_
+9	то	то	PART	part	_	11	discourse	_	_
 10	я	я	PRON	noun:anim:s:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 11	сплю	спати	VERB	verb:imperf:pres:s:1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	ccomp	_	SpaceAfter=No
 12	,	,	PUNCT	punct	_	11	punct	_	_
 13	чи	чи	CONJ	conj:coord	_	6	mark	_	_
-14	то	то	PART	part	_	15	discoarse	_	_
+14	то	то	PART	part	_	15	discourse	_	_
 15	дрімаю	дрімати	VERB	verb:imperf:pres:s:1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	ccomp	_	SpaceAfter=No
 16	…	…	PUNCT	punct	_	1	punct	_	_
 
 # sent_id 241
-1	Ото	ото	PART	part	_	4	discoarse	_	_
-2	б	б	PART	part	_	4	discoarse	_	_
+1	Ото	ото	PART	part	_	4	discourse	_	_
+2	б	б	PART	part	_	4	discourse	_	_
 3	ти	ти	PRON	noun:anim:s:v_naz:&pron:pers:2	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 4	здивувався	здивуватися	VERB	verb:rev:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	punct	_	4	punct	_	_
@@ -1905,7 +1905,7 @@
 # sent_id 243
 1	Що	що	PRON	noun:inanim:n:v_naz:&pron:int	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Int	4	nsubj	_	_
 2	то	то	PART	part	_	1	mark	_	_
-3	за	за	PART	part	_	4	discoarse	_	_
+3	за	за	PART	part	_	4	discourse	_	_
 4	звір	звір	NOUN	noun:anim:m:v_naz:xp1	Animacy=Anim|Case=Nom|Gender=Masc	0	root	_	_
 5	такий	такий	DET	adj:m:v_naz:&pron:dem	Case=Nom|Gender=Masc|PronType=Dem	4	det	_	SpaceAfter=No
 6	,	,	PUNCT	punct	_	4	punct	_	_
@@ -2066,7 +2066,7 @@
 
 # sent_id 263
 1	Як	як	SCONJ	conj:subord	_	3	mark	_	_
-2	тільки	тільки	PART	part	_	3	discoarse	_	_
+2	тільки	тільки	PART	part	_	3	discourse	_	_
 3	прокидається	прокидатися	VERB	verb:rev:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	_	_
 5	біжить	бігти	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
