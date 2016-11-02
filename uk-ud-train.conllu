@@ -68,7 +68,7 @@
 5	,	,	PUNCT	punct	_	2	punct	_	_
 6	скільки	скільки	NUM	numr:p:v_zna:&pron:int	Case=Acc|Number=Plur|NumType=Card|PronType=Int	8	nsubjpass	_	_
 7	буде	бути	VERB	verb:imperf:futr:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	_
-8	визначено	визначити	VERB	verb:perf:impers	Aspect=Perf|VerbForm=Imps	4	acl	_	SpaceAfter=No
+8	визначено	визначити	VERB	verb:perf:impers	Aspect=Perf|VerbForm=Imps	4	advcl	_	SpaceAfter=No
 9	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id 10
@@ -100,7 +100,7 @@
 1	Не	не	PART	part	_	2	neg	_	_
 2	забудь	забути	VERB	verb:perf:impr:s:2	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
 3	взяти	взяти	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_
-4	телефон	телефон	NOUN	noun:inanim:m:v_zna:xp1	Animacy=Inan|Case=Acc|Gender=Masc	2	dobj	_	SpaceAfter=No
+4	телефон	телефон	NOUN	noun:inanim:m:v_zna:xp1	Animacy=Inan|Case=Acc|Gender=Masc	3	dobj	_	SpaceAfter=No
 5	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id 15
@@ -269,7 +269,7 @@
 1	Те	те	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	7	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	punct	_	1	punct	_	_
 3	про	про	ADP	prep:rv_zna	Case=Acc	4	case	_	_
-4	що	що	PRON	noun:inanim:n:v_zna:&pron:rel	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Rel	5	dobj	_	_
+4	що	що	PRON	noun:inanim:n:v_zna:&pron:rel	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Rel	5	nmod	_	_
 5	розповідалося	розповідатися	VERB	verb:rev:imperf:past:n	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	1	acl	_	SpaceAfter=No
 6	,	,	PUNCT	punct	_	1	punct	_	_
 7	має	мати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -572,7 +572,7 @@
 5	що	що	SCONJ	conj:subord	_	10	mark	_	_
 6	цього	це	PRON	noun:inanim:n:v_rod:&pron:dem	Animacy=Inan|Case=Gen|Gender=Neut|PronType=Dem	10	dobj	_	_
 7	ніхто	ніхто	PRON	noun:anim:v_naz:&pron:neg	Animacy=Anim|Case=Nom|PronType=Neg	10	nsubj	_	_
-8	навіть	навіть	PART	part	_	10	advmod	_	_
+8	навіть	навіть	PART	part	_	9	mark	_	_
 9	не	не	PART	part	_	10	neg	_	_
 10	пробував	пробувати	VERB	verb:imperf:past:m:xp1	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
 11	.	.	PUNCT	punct	_	3	punct	_	_
@@ -1001,7 +1001,7 @@
 2	,	,	PUNCT	punct	_	3	punct	_	_
 3	лікарю	лікар	NOUN	noun:anim:m:v_kly	Animacy=Anim|Case=Voc|Gender=Masc	1	vocative	_	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	_	_
-5	саме	саме	PART	part	_	6	advmod	_	_
+5	саме	саме	PART	part	_	6	mark	_	_
 6	цієї	цей	DET	adj:f:v_rod:&pron:dem	Case=Gen|Gender=Fem|PronType=Dem	7	det	_	_
 7	ночі	ніч	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	1	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	punct	_	1	punct	_	_
@@ -1045,8 +1045,8 @@
 14	пожовтілим	пожовтілий	ADJ	adj:n:v_oru:&adjp:perf:actv	Aspect=Perf|Case=Ins|Gender=Neut|VerbForm=Part|Voice=Act	15	amod	_	_
 15	обличчям	обличчя	NOUN	noun:inanim:n:v_oru	Animacy=Inan|Case=Ins|Gender=Neut	12	nmod	_	_
 16	—	—	PUNCT	punct	_	12	punct	_	_
-17	все	все	PART	part:v-u	_	20	advmod	_	_
-18	ще	ще	ADV	adv	_	17	compound	_	_
+17	все	все	ADV	adv	_	20	advmod	_	_
+18	ще	ще	ADV	adv	_	17	mwe	_	_
 19	здалеку	здалеку	ADV	adv	_	20	advmod	_	_
 20	виглядала	виглядати	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 21	свого	свій	DET	adj:m:v_zna:ranim:poss:&pron:refl	Case=Acc|Gender=Masc|Poss=Yes|PronType=Prs|Reflex=Yes	22	det	_	_
@@ -1066,7 +1066,7 @@
 3	батька	батько	NOUN	noun:anim:m:v_zna	Animacy=Anim|Case=Acc|Gender=Masc	1	appos	_	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	_	_
 5	я	я	PRON	noun:anim:s:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
-6	ще	ще	PART	part	_	7	advmod	_	_
+6	ще	ще	PART	part	_	7	mark	_	_
 7	бачив	бачити	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	punct	_	7	punct	_	_
 9	коли	коли	ADV	adv:&pron:rel	PronType=Rel	10	mark	_	_
@@ -1089,10 +1089,10 @@
 26	,	,	PUNCT	punct	_	19	punct	_	_
 27	де	де	ADV	adv:&pron:rel	PronType=Rel	29	mark	_	_
 28	він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	29	nsubj	_	_
-29	був	бути	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	12	acl	_	_
+29	був	бути	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	32	cop	_	_
 30	за	за	ADP	prep:rv_zna	Case=Acc	32	case	_	_
 31	першого	перший	ADJ	adj:m:v_zna:ranim:compb:&numr	Case=Acc|Degree=Pos|Gender=Masc|NumType=Ord	32	amod	_	_
-32	продавця	продавець	NOUN	noun:anim:m:v_zna	Animacy=Anim|Case=Acc|Gender=Masc	29	xcomp	_	SpaceAfter=No
+32	продавця	продавець	NOUN	noun:anim:m:v_zna	Animacy=Anim|Case=Acc|Gender=Masc	12	acl	_	SpaceAfter=No
 33	.	.	PUNCT	punct	_	7	punct	_	_
 
 # sent_id 140
@@ -1130,10 +1130,10 @@
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
 # sent_id 145
-1	З	з	ADP	prep:rv_rod	Case=Gen	2	case	_	_
-2	усіх	увесь	DET	adj:p:v_rod:&pron:gen	Case=Gen|Number=Plur|PronType=Tot	5	advmod	_	_
-3	-	-	PUNCT	punct	_	2	punct	_	_
-4	усюд	усюди	NOUN	noun:inanim:p:v_rod:ns	Animacy=Inan|Case=Gen|Number=Plur	2	compound	_	_
+1	З	з	ADP	prep:rv_rod	Case=Gen	4	case	_	_
+2	усіх	увесь	DET	adj:p:v_rod:&pron:gen	Case=Gen|Number=Plur|PronType=Tot	4	det	_	_
+3	-	-	PUNCT	punct	_	4	punct	_	_
+4	усюд	усюди	NOUN	noun:inanim:p:v_rod:ns	Animacy=Inan|Case=Gen|Number=Plur	5	nmod	_	_
 5	линув	линути	VERB	verb:imperf:past:m:xp1	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	спів	спів	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	5	nsubj	_	_
 7	птахів	птах	NOUN	noun:anim:p:m:v_rod	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
@@ -1144,7 +1144,7 @@
 2	думала	думати	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	про	про	ADP	prep:rv_zna	Case=Acc	5	case	_	_
 4	свою	свій	DET	adj:f:v_zna:poss:&pron:refl	Case=Acc|Gender=Fem|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
-5	сестру	сестра	NOUN	noun:anim:f:v_zna	Animacy=Anim|Case=Acc|Gender=Fem	2	dobj	_	SpaceAfter=No
+5	сестру	сестра	NOUN	noun:anim:f:v_zna	Animacy=Anim|Case=Acc|Gender=Fem	2	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	punct	_	2	punct	_	_
 
 # sent_id 147
@@ -1247,7 +1247,7 @@
 3	хлопець	хлопець	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	1	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	punct	_	3	punct	_	_
 5	про	про	ADP	prep:rv_zna	Case=Acc	6	case	_	_
-6	котрого	котрий	DET	adj:m:v_zna:ranim:&pron:rel	Case=Acc|Gender=Masc|PronType=Rel	3	det	_	_
+6	котрого	котрий	DET	adj:m:v_zna:ranim:&pron:rel	Case=Acc|Gender=Masc|PronType=Rel	8	nmod	_	_
 7	я	я	PRON	noun:anim:s:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 8	розказувала	розказувати	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	3	acl	_	SpaceAfter=No
 9	,	,	PUNCT	punct	_	3	punct	_	_
@@ -1287,7 +1287,7 @@
 8	,	,	PUNCT	punct	_	7	punct	_	_
 9	що	що	SCONJ	conj:subord	_	12	mark	_	_
 10	все	все	PRON	noun:inanim:n:v_naz:&pron:gen:v-u	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Tot	12	nsubj	_	_
-11	так	так	PART	part	_	12	advmod	_	_
+11	так	так	ADV	adv:&pron:dem	_	12	advmod	_	_
 12	просто	просто	ADV	adv:compb	Degree=Pos	7	ccomp	_	SpaceAfter=No
 13	.	.	PUNCT	punct	_	7	punct	_	_
 
@@ -1398,7 +1398,7 @@
 4	не	не	PART	part	_	5	neg	_	_
 5	знав	знати	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	punct	_	5	punct	_	_
-7	просто	просто	PART	part	_	8	advmod	_	_
+7	просто	просто	PART	part	_	8	mark	_	_
 8	забув	забути	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	punct	_	5	punct	_	_
 
@@ -1414,7 +1414,7 @@
 # sent_id 181
 1	В	в	ADP	prep:rv_mis:v-u	Case=Loc	5	case	_	_
 2	не	не	PART	part	_	3	neg	_	_
-3	так	так	PART	part	_	4	advmod	_	_
+3	так	так	ADV	adv&pron:dem	_	4	advmod	_	_
 4	далекому	далекий	ADJ	adj:n:v_mis:compb	Case=Loc|Degree=Pos|Gender=Neut	5	amod	_	_
 5	минулому	минулий	ADJ	adj:n:v_mis:&adjp:perf:actv	Aspect=Perf|Case=Loc|Gender=Neut|VerbForm=Part|Voice=Act	7	nmod	_	_
 6	це	це	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	7	nsubj	_	_
@@ -1470,7 +1470,7 @@
 7	ти	ти	PRON	noun:anim:s:v_naz:&pron:pers:2	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 8	повинен	повинний	ADJ	adj:m:v_naz:short	Case=Nom|Gender=Masc	0	root	_	_
 9	про	про	ADP	prep:rv_zna	Case=Acc	10	case	_	_
-10	це	це	PRON	noun:inanim:n:v_zna:&pron:dem	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Dem	11	dobj	_	_
+10	це	це	PRON	noun:inanim:n:v_zna:&pron:dem	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Dem	11	nmod	_	_
 11	розказати	розказати	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	8	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	punct	_	8	punct	_	_
 
@@ -1524,7 +1524,7 @@
 6	?	?	PUNCT	punct	_	3	punct	_	_
 
 # sent_id 192
-1	Десь	десь	PART	part	_	2	advmod	_	_
+1	Десь	десь	ADV	adv:compb	_	2	advmod	_	_
 2	200	200	NUM	numr	NumType=Card	3	nummod:gov	_	_
 3	людей	люде	NOUN	noun:anim:p:v_rod:ns	Animacy=Anim|Case=Gen|Number=Plur	4	nsubj	_	_
 4	привалило	привалити	VERB	verb:perf:past:n	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1541,7 +1541,7 @@
 # sent_id 194
 1	В	в	ADP	prep:rv_mis:v-u	Case=Loc	5	case	_	_
 2	не	не	PART	part	_	3	neg	_	_
-3	так	так	PART	part	_	4	advmod	_	_
+3	так	так	ADV	adv&pron:dem	_	4	advmod	_	_
 4	далекому	далекий	ADJ	adj:n:v_mis:compb	Case=Loc|Degree=Pos|Gender=Neut	5	amod	_	_
 5	минулому	минулий	ADJ	adj:n:v_mis:&adjp:perf:actv	Aspect=Perf|Case=Loc|Gender=Neut|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	punct	_	5	punct	_	_
@@ -1590,8 +1590,8 @@
 # sent_id 210
 1	Це	це	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	2	nsubj	_	_
 2	коштує	коштувати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	в	в	ADP	prep:rv_mis:v-u	Case=Loc	4	case	_	_
-4	межах	межа	NOUN	noun:inanim:p:f:v_mis	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	mwe	_	_
+3	в	в	ADP	prep:rv_mis:v-u	Case=Loc	5	case	_	_
+4	межах	межа	NOUN	noun:inanim:p:f:v_mis	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	mwe	_	_
 5	5	5	NUM	numr	NumType=Card	6	nummod	_	_
 6	крон	крона	NOUN	noun:inanim:p:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	dobj	_	SpaceAfter=No
 7	.	.	PUNCT	punct	_	2	punct	_	_
@@ -1743,7 +1743,7 @@
 7	потрібно	потрібно	ADV	adv:compb	Degree=Pos	3	parataxis	_	_
 8	бачити	бачити	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	7	xcomp	_	SpaceAfter=No
 9	,	,	PUNCT	punct	_	8	punct	_	_
-10	як	як	SCONJ	conj:subord	_	11	advmod	_	_
+10	як	як	SCONJ	conj:subord	_	11	mark	_	_
 11	рухається	рухатися	VERB	verb:rev:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
 12	їжа	їжа	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	11	nsubj	_	SpaceAfter=No
 13	.	.	PUNCT	punct	_	3	punct	_	_
@@ -1844,7 +1844,7 @@
 
 # sent_id 237
 1	Привіт	привіт	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	0	root	_	_
-2	:	:	PUNCT	punct	_	1	discourse	_	SpaceAfter=No
+2	:	:	PUNCT	punct	_	1	punct	_	SpaceAfter=No
 3	)	)	PUNCT	punct	_	2	goeswith	_	_
 4	!	!	PUNCT	punct	_	1	punct	_	_
 
