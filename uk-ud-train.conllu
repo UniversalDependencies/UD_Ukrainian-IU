@@ -64,9 +64,9 @@
 1	Податники	податник	NOUN	noun:anim:p:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	мусять	мусити	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	платити	платити	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	2	xcomp	_	_
-4	стільки	стільки	NUM	numr:p:v_zna:&pron:dem	Case=Acc|Number=Plur|NumType=Card|PronType=Dem	3	advmod	_	SpaceAfter=No
+4	стільки	стільки	ADV	adv:&pron:dem	Case=Acc|Number=Plur|NumType=Card|PronType=Dem	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	punct	_	2	punct	_	_
-6	скільки	скільки	NUM	numr:p:v_zna:&pron:int	Case=Acc|Number=Plur|NumType=Card|PronType=Int	8	nsubjpass	_	_
+6	скільки	скільки	ADV	adv:&pron:rel	Case=Acc|Number=Plur|NumType=Card|PronType=Int	8	nsubjpass	_	_
 7	буде	бути	VERB	verb:imperf:futr:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	_
 8	визначено	визначити	VERB	verb:perf:impers	Aspect=Perf|VerbForm=Imps	4	advcl	_	SpaceAfter=No
 9	.	.	PUNCT	punct	_	2	punct	_	_
@@ -791,7 +791,7 @@
 
 # sent_id 100
 1	Втрачено	втратити	VERB	verb:perf:impers:v-u	Aspect=Perf|VerbForm=Imps	0	root	_	_
-2	багато	багато	NUM	numr:p:v_zna:&pron:ind	Case=Acc|Number=Plur|NumType=Card|PronType=Ind	3	det:numgov	_	_
+2	багато	багато	ADV	adv:compb	Case=Acc|Number=Plur|NumType=Card|PronType=Ind	3	det:numgov	_	_
 3	часу	час	NOUN	noun:inanim:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc	1	dobj	_	SpaceAfter=No
 4	.	.	PUNCT	punct	_	1	punct	_	_
 
