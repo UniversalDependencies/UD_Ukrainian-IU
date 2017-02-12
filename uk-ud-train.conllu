@@ -1,1681 +1,596 @@
-# sent_id 1
-1	Кольорові	кольоровий	ADJ	adj:p:v_naz	Case=Nom|Number=Plur	2	amod	_	_
-2	кульки	кулька	NOUN	noun:inanim:p:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
-3	летять	летіти	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	у	у	ADP	prep:rv_mis:v-u	Case=Loc	5	case	_	_
-5	небі	небо	NOUN	noun:inanim:n:v_mis:np	Animacy=Inan|Case=Loc|Gender=Neut	3	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 2
-1	Кіт	кіт	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	3	nsubj	_	_
-2	—	—	PUNCT	punct	_	3	punct	_	_
-3	пухнастий	пухнастий	ADJ	adj:m:v_naz:compb	Case=Nom|Degree=Pos|Gender=Masc	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 3
-1	По	по	ADP	prep:rv_mis	Case=Loc	2	case	_	_
-2	кімнаті	кімната	NOUN	noun:inanim:f:v_mis	Animacy=Inan|Case=Loc|Gender=Fem	3	nmod	_	_
-3	гуляли	гуляти	VERB	verb:imperf:past:p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
-4	привиди	привид	NOUN	noun:anim:p:m:v_naz:xp1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 4
-1	Але	але	CONJ	conj:coord	_	4	discourse	_	_
-2	ти	ти	PRON	noun:anim:s:v_naz:&pron:pers:2	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
-3	не	не	PART	part	_	4	neg	_	_
-4	думай	думати	VERB	verb:imperf:impr:s:2	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	punct	_	4	punct	_	_
-6	що	що	SCONJ	conj:subord	_	10	mark	_	_
-7	все	все	PRON	noun:inanim:n:v_naz:&pron:gen:v-u	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Tot	10	nsubj	_	_
-8	вже	вже	ADV	adv:v-u	_	10	advmod	_	_
-9	за	за	ADP	prep:rv_oru	Case=Ins	10	case	_	_
-10	нами	ми	PRON	noun:anim:p:v_oru:&pron:pers:1	Animacy=Anim|Case=Ins|Number=Plur|Person=1|PronType=Prs	4	ccomp	_	SpaceAfter=No
-11	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 6
-1	За	за	ADP	prep:rv_oru	Case=Ins	2	case	_	_
-2	старим	старий	ADJ	adj:m:v_oru:compb	Case=Ins|Degree=Pos|Gender=Masc	3	nmod	_	_
-3	стояла	стояти	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	Христина	Христина	PROPN	noun:anim:f:v_naz:prop:fname	Animacy=Anim|Case=Nom|Gender=Fem	3	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	punct	_	4	punct	_	_
-6	його	його	DET	adj:f:v_naz:poss:nv:&pron:pers:3	Case=Nom|Gender=Fem|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
-7	гарна	гарний	ADJ	adj:f:v_naz:compb	Case=Nom|Degree=Pos|Gender=Fem	8	amod	_	_
-8	онука	онука	NOUN	noun:anim:f:v_naz	Animacy=Anim|Case=Nom|Gender=Fem	4	appos	_	SpaceAfter=No
-9	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 7
-1	Село	село	NOUN	noun:inanim:n:v_naz	Animacy=Inan|Case=Nom|Gender=Neut	4	nsubjpass	_	_
-2	Крушельниця	Крушельниця	PROPN	noun:inanim:f:v_naz:prop	Animacy=Inan|Case=Nom|Gender=Fem	1	appos	_	_
-3	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	розташоване	розташований	ADJ	adj:n:v_naz:&adjp:perf:pasv	Aspect=Perf|Case=Nom|Gender=Neut|VerbForm=Part|Voice=Pass	0	root	_	_
-5	над	над	ADP	prep:rv_oru	Case=Ins	6	case	_	_
-6	річкою	річка	NOUN	noun:inanim:f:v_oru	Animacy=Inan|Case=Ins|Gender=Fem	4	nmod	_	_
-7	Стрий	Стрий	PROPN	noun:inanim:m:v_naz:prop:xp2	Animacy=Inan|Case=Nom|Gender=Masc	6	appos	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 8
-1	Порушники	порушник	NOUN	noun:anim:p:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubjpass	_	_
-2	не	не	PART	part	_	4	neg	_	_
-3	були	бути	VERB	verb:imperf:past:p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	4	auxpass	_	_
-4	зловлені	зловлений	ADJ	adj:p:v_naz:&adjp:perf:pasv	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 9
-1	Податники	податник	NOUN	noun:anim:p:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
-2	мусять	мусити	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	платити	платити	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	2	xcomp	_	_
-4	стільки	стільки	ADV	adv:&pron:dem	Case=Acc|Number=Plur|NumType=Card|PronType=Dem	3	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	punct	_	2	punct	_	_
-6	скільки	скільки	ADV	adv:&pron:rel	Case=Acc|Number=Plur|NumType=Card|PronType=Int	8	nsubjpass	_	_
-7	буде	бути	VERB	verb:imperf:futr:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux	_	_
-8	визначено	визначити	VERB	verb:perf:impers	Aspect=Perf|VerbForm=Imps	4	advcl	_	SpaceAfter=No
-9	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 10
-1	Савченко	Савченко	PROPN	noun:anim:f:v_naz:nv:np:prop:lname	Animacy=Anim|Case=Nom|Gender=Fem	3	nsubjpass	_	_
-2	буде	бути	VERB	verb:imperf:futr:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
-3	звільнена	звільнений	ADJ	adj:f:v_naz:&adjp:perf:pasv	Aspect=Perf|Case=Nom|Gender=Fem|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 11
-1	Це	це	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	3	nsubjpass	_	_
-2	було	бути	VERB	verb:imperf:past:n	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	_
-3	вирішено	вирішити	VERB	verb:perf:impers	Aspect=Perf|VerbForm=Imps	0	root	_	_
-4	позавчора	позавчора	ADV	adv	_	3	advmod	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 12
-1	Зустріну	зустріти	VERB	verb:perf:futr:s:1	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
-2	її	вона	PRON	noun:f:v_zna:&pron:pers:3	Case=Acc|Gender=Fem|Person=3|PronType=Prs	1	dobj	_	_
-3	завтра	завтра	ADV	adv	_	1	advmod	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 13
-1	Мама	мама	NOUN	noun:anim:f:v_naz	Animacy=Anim|Case=Nom|Gender=Fem	2	nsubj	_	_
-2	мила	мити	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	раму	рама	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	2	dobj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 14
-1	Не	не	PART	part	_	2	neg	_	_
-2	забудь	забути	VERB	verb:perf:impr:s:2	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
-3	взяти	взяти	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	2	xcomp	_	_
-4	телефон	телефон	NOUN	noun:inanim:m:v_zna:xp1	Animacy=Inan|Case=Acc|Gender=Masc	3	dobj	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 15
-1	Його	він	PRON	noun:m:v_zna:&pron:pers:3	Case=Acc|Gender=Masc|Person=3|PronType=Prs	2	dobj	_	_
-2	мила	мити	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	вдома	вдома	ADV	adv:v-u	_	2	advmod	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 16
-1	Його	його	DET	adj:f:v_naz:poss:nv:&pron:pers:3	Case=Nom|Gender=Fem|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
-2	мила	милий	ADJ	adj:f:v_naz:compb	Case=Nom|Degree=Pos|Gender=Fem	3	nsubj	_	_
-3	вдома	вдома	ADV	adv:v-u	_	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 17
-1	Мають	мати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	проблеми	проблема	NOUN	noun:inanim:p:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	dobj	_	SpaceAfter=No
-3	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 18
-1	Проблеми	проблема	NOUN	noun:inanim:p:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	dobj	_	_
-2	мають	мати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 19
-1	Університет	університет	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	3	nsubj	_	_
-2	не	не	PART	part	_	3	neg	_	_
-3	володіє	володіти	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	такими	такий	DET	adj:p:v_oru:&pron:dem	Case=Ins|Number=Plur|PronType=Dem	5	det	_	_
-5	даними	даний	ADJ	adj:p:v_oru:&adjp:perf:pasv	Aspect=Perf|Case=Ins|Number=Plur|VerbForm=Part|Voice=Pass	3	dobj	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 20
-1	Вчи	вчити	VERB	verb:imperf:impr:s:2:v-u	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
-2	українську	український	ADJ	adj:f:v_zna	Case=Acc|Gender=Fem	1	dobj	_	SpaceAfter=No
-3	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 21
-1	Почекайте	почекати	VERB	verb:perf:impr:p:2	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
-2	мене	я	PRON	noun:anim:s:v_zna:&pron:pers:1	Animacy=Anim|Case=Acc|Number=Sing|Person=1|PronType=Prs	1	dobj	_	SpaceAfter=No
-3	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 22
-1	Почекайте	почекати	VERB	verb:perf:impr:p:2	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
-2	хвилинку	хвилинка	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	1	nmod	_	SpaceAfter=No
-3	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 23
-1	Почекайте	почекати	VERB	verb:perf:impr:p:2	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	_
-2	мене	я	PRON	noun:anim:s:v_zna:&pron:pers:1	Animacy=Anim|Case=Acc|Number=Sing|Person=1|PronType=Prs	1	dobj	_	_
-3	хвилинку	хвилинка	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	1	nmod	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 24
-1	Бджоли	бджола	NOUN	noun:anim:p:f:v_naz	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
-2	запилюють	запилювати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	квіти	квіти	NOUN	noun:inanim:p:v_zna:ns	Animacy=Inan|Case=Acc|Number=Plur	2	dobj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 25
-1	Квіти	квіти	NOUN	noun:inanim:p:v_zna:ns	Animacy=Inan|Case=Acc|Number=Plur	2	dobj	_	_
-2	запилюють	запилювати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	бджоли	бджола	NOUN	noun:anim:p:f:v_naz	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 26
-1	Квіти	квіти	NOUN	noun:inanim:p:v_naz:ns	Animacy=Inan|Case=Nom|Number=Plur	2	nsubj	_	_
-2	запилюються	запилюватися	VERB	verb:rev:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	бджолами	бджола	NOUN	noun:anim:p:f:v_oru	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	2	iobj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 27
-1	Бджолами	бджола	NOUN	noun:anim:p:f:v_oru	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	2	iobj	_	_
-2	запилюються	запилюватися	VERB	verb:rev:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	квіти	квіти	NOUN	noun:inanim:p:v_zna:ns	Animacy=Inan|Case=Acc|Number=Plur	2	nsubj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 28
-1	По	по	ADP	prep:rv_mis	Case=Loc	2	case	_	_
-2	яблуку	яблуко	NOUN	noun:inanim:n:v_mis	Animacy=Inan|Case=Loc|Gender=Neut	3	nmod	_	_
-3	повзе	повзти	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	мураха	мураха	NOUN	noun:anim:f:v_naz	Animacy=Anim|Case=Nom|Gender=Fem	3	nsubj	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 29
-1	Мураха	мураха	NOUN	noun:anim:f:v_naz	Animacy=Anim|Case=Nom|Gender=Fem	2	nsubj	_	_
-2	повзе	повзти	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	по	по	ADP	prep:rv_mis	Case=Loc	4	case	_	_
-4	яблуку	яблуко	NOUN	noun:inanim:n:v_mis	Animacy=Inan|Case=Loc|Gender=Neut	2	nmod	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 30
-1	Діти	діти	NOUN	noun:anim:p:v_naz:ns	Animacy=Anim|Case=Nom|Number=Plur	2	nsubj	_	_
-2	отримали	отримати	VERB	verb:perf:past:p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
-3	по	по	ADP	prep:rv_mis	Case=Loc	4	case	_	_
-4	яблуку	яблуко	NOUN	noun:inanim:n:v_mis	Animacy=Inan|Case=Loc|Gender=Neut	2	nmod	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 31
-1	Остап	Остап	PROPN	noun:anim:m:v_naz:prop:fname	Animacy=Anim|Case=Nom|Gender=Masc	2	nsubj	_	_
-2	отримав	отримати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	по	по	ADP	prep:rv_mis	Case=Loc	4	case	_	_
-4	маківці	маківка	NOUN	noun:inanim:f:v_mis	Animacy=Inan|Case=Loc|Gender=Fem	2	nmod	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 32
-1	Їх	вони	PRON	noun:p:v_zna:&pron:pers:3	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	dobj	_	_
-2	навчають	навчати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	математики	математика	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	2	iobj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 33
-1	Їх	вони	PRON	noun:p:v_zna:&pron:pers:3	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	dobj	_	_
-2	навчають	навчати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	математики	математик	NOUN	noun:anim:p:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 34
-1	Навчають	навчати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	дітей	діти	NOUN	noun:anim:p:v_zna:ns	Animacy=Anim|Case=Acc|Number=Plur	1	dobj	_	_
-3	математики	математика	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	1	iobj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 35
-1	Навчають	навчати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	дітей	діти	NOUN	noun:anim:p:v_zna:ns	Animacy=Anim|Case=Acc|Number=Plur	1	dobj	_	_
-3	математики	математик	NOUN	noun:anim:p:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 36
-1	Навчають	навчати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	дітей	діти	NOUN	noun:anim:p:v_zna:ns	Animacy=Anim|Case=Acc|Number=Plur	1	dobj	_	_
-3	третього	третій	ADJ	adj:m:v_rod:&numr	Case=Gen|Gender=Masc|NumType=Ord	4	amod	_	_
-4	класу	клас	NOUN	noun:inanim:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc	2	nmod	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 37
-1	Запитаю	запитати	VERB	verb:perf:futr:s:1	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
-2	тебе	ти	PRON	noun:anim:s:v_zna:&pron:pers:2	Animacy=Anim|Case=Acc|Number=Sing|Person=2|PronType=Prs	1	dobj	_	_
-3	про	про	ADP	prep:rv_zna	Case=Acc	4	case	_	_
-4	дещо	дещо	PRON	noun:inanim:v_zna:&pron:ind	Animacy=Inan|Case=Acc|PronType=Ind	1	nmod	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 38
-1	Запитаю	запитати	VERB	verb:perf:futr:s:1	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
-2	тебе	ти	PRON	noun:anim:s:v_zna:&pron:pers:2	Animacy=Anim|Case=Acc|Number=Sing|Person=2|PronType=Prs	1	iobj	_	_
-3	дещо	дещо	PRON	noun:inanim:v_zna:&pron:ind	Animacy=Inan|Case=Acc|PronType=Ind	1	dobj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 39
-1	До	до	ADP	prep:rv_rod	Case=Gen	2	case	_	_
-2	них	вони	PRON	noun:p:v_rod:&pron:pers:3	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	nmod	_	_
-3	не	не	PART	part	_	4	neg	_	_
-4	дійшло	дійти	VERB	verb:perf:past:n	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 40
-1	Павло	Павло	PROPN	noun:anim:m:v_naz:prop:fname	Animacy=Anim|Case=Nom|Gender=Masc	2	nsubj	_	_
-2	дав	дати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	Петрові	Петро	PROPN	noun:anim:m:v_dav:prop:fname	Animacy=Anim|Case=Dat|Gender=Masc	2	iobj	_	_
-4	дві	два	NUM	numr:f:v_zna	Case=Acc|Gender=Fem|NumType=Card	5	nummod	_	_
-5	груші	груша	NOUN	noun:inanim:p:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	dobj	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 41
-1	Те	те	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	7	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	про	про	ADP	prep:rv_zna	Case=Acc	4	case	_	_
-4	що	що	PRON	noun:inanim:n:v_zna:&pron:rel	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Rel	5	nmod	_	_
-5	розповідалося	розповідатися	VERB	verb:rev:imperf:past:n	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	1	acl	_	SpaceAfter=No
-6	,	,	PUNCT	punct	_	1	punct	_	_
-7	має	мати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	сенс	сенс	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	7	dobj	_	SpaceAfter=No
-9	.	.	PUNCT	punct	_	7	punct	_	_
-
-# sent_id 42
-1	Ті	той	DET	adj:p:v_naz:&pron:dem	Case=Nom|Number=Plur|PronType=Dem	6	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	4	punct	_	_
-3	хто	хто	PRON	noun:anim:m:v_naz:&pron:rel	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Rel	4	nsubj	_	_
-4	запізнився	запізнитися	VERB	verb:rev:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	1	acl	_	SpaceAfter=No
-5	,	,	PUNCT	punct	_	4	punct	_	_
-6	мусять	мусити	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	чекати	чекати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	6	xcomp	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	6	punct	_	_
-
-# sent_id 43
-1	Ті	той	DET	adj:p:v_naz:&pron:dem	Case=Nom|Number=Plur|PronType=Dem	6	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	4	punct	_	_
-3	хто	хто	PRON	noun:anim:m:v_naz:&pron:rel	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Rel	4	nsubj	_	_
-4	запізнилися	запізнитися	VERB	verb:rev:perf:past:p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	1	acl	_	SpaceAfter=No
-5	,	,	PUNCT	punct	_	4	punct	_	_
-6	мусять	мусити	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	чекати	чекати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	6	xcomp	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	6	punct	_	_
-
-# sent_id 44
-1	Ті	той	DET	adj:p:v_naz:&pron:dem	Case=Nom|Number=Plur|PronType=Dem	6	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	4	punct	_	_
-3	що	що	SCONJ	conj:subord	_	4	mark	_	_
-4	запізнилися	запізнитися	VERB	verb:rev:perf:past:p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	1	acl	_	SpaceAfter=No
-5	,	,	PUNCT	punct	_	4	punct	_	_
-6	мусять	мусити	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	чекати	чекати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	6	xcomp	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	6	punct	_	_
-
-# sent_id 45
-1	Оскарженого	оскаржений	ADJ	adj:m:v_dav:&adjp:perf:pasv	Aspect=Perf|Case=Dat|Gender=Masc|VerbForm=Part|Voice=Pass	2	dobj	_	_
-2	гнітило	гнітити	VERB	verb:perf:past:n	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	що	що	SCONJ	conj:subord	_	7	mark	_	_
-5	він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	nsubj	_	_
-6	не	не	PART	part	_	7	neg	_	_
-7	має	мати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
-8	алібі	алібі	NOUN	noun:inanim:n:v_rod:nv	Animacy=Inan|Case=Gen|Gender=Neut	7	dobj	_	SpaceAfter=No
-9	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 46
-1	Розмовляти	розмовляти	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	5	csubj	_	_
-2	з	з	ADP	prep:rv_oru	Case=Ins	3	case	_	_
-3	незнайомими	незнайомий	ADJ	adj:p:v_oru	Case=Ins|Number=Plur	1	nmod	_	_
-4	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
-5	ризикованим	ризикований	ADJ	adj:n:v_oru:compb:&adjp:imperf:pasv	Aspect=Imp|Case=Ins|Degree=Pos|Gender=Neut|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	5	punct	_	_
-
-# sent_id 47
-1	Треба	треба	ADV	adv	_	0	root	_	_
-2	працювати	працювати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	1	xcomp	_	_
-3	над	над	ADP	prep:rv_oru	Case=Ins	5	case	_	_
-4	своїми	свій	DET	adj:p:v_oru:poss:&pron:refl	Case=Ins|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
-5	помилками	помилка	NOUN	noun:inanim:p:f:v_oru	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 48
-1	У	у	ADP	prep:rv_mis:v-u	Case=Loc	2	case	_	_
-2	нотатках	нотатка	NOUN	noun:inanim:p:f:v_mis	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	_
-3	можна	можна	ADV	adv	_	0	root	_	_
-4	зауважити	зауважити	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_
-5	прогрес	прогрес	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	4	dobj	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 49
-1	Те	те	PRON	noun:inanim:n:v_zna:&pron:dem	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Dem	8	nsubjpass	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	що	що	SCONJ	conj:subord	_	5	mark	_	_
-4	вона	вона	PRON	noun:f:v_naz:&pron:pers:3	Case=Nom|Gender=Fem|Person=3|PronType=Prs	5	nsubj	_	_
-5	обманювала	обманювати	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	1	acl	_	SpaceAfter=No
-6	,	,	PUNCT	punct	_	1	punct	_	_
-7	було	бути	VERB	verb:imperf:past:n	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	8	auxpass	_	_
-8	зауважене	зауважений	ADJ	adj:n:v_naz:&adjp:perf:pasv	Aspect=Perf|Case=Nom|Gender=Neut|VerbForm=Part|Voice=Pass	0	root	_	_
-9	багатьма	багато	NUM	numr:p:v_oru:&pron:ind	Case=Ins|Number=Plur|NumType=Card|PronType=Ind	8	iobj	_	SpaceAfter=No
-10	.	.	PUNCT	punct	_	8	punct	_	_
-
-# sent_id 50
-1	Те	те	PRON	noun:inanim:n:v_zna:&pron:dem	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Dem	8	nsubjpass	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	що	що	SCONJ	conj:subord	_	5	mark	_	_
-4	вона	вона	PRON	noun:f:v_naz:&pron:pers:3	Case=Nom|Gender=Fem|Person=3|PronType=Prs	5	nsubj	_	_
-5	обманювала	обманювати	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	1	acl	_	SpaceAfter=No
-6	,	,	PUNCT	punct	_	1	punct	_	_
-7	було	бути	VERB	verb:imperf:past:n	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	8	auxpass	_	_
-8	зауважено	зауважити	VERB	verb:perf:impers	Aspect=Perf|VerbForm=Imps	0	root	_	_
-9	багатьма	багато	NUM	numr:p:v_oru:&pron:ind	Case=Ins|Number=Plur|NumType=Card|PronType=Ind	8	iobj	_	SpaceAfter=No
-10	.	.	PUNCT	punct	_	8	punct	_	_
-
-# sent_id 51
-1	Сказано	сказати	VERB	verb:perf:impers	Aspect=Perf|VerbForm=Imps	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	що	що	SCONJ	conj:subord	_	6	mark	_	_
-4	віра	віра	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	6	nsubj	_	_
-5	нас	ми	PRON	noun:anim:p:v_zna:&pron:pers:1	Animacy=Anim|Case=Acc|Number=Plur|Person=1|PronType=Prs	6	dobj	_	_
-6	урятує	урятувати	VERB	verb:perf:futr:s:3:v-u	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	csubjpass	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 52
-1	Той	той	PRON	noun:inanim:m:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Masc|PronType=Dem	8	nsubjpass	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	4	punct	_	_
-3	що	що	SCONJ	conj:subord	_	4	mark	_	_
-4	шукає	шукати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
-5	досконалості	досконалість	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	4	dobj	_	SpaceAfter=No
-6	,	,	PUNCT	punct	_	4	punct	_	_
-7	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	приречений	приречений	ADJ	adj:m:v_naz:&adjp:perf:pasv	Aspect=Perf|Case=Nom|Gender=Masc|VerbForm=Part|Voice=Pass	0	root	_	_
-9	створити	створити	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	8	xcomp	_	_
-10	тільки	тільки	ADV	adv	_	11	discourse	_	_
-11	фрагменти	фрагмент	NOUN	noun:inanim:p:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	dobj	_	SpaceAfter=No
-12	.	.	PUNCT	punct	_	8	punct	_	_
-
-# sent_id 53
-1	Мені	я	PRON	noun:anim:s:v_dav:&pron:pers:1	Animacy=Anim|Case=Dat|Number=Sing|Person=1|PronType=Prs	3	dobj	_	_
-2	було	бути	VERB	verb:imperf:past:n	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
-3	наказано	наказати	VERB	verb:perf:impers	Aspect=Perf|VerbForm=Imps	0	root	_	_
-4	дуже	дуже	ADV	adv:compb	Degree=Pos	5	advmod	_	_
-5	серйозно	серйозно	ADV	adv:compb	Degree=Pos	7	advmod	_	_
-6	це	це	PRON	noun:inanim:n:v_zna:&pron:dem	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Dem	7	dobj	_	_
-7	розглянути	розглянути	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	3	csubjpass	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 54
-1	Не	не	PART	part	_	3	neg	_	_
-2	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	передбачене	передбачений	ADJ	adj:n:v_naz:&adjp:perf:pasv	Aspect=Perf|Case=Nom|Gender=Neut|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	punct	_	3	punct	_	_
-5	що	що	SCONJ	conj:subord	_	7	mark	_	_
-6	ви	ви	PRON	noun:anim:p:v_naz:&pron:pers:2	Animacy=Anim|Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
-7	прийдете	прийти	VERB	verb:perf:futr:p:2	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	3	csubjpass	_	_
-8	перед	перед	ADP	prep:rv_oru	Case=Ins	9	case	_	_
-9	дев’ятою	дев’ятий	ADJ	adj:f:v_oru:&numr	Case=Ins|Gender=Fem|NumType=Ord	7	nmod	_	SpaceAfter=No
-10	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 55
-1	Не	не	PART	part	_	3	neg	_	_
-2	було	бути	VERB	verb:imperf:past:n	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
-3	з’ясовано	з’ясувати	VERB	verb:perf:impers	Aspect=Perf|VerbForm=Imps	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	punct	_	3	punct	_	_
-5	для	для	ADP	prep:rv_rod	Case=Gen	6	case	_	_
-6	чого	що	PRON	noun:inanim:n:v_rod:&pron:rel	Animacy=Inan|Case=Gen|Gender=Neut|PronType=Rel	8	nmod	_	_
-7	ще	ще	ADV	adv	_	8	discourse	_	_
-8	передбачено	передбачити	VERB	verb:perf:impers	Aspect=Perf|VerbForm=Imps	3	ccomp	_	_
-9	використання	використання	NOUN	noun:inanim:n:v_zna	Animacy=Inan|Case=Acc|Gender=Neut	8	dobj	_	_
-10	цих	цей	DET	adj:p:v_rod:&pron:dem	Case=Gen|Number=Plur|PronType=Dem	11	det	_	_
-11	матеріалів	матеріал	NOUN	noun:inanim:p:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	dobj	_	SpaceAfter=No
-12	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 56
-1	Він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	nsubj	_	_
-2	каже	казати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	що	що	SCONJ	conj:subord	_	6	mark	_	_
-5	ти	ти	PRON	noun:anim:s:v_naz:&pron:pers:2	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
-6	любиш	любити	VERB	verb:imperf:pres:s:2	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
-7	плавати	плавати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	6	xcomp	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 57
-1	Каже	казати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	непогано	непогано	ADV	adv	_	4	advmod	_	_
-4	плаває	плавати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 58
-1	Каже	казати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	що	що	SCONJ	conj:subord	_	5	mark	_	_
-4	непогано	непогано	ADV	adv	_	5	advmod	_	_
-5	плаває	плавати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 59
-1	Кажуть	казати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	що	що	SCONJ	conj:subord	_	5	mark	_	_
-4	непогано	непогано	ADV	adv	_	5	advmod	_	_
-5	плавають	плавати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 60
-1	Кажуть	казати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	непогано	непогано	ADV	adv	_	4	advmod	_	_
-4	плавають	плавати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 61
-1	Дехто	дехто	PRON	noun:anim:v_naz:&pron:ind	Animacy=Anim|Case=Nom|PronType=Ind	2	nsubj	_	_
-2	каже	казати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	непогано	непогано	ADV	adv	_	5	advmod	_	_
-5	плаває	плавати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 62
-1	Дехто	дехто	PRON	noun:anim:v_naz:&pron:ind	Animacy=Anim|Case=Nom|PronType=Ind	2	nsubj	_	_
-2	каже	казати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	що	що	SCONJ	conj:subord	_	6	mark	_	_
-5	непогано	непогано	ADV	adv	_	6	advmod	_	_
-6	плаває	плавати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 63
-1	Кажуть	казати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	nsubj	_	_
-4	непогано	непогано	ADV	adv	_	5	advmod	_	_
-5	плаває	плавати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 64
-1	Кажуть	казати	VERB	verb:imperf:pres:p:3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	що	що	SCONJ	conj:subord	_	6	mark	_	_
-4	він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	nsubj	_	_
-5	непогано	непогано	ADV	adv	_	6	advmod	_	_
-6	плаває	плавати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 65
-1	Дехто	дехто	PRON	noun:anim:v_naz:&pron:ind	Animacy=Anim|Case=Nom|PronType=Ind	2	nsubj	_	_
-2	каже	казати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	nsubj	_	_
-5	непогано	непогано	ADV	adv	_	6	advmod	_	_
-6	плаває	плавати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 66
-1	Дехто	дехто	PRON	noun:anim:v_naz:&pron:ind	Animacy=Anim|Case=Nom|PronType=Ind	2	nsubj	_	_
-2	каже	казати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	що	що	SCONJ	conj:subord	_	7	mark	_	_
-5	він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	nsubj	_	_
-6	непогано	непогано	ADV	adv	_	7	advmod	_	_
-7	плаває	плавати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 67
-1	Важко	важко	ADV	adv:compb	Degree=Pos	0	root	_	_
-2	примусити	примусити	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	1	csubj	_	_
-3	її	вона	PRON	noun:f:v_zna:&pron:pers:3	Case=Acc|Gender=Fem|Person=3|PronType=Prs	2	dobj	_	_
-4	зізнатися	зізнатися	VERB	verb:rev:perf:inf	Aspect=Perf|VerbForm=Inf	2	xcomp	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 68
-1	Мені	я	PRON	noun:anim:s:v_dav:&pron:pers:1	Animacy=Anim|Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
-2	важливо	важливо	ADV	adv:compb	Degree=Pos	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	щоб	щоб	PART	part	_	6	mark	_	_
-5	був	бути	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	6	auxpass	_	_
-6	збережений	збережений	ADJ	adj:m:v_naz:&adjp:perf:pasv	Aspect=Perf|Case=Nom|Gender=Masc|VerbForm=Part|Voice=Pass	2	ccomp	_	_
-7	спокій	спокій	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	6	nsubjpass	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 69
-1	Всім	все	PRON	noun:inanim:n:v_dav:&pron:gen:v-u	Animacy=Inan|Case=Dat|Gender=Neut|PronType=Tot	2	iobj	_	_
-2	важливо	важливо	ADV	adv:compb	Degree=Pos	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	щоб	щоб	SCONJ	conj:subord	_	6	mark	_	_
-5	нами	ми	PRON	noun:anim:p:v_oru:&pron:pers:1	Animacy=Anim|Case=Ins|Number=Plur|Person=1|PronType=Prs	6	iobj	_	_
-6	зберігався	зберігатися	VERB	verb:rev:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
-7	спокій	спокій	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	6	nsubj	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 70
-1	Важливим	важливий	ADJ	adj:n:v_oru:compb	Case=Ins|Degree=Pos|Gender=Neut	0	root	_	_
-2	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	1	punct	_	_
-4	щоб	щоб	SCONJ	conj:subord	_	6	mark	_	_
-5	ми	ми	PRON	noun:anim:p:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
-6	зберігали	зберігати	VERB	verb:imperf:past:p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	1	csubj	_	_
-7	спокій	спокій	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	6	dobj	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 71
-1	Начальник	начальник	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	2	nsubj	_	_
-2	сказав	сказати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	щоб	щоб	SCONJ	conj:subord	_	6	mark	_	_
-5	вони	вони	PRON	noun:p:v_naz:&pron:pers:3	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
-6	починали	починати	VERB	verb:imperf:past:p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	2	ccomp	_	_
-7	копати	копати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	6	xcomp	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 72
-1	Проблема	проблема	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	3	nsubj	_	_
-2	у	у	ADP	prep:rv_mis:v-u	Case=Loc	3	case	_	_
-3	тому	те	PRON	noun:inanim:n:v_mis:&pron:dem	Animacy=Inan|Case=Loc|Gender=Neut|PronType=Dem	0	root	_	SpaceAfter=No
-4	,	,	PUNCT	punct	_	3	punct	_	_
-5	що	що	SCONJ	conj:subord	_	10	mark	_	_
-6	цього	це	PRON	noun:inanim:n:v_rod:&pron:dem	Animacy=Inan|Case=Gen|Gender=Neut|PronType=Dem	10	dobj	_	_
-7	ніхто	ніхто	PRON	noun:anim:v_naz:&pron:neg	Animacy=Anim|Case=Nom|PronType=Neg	10	nsubj	_	_
-8	навіть	навіть	PART	part	_	9	mark	_	_
-9	не	не	PART	part	_	10	neg	_	_
-10	пробував	пробувати	VERB	verb:imperf:past:m:xp1	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
-11	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 73
-1	Сподіваємося	сподіватися	VERB	verb:rev:imperf:pres:p:1	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	що	що	SCONJ	conj:subord	_	5	mark	_	_
-4	вони	вони	PRON	noun:p:v_naz:&pron:pers:3	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
-5	змінять	змінити	VERB	verb:perf:futr:p:3	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
-6	свою	свій	DET	adj:f:v_zna:poss:&pron:refl	Case=Acc|Gender=Fem|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
-7	думку	думка	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	5	dobj	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 74
-1	Він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	nsubj	_	_
-2	каже	казати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	що	що	SCONJ	conj:subord	_	6	mark	_	_
-5	ти	ти	PRON	noun:anim:s:v_naz:&pron:pers:2	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
-6	любиш	любити	VERB	verb:imperf:pres:s:2	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
-7	плавати	плавати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	6	xcomp	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 75
-1	Важко	важко	ADV	adv:compb	Degree=Pos	0	root	_	_
-2	примусити	примусити	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	1	csubj	_	_
-3	зізнатися	зізнатися	VERB	verb:rev:perf:inf	Aspect=Perf|VerbForm=Inf	2	xcomp	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 76
-1	Важливим	важливий	ADJ	adj:n:v_oru:compb	Case=Ins|Degree=Pos|Gender=Neut	0	root	_	_
-2	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	1	punct	_	_
-4	щоб	щоб	SCONJ	conj:subord	_	5	mark	_	_
-5	зберігався	зберігатися	VERB	verb:rev:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	1	csubj	_	_
-6	спокій	спокій	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	5	nsubj	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 77
-1	Важливо	важливо	ADV	adv:compb	Degree=Pos	0	root	_	_
-2	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-3	зберігати	зберігати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	1	csubj	_	_
-4	спокій	спокій	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	3	dobj	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 78
-1	Важливо	важливо	ADV	adv:compb	Degree=Pos	0	root	_	_
-2	зберігати	зберігати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	1	csubj	_	_
-3	спокій	спокій	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	2	dobj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 79
-1	Мені	я	PRON	noun:anim:s:v_dav:&pron:pers:1	Animacy=Anim|Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
-2	важливо	важливо	ADV	adv:compb	Degree=Pos	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	щоб	щоб	SCONJ	conj:subord	_	5	mark	_	_
-5	зберігати	зберігати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	2	csubj	_	_
-6	спокій	спокій	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	5	dobj	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 80
-1	Важливо	важливо	ADV	adv:compb	Degree=Pos	0	root	_	_
-2	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	1	punct	_	_
-4	щоб	щоб	SCONJ	conj:subord	_	5	mark	_	_
-5	зберігати	зберігати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	1	xcomp	_	_
-6	спокій	спокій	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	5	dobj	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 81
-1	Важливим	важливий	ADJ	adj:n:v_oru:compb	Case=Ins|Degree=Pos|Gender=Neut	0	root	_	_
-2	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-3	зберігати	зберігати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	1	xcomp	_	_
-4	спокій	спокій	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	3	dobj	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 82
-1	Важливим	важливий	ADJ	adj:n:v_oru:compb	Case=Ins|Degree=Pos|Gender=Neut	0	root	_	_
-2	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	1	punct	_	_
-4	щоб	щоб	SCONJ	conj:subord	_	5	mark	_	_
-5	зберігати	зберігати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	1	csubj	_	_
-6	спокій	спокій	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	5	dobj	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 83
-1	Важливим	важливий	ADJ	adj:n:v_oru:compb	Case=Ins|Degree=Pos|Gender=Neut	0	root	_	_
-2	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
-3	збереження	збереження	NOUN	noun:inanim:n:v_naz	Animacy=Inan|Case=Nom|Gender=Neut	1	nsubj	_	_
-4	спокою	спокій	NOUN	noun:inanim:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc	3	nmod	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 84
-1	Вважаю	вважати	VERB	verb:imperf:pres:s:1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	його	він	PRON	noun:m:v_zna:&pron:pers:3	Case=Acc|Gender=Masc|Person=3|PronType=Prs	1	dobj	_	_
-3	чесним	чесний	ADJ	adj:m:v_oru:compb	Case=Ins|Degree=Pos|Gender=Masc	1	xcomp	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 85
-1	Вважаю	вважати	VERB	verb:imperf:pres:s:1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	його	він	PRON	noun:m:v_zna:&pron:pers:3	Case=Acc|Gender=Masc|Person=3|PronType=Prs	1	dobj	_	_
-3	дурнем	дурень	NOUN	noun:anim:m:v_oru	Animacy=Anim|Case=Ins|Gender=Masc	1	xcomp	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 86
-1	Він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	nsubj	_	_
-2	попросив	попросити	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	Ігоря	Ігор	PROPN	noun:anim:m:v_zna:prop:fname	Animacy=Anim|Case=Acc|Gender=Masc	2	iobj	_	_
-4	відповісти	відповісти	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	2	ccomp	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 87
-1	Начальник	начальник	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	2	nsubj	_	_
-2	сказав	сказати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	почати	почати	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	2	ccomp	_	_
-4	копати	копати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	3	xcomp	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 88
-1	Начальник	начальник	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	2	nsubj	_	_
-2	сказав	сказати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	щоб	щоб	SCONJ	conj:subord	_	5	mark	_	_
-5	почати	почати	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	2	ccomp	_	_
-6	копати	копати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	5	xcomp	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 89
-1	Начальник	начальник	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	2	nsubj	_	_
-2	сказав	сказати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	щоб	щоб	SCONJ	conj:subord	_	5	mark	_	_
-5	починали	починати	VERB	verb:imperf:past:p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	2	ccomp	_	_
-6	копати	копати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	5	xcomp	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 90
-1	Нарешті	нарешті	ADV	adv	_	2	advmod	_	_
-2	перестала	перестати	VERB	verb:perf:past:f	Aspect=Perf|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	кричати	кричати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	2	xcomp	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 91
-1	На	на	ADP	prep:rv_zna	Case=Acc	2	case	_	_
-2	бажання	бажання	NOUN	noun:inanim:n:v_zna	Animacy=Inan|Case=Acc|Gender=Neut	3	nmod	_	_
-3	може	могти	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	бути	бути	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	5	auxpass	_	_
-5	висланий	висланий	ADJ	adj:m:v_naz:&adjp:perf:pasv	Aspect=Perf|Case=Nom|Gender=Masc|VerbForm=Part|Voice=Pass	3	xcomp	_	_
-6	список	список	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	2	nsubjpass	_	_
-7	слів	слово	NOUN	noun:inanim:p:n:v_rod	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 92
-1	Сподіваємося	сподіватися	VERB	verb:rev:imperf:pres:p:1	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	щодо	щодо	ADP	prep:rv_rod	Case=Gen	3	case	_	_
-3	них	вони	PRON	noun:p:v_rod:&pron:pers:3	Case=Gen|Number=Plur|Person=3|PronType=Prs	1	nmod	_	SpaceAfter=No
-4	,	,	PUNCT	punct	_	1	punct	_	_
-5	що	що	SCONJ	conj:subord	_	6	mark	_	_
-6	змінять	змінити	VERB	verb:perf:futr:p:3	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
-7	свою	свій	DET	adj:f:v_zna:poss:&pron:refl	Case=Acc|Gender=Fem|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
-8	думку	думка	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	6	dobj	_	SpaceAfter=No
-9	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 93
-1	Я	я	PRON	noun:anim:s:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-2	полюбляла	полюбляти	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	з	з	ADP	prep:rv_oru	Case=Ins	4	case	_	_
-4	ним	він	PRON	noun:m:v_oru:&pron:pers:3	Case=Ins|Gender=Masc|Person=3|PronType=Prs	5	nmod	_	_
-5	розмовляти	розмовляти	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	2	xcomp	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 94
-1	Я	я	PRON	noun:anim:s:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
-2	полюбляла	полюбляти	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	розмовляти	розмовляти	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	2	xcomp	_	_
-4	з	з	ADP	prep:rv_oru	Case=Ins	5	case	_	_
-5	ним	він	PRON	noun:m:v_oru:&pron:pers:3	Case=Ins|Gender=Masc|Person=3|PronType=Prs	3	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 95
-1	Назначили	назначити	VERB	verb:perf:past:p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
-2	його	він	PRON	noun:m:v_zna:&pron:pers:3	Case=Acc|Gender=Masc|Person=3|PronType=Prs	1	dobj	_	_
-3	генералом	генерал	NOUN	noun:anim:m:v_oru	Animacy=Anim|Case=Ins|Gender=Masc	1	xcomp	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 96
-1	Пишу	писати	VERB	verb:imperf:pres:s:1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	тому	тому	ADV	adv:xp2:&pron:dem	PronType=Dem	5	mark	_	_
-4	що	що	SCONJ	conj:subord	_	3	compound	_	_
-5	обіцяла	обіцяти	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 97
-1	Почала	почати	VERB	verb:perf:past:f	Aspect=Perf|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	працювати	працювати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	1	xcomp	_	_
-3	вчора	вчора	ADV	adv:v-u	_	1	advmod	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 98
-1	Петрусь	Петрусь	PROPN	noun:anim:m:v_naz:prop:lname	Animacy=Anim|Case=Nom|Gender=Masc	2	nsubj	_	_
-2	заробив	заробити	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	200	200	NUM	numr	NumType=Card	4	nummod:gov	_	_
-4	гривень	гривня	NOUN	noun:inanim:p:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	dobj	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 99
-1	З’їв	з’їсти	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	три	три	NUM	numr:p:v_zna	Case=Acc|Number=Plur|NumType=Card	3	nummod:gov	_	_
-3	яблука	яблуко	NOUN	noun:inanim:p:n:v_zna	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	1	dobj	_	_
-4	і	і	CONJ	conj:coord	_	3	cc	_	_
-5	дві	два	NUM	numr:f:v_zna	Case=Acc|Gender=Fem|NumType=Card	6	nummod	_	_
-6	груші	груша	NOUN	noun:inanim:p:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 100
-1	Втрачено	втратити	VERB	verb:perf:impers:v-u	Aspect=Perf|VerbForm=Imps	0	root	_	_
-2	багато	багато	ADV	adv:compb	Case=Acc|Number=Plur|NumType=Card|PronType=Ind	3	det:numgov	_	_
-3	часу	час	NOUN	noun:inanim:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc	1	dobj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 101
-1	Надворі	надворі	ADV	adv	_	3	advmod	_	_
-2	8	8	NUM	numr	NumType=Card	3	nummod:gov	_	_
-3	градусів	градус	NOUN	noun:inanim:p:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
-4	за	за	ADP	prep:rv_oru	Case=Ins	5	case	_	_
-5	цельсієм	Цельсій	NOUN	noun:anim:m:v_oru:auto	Animacy=Anim|Case=Ins|Gender=Masc	3	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 102
-1	Надворі	надворі	ADV	adv	_	2	advmod	_	_
-2	8	8	NUM	numr	NumType=Card	0	root	_	_
-3	С	С	SYM	sym	_	2	nmod	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 103
-1	Бензин	бензин	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	2	nsubj	_	_
-2	подешевшав	подешевшати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	на	на	ADP	prep:rv_zna	Case=Acc	5	case	_	_
-4	півтора	півтора	NUM	numr:m:v_zna:nv	Case=Acc|Gender=Masc|NumType=Card	5	nummod:gov	_	_
-5	злотих	злотий	ADJ	adj:p:v_rod	Case=Gen|Number=Plur	2	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 104
-1	Нас	ми	PRON	noun:anim:p:v_rod:&pron:pers:1	Animacy=Anim|Case=Gen|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
-2	четверо	четверо	NUM	numr:p:v_naz	Case=Nom|Number=Plur|NumType=Card	1	nummod:gov	_	_
-3	—	—	PUNCT	punct	_	5	punct	_	_
-4	чудова	чудовий	ADJ	adj:f:v_naz:compb	Case=Nom|Degree=Pos|Gender=Fem	5	amod	_	_
-5	команда	команда	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 105
-1	Один	один	NUM	numr:m:v_naz	Case=Nom|Gender=Masc|NumType=Card	2	nummod	_	_
-2	чоловік	чоловік	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	3	nsubj	_	_
-3	прийшов	прийти	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	раніше	раніше	ADV	adv:compr	Degree=Cmp	3	advmod	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 106
-1	П’ять	п’ять	NUM	numr:p:v_naz	Case=Nom|Number=Plur|NumType=Card	2	nummod:gov	_	_
-2	хлопців	хлопець	NOUN	noun:anim:p:m:v_rod	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	_
-3	грало	грати	VERB	verb:imperf:past:n	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	у	у	ADP	prep:rv_zna:v-u	Case=Acc	5	case	_	_
-5	копанку	копанка	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	3	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 107
-1	П’ять	п’ять	NUM	numr:p:v_naz	Case=Nom|Number=Plur|NumType=Card	2	nummod:gov	_	_
-2	хлопців	хлопець	NOUN	noun:anim:p:m:v_rod	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	_
-3	грали	грати	VERB	verb:imperf:past:p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
-4	у	у	ADP	prep:rv_zna:v-u	Case=Acc	5	case	_	_
-5	копанку	копанка	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	3	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 108
-1	Сімом	сім	NUM	numr:p:v_dav	Case=Dat|Number=Plur|NumType=Card	3	nummod	_	_
-2	з	з	ADP	prep:rv_rod	Case=Gen	3	case	_	_
-3	них	вони	PRON	noun:p:v_rod:&pron:pers:3	Case=Gen|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
-4	довелося	довестися	VERB	verb:rev:perf:past:n	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-5	піти	піти	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	4	xcomp	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 109
-1	Грав	грати	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	у	у	ADP	prep:rv_zna:v-u	Case=Acc	3	case	_	_
-3	карти	карта	NOUN	noun:inanim:p:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	nmod	_	_
-4	з	з	ADP	prep:rv_oru	Case=Ins	6	case	_	_
-5	чотирма	четверо	NUM	numr:p:v_oru	Case=Ins|Number=Plur|NumType=Card	6	nummod	_	_
-6	іншими	інший	DET	adj:p:v_oru:&pron:ind	Case=Ins|Number=Plur|PronType=Ind	1	nmod	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 110
-1	Майже	майже	ADV	adv	_	2	advmod	_	_
-2	50	50	NUM	numr	NumType=Card	4	nummod:gov	_	_
-3	мільйонів	мільйон	NUM	numr	NumType=Card	2	compound	_	_
-4	доларів	долар	NOUN	noun:inanim:p:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	dobj	_	SpaceAfter=No
-5	зароблено	заробити	VERB	verb:perf:impers:v-u	Aspect=Perf|VerbForm=Imps	0	root	_	_
-6	.	.	PUNCT	punct	_	5	punct	_	_
-
-# sent_id 111
-1	Принаймні	принаймні	ADV	adv	_	2	advmod	_	_
-2	50	50	NUM	numr	NumType=Card	4	nummod:gov	_	_
-3	мільйонів	мільйон	NUM	numr	NumType=Card	2	compound	_	_
-4	доларів	долар	NOUN	noun:inanim:p:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	dobj	_	SpaceAfter=No
-5	зароблено	заробити	VERB	verb:perf:impers:v-u	Aspect=Perf|VerbForm=Imps	0	root	_	_
-6	.	.	PUNCT	punct	_	5	punct	_	_
-
-# sent_id 112
-1	Не	не	PART	part	_	2	neg	_	_
-2	цілих	цілий	ADJ	adj:p:v_rod	Case=Gen|Number=Plur	3	amod	_	_
-3	50	50	NUM	numr	NumType=Card	5	nummod:gov	_	_
-4	мільйонів	мільйон	NUM	numr	NumType=Card	3	compound	_	_
-5	доларів	долар	NOUN	noun:inanim:p:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	dobj	_	SpaceAfter=No
-6	зароблено	заробити	VERB	verb:perf:impers:v-u	Aspect=Perf|VerbForm=Imps	0	root	_	_
-7	.	.	PUNCT	punct	_	6	punct	_	_
-
-# sent_id 113
-1	Не	не	PART	part	_	2	neg	_	_
-2	цілі	цілий	ADJ	adj:p:v_naz	Case=Nom|Number=Plur	3	amod	_	_
-3	50	50	NUM	numr	NumType=Card	5	nummod:gov	_	_
-4	мільйонів	мільйон	NUM	numr	NumType=Card	3	compound	_	_
-5	доларів	долар	NOUN	noun:inanim:p:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	dobj	_	SpaceAfter=No
-6	зароблено	заробити	VERB	verb:perf:impers:v-u	Aspect=Perf|VerbForm=Imps	0	root	_	_
-7	.	.	PUNCT	punct	_	6	punct	_	_
-
-# sent_id 114
-1	5	5	NUM	numr	NumType=Card	2	nummod:gov	_	_
-2	хвилин	хвилина	NOUN	noun:inanim:p:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	враховуючи	враховуючи	VERB	advp:imperf:v-u:pres	Aspect=Imp|Tense=Pres|VerbForm=Part	2	ccomp	_	_
-5	поправки	поправка	NOUN	noun:inanim:p:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	dobj	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 117
-1	Сьогодні	сьогодні	ADV	adv	_	3	advmod	_	_
-2	14	14	NUM	numr	NumType=Card	3	nummod	_	_
-3	лютого	лютий	ADJ	adj:m:v_rod:compb	Case=Gen|Degree=Pos|Gender=Masc	0	root	_	_
-4	—	—	PUNCT	punct	_	3	punct	_	_
-5	день	день	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	3	appos	_	_
-6	святого	святий	ADJ	adj:m:v_rod:compb	Case=Gen|Degree=Pos|Gender=Masc	7	amod	_	_
-7	Валентина	Валентин	PROPN	noun:anim:m:v_rod:prop:fname	Animacy=Anim|Case=Gen|Gender=Masc	5	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 123
-1	Номер	номер	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	0	root	_	_
-2	3	3	NUM	numr	NumType=Card	1	nummod	_	SpaceAfter=No
-3	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 124
-1	Випав	випасти	VERB	verb:perf:past:m:xp2	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	номер	номер	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	1	nsubj	_	_
-3	3	3	NUM	numr	NumType=Card	2	nummod	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 125
-1	Модель	модель	NOUN	noun:inanim:f:v_naz:xp2	Animacy=Inan|Case=Nom|Gender=Fem	0	root	_	_
-2	27А15676-С	27А15676	SYM	sym	_	1	name	_	SpaceAfter=No
-3	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 128
-1	Ростислав	Ростислав	PROPN	noun:anim:m:v_naz:prop:fname	Animacy=Anim|Case=Nom|Gender=Masc	9	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	4	punct	_	_
-3	мій	мій	DET	adj:m:v_naz:poss:&pron:pers:1	Case=Nom|Gender=Masc|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
-4	брат	брат	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	1	appos	_	_
-5	і	і	CONJ	conj:coord	_	4	cc	_	_
-6	племінник	племінник	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	4	conj	_	_
-7	Олени	Олена	PROPN	noun:anim:f:v_rod:prop:fname:xp1	Animacy=Anim|Case=Gen|Gender=Fem	6	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	punct	_	4	punct	_	_
-9	приїхав	приїхати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-10	у	у	ADP	prep:rv_zna:v-u	Case=Acc	11	case	_	_
-11	гості	гість	NOUN	noun:anim:p:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
-12	.	.	PUNCT	punct	_	9	punct	_	_
-
-# sent_id 129
-1	Місько	Місько	PROPN	noun:anim:m:v_naz:prop:fname	Animacy=Anim|Case=Nom|Gender=Masc	7	nsubj	_	_
-2	(	(	PUNCT	punct	_	3	punct	_	SpaceAfter=No
-3	брат	брат	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	1	appos	_	_
-4	Богдана	Богдан	PROPN	noun:inanim:m:v_rod:prop:xp2	Animacy=Inan|Case=Gen|Gender=Masc	3	nmod	_	SpaceAfter=No
-5	)	)	PUNCT	punct	_	3	punct	_	_
-6	теж	теж	ADV	adv	_	7	advmod	_	_
-7	був	бути	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	7	punct	_	_
-
-# sent_id 130
-1	Драма	драма	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	0	root	_	_
-2	«	«	PUNCT	punct	_	3	punct	_	SpaceAfter=No
-3	Бояриня	бояриня	NOUN	noun:anim:f:v_naz	Animacy=Anim|Case=Nom|Gender=Fem	1	appos	_	SpaceAfter=No
-4	»	»	PUNCT	punct	_	3	punct	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 131
-1	Цикл	цикл	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	0	root	_	_
-2	поезій	поезія	NOUN	noun:inanim:p:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
-3	«	«	PUNCT	punct	_	5	punct	_	SpaceAfter=No
-4	Сім	сім	NUM	numr:p:v_naz	Case=Nom|Number=Plur|NumType=Card	5	nummod:gov	_	_
-5	струн	струна	NOUN	noun:inanim:p:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	appos	_	SpaceAfter=No
-6	»	»	PUNCT	punct	_	5	punct	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 132
-1	Організація	організація	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	0	root	_	_
-2	Об’єднаних	об’єднаний	ADJ	adj:p:v_rod:&adjp:perf:pasv	Aspect=Perf|Case=Gen|Number=Plur|VerbForm=Part|Voice=Pass	3	amod	_	_
-3	Націй	нація	NOUN	noun:inanim:p:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
-4	(	(	PUNCT	punct	_	5	punct	_	SpaceAfter=No
-5	ООН	ООН	NOUN	noun:inanim:f:v_naz:nv:np:abbr	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Fem	1	appos	_	SpaceAfter=No
-6	)	)	PUNCT	punct	_	5	punct	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 133
-1	Ярослав	Ярослав	PROPN	noun:inanim:m:v_naz:prop:xp2	Animacy=Inan|Case=Nom|Gender=Masc	0	root	_	_
-2	Шевченко	Шевченко	PROPN	noun:anim:f:v_naz:nv:np:prop:lname	Animacy=Anim|Case=Nom|Gender=Fem	1	name	_	_
-3	телефон	телефон	NOUN	noun:inanim:m:v_naz:xp1	Animacy=Inan|Case=Nom|Gender=Masc	1	list	_	SpaceAfter=No
-4	:	:	PUNCT	punct	_	3	punct	_	_
-5	890-365-345	890-365-345	SYM	sym	_	3	appos	_	SpaceAfter=No
-6	,	,	PUNCT	punct	_	3	punct	_	_
-7	ел	ел.	ADJ	adj:f:v_naz:nv:abbr	Abbr=Yes|Case=Nom|Gender=Fem	9	amod	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	7	punct	_	_
-9	пошта	пошта	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	1	list	_	SpaceAfter=No
-10	:	:	PUNCT	punct	_	9	punct	_	_
-11	jarko@gmail.com	jarko@gmail.com	SYM	sym	_	9	appos	_	SpaceAfter=No
-12	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 134
-1	Так	так	INTJ	intj	_	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	3	punct	_	_
-3	лікарю	лікар	NOUN	noun:anim:m:v_kly	Animacy=Anim|Case=Voc|Gender=Masc	1	vocative	_	SpaceAfter=No
-4	,	,	PUNCT	punct	_	3	punct	_	_
-5	саме	саме	PART	part	_	6	mark	_	_
-6	цієї	цей	DET	adj:f:v_rod:&pron:dem	Case=Gen|Gender=Fem|PronType=Dem	7	det	_	_
-7	ночі	ніч	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	1	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 135
-1	Першим	перший	ADJ	adj:m:v_oru:compb:&numr	Case=Ins|Degree=Pos|Gender=Masc|NumType=Ord	0	root	_	_
-2	був	бути	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	1	cop	_	_
-3	Олександр	Олександр	PROPN	noun:anim:m:v_naz:prop:fname	Animacy=Anim|Case=Nom|Gender=Masc	2	nsubj	_	_
-4	Гнатюк	Гнатюк	PROPN	noun:anim:m:v_naz:prop:lname	Animacy=Anim|Case=Nom|Gender=Masc	3	name	_	_
-5	(	(	PUNCT	punct	_	6	punct	_	SpaceAfter=No
-6	Укр	Укр.	NOUN	noun:inanim:f:v_naz:nv:np:abbr	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Fem	3	appos	_	SpaceAfter=No
-7	)	)	PUNCT	punct	_	6	punct	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 136
-1	Ця	цей	DET	adj:f:v_naz:&pron:dem	Case=Nom|Gender=Fem|PronType=Dem	6	nsubj	_	_
-2	[	[	PUNCT	punct	_	4	punct	_	SpaceAfter=No
-3	письменницька	письменницький	ADJ	adj:f:v_naz	Case=Nom|Gender=Fem	4	amod	_	_
-4	слава	слава	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	1	appos	_	SpaceAfter=No
-5	]	]	PUNCT	punct	_	4	punct	_	_
-6	здавалася	здаватися	VERB	verb:rev:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-7	тоді	тоді	ADV	adv:&pron:dem	PronType=Dem	6	advmod	_	_
-8	йому	він	PRON	noun:m:v_dav:&pron:pers:3	Case=Dat|Gender=Masc|Person=3|PronType=Prs	6	dobj	_	_
-9	недоступною	недоступний	ADJ	adj:f:v_oru	Case=Ins|Gender=Fem	6	xcomp	_	SpaceAfter=No
-10	.	.	PUNCT	punct	_	6	punct	_	_
-
-# sent_id 137
-1	Коли	коли	ADV	adv:&pron:rel	PronType=Rel	3	mark	_	_
-2	вони	вони	PRON	noun:p:v_naz:&pron:pers:3	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-3	доїхали	доїхати	VERB	verb:perf:past:p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	20	advcl	_	_
-4	до	до	ADP	prep:rv_rod	Case=Gen	5	case	_	_
-5	траси	траса	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	3	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	punct	_	3	punct	_	_
-7	мати	мати	NOUN	noun:anim:f:v_naz	Animacy=Anim|Case=Nom|Gender=Fem	20	nsubj	_	_
-8	—	—	PUNCT	punct	_	12	punct	_	_
-9	втомлена	втомлений	ADJ	adj:f:v_naz:&adjp:perf:pasv:v-u	Aspect=Perf|Case=Nom|Gender=Fem|VerbForm=Part|Voice=Pass	12	amod	_	_
-10	від	від	ADP	prep:rv_rod	Case=Gen	11	case	_	_
-11	тягарів	тягар	NOUN	noun:inanim:p:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
-12	жінка	жінка	NOUN	noun:anim:f:v_naz	Animacy=Anim|Case=Nom|Gender=Fem	7	appos	_	_
-13	з	з	ADP	prep:rv_oru	Case=Ins	15	case	_	_
-14	пожовтілим	пожовтілий	ADJ	adj:n:v_oru:&adjp:perf:actv	Aspect=Perf|Case=Ins|Gender=Neut|VerbForm=Part|Voice=Act	15	amod	_	_
-15	обличчям	обличчя	NOUN	noun:inanim:n:v_oru	Animacy=Inan|Case=Ins|Gender=Neut	12	nmod	_	_
-16	—	—	PUNCT	punct	_	12	punct	_	_
-17	все	все	ADV	adv	_	20	advmod	_	_
-18	ще	ще	ADV	adv	_	17	mwe	_	_
-19	здалеку	здалеку	ADV	adv	_	20	advmod	_	_
-20	виглядала	виглядати	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-21	свого	свій	DET	adj:m:v_zna:ranim:poss:&pron:refl	Case=Acc|Gender=Masc|Poss=Yes|PronType=Prs|Reflex=Yes	22	det	_	_
-22	чоловіка	чоловік	NOUN	noun:anim:m:v_zna	Animacy=Anim|Case=Acc|Gender=Masc	20	dobj	_	SpaceAfter=No
-23	.	.	PUNCT	punct	_	20	punct	_	_
-
-# sent_id 138
-1	Фото	фото	NOUN	noun:inanim:n:v_naz:nv	Animacy=Inan|Case=Nom|Gender=Neut	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	punct	_	1	punct	_	_
-3	Іван	Іван	PROPN	noun:anim:m:v_naz:prop:fname	Animacy=Anim|Case=Nom|Gender=Masc	1	appos	_	_
-4	Марчук	Марчук	PROPN	noun:anim:m:v_naz:prop:lname	Animacy=Anim|Case=Nom|Gender=Masc	3	name	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 139
-1	Його	він	PRON	noun:m:v_zna:&pron:pers:3	Case=Acc|Gender=Masc|Person=3|PronType=Prs	7	dobj	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	3	punct	_	_
-3	батька	батько	NOUN	noun:anim:m:v_zna	Animacy=Anim|Case=Acc|Gender=Masc	1	appos	_	SpaceAfter=No
-4	,	,	PUNCT	punct	_	3	punct	_	_
-5	я	я	PRON	noun:anim:s:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
-6	ще	ще	PART	part	_	7	mark	_	_
-7	бачив	бачити	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	punct	_	7	punct	_	_
-9	коли	коли	ADV	adv:&pron:rel	PronType=Rel	10	mark	_	_
-10	проминав	проминати	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	_
-11	вітрину	вітрина	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	10	dobj	_	_
-12	крамниці	крамниця	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	11	nmod	_	_
-13	на	на	ADP	prep:rv_mis	Case=Loc	14	case	_	_
-14	розі	ріг	NOUN	noun:inanim:m:v_mis:xp2	Animacy=Inan|Case=Loc|Gender=Masc	12	nmod	_	_
-15	бульвару	бульвар	NOUN	noun:inanim:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc	14	nmod	_	_
-16	Пуанкаре	Пуанкаре	PROPN	noun:anim:m:v_rod:nv:np:prop:lname	Animacy=Anim|Case=Gen|Gender=Masc	15	appos	_	SpaceAfter=No
-17	,	,	PUNCT	punct	_	19	punct	_	_
-18	торговельного	торговельний	ADJ	adj:m:v_rod	Case=Gen|Gender=Masc	19	amod	_	_
-19	дому	дім	NOUN	noun:inanim:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc	12	appos	_	_
-20	«	«	PUNCT	punct	_	21	punct	_	SpaceAfter=No
-21	Взуття	взуття	NOUN	noun:inanim:n:v_naz	Animacy=Inan|Case=Nom|Gender=Neut	19	appos	_	_
-22	для	для	ADP	prep:rv_rod	Case=Gen	24	case	_	_
-23	делікатних	делікатний	ADJ	adj:p:v_rod:compb	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	_
-24	ніг	нога	NOUN	noun:inanim:p:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
-25	»	»	PUNCT	punct	_	21	punct	_	SpaceAfter=No
-26	,	,	PUNCT	punct	_	19	punct	_	_
-27	де	де	ADV	adv:&pron:rel	PronType=Rel	29	mark	_	_
-28	він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	29	nsubj	_	_
-29	був	бути	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	32	cop	_	_
-30	за	за	ADP	prep:rv_zna	Case=Acc	32	case	_	_
-31	першого	перший	ADJ	adj:m:v_zna:ranim:compb:&numr	Case=Acc|Degree=Pos|Gender=Masc|NumType=Ord	32	amod	_	_
-32	продавця	продавець	NOUN	noun:anim:m:v_zna	Animacy=Anim|Case=Acc|Gender=Masc	12	acl	_	SpaceAfter=No
-33	.	.	PUNCT	punct	_	7	punct	_	_
-
-# sent_id 140
-1	Дитина	дитина	NOUN	noun:anim:f:v_naz	Animacy=Anim|Case=Nom|Gender=Fem	0	root	_	_
-2	Розмарі	Розмарі	PROPN	noun:anim:f:v_rod:nv:np:prop:fname	Animacy=Anim|Case=Gen|Gender=Fem	1	nmod	_	SpaceAfter=No
-3	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 141
-1	Дати	дати	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	0	root	_	_
-2	дітям	діти	NOUN	noun:anim:p:v_dav:ns	Animacy=Anim|Case=Dat|Number=Plur	1	iobj	_	_
-3	книжки	книжка	NOUN	noun:inanim:p:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	dobj	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 142
-1	Минулої	минулий	ADJ	adj:f:v_rod:&adjp:perf:actv	Aspect=Perf|Case=Gen|Gender=Fem|VerbForm=Part|Voice=Act	2	amod	_	_
-2	неділі	неділя	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	4	nmod	_	_
-3	ми	ми	PRON	noun:anim:p:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
-4	плавали	плавати	VERB	verb:imperf:past:p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
-5	у	у	ADP	prep:rv_mis:v-u	Case=Loc	6	case	_	_
-6	басейні	басейн	NOUN	noun:inanim:m:v_mis	Animacy=Inan|Case=Loc|Gender=Masc	4	nmod	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 143
-1	Купив	купити	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	їй	вона	PRON	noun:f:v_dav:&pron:pers:3	Case=Dat|Gender=Fem|Person=3|PronType=Prs	1	iobj	_	_
-3	відріз	відріз	NOUN	noun:inanim:m:v_zna:xp1	Animacy=Inan|Case=Acc|Gender=Masc	1	dobj	_	_
-4	на	на	ADP	prep:rv_zna	Case=Acc	5	case	_	_
-5	сукню	сукня	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	3	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 144
-1	Лило	лити	VERB	verb:imperf:past:n	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	цілу	цілий	ADJ	adj:f:v_zna	Case=Acc|Gender=Fem	3	amod	_	_
-3	ніч	ніч	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	1	nmod	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 145
-1	З	з	ADP	prep:rv_rod	Case=Gen	4	case	_	_
-2	усіх	увесь	DET	adj:p:v_rod:&pron:gen	Case=Gen|Number=Plur|PronType=Tot	4	det	_	_
-3	-	-	PUNCT	punct	_	4	punct	_	_
-4	усюд	усюди	NOUN	noun:inanim:p:v_rod:ns	Animacy=Inan|Case=Gen|Number=Plur	5	nmod	_	_
-5	линув	линути	VERB	verb:imperf:past:m:xp1	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-6	спів	спів	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	5	nsubj	_	_
-7	птахів	птах	NOUN	noun:anim:p:m:v_rod	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	5	punct	_	_
-
-# sent_id 146
-1	Часто	часто	ADV	adv:compb	Degree=Pos	2	advmod	_	_
-2	думала	думати	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	про	про	ADP	prep:rv_zna	Case=Acc	5	case	_	_
-4	свою	свій	DET	adj:f:v_zna:poss:&pron:refl	Case=Acc|Gender=Fem|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
-5	сестру	сестра	NOUN	noun:anim:f:v_zna	Animacy=Anim|Case=Acc|Gender=Fem	2	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 147
-1	Через	через	ADP	prep:rv_zna	Case=Acc	2	case	_	_
-2	тиждень	тиждень	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	3	nmod	_	_
-3	поїхав	поїхати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	до	до	ADP	prep:rv_rod	Case=Gen	5	case	_	_
-5	Полтави	Полтава	PROPN	noun:inanim:f:v_rod:prop	Animacy=Inan|Case=Gen|Gender=Fem	3	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 148
-1	Село	село	NOUN	noun:inanim:n:v_naz	Animacy=Inan|Case=Nom|Gender=Neut	3	nsubj	_	_
-2	Крушельниця	Крушельниця	PROPN	noun:inanim:f:v_naz:prop	Animacy=Inan|Case=Nom|Gender=Fem	1	appos	_	_
-3	розташоване	розташований	ADJ	adj:n:v_naz:&adjp:perf:pasv	Aspect=Perf|Case=Nom|Gender=Neut|VerbForm=Part|Voice=Pass	0	root	_	_
-4	в	в	ADP	prep:rv_mis:v-u	Case=Loc	5	case	_	_
-5	горах	гора	NOUN	noun:inanim:p:f:v_mis	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	nmod	_	_
-6	Карпатах	Карпати	PROPN	noun:inanim:p:v_mis:ns:prop	Animacy=Inan|Case=Loc|Number=Plur	5	appos	_	_
-7	біля	біля	ADP	prep:rv_rod	Case=Gen	8	case	_	_
-8	ріки	ріка	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	3	nmod	_	_
-9	Стрий	Стрий	PROPN	noun:inanim:m:v_naz:prop:xp2	Animacy=Inan|Case=Nom|Gender=Masc	8	appos	_	SpaceAfter=No
-10	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 149
-1	Одинокий	одинокий	ADJ	adj:m:v_naz	Case=Nom|Gender=Masc	2	amod	_	_
-2	голос	голос	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	0	root	_	_
-3	зозулі	зозуля	NOUN	noun:anim:f:v_rod	Animacy=Anim|Case=Gen|Gender=Fem	2	nmod	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 150
-1	Директор	директор	NOUN	noun:anim:m:v_naz:xp1	Animacy=Anim|Case=Nom|Gender=Masc	0	root	_	_
-2	канцелярії	канцелярія	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	1	nmod	_	SpaceAfter=No
-3	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 151
-1	Поради	порада	NOUN	noun:inanim:p:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
-2	по	по	ADP	prep:rv_mis	Case=Loc	3	case	_	_
-3	телефону	телефон	NOUN	noun:inanim:m:v_mis:xp2	Animacy=Inan|Case=Loc|Gender=Masc	1	nmod	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 152
-1	Знайди	знайти	VERB	verb:perf:impr:s:2	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
-2	через	через	ADP	prep:rv_zna	Case=Acc	3	case	_	_
-3	інтернет	інтернет	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	1	nmod	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 153
-1	Це	це	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	2	nsubj	_	_
-2	залежить	залежати	VERB	verb:imperf:pres:s:3:xp1	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	від	від	ADP	prep:rv_rod	Case=Gen	5	case	_	_
-4	багатьох	багато	NUM	numr:p:v_rod:&pron:ind	Case=Gen|Number=Plur|NumType=Card|PronType=Ind	5	det	_	_
-5	обставин	обставина	NOUN	noun:inanim:p:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 154
-1	Тип	тип	NOUN	noun:inanim:m:v_naz:xp2	Animacy=Inan|Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No
-2	:	:	PUNCT	punct	_	1	punct	_	_
-3	Самсунг	Самсунг	PROPN	noun:inanim:prop:foreign	Animacy=Inan	1	nmod	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 155
-1	Випадок	випадок	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	який	який	DET	adj:m:v_naz:&pron:rel	Case=Nom|Gender=Masc|PronType=Rel	5	mark	_	_
-4	треба	треба	ADV	adv	_	1	acl	_	_
-5	дослідити	дослідити	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	4	xcomp	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 156
-1	Він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	nsubj	_	_
-2	намалював	намалювати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	модель	модель	NOUN	noun:anim:f:v_zna:xp1	Animacy=Anim|Case=Acc|Gender=Fem	2	dobj	_	_
-4	голою	голий	ADJ	adj:f:v_oru	Case=Ins|Gender=Fem	3	acl	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 157
-1	Він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	nsubj	_	_
-2	намалював	намалювати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	модель	модель	NOUN	noun:anim:f:v_zna:xp1	Animacy=Anim|Case=Acc|Gender=Fem	2	dobj	_	_
-4	без	без	ADP	prep:rv_rod	Case=Gen	2	case	_	_
-5	одягу	одяг	NOUN	noun:inanim:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc	3	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 158
-1	Той	той	DET	adj:m:v_naz:&pron:dem	Case=Nom|Gender=Masc|PronType=Dem	2	det	_	_
-2	факт	факт	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	9	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	що	що	SCONJ	conj:subord	_	6	mark	_	_
-5	всім	все	PRON	noun:inanim:n:v_dav:&pron:gen:v-u	Animacy=Inan|Case=Dat|Gender=Neut|PronType=Tot	6	dobj	_	_
-6	байдуже	байдуже	ADV	adv	_	2	acl	_	SpaceAfter=No
-7	,	,	PUNCT	punct	_	2	punct	_	_
-8	не	не	PART	part	_	9	neg	_	_
-9	повинен	повинний	ADJ	adj:m:v_naz:short	Case=Nom|Gender=Masc	0	root	_	_
-10	нас	ми	PRON	noun:anim:p:v_zna:&pron:pers:1	Animacy=Anim|Case=Acc|Number=Plur|Person=1|PronType=Prs	11	dobj	_	_
-11	зупинити	зупинити	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	9	xcomp	_	SpaceAfter=No
-12	.	.	PUNCT	punct	_	9	punct	_	_
-
-# sent_id 159
-1	Ось	ось	PART	part	_	0	root	_	_
-2	той	той	DET	adj:m:v_naz:&pron:dem	Case=Nom|Gender=Masc|PronType=Dem	3	det	_	_
-3	хлопець	хлопець	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	1	nsubj	_	SpaceAfter=No
-4	,	,	PUNCT	punct	_	3	punct	_	_
-5	про	про	ADP	prep:rv_zna	Case=Acc	6	case	_	_
-6	котрого	котрий	DET	adj:m:v_zna:ranim:&pron:rel	Case=Acc|Gender=Masc|PronType=Rel	8	nmod	_	_
-7	я	я	PRON	noun:anim:s:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-8	розказувала	розказувати	VERB	verb:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	3	acl	_	SpaceAfter=No
-9	,	,	PUNCT	punct	_	3	punct	_	_
-10	Богдан	Богдан	PROPN	noun:anim:m:v_naz:prop:fname:xp1	Animacy=Anim|Case=Nom|Gender=Masc	3	appos	_	SpaceAfter=No
-11	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 160
-1	Він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	nsubj	_	_
-2	їсть	їсти	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	овочі	овоч	NOUN	noun:inanim:p:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	dobj	_	_
-4	сирими	сирий	ADJ	adj:p:v_oru	Case=Ins|Number=Plur	2	xcomp	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 161
-1	Зелена	зелений	ADJ	adj:f:v_naz:compb	Case=Nom|Degree=Pos|Gender=Fem	2	amod	_	_
-2	трава	трава	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	0	root	_	_
-3	на	на	ADP	prep:rv_mis	Case=Loc	5	case	_	_
-4	широкому	широкий	ADJ	adj:n:v_mis:compb	Case=Loc|Degree=Pos|Gender=Neut	5	amod	_	_
-5	полі	поле	NOUN	noun:inanim:n:v_mis	Animacy=Inan|Case=Loc|Gender=Neut	2	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	5	punct	_	_
-
-# sent_id 162
-1	Він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	nsubj	_	_
-2	взяв	взяти	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	півмільйонну	півмільйонний	ADJ	adj:f:v_zna:&_numr	Case=Acc|Gender=Fem	4	amod	_	_
-4	позику	позика	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	2	dobj	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 163
-1	Але	але	CONJ	conj:coord	_	0	root	_	_
-2	ти	ти	PRON	noun:anim:s:v_kly:&pron:pers:2	Animacy=Anim|Case=Voc|Number=Sing|Person=2|PronType=Prs	7	vocative	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	4	punct	_	_
-4	малий	малий	ADJ	adj:m:v_kly:compb	Case=Voc|Degree=Pos|Gender=Masc	2	appos	_	SpaceAfter=No
-5	,	,	PUNCT	punct	_	4	punct	_	_
-6	не	не	PART	part	_	7	neg	_	_
-7	думай	думати	VERB	verb:imperf:impr:s:2	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
-8	,	,	PUNCT	punct	_	7	punct	_	_
-9	що	що	SCONJ	conj:subord	_	12	mark	_	_
-10	все	все	PRON	noun:inanim:n:v_naz:&pron:gen:v-u	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Tot	12	nsubj	_	_
-11	так	так	ADV	adv:&pron:dem	_	12	advmod	_	_
-12	просто	просто	ADV	adv:compb	Degree=Pos	7	ccomp	_	SpaceAfter=No
-13	.	.	PUNCT	punct	_	7	punct	_	_
-
-# sent_id 164
-1	Перший	перший	ADJ	adj:m:v_naz:compb:&numr	Case=Nom|Degree=Pos|Gender=Masc|NumType=Ord	2	amod	_	_
-2	футболіст	футболіст	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	4	nsubj	_	_
-3	був	бути	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
-4	швидший	швидший	ADJ	adj:m:v_naz:compr	Case=Nom|Degree=Cmp|Gender=Masc	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 165
-1	Перший	перший	ADJ	adj:m:v_naz:compb:&numr	Case=Nom|Degree=Pos|Gender=Masc|NumType=Ord	2	amod	_	_
-2	футболіст	футболіст	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	4	nsubj	_	_
-3	був	бути	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
-4	швидшим	швидший	ADJ	adj:m:v_oru:compr	Case=Ins|Degree=Cmp|Gender=Masc	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 166
-1	Швидший	швидший	ADJ	adj:m:v_naz:compr	Case=Nom|Degree=Cmp|Gender=Masc	2	amod	_	_
-2	футболіст	футболіст	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	4	nsubj	_	_
-3	був	бути	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
-4	першим	перший	ADJ	adj:m:v_oru:compb:&numr	Case=Ins|Degree=Pos|Gender=Masc|NumType=Ord	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 167
-1	Швидший	швидший	ADJ	adj:m:v_naz:compr	Case=Nom|Degree=Cmp|Gender=Masc	2	amod	_	_
-2	футболіст	футболіст	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	4	nsubj	_	_
-3	був	бути	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
-4	перший	перший	ADJ	adj:m:v_naz:compb:&numr	Case=Nom|Degree=Pos|Gender=Masc|NumType=Ord	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 168
-1	Найпростіша	найпростіший	ADJ	adj:f:v_naz:super	Case=Nom|Degree=Sup|Gender=Fem	3	amod	_	_
-2	з	з	ADP	prep:rv_rod	Case=Gen	3	case	_	_
-3	істин	істина	NOUN	noun:inanim:p:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 169
-1	Немає	мати	VERB	verb:imperf:pres:s:3:neg	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|PronType=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	чогось	щось	PRON	noun:inanim:n:v_rod:&pron:ind	Animacy=Inan|Case=Gen|Gender=Neut|PronType=Ind	1	dobj	_	_
-3	легшого	легший	ADJ	adj:n:v_rod:compr	Case=Gen|Degree=Cmp|Gender=Neut	2	amod	_	SpaceAfter=No
-4	?	?	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 170
-1	Котру	котрий	DET	adj:f:v_zna:&pron:int	Case=Acc|Gender=Fem|PronType=Int	0	root	_	_
-2	тобі	ти	PRON	noun:anim:s:v_dav:&pron:pers:2	Animacy=Anim|Case=Dat|Number=Sing|Person=2|PronType=Prs	1	dobj	_	SpaceAfter=No
-3	?	?	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 171
-1	Котра	котрий	DET	adj:f:v_naz:&pron:int	Case=Nom|Gender=Fem|PronType=Int	2	det	_	_
-2	година	година	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	0	root	_	SpaceAfter=No
-3	?	?	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 172
-1	Ось	ось	PART	part	_	4	discourse	_	_
-2	цей	цей	DET	adj:m:v_naz:&pron:dem	Case=Nom|Gender=Masc|PronType=Dem	4	nsubj	_	_
-3	буде	бути	VERB	verb:imperf:futr:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
-4	добрий	добрий	ADJ	adj:m:v_naz:compb	Case=Nom|Degree=Pos|Gender=Masc	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	punct	_	4	punct	_	_
-6	думаю	думати	VERB	verb:imperf:pres:s:1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 173
-1	Та	той	DET	adj:f:v_naz:&pron:dem	Case=Nom|Gender=Fem|PronType=Dem	3	det	_	_
-2	друга	другий	ADJ	adj:f:v_naz:&numr	Case=Nom|Gender=Fem|NumType=Ord	1	amod	_	_
-3	цікавіша	цікавіший	ADJ	adj:f:v_naz:compr	Case=Nom|Degree=Cmp|Gender=Fem	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 174
-1	Ким	хто	PRON	noun:anim:m:v_oru:&pron:int	Animacy=Anim|Case=Ins|Gender=Masc|PronType=Int	2	nmod	_	_
-2	був	бути	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	той	той	DET	adj:m:v_naz:&pron:dem	Case=Nom|Gender=Masc|PronType=Dem	4	det	_	_
-4	Петро	Петро	PROPN	noun:anim:m:v_naz:prop:fname	Animacy=Anim|Case=Nom|Gender=Masc	2	nsubj	_	SpaceAfter=No
-5	?	?	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 175
-1	Задумався	задуматися	VERB	verb:rev:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	на	на	ADP	prep:rv_zna	Case=Acc	4	case	_	_
-3	якусь	якийсь	DET	adj:f:v_zna:&pron:ind	Case=Acc|Gender=Fem|PronType=Ind	4	det	_	_
-4	хвилину	хвилина	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	1	nmod	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 176
-1	Він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	nsubj	_	_
-2	не	не	PART	part	_	3	neg	_	_
-3	вміє	вміти	VERB	verb:imperf:pres:s:3:v-u	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	керувати	керувати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	3	xcomp	_	_
-5	машиною	машина	NOUN	noun:inanim:f:v_oru	Animacy=Inan|Case=Ins|Gender=Fem	4	dobj	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 177
-1	Він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	3	nsubj	_	_
-2	не	не	PART	part	_	3	neg	_	_
-3	водій	водій	NOUN	noun:anim:m:v_naz	Animacy=Anim|Case=Nom|Gender=Masc	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 178
-1	Він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	nsubj	_	_
-2	не	не	PART	part	_	3	neg	_	_
-3	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	водієм	водій	NOUN	noun:anim:m:v_oru	Animacy=Anim|Case=Ins|Gender=Masc	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 179
-1	Не	не	PART	part	_	2	neg	_	_
-2	те	те	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	5	discourse	_	_
-3	щоб	щоб	SCONJ	conj:subord	_	5	mark	_	_
-4	не	не	PART	part	_	5	neg	_	_
-5	знав	знати	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	punct	_	5	punct	_	_
-7	просто	просто	PART	part	_	8	mark	_	_
-8	забув	забути	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
-9	.	.	PUNCT	punct	_	5	punct	_	_
-
-# sent_id 180
-1	Чи	чи	PART	part	_	6	discourse	_	_
-2	то	то	PART	part	_	6	discourse	_	_
-3	не	не	PART	part	_	4	neg	_	_
-4	він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	nsubj	_	_
-5	це	це	PRON	noun:inanim:n:v_zna:&pron:dem	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Dem	6	dobj	_	_
-6	шукав	шукати	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	?	?	PUNCT	punct	_	6	punct	_	_
-
-# sent_id 181
-1	В	в	ADP	prep:rv_mis:v-u	Case=Loc	5	case	_	_
-2	не	не	PART	part	_	3	neg	_	_
-3	так	так	ADV	adv&pron:dem	_	4	advmod	_	_
-4	далекому	далекий	ADJ	adj:n:v_mis:compb	Case=Loc|Degree=Pos|Gender=Neut	5	amod	_	_
-5	минулому	минулий	ADJ	adj:n:v_mis:&adjp:perf:actv	Aspect=Perf|Case=Loc|Gender=Neut|VerbForm=Part|Voice=Act	7	nmod	_	_
-6	це	це	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	7	nsubj	_	_
-7	сталося	статися	VERB	verb:rev:perf:past:n	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	7	punct	_	_
-
-# sent_id 182
-1	Не	не	PART	part	_	2	neg	_	_
-2	кожному	кожний	DET	adj:m:v_dav:&pron:gen	Case=Dat|Gender=Masc|PronType=Tot	5	dobj	_	_
-3	це	це	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	5	nsubj	_	_
-4	під	під	ADP	prep:rv_zna	Case=Acc	5	case	_	_
-5	силу	сила	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	5	punct	_	_
-
-# sent_id 183
-1	Після	після	ADP	prep:rv_rod	Case=Gen	2	case	_	_
-2	дощу	дощ	NOUN	noun:inanim:m:v_rod	Animacy=Inan|Case=Gen|Gender=Masc	4	nmod	_	_
-3	завжди	завжди	ADV	adv:&pron:gen	PronType=Tot	4	advmod	_	_
-4	свіжість	свіжість	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 184
-1	Вона	вона	PRON	noun:f:v_naz:&pron:pers:3	Case=Nom|Gender=Fem|Person=3|PronType=Prs	4	nsubj	_	_
-2	в	в	ADP	prep:rv_mis:v-u	Case=Loc	4	case	_	_
-3	добрій	добрий	ADJ	adj:f:v_mis:compb	Case=Loc|Degree=Pos|Gender=Fem	4	amod	_	_
-4	формі	форма	NOUN	noun:inanim:f:v_mis	Animacy=Inan|Case=Loc|Gender=Fem	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 185
-1	У	у	ADP	prep:rv_zna:v-u	Case=Acc	2	case	_	_
-2	четвер	четвер	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	3	nmod	_	_
-3	йдемо	йти	VERB	verb:imperf:pres:p:1	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	на	на	ADP	prep:rv_zna	Case=Acc	5	case	_	_
-5	концерт	концерт	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	3	nmod	_	_
-6	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 5
-1	Це	це	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	2	nsubj	_	_
-2	трапилося	трапитися	VERB	verb:rev:perf:past:n	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	коли	коли	ADV	adv:&pron:rel	PronType=Rel	5	mark	_	_
-5	спускалася	спускатися	VERB	verb:rev:imperf:past:f	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
-6	ніч	ніч	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	5	nsubj	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 186
-1	Якщо	якщо	SCONJ	conj:subord	_	2	mark	_	_
-2	знаєш	знати	VERB	verb:imperf:pres:s:2	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	5	punct	_	_
-4	що	що	PRON	noun:inanim:n:v_naz:&pron:rel	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Rel	5	nsubj	_	_
-5	сталося	статися	VERB	verb:rev:perf:past:n	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
-6	,	,	PUNCT	punct	_	5	punct	_	_
-7	ти	ти	PRON	noun:anim:s:v_naz:&pron:pers:2	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
-8	повинен	повинний	ADJ	adj:m:v_naz:short	Case=Nom|Gender=Masc	0	root	_	_
-9	про	про	ADP	prep:rv_zna	Case=Acc	10	case	_	_
-10	це	це	PRON	noun:inanim:n:v_zna:&pron:dem	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Dem	11	nmod	_	_
-11	розказати	розказати	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	8	xcomp	_	SpaceAfter=No
-12	.	.	PUNCT	punct	_	8	punct	_	_
-
-# sent_id 187
-1	Він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	2	nsubj	_	_
-2	поспішав	поспішати	VERB	verb:imperf:past:m	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	punct	_	2	punct	_	_
-4	щоб	щоб	SCONJ	conj:subord	_	6	mark	_	_
-5	не	не	PART	part	_	6	neg	_	_
-6	запізнитися	запізнитися	VERB	verb:rev:perf:inf	Aspect=Perf|VerbForm=Inf	2	advcl	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 188
-1	У	у	ADP	prep:rv_mis:v-u	Case=Loc	2	case	_	_
-2	квартирі	квартира	NOUN	noun:inanim:f:v_mis	Animacy=Inan|Case=Loc|Gender=Fem	6	nmod	_	_
-3	у	у	ADP	prep:rv_rod:v-u	Case=Gen	4	case	_	_
-4	вас	ви	PRON	noun:anim:p:v_rod:&pron:pers:2	Animacy=Anim|Case=Gen|Number=Plur|Person=2|PronType=Prs	7	nmod	_	_
-5	приємні	приємний	ADJ	adj:p:v_naz:compb	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
-6	24	24	NUM	numr	NumType=Card	7	nummod	_	_
-7	градуси	градус	NOUN	noun:inanim:p:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	punct	_	7	punct	_	_
-9	і	і	CONJ	conj:coord	_	11	discourse	_	_
-10	це	це	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	11	discourse	_	_
-11	тоді	тоді	ADV	adv:&pron:dem	PronType=Dem	7	advmod	_	SpaceAfter=No
-12	,	,	PUNCT	punct	_	11	punct	_	_
-13	коли	коли	ADV	adv:&pron:rel	PronType=Rel	15	mark	_	_
-14	назовні	назовні	ADV	adv	_	15	advmod	_	_
-15	мороз	мороз	NOUN	noun:inanim:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc	11	advcl	_	SpaceAfter=No
-16	,	,	PUNCT	punct	_	15	punct	_	_
-17	аж	аж	PART	part	_	18	discourse	_	_
-18	тріщить	тріщати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
-19	.	.	PUNCT	punct	_	7	punct	_	_
-
-# sent_id 189
-1	Генетично	генетично	ADV	adv	_	2	advmod	_	_
-2	модифікована	модифікований	ADJ	adj:f:v_naz:&adjp:perf:pasv	Aspect=Perf|Case=Nom|Gender=Fem|VerbForm=Part|Voice=Pass	3	amod	_	_
-3	їжа	їжа	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 190
-1	Менш	менш	ADV	adv:compr	Degree=Cmp	2	advmod	_	_
-2	регулярно	регулярно	ADV	adv	_	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 191
-1	Куди	куди	ADV	adv:&pron:int	PronType=Int	4	advmod	_	_
-2	ти	ти	PRON	noun:anim:s:v_naz:&pron:pers:2	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
-3	хочеш	хотіти	VERB	verb:imperf:pres:s:2	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	піти	піти	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	3	xcomp	_	_
-5	пізніше	пізніше	ADV	adv:compr	Degree=Cmp	4	advmod	_	SpaceAfter=No
-6	?	?	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 192
-1	Десь	десь	ADV	adv:compb	_	2	advmod	_	_
-2	200	200	NUM	numr	NumType=Card	3	nummod:gov	_	_
-3	людей	люде	NOUN	noun:anim:p:v_rod:ns	Animacy=Anim|Case=Gen|Number=Plur	4	nsubj	_	_
-4	привалило	привалити	VERB	verb:perf:past:n	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 193
-1	Зовсім	зовсім	ADV	adv	_	2	advmod	_	_
-2	втратив	втратити	VERB	verb:perf:past:m:v-u	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-3	над	над	ADP	prep:rv_oru	Case=Ins	4	case	_	_
-4	собою	себе	PRON	noun:v_oru:&pron:refl	Case=Ins|PronType=Prs|Reflex=Yes	5	nmod	_	_
-5	контроль	контроль	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	2	dobj	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 194
-1	В	в	ADP	prep:rv_mis:v-u	Case=Loc	5	case	_	_
-2	не	не	PART	part	_	3	neg	_	_
-3	так	так	ADV	adv&pron:dem	_	4	advmod	_	_
-4	далекому	далекий	ADJ	adj:n:v_mis:compb	Case=Loc|Degree=Pos|Gender=Neut	5	amod	_	_
-5	минулому	минулий	ADJ	adj:n:v_mis:&adjp:perf:actv	Aspect=Perf|Case=Loc|Gender=Neut|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	5	punct	_	_
-
-# sent_id 195
-1	Нарахував	нарахувати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	чотири	чотири	NUM	numr:p:v_zna	Case=Acc|Number=Plur|NumType=Card	4	nummod:gov	_	_
-3	тисячі	тисяча	NOUN	noun:inanim:p:f:v_zna:&_numr	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	compound	_	_
-4	баранців	баранець	NOUN	noun:anim:p:m:v_rod	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	dobj	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 196
-1	Виграв	виграти	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-2	3,2	3	NUM	numr	NumType=Card	4	nummod:gov	_	_
-3	мільйони	мільйон	NOUN	noun:inanim:p:m:v_zna:&_numr	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	compound	_	_
-4	гривень	гривня	NOUN	noun:inanim:p:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	dobj	_	SpaceAfter=No
-5	.	.	PUNCT	punct	_	1	punct	_	_
-
-# sent_id 197
-1	Кінцевий	кінцевий	ADJ	adj:m:v_naz	Case=Nom|Gender=Masc	2	amod	_	_
-2	термін	термін	NOUN	noun:inanim:m:v_naz:xp2	Animacy=Inan|Case=Nom|Gender=Masc	4	nsubj	_	_
-3	—	—	PUNCT	punct	_	4	punct	_	_
-4	1	1	NUM	numr	NumType=Card	0	root	_	_
-5	.	.	PUNCT	punct	_	4	punct	_	_
-6	5	5	NUM	numr	NumType=Card	4	compound	_	_
-7	.	.	PUNCT	punct	_	6	punct	_	_
-8	2016	2016	NUM	numr	NumType=Card	4	compound	_	_
-9	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 208
-1	Під	під	ADP	prep:rv_zna	Case=Acc	3	case	_	_
-2	час	час	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	1	mwe	_	_
-3	гри	гра	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	5	nmod	_	_
-4	не	не	PART	part	_	5	neg	_	_
-5	патякати	патякати	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	5	punct	_	_
-
-# sent_id 209
-1	Незважаючи	незважаючи	ADP	prep	_	3	case	_	_
-2	на	на	ADP	prep:rv_zna	Case=Acc	1	mwe	_	_
-3	труднощі	труднощі	NOUN	noun:inanim:p:v_zna:ns	Animacy=Inan|Case=Acc|Number=Plur	5	nmod	_	_
-4	він	він	PRON	noun:m:v_naz:&pron:pers:3	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	nsubj	_	_
-5	переміг	перемогти	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	5	punct	_	_
-
-# sent_id 210
-1	Це	це	PRON	noun:inanim:n:v_naz:&pron:dem	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	2	nsubj	_	_
-2	коштує	коштувати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	в	в	ADP	prep:rv_mis:v-u	Case=Loc	5	case	_	_
-4	межах	межа	NOUN	noun:inanim:p:f:v_mis	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	mwe	_	_
-5	5	5	NUM	numr	NumType=Card	6	nummod	_	_
-6	крон	крона	NOUN	noun:inanim:p:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	dobj	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 211
-1	На	на	ADP	prep:rv_zna	Case=Acc	4	case	_	_
-2	відміну	відміна	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	1	mwe	_	_
-3	від	від	ADP	prep:rv_rod	Case=Gen	1	mwe	_	_
-4	тебе	ти	PRON	noun:anim:s:v_rod:&pron:pers:2	Animacy=Anim|Case=Gen|Number=Sing|Person=2|PronType=Prs	7	nmod	_	_
-5	дехто	дехто	PRON	noun:anim:v_naz:&pron:ind	Animacy=Anim|Case=Nom|PronType=Ind	7	nsubj	_	_
-6	вже	вже	ADV	adv:v-u	_	7	advmod	_	_
-7	працює	працювати	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	7	punct	_	_
-
-# sent_id 212
-1	У	у	ADP	prep:rv_mis:v-u	Case=Loc	5	case	_	_
-2	порівнянні	порівняння	NOUN	noun:inanim:n:v_mis	Animacy=Inan|Case=Loc|Gender=Neut	1	mwe	_	_
-3	з	з	ADP	prep:rv_oru	Case=Ins	1	mwe	_	_
-4	минулим	минулий	ADJ	adj:n:v_oru:&adjp:perf:actv	Aspect=Perf|Case=Ins|Gender=Neut|VerbForm=Part|Voice=Act	5	amod	_	_
-5	літом	літо	NOUN	noun:inanim:n:v_oru	Animacy=Inan|Case=Ins|Gender=Neut	9	nmod	_	_
-6	зараз	зараз	ADV	adv:&pron:dem	PronType=Dem	9	advmod	_	_
-7	є	бути	VERB	verb:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-8	набагато	набагато	ADV	adv	_	9	advmod	_	_
-9	тепліше	тепліше	ADV	adv:compr	Degree=Cmp	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	punct	_	9	punct	_	_
-
-# sent_id 213
-1	На	на	ADP	prep:rv_mis	Case=Loc	6	case	_	_
-2	підставі	підстава	NOUN	noun:inanim:f:v_mis	Animacy=Inan|Case=Loc|Gender=Fem	1	mwe	_	_
-3	її	її	DET	adj:p:v_rod:poss:nv:&pron:pers:3	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	det	_	_
-4	свідчень	свідчення	NOUN	noun:inanim:p:n:v_rod	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
-5	його	він	PRON	noun:m:v_zna:&pron:pers:3	Case=Acc|Gender=Masc|Person=3|PronType=Prs	6	dobj	_	_
-6	відпустили	відпустити	VERB	verb:perf:past:p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	punct	_	6	punct	_	_
-
-# sent_id 214
-1	Що	що	PRON	noun:inanim:n:v_naz:&pron:rel	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Rel	2	nsubj	_	_
-2	стосується	стосуватися	VERB	verb:rev:imperf:pres:s:3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
-3	вчорашньої	вчорашній	ADJ	adj:f:v_rod:v-u	Case=Gen|Gender=Fem	4	amod	_	_
-4	справи	справа	NOUN	noun:inanim:f:v_rod	Animacy=Inan|Case=Gen|Gender=Fem	2	dobj	_	SpaceAfter=No
-5	,	,	PUNCT	punct	_	2	punct	_	_
-6	ніхто	ніхто	PRON	noun:anim:v_naz:&pron:neg	Animacy=Anim|Case=Nom|PronType=Neg	9	nsubj	_	_
-7	нічого	ніщо	PRON	noun:inanim:v_rod:&pron:neg	Animacy=Inan|Case=Gen|PronType=Neg	9	dobj	_	_
-8	не	не	PART	part	_	9	neg	_	_
-9	сказав	сказати	VERB	verb:perf:past:m	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	punct	_	9	punct	_	_
-
-# sent_id 215
-1	Мабуть	мабуть	ADV	adv	_	2	advmod	_	_
-2	селяві	селяві	NOUN	noun:inanim:foreign	Animacy=Inan	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 216
-1	Ми	ми	PRON	noun:anim:p:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
-2	знову	знову	ADV	adv	_	3	advmod	_	_
-3	квити	квит	NOUN	noun:inanim:p:m:v_naz	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	punct	_	3	punct	_	_
-
-# sent_id 217
-1	Я	я	PRON	noun:anim:s:v_naz:&pron:pers:1	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	руку	рука	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	4	dobj	_	_
-3	ніжно	ніжно	ADV	adv:compb	Degree=Pos	4	advmod	_	_
-4	піднімаю	піднімати	VERB	verb:imperf:pres:s:1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	і	і	CONJ	conj:coord	_	4	cc	_	_
-6	кнопку	кнопка	NOUN	noun:inanim:f:v_zna	Animacy=Inan|Case=Acc|Gender=Fem	8	dobj	_	_
-7	ЕНТЕР	ЕНТЕР	NOUN	noun:inanim:foreign	Animacy=Inan	6	foreign	_	_
-8	натискаю	натискати	VERB	verb:imperf:pres:s:1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
-9	.	.	PUNCT	punct	_	4	punct	_	_
-
-# sent_id 220
-1	Не	не	PART	part	_	2	neg	_	_
-2	треба	треба	ADV	adv	_	0	root	_	_
-3	його	він	PRON	noun:m:v_zna:&pron:pers:3	Case=Acc|Gender=Masc|Person=3|PronType=Prs	4	dobj	_	_
-4	їсти	їсти	VERB	verb:imperf:inf	Aspect=Imp|VerbForm=Inf	2	xcomp	_	SpaceAfter=No
-5	,	,	PUNCT	punct	_	2	punct	_	_
-6	цей	цей	DET	adj:m:v_zna:rinanim:&pron:dem	Case=Acc|Gender=Masc|PronType=Dem	7	det	_	_
-7	пластилін	пластилін	NOUN	noun:inanim:m:v_zna	Animacy=Inan|Case=Acc|Gender=Masc	3	dislocated	_	SpaceAfter=No
-8	.	.	PUNCT	punct	_	2	punct	_	_
-
-# sent_id 221
-1	Мамалига	мамалига	NOUN	noun:inanim:f:v_naz	Animacy=Inan|Case=Nom|Gender=Fem	4	dislocated	_	SpaceAfter=No
-2	,	,	PUNCT	punct	_	1	punct	_	_
-3	мусиш	мусити	VERB	verb:imperf:pres:s:2	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	її	вона	PRON	noun:f:v_zna:&pron:pers:3	Case=Acc|Gender=Fem|Person=3|PronType=Prs	5	dobj	_	_
-5	попробувати	попробувати	VERB	verb:perf:inf	Aspect=Perf|VerbForm=Inf	3	xcomp	_	SpaceAfter=No
-6	.	.	PUNCT	punct	_	3	punct	_	_
+# newdoc
+# newpar
+# sent_id = 1
+# text = Височенна, чотириярусна тайга, буйна й непролазна, як африканський праліс, стояла навколо зачарована.
+1	Височенна	височенний	ADJ	Ao-fsns	Case=Nom|Gender=Fem	4	amod	_	SpaceAfter=No
+2	,	,	PUNCT	U	_	3	punct	_	_
+3	чотириярусна	чотириярусний	ADJ	Ao-fsns	Case=Nom|Gender=Fem	1	conj	_	_
+4	тайга	тайга	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	14	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	U	_	6	punct	_	_
+6	буйна	буйний	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem	4	amod	_	_
+7	й	й	CCONJ	Ccs	_	8	cc	_	_
+8	непролазна	непролазний	ADJ	Ao-fsns	Case=Nom|Gender=Fem	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	U	_	12	punct	_	_
+10	як	як	SCONJ	Css	_	12	mark	_	_
+11	африканський	африканський	ADJ	Ao-msnf	Case=Nom|Gender=Masc	12	amod	_	_
+12	праліс	праліс	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	6	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	U	_	12	punct	_	_
+14	стояла	стояти	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	навколо	навколо	ADV	R	_	14	advmod	_	_
+16	зачарована	зачарований	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|VerbForm=Part|Voice=Pass	14	acl	_	SpaceAfter=No
+17	.	.	PUNCT	U	_	14	punct	_	_
+
+# sent_id = 2
+# text = Не шелесне лист, не ворухнеться гілка.
+1	Не	не	PART	Q	Polarity=Neg	2	advmod	_	_
+2	шелесне	шелеснути	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	лист	лист	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	U	_	6	punct	_	_
+5	не	не	PART	Q	Polarity=Neg	6	advmod	_	_
+6	ворухнеться	ворухнутися	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	parataxis	_	_
+7	гілка	гілка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	6	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	U	_	2	punct	_	_
+
+# sent_id = 3
+# text = Сорокаметрові кедри, випередивши всіх у змаганні до сонця, вигнались рудими, голими стовбурами з долішнього хаосу геть, десь під небо і заступили його коронами.
+1	Сорокаметрові	сорокаметровий	ADJ	Ao--pns	Case=Nom|Number=Plur	2	amod	_	_
+2	кедри	кедр	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	U	_	4	punct	_	_
+4	випередивши	випередивши	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	11	advcl	_	_
+5	всіх	весь	PRON	Pg---ypaa	Animacy=Inan|Case=Acc|Number=Ptan|PronType=Tot	4	obj	_	_
+6	у	у	ADP	Spsl	Case=Loc	7	case	_	_
+7	змаганні	змагання	NOUN	Ncnsln	Animacy=Inan|Case=Loc|Gender=Neut	4	obl	_	_
+8	до	до	ADP	Spsg	Case=Gen	9	case	_	_
+9	сонця	сонце	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	U	_	4	punct	_	_
+11	вигнались	вигнатися	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
+12	рудими	рудий	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	SpaceAfter=No
+13	,	,	PUNCT	U	_	14	punct	_	_
+14	голими	голий	ADJ	Ao--pif	Case=Ins|Number=Plur	12	conj	_	_
+15	стовбурами	стовбур	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obj	_	_
+16	з	з	ADP	Spsg	Case=Gen	18	case	_	_
+17	долішнього	долішній	ADJ	Ao-msgf	Case=Gen|Gender=Masc	18	amod	_	_
+18	хаосу	хаос	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	11	obl	_	_
+19	геть	геть	ADV	R	_	11	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	U	_	23	punct	_	_
+21	десь	десь	ADV	Pi------r	PronType=Ind	19	advmod	_	_
+22	під	під	ADP	Spsa	Case=Acc	23	case	_	_
+23	небо	небо	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut	11	obl	_	_
+24	і	і	CCONJ	Ccs	_	25	cc	_	_
+25	заступили	заступити	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	11	conj	_	_
+26	його	воно	PRON	Pp-3n-san	Case=Acc|Gender=Neut|Person=3|PronType=Prs	25	obj	_	_
+27	коронами	корона	NOUN	Ncfpin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	U	_	11	punct	_	_
+
+# sent_id = 4
+# text = Там по них ходило сонце і пливли над ними білі хмари.
+1	Там	там	ADV	Pd------r	PronType=Dem	4	advmod	_	_
+2	по	по	ADP	Spsl	Case=Loc	3	case	_	_
+3	них	вони	PRON	Pp-3--pln	Case=Loc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+4	ходило	ходити	VERB	Vmpis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	сонце	сонце	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut	4	nsubj	_	_
+6	і	і	CCONJ	Ccs	_	7	cc	_	_
+7	пливли	пливти	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+8	над	над	ADP	Spsi	Case=Ins	9	case	_	_
+9	ними	вони	PRON	Pp-3--pin	Case=Ins|Number=Plur|Person=3|PronType=Prs	7	obl	_	_
+10	білі	білий	ADJ	Afp-pns	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	хмари	хмара	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	U	_	4	punct	_	_
+
+# sent_id = 5
+# text = Слідком за кедрами пнулися велетенські осики та інші листаті гіганти, що, бувши нижчі за кедри, творили другий ярус.
+1	Слідком	слідком	ADV	R	_	4	advmod	_	_
+2	за	за	ADP	Spsi	Case=Ins	3	case	_	_
+3	кедрами	кедр	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+4	пнулися	пнутися	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
+5	велетенські	велетенський	ADJ	Ao--pns	Case=Nom|Number=Plur	6	amod	_	_
+6	осики	осика	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+7	та	та	CCONJ	Ccs	_	10	cc	_	_
+8	інші	інший	DET	Pi----pna	Case=Nom|Number=Plur|PronType=Ind	10	det	_	_
+9	листаті	листатий	ADJ	Ao--pns	Case=Nom|Number=Plur	10	amod	_	_
+10	гіганти	гігант	NOUN	Ncmpny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	U	_	19	punct	_	_
+12	що	що	SCONJ	Css	_	19	mark	_	SpaceAfter=No
+13	,	,	PUNCT	U	_	15	punct	_	_
+14	бувши	бувши	AUX	Vapgs	Aspect=Imp|Tense=Past|VerbForm=Conv	15	cop	_	_
+15	нижчі	нижчий	ADJ	Afc-pns	Case=Nom|Degree=Cmp|Number=Plur	19	advcl	_	_
+16	за	за	ADP	Spsa	Case=Acc	17	case	_	_
+17	кедри	кедр	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	U	_	15	punct	_	_
+19	творили	творити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	acl	_	_
+20	другий	другий	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Ord	21	amod	_	_
+21	ярус	ярус	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	U	_	4	punct	_	_
+
+# sent_id = 6
+# text = Потім височенна ліщина колючого горіха, ялини, де-не-де берізки, берестина, черемха, перевиті ліанами дикого винограду та в’юнків, ішли вгору третім ярусом.
+1	Потім	потім	ADV	Pd------r	PronType=Dem	23	advmod	_	_
+2	височенна	височенний	ADJ	Ao-fsns	Case=Nom|Gender=Fem	3	amod	_	_
+3	ліщина	ліщина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	23	nsubj	_	_
+4	колючого	колючий	ADJ	Ao-msgf	Case=Gen|Gender=Masc	5	amod	_	_
+5	горіха	горіх	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	U	_	7	punct	_	_
+7	ялини	ялина	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	U	_	10	punct	_	_
+9	де-не-де	де-не-де	ADV	Pi------r	PronType=Ind	10	advmod	_	_
+10	берізки	берізка	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	U	_	12	punct	_	_
+12	берестина	берестина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	3	conj	_	SpaceAfter=No
+13	,	,	PUNCT	U	_	14	punct	_	_
+14	черемха	черемха	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	3	conj	_	SpaceAfter=No
+15	,	,	PUNCT	U	_	16	punct	_	_
+16	перевиті	перевитий	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	3	acl	_	_
+17	ліанами	ліана	NOUN	Ncfpin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	16	obj	_	_
+18	дикого	дикий	ADJ	Afpmsgf	Case=Gen|Degree=Pos|Gender=Masc	19	amod	_	_
+19	винограду	виноград	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	17	nmod	_	_
+20	та	та	CCONJ	Ccs	_	21	cc	_	_
+21	в’юнків	в’юнок	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	U	_	16	punct	_	_
+23	ішли	іти	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
+24	вгору	вгору	ADV	R	_	23	advmod	_	_
+25	третім	третій	ADJ	Mlomsi	Case=Ins|Gender=Masc|NumType=Ord	26	amod	_	_
+26	ярусом	ярус	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	U	_	23	punct	_	_
+
+# sent_id = 7
+# text = А внизу — в четвертому ярусі — суцільний хаос.
+1	А	а	CCONJ	Ccs	_	9	cc	_	_
+2	внизу	внизу	ADV	R	_	9	advmod	_	_
+3	—	—	PUNCT	U	_	6	punct	_	_
+4	в	в	ADP	Spsl	Case=Loc	6	case	_	_
+5	четвертому	четвертий	ADJ	Mlomsl	Case=Loc|Gender=Masc|NumType=Ord	6	amod	_	_
+6	ярусі	ярус	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc	9	obl	_	_
+7	—	—	PUNCT	U	_	6	punct	_	_
+8	суцільний	суцільний	ADJ	Ao-msnf	Case=Nom|Gender=Masc	9	amod	_	_
+9	хаос	хаос	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	0	root	_	Promoted=Yes|SpaceAfter=No
+10	.	.	PUNCT	U	_	9	punct	_	_
+
+# sent_id = 8
+# text = Місцями густа, мов щітка, звичайна ліщина, височенні трави і бур’яни.
+1	Місцями	місце	NOUN	Ncnpin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	obl	_	_
+2	густа	густий	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem	8	amod	_	SpaceAfter=No
+3	,	,	PUNCT	U	_	5	punct	_	_
+4	мов	мов	SCONJ	Css	_	5	mark	_	_
+5	щітка	щітка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	8	acl	_	SpaceAfter=No
+6	,	,	PUNCT	U	_	5	punct	_	_
+7	звичайна	звичайний	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem	8	amod	_	_
+8	ліщина	ліщина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	U	_	11	punct	_	_
+10	височенні	височенний	ADJ	Ao--pns	Case=Nom|Number=Plur	11	amod	_	_
+11	трави	трава	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	conj	_	_
+12	і	і	CCONJ	Ccs	_	13	cc	_	_
+13	бур’яни	бур’ян	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	U	_	8	punct	_	_
+
+# newpar
+# sent_id = 9
+# text = Внизу, по землі, слався мох, пообростав усе, що тільки можна.
+1	Внизу	внизу	ADV	R	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	U	_	4	punct	_	_
+3	по	по	ADP	Spsl	Case=Loc	4	case	_	_
+4	землі	земля	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem	6	obl	_	SpaceAfter=No
+5	,	,	PUNCT	U	_	4	punct	_	_
+6	слався	слатися	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	мох	мох	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	U	_	9	punct	_	_
+9	пообростав	пообростати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+10	усе	усе	PRON	Pg--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Tot	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	U	_	14	punct	_	_
+12	що	що	PRON	Pr--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Rel	14	obj	_	_
+13	тільки	тільки	PART	Q	_	14	discourse	_	_
+14	можна	можна	ADV	R	_	9	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	U	_	6	punct	_	_
+
+# sent_id = 10
+# text = Внизу було півтемно і вогко.
+1	Внизу	внизу	ADV	R	_	2	advmod	_	_
+2	було	бути	VERB	Vapis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	півтемно	півтемно	ADV	R	_	2	advmod	_	_
+4	і	і	CCONJ	Ccs	_	5	cc	_	_
+5	вогко	вогко	ADV	Rp	Degree=Pos	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	U	_	2	punct	_	_
+
+# sent_id = 11
+# text = Лише де-не-де проривались яскраві сонячні пасма і стояли, як мечі, уткнуті лезами в землю.
+1	Лише	лише	PART	Q	_	3	discourse	_	_
+2	де-не-де	де-не-де	ADV	Pi------r	PronType=Ind	3	advmod	_	_
+3	проривались	прориватися	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
+4	яскраві	яскравий	ADJ	Afp-pns	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+5	сонячні	сонячний	ADJ	Ao--pns	Case=Nom|Number=Plur	6	amod	_	_
+6	пасма	пасмо	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+7	і	і	CCONJ	Ccs	_	8	cc	_	_
+8	стояли	стояти	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	U	_	11	punct	_	_
+10	як	як	SCONJ	Css	_	11	mark	_	_
+11	мечі	меч	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	U	_	11	punct	_	_
+13	уткнуті	уткнутий	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	11	acl	_	_
+14	лезами	лезо	NOUN	Ncnpin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	13	obj	_	_
+15	в	в	ADP	Spsa	Case=Acc	16	case	_	_
+16	землю	земля	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	U	_	3	punct	_	_
+
+# newpar
+# sent_id = 12
+# text = Нетрі.
+1	Нетрі	нетрі	NOUN	Nc-pnn	Animacy=Inan|Case=Nom|Number=Ptan	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 13
+# text = Несходимі, незміряні.
+1	Несходимі	несходимий	ADJ	Ao--pns	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	U	_	3	punct	_	_
+3	незміряні	незміряний	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 14
+# text = Вони то спускалися схилом униз, то підіймалися знову вгору і так зі «становика» на «становик», з кряжу на кряж, як буйне рослинне море, розпливались геть десь у безвість.
+1	Вони	вони	PRON	Pp-3--pnn	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	то	то	SCONJ	Css	_	3	cc	_	_
+3	спускалися	спускатися	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
+4	схилом	схил	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc	3	obj	_	_
+5	униз	униз	ADV	R	_	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	U	_	8	punct	_	_
+7	то	то	SCONJ	Css	_	8	cc	_	_
+8	підіймалися	підійматися	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	знову	знову	ADV	R	_	8	advmod	_	_
+10	вгору	вгору	ADV	R	_	8	advmod	_	_
+11	і	і	CCONJ	Ccs	_	12	cc	_	_
+12	так	так	ADV	Pd------r	PronType=Dem	3	advmod	_	_
+13	зі	зі	ADP	Spsg	Case=Gen	15	case	_	_
+14	«	«	PUNCT	U	_	15	punct	_	SpaceAfter=No
+15	становика	становик	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Style=Odd	3	obl	_	SpaceAfter=No
+16	»	»	PUNCT	U	_	15	punct	_	_
+17	на	на	ADP	Spsa	Case=Acc	19	case	_	_
+18	«	«	PUNCT	U	_	19	punct	_	SpaceAfter=No
+19	становик	становик	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Style=Odd	3	obl	_	SpaceAfter=No
+20	»	»	PUNCT	U	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	U	_	23	punct	_	_
+22	з	з	ADP	Spsg	Case=Gen	23	case	_	_
+23	кряжу	кряж	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Style=Odd	3	obl	_	_
+24	на	на	ADP	Spsa	Case=Acc	25	case	_	_
+25	кряж	кряж	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc	3	obl	_	SpaceAfter=No
+26	,	,	PUNCT	U	_	30	punct	_	_
+27	як	як	SCONJ	Css	_	30	mark	_	_
+28	буйне	буйний	ADJ	Afpnsns	Case=Nom|Degree=Pos|Gender=Neut	30	amod	_	_
+29	рослинне	рослинний	ADJ	Ao-nsns	Case=Nom|Gender=Neut	30	amod	_	_
+30	море	море	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut	32	advcl	_	SpaceAfter=No
+31	,	,	PUNCT	U	_	30	punct	_	_
+32	розпливались	розпливатися	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	conj	_	_
+33	геть	геть	ADV	R	_	32	advmod	_	_
+34	десь	десь	ADV	Pi------r	PronType=Ind	32	advmod	_	_
+35	у	у	ADP	Spsa	Case=Acc	36	case	_	_
+36	безвість	безвість	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	32	obl	_	SpaceAfter=No
+37	.	.	PUNCT	U	_	3	punct	_	_
+
+# newpar
+# sent_id = 15
+# text = Маленький смугастий звірок, що сидів собі навпочіпки на поваленій кедрині проти сонечка і пильно, з виглядом ученого дослідника, розглядав торішній грибок, тримаючи його передніми лапками, раптом нашорошився.
+1	Маленький	маленький	ADJ	Ao-msnf	Case=Nom|Gender=Masc	3	amod	_	_
+2	смугастий	смугастий	ADJ	Ao-msnf	Case=Nom|Gender=Masc	3	amod	_	_
+3	звірок	звірок	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	32	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	U	_	6	punct	_	_
+5	що	що	SCONJ	Css	_	6	mark	_	_
+6	сидів	сидіти	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	3	acl	_	_
+7	собі	себе	PRON	Px-----dn	Case=Dat|PronType=Prs|Reflex=Yes	6	expl	_	_
+8	навпочіпки	навпочіпки	ADV	R	_	6	advmod	_	_
+9	на	на	ADP	Spsl	Case=Loc	11	case	_	_
+10	поваленій	повалений	ADJ	Ap-fslf-ep	Aspect=Perf|Case=Loc|Gender=Fem|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	кедрині	кедрина	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem	6	obl	_	_
+12	проти	проти	ADP	Spsg	Case=Gen	13	case	_	_
+13	сонечка	сонечко	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut	6	obl	_	_
+14	і	і	CCONJ	Ccs	_	22	cc	_	_
+15	пильно	пильно	ADV	Rp	Degree=Pos	22	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	U	_	18	punct	_	_
+17	з	з	ADP	Spsi	Case=Ins	18	case	_	_
+18	виглядом	вигляд	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc	22	obl	_	_
+19	ученого	учений	ADJ	Ap-msgf-pp	Aspect=Imp|Case=Gen|Gender=Masc|VerbForm=Part|Voice=Pass	20	amod	_	_
+20	дослідника	дослідник	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	U	_	22	punct	_	_
+22	розглядав	розглядати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+23	торішній	торішній	ADJ	Ao-msafn	Animacy=Inan|Case=Acc|Gender=Masc	24	amod	_	_
+24	грибок	грибок	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc	22	obj	_	SpaceAfter=No
+25	,	,	PUNCT	U	_	26	punct	_	_
+26	тримаючи	тримаючи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	22	advcl	_	_
+27	його	він	PRON	Pp-3m-san	Case=Acc|Gender=Masc|Person=3|PronType=Prs	26	obj	_	_
+28	передніми	передній	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+29	лапками	лапка	NOUN	Ncfpin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	26	iobj	_	SpaceAfter=No
+30	,	,	PUNCT	U	_	26	punct	_	_
+31	раптом	раптом	ADV	R	_	32	advmod	_	_
+32	нашорошився	нашорошитися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+33	.	.	PUNCT	U	_	32	punct	_	_
+
+# sent_id = 16
+# text = Ні.
+1	Ні	ні	INTJ	I	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 17
+# text = То так щось.
+1	То	то	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	0	root	_	_
+2	так	так	ADV	Pd------r	PronType=Dem	1	advmod	_	_
+3	щось	щось	PRON	Pi--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Ind	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 18
+# text = В нетрях панує надзвичайна тиша, як у дивному храмі дивного бога.
+1	В	в	ADP	Spsl	Case=Loc	2	case	_	_
+2	нетрях	нетрі	NOUN	Nc-pln	Animacy=Inan|Case=Loc|Number=Ptan	3	obl	_	_
+3	панує	панувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	надзвичайна	надзвичайний	ADJ	Ao-fsns	Case=Nom|Gender=Fem	5	amod	_	_
+5	тиша	тиша	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	U	_	10	punct	_	_
+7	як	як	SCONJ	Css	_	10	mark	_	_
+8	у	у	ADP	Spsl	Case=Loc	10	case	_	_
+9	дивному	дивний	ADJ	Afpmslf	Case=Loc|Degree=Pos|Gender=Masc	10	amod	_	_
+10	храмі	храм	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc	3	advcl	_	_
+11	дивного	дивний	ADJ	Afpmsgf	Case=Gen|Degree=Pos|Gender=Masc	12	amod	_	_
+12	бога	бог	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	U	_	3	punct	_	_
+
+# sent_id = 19
+# text = Лише рябок, засвистівши, пролетів з однієї височенної кедри на іншу і завмер на гілці, мов сучок, нерухомо, опустивши чубату голівку вниз і витягши шию.
+1	Лише	лише	PART	Q	_	2	discourse	_	_
+2	рябок	рябок	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	U	_	4	punct	_	_
+4	засвистівши	засвистівши	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	6	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	U	_	4	punct	_	_
+6	пролетів	пролетіти	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	з	з	ADP	Spsg	Case=Gen	8	case	_	_
+8	однієї	один	DET	Pi--f-sga	Case=Gen|Gender=Fem|PronType=Ind	10	det	_	_
+9	височенної	височенний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem	10	amod	_	_
+10	кедри	кедра	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Style=Odd	6	obl	_	_
+11	на	на	ADP	Spsa	Case=Acc	12	case	_	_
+12	іншу	інший	DET	Pi--f-saa	Case=Acc|Gender=Fem|PronType=Ind	10	det	_	_
+13	і	і	CCONJ	Ccs	_	14	cc	_	_
+14	завмер	завмерти	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+15	на	на	ADP	Spsl	Case=Loc	16	case	_	_
+16	гілці	гілка	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	U	_	19	punct	_	_
+18	мов	мов	SCONJ	Css	_	19	mark	_	_
+19	сучок	сучок	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	14	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	U	_	19	punct	_	_
+21	нерухомо	нерухомо	ADV	R	_	14	advmod	_	SpaceAfter=No
+22	,	,	PUNCT	U	_	23	punct	_	_
+23	опустивши	опустивши	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	14	advcl	_	_
+24	чубату	чубатий	ADJ	Ao-fsas	Case=Acc|Gender=Fem	25	amod	_	_
+25	голівку	голівка	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	23	obj	_	_
+26	вниз	вниз	ADV	R	_	23	advmod	_	_
+27	і	і	CCONJ	Ccs	_	28	cc	_	_
+28	витягши	витягши	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	23	conj	_	_
+29	шию	шия	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	28	obj	_	SpaceAfter=No
+30	.	.	PUNCT	U	_	6	punct	_	_
+
+# sent_id = 20
+# text = Тиша.
+1	Тиша	тиша	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	U	_	1	punct	_	_
+
+# newpar
+# sent_id = 21
+# text = На поваленій кедрині тремтіли сонячні зайчики.
+1	На	на	ADP	Spsl	Case=Loc	3	case	_	_
+2	поваленій	повалений	ADJ	Ap-fslf-ep	Aspect=Perf|Case=Loc|Gender=Fem|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	кедрині	кедрина	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem	4	obl	_	_
+4	тремтіли	тремтіти	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
+5	сонячні	сонячний	ADJ	Ao--pns	Case=Nom|Number=Plur	6	amod	_	_
+6	зайчики	зайчик	NOUN	Ncmpny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	U	_	4	punct	_	_
+
+# sent_id = 22
+# text = Смугастий звірок - бурундук почав бавитися з ними, задравши хвостика, як той драгун султана, перестрибував через них.
+1	Смугастий	смугастий	ADJ	Ao-msnf	Case=Nom|Gender=Masc	2	amod	_	_
+2	звірок	звірок	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	5	nsubj	_	_
+3	-	-	PUNCT	U	_	4	punct	_	_
+4	бурундук	бурундук	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	2	appos	_	_
+5	почав	почати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	бавитися	бавитися	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	5	xcomp	_	_
+7	з	з	ADP	Spsi	Case=Ins	8	case	_	_
+8	ними	вони	PRON	Pp-3--pin	Case=Ins|Number=Plur|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	U	_	10	punct	_	_
+10	задравши	задравши	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	5	advcl	_	_
+11	хвостика	хвостик	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	U	_	15	punct	_	_
+13	як	як	SCONJ	Css	_	15	mark	_	_
+14	той	той	DET	Pd--m-sna	Case=Nom|Gender=Masc|PronType=Dem	15	det	_	_
+15	драгун	драгун	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	10	advcl	_	_
+16	султана	султан	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	U	_	15	punct	_	_
+18	перестрибував	перестрибувати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+19	через	через	ADP	Spsa	Case=Acc	20	case	_	_
+20	них	вони	PRON	Pp-3--pan	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	U	_	5	punct	_	_
+
+# sent_id = 23
+# text = Присідав і дивився вниз.
+1	Присідав	присідати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	і	і	CCONJ	Ccs	_	3	cc	_	_
+3	дивився	дивитися	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	_
+4	вниз	вниз	ADV	R	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 24
+# text = Внизу, під кедриною, виходячи десь з бур’янів і вітролому і зникаючи знов у бур’янах та каміннім розсипу, вилась вузенька стежечка, звірина доріжка, утоптана за тисячоліття.
+1	Внизу	внизу	ADV	R	_	21	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	U	_	4	punct	_	_
+3	під	під	ADP	Spsi	Case=Ins	4	case	_	_
+4	кедриною	кедрина	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem	21	obl	_	SpaceAfter=No
+5	,	,	PUNCT	U	_	6	punct	_	_
+6	виходячи	виходячи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	21	advcl	_	_
+7	десь	десь	ADV	Pi------r	PronType=Ind	6	advmod	_	_
+8	з	з	ADP	Spsg	Case=Gen	9	case	_	_
+9	бур’янів	бур’ян	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+10	і	і	CCONJ	Ccs	_	11	cc	_	_
+11	вітролому	вітролом	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	9	conj	_	_
+12	і	і	CCONJ	Ccs	_	13	cc	_	_
+13	зникаючи	зникаючи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	6	conj	_	_
+14	знов	знов	ADV	R	_	13	advmod	_	_
+15	у	у	ADP	Spsl	Case=Loc	16	case	_	_
+16	бур’янах	бур’ян	NOUN	Ncmpln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	_
+17	та	та	CCONJ	Ccs	_	19	cc	_	_
+18	каміннім	камінний	ADJ	Ao-mslf	Case=Loc|Gender=Masc	19	amod	_	_
+19	розсипу	розсип	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	U	_	6	punct	_	_
+21	вилась	витися	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+22	вузенька	вузенький	ADJ	Ao-fsns	Case=Nom|Gender=Fem	23	amod	_	_
+23	стежечка	стежечка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	21	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	U	_	26	punct	_	_
+25	звірина	звіриний	ADJ	Ao-fsns	Case=Nom|Gender=Fem	26	amod	_	_
+26	доріжка	доріжка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	23	appos	_	SpaceAfter=No
+27	,	,	PUNCT	U	_	28	punct	_	_
+28	утоптана	утоптаний	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|VerbForm=Part|Voice=Pass	23	acl	_	_
+29	за	за	ADP	Spsa	Case=Acc	30	case	_	_
+30	тисячоліття	тисячоліття	NOUN	Ncnpan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	28	obl	_	SpaceAfter=No
+31	.	.	PUNCT	U	_	21	punct	_	_
+
+# sent_id = 25
+# text = Їх немало, таких стежечок.
+1	Їх	вони	PRON	Pp-3--pgn	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+2	немало	немало	ADV	R	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	U	_	5	punct	_	_
+4	таких	такий	DET	Pd----pga	Case=Gen|Number=Plur|PronType=Dem	5	det	_	_
+5	стежечок	стежечка	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	dislocated	_	SpaceAfter=No
+6	.	.	PUNCT	U	_	2	punct	_	_
+
+# sent_id = 26
+# text = А серед них десь й такі, на яких одвіку ще не ступала нога людська.
+1	А	а	CCONJ	Ccs	_	6	cc	_	_
+2	серед	серед	ADP	Spsg	Case=Gen	3	case	_	_
+3	них	вони	PRON	Pp-3--pgn	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	obl	_	_
+4	десь	десь	ADV	Pi------r	PronType=Ind	6	advmod	_	_
+5	й	й	PART	Q	_	6	discourse	_	_
+6	такі	такий	DET	Pd----pna	Case=Nom|Number=Plur|PronType=Dem	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	U	_	13	punct	_	_
+8	на	на	ADP	Spsl	Case=Loc	9	case	_	_
+9	яких	який	DET	Pr----pla	Case=Loc|Number=Plur|PronType=Rel	13	obl	_	_
+10	одвіку	одвіку	ADV	R	_	13	advmod	_	_
+11	ще	ще	ADV	R	_	13	advmod	_	_
+12	не	не	PART	Q	Polarity=Neg	13	advmod	_	_
+13	ступала	ступати	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	6	acl	_	_
+14	нога	нога	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	13	nsubj	_	_
+15	людська	людський	ADJ	Ao-fsns	Case=Nom|Gender=Fem	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	U	_	6	punct	_	_
+
+# newpar
+# sent_id = 27
+# text = Бурундук зіскочив на стежечку, щось поворожив, пройшовся сюди - туди і враз, тривожно цикнувши, стрімголов вискочив на кедрину, на пень, звідти на дубок.
+1	Бурундук	бурундук	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	2	nsubj	_	_
+2	зіскочив	зіскочити	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	на	на	ADP	Spsl	Case=Loc	4	case	_	_
+4	стежечку	стежечка	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	U	_	7	punct	_	_
+6	щось	щось	PRON	Pi--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Ind	7	obj	_	_
+7	поворожив	поворожити	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	U	_	9	punct	_	_
+9	пройшовся	пройтися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	сюди	сюди	ADV	Pd------r	PronType=Dem	9	advmod	_	_
+11	-	-	PUNCT	U	_	12	punct	_	_
+12	туди	туди	ADV	Pd------r	PronType=Dem	10	conj	_	_
+13	і	і	CCONJ	Ccs	_	20	cc	_	_
+14	враз	враз	ADV	R	_	20	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	U	_	17	punct	_	_
+16	тривожно	тривожно	ADV	Rp	Degree=Pos	17	advmod	_	_
+17	цикнувши	цикнувши	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	20	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	U	_	17	punct	_	_
+19	стрімголов	стрімголов	ADV	R	_	20	advmod	_	_
+20	вискочив	вискочити	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+21	на	на	ADP	Spsa	Case=Acc	22	case	_	_
+22	кедрину	кедрина	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	U	_	25	punct	_	_
+24	на	на	ADP	Spsa	Case=Acc	25	case	_	_
+25	пень	пень	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc	22	conj	_	SpaceAfter=No
+26	,	,	PUNCT	U	_	29	punct	_	_
+27	звідти	звідти	ADV	Pd------r	PronType=Dem	29	advmod	_	_
+28	на	на	ADP	Spsa	Case=Acc	29	case	_	_
+29	дубок	дубок	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc	22	conj	_	SpaceAfter=No
+30	.	.	PUNCT	U	_	2	punct	_	_
+
+# sent_id = 28
+# text = Сховався.
+1	Сховався	сховатися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 29
+# text = Визирнув.
+1	Визирнув	визирнути	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 30
+# text = Знову сховався.
+1	Знову	знову	ADV	R	_	2	advmod	_	_
+2	сховався	сховатися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	U	_	2	punct	_	_
+
+# sent_id = 31
+# text = Цикнув і завмер, виглядаючи з-за стовбура.
+1	Цикнув	цикнути	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	і	і	CCONJ	Ccs	_	3	cc	_	_
+3	завмер	завмерти	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	U	_	5	punct	_	_
+5	виглядаючи	виглядаючи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	1	advcl	_	_
+6	з-за	з-за	ADP	Spcg	Case=Gen	7	case	_	_
+7	стовбура	стовбур	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 32
+# text = Ні таки, він не помилився зразу.
+1	Ні	ні	INTJ	I	_	6	discourse	_	_
+2	таки	таки	PART	Q	_	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	U	_	6	punct	_	_
+4	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Person=3|PronType=Prs	6	nsubj	_	_
+5	не	не	PART	Q	Polarity=Neg	6	advmod	_	_
+6	помилився	помилитися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	зразу	зразу	ADV	R	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	U	_	6	punct	_	_
+
+# sent_id = 33
+# text = Щось таки добирається, щось іде стежечкою.
+1	Щось	щось	PRON	Pi--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Ind	3	nsubj	_	_
+2	таки	таки	PART	Q	_	3	discourse	_	_
+3	добирається	добиратися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	U	_	6	punct	_	_
+5	щось	щось	PRON	Pi--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Ind	6	nsubj	_	_
+6	іде	іти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+7	стежечкою	стежечка	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem	6	obl	_	SpaceAfter=No
+8	.	.	PUNCT	U	_	3	punct	_	_
+
+# sent_id = 34
+# text = Шелеснула суха бирка.
+1	Шелеснула	шелеснути	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	суха	сухий	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem	3	amod	_	_
+3	бирка	бирка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 35
+# text = Тріснула гілка.
+1	Тріснула	тріснути	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	гілка	гілка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	1	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 36
+# text = Посипались камінці і покотились десь, покотились униз.
+1	Посипались	посипатися	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
+2	камінці	камінець	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+3	і	і	CCONJ	Ccs	_	4	cc	_	_
+4	покотились	покотитися	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	1	conj	_	_
+5	десь	десь	ADV	Pi------r	PronType=Ind	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	U	_	7	punct	_	_
+7	покотились	покотитися	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	4	conj	_	_
+8	униз	униз	ADV	R	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 37
+# text = Щось важко, помалу йшло крутою стежкою на «становик».
+1	Щось	щось	PRON	Pi--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Ind	5	nsubj	_	_
+2	важко	важко	ADV	Rp	Degree=Pos	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	U	_	4	punct	_	_
+4	помалу	помалу	ADV	R	_	2	conj	_	_
+5	йшло	йти	VERB	Vmpis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	крутою	крутий	ADJ	Afpfsif	Case=Ins|Degree=Pos|Gender=Fem	7	amod	_	_
+7	стежкою	стежка	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem	5	obl	_	_
+8	на	на	ADP	Spsa	Case=Acc	10	case	_	_
+9	«	«	PUNCT	U	_	10	punct	_	SpaceAfter=No
+10	становик	становик	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Style=Odd	5	obl	_	SpaceAfter=No
+11	»	»	PUNCT	U	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	U	_	5	punct	_	_
 
