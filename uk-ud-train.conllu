@@ -17,7 +17,7 @@
 13	,	,	PUNCT	U	_	12	punct	_	_
 14	стояла	стояти	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 15	навколо	навколо	ADV	R	_	14	advmod	_	_
-16	зачарована	зачарований	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|VerbForm=Part|Voice=Pass	14	acl	_	SpaceAfter=No
+16	зачарована	зачарований	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|VerbForm=Part|Voice=Pass	14	advcl	_	SpaceAfter=No
 17	.	.	PUNCT	U	_	14	punct	_	_
 
 # sent_id = 2
@@ -226,12 +226,12 @@
 # sent_id = 14
 # text = Вони то спускалися схилом униз, то підіймалися знову вгору і так зі «становика» на «становик», з кряжу на кряж, як буйне рослинне море, розпливались геть десь у безвість.
 1	Вони	вони	PRON	Pp-3--pnn	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
-2	то	то	SCONJ	Css	_	3	cc	_	_
+2	то	то	CCONJ	Ccs	_	3	cc	_	_
 3	спускалися	спускатися	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 4	схилом	схил	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc	3	obj	_	_
 5	униз	униз	ADV	R	_	3	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	U	_	8	punct	_	_
-7	то	то	SCONJ	Css	_	8	cc	_	_
+7	то	то	CCONJ	Ccs	_	8	cc	_	_
 8	підіймалися	підійматися	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	conj	_	_
 9	знову	знову	ADV	R	_	8	advmod	_	_
 10	вгору	вгору	ADV	R	_	8	advmod	_	_
@@ -459,7 +459,7 @@
 3	них	вони	PRON	Pp-3--pgn	Case=Gen|Number=Plur|Person=3|PronType=Prs	6	obl	_	_
 4	десь	десь	ADV	Pi------r	PronType=Ind	6	advmod	_	_
 5	й	й	PART	Q	_	6	discourse	_	_
-6	такі	такий	DET	Pd----pna	Case=Nom|Number=Plur|PronType=Dem	0	root	_	SpaceAfter=No
+6	такі	такий	DET	Pd----pna	Case=Nom|Number=Plur|PronType=Dem	0	root	_	Promoted=Yes|SpaceAfter=No
 7	,	,	PUNCT	U	_	13	punct	_	_
 8	на	на	ADP	Spsl	Case=Loc	9	case	_	_
 9	яких	який	DET	Pr----pla	Case=Loc|Number=Plur|PronType=Rel	13	obl	_	_

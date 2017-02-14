@@ -28,12 +28,12 @@
 24	свою	свій	DET	Ppp-f-saa	Case=Acc|Gender=Fem|Poss=Yes|PronType=Prs|Reflex=Yes	25	det	_	_
 25	оцінку	оцінка	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	23	obj	_	SpaceAfter=No
 26	,	,	PUNCT	U	_	30	punct	_	_
-27	яку	який	DET	Pr--f-saa	Case=Acc|Gender=Fem|PronType=Rel	30	mark	_	_
+27	яку	який	DET	Pr--f-saa	Case=Acc|Gender=Fem|PronType=Rel	30	obj	_	_
 28	Марія	Марія	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv	30	nsubj	_	_
 29	Василівна	Василівна	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Pat	28	flat:name	_	_
-30	виставляла	виставляти	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	23	acl	_	_
+30	виставляла	виставляти	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	25	acl	_	_
 31	кожній	кожний	DET	Pg--f-sda	Case=Dat|Gender=Fem|PronType=Tot	32	det	_	_
-32	особі	особа	NOUN	Ncfsdy	Animacy=Anim|Case=Dat|Gender=Fem	30	obj	_	_
+32	особі	особа	NOUN	Ncfsdy	Animacy=Anim|Case=Dat|Gender=Fem	30	iobj	_	_
 33	на	на	ADP	Spsl	Case=Loc	35	case	_	_
 34	цій	цей	DET	Pd--f-sla	Case=Loc|Gender=Fem|PronType=Dem	35	det	_	_
 35	землі	земля	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem	32	nmod	_	_
@@ -100,7 +100,7 @@
 22	чарочку	чарочка	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	21	obj	_	_
 23	коньяку	коньяк	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	22	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	U	_	26	punct	_	_
-25	який	який	DET	Pr--m-sna	Case=Nom|Gender=Masc|PronType=Rel	26	mark	_	_
+25	який	який	DET	Pr--m-sna	Case=Nom|Gender=Masc|PronType=Rel	26	nsubj	_	_
 26	прогріває	прогрівати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl	_	_
 27	горло	горло	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut	26	obj	_	_
 28	під	під	ADP	Spsa	Case=Acc	29	case	_	_
@@ -164,7 +164,7 @@
 19	”	”	PUNCT	U	_	15	punct	_	_
 20	й	й	CCONJ	Ccs	_	21	cc	_	_
 21	ставала	ставати	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	_
-22	тією	той	DET	Pd--f-sia	Case=Ins|Gender=Fem|PronType=Dem	21	obj	_	SpaceAfter=No
+22	тією	той	DET	Pd--f-sia	Case=Ins|Gender=Fem|PronType=Dem	21	obj	_	Promoted=Yes|SpaceAfter=No
 23	,	,	PUNCT	U	_	26	punct	_	_
 24	кого	хто	PRON	Pr--mysan	Animacy=Anim|Case=Acc|Gender=Masc|PronType=Rel	26	obj	_	_
 25	треба	треба	ADV	R	_	26	advmod	_	_
@@ -183,7 +183,7 @@
 7	бегонії	бегонія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem	15	obl	_	_
 8	плямистої	плямистий	ADJ	Ao-fsgf	Case=Gen|Gender=Fem	7	amod	_	_
 9	(	(	PUNCT	U	_	10	punct	_	SpaceAfter=No
-10	Begonia	Begonia	X	X	Foreign=Yes	7	appos	_	_
+10	Begonia	Begonia	NOUN	Nc----	Foreign=Yes	7	appos	_	_
 11	maculata	maculata	X	X	Foreign=Yes	10	flat:foreign	_	SpaceAfter=No
 12	)	)	PUNCT	U	_	10	punct	_	_
 13	Марія	Марія	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv	15	nsubj	_	_
@@ -193,7 +193,7 @@
 17	вистиглий	вистиглий	ADJ	Ap-msafnea	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|VerbForm=Part|Voice=Act	23	amod	_	_
 18	кминовий	кминовий	ADJ	Ao-msafn	Animacy=Inan|Case=Acc|Gender=Masc	23	amod	_	_
 19	(	(	PUNCT	U	_	20	punct	_	SpaceAfter=No
-20	Carum	Carum	X	X	Foreign=Yes	18	appos	_	_
+20	Carum	Carum	NOUN	Nc----	Foreign=Yes	18	appos	_	_
 21	carvi	carvi	X	X	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
 22	)	)	PUNCT	U	_	20	punct	_	_
 23	чайок	чайок	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc	15	obj	_	_
@@ -235,7 +235,7 @@
 22	часточка	часточка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	19	advcl	_	_
 23	папайї	папайя	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem	22	nmod	_	_
 24	(	(	PUNCT	U	_	25	punct	_	SpaceAfter=No
-25	Carica	Carica	X	X	Foreign=Yes	22	parataxis	_	_
+25	Carica	Carica	NOUN	Nc----	Foreign=Yes	22	parataxis	_	_
 26	papaya	papaya	X	X	Foreign=Yes	25	flat:foreign	_	SpaceAfter=No
 27	)	)	PUNCT	U	_	25	punct	_	SpaceAfter=No
 28	,	,	PUNCT	U	_	22	punct	_	_
@@ -315,7 +315,7 @@
 7	,	,	PUNCT	U	_	10	punct	_	_
 8	до	до	ADP	Spsg	Case=Gen	9	case	_	_
 9	чого	що	PRON	Pi--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|PronType=Ind	10	obl	_	_
-10	малий	малий	NOUN	Ao-msnf	Animacy=Anim|Case=Nom|Gender=Masc	3	conj	_	_
+10	малий	малий	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc	3	conj	_	_
 11	і	і	CCONJ	Ccs	_	12	cc	_	_
 12	страшний	страшний	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc	10	conj	_	_
 13	(	(	PUNCT	U	_	15	punct	_	SpaceAfter=No
@@ -386,7 +386,7 @@
 9	,	,	PUNCT	U	_	13	punct	_	_
 10	що	що	SCONJ	Css	_	13	mark	_	_
 11	не	не	PART	Q	Polarity=Neg	12	advmod	_	_
-12	тільки	тільки	PART	Q	_	13	advmod	_	_
+12	тільки	тільки	PART	Q	_	13	discourse	_	_
 13	виб’єш	вибити	VERB	Vmeif2s	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	3	advcl	_	_
 14	собі	себе	PRON	Px-----dn	Case=Dat|PronType=Prs|Reflex=Yes	13	iobj	_	_
 15	два	два	NUM	Mlcmsa	Case=Acc|Gender=Masc|NumType=Card	17	nummod	_	_
@@ -443,7 +443,7 @@
 8	як	як	SCONJ	Css	_	9	mark	_	_
 9	гюрзу	гюрза	NOUN	Ncfsay	Animacy=Anim|Case=Acc|Gender=Fem	3	advcl	_	_
 10	(	(	PUNCT	U	_	11	punct	_	SpaceAfter=No
-11	Macrovipera	Macrovipera	X	X	Foreign=Yes	9	appos	_	_
+11	Macrovipera	Macrovipera	NOUN	Nc----	Foreign=Yes	9	appos	_	_
 12	lebetina	lebetina	X	X	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
 13	)	)	PUNCT	U	_	11	punct	_	_
 14	на	на	ADP	Spsl	Case=Loc	15	case	_	_
@@ -495,7 +495,7 @@
 19	у	у	ADP	Spsa	Case=Acc	20	case	_	_
 20	коня	кінь	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc	18	nmod	_	_
 21	(	(	PUNCT	U	_	22	punct	_	SpaceAfter=No
-22	Equus	Equus	X	X	Foreign=Yes	20	appos	_	SpaceAfter=No
+22	Equus	Equus	NOUN	Nc----	Foreign=Yes	20	appos	_	SpaceAfter=No
 23	)	)	PUNCT	U	_	22	punct	_	SpaceAfter=No
 24	,	,	PUNCT	U	_	18	punct	_	_
 25	врізався	врізатися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
@@ -518,19 +518,19 @@
 7	не	не	PART	Q	Polarity=Neg	8	advmod	_	_
 8	спіткнулася	спіткнутися	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
 9	,	,	PUNCT	U	_	14	punct	_	_
-10	бо	бо	SCONJ	Css	_	14	cc	_	_
+10	бо	бо	SCONJ	Css	_	14	mark	_	_
 11	це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	14	nsubj	_	_
 12	ж	ж	PART	Q	_	11	discourse	_	_
-13	була	бути	AUX	Vapis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+13	була	бути	AUX	Vapis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	_
 14	людина	людина	NOUN	Ncfsny	Animacy=Anim|Case=Nom|Gender=Fem	4	ccomp	_	_
 15	-	-	PUNCT	U	_	16	punct	_	_
 16	курган	курган	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	14	appos	_	SpaceAfter=No
-17	:	:	PUNCT	U	_	4	punct	_	_
+17	:	:	PUNCT	U	_	19	punct	_	_
 18	завучка	завучка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	19	nsubj	_	_
 19	пережила	пережити	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
 20	в	в	ADP	Spsl	Case=Loc	21	case	_	_
 21	школі	школа	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem	19	obl	_	_
-22	понад	понад	ADP	Spsa	Case=Acc	24	advmod	_	_
+22	понад	понад	ADP	Spsa	Case=Acc	24	case	_	_
 23	сто	сто	NUM	Mlc-pa	Case=Acc|Number=Plur|NumType=Card	24	nummod:gov	_	_
 24	перевірок	перевірка	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obj	_	_
 25	усіх	увесь	DET	Pg----pga	Case=Gen|Number=Plur|PronType=Tot	26	det	_	_
@@ -577,10 +577,10 @@
 2	від	від	ADP	Spsg	Case=Gen	3	case	_	_
 3	люті	лють	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem	1	obl	_	SpaceAfter=No
 4	,	,	PUNCT	U	_	6	punct	_	_
-5	мов	мов	SCONJ	Css	_	6	cc	_	_
+5	мов	мов	SCONJ	Css	_	6	mark	_	_
 6	мурашка	мурашка	NOUN	Ncfsny	Animacy=Anim|Case=Nom|Gender=Fem	1	advcl	_	_
 7	(	(	PUNCT	U	_	8	punct	_	SpaceAfter=No
-8	Formica	Formica	X	X	Foreign=Yes	6	appos	_	SpaceAfter=No
+8	Formica	Formica	NOUN	Nc----	Foreign=Yes	6	appos	_	SpaceAfter=No
 9	)	)	PUNCT	U	_	8	punct	_	_
 10	під	під	ADP	Spsi	Case=Ins	11	case	_	_
 11	лінзою	лінза	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem	6	nmod	_	_
@@ -615,9 +615,9 @@
 11	.	.	PUNCT	U	_	2	punct	_	_
 
 # sent_id = 62
-# text = А малий, у котрого від страху поперегукувалися всі пломби верхнього ряду зубів з товаришами з ряду нижнього, ніби врятований потопельник, виплюнув з легенів чорну воду із зеленим намулом:
+# text = А малий, у котрого від страху поперегукувалися всі пломби верхнього ряду зубів з товаришами з ряду нижнього, ніби врятований потопельник, виплюнув з легенів чорну воду із зеленим намулом: — Марія Василівна померла!
 1	А	а	CCONJ	Ccs	_	24	cc	_	_
-2	малий	малий	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc	24	nsubj	_	SpaceAfter=No
+2	малий	малий	NOUN	Ao-msnf	Animacy=Anim|Case=Nom|Gender=Masc	24	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	U	_	8	punct	_	_
 4	у	у	ADP	Spsg	Case=Gen	5	case	_	_
 5	котрого	котрий	DET	Pr--m-sga	Case=Gen|Gender=Masc|PronType=Rel	8	obl	_	_
@@ -647,16 +647,12 @@
 29	із	із	ADP	Spsi	Case=Ins	31	case	_	_
 30	зеленим	зелений	ADJ	Afpmsif	Case=Ins|Degree=Pos|Gender=Masc	31	amod	_	_
 31	намулом	намул	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc	28	nmod	_	SpaceAfter=No
-32	:	:	PUNCT	U	_	24	punct	_	_
-
-# newpar
-# sent_id = 63
-# text = — Марія Василівна померла!
-1	—	—	PUNCT	U	_	4	punct	_	_
-2	Марія	Марія	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv	4	nsubj	_	_
-3	Василівна	Василівна	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Pat	2	flat:name	_	_
-4	померла	померти	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	!	!	PUNCT	U	_	4	punct	_	_
+32	:	:	PUNCT	U	_	36	punct	_	_
+33	—	—	PUNCT	U	_	36	punct	_	NewPar=Yes
+34	Марія	Марія	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv	36	nsubj	_	_
+35	Василівна	Василівна	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Pat	34	flat:name	_	_
+36	померла	померти	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	24	parataxis	_	SpaceAfter=No
+37	!	!	PUNCT	U	_	24	punct	_	_
 
 # newdoc
 # newpar
@@ -828,7 +824,7 @@
 4	алкоголю	алкоголь	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	3	obl	_	SpaceAfter=No
 5	,	,	PUNCT	U	_	7	punct	_	_
 6	що	що	SCONJ	Css	_	7	mark	_	_
-7	перебрали	перебрати	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	acl	_	_
+7	перебрали	перебрати	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	1	acl	_	_
 8	міру	міра	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	7	obj	_	_
 9	й	й	CCONJ	Ccs	_	10	cc	_	_
 10	спинилися	спинитися	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	7	conj	_	_
@@ -1014,7 +1010,7 @@
 13	стрекіт	стрекіт	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc	12	obj	_	SpaceAfter=No
 14	,	,	PUNCT	U	_	12	punct	_	_
 15	наче	наче	SCONJ	Css	_	16	mark	_	_
-16	гострить	гострити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	appos	_	_
+16	гострить	гострити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 17	одну	один	DET	Pi--f-saa	Case=Acc|Gender=Fem|PronType=Ind	16	obj	_	Promoted=Yes
 18	об	об	ADP	Spsa	Case=Acc	19	case	_	_
 19	одну	один	DET	Pi--f-saa	Case=Acc|Gender=Fem|PronType=Ind	16	obl	_	Promoted=Yes
@@ -1316,7 +1312,7 @@
 18	стильово	стильово	ADV	R	_	19	advmod	_	_
 19	одіті	одітий	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|Style=Rare|VerbForm=Part|Voice=Pass	9	acl	_	_
 20	і	і	CCONJ	Ccs	_	22	cc	_	_
-21	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Rel	22	mark	_	_
+21	що	що	SCONJ	Css	_	22	mark	_	_
 22	вміють	вміти	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
 23	добре	добре	ADV	Rp	Degree=Pos	24	advmod	_	_
 24	говорити	говорити	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	22	xcomp	_	_
@@ -1452,7 +1448,7 @@
 
 # sent_id = 424
 # text = Хоч наше вікно важко було зробити темним.
-1	Хоч	хоч	SCONJ	Css	_	6	cc	_	_
+1	Хоч	хоч	SCONJ	Css	_	6	mark	_	_
 2	наше	наш	DET	Ppp1n-saa	Case=Acc|Gender=Neut|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
 3	вікно	вікно	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut	6	obj	_	_
 4	важко	важко	ADV	Rp	Degree=Pos	6	advmod	_	_
@@ -1870,7 +1866,7 @@
 
 # sent_id = 457
 # text = Хіба що перед святами любили подивитися на вчительок і комсомольців з усіх шкіл міста, які виглядали своїх учнів, тримаючи напоготові олівці і блокноти.
-1	Хіба	хіба	SCONJ	Css	_	6	cc	_	_
+1	Хіба	хіба	SCONJ	Css	_	6	mark	_	_
 2	що	що	PART	Q	_	1	discourse	_	_
 3	перед	перед	ADP	Spsi	Case=Ins	4	case	_	_
 4	святами	свято	NOUN	Ncnpin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	obl	_	_
@@ -1941,7 +1937,7 @@
 2	просто	просто	PART	Q	_	3	discourse	_	_
 3	хотіла	хотіти	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	U	_	13	punct	_	_
-5	щоби	щоби	SCONJ	Css	_	13	cc	_	_
+5	щоби	щоби	SCONJ	Css	_	13	mark	_	_
 6	АПП	АПП	PROPN	Y	Abbr=Yes|Animacy=Anim|Case=Nom|Gender=Fem	13	nsubj	_	_
 7	(	(	PUNCT	U	_	10	punct	_	SpaceAfter=No
 8	так	так	ADV	Pd------r	PronType=Dem	10	advmod	_	_
@@ -1988,7 +1984,7 @@
 4	ми	ми	PRON	Pp-1-ypnn	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	бачили	бачити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	U	_	9	punct	_	_
-7	як	як	SCONJ	Css	_	9	cc	_	_
+7	як	як	SCONJ	Css	_	9	mark	_	_
 8	завучка	завучка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	9	nsubj	_	_
 9	тягне	тягнути	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 10	за	за	ADP	Spsa	Case=Acc	11	case	_	_
@@ -2078,7 +2074,7 @@
 
 # sent_id = 469
 # text = Хіба про сталінські репресії всіляких кончєних героїв громадянської війни.
-1	Хіба	хіба	SCONJ	Css	_	4	cc	_	_
+1	Хіба	хіба	SCONJ	Css	_	4	mark	_	_
 2	про	про	ADP	Spsa	Case=Acc	4	case	_	_
 3	сталінські	сталінський	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	4	amod	_	_
 4	репресії	репресія	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	0	root	_	Promoted=Yes
@@ -2143,7 +2139,7 @@
 9	не	не	PART	Q	Polarity=Neg	10	advmod	_	_
 10	витримуючи	витримуючи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	4	advcl	_	_
 11	звуків	звук	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obj	_	_
-12	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Person=3|PronType=Prs	11	amod	_	_
+12	його	його	DET	Ppp3n-sga	Case=Gen|Gender=Neut|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
 13	дихання	дихання	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut	11	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	U	_	4	punct	_	_
 
@@ -2403,7 +2399,7 @@
 9	найпізніші	найпізніший	ADJ	Afs-pasn	Animacy=Inan|Case=Acc|Degree=Sup|Number=Plur	10	amod	_	_
 10	години	година	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
 11	,	,	PUNCT	U	_	14	punct	_	_
-12	бо	бо	SCONJ	Css	_	14	cc	_	_
+12	бо	бо	SCONJ	Css	_	14	mark	_	_
 13	ми	ми	PRON	Pp-1-ypnn	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 14	жили	жити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	7	advcl	_	_
 15	навпроти	навпроти	ADV	R	_	14	advmod	_	SpaceAfter=No
@@ -2558,7 +2554,7 @@
 
 # sent_id = 505
 # text = Як тільки випогоджувалося, ми лізли на дах і смолили шпари.
-1	Як	як	SCONJ	Css	_	3	cc	_	_
+1	Як	як	SCONJ	Css	_	3	mark	_	_
 2	тільки	тільки	PART	Q	_	1	fixed	_	_
 3	випогоджувалося	випогоджуватися	VERB	Vmpis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	U	_	3	punct	_	_
@@ -3190,7 +3186,7 @@
 15	ножі	ніж	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
 16	,	,	PUNCT	U	_	17	punct	_	_
 17	мали	мати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	4	parataxis	_	_
-18	багато	багато	ADV	Rp	Degree=Pos	19	det:numgov	_	_
+18	багато	багато	DET	Mlc-pa	Case=Acc|Number=Plur|NumType=Card|PronType=Ind	19	det:numgov	_	_
 19	сиґарет	сиґарета	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
 20	,	,	PUNCT	U	_	22	punct	_	_
 21	бо	бо	SCONJ	Css	_	22	mark	_	_
@@ -3273,7 +3269,7 @@
 3	барі	бар	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc	6	obl	_	_
 4	ми	ми	PRON	Pp-1-ypnn	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 5	були	бути	AUX	Vapis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	cop	_	_
-6	єдиними	єдиний	ADJ	Ao--pif	Case=Ins|Number=Plur	0	root	_	SpaceAfter=No
+6	єдиними	єдиний	ADJ	Ao--pif	Case=Ins|Number=Plur	0	root	_	Promoted=Yes|SpaceAfter=No
 7	,	,	PUNCT	U	_	10	punct	_	_
 8	хто	хто	PRON	Pr--mysnn	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Rel	10	nsubj	_	_
 9	голосно	голосно	ADV	Rp	Degree=Pos	10	advmod	_	_
@@ -3337,7 +3333,7 @@
 12	таким	такий	DET	Pd--n-sia	Case=Ins|Gender=Neut|PronType=Dem	11	det	_	SpaceAfter=No
 13	,	,	PUNCT	U	_	15	punct	_	_
 14	як	як	SCONJ	Css	_	15	mark	_	_
-15	брат	брат	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	12	acl	_	SpaceAfter=No
+15	брат	брат	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	11	acl	_	SpaceAfter=No
 16	.	.	PUNCT	U	_	4	punct	_	_
 
 # sent_id = 551
@@ -3826,7 +3822,7 @@
 
 # sent_id = 585
 # text = Залежно від переміщення лінії фронту.
-1	Залежно	залежно	ADP	Spsg	Case=Gen	0	root	_	_
+1	Залежно	залежно	ADV	R	_	0	root	_	_
 2	від	від	ADP	Spsg	Case=Gen	3	case	_	_
 3	переміщення	переміщення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut	1	obl	_	_
 4	лінії	лінія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem	3	nmod	_	_
@@ -3929,9 +3925,9 @@
 2	почав	почати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	істерику	істерика	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	2	obj	_	_
 4	—	—	PUNCT	U	_	11	punct	_	_
-5	ю	ю	X	X	Foreign=Yes	11	vocative	_	SpaceAfter=No
+5	ю	ю	PRON	Pp-2-ys-n	Animacy=Anim|Foreign=Yes|Number=Sing|Person=2|PronType=Prs	11	vocative	_	SpaceAfter=No
 6	,	,	PUNCT	U	_	8	punct	_	_
-7	факінґ	факінґ	ADJ	Ao-msnf	Case=Nom|Gender=Masc	8	amod	_	_
+7	факінґ	факінґ	ADJ	Ao-msnf	Case=Nom|Foreign=Yes|Gender=Masc	8	amod	_	_
 8	лама	лама	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	5	appos	_	SpaceAfter=No
 9	,	,	PUNCT	U	_	8	punct	_	_
 10	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
@@ -4285,12 +4281,12 @@
 3	бейсболці	бейсболка	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem	5	obl	_	_
 4	був	бути	AUX	Vapis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	_
 5	приклеєний	приклеєний	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|VerbForm=Part|Voice=Pass	0	root	_	_
-6	папірчик	папірчик	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	5	nsubj	_	_
+6	папірчик	папірчик	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	5	nsubj:pass	_	_
 7	з	з	ADP	Spsi	Case=Ins	8	case	_	_
 8	написом	напис	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc	6	nmod	_	_
 9	латинкою	латинка	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem	8	nmod	_	_
-10	—	—	PUNCT	U	_	18	punct	_	_
-11	дорогая	дорогий	NOUN	Ao-fsnf	Animacy=Anim|Case=Nom|Gender=Fem|Variant=Uncontr	18	vocative	_	SpaceAfter=No
+10	—	—	PUNCT	U	_	11	punct	_	_
+11	дорогая	дорогий	NOUN	Ao-fsnf	Animacy=Anim|Case=Nom|Gender=Fem|Variant=Uncontr	8	appos	_	SpaceAfter=No
 12	,	,	PUNCT	U	_	13	punct	_	_
 13	під’їжджаючи	під’їжджаючи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	18	advcl	_	_
 14	до	до	ADP	Spsg	Case=Gen	15	case	_	_
@@ -4338,7 +4334,7 @@
 
 # sent_id = 616
 # text = Хоча тоді майже всі їздили підміськими поїздами без квитків.
-1	Хоча	хоча	SCONJ	Css	_	5	cc	_	_
+1	Хоча	хоча	SCONJ	Css	_	5	mark	_	_
 2	тоді	тоді	ADV	Pd------r	PronType=Dem	5	advmod	_	_
 3	майже	майже	ADV	R	_	4	advmod	_	_
 4	всі	весь	PRON	Pg---ypna	Animacy=Anim|Case=Nom|Number=Ptan|PronType=Tot	5	nsubj	_	_
@@ -4371,7 +4367,7 @@
 
 # sent_id = 620
 # text = Коли я давав їм по скибочці чорного хліба у вагоні, то на нас усі дивилися як на святу родину.
-1	Коли	коли	SCONJ	Css	_	3	cc	_	_
+1	Коли	коли	SCONJ	Css	_	3	mark	_	_
 2	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	давав	давати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
 4	їм	вони	PRON	Pp-3--pdn	Case=Dat|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
@@ -4387,7 +4383,7 @@
 14	нас	ми	PRON	Pp-1-ypan	Animacy=Anim|Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obl	_	_
 15	усі	увесь	DET	Pg----pna	Case=Nom|Number=Plur|PronType=Tot	16	nsubj	_	Promoted=Yes
 16	дивилися	дивитися	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
-17	як	як	SCONJ	Css	_	20	cc	_	_
+17	як	як	SCONJ	Css	_	20	mark	_	_
 18	на	на	ADP	Spsa	Case=Acc	20	case	_	_
 19	святу	святий	ADJ	Afpfsas	Case=Acc|Degree=Pos|Gender=Fem	20	amod	_	_
 20	родину	родина	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	16	advcl	_	SpaceAfter=No
@@ -4965,7 +4961,7 @@
 # sent_id = 664
 # text = Він був зовсім молодий і мав двох маленьких доньок.
 1	Він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	nsubj	_	_
-2	був	бути	VERB	Vapis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	4	cc	_	_
+2	був	бути	AUX	Vapis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	_
 3	зовсім	зовсім	ADV	R	_	4	advmod	_	_
 4	молодий	молодий	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc	0	root	_	_
 5	і	і	CCONJ	Ccs	_	6	cc	_	_
@@ -6809,7 +6805,7 @@
 5	означення	означення	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 6	міст	місто	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
 7	—	—	PUNCT	U	_	8	punct	_	_
-8	город	город	NOUN	Ncms-n	Animacy=Inan|Foreign=Yes|Gender=Masc|Number=Sing	5	appos	_	_
+8	город	город	NOUN	Nc-snn	Animacy=Inan|Case=Nom|Foreign=Yes|Number=Sing	5	appos	_	_
 9	дождєй	дождєй	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Foreign=Yes|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	U	_	11	punct	_	_
 11	блядєй	блядєй	NOUN	Ncfpgy	Animacy=Anim|Case=Gen|Foreign=Yes|Gender=Fem|Number=Plur	9	conj	_	_
@@ -7218,7 +7214,7 @@
 # sent_id = 799
 # text = Крім світлин, я крав рогалики у хлібній крамниці.
 1	Крім	крім	ADP	Spsg	Case=Gen	2	case	_	_
-2	світлин	світлина	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+2	світлин	світлина	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	U	_	2	punct	_	_
 4	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	крав	красти	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -7557,7 +7553,7 @@
 15	довгий	довгий	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc	13	conj	_	_
 16	чи	чи	CCONJ	Ccs	_	17	cc	_	_
 17	грубий	грубий	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc	13	conj	_	SpaceAfter=No
-18	,	,	PUNCT	U	_	20	cc	_	_
+18	,	,	PUNCT	U	_	20	punct	_	_
 19	але	але	CCONJ	Ccs	_	20	cc	_	_
 20	короткий	короткий	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc	17	conj	_	SpaceAfter=No
 21	.	.	PUNCT	U	_	3	punct	_	_
@@ -9131,8 +9127,8 @@
 2	сказав	сказати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	—	—	PUNCT	U	_	6	punct	_	_
 4	а	а	PART	Q	_	6	discourse	_	_
-5	вдруг	вдруг	X	X	Foreign=Yes	6	advmod	_	_
-6	крушеніє	крушеніє	X	X	Foreign=Yes	2	parataxis	_	Promoted=Yes|SpaceAfter=No
+5	вдруг	вдруг	ADV	R	Foreign=Yes	6	advmod	_	_
+6	крушеніє	крушеніє	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Foreign=Yes|Gender=Neut	2	parataxis	_	Promoted=Yes|SpaceAfter=No
 7	.	.	PUNCT	U	_	2	punct	_	_
 
 # sent_id = 931
@@ -9912,7 +9908,7 @@
 6	,	,	PUNCT	U	_	7	punct	_	_
 7	примусивши	примусивши	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	2	advcl	_	_
 8	кожного	кожний	DET	Pg--mysaa	Animacy=Anim|Case=Acc|Gender=Masc|PronType=Tot	7	obj	_	Promoted=Yes
-9	платити	платити	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	7	ccomp	_	_
+9	платити	платити	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	7	xcomp	_	_
 10	йому	він	PRON	Pp-3m-sdn	Case=Dat|Gender=Masc|Person=3|PronType=Prs	9	iobj	_	_
 11	щотижня	щотижня	ADV	R	_	9	advmod	_	_
 12	двадцять	двадцять	NUM	Mlc-pa	Case=Acc|Number=Plur|NumType=Card	13	nummod:gov	_	_
@@ -10094,7 +10090,7 @@
 1	Охоронці	охоронець	NOUN	Ncmpny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	пропускали	пропускати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	_
 3	мене	я	PRON	Pp-1-ysan	Animacy=Anim|Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
-4	,	,	PUNCT	U	_	7	acl	_	_
+4	,	,	PUNCT	U	_	7	punct	_	_
 5	коли	коли	SCONJ	Css	_	7	mark	_	_
 6	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 7	йшов	йти	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
@@ -10103,7 +10099,7 @@
 10	потяга	потяг	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	7	obl	_	_
 11	з	з	ADP	Spsg	Case=Gen	12	case	_	_
 12	Франківська	Франківськ	PROPN	Npmsgn	Animacy=Inan|Case=Gen|Gender=Masc	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	U	_	14	acl	_	_
+13	,	,	PUNCT	U	_	14	punct	_	_
 14	несучи	несучи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	7	advcl	_	_
 15	двох	двоє	NUM	Mlc-pa	Case=Acc|Number=Plur|NumType=Card	17	nummod	_	_
 16	малих	малий	ADJ	Afp-pafy	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
@@ -10542,7 +10538,7 @@
 27	інших	інший	DET	Pi----pla	Case=Loc|Number=Plur|PronType=Ind	30	det	_	_
 28	рівних	рівний	ADJ	Afp-plf	Case=Loc|Degree=Pos|Number=Plur	30	amod	_	_
 29	“	“	PUNCT	U	_	30	punct	_	SpaceAfter=No
-30	дано	дати	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	24	obl	_	Promoted=Yes|SpaceAfter=No
+30	дано	дати	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	24	nmod	_	SpaceAfter=No
 31	”	”	PUNCT	U	_	30	punct	_	SpaceAfter=No
 32	.	.	PUNCT	U	_	3	punct	_	_
 
@@ -10672,7 +10668,7 @@
 24	карткову	картковий	ADJ	Ao-fsas	Case=Acc|Gender=Fem	25	amod	_	_
 25	гру	гра	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	19	obj	_	_
 26	“	“	PUNCT	U	_	27	punct	_	SpaceAfter=No
-27	CampUs	CampUs	X	X	Foreign=Yes	25	appos	_	SpaceAfter=No
+27	CampUs	CampUs	PROPN	Np---n	Animacy=Inan|Foreign=Yes	25	appos	_	SpaceAfter=No
 28	”	”	PUNCT	U	_	27	punct	_	_
 29	із	із	ADP	Spsi	Case=Ins	31	case	_	_
 30	оригінальним	оригінальний	ADJ	Afpmsif	Case=Ins|Degree=Pos|Gender=Masc	31	amod	_	_
@@ -10908,7 +10904,7 @@
 19	ЦЕ	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	21	nsubj	_	_
 20	ТАК	так	ADV	Pd------r	PronType=Dem	21	advmod	_	_
 21	ВАЖКО	важко	ADV	Rp	Degree=Pos	1	ccomp	_	_
-22	ВИКИДАТИ	викидати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	19	dislocated	_	_
+22	ВИКИДАТИ	викидати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	21	dislocated	_	_
 23	СМІТТЯ	сміття	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut	22	obj	_	_
 24	В	в	ADP	Spsa	Case=Acc	25	case	_	_
 25	СМІТТЄПРОВІД	сміттєпровід	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc	22	obl	_	SpaceAfter=No
@@ -10921,7 +10917,7 @@
 3	таке	такий	DET	Pd--n-sna	Case=Nom|Gender=Neut|PronType=Dem	5	det	_	_
 4	надскладне	надскладний	ADJ	Ao-nsns	Case=Nom|Gender=Neut	5	amod	_	_
 5	завдання	завдання	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut	0	root	_	_
-6	кинути	кинути	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	dislocated	_	_
+6	кинути	кинути	VERB	Vmen	Aspect=Perf|VerbForm=Inf	5	dislocated	_	_
 7	ваш	ваш	DET	Ppp2mnsaa	Animacy=Inan|Case=Acc|Gender=Masc|Person=2|Poss=Yes|PronType=Prs	8	det	_	_
 8	пакетик	пакетик	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc	6	obj	_	_
 9	в	в	ADP	Spsa	Case=Acc	12	case	_	_
@@ -11167,6 +11163,15 @@
 2	в	в	ADP	Spsl	Case=Loc	3	case	_	_
 3	суді	суд	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc	1	obl	_	SpaceAfter=No
 4	.	.	PUNCT	U	_	1	punct	_	_
+
+# sent_id = 2471
+# text = З днем народження, Іванко!
+1	З	з	ADP	Spsi	Case=Ins	2	case	_	_
+2	днем	день	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc	0	root	_	_
+3	народження	народження	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	U	_	5	punct	_	_
+5	Іванко	Іванко	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv	2	vocative	_	SpaceAfter=No
+6	!	!	PUNCT	U	_	2	punct	_	_
 
 # newdoc
 # newpar
@@ -11577,7 +11582,7 @@
 # newpar
 # sent_id = 1340
 # text = Учасник жорстокого віку, він носив і фузію, і машингвера, і гвера.
-1	Учасник	учасник	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	5	dislocated	_	_
+1	Учасник	учасник	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	6	dislocated	_	_
 2	жорстокого	жорстокий	ADJ	Afpmsgf	Case=Gen|Degree=Pos|Gender=Masc	3	amod	_	_
 3	віку	вік	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	1	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	U	_	1	punct	_	_
@@ -11648,7 +11653,7 @@
 13	одинокий	одинокий	ADJ	Ao-msnf	Case=Nom|Gender=Masc	12	xcomp	_	SpaceAfter=No
 14	,	,	PUNCT	U	_	16	punct	_	_
 15	як	як	SCONJ	Css	_	16	mark	_	_
-16	Робінзон	Робінзон	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv	13	acl	_	SpaceAfter=No
+16	Робінзон	Робінзон	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv	13	advcl	_	SpaceAfter=No
 17	,	,	PUNCT	U	_	16	punct	_	_
 18	і	і	CCONJ	Ccs	_	19	cc	_	_
 19	вчився	вчитися	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
@@ -11818,7 +11823,7 @@
 2	реклами	реклама	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem	4	obl	_	_
 3	автор	автор	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	4	nsubj	_	_
 4	пише	писати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	:	:	PUNCT	U	_	4	punct	_	_
+5	:	:	PUNCT	U	_	11	punct	_	_
 6	«	«	PUNCT	U	_	11	punct	_	SpaceAfter=No
 7	Власне	власне	PART	Q	_	11	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	U	_	11	punct	_	_
@@ -11850,12 +11855,12 @@
 2	подарунок	подарунок	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	0	root	_	Promoted=Yes
 3	долі	доля	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem	2	nmod	_	_
 4	для	для	ADP	Spsg	Case=Gen	5	case	_	_
-5	того	той	DET	Pd--m-sga	Case=Gen|Gender=Masc|PronType=Dem	2	nmod	_	SpaceAfter=No
+5	того	той	PRON	Pd--mysgn	Animacy=Anim|Case=Gen|Gender=Masc|PronType=Dem	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	U	_	8	punct	_	_
 7	хто	хто	PRON	Pr--mysnn	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Rel	8	nsubj	_	_
 8	запитує	запитувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
 9	себе	себе	PRON	Px-----an	Case=Acc|PronType=Prs|Reflex=Yes	8	obl	_	SpaceAfter=No
-10	:	:	PUNCT	U	_	2	punct	_	_
+10	:	:	PUNCT	U	_	13	punct	_	_
 11	«	«	PUNCT	U	_	13	punct	_	SpaceAfter=No
 12	Хто	хто	PRON	Pq--mysnn	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Int	13	nsubj	_	_
 13	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	parataxis	_	Promoted=Yes|SpaceAfter=No
@@ -11895,7 +11900,7 @@
 1	Виявляється	виявлятися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	U	_	3	punct	_	_
 3	можна	можна	ADV	R	_	1	advmod	_	SpaceAfter=No
-4	:	:	PUNCT	U	_	1	punct	_	_
+4	:	:	PUNCT	U	_	6	punct	_	_
 5	люди	людина	NOUN	Nc-pny	Animacy=Anim|Case=Nom|Number=Plur	6	nsubj	_	_
 6	купують	купувати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 7	по	по	ADP	Spsa	Case=Acc	9	case	_	_
@@ -12209,7 +12214,7 @@
 
 # sent_id = 1383
 # text = А коли він зумів із того матеріалу зробити динамічний художній твір, що викликає навіть підозри в містифікації, то це висока мистецька оцінка йому.
-1	А	а	PART	Q	_	4	cc	_	_
+1	А	а	CCONJ	Ccs	_	4	cc	_	_
 2	коли	коли	SCONJ	Css	_	4	mark	_	_
 3	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Person=3|PronType=Prs	4	nsubj	_	_
 4	зумів	зуміти	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	24	advcl	_	_
@@ -12243,7 +12248,7 @@
 2	можна	можна	ADV	R	_	3	advmod	_	_
 3	сказати	сказати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	0	root	_	_
 4	певно	певно	ADV	Rp	Degree=Pos	3	advmod	_	SpaceAfter=No
-5	:	:	PUNCT	U	_	3	punct	_	_
+5	:	:	PUNCT	U	_	10	punct	_	_
 6	ця	цей	DET	Pd--f-sna	Case=Nom|Gender=Fem|PronType=Dem	7	det	_	_
 7	наука	наука	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	10	nsubj	_	_
 8	життя	життя	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut	7	nmod	_	_
@@ -12410,7 +12415,7 @@
 17	»	»	PUNCT	U	_	16	punct	_	_
 18	—	—	PUNCT	U	_	20	punct	_	_
 19	з	з	ADP	Spsg	Case=Gen	20	case	_	_
-20	НТКУ	НТКУ	PROPN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem	16	dislocated	_	SpaceAfter=No
+20	НТКУ	НТКУ	PROPN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem	26	dislocated	_	SpaceAfter=No
 21	,	,	PUNCT	U	_	23	punct	_	_
 22	від	від	ADP	Spsg	Case=Gen	23	case	_	_
 23	пана	пан	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc	20	appos	_	_
@@ -12499,7 +12504,7 @@
 12	теленачальники	теленачальник	NOUN	Ncmpny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	flat	_	SpaceAfter=No
 13	»	»	PUNCT	U	_	11	punct	_	_
 14	зрозуміли	зрозуміти	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	5	advcl	_	SpaceAfter=No
-15	:	:	PUNCT	U	_	14	punct	_	_
+15	:	:	PUNCT	U	_	18	punct	_	_
 16	з	з	ADP	Spsi	Case=Ins	17	case	_	_
 17	людьми	людина	NOUN	Ncfpiy	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	18	obl	_	_
 18	треба	треба	ADV	R	_	14	parataxis	_	Promoted=Yes
@@ -12803,7 +12808,7 @@
 7	.	.	PUNCT	U	_	4	punct	_	_
 
 # sent_id = 1779
-# text = Зрештою, також маю гранати, цілих дві, — і всі одночасно без слів згадали, як дарували їй у вересні на іменини «репанку»-РГД, і вона мусила те згадати, бо схлипнула, чи то засміялась нервово:
+# text = Зрештою, також маю гранати, цілих дві, — і всі одночасно без слів згадали, як дарували їй у вересні на іменини «репанку»-РГД, і вона мусила те згадати, бо схлипнула, чи то засміялась нервово: — Ой Божечку, а я ж для вас усіх гостинці маю на Різдво наготовані! — і вже викидала в западаючу темінь зі свого наплечника якісь тремтячі згортки: рукавиці, шкарпетки? — щось біле спурхнуло й спало долі крилом, зачерпнувши жару, вона підхопила, стріпуючи: — А це для вас, друже командир, вберете?
 1	Зрештою	зрештою	ADV	R	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	U	_	1	punct	_	_
 3	також	також	ADV	R	_	4	advmod	_	_
@@ -12811,7 +12816,7 @@
 5	гранати	граната	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	U	_	8	punct	_	_
 7	цілих	цілий	ADJ	Ao--pafy	Animacy=Anim|Case=Acc|Number=Plur	8	amod	_	_
-8	дві	два	NUM	Mlcfsa	Case=Acc|Gender=Fem|NumType=Card	5	nummod:gov	_	SpaceAfter=No
+8	дві	два	NUM	Mlcfsa	Case=Acc|Gender=Fem|NumType=Card	5	nummod:gov	_	Promoted=Yes|SpaceAfter=No
 9	,	,	PUNCT	U	_	8	punct	_	_
 10	—	—	PUNCT	U	_	16	punct	_	_
 11	і	і	CCONJ	Ccs	_	16	cc	_	_
@@ -12836,7 +12841,7 @@
 30	,	,	PUNCT	U	_	33	punct	_	_
 31	і	і	CCONJ	Ccs	_	33	cc	_	_
 32	вона	вона	PRON	Pp-3f-snn	Case=Nom|Gender=Fem|Person=3|PronType=Prs	33	nsubj	_	_
-33	мусила	мусити	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	_
+33	мусила	мусити	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	16	conj	_	_
 34	те	те	PRON	Pd--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|PronType=Dem	35	obj	_	_
 35	згадати	згадати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	33	xcomp	_	SpaceAfter=No
 36	,	,	PUNCT	U	_	38	punct	_	_
@@ -12847,61 +12852,69 @@
 41	то	то	PART	Q	_	40	discourse	_	_
 42	засміялась	засміятися	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	38	conj	_	_
 43	нервово	нервово	ADV	R	_	42	advmod	_	SpaceAfter=No
-44	:	:	PUNCT	U	_	4	punct	_	_
-
-# sent_id = 1780
-# text = — Ой Божечку, а я ж для вас усіх гостинці маю на Різдво наготовані! — і вже викидала в западаючу темінь зі свого наплечника якісь тремтячі згортки: рукавиці, шкарпетки? — щось біле спурхнуло й спало долі крилом, зачерпнувши жару, вона підхопила, стріпуючи:
-1	—	—	PUNCT	U	_	12	punct	_	_
-2	Ой	ой	INTJ	I	_	3	discourse	_	_
-3	Божечку	божечко	NOUN	Ncmsvy	Animacy=Anim|Case=Voc|Gender=Masc	12	vocative	_	SpaceAfter=No
-4	,	,	PUNCT	U	_	12	punct	_	_
-5	а	а	PART	Q	_	12	discourse	_	_
-6	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
-7	ж	ж	PART	Q	_	12	discourse	_	_
-8	для	для	ADP	Spsg	Case=Gen	9	case	_	_
-9	вас	ви	PRON	Pp-2-ypgn	Animacy=Anim|Case=Gen|Number=Plur|Person=2|PronType=Prs	12	obl	_	_
-10	усіх	увесь	DET	Pg----pga	Case=Gen|Number=Plur|PronType=Tot	9	det	_	_
-11	гостинці	гостинець	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
-12	маю	мати	VERB	Vmpip1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	на	на	ADP	Spsa	Case=Acc	14	case	_	_
-14	Різдво	різдво	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut	11	nmod	_	_
-15	наготовані	наготований	ADJ	Ap--pasnep	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|VerbForm=Part|Voice=Pass	11	amod	_	SpaceAfter=No
-16	!	!	PUNCT	U	_	12	punct	_	_
-17	—	—	PUNCT	U	_	20	punct	_	_
-18	і	і	PART	Q	_	20	discourse	_	_
-19	вже	вже	ADV	R	_	20	advmod	_	_
-20	викидала	викидати	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
-21	в	в	ADP	Spsa	Case=Acc	23	case	_	_
-22	западаючу	западаючий	ADJ	Ap-fsas-pap	Aspect=Imp|Case=Acc|Gender=Fem|Style=Odd|Tense=Pres|VerbForm=Part|Voice=Act	23	amod	_	_
-23	темінь	темінь	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	20	obl	_	_
-24	зі	зі	ADP	Spsg	Case=Gen	26	case	_	_
-25	свого	свій	DET	Ppp-m-sga	Case=Gen|Gender=Masc|Poss=Yes|PronType=Prs|Reflex=Yes	26	amod	_	_
-26	наплечника	наплечник	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	20	obl	_	_
-27	якісь	якийсь	DET	Pi---npaa	Animacy=Inan|Case=Acc|Number=Plur|PronType=Ind	29	det	_	_
-28	тремтячі	тремтячий	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	29	amod	_	_
-29	згортки	згорток	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
-30	:	:	PUNCT	U	_	31	punct	_	_
-31	рукавиці	рукавиця	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	29	appos	_	SpaceAfter=No
-32	,	,	PUNCT	U	_	33	punct	_	_
-33	шкарпетки	шкарпетка	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	31	conj	_	SpaceAfter=No
-34	?	?	PUNCT	U	_	31	punct	_	_
-35	—	—	PUNCT	U	_	38	punct	_	_
-36	щось	щось	PRON	Pi--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Ind	38	nsubj	_	_
-37	біле	білий	ADJ	Afpnsns	Case=Nom|Degree=Pos|Gender=Neut	36	amod	_	_
-38	спурхнуло	спурхнути	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	20	parataxis	_	_
-39	й	й	CCONJ	Ccs	_	40	cc	_	_
-40	спало	спасти	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	38	conj	_	_
-41	долі	долі	ADV	R	_	40	advmod	_	_
-42	крилом	крило	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut	40	obl	_	SpaceAfter=No
-43	,	,	PUNCT	U	_	48	punct	_	_
-44	зачерпнувши	зачерпнувши	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	48	advcl	_	_
-45	жару	жар	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	44	obj	_	SpaceAfter=No
-46	,	,	PUNCT	U	_	44	punct	_	_
-47	вона	вона	PRON	Pp-3f-snn	Case=Nom|Gender=Fem|Person=3|PronType=Prs	48	nsubj	_	_
-48	підхопила	підхопити	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	40	parataxis	_	SpaceAfter=No
-49	,	,	PUNCT	U	_	50	punct	_	_
-50	стріпуючи	стріпуючи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	48	advcl	_	SpaceAfter=No
-51	:	:	PUNCT	U	_	12	punct	_	_
+44	:	:	PUNCT	U	_	56	punct	_	_
+45	—	—	PUNCT	U	_	56	punct	_	_
+46	Ой	ой	INTJ	I	_	47	discourse	_	_
+47	Божечку	божечко	NOUN	Ncmsvy	Animacy=Anim|Case=Voc|Gender=Masc	56	vocative	_	SpaceAfter=No
+48	,	,	PUNCT	U	_	56	punct	_	_
+49	а	а	PART	Q	_	56	discourse	_	_
+50	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	56	nsubj	_	_
+51	ж	ж	PART	Q	_	56	discourse	_	_
+52	для	для	ADP	Spsg	Case=Gen	53	case	_	_
+53	вас	ви	PRON	Pp-2-ypgn	Animacy=Anim|Case=Gen|Number=Plur|Person=2|PronType=Prs	56	obl	_	_
+54	усіх	увесь	DET	Pg----pga	Case=Gen|Number=Plur|PronType=Tot	53	det	_	_
+55	гостинці	гостинець	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	56	obj	_	_
+56	маю	мати	VERB	Vmpip1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	38	parataxis	_	_
+57	на	на	ADP	Spsa	Case=Acc	58	case	_	_
+58	Різдво	різдво	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut	55	nmod	_	_
+59	наготовані	наготований	ADJ	Ap--pasnep	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|VerbForm=Part|Voice=Pass	55	amod	_	SpaceAfter=No
+60	!	!	PUNCT	U	_	56	punct	_	_
+61	—	—	PUNCT	U	_	64	punct	_	_
+62	і	і	PART	Q	_	64	discourse	_	_
+63	вже	вже	ADV	R	_	64	advmod	_	_
+64	викидала	викидати	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	56	conj	_	_
+65	в	в	ADP	Spsa	Case=Acc	67	case	_	_
+66	западаючу	западаючий	ADJ	Ap-fsas-pap	Aspect=Imp|Case=Acc|Gender=Fem|Style=Odd|Tense=Pres|VerbForm=Part|Voice=Act	67	amod	_	_
+67	темінь	темінь	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	64	obl	_	_
+68	зі	зі	ADP	Spsg	Case=Gen	70	case	_	_
+69	свого	свій	DET	Ppp-m-sga	Case=Gen|Gender=Masc|Poss=Yes|PronType=Prs|Reflex=Yes	70	amod	_	_
+70	наплечника	наплечник	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	64	obl	_	_
+71	якісь	якийсь	DET	Pi---npaa	Animacy=Inan|Case=Acc|Number=Plur|PronType=Ind	73	det	_	_
+72	тремтячі	тремтячий	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	73	amod	_	_
+73	згортки	згорток	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	64	obj	_	SpaceAfter=No
+74	:	:	PUNCT	U	_	75	punct	_	_
+75	рукавиці	рукавиця	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	73	appos	_	SpaceAfter=No
+76	,	,	PUNCT	U	_	77	punct	_	_
+77	шкарпетки	шкарпетка	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	75	conj	_	SpaceAfter=No
+78	?	?	PUNCT	U	_	75	punct	_	_
+79	—	—	PUNCT	U	_	82	punct	_	_
+80	щось	щось	PRON	Pi--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Ind	82	nsubj	_	_
+81	біле	білий	ADJ	Afpnsns	Case=Nom|Degree=Pos|Gender=Neut	80	amod	_	_
+82	спурхнуло	спурхнути	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	64	parataxis	_	_
+83	й	й	CCONJ	Ccs	_	84	cc	_	_
+84	спало	спасти	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	82	conj	_	_
+85	долі	долі	ADV	R	_	84	advmod	_	_
+86	крилом	крило	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut	84	obl	_	SpaceAfter=No
+87	,	,	PUNCT	U	_	92	punct	_	_
+88	зачерпнувши	зачерпнувши	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	92	advcl	_	_
+89	жару	жар	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	88	obj	_	SpaceAfter=No
+90	,	,	PUNCT	U	_	88	punct	_	_
+91	вона	вона	PRON	Pp-3f-snn	Case=Nom|Gender=Fem|Person=3|PronType=Prs	92	nsubj	_	_
+92	підхопила	підхопити	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	82	parataxis	_	SpaceAfter=No
+93	,	,	PUNCT	U	_	94	punct	_	_
+94	стріпуючи	стріпуючи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	92	advcl	_	SpaceAfter=No
+95	:	:	PUNCT	U	_	100	punct	_	_
+96	—	—	PUNCT	U	_	100	punct	_	_
+97	А	а	PART	Q	_	100	discourse	_	_
+98	це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|PronType=Dem	100	nsubj	_	_
+99	для	для	ADP	Spsg	Case=Gen	100	case	_	_
+100	вас	ви	PRON	Pp-2-ypgn	Animacy=Anim|Case=Gen|Number=Plur|Person=2|Polite=Form|PronType=Prs	92	parataxis	_	Promoted=Yes|SpaceAfter=No
+101	,	,	PUNCT	U	_	102	punct	_	_
+102	друже	друг	NOUN	Ncmsvy	Animacy=Anim|Case=Voc|Gender=Masc	100	vocative	_	_
+103	командир	командир	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	102	appos	_	SpaceAfter=No
+104	,	,	PUNCT	U	_	89	punct	_	_
+105	вберете	вбрати	VERB	Vmeif2p	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	100	parataxis	_	SpaceAfter=No
+106	?	?	PUNCT	U	_	4	punct	_	_
 
 # sent_id = 1782
 # text = То Ліна, сестра, просила вам передати, я берегла до Різдва…
@@ -12954,8 +12967,8 @@
 3	як	як	SCONJ	Css	_	4	mark	_	_
 4	вишивають	вишивати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
 5	дівчата	дівчина	NOUN	Ncfpny	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
-6	своїм	свій	DET	Ppp---pda	Case=Dat|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	7	amod	_	_
-7	нареченим	наречений	ADJ	Ap--pdf-ep	Aspect=Perf|Case=Dat|Number=Plur|VerbForm=Part|Voice=Pass	4	obj	_	SpaceAfter=No
+6	своїм	свій	DET	Ppp---pda	Case=Dat|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
+7	нареченим	наречений	NOUN	Ap--pdf-ep	Animacy=Anim|Aspect=Perf|Case=Dat|Number=Plur|Voice=Pass	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	U	_	4	punct	_	_
 9	—	—	PUNCT	U	_	18	punct	_	_
 10	і	і	CCONJ	Ccs	_	18	cc	_	_
@@ -13077,7 +13090,7 @@
 2	пояснив	пояснити	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 3	свій	свій	DET	Ppp-mnsaa	Animacy=Inan|Case=Acc|Gender=Masc|Poss=Yes|PronType=Prs|Reflex=Yes	4	amod	_	_
 4	план	план	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc	2	obj	_	SpaceAfter=No
-5	:	:	PUNCT	U	_	2	punct	_	_
+5	:	:	PUNCT	U	_	7	punct	_	_
 6	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Person=3|PronType=Prs	7	nsubj	_	_
 7	оголосить	оголосити	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
 8	,	,	PUNCT	U	_	10	punct	_	_
@@ -13140,7 +13153,7 @@
 8	подумав	подумати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 9	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	U	_	15	punct	_	_
-11	лиш	лиш	SCONJ	Css	_	15	cc	_	_
+11	лиш	лиш	CCONJ	Ccs	_	15	cc	_	_
 12	уголос	уголос	ADV	R	_	15	advmod	_	_
 13	цього	це	PRON	Pd--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|PronType=Dem	15	obj	_	_
 14	не	не	PART	Q	Polarity=Neg	15	advmod	_	_
@@ -13161,7 +13174,7 @@
 10	міг	могти	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
 11	його	воно	PRON	Pp-3n-san	Case=Acc|Gender=Neut|Person=3|PronType=Prs	12	obj	_	_
 12	передоручити	передоручити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	10	xcomp	_	SpaceAfter=No
-13	:	:	PUNCT	U	_	10	punct	_	_
+13	:	:	PUNCT	U	_	14	punct	_	_
 14	мав	мати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	10	parataxis	_	_
 15	убити	убити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	14	xcomp	_	_
 16	зрадника	зрадник	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc	15	obj	_	SpaceAfter=No
@@ -13179,7 +13192,7 @@
 8	друзів	друг	NOUN	Ncmpay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
 9	відпустити	відпустити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	conj	_	_
 10	всмерть	всмерть	ADV	R	_	9	advmod	_	SpaceAfter=No
-11	:	:	PUNCT	U	_	2	punct	_	_
+11	:	:	PUNCT	U	_	16	punct	_	_
 12	така	такий	DET	Pd--f-sna	Case=Nom|Gender=Fem|PronType=Dem	13	det	_	_
 13	смерть	смерть	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem	16	nsubj	_	_
 14	була	бути	AUX	Vapis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	_
@@ -13261,7 +13274,7 @@
 7	вами	ви	PRON	Pp-2-ypin	Animacy=Anim|Case=Ins|Number=Plur|Person=2|PronType=Prs	5	obl	_	_
 
 # sent_id = 1806
-# text = Але він уже не слухав — перед ним підносилася велетенська темна стіна, більша за все, що він здолав досі, й він сказав тій, що не пускала його туди, втримуючи при життю:
+# text = Але він уже не слухав — перед ним підносилася велетенська темна стіна, більша за все, що він здолав досі, й він сказав тій, що не пускала його туди, втримуючи при життю: — Ні, — і підступив до продуху.
 1	Але	але	CCONJ	Ccs	_	5	cc	_	_
 2	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	nsubj	_	_
 3	уже	уже	ADV	R	_	5	advmod	_	_
@@ -13298,20 +13311,16 @@
 34	втримуючи	втримуючи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	30	advcl	_	_
 35	при	при	ADP	Spsl	Case=Loc	36	case	_	_
 36	життю	життя	NOUN	Ncnsln	Animacy=Inan|Case=Loc|Gender=Neut	34	obl	_	SpaceAfter=No
-37	:	:	PUNCT	U	_	5	punct	_	_
-
-# newpar
-# sent_id = 1807
-# text = — Ні, — і підступив до продуху.
-1	—	—	PUNCT	U	_	2	punct	_	_
-2	Ні	ні	INTJ	I	_	0	root	_	SpaceAfter=No
-3	,	,	PUNCT	U	_	6	punct	_	_
-4	—	—	PUNCT	U	_	6	punct	_	_
-5	і	і	CCONJ	Ccs	_	6	cc	_	_
-6	підступив	підступити	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
-7	до	до	ADP	Spsg	Case=Gen	8	case	_	_
-8	продуху	продух	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	6	obl	_	SpaceAfter=No
-9	.	.	PUNCT	U	_	2	punct	_	_
+37	:	:	PUNCT	U	_	39	punct	_	_
+38	—	—	PUNCT	U	_	39	punct	_	NewPar=Yes
+39	Ні	ні	INTJ	I	_	25	parataxis	_	SpaceAfter=No
+40	,	,	PUNCT	U	_	43	punct	_	_
+41	—	—	PUNCT	U	_	43	punct	_	_
+42	і	і	CCONJ	Ccs	_	43	cc	_	_
+43	підступив	підступити	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	39	parataxis	_	_
+44	до	до	ADP	Spsg	Case=Gen	45	case	_	_
+45	продуху	продух	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	43	obl	_	SpaceAfter=No
+46	.	.	PUNCT	U	_	5	punct	_	_
 
 # newpar
 # sent_id = 1809
@@ -13386,7 +13395,7 @@
 12	дзвеніли	дзвеніти	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	parataxis	_	_
 13	істеричні	істеричний	ADJ	Ao--pns	Case=Nom|Number=Plur	14	amod	_	_
 14	нотки	нотка	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
-15	:	:	PUNCT	U	_	12	punct	_	_
+15	:	:	PUNCT	U	_	18	punct	_	_
 16	—	—	PUNCT	U	_	18	punct	_	_
 17	Він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Person=3|PronType=Prs	18	nsubj	_	_
 18	вислизне	вислизнути	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
@@ -13537,7 +13546,7 @@
 8	тоненькі	тоненький	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	10	amod	_	_
 9	дитячі	дитячий	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	10	amod	_	_
 10	голоси	голос	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
-11	:	:	PUNCT	U	_	6	punct	_	_
+11	:	:	PUNCT	U	_	12	punct	_	_
 12	співали	співати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	parataxis	_	_
 13	хором	хором	ADV	R	_	12	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	U	_	16	punct	_	_
@@ -14071,7 +14080,7 @@
 25	умови	умова	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem	17	conj	_	SpaceAfter=No
 26	,	,	PUNCT	U	_	35	punct	_	_
 27	якщо	якщо	SCONJ	Css	_	35	mark	_	SpaceAfter=No
-28	:	:	PUNCT	U	_	27	punct	_	_
+28	:	:	PUNCT	U	_	35	punct	_	_
 29	під	під	ADP	Spsa	Case=Acc	32	case	_	NewPar=Yes
 30	час	час	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc	29	fixed	_	_
 31	нової	новий	ADJ	Afpfsgf	Case=Gen|Degree=Pos|Gender=Fem	32	amod	_	_
@@ -14330,7 +14339,7 @@
 13	що	що	SCONJ	Css	_	16	mark	_	_
 14	поза	поза	ADP	Spsi	Case=Ins	16	case	_	_
 15	«	«	PUNCT	U	_	16	punct	_	SpaceAfter=No
-16	Карбами	карб	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	acl	_	Promoted=Yes|SpaceAfter=No
+16	Карбами	карб	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	acl	_	Promoted=Yes|SpaceAfter=No
 17	»	»	PUNCT	U	_	16	punct	_	SpaceAfter=No
 18	,	,	PUNCT	U	_	6	punct	_	_
 19	то	то	SCONJ	Css	_	21	mark	_	_
@@ -14345,6 +14354,29 @@
 28	полагодження	полагодження	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut	21	obl	_	_
 29	справи	справа	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem	28	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	U	_	21	punct	_	_
+
+# sent_id = 1490
+# text = Слова «потерпати» у нас не зрозуміють), я постараюсь настояти, щоб видавництво заходилося коло другої.
+1	Слова	слово	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut	8	obj	_	_
+2	«	«	PUNCT	U	_	3	punct	_	SpaceAfter=No
+3	потерпати	потерпати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	1	appos	_	SpaceAfter=No
+4	»	»	PUNCT	U	_	3	punct	_	_
+5	у	у	ADP	Spsg	Case=Gen	6	case	_	_
+6	нас	ми	PRON	Pp-1-ypgn	Animacy=Anim|Case=Gen|Number=Plur|Person=1|PronType=Prs	8	obl	_	_
+7	не	не	PART	Q	Polarity=Neg	8	advmod	_	_
+8	зрозуміють	зрозуміти	VERB	Vmeif3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	)	)	PUNCT	U	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	U	_	12	punct	_	_
+11	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	постараюсь	постаратися	VERB	Vmeif1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	8	parataxis	_	_
+13	настояти	настояти	VERB	Vmen	Aspect=Perf|VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	U	_	17	punct	_	_
+15	щоб	щоб	SCONJ	Css	_	17	mark	_	_
+16	видавництво	видавництво	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut	17	nsubj	_	_
+17	заходилося	заходитися	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+18	коло	коло	ADP	Spsg	Case=Gen	19	case	_	_
+19	другої	другий	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	U	_	8	punct	_	_
 
 # sent_id = 1491
 # text = Назвати її можна «Туга», а то й інакше, як Ви скажете.
@@ -14374,7 +14406,7 @@
 5	би	би	AUX	Q	_	6	aux	_	_
 6	гадав	гадати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 7	так	так	ADV	Pd------r	PronType=Dem	2	advmod	_	SpaceAfter=No
-8	:	:	PUNCT	U	_	6	punct	_	_
+8	:	:	PUNCT	U	_	9	punct	_	_
 9	1	1	NUM	Mlc	NumType=Card	6	parataxis	_	SpaceAfter=No
 10	.	.	PUNCT	U	_	6	punct	_	_
 
@@ -14389,7 +14421,7 @@
 7	прислані	присланий	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	4	appos	_	Promoted=Yes|SpaceAfter=No
 8	,	,	PUNCT	U	_	10	punct	_	_
 9	не	не	PART	Q	Polarity=Neg	10	advmod	_	_
-10	виключаючи	виключаючи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	6	acl	_	_
+10	виключаючи	виключаючи	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	7	acl	_	_
 11	й	й	PART	Q	_	13	discourse	_	_
 12	«	«	PUNCT	U	_	13	punct	_	SpaceAfter=No
 13	Поменника	поменник	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc	10	obj	_	SpaceAfter=No
@@ -14714,7 +14746,7 @@
 18	тут	тут	ADV	Pd------r	PronType=Dem	17	advmod	_	SpaceAfter=No
 19	,	,	PUNCT	U	_	21	punct	_	_
 20	у	у	ADP	Spsl	Case=Loc	21	case	_	_
-21	Києві	Київ	PROPN	Npmsln	Animacy=Inan|Case=Loc|Gender=Masc	18	appos	_	SpaceAfter=No
+21	Києві	Київ	PROPN	Npmsln	Animacy=Inan|Case=Loc|Gender=Masc	18	advcl	_	SpaceAfter=No
 22	.	.	PUNCT	U	_	5	punct	_	_
 
 # sent_id = 1513
@@ -14803,7 +14835,7 @@
 8	послати	послати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	7	acl	_	_
 9	Вам	ви	PRON	Pp-2-ypdn	Animacy=Anim|Case=Dat|Number=Plur|Person=2|Polite=Form|PronType=Prs	8	iobj	_	_
 10	свою	свій	DET	Ppp-f-saa	Case=Acc|Gender=Fem|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	SpaceAfter=No
-11	:	:	PUNCT	U	_	1	punct	_	_
+11	:	:	PUNCT	U	_	13	punct	_	_
 12	«	«	PUNCT	U	_	13	punct	_	SpaceAfter=No
 13	Антологію	антологія	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem	8	obj	_	_
 14	римських	римський	ADJ	Ao--pgf	Case=Gen|Number=Plur	15	amod	_	_
