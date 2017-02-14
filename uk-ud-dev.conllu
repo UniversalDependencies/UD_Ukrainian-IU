@@ -2713,7 +2713,7 @@
 8	що	що	SCONJ	Css	_	11	mark	_	_
 9	там	там	ADV	Pd------r	PronType=Dem	11	advmod	_	_
 10	є	бути	AUX	Vapip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-11	трамвай	трамвай	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	3	ccomp	_	SpaceAfter=No
+11	трамвай	трамвай	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	6	acl	_	SpaceAfter=No
 12	,	,	PUNCT	U	_	13	punct	_	_
 13	басейн	басейн	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc	11	conj	_	SpaceAfter=No
 14	,	,	PUNCT	U	_	15	punct	_	_
@@ -2765,7 +2765,7 @@
 6	в	в	ADP	Spsl	Case=Loc	7	case	_	_
 7	зоні	зона	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem	11	obl	_	_
 8	була	бути	AUX	Vapis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	_
-9	одна	один	DET	Pi--f-sna	Case=Nom|Gender=Fem|PronType=Ind	11	det:numgov	_	_
+9	одна	один	DET	Pi--f-sna	Case=Nom|Gender=Fem|PronType=Ind	11	det	_	_
 10	із	із	ADP	Spsg	Case=Gen	11	case	_	_
 11	станцій	станція	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	ccomp	_	_
 12	стратегічних	стратегічний	ADJ	Ao--pgf	Case=Gen|Number=Plur	13	amod	_	_
@@ -4044,7 +4044,7 @@
 
 # sent_id = 599
 # text = Один з нас навіть вліпив знимку Марлі у свій паспорт.
-1	Один	один	DET	Pi--m-sna	Case=Nom|Gender=Masc|PronType=Ind	3	det:numgov	_	_
+1	Один	один	DET	Pi--m-sna	Case=Nom|Gender=Masc|PronType=Ind	3	det	_	_
 2	з	з	ADP	Spsg	Case=Gen	3	case	_	_
 3	нас	ми	PRON	Pp-1-ypgn	Animacy=Anim|Case=Gen|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 4	навіть	навіть	PART	Q	_	5	discourse	_	_
@@ -4477,7 +4477,7 @@
 
 # sent_id = 627
 # text = Один з них — бар ґранд-готелю.
-1	Один	один	DET	Pi--m-sna	Case=Nom|Gender=Masc|PronType=Ind	3	det:numgov	_	_
+1	Один	один	DET	Pi--m-sna	Case=Nom|Gender=Masc|PronType=Ind	3	det	_	_
 2	з	з	ADP	Spsg	Case=Gen	3	case	_	_
 3	них	вони	PRON	Pp-3--pgn	Case=Gen|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs	5	nsubj	_	_
 4	—	—	PUNCT	U	_	5	punct	_	_
@@ -4783,7 +4783,7 @@
 # text = Фацик був одним із тих трьох людей у моєму житті, яких я вважав досконалішими у всьому без винятку.
 1	Фацик	Фацик	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv	7	nsubj	_	_
 2	був	бути	AUX	Vapis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
-3	одним	один	DET	Pi--m-sia	Case=Ins|Gender=Masc|PronType=Ind	7	det:numgov	_	_
+3	одним	один	DET	Pi--m-sia	Case=Ins|Gender=Masc|PronType=Ind	7	det	_	_
 4	із	із	ADP	Spsg	Case=Gen	7	case	_	_
 5	тих	той	DET	Pd----pga	Case=Gen|Number=Plur|PronType=Dem	7	det	_	_
 6	трьох	троє	NUM	Mlc-pg	Case=Gen|Number=Plur|NumType=Card	7	nummod	_	_
@@ -7168,7 +7168,7 @@
 
 # sent_id = 797
 # text = Одну з найкращих світлин Чорногори — її навіть позичали в мене, щоби зробити поштівку — ми з ентомологом вкрали з вілли знаменитого львівського професора.
-1	Одну	один	DET	Pi--f-saa	Case=Acc|Gender=Fem|PronType=Ind	4	det:numgov	_	_
+1	Одну	один	DET	Pi--f-saa	Case=Acc|Gender=Fem|PronType=Ind	4	det	_	_
 2	з	з	ADP	Spsg	Case=Gen	4	case	_	_
 3	найкращих	найкращий	ADJ	Afs-pgf	Case=Gen|Degree=Sup|Number=Plur	4	amod	_	_
 4	світлин	світлина	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	obj	_	_
@@ -12110,7 +12110,7 @@
 5	,	,	PUNCT	U	_	8	punct	_	_
 6	як	як	SCONJ	Css	_	8	mark	_	_
 7	крадений	крадений	ADJ	Ap-msnf-pp	Aspect=Imp|Case=Nom|Gender=Masc|VerbForm=Part|Voice=Pass	8	amod	_	_
-8	кінь	кінь	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	4	acl	_	SpaceAfter=No
+8	кінь	кінь	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc	4	advcl	_	SpaceAfter=No
 9	»	»	PUNCT	U	_	2	punct	_	SpaceAfter=No
 10	.	.	PUNCT	U	_	2	punct	_	_
 
@@ -12269,7 +12269,7 @@
 # newpar
 # sent_id = 1385
 # text = Одного з найвідоміших спортивних коментаторів України Валентина Щербачова відсторонено від коментування матчів «Євро-2016».
-1	Одного	один	DET	Pi--mysaa	Animacy=Anim|Case=Acc|Gender=Masc|PronType=Ind	5	det:numgov	_	_
+1	Одного	один	DET	Pi--mysaa	Animacy=Anim|Case=Acc|Gender=Masc|PronType=Ind	5	det	_	_
 2	з	з	ADP	Spsg	Case=Gen	5	case	_	_
 3	найвідоміших	найвідоміший	ADJ	Afs-pgf	Case=Gen|Degree=Sup|Number=Plur	5	amod	_	_
 4	спортивних	спортивний	ADJ	Ao--pgf	Case=Gen|Number=Plur	5	amod	_	_
@@ -14375,7 +14375,7 @@
 16	видавництво	видавництво	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut	17	nsubj	_	_
 17	заходилося	заходитися	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	_
 18	коло	коло	ADP	Spsg	Case=Gen	19	case	_	_
-19	другої	другий	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord	17	obl	_	SpaceAfter=No
+19	другої	другий	ADJ	Mlofsg	Case=Gen|Gender=Fem|NumType=Ord	17	obl	_	Promoted=Yes|SpaceAfter=No
 20	.	.	PUNCT	U	_	8	punct	_	_
 
 # sent_id = 1491
