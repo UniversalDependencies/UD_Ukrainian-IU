@@ -13,7 +13,7 @@ UD Ukrainian comprises 100K tokens in 5866 sentences of fiction, news, opinion a
 
 Major contributors: Natalia Kotsyba, Bohdan Moskalevskyi, Mykhailo Romanenko.
 
-Large portion of anotation was made by Ivanka Kosovska, Olha Lytvyn, Oksana Orlenko and by students of Kyiv-Mohyla Academy department of Ukrainian language (headed by Liudmyla Dyka): Hanna Brovko, Bohdana Matushko, Natalia Onyshchuk, Valeriia Pareviazko, Yaroslava Rychyk, Anastasiia Stetsenko, Snizhana Umanets.
+Large portion of anotation was made by Halyna Samoridna, Ivanka Kosovska, Olha Lytvyn, Oksana Orlenko and by students of Kyiv-Mohyla Academy department of Ukrainian language (headed by Liudmyla Dyka): Hanna Brovko, Bohdana Matushko, Natalia Onyshchuk, Valeriia Pareviazko, Yaroslava Rychyk, Anastasiia Stetsenko, Snizhana Umanets.
 
 We thank Prof. Larysa Masenko for guidance.
 
