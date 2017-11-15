@@ -1,15 +1,15 @@
-### Summary
+# Summary
 
 Gold standard Universal Dependencies corpus for Ukrainian, developed for UD version 2 originally,  
 by Institute for Ukrainian, NGO.
 
 
-### Introduction
+# Introduction
 
 UD Ukrainian comprises 100K tokens in 5866 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.
 
 
-### Acknowledgments
+# Acknowledgments
 
 Major contributors: Natalia Kotsyba, Bohdan Moskalevskyi, Mykhailo Romanenko.
 
@@ -17,6 +17,7 @@ Large portion of anotation was made by Halyna Samoridna, Ivanka Kosovska, Olha L
 
 We thank Prof. Larysa Masenko for guidance.
 
+---
 
 ### Basic stats
 
