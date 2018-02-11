@@ -1,0 +1,41 @@
+Sun Feb 11 20:55:26 CET 2018
+perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Ukrainian
+Running the following version of tools/evaluate_treebank.pl:
+commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Feb 11 20:27:50 2018 +0100
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Evaluating the following revision of UD_Ukrainian:
+commit 528467a61ec61bb8a62b6b9a22e1df724d172ccc
+Author: Bohdan Moskalevskyi <msklvsk@icloud.com>
+Date:   Wed Nov 8 01:52:51 2017 +0200
+Size: counted 100364 of 100364 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.21760715444102.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 75042 out of 100364 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 36 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi: found 85 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 100364 words.
+Genres: found 6 out of 14 known.
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.428571428571429) = 0.032967032967033
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.667192653920945) = 0.171075039466909
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
+(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
+(weight=0.307692307692308) * (score{udapi}=0.991530827786856) = 0.305086408549802
+(weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
+(TOTAL score=0.866023837879101) * (availability=1) * (validity=1) = 0.866023837879101
+STARS = 4.5
+UD_Ukrainian	0.866023837879101	4.5
+Switched to branch 'dev'
+Your branch is up-to-date with 'origin/dev'.
