@@ -2216,7 +2216,7 @@
 5	,	,	PUNCT	U	_	6	punct	_	Id=13un
 6	здоров’я	здоров’я	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	conj	_	Id=13uo
 7	й	й	CCONJ	Ccs	_	8	cc	_	Id=13up
-8	мудрости	мудрість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	4	conj	_	Id=13uq|SpaceAfter=No
+8	мудрости	мудрість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	4	conj	_	Id=13uq|SpaceAfter=No
 9	.	.	PUNCT	U	_	3	punct	_	Id=13ur
 
 # sent_id = 13us
@@ -7575,7 +7575,7 @@
 5	історію	історія	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	Id=1xwh
 6	рейтинґу	рейтинґ	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Id=1xwi
 7	його	його	DET	Ppp3--pia	Case=Ins|Number=Plur|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	8	det	_	Id=1xwj
-8	лавреатами	лавреат	NOUN	Ncmpiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Orth=Khark	9	xcomp:sp	_	Id=1xwk
+8	лавреатами	лавреат	NOUN	Ncmpiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Orth=Alt	9	xcomp:sp	_	Id=1xwk
 9	ставали	ставати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	Id=1xwl
 10	118	118	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	11	nummod:gov	_	Id=1xwm
 11	видавництв	видавництво	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nsubj	_	Id=1xwn|SpaceAfter=No
@@ -7638,7 +7638,7 @@
 13	;	;	PUNCT	U	_	17	punct	_	Id=1xy6
 14	21	21	NUM	Mlcmsa	Case=Acc|Gender=Masc|NumType=Card|Uninflect=Yes	15	nummod	_	Id=1xy7
 15	раз	раз	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	Id=1xy8
-16	лавреатами	лавреат	NOUN	Ncmpiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Orth=Khark	17	xcomp:sp	_	Id=1xy9
+16	лавреатами	лавреат	NOUN	Ncmpiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Orth=Alt	17	xcomp:sp	_	Id=1xy9
 17	визнавали	визнавати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	7	parataxis	_	Id=1xya
 18	книжки	книжка	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	Id=1xyb
 19	«	«	PUNCT	U	PunctType=Quot	20	punct	_	Id=1xyc|SpaceAfter=No

@@ -1682,7 +1682,7 @@
 6	збройну	збройний	ADJ	Ao-fsas	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	Id=18em
 7	боротьбу	боротьба	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	Id=18en
 8	проти	проти	ADP	Spsg	Case=Gen	11	case	_	Id=18eo
-9	большевицького	большевицький	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing|Orth=Khark	11	amod	_	Id=18ep
+9	большевицького	большевицький	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing|Orth=Alt	11	amod	_	Id=18ep
 10	гнобительського	гнобительський	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	11	amod	_	Id=18eq
 11	імперіялізму	імперіялізм	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	Id=18er|SpaceAfter=No
 12	,	,	PUNCT	U	_	13	punct	_	Id=18es
@@ -1951,7 +1951,7 @@
 # sent_id = 18nv
 # text = Навіть большевицьких емісарів не ліквідувати, бо також можемо зробити несправедливо вимір кари (ці люди можуть тішитися симпатією місцевого населення і не всі, як знаємо, щиро служать Сталінові).
 1	Навіть	навіть	PART	Q	_	3	discourse	_	Id=18nw
-2	большевицьких	большевицький	ADJ	Ao--pafy	Animacy=Anim|Case=Acc|Number=Plur|Orth=Khark	3	amod	_	Id=18nx
+2	большевицьких	большевицький	ADJ	Ao--pafy	Animacy=Anim|Case=Acc|Number=Plur|Orth=Alt	3	amod	_	Id=18nx
 3	емісарів	емісар	NOUN	Ncmpay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	Id=18ny
 4	не	не	PART	Q	Polarity=Neg	5	advmod	_	Id=18nz
 5	ліквідувати	ліквідувати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	0	root	_	Id=18o0|SpaceAfter=No
@@ -2020,7 +2020,7 @@
 12	дурити	дурити	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	5	conj	_	Id=18po
 13	ворога	ворог	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	Id=18pp
 14	щодо	щодо	ADP	Spsg	Case=Gen	15	case	_	Id=18pq
-15	численности	численність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	12	obl	_	Id=18pr
+15	численности	численність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	12	obl	_	Id=18pr
 16	рейдуючого	рейдуючий	ADJ	Ap-msgf-pap	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	Id=18ps
 17	відділу	відділ	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	Id=18pt|SpaceAfter=No
 18	.	.	PUNCT	U	_	2	punct	_	Id=18pu
@@ -2029,7 +2029,7 @@
 # text = Примінити тактику рухливости: виринати і зникати.
 1	Примінити	примінити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	0	root	_	Id=18pw
 2	тактику	тактика	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	Id=18px
-3	рухливости	рухливість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	2	nmod	_	Id=18py|SpaceAfter=No
+3	рухливости	рухливість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	2	nmod	_	Id=18py|SpaceAfter=No
 4	:	:	PUNCT	U	_	5	punct	_	Id=18pz
 5	виринати	виринати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	1	parataxis	_	Id=18q0
 6	і	і	CCONJ	Ccs	_	7	cc	_	Id=18q1
@@ -2351,7 +2351,7 @@
 5	кличів	клич	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	appos	_	Id=192a
 6	посилати	посилати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	0	root	_	Id=192b
 7	ніччю	ніч	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	Id=192c
-8	спеціяльні	спеціяльний	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur|Orth=Khark	9	amod	_	Id=192d
+8	спеціяльні	спеціяльний	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur|Orth=Alt	9	amod	_	Id=192d
 9	ланки	ланка	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	Id=192e
 10	стрільців	стрілець	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	Id=192f
 11	з	з	ADP	Spsi	Case=Ins	13	case	_	Id=192g
@@ -2504,7 +2504,7 @@
 5	народу	народ	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Id=196c|SpaceAfter=No
 6	,	,	PUNCT	U	_	7	punct	_	Id=196d
 7	наслідки	наслідок	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	conj	_	Id=196e
-8	большевицької	большевицький	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	9	amod	_	Id=196f
+8	большевицької	большевицький	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	9	amod	_	Id=196f
 9	неволі	неволя	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	Id=196g|SpaceAfter=No
 10	,	,	PUNCT	U	_	12	punct	_	Id=196h
 11	її	її	DET	Ppp3--paa	Case=Acc|Number=Plur|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	12	det	_	Id=196i
@@ -2513,7 +2513,7 @@
 14	зміст	зміст	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	conj	_	Id=196l|SpaceAfter=No
 15	,	,	PUNCT	U	_	16	punct	_	Id=196m
 16	форми	форма	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	conj	_	Id=196n
-17	большевицького	большевицький	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing|Orth=Khark	18	amod	_	Id=196o
+17	большевицького	большевицький	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing|Orth=Alt	18	amod	_	Id=196o
 18	гноблення	гноблення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	Id=196p
 19	народів	народ	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	Id=196q
 20	взагалі	взагалі	ADV	R	_	16	advmod	_	Id=196r|SpaceAfter=No
@@ -2691,7 +2691,7 @@
 36	до	до	ADP	Spsg	Case=Gen	37	case	_	Id=19b9
 37	визволення	визволення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	obl	_	Id=19ba
 38	з-під	з-під	ADP	Spcg	Case=Gen	40	case	_	Id=19bb
-39	большевицького	большевицький	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing|Orth=Khark	40	amod	_	Id=19bc
+39	большевицького	большевицький	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing|Orth=Alt	40	amod	_	Id=19bc
 40	ярма	ярмо	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	Id=19bd|SpaceAfter=No
 41	,	,	PUNCT	U	_	44	punct	_	Id=19be
 42	але	але	CCONJ	Ccs	_	44	cc	_	Id=19bf
@@ -2796,7 +2796,7 @@
 9	гарантією	гарантія	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	conj	_	Id=19dx
 10	безпеки	безпека	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	Id=19dy|SpaceAfter=No
 11	,	,	PUNCT	U	_	12	punct	_	Id=19dz
-12	незалежности	незалежність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	10	conj	_	Id=19e0
+12	незалежности	незалежність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	10	conj	_	Id=19e0
 13	і	і	CCONJ	Ccs	_	14	cc	_	Id=19e1
 14	свободи	свобода	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	Id=19e2
 15	чехів	чех	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	Id=19e3
@@ -2834,7 +2834,7 @@
 47	і	і	CCONJ	Ccs	_	51	cc	_	Id=19ez
 48	східньо	східний	ADJ	A	Hyph=Yes	50	compound	_	Id=19f0|SpaceAfter=No
 49	-	-	PUNCT	U	PunctType=Hyph	48	punct	_	Id=19f1|SpaceAfter=No
-50	европейських	европейський	ADJ	Ao--pgf	Case=Gen|Number=Plur|Orth=Khark	51	amod	_	Id=19f2
+50	европейських	европейський	ADJ	Ao--pgf	Case=Gen|Number=Plur|Orth=Alt	51	amod	_	Id=19f2
 51	народів	народ	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	44	nmod	_	Id=19f3
 52	та	та	CCONJ	Ccs	_	55	cc	_	Id=19f4
 53	кавказько	кавказький	ADJ	A	Hyph=Yes	55	compound	_	Id=19f5|SpaceAfter=No
@@ -4362,7 +4362,7 @@
 2	УНР	УНР	PROPN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Uninflect=Yes	1	nmod	_	Id=1hqd
 3	і	і	CCONJ	Ccs	_	4	cc	_	Id=1hqe
 4	ніхто	ніхто	PRON	Pz---y-nn	Animacy=Anim|Case=Nom|PronType=Neg	1	conj	_	Id=1hqf
-5	инший	инший	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing|Orth=Khark	4	amod	_	Id=1hqg
+5	инший	инший	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing|Orth=Alt	4	amod	_	Id=1hqg
 6	на	на	ADP	Spsl	Case=Loc	7	case	_	Id=1hqh
 7	території	територія	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	Id=1hqi
 8	її	вона	PRON	Pp-3f-sgn	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod	_	Id=1hqj
@@ -4380,7 +4380,7 @@
 20	тілу	тіло	NOUN	Ncnsln	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	nmod	_	Id=1hqv|SpaceAfter=No
 21	,	,	PUNCT	U	_	24	punct	_	Id=1hqw
 22	або	або	CCONJ	Ccs	_	24	cc	_	Id=1hqx
-23	иншим	инший	ADJ	Ao--pdf	Case=Dat|Number=Plur|Orth=Khark	24	amod	_	Id=1hqy
+23	иншим	инший	ADJ	Ao--pdf	Case=Dat|Number=Plur|Orth=Alt	24	amod	_	Id=1hqy
 24	актам	акт	NOUN	Ncmpdn	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	18	conj	_	Id=1hqz|SpaceAfter=No
 25	,	,	PUNCT	U	_	27	punct	_	Id=1hr0
 26	які	який	DET	Pr----pna	Case=Nom|Number=Plur|PronType=Rel	27	nsubj	_	Id=1hr1
@@ -8951,7 +8951,7 @@
 30	Ольга	Ольга	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	27	conj	_	Id=1uyz
 31	Фреймут	Фреймут	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Uninflect=Yes	30	flat:name	_	Id=1uz0
 32	та	та	CCONJ	Ccs	_	33	cc	_	Id=1uz1
-33	діджей	діджей	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Orth=Khark	9	conj	_	Id=1uz2
+33	діджей	діджей	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Orth=Alt	9	conj	_	Id=1uz2
 34	Настя	Настя	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	33	flat:title	_	Id=1uz3|SpaceAfter=No
 35	.	.	PUNCT	U	_	7	punct	_	Id=1uz4
 
@@ -10150,7 +10150,7 @@
 1	Є	бути	VERB	Vapip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1zv1
 2	скоріше	скоріше	ADV	Rc	Degree=Cmp	1	advmod	_	Id=1zv2
 3	велич	велич	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	Id=1zv3
-4	безвладности	безвладність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	3	nmod	_	Id=1zv4|SpaceAfter=No
+4	безвладности	безвладність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	3	nmod	_	Id=1zv4|SpaceAfter=No
 5	,	,	PUNCT	U	_	7	punct	_	Id=1zv5
 6	що	що	SCONJ	Css	_	7	mark	_	Id=1zv6
 7	нерішуча	нерішучий	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	3	acl	_	Id=1zv7
@@ -10268,7 +10268,7 @@
 3	уже	уже	ADV	R	_	4	advmod	_	Id=1zxv
 4	позбавлений	позбавлений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=1zxw
 5	первня	первень	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obj	_	Id=1zxx
-6	ненависти	ненависть	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	5	nmod	_	Id=1zxy|SpaceAfter=No
+6	ненависти	ненависть	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	5	nmod	_	Id=1zxy|SpaceAfter=No
 7	.	.	PUNCT	U	_	4	punct	_	Id=1zxz
 
 # sent_id = 1zy0
@@ -10482,7 +10482,7 @@
 # sent_id = 203m
 # text = Спершу народній гнів за невдачу й самітна постать одного неявного поета...
 1	Спершу	спершу	ADV	R	_	3	advmod	_	Id=203n
-2	народній	народний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing|Orth=Khark	3	amod	_	Id=203o
+2	народній	народний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing|Orth=Alt	3	amod	_	Id=203o
 3	гнів	гнів	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	Id=203p
 4	за	за	ADP	Spsa	Case=Acc	5	case	_	Id=203q
 5	невдачу	невдача	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	Id=203r
@@ -12330,7 +12330,7 @@
 23	для	для	ADP	Spsg	Case=Gen	24	case	_	Id=2w0c
 24	друку	друк	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	Id=2w0d
 25	свої	свій	DET	Ppp--npaa	Animacy=Inan|Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	26	det	_	Id=2w0e
-26	матеріяли	матеріял	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Orth=Khark	21	obj	_	Id=2w0f
+26	матеріяли	матеріял	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Orth=Alt	21	obj	_	Id=2w0f
 27	до	до	ADP	Spsg	Case=Gen	29	case	_	Id=2w0g
 28	археологічної	археологічний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	29	amod	_	Id=2w0h
 29	мапи	мапа	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	Id=2w0i
@@ -12356,7 +12356,7 @@
 
 # sent_id = 2w12
 # text = Матеріяли ці містять декілька додатків до викладу Ф. О. Петруня, що я їх подаю тут на прохання автора основної статті.
-1	Матеріяли	матеріял	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Orth=Khark	3	nsubj	_	Id=2w13
+1	Матеріяли	матеріял	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Orth=Alt	3	nsubj	_	Id=2w13
 2	ці	цей	DET	Pd----pna	Case=Nom|Number=Plur|PronType=Dem	1	det	_	Id=2w14
 3	містять	містити	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=2w15
 4	декілька	декілька	DET	Mlc-a	Case=Acc|NumType=Card|PronType=Ind	5	det:numgov	_	Id=2w16
@@ -12411,7 +12411,7 @@
 26	аспектом	аспект	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	Id=2w2h
 27	вивчення	вивчення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	Id=2w2i
 28	татарської	татарський	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	30	amod	_	Id=2w2j
-29	матеріяльної	матеріяльний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	30	amod	_	Id=2w2k
+29	матеріяльної	матеріяльний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	30	amod	_	Id=2w2k
 30	культури	культура	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	Id=2w2l|SpaceAfter=No
 31	.	.	PUNCT	U	_	17	punct	_	Id=2w2m
 
@@ -15504,7 +15504,7 @@
 3	спробу	спроба	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	Id=361r
 4	в	в	ADP	Spsa	Case=Acc	5	case	_	Id=361s
 5	міру	міра	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	Id=361t
-6	можливости	можливість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	5	nmod	_	Id=361u
+6	можливости	можливість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	5	nmod	_	Id=361u
 7	об’єктивно	об’єктивно	ADV	Rp	Degree=Pos	8	advmod	_	Id=361v
 8	висвітлити	висвітлити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	acl	_	Id=361w
 9	головні	головний	ADJ	Afp-pasn	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	Id=361x
@@ -15529,7 +15529,7 @@
 28	щоб	щоб	SCONJ	Css	_	29	mark	_	Id=362g
 29	оцінити	оцінити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	advcl	_	Id=362h
 30	її	її	DET	Ppp3f-saa	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	31	det	_	Id=362i
-31	ролю	роля	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Orth=Khark	29	obj	_	Id=362j
+31	ролю	роля	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Orth=Alt	29	obj	_	Id=362j
 32	тепер	тепер	ADV	Pd------r	PronType=Dem	31	advmod	_	Id=362k|SpaceAfter=No
 33	.	.	PUNCT	U	_	2	punct	_	Id=362l
 
@@ -15623,7 +15623,7 @@
 5	двох	два	NUM	Mlcnsg	Case=Gen|Gender=Neut|NumType=Card	6	nummod	_	Id=364t
 6	десятиріч	десятиріччя	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	obj	_	Id=364u
 7	нашої	наш	DET	Ppp1f-sga	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	_	Id=364v
-8	духовости	духовість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	6	nmod	_	Id=364w|SpaceAfter=No
+8	духовости	духовість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	6	nmod	_	Id=364w|SpaceAfter=No
 9	.	.	PUNCT	U	_	2	punct	_	Id=364x
 
 # sent_id = 364y
@@ -15664,7 +15664,7 @@
 3	названа	названий	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=3661
 4	ім’ям	ім’я	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	Id=3662
 5	не	не	PART	Q	Polarity=Neg	6	advmod	_	Id=3663
-6	Колюмба	Колюмб	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Orth=Khark	4	nmod	_	Id=3664|SpaceAfter=No
+6	Колюмба	Колюмб	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Orth=Alt	4	nmod	_	Id=3664|SpaceAfter=No
 7	.	.	PUNCT	U	_	3	punct	_	Id=3665
 
 # sent_id = 3666
@@ -15686,7 +15686,7 @@
 2	був	бути	AUX	Vapis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	Id=366j
 3	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Id=366k
 4	його	його	DET	Ppp3m-sia	Case=Ins|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	5	det	_	Id=366l
-5	Колюмбом	Колюмб	PROPN	Npmsiy	Animacy=Anim|Case=Ins|Gender=Masc|NameType=Sur|Number=Sing|Orth=Khark	14	csubj	_	Id=366m|SpaceAfter=No
+5	Колюмбом	Колюмб	PROPN	Npmsiy	Animacy=Anim|Case=Ins|Gender=Masc|NameType=Sur|Number=Sing|Orth=Alt	14	csubj	_	Id=366m|SpaceAfter=No
 6	,	,	PUNCT	U	_	9	punct	_	Id=366n
 7	чи	чи	CCONJ	Ccs	_	9	cc	_	Id=366o
 8	тільки	тільки	PART	Q	_	9	discourse	_	Id=366p
@@ -15706,12 +15706,12 @@
 # text = Говорячи про матеріялістичність і ідеалістичність підходу до дійсности, Ви, Юрію Володимирович, цитуєте М. Плянка і, на підставі ніби його думок, робите ВИСНОВОК, що різницю між духом і матерією новітня фізика знімає.
 1	Говорячи	говорити	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	15	advcl	_	Id=3672
 2	про	про	ADP	Spsa	Case=Acc	3	case	_	Id=3673
-3	матеріялістичність	матеріялістичність	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Orth=Khark	1	obl	_	Id=3674
+3	матеріялістичність	матеріялістичність	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Orth=Alt	1	obl	_	Id=3674
 4	і	і	CCONJ	Ccs	_	5	cc	_	Id=3675
 5	ідеалістичність	ідеалістичність	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	conj	_	Id=3676
 6	підходу	підхід	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Id=3677
 7	до	до	ADP	Spsg	Case=Gen	8	case	_	Id=3678
-8	дійсности	дійсність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	6	nmod	_	Id=3679|SpaceAfter=No
+8	дійсности	дійсність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	6	nmod	_	Id=3679|SpaceAfter=No
 9	,	,	PUNCT	U	_	1	punct	_	Id=367a
 10	Ви	ви	PRON	Pp-2-ypnn	Animacy=Anim|Case=Nom|Number=Plur|Person=2|PronType=Prs	15	nsubj	_	Id=367b|SpaceAfter=No
 11	,	,	PUNCT	U	_	12	punct	_	Id=367c
@@ -15721,7 +15721,7 @@
 15	цитуєте	цитувати	VERB	Vmpip2p	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Id=367g
 16	М	М.	PROPN	Y	Abbr=Yes|Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing|Uninflect=Yes	15	obj	_	Id=367h|SpaceAfter=No
 17	.	.	PUNCT	U	_	16	punct	_	Id=367i
-18	Плянка	Плянк	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Sur|Number=Sing|Orth=Khark	16	flat:name	_	Id=367j
+18	Плянка	Плянк	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Sur|Number=Sing|Orth=Alt	16	flat:name	_	Id=367j
 19	і	і	CCONJ	Ccs	_	27	cc	_	Id=367k|SpaceAfter=No
 20	,	,	PUNCT	U	_	22	punct	_	Id=367l
 21	на	на	ADP	Spsl	Case=Loc	22	case	_	Id=367m
@@ -15751,7 +15751,7 @@
 3	Ви	ви	PRON	Pp-2-ypnn	Animacy=Anim|Case=Nom|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	Id=3688
 4	зрозуміли	зрозуміти	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	Id=3689
 5	вислів	вислів	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Id=368a
-6	Плянка	Плянк	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Orth=Khark	5	nmod	_	Id=368b|SpaceAfter=No
+6	Плянка	Плянк	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Orth=Alt	5	nmod	_	Id=368b|SpaceAfter=No
 7	?	?	PUNCT	U	_	4	punct	_	Id=368c
 
 # sent_id = 368d
@@ -15796,14 +15796,14 @@
 # text = Тільки розуміння однаковости душевного і тілесного як однаково сповнених таємничости сил було б продовженням наведених мною в попередніх двох цитатах думок цього ж таки дослідника, отже, маємо в нього не заперечення ідеалізму, а саме його ствердження, уґрунтоване розвитком модерної фізики.
 1	Тільки	тільки	PART	Q	_	2	discourse	_	Id=369e
 2	розуміння	розуміння	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	Id=369f
-3	однаковости	однаковість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	2	nmod	_	Id=369g
+3	однаковости	однаковість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	2	nmod	_	Id=369g
 4	душевного	душевне	NOUN	Ao-nsgf	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	Id=369h
 5	і	і	CCONJ	Ccs	_	6	cc	_	Id=369i
 6	тілесного	тілесне	NOUN	Ao-nsgf	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	conj	_	Id=369j
 7	як	як	SCONJ	Css	_	11	mark	_	Id=369k
 8	однаково	однаково	ADV	R	_	9	advmod	_	Id=369l
 9	сповнених	сповнений	ADJ	Ap--pgf-ep	Aspect=Perf|Case=Gen|Number=Plur|VerbForm=Part|Voice=Pass	11	amod	_	Id=369m
-10	таємничости	таємничість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Khark	9	obj	_	Id=369n
+10	таємничости	таємничість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	9	obj	_	Id=369n
 11	сил	сила	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	appos	_	Id=369o
 12	було	бути	AUX	Vapis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	cop	_	Id=369p
 13	б	б	AUX	Q	Mood=Cnd	14	aux	_	Id=369q
@@ -15870,7 +15870,7 @@
 16	що	що	SCONJ	Css	_	29	mark	_	Id=36ch
 17	войовничий	войовничий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	Id=36ci
 18	філософський	філософський	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	Id=36cj
-19	матеріялізм	матеріялізм	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Orth=Khark	29	nsubj	_	Id=36ck|SpaceAfter=No
+19	матеріялізм	матеріялізм	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Orth=Alt	29	nsubj	_	Id=36ck|SpaceAfter=No
 20	,	,	PUNCT	U	_	21	punct	_	Id=36cl
 21	внурившися	внуритися	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	29	advcl	_	Id=36cm
 22	в	в	ADP	Spsa	Case=Acc	27	case	_	Id=36cn
