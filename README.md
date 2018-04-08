@@ -1,22 +1,24 @@
-### Summary
+# Summary
 
-Gold standard Universal Dependencies corpus for Ukrainian, developed for UD version 2 originally,  
+Gold standard Universal Dependencies corpus for Ukrainian, developed for UD version 2 originally,
 by Institute for Ukrainian, NGO.
 
 
-### Introduction
+# Introduction
 
 UD Ukrainian comprises 100K tokens in 5866 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.
 
 
-### Acknowledgments
+# Acknowledgments
 
 Major contributors: Natalia Kotsyba, Bohdan Moskalevskyi, Mykhailo Romanenko.
 
-Large portion of anotation was made by Ivanka Kosovska, Olha Lytvyn, Oksana Orlenko and by students of Kyiv-Mohyla Academy department of Ukrainian language (headed by Liudmyla Dyka): Hanna Brovko, Bohdana Matushko, Natalia Onyshchuk, Valeriia Pareviazko, Yaroslava Rychyk, Anastasiia Stetsenko, Snizhana Umanets.
+Large portion of anotation was made by Halyna Samoridna, Ivanka Kosovska, Olha Lytvyn, Oksana Orlenko and by students of Kyiv-Mohyla Academy department of Ukrainian language (headed by Liudmyla Dyka): Hanna Brovko, Bohdana Matushko, Natalia Onyshchuk, Valeriia Pareviazko, Yaroslava Rychyk, Anastasiia Stetsenko, Snizhana Umanets.
 
 We thank Prof. Larysa Masenko for guidance.
 
+
+# Documentation
 
 ### Basic stats
 
@@ -64,6 +66,9 @@ UD Ukrainian data conforms to [CoNLL-U](http://universaldependencies.org/format.
 
 
 ### Changelog
+
+* 2018-04-15 **v2.2**
+  * Repository renamed from UD_Ukrainian to UD_Ukrainian-IU.
 
 * 2017-11-15 **v2.1**
   * Quadrupled the amount of data up to 100K, mostly with nonfiction; improved consistency.
