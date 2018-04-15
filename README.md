@@ -6,7 +6,7 @@ by Institute for Ukrainian, NGO.
 
 # Introduction
 
-UD Ukrainian comprises 100K tokens in 5866 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.
+UD Ukrainian comprises 100K tokens in 5873 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.
 
 
 # Acknowledgments
@@ -24,7 +24,7 @@ We thank Prof. Larysa Masenko for guidance.
 
 | set   | sentences | ~tokens |
 | ----- |----------:| -------:|
-| train |    4506   |    75K  |
+| train |    4513   |    75K  |
 | dev   |     783   |    10K  |
 | test  |     577   |    15K  |
 | TOTAL |    5866   |   100K  |
@@ -68,7 +68,10 @@ UD Ukrainian data conforms to [CoNLL-U](http://universaldependencies.org/format.
 ### Changelog
 
 * 2018-04-15 **v2.2**
-  * Repository renamed from UD_Ukrainian to UD_Ukrainian-IU.
+  * Repository renamed from UD_Ukrainian to UD_Ukrainian-IU to match the new UD naming convention.
+  * `Orth=Khark` feature renamed to `Orth=Alt`.
+  * Fixed some validation errors.
+  * Added a couple of new sentences.
 
 * 2017-11-15 **v2.1**
   * Quadrupled the amount of data up to 100K, mostly with nonfiction; improved consistency.
