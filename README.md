@@ -1,6 +1,6 @@
 # Summary
 
-Gold standard Universal Dependencies corpus for Ukrainian, developed for UD version 2 originally,
+Gold standard Universal Dependencies corpus for Ukrainian, developed for UD version 2 originally,  
 by Institute for Ukrainian, NGO.
 
 
