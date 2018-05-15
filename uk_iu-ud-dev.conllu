@@ -968,7 +968,7 @@
 14	,	,	PUNCT	U	_	16	punct	_	Id=0p9o
 15	про	про	ADP	Spsa	Case=Acc	16	case	_	Id=0p9p
 16	закономірності	закономірність	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	conj	_	Id=0p9q
-17	його	його	DET	Ppp3n-sga	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	18	det	_	Id=0p9r
+17	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod	_	Id=0p9r
 18	використання	використання	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	Id=0p9s
 19	в	в	ADP	Spsl	Case=Loc	21	case	_	Id=0p9t
 20	різних	різний	ADJ	Ao--plf	Case=Loc|Number=Plur	21	amod	_	Id=0p9u
@@ -3925,7 +3925,7 @@
 4	чинності	чинність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	Id=2l3h
 5	з	з	ADP	Spsg	Case=Gen	6	case	_	Id=2l3i
 6	дня	день	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	Id=2l3j
-7	його	його	DET	Ppp3n-sga	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	9	det	_	Id=2l3k
+7	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	det	_	Id=2l3k
 8	офіційного	офіційний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	9	amod	_	Id=2l3l
 9	опублікування	опублікування	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	Id=2l3m|SpaceAfter=No
 10	.	.	PUNCT	U	_	3	punct	_	Id=2l3n
@@ -4888,7 +4888,7 @@
 5	домівках	домівка	NOUN	Ncfpln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	Id=1lhh|SpaceAfter=No
 6	,	,	PUNCT	U	_	12	punct	_	Id=1lhi
 7	а	а	CCONJ	Ccs	_	12	cc	_	Id=1lhj
-8	їх	вони	PRON	Pp-3--pgn	Case=Gen|Number=Plur|Person=3|PronType=Prs	9	nmod	_	Id=1lhk
+8	їх	їх	DET	Ppp3f-saa	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	9	det	_	Id=1lhk
 9	появу	поява	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	Id=1lhl
 10	у	у	ADP	Spsl	Case=Loc	11	case	_	Id=1lhm
 11	господарствах	господарство	NOUN	Ncnpln	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	nmod	_	Id=1lhn

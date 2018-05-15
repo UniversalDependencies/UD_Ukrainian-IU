@@ -3551,7 +3551,7 @@
 5	поїзд	поїзд	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Id=1fz1
 6	стояв	стояти	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	acl	_	Id=1fz2
 7	цілий	цілий	ADJ	Ao-msafn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	amod	_	Id=1fz3
-8	день	день	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Id=1fz4
+8	день	день	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	Id=1fz4
 9	на	на	ADP	Spsl	Case=Loc	10	case	_	Id=1fz5
 10	станції	станція	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	Id=1fz6
 11	і	і	CCONJ	Ccs	_	14	cc	_	Id=1fz7
@@ -3604,10 +3604,10 @@
 2	поїзд	поїзд	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Id=1g0f
 3	зупинився	зупинитися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=1g0g|SpaceAfter=No
 4	:	:	PUNCT	U	_	6	punct	_	Id=1g0h
-5	день	день	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Id=1g0i
+5	день	день	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	Id=1g0i
 6	стоїть	стояти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	Id=1g0j|SpaceAfter=No
 7	,	,	PUNCT	U	_	9	punct	_	Id=1g0k
-8	другий	другий	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	9	obj	_	Id=1g0l|Promoted=Yes
+8	другий	другий	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	9	obl	_	Id=1g0l|Promoted=Yes
 9	стоїть	стояти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	Id=1g0m|SpaceAfter=No
 10	.	.	PUNCT	U	_	3	punct	_	Id=1g0n
 
@@ -3814,7 +3814,7 @@
 3	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Id=1g5s
 4	пробув	пробути	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=1g5t
 5	лише	лише	PART	Q	_	6	discourse	_	Id=1g5u
-6	тиждень	тиждень	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Id=1g5v|SpaceAfter=No
+6	тиждень	тиждень	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	Id=1g5v|SpaceAfter=No
 7	.	.	PUNCT	U	_	4	punct	_	Id=1g5w
 
 # sent_id = 1g5x
@@ -4724,7 +4724,7 @@
 5	особи	особа	NOUN	Ncfsgy	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Id=2jv4
 6	з	з	ADP	Spsg	Case=Gen	7	case	_	Id=2jv5
 7	дня	день	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	Id=2jv6
-8	його	його	DET	Ppp3f-sga	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	10	det	_	Id=2jv7
+8	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	Id=2jv7
 9	державної	державний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	Id=2jv8
 10	реєстрації	реєстрація	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	Id=2jv9
 11	в	в	ADP	Spsl	Case=Loc	14	case	_	Id=2jva
@@ -5253,7 +5253,7 @@
 27	кваліфікаційного	кваліфікаційний	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	28	amod	_	Id=2kax
 28	атестата	атестат	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	Id=2kay|SpaceAfter=No
 29	,	,	PUNCT	U	_	31	punct	_	Id=2kaz
-30	його	його	DET	Ppp3n-saa	Case=Acc|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	31	det	_	Id=2kb0
+30	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	det	_	Id=2kb0
 31	анулювання	анулювання	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	conj	_	Id=2kb1|SpaceAfter=No
 32	,	,	PUNCT	U	_	12	punct	_	Id=2kb2
 33	надається	надаватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=2kb3
@@ -5616,7 +5616,7 @@
 4	чинності	чинність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	Id=2kk3
 5	з	з	ADP	Spsg	Case=Gen	6	case	_	Id=2kk4
 6	дня	день	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	Id=2kk5
-7	її	її	DET	Ppp3n-sga	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	8	det	_	Id=2kk6
+7	її	вона	PRON	Pp-3f-sgn	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	det	_	Id=2kk6
 8	прийняття	прийняття	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	Id=2kk7|SpaceAfter=No
 9	.	.	PUNCT	U	_	3	punct	_	Id=2kk8
 
@@ -6369,7 +6369,7 @@
 4	чинності	чинність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	Id=2zxa
 5	з	з	ADP	Spsg	Case=Gen	6	case	_	Id=2zxb
 6	дня	день	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	Id=2zxc
-7	його	його	DET	Ppp3n-sga	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	9	det	_	Id=2zxd
+7	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	det	_	Id=2zxd
 8	офіційного	офіційний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	9	amod	_	Id=2zxe
 9	опублікування	опублікування	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	Id=2zxf|SpaceAfter=No
 10	.	.	PUNCT	U	_	3	punct	_	Id=2zxg
@@ -10946,7 +10946,7 @@
 17	графічні	графічний	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	19	amod	_	Id=2nvv
 18	біомеханічні	біомеханічний	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	19	amod	_	Id=2nvw
 19	партитури	партитура	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	Id=2nvx
-20	їх	їх	DET	Ppp3m-sga	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	21	det	_	Id=2nvy
+20	їх	вони	PRON	Pp-3--pgn	Case=Gen|Number=Plur|Person=3|PronType=Prs	21	nmod	_	Id=2nvy
 21	запису	запис	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	Id=2nvz|SpaceAfter=No
 22	.	.	PUNCT	U	_	10	punct	_	Id=2nw0
 
@@ -12970,7 +12970,7 @@
 8	з	з	ADP	Spsg	Case=Gen	9	case	_	Id=2wxv
 9	неба	небо	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	Id=2wxw|SpaceAfter=No
 10	,	,	PUNCT	U	_	13	punct	_	Id=2wxx
-11	нічого	ніщо	PRON	Pz---n-an	Animacy=Inan|Case=Acc|PronType=Neg	13	obj	_	Id=2wxy
+11	нічого	ніщо	PRON	Pz---n-gn	Animacy=Inan|Case=Gen|PronType=Neg	13	obj	_	Id=2wxy
 12	не	не	PART	Q	Polarity=Neg	13	advmod	_	Id=2wxz
 13	навчившись	навчитися	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	4	advcl	_	Id=2wy0
 14	за	за	ADP	Spsa	Case=Acc	17	case	_	Id=2wy1
