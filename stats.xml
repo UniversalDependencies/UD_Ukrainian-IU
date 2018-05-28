@@ -101,7 +101,7 @@
     <feat name="Voice" value="Pass" upos="ADJ,NOUN">1097</feat><!-- даних, дані, пов’язані, установленому, даними, об’єднаної, затвердженого, вибраний, включені, населених -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="51">
+  <deps unique="50">
     <dep name="acl">1363</dep>
     <dep name="advcl">1247</dep>
     <dep name="advcl:sp">66</dep>
@@ -137,8 +137,7 @@
     <dep name="list">7</dep>
     <dep name="mark">1866</dep>
     <dep name="nmod">8205</dep>
-    <dep name="nsubj">6148</dep>
-    <dep name="nsubj:pass">199</dep>
+    <dep name="nsubj">6347</dep>
     <dep name="nummod">392</dep>
     <dep name="nummod:gov">291</dep>
     <dep name="obj">4667</dep>

@@ -485,7 +485,7 @@
 # text = Додаткові конструктивні елементи призначені для регулювання числа обертів та ударної дії свердла, плавного пуску електродвигуна, можливості реверсування (зміна напрямку обертання) тощо.
 1	Додаткові	додатковий	ADJ	Ao--pns	Case=Nom|Number=Plur	3	amod	_	Id=0oun
 2	конструктивні	конструктивний	ADJ	Afp-pns	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	Id=0ouo
-3	елементи	елемент	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	Id=0oup
+3	елементи	елемент	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	Id=0oup
 4	призначені	призначений	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Id=0ouq
 5	для	для	ADP	Spsg	Case=Gen	6	case	_	Id=0our
 6	регулювання	регулювання	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	Id=0ous
@@ -693,7 +693,7 @@
 9	з	з	ADP	Spsi	Case=Ins	10	case	_	Id=0p1q
 10	тими	той	DET	Pd----pia	Case=Ins|Number=Plur|PronType=Dem	8	obl	_	Id=0p1r|SpaceAfter=No
 11	,	,	PUNCT	U	_	13	punct	_	Id=0p1s
-12	які	який	DET	Pr----pna	Case=Nom|Number=Plur|PronType=Rel	13	nsubj:pass	_	Id=0p1t
+12	які	який	DET	Pr----pna	Case=Nom|Number=Plur|PronType=Rel	13	nsubj	_	Id=0p1t
 13	закладені	закладений	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	10	acl	_	Id=0p1u
 14	від	від	ADP	Spsg	Case=Gen	15	case	_	Id=0p1v
 15	природи	природа	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	Id=0p1w
@@ -982,7 +982,7 @@
 1	З	з	ADP	Spsi	Case=Ins	2	case	_	Id=0pa0
 2	основами	основа	NOUN	Ncfpin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	obl	_	Id=0pa1
 3	колористики	колористика	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	Id=0pa2
-4	ти	ти	PRON	Pp-2-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj:pass	_	Id=0pa3
+4	ти	ти	PRON	Pp-2-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	Id=0pa3
 5	вже	вже	ADV	R	_	6	advmod	_	Id=0pa4
 6	ознайомлений	ознайомлений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=0pa5|SpaceAfter=No
 7	,	,	PUNCT	U	_	9	punct	_	Id=0pa6
@@ -1580,7 +1580,7 @@
 4	плечі	плече	NOUN	Ncnsln	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	Id=123o
 5	була	бути	AUX	Vapis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	6	cop	_	Id=123p
 6	витатуйована	витатуйований	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=123q
-7	стрілка	стрілка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	Id=123r|SpaceAfter=No
+7	стрілка	стрілка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Id=123r|SpaceAfter=No
 8	,	,	PUNCT	U	_	13	punct	_	Id=123s
 9	якою	який	DET	Pr--f-sia	Case=Ins|Gender=Fem|Number=Sing|PronType=Rel	13	obl	_	Id=123t
 10	у	у	ADP	Spsl	Case=Loc	12	case	_	Id=123u
@@ -2086,7 +2086,7 @@
 
 # sent_id = 13rg
 # text = Він створений не уявою автора.
-1	Він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	Id=13rh
+1	Він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Id=13rh
 2	створений	створений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=13ri
 3	не	не	PART	Q	Polarity=Neg	4	advmod	_	Id=13rj
 4	уявою	уява	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	Id=13rk
@@ -2405,7 +2405,7 @@
 # newpar id = 13z7
 # sent_id = 13z8
 # text = Книжка написана, як захопливий роман.
-1	Книжка	книжка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj:pass	_	Id=13z9
+1	Книжка	книжка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	Id=13z9
 2	написана	написаний	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=13za|SpaceAfter=No
 3	,	,	PUNCT	U	_	6	punct	_	Id=13zb
 4	як	як	SCONJ	Css	_	6	mark	_	Id=13zc
@@ -2510,7 +2510,7 @@
 12	яких	який	DET	Pr----pga	Case=Gen|Number=Plur|PronType=Rel	9	nmod	_	Id=141r
 13	досі	досі	ADV	Pd------r	PronType=Dem	14	advmod	_	Id=141s
 14	засмічені	засмічений	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	7	acl	_	Id=141t
-15	газети	газета	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj:pass	_	Id=141u|SpaceAfter=No
+15	газети	газета	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	Id=141u|SpaceAfter=No
 16	,	,	PUNCT	U	_	14	punct	_	Id=141v
 17	залишили	залишити	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	2	ccomp	_	Id=141w
 18	на	на	ADP	Spsl	Case=Loc	20	case	_	Id=141x
@@ -4081,7 +4081,7 @@
 9	яких	який	DET	Pr----pga	Case=Gen|Number=Plur|PronType=Rel	11	obl	_	Id=2lfn
 10	будуть	бути	AUX	Vapif3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	Id=2lfo
 11	проведені	проведений	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	3	acl	_	Id=2lfp
-12	розрахунки	розрахунок	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj:pass	_	Id=2lfq
+12	розрахунки	розрахунок	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	Id=2lfq
 
 # newpar id = 2lfs
 # sent_id = 2lfr
@@ -4322,7 +4322,7 @@
 20	,	,	PUNCT	U	_	24	punct	_	Id=1l3h
 21	натомість	натомість	CCONJ	Ccs	_	24	cc	_	Id=1l3i
 22	ця	цей	DET	Pd--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	Id=1l3j
-23	штука	штука	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj:pass	_	Id=1l3k
+23	штука	штука	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	Id=1l3k
 24	датована	датований	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	conj	_	Id=1l3l
 25	1886	1886	ADJ	Mlomsi	Case=Ins|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	26	amod	_	Id=1l3m
 26	роком	рік	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	Id=1l3n|SpaceAfter=No
@@ -5248,7 +5248,7 @@
 19	Європі	Європа	PROPN	Npfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	Id=1lqq
 20	(	(	PUNCT	U	_	21	punct	_	Id=1lqr|SpaceAfter=No
 21	присвячений	присвячений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	parataxis	_	Id=1lqs
-22	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj:pass	_	Id=1lqt|SpaceAfter=No
+22	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	Id=1lqt|SpaceAfter=No
 23	,	,	PUNCT	U	_	26	punct	_	Id=1lqu
 24	як	як	SCONJ	Css	_	26	mark	_	Id=1lqv
 25	і	і	PART	Q	_	26	discourse	_	Id=1lqw
@@ -5632,7 +5632,7 @@
 1	До	до	ADP	Spsg	Case=Gen	2	case	_	Id=1m0h
 2	того	те	PRON	Pd--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	14	parataxis:discourse	_	Id=1m0i
 3	ж	ж	PART	Q	_	2	discourse	_	Id=1m0j
-4	передавачі	передавач	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj:pass	_	Id=1m0k
+4	передавачі	передавач	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	Id=1m0k
 5	сонара	сонар	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Id=1m0l|SpaceAfter=No
 6	,	,	PUNCT	U	_	7	punct	_	Id=1m0m
 7	встановлені	встановлений	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	4	amod	_	Id=1m0n
@@ -7422,7 +7422,7 @@
 12	тепловою	тепловий	ADJ	Ao-fsif	Case=Ins|Gender=Fem|Number=Sing	10	conj	_	Id=1xsg
 13	енергетикою	енергетика	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	Id=1xsh|SpaceAfter=No
 14	,	,	PUNCT	U	_	16	punct	_	Id=1xsi
-15	яка	який	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	16	nsubj:pass	_	Id=1xsj
+15	яка	який	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	16	nsubj	_	Id=1xsj
 16	зафіксована	зафіксований	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	advcl	_	Id=1xsk
 17	наприкінці	наприкінці	ADP	Spsg	Case=Gen	19	case	_	Id=1xsl
 18	2016	2016	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	19	amod	_	Id=1xsm
@@ -7534,7 +7534,7 @@
 9	підномінацій	підномінація	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	Id=1xvd|SpaceAfter=No
 10	)	)	PUNCT	U	_	8	punct	_	Id=1xve|SpaceAfter=No
 11	;	;	PUNCT	U	_	34	punct	_	Id=1xvf
-12	видавництва	видавництво	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	34	nsubj:pass	_	Id=1xvg
+12	видавництва	видавництво	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	34	nsubj	_	Id=1xvg
 13	«	«	PUNCT	U	PunctType=Quot	14	punct	_	Id=1xvh|SpaceAfter=No
 14	Дух	дух	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	flat:title	_	Id=1xvi
 15	і	і	CCONJ	Ccs	_	16	cc	_	Id=1xvj
@@ -7706,7 +7706,7 @@
 1	За	за	ADP	Spsi	Case=Ins	2	case	_	Id=1xzy
 2	характером	характер	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	Id=1xzz
 3	поширення	поширення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	Id=1y00
-4	мем	мем	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	Id=1y01
+4	мем	мем	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Id=1y01
 5	може	могти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1y02
 6	бути	бути	AUX	Vapn	Aspect=Imp|VerbForm=Inf	7	cop	_	Id=1y03
 7	віднесений	віднесений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	xcomp	_	Id=1y04
@@ -7738,7 +7738,7 @@
 33	,	,	PUNCT	U	_	37	punct	_	Id=1y0u
 34	в	в	ADP	Spsl	Case=Loc	35	case	_	Id=1y0v
 35	якому	який	DET	Pr--n-sla	Case=Loc|Gender=Neut|Number=Sing|PronType=Rel	37	obl	_	Id=1y0w
-36	вони	вони	PRON	Pp-3--pnn	Case=Nom|Number=Plur|Person=3|PronType=Prs	37	nsubj:pass	_	Id=1y0x
+36	вони	вони	PRON	Pp-3--pnn	Case=Nom|Number=Plur|Person=3|PronType=Prs	37	nsubj	_	Id=1y0x
 37	вжиті	вжитий	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	32	acl	_	Id=1y0y|SpaceAfter=No
 38	,	,	PUNCT	U	_	40	punct	_	Id=1y0z
 39	що	що	SCONJ	Css	_	40	mark	_	Id=1y10
@@ -8456,7 +8456,7 @@
 # newpar id = 1ynl
 # sent_id = 1ynm
 # text = Поняття «мем» і «меметика» з 1988 року включені до Оксфордського словника англійської мови — словника, що задає нормативні категорії наукової та інформаційної сфери.
-1	Поняття	поняття	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj:pass	_	Id=1ynn
+1	Поняття	поняття	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	Id=1ynn
 2	«	«	PUNCT	U	PunctType=Quot	3	punct	_	Id=1yno|SpaceAfter=No
 3	мем	мем	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	flat:title	_	Id=1ynp|SpaceAfter=No
 4	»	»	PUNCT	U	PunctType=Quot	3	punct	_	Id=1ynq
@@ -8952,7 +8952,7 @@
 8	нішу	ніша	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	Id=28is|SpaceAfter=No
 9	,	,	PUNCT	U	_	12	punct	_	Id=28it
 10	і	і	CCONJ	Ccs	_	12	cc	_	Id=28iu
-11	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj:pass	_	Id=28iv
+11	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Id=28iv
 12	впевнений	впевнений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	Id=28iw|SpaceAfter=No
 13	,	,	PUNCT	U	_	17	punct	_	Id=28ix
 14	що	що	SCONJ	Css	_	17	mark	_	Id=28iy
@@ -9323,7 +9323,7 @@
 # newpar id = 2abe
 # sent_id = 2abf
 # text = Особа, яка вступає на державну службу, зобов'язана до призначення на посаду державної служби вийти зі складу виконавчого органу чи наглядової ради підприємства або організації, що має на меті одержання прибутку (крім випадків, коли особа здійснює функції з управління акціями (частками, паями), що належать державі або територіальній громаді, та представляє інтереси держави або територіальної громади в раді товариства (спостережній раді), ревізійній комісії господарського товариства), припинити іншу оплачувану або підприємницьку діяльність, крім викладацької, наукової і творчої діяльності, медичної практики, інструкторської та суддівської практики із спорту.
-1	Особа	особа	NOUN	Ncfsny	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	Id=2abg|SpaceAfter=No
+1	Особа	особа	NOUN	Ncfsny	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	Id=2abg|SpaceAfter=No
 2	,	,	PUNCT	U	_	4	punct	_	Id=2abh
 3	яка	який	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	4	nsubj	_	Id=2abi
 4	вступає	вступати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	Id=2abj
@@ -9648,7 +9648,7 @@
 1	Наприклад	наприклад	ADV	R	_	9	discourse	_	Id=2aly|SpaceAfter=No
 2	,	,	PUNCT	U	_	1	punct	_	Id=2alz
 3	пістолетне	пістолетний	ADJ	Ao-nsns	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	Id=2am0
-4	руків'я	руків’я	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	Id=2am1
+4	руків'я	руків’я	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	Id=2am1
 5	автомату	автомат	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Id=2am2
 6	АК	АК	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Uninflect=Yes	5	flat:title	_	Id=2am3|SpaceAfter=No
 7	-	-	PUNCT	U	PunctType=Hyph	8	punct	_	Id=2am4|SpaceAfter=No
@@ -9864,7 +9864,7 @@
 # sent_id = 30na
 # text = Ці спогади зафіксовані у «Книзі про батька».
 1	Ці	цей	DET	Pd----pna	Case=Nom|Number=Plur|PronType=Dem	2	det	_	Id=2o19
-2	спогади	спогад	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	Id=2o1a
+2	спогади	спогад	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Id=2o1a
 3	зафіксовані	зафіксований	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Id=2o1b
 4	у	у	ADP	Spsl	Case=Loc	6	case	_	Id=2o1c
 5	«	«	PUNCT	U	PunctType=Quot	6	punct	_	Id=2o1d|SpaceAfter=No
@@ -10484,7 +10484,7 @@
 13	необхідним	необхідне	NOUN	Ao-nsif	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	Id=2ohb
 14	селище	селище	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	Id=2ohc|SpaceAfter=No
 15	,	,	PUNCT	U	_	17	punct	_	Id=2ohd
-16	яке	який	DET	Pr--n-sna	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	17	nsubj:pass	_	Id=2ohe
+16	яке	який	DET	Pr--n-sna	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	17	nsubj	_	Id=2ohe
 17	розташоване	розташований	ADJ	Ap-nsns-ep	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	14	acl	_	Id=2ohf
 18	аж	аж	PART	Q	_	19	discourse	_	Id=2ohg
 19	так	так	ADV	Pd------r	PronType=Dem	20	advmod	_	Id=2ohh
@@ -10791,7 +10791,7 @@
 8	,	,	PUNCT	U	_	9	punct	_	Id=2gy2
 9	фотокамерах	фотокамера	NOUN	Ncfpln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	conj	_	Id=2gy3
 10	задіяні	задіяний	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Id=2gy4
-11	мільйони	мільйон	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Card	10	nsubj:pass	_	Id=2gy5
+11	мільйони	мільйон	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Card	10	nsubj	_	Id=2gy5
 12	напівпровідникових	напівпровідниковий	ADJ	Ao--pgf	Case=Gen|Number=Plur	13	amod	_	Id=2gy6
 13	транзисторів	транзистор	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	Id=2gy7|SpaceAfter=No
 14	.	.	PUNCT	U	_	10	punct	_	Id=2gy8
@@ -11235,7 +11235,7 @@
 
 # sent_id = 2hec
 # text = Питання відкрите, правда ж?
-1	Питання	питання	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	Id=2hed
+1	Питання	питання	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	Id=2hed
 2	відкрите	відкритий	ADJ	Ap-nsns-ep	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=2hee|SpaceAfter=No
 3	,	,	PUNCT	U	_	4	punct	_	Id=2hef
 4	правда	правда	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	Id=2heg
@@ -12322,7 +12322,7 @@
 7	мечеті	мечеть	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	Id=38lo|SpaceAfter=No
 8	,	,	PUNCT	U	_	12	punct	_	Id=38lp
 9	величезні	величезний	ADJ	Ao--pns	Case=Nom|Number=Plur	10	amod	_	Id=38lq
-10	вікна	вікно	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj:pass	_	Id=38lr
+10	вікна	вікно	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	Id=38lr
 11	якої	який	DET	Pr--f-sga	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	10	nmod	_	Id=38ls
 12	спроектовані	спроектований	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	6	acl	_	Id=38lt
 13	так	так	ADV	Pd------r	PronType=Dem	12	advmod	_	Id=38lu|SpaceAfter=No

@@ -2006,7 +2006,7 @@
 
 # sent_id = 18pc
 # text = Це подиктоване потребою: бути всюди, говорити, роз'яснювати і дурити ворога щодо численности рейдуючого відділу.
-1	Це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj:pass	_	Id=18pd
+1	Це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	Id=18pd
 2	подиктоване	подиктований	ADJ	Ap-nsns-ep	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=18pe
 3	потребою	потреба	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	Id=18pf|SpaceAfter=No
 4	:	:	PUNCT	U	_	5	punct	_	Id=18pg
@@ -2398,7 +2398,7 @@
 # text = Коли ж стрілець зобов'язаний вести пропаганду, а якщо не може, з огляду на слабе вироблення, вести розмови на політичні теми, тоді повинен розповідати про свої боєві пригоди і про життя УПА.
 1	Коли	коли	SCONJ	Css	_	4	mark	_	Id=193j
 2	ж	ж	PART	Q	_	1	discourse	_	Id=193k
-3	стрілець	стрілець	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	Id=193l
+3	стрілець	стрілець	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Id=193l
 4	зобов'язаний	зобов’язаний	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	26	advcl	_	Id=193m
 5	вести	вести	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	4	xcomp	_	Id=193n
 6	пропаганду	пропаганда	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	Id=193o|SpaceAfter=No
@@ -2845,7 +2845,7 @@
 # annotation_gap
 # sent_id = 19go
 # text = СССР побудований на насиллі і поневоленні, не дає нашим народам оборони перед германським імперіялізмом, але сам несе жорстоку імперіялістичну неволю і гніт.
-1	СССР	СССР	PROPN	Y	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	2	nsubj:pass	_	Id=19gp
+1	СССР	СССР	PROPN	Y	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	2	nsubj	_	Id=19gp
 2	побудований	побудований	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=19gq
 3	на	на	ADP	Spsl	Case=Loc	4	case	_	Id=19gr
 4	насиллі	насилля	NOUN	Ncnsln	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	Id=19gs
@@ -2917,7 +2917,7 @@
 # sent_id = 19jv
 # text = Наша пропаганда мусить бути побудована на правді, відповідати нашій генеральній політичній лінії і дихнути на тих запліснілих комунізмом і русофільством людей здоровим революційним, але демократичним духом.
 1	Наша	наш	DET	Ppp1f-sna	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	Id=19jw
-2	пропаганда	пропаганда	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	Id=19jx
+2	пропаганда	пропаганда	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Id=19jx
 3	мусить	мусити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=19jy
 4	бути	бути	AUX	Vapn	Aspect=Imp|VerbForm=Inf	5	cop	_	Id=19jz
 5	побудована	побудований	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	xcomp	_	Id=19k0
@@ -3678,7 +3678,7 @@
 # sent_id = 1g2f
 # text = Але одяг був мічений іменами.
 1	Але	але	CCONJ	Ccs	_	4	cc	_	Id=1g2g
-2	одяг	одяг	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	Id=1g2h
+2	одяг	одяг	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Id=1g2h
 3	був	бути	AUX	Vapis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	Id=1g2i
 4	мічений	мічений	ADJ	Ap-msnf-pp	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=1g2j
 5	іменами	ім’я	NOUN	Ncnpin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	obl	_	Id=1g2k|SpaceAfter=No
@@ -3897,7 +3897,7 @@
 8	табору	табір	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	Id=1gax
 9	більше	більше	ADV	Rc	Degree=Cmp	11	advmod	_	Id=1gay
 10	10	10	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	11	nummod	_	Id=1gaz
-11	тисяч	тисяча	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card	14	nsubj:pass	_	Id=1gb0
+11	тисяч	тисяча	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card	14	nsubj	_	Id=1gb0
 12	бранців	бранець	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	Id=1gb1
 13	були	бути	AUX	Vapis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	14	cop	_	Id=1gb2
 14	вивезені	вивезений	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	3	acl	_	Id=1gb3
@@ -4148,7 +4148,7 @@
 # sent_id = 1glg
 # text = І батько був якось долучений до цієї роботи.
 1	І	і	CCONJ	Ccs	_	5	cc	_	Id=1glh
-2	батько	батько	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	Id=1gli
+2	батько	батько	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Id=1gli
 3	був	бути	AUX	Vapis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	Id=1glj
 4	якось	якось	ADV	Pi------r	PronType=Ind	5	advmod	_	Id=1glk
 5	долучений	долучений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=1gll
@@ -4358,7 +4358,7 @@
 # newpar id = 1hqa
 # sent_id = 1hqb
 # text = Громадянин УНР і ніхто инший на території її не може бути покараний смертю, ані відданий яким-небудь карам по тілу, або иншим актам, які понижують людську гідність, ані підпасти конфіскації майна, як карі.
-1	Громадянин	громадянин	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	Id=1hqc
+1	Громадянин	громадянин	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	Id=1hqc
 2	УНР	УНР	PROPN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Uninflect=Yes	1	nmod	_	Id=1hqd
 3	і	і	CCONJ	Ccs	_	4	cc	_	Id=1hqe
 4	ніхто	ніхто	PRON	Pz---y-nn	Animacy=Anim|Case=Nom|PronType=Neg	1	conj	_	Id=1hqf
@@ -4476,7 +4476,7 @@
 54	заявнику	заявник	NOUN	Ncmsdy	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	51	appos	_	Id=1ikq|SpaceAfter=No
 55	,	,	PUNCT	U	_	2	punct	_	Id=1ikr
 56	такий	такий	DET	Pd--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	57	det	_	Id=1iks
-57	надрокористувач	надрокористувач	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	81	nsubj:pass	_	Id=1ikt
+57	надрокористувач	надрокористувач	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	81	nsubj	_	Id=1ikt
 58	у	у	ADP	Spsl	Case=Loc	59	case	_	Id=1iku
 59	відповіді	відповідь	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	82	obl	_	Id=1ikv
 60	на	на	ADP	Spsa	Case=Acc	61	case	_	Id=1ikw
@@ -4526,7 +4526,7 @@
 5	господарювання	господарювання	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	Id=1im2|SpaceAfter=No
 6	-	-	PUNCT	U	PunctType=Hyph	7	punct	_	Id=1im3|SpaceAfter=No
 7	заявника	заявник	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	appos	_	Id=1im4
-8	надрокористувач	надрокористувач	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	Id=1im5
+8	надрокористувач	надрокористувач	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Id=1im5
 9	зобов’язаний	зобов’язаний	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=1im6
 10	надати	надати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	9	xcomp	_	Id=1im7
 11	протягом	протягом	ADP	Spsg	Case=Gen	14	case	_	Id=1im8
@@ -5970,7 +5970,7 @@
 
 # sent_id = 2zg9
 # text = Вимога про безоплатне усунення недоліків роботи, виконаної за договором побутового підряду, які можуть становити небезпеку для життя або здоров'я замовника та інших осіб, може бути пред'явлена замовником або його правонаступником протягом десяти років з моменту прийняття роботи, якщо у встановленому законом порядку не передбачені більш тривалі строки (строки служби).
-1	Вимога	вимога	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj:pass	_	Id=2zga
+1	Вимога	вимога	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	Id=2zga
 2	про	про	ADP	Spsa	Case=Acc	4	case	_	Id=2zgb
 3	безоплатне	безоплатний	ADJ	Ao-nsas	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	Id=2zgc
 4	усунення	усунення	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	Id=2zgd
@@ -6020,7 +6020,7 @@
 48	передбачені	передбачений	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	27	advcl	_	Id=2zhl
 49	більш	більш	ADV	Rc	Degree=Cmp	50	advmod	_	Id=2zhm
 50	тривалі	тривалий	ADJ	Afp-pns	Case=Nom|Degree=Pos|Number=Plur	51	amod	_	Id=2zhn
-51	строки	строк	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	48	nsubj:pass	_	Id=2zho
+51	строки	строк	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	48	nsubj	_	Id=2zho
 52	(	(	PUNCT	U	_	53	punct	_	Id=2zhp|SpaceAfter=No
 53	строки	строк	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	51	appos	_	Id=2zhq
 54	служби	служба	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	53	nmod	_	Id=2zhr|SpaceAfter=No
@@ -6086,7 +6086,7 @@
 14	,	,	PUNCT	U	_	19	punct	_	Id=2zky
 15	коли	коли	ADV	Pr------r	PronType=Rel	19	advmod	_	Id=2zkz
 16	відповідні	відповідній	ADJ	Ao--pns	Case=Nom|Number=Plur	17	amod	_	Id=2zl0
-17	порушення	порушення	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	19	nsubj:pass	_	Id=2zl1
+17	порушення	порушення	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	Id=2zl1
 18	були	бути	AUX	Vapis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	19	cop	_	Id=2zl2
 19	допущені	допущений	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	13	acl	_	Id=2zl3
 20	після	після	ADP	Spsg	Case=Gen	21	case	_	Id=2zl4
@@ -6112,7 +6112,7 @@
 40	була	бути	AUX	Vapis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	41	cop	_	Id=2zlo
 41	встановлена	встановлений	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	27	acl	_	Id=2zlp
 42	інша	інший	DET	Pi--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	43	det	_	Id=2zlq
-43	відповідальність	відповідальність	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	41	nsubj:pass	_	Id=2zlr
+43	відповідальність	відповідальність	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	41	nsubj	_	Id=2zlr
 44	за	за	ADP	Spsa	Case=Acc	46	case	_	Id=2zls
 45	такі	такий	DET	Pd---npaa	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	46	det	_	Id=2zlt
 46	порушення	порушення	NOUN	Ncnpan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	43	nmod	_	Id=2zlu|SpaceAfter=No
@@ -7415,7 +7415,7 @@
 # text = | Всі права захищені
 1	|	|	PUNCT	U	_	4	punct	_	Id=1mnf
 2	Всі	весь	DET	Pg----pna	Case=Nom|Number=Plur|PronType=Tot	3	det	_	Id=1mng
-3	права	право	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	Id=1mnh
+3	права	право	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	Id=1mnh
 4	захищені	захищений	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Id=1mni
 
 # doc_title = [Підтверджую: я Вас люблю!]
@@ -8483,7 +8483,7 @@
 # sent_id = 1umw
 # text = Всі ліцензії видані терміном на п'ять років.
 1	Всі	весь	DET	Pg----pna	Case=Nom|Number=Plur|PronType=Tot	2	det	_	Id=1umx
-2	ліцензії	ліцензія	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	Id=1umy
+2	ліцензії	ліцензія	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	Id=1umy
 3	видані	виданий	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Id=1umz
 4	терміном	термін	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	Id=1un0
 5	на	на	ADP	Spsa	Case=Acc	7	case	_	Id=1un1
@@ -8598,7 +8598,7 @@
 # sent_id = 1ups
 # text = Кінцевий бенефіціар компанії в реєстрі не вказаний.
 1	Кінцевий	кінцевий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	Id=1upt
-2	бенефіціар	бенефіціар	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	Id=1upu
+2	бенефіціар	бенефіціар	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Id=1upu
 3	компанії	компанія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	Id=1upv
 4	в	в	ADP	Spsl	Case=Loc	5	case	_	Id=1upw
 5	реєстрі	реєстр	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	Id=1upx
@@ -8814,7 +8814,7 @@
 # text = Але ця покупка була задекларована Світланою, хоча і з порушеннями - вона була вказана в декларації за 2013 рік, хоча куплена у 2014-му.
 1	Але	але	CCONJ	Ccs	_	5	cc	_	Id=1uvg
 2	ця	цей	DET	Pd--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	Id=1uvh
-3	покупка	покупка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	Id=1uvi
+3	покупка	покупка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Id=1uvi
 4	була	бути	AUX	Vapis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	Id=1uvj
 5	задекларована	задекларований	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=1uvk
 6	Світланою	Світлана	PROPN	Npfsiy	Animacy=Anim|Case=Ins|Gender=Fem|NameType=Giv|Number=Sing	5	obl	_	Id=1uvl|SpaceAfter=No
@@ -8824,7 +8824,7 @@
 10	з	з	ADP	Spsi	Case=Ins	11	case	_	Id=1uvp
 11	порушеннями	порушення	NOUN	Ncnpin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	5	conj	_	Id=1uvq|Promoted=Yes
 12	-	-	PUNCT	U	PunctType=Dash	15	punct	_	Id=1uvr
-13	вона	вона	PRON	Pp-3f-snn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj:pass	_	Id=1uvs
+13	вона	вона	PRON	Pp-3f-snn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	Id=1uvs
 14	була	бути	AUX	Vapis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	15	cop	_	Id=1uvt
 15	вказана	вказаний	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	parataxis	_	Id=1uvu
 16	в	в	ADP	Spsl	Case=Loc	17	case	_	Id=1uvv
@@ -10129,7 +10129,7 @@
 8	"	"	PUNCT	U	PunctType=Quot	5	punct	_	Id=1zu2
 9	накреслена	накреслений	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=1zu3
 10	могутньо	могутньо	ADV	Rp	Degree=Pos	9	advmod	_	Id=1zu4
-11	картина	картина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	Id=1zu5
+11	картина	картина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	Id=1zu5
 12	нашого	наш	DET	Ppp1m-sga	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	Id=1zu6
 13	упадку	упадок	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	Id=1zu7|SpaceAfter=No
 14	.	.	PUNCT	U	_	9	punct	_	Id=1zu8
@@ -10264,7 +10264,7 @@
 # sent_id = 1zxs
 # text = Ольжича спів уже позбавлений первня ненависти.
 1	Ольжича	Ольжич	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	2	nmod	_	Id=1zxt
-2	спів	спів	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	Id=1zxu
+2	спів	спів	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Id=1zxu
 3	уже	уже	ADV	R	_	4	advmod	_	Id=1zxv
 4	позбавлений	позбавлений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=1zxw
 5	первня	первень	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obj	_	Id=1zxx
@@ -11442,7 +11442,7 @@
 10	до	до	ADP	Spsg	Case=Gen	11	case	_	Id=2rmr
 11	неділі	неділя	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	Id=2rms
 12	зазначена	зазначений	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	13	amod	_	Id=2rmt
-13	телеграма	телеграма	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	Id=2rmu
+13	телеграма	телеграма	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	Id=2rmu
 14	буде	бути	AUX	Vapif3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	cop	_	Id=2rmv
 15	доведена	доведений	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	parataxis	_	Id=2rmw
 16	до	до	ADP	Spsg	Case=Gen	18	case	_	Id=2rmx
@@ -12076,7 +12076,7 @@
 
 # sent_id = 2s6o
 # text = Я переконаний, що протягом усього випробувального терміну районний кадебіст не раз інформував Лідію Олексіївну про те, кого вона взяла в колектив.
-1	Я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj:pass	_	Id=2s6p
+1	Я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Id=2s6p
 2	переконаний	переконаний	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=2s6q|SpaceAfter=No
 3	,	,	PUNCT	U	_	13	punct	_	Id=2s6r
 4	що	що	SCONJ	Css	_	13	mark	_	Id=2s6s
@@ -12142,7 +12142,7 @@
 13	бо	бо	SCONJ	Css	_	19	mark	_	Id=2s9m
 14	нині	нині	ADV	R	_	19	advmod	_	Id=2s9n
 15	ця	цей	DET	Pd--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	Id=2s9o
-16	ділянка	ділянка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	Id=2s9p
+16	ділянка	ділянка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	Id=2s9p
 17	лісу	ліс	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	Id=2s9q
 18	жахливо	жахливо	ADV	Rp	Degree=Pos	19	advmod	_	Id=2s9r
 19	забруднена	забруднений	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	advcl	_	Id=2s9s|SpaceAfter=No
@@ -12152,7 +12152,7 @@
 # sent_id = 2sae
 # text = Якщо територія біля «Холодка» буде прибраною, туди буде їхати більше відпочивальників і вони приходитимуть за прохолодними напоями до нашого магазину.
 1	Якщо	якщо	SCONJ	Css	_	8	mark	_	Id=2saf
-2	територія	територія	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	Id=2sag
+2	територія	територія	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	Id=2sag
 3	біля	біля	ADP	Spsg	Case=Gen	5	case	_	Id=2sah
 4	«	«	PUNCT	U	PunctType=Quot	5	punct	_	Id=2sai|SpaceAfter=No
 5	Холодка	холодок	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Id=2saj|SpaceAfter=No
@@ -14453,7 +14453,7 @@
 2	вже	вже	ADV	R	_	3	advmod	_	Id=356m
 3	11	11	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	7	obl	_	Id=356n
 4	лютого	лютий	NOUN	Ao-msgf	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Id=356o
-5	місто	місто	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	Id=356p
+5	місто	місто	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Id=356p
 6	було	бути	AUX	Vapis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	cop	_	Id=356q
 7	захоплене	захоплений	ADJ	Ap-nsns-ep	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=356r
 8	американськими	американський	ADJ	Ao--pif	Case=Ins|Number=Plur	9	amod	_	Id=356s
@@ -15659,7 +15659,7 @@
 # annotation_gap
 # sent_id = 36vk
 # text = Америка теж названа ім’ям не Колюмба.
-1	Америка	Америка	PROPN	Npfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	Id=365z
+1	Америка	Америка	PROPN	Npfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Id=365z
 2	теж	теж	ADV	R	_	3	advmod	_	Id=3660
 3	названа	названий	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=3661
 4	ім’ям	ім’я	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	Id=3662
@@ -16114,7 +16114,7 @@
 # sent_id = 36in
 # text = Двоє агентів були виявлені і вбиті при першій же спробі ввійти в оточення Дудаєва.
 1	Двоє	двоє	NUM	Mlc-n	Case=Nom|NumType=Card	2	nummod:gov	_	Id=36io
-2	агентів	агент	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nsubj:pass	_	Id=36ip
+2	агентів	агент	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	Id=36ip
 3	були	бути	AUX	Vapis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	4	cop	_	Id=36iq
 4	виявлені	виявлений	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Id=36ir
 5	і	і	CCONJ	Ccs	_	6	cc	_	Id=36is
@@ -16332,7 +16332,7 @@
 2	гранично	гранично	ADV	R	_	3	advmod	_	Id=36o0
 3	короткі	короткий	ADJ	Afp-pasn	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	Id=36o1
 4	терміни	термін	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obl	_	Id=36o2
-5	апаратура	апаратура	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	Id=36o3
+5	апаратура	апаратура	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	Id=36o3
 6	була	бути	AUX	Vapis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	cop	_	Id=36o4
 7	виготовлена	виготовлений	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=36o5|SpaceAfter=No
 8	.	.	PUNCT	U	_	7	punct	_	Id=36o6
@@ -16989,7 +16989,7 @@
 1	Головна	головний	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	Id=374u
 2	ціль	ціль	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	Id=374v
 3	–	–	PUNCT	U	PunctType=Dash	5	punct	_	Id=374w
-4	вони	вони	PRON	Pp-3--pnn	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj:pass	_	Id=374x
+4	вони	вони	PRON	Pp-3--pnn	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Id=374x
 5	мають	мати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	Id=374y
 6	бути	бути	AUX	Vapn	Aspect=Imp|VerbForm=Inf	7	cop	_	Id=374z
 7	розташовані	розташований	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	5	xcomp	_	Id=3750
