@@ -5088,8 +5088,8 @@
 16	обладнання	обладнання	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	appos	_	Id=2k4q|SpaceAfter=No
 17	)	)	PUNCT	U	_	16	punct	_	Id=2k4r
 18	і	і	CCONJ	Ccs	_	20	cc	_	Id=2k4s
-19	їх	їх	DET	Ppp3n-sga	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	20	det	_	Id=2k4t
-20	налаштування	налаштування	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	conj	_	Id=2k4u
+19	їх	вони	PRON	Pp-3--pgn	Case=Gen|Number=Plur|Person=3|PronType=Prs	20	nmod	_	Id=2k4t
+20	налаштування	налаштування	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	conj	_	Id=2k4u
 21	встановлюються	встановлюватися	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=2k4v
 22	технічними	технічний	ADJ	Ao--pif	Case=Ins|Number=Plur	23	amod	_	Id=2k4w
 23	регламентами	регламент	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	21	obl	_	Id=2k4x
@@ -5253,7 +5253,7 @@
 27	кваліфікаційного	кваліфікаційний	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	28	amod	_	Id=2kax
 28	атестата	атестат	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	Id=2kay|SpaceAfter=No
 29	,	,	PUNCT	U	_	31	punct	_	Id=2kaz
-30	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	det	_	Id=2kb0
+30	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nmod	_	Id=2kb0
 31	анулювання	анулювання	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	conj	_	Id=2kb1|SpaceAfter=No
 32	,	,	PUNCT	U	_	12	punct	_	Id=2kb2
 33	надається	надаватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=2kb3
@@ -5616,7 +5616,7 @@
 4	чинності	чинність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	Id=2kk3
 5	з	з	ADP	Spsg	Case=Gen	6	case	_	Id=2kk4
 6	дня	день	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	Id=2kk5
-7	її	вона	PRON	Pp-3f-sgn	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	det	_	Id=2kk6
+7	її	вона	PRON	Pp-3f-sgn	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod	_	Id=2kk6
 8	прийняття	прийняття	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	Id=2kk7|SpaceAfter=No
 9	.	.	PUNCT	U	_	3	punct	_	Id=2kk8
 
@@ -6369,7 +6369,7 @@
 4	чинності	чинність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	Id=2zxa
 5	з	з	ADP	Spsg	Case=Gen	6	case	_	Id=2zxb
 6	дня	день	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	Id=2zxc
-7	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	det	_	Id=2zxd
+7	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nmod	_	Id=2zxd
 8	офіційного	офіційний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	9	amod	_	Id=2zxe
 9	опублікування	опублікування	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	Id=2zxf|SpaceAfter=No
 10	.	.	PUNCT	U	_	3	punct	_	Id=2zxg

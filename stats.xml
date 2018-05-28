@@ -120,7 +120,7 @@
     <dep name="cop">684</dep>
     <dep name="csubj">416</dep>
     <dep name="dep">1</dep>
-    <dep name="det">2668</dep>
+    <dep name="det">2662</dep>
     <dep name="det:numgov">129</dep>
     <dep name="det:nummod">29</dep>
     <dep name="discourse">1700</dep>
@@ -136,7 +136,7 @@
     <dep name="iobj">277</dep>
     <dep name="list">7</dep>
     <dep name="mark">1866</dep>
-    <dep name="nmod">8199</dep>
+    <dep name="nmod">8205</dep>
     <dep name="nsubj">6148</dep>
     <dep name="nsubj:pass">199</dep>
     <dep name="nummod">392</dep>

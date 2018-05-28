@@ -3925,7 +3925,7 @@
 4	чинності	чинність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	Id=2l3h
 5	з	з	ADP	Spsg	Case=Gen	6	case	_	Id=2l3i
 6	дня	день	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	Id=2l3j
-7	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	det	_	Id=2l3k
+7	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nmod	_	Id=2l3k
 8	офіційного	офіційний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	9	amod	_	Id=2l3l
 9	опублікування	опублікування	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	Id=2l3m|SpaceAfter=No
 10	.	.	PUNCT	U	_	3	punct	_	Id=2l3n
