@@ -35,7 +35,45 @@
 17	гірше	гірше	ADV	Rc	Degree=Cmp	14	parataxis	_	Id=01s5|SpaceAfter=No
 18	!	!	PUNCT	U	_	14	punct	_	Id=01s6
 
-# annotation_gap
+# sent_id = 01s7
+# text = Ти віддався У руки ворогу, як мертва глина, З якої кожне виліпить, що хоче.
+1	Ти	ти	PRON	Pp-2-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	Id=01s8
+2	віддався	віддатися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=01s9
+3	У	у	ADP	Spsa	Case=Acc	4	case	_	Id=01sa
+4	руки	рука	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obl	_	Id=01sb
+5	ворогу	ворог	NOUN	Ncmsdy	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	Id=01sc|SpaceAfter=No
+6	,	,	PUNCT	U	_	9	punct	_	Id=01sd
+7	як	як	SCONJ	Css	_	9	mark	_	Id=01se
+8	мертва	мертвий	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	Id=01sf
+9	глина	глина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	advcl	_	Id=01sg|SpaceAfter=No
+10	,	,	PUNCT	U	_	14	punct	_	Id=01sh
+11	З	з	ADP	Spsg	Case=Gen	12	case	_	Id=01si
+12	якої	який	DET	Pr--f-sga	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	14	obl	_	Id=01sj
+13	кожне	кожне	PRON	Pg--nysna	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	14	nsubj	_	Id=01sk
+14	виліпить	виліпити	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	acl	_	Id=01sl|SpaceAfter=No
+15	,	,	PUNCT	U	_	17	punct	_	Id=01sm
+16	що	що	PRON	Pr--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	17	obj	_	Id=01sn
+17	хоче	хотіти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	Id=01so|SpaceAfter=No
+18	.	.	PUNCT	U	_	2	punct	_	Id=01sp
+
+# sent_id = 38va
+# text = Та хто ж тобі натхне вогонь живий, Коли з творця ти творивом зробився?
+1	Та	та	PART	Q	_	5	discourse	_	Id=01sr
+2	хто	хто	PRON	Pq--mysnn	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int	5	nsubj	_	Id=01ss
+3	ж	ж	PART	Q	_	2	discourse	_	Id=01st
+4	тобі	ти	PRON	Pp-2-ysdn	Animacy=Anim|Case=Dat|Number=Sing|Person=2|PronType=Prs	5	iobj	_	Id=01su
+5	натхне	натхнути	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	Id=01sv
+6	вогонь	вогонь	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Id=01sw
+7	живий	живий	ADJ	Afpmsafn	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	Id=01sx|SpaceAfter=No
+8	,	,	PUNCT	U	_	14	punct	_	Id=01sy
+9	Коли	коли	SCONJ	Css	_	14	mark	_	Id=01sz
+10	з	з	ADP	Spsg	Case=Gen	11	case	_	Id=01t0
+11	творця	творець	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	Id=01t1
+12	ти	ти	PRON	Pp-2-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	Id=01t2
+13	творивом	твориво	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	xcomp:sp	_	Id=01t3
+14	зробився	зробитися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	advcl	_	Id=01t4|SpaceAfter=No
+15	?	?	PUNCT	U	_	5	punct	_	Id=01t5
+
 # newpar id = 01t7
 # sent_id = 01t8
 # text = Зробитися «творивом» — означає ще і втратити владу над матеріалом, формою.
@@ -2037,6 +2075,36 @@
 8	.	.	PUNCT	U	_	1	punct	_	Id=18q3
 
 # annotation_gap
+# newpar id = 18r3
+# sent_id = 18r4
+# text = Зачіпних боїв абсолютно не вести.
+1	Зачіпних	зачіпний	ADJ	Ao--pgf	Case=Gen|Number=Plur	2	amod	_	Id=18r5
+2	боїв	бій	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obj	_	Id=18r6
+3	абсолютно	абсолютно	ADV	R	_	5	advmod	_	Id=18r7
+4	не	не	PART	Q	Polarity=Neg	5	advmod	_	Id=18r8
+5	вести	вести	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	0	root	_	Id=18r9|SpaceAfter=No
+6	.	.	PUNCT	U	_	5	punct	_	Id=18ra
+
+# sent_id = 38vf
+# text = Коли на нас нападатимуть, тоді боронитися, маневрувати, прориватися, чи відв'язуватися й зникати.
+1	Коли	коли	ADV	Pr------r	PronType=Rel	4	advmod	_	Id=18rc
+2	на	на	ADP	Spsa	Case=Acc	3	case	_	Id=18rd
+3	нас	ми	PRON	Pp-1-ypan	Animacy=Anim|Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obl	_	Id=18re
+4	нападатимуть	нападати	VERB	Vmpif3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	advcl	_	Id=18rf|SpaceAfter=No
+5	,	,	PUNCT	U	_	4	punct	_	Id=18rg
+6	тоді	тоді	ADV	Pd------r	PronType=Dem	7	advmod	_	Id=18rh
+7	боронитися	боронитися	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	0	root	_	Id=18ri|SpaceAfter=No
+8	,	,	PUNCT	U	_	9	punct	_	Id=18rj
+9	маневрувати	маневрувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	7	conj	_	Id=18rk|SpaceAfter=No
+10	,	,	PUNCT	U	_	11	punct	_	Id=18rl
+11	прориватися	прориватися	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	7	conj	_	Id=18rm|SpaceAfter=No
+12	,	,	PUNCT	U	_	14	punct	_	Id=18rn
+13	чи	чи	CCONJ	Ccs	_	14	cc	_	Id=18ro
+14	відв'язуватися	відв’язуватися	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	7	conj	_	Id=18rp
+15	й	й	CCONJ	Ccs	_	16	cc	_	Id=18rq
+16	зникати	зникати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	14	conj	_	Id=18rr|SpaceAfter=No
+17	.	.	PUNCT	U	_	7	punct	_	Id=18rs
+
 # sent_id = 18rt
 # text = Коли наступатимуть чехи та словаки, тоді насамперед (якщо це можливе і не грозить підділові) старатися післанцем, окликами, білою хоругвою, чи іншим способом дати їм до зрозуміння і вияснити, що ми маємо супроти них зовсім приятельські наміри.
 1	Коли	коли	ADV	Pr------r	PronType=Rel	2	advmod	_	Id=18ru

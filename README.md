@@ -6,7 +6,7 @@ Gold standard Universal Dependencies corpus for Ukrainian, developed for UD orig
 
 # Introduction
 
-UD Ukrainian comprises 100K tokens in 5873 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.   
+UD Ukrainian comprises 100K tokens in 5882 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.   
 
 
 # Acknowledgments
@@ -93,6 +93,7 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
   * Readme updated with more description, links.
   * Removed `:pass` subtype from relations as it currently can be inferred from the morphology.
   * Fixed some annotation errors including _його/її/їх_ `PRON` vs `DET` ambiguity by utilizing a valency dictionary.
+  * Closed some annotation holes (added more sentences).
 
 * 2018-04-15 **v2.2**
   * Repository renamed from UD_Ukrainian to UD_Ukrainian-IU to match the new UD naming convention.
