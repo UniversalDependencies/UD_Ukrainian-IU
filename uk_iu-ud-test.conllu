@@ -13265,34 +13265,36 @@
 
 # sent_id = 2x8s
 # text = Ніде правди діти, й сам Микола Степанович за ці тижні не знайшов часу піти до Титаренкової квартири — бодай спитати, чи хтось носить йому передачі…
-1	Ніде	ніде	ADV	Ph------r	PronType=Emp	3	advmod	_	Id=2x8t
-2	правди	правда	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	Id=2x8u
-3	діти	діти	VERB	Vmen	Aspect=Perf|VerbForm=Inf	13	parataxis:discourse	_	Id=2x8v|SpaceAfter=No
-4	,	,	PUNCT	U	_	3	punct	_	Id=2x8w
-5	й	й	PART	Q	_	7	discourse	_	Id=2x8x
-6	сам	сам	DET	Px--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	7	det	_	Id=2x8y
-7	Микола	Микола	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	13	nsubj	_	Id=2x8z
-8	Степанович	Степанович	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Pat|Number=Sing	7	flat:name	_	Id=2x90
-9	за	за	ADP	Spsa	Case=Acc	11	case	_	Id=2x91
-10	ці	цей	DET	Pd---npaa	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	11	det	_	Id=2x92
-11	тижні	тиждень	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obl	_	Id=2x93
-12	не	не	PART	Q	Polarity=Neg	13	advmod	_	Id=2x94
-13	знайшов	знайти	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=2x95
-14	часу	час	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obj	_	Id=2x96
-15	піти	піти	VERB	Vmen	Aspect=Perf|VerbForm=Inf	14	acl	_	Id=2x97
-16	до	до	ADP	Spsg	Case=Gen	18	case	_	Id=2x98
-17	Титаренкової	Титаренковий	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	18	amod	_	Id=2x99
-18	квартири	квартира	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	Id=2x9a
-19	—	—	PUNCT	U	PunctType=Dash	21	punct	_	Id=2x9b
-20	бодай	бодай	PART	Q	_	21	discourse	_	Id=2x9c
-21	спитати	спитати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	15	advcl:svc	_	Id=2x9d|SpaceAfter=No
-22	,	,	PUNCT	U	_	25	punct	_	Id=2x9e
-23	чи	чи	PART	Q	_	25	discourse	_	Id=2x9f
-24	хтось	хтось	PRON	Pi---y-nn	Animacy=Anim|Case=Nom|PronType=Ind	25	nsubj	_	Id=2x9g
-25	носить	носити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	Id=2x9h
-26	йому	він	PRON	Pp-3m-sdn	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	iobj	_	Id=2x9i
-27	передачі	передача	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	obj	_	Id=2x9j|SpaceAfter=No
-28	…	…	PUNCT	U	_	13	punct	_	Id=2x9k
+1-2	Ніде	_	_	_	_	_	_	_	_
+1	немає	немати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	parataxis:discourse	_	Id=38w9
+2	де	де	ADV	Pr------r	PronType=Rel	4	advmod	_	Id=38wa
+3	правди	правда	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obj	_	Id=2x8u
+4	діти	діти	VERB	Vmen	Aspect=Perf|VerbForm=Inf	1	ccomp	_	Id=2x8v|SpaceAfter=No
+5	,	,	PUNCT	U	_	1	punct	_	Id=2x8w
+6	й	й	PART	Q	_	8	discourse	_	Id=2x8x
+7	сам	сам	DET	Px--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	8	det	_	Id=2x8y
+8	Микола	Микола	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	14	nsubj	_	Id=2x8z
+9	Степанович	Степанович	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Pat|Number=Sing	8	flat:name	_	Id=2x90
+10	за	за	ADP	Spsa	Case=Acc	12	case	_	Id=2x91
+11	ці	цей	DET	Pd---npaa	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	12	det	_	Id=2x92
+12	тижні	тиждень	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	Id=2x93
+13	не	не	PART	Q	Polarity=Neg	14	advmod	_	Id=2x94
+14	знайшов	знайти	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=2x95
+15	часу	час	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obj	_	Id=2x96
+16	піти	піти	VERB	Vmen	Aspect=Perf|VerbForm=Inf	15	acl	_	Id=2x97
+17	до	до	ADP	Spsg	Case=Gen	19	case	_	Id=2x98
+18	Титаренкової	Титаренковий	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	19	amod	_	Id=2x99
+19	квартири	квартира	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	Id=2x9a
+20	—	—	PUNCT	U	PunctType=Dash	22	punct	_	Id=2x9b
+21	бодай	бодай	PART	Q	_	22	discourse	_	Id=2x9c
+22	спитати	спитати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	16	advcl:svc	_	Id=2x9d|SpaceAfter=No
+23	,	,	PUNCT	U	_	26	punct	_	Id=2x9e
+24	чи	чи	PART	Q	_	26	discourse	_	Id=2x9f
+25	хтось	хтось	PRON	Pi---y-nn	Animacy=Anim|Case=Nom|PronType=Ind	26	nsubj	_	Id=2x9g
+26	носить	носити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	Id=2x9h
+27	йому	він	PRON	Pp-3m-sdn	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	iobj	_	Id=2x9i
+28	передачі	передача	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	26	obj	_	Id=2x9j|SpaceAfter=No
+29	…	…	PUNCT	U	_	14	punct	_	Id=2x9k
 
 # annotation_gap
 # sent_id = 2xb1

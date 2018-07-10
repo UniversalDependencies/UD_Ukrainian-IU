@@ -6,7 +6,7 @@ Gold standard Universal Dependencies corpus for Ukrainian, developed for UD orig
 
 # Introduction
 
-UD Ukrainian comprises 100K tokens in 5882 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.   
+UD Ukrainian comprises 100K tokens in 5882 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.
 
 
 # Acknowledgments
@@ -36,10 +36,10 @@ You can also browse the entire treebank in [Brat](https://lab.mova.institute/bra
 
 | set   | sentences | ~tokens |
 | ----- |----------:| -------:|
-| train |    4513   |    75K  |
-| dev   |     783   |    10K  |
-| test  |     577   |    15K  |
-| TOTAL |    5866   |   100K  |
+| train |    4518   |    75K  |
+| dev   |     577   |    10K  |
+| test  |     787   |    15K  |
+| TOTAL |    5882   |   100K  |
 
 See [stats.xml](stats.xml) for more detail.
 
@@ -47,7 +47,7 @@ See [stats.xml](stats.xml) for more detail.
 ### Annotation procedure
 
 Morphology is annotated using 2+1 schema. The syntax is single-pass plus supervisor’s check.
-Consistency is further enforced by ~200 validation and autofix [rules](https://github.com/mova-institute/lib/blob/master/src/nlp/ud/validation.ts) and by investigating errors made by a trained parser.
+Consistency is further enforced by ~200 validation and autofix [rules](https://github.com/mova-institute/lib/blob/master/src/nlp/ud/validation.ts) (see [warnings page](https://lab.mova.institute/files/pomylky_robochoho_tb.html)) and by investigating errors made by a trained parser.
 
 
 ### Data split
@@ -94,6 +94,7 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
   * Removed `:pass` subtype from relations as it currently can be inferred from the morphology.
   * Fixed some annotation errors including _його/її/їх_ `PRON` vs `DET` ambiguity by utilizing a valency dictionary.
   * Closed some annotation holes (added more sentences).
+  * Introduced multitokens for ні́де, ні́як.
 
 * 2018-04-15 **v2.2**
   * Repository renamed from UD_Ukrainian to UD_Ukrainian-IU to match the new UD naming convention.
