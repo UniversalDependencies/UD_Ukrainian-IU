@@ -36,10 +36,10 @@ You can also browse the entire treebank in [Brat](https://lab.mova.institute/bra
 
 | set   | sentences | ~tokens |
 | ----- |----------:| -------:|
-| train |    4518   |    75K  |
+| train |    4519   |    75K  |
 | dev   |     577   |    10K  |
 | test  |     787   |    15K  |
-| TOTAL |    5882   |   100K  |
+| TOTAL |    5883   |   100K  |
 
 See [stats.xml](stats.xml) for more detail.
 

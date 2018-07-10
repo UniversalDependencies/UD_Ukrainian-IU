@@ -17812,17 +17812,19 @@
 25	«	«	PUNCT	U	PunctType=Quot	26	punct	_	Id=37px|SpaceAfter=No
 26	Євробачення	євробачення	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	flat:title	_	Id=37py|SpaceAfter=No
 27	»	»	PUNCT	U	PunctType=Quot	26	punct	_	Id=37pz
-28	за	за	ADP	Spsa	Case=Acc	29	case	_	Id=37q0
-29	півроку	півроку	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Uninflect=Yes	21	obl	_	Id=37q1|SpaceAfter=No
-30	,	,	PUNCT	U	_	35	punct	_	Id=37q2
-31	тепер	тепер	ADV	Pd------r	PronType=Dem	35	advmod	_	Id=37q3
-32	же	же	PART	Q	_	31	discourse	_	Id=37q4
-33	у	у	ADP	Spsg	Case=Gen	34	case	_	Id=37q5
-34	нас	ми	PRON	Pp-1-ypgn	Animacy=Anim|Case=Gen|Number=Plur|Person=1|PronType=Prs	35	obl	_	Id=37q6
-35	є	бути	VERB	Vapip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	Id=37q7
-36	цілий	цілий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	37	amod	_	Id=37q8
-37	рік	рік	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	Id=37q9|SpaceAfter=No
-38	.	.	PUNCT	U	_	19	punct	_	Id=37qa
+28	за	за	ADP	Spsa	Case=Acc	30	case	_	Id=37q0
+29-30	півроку	_	_	_	_	_	_	_	SpaceAfter=No
+29	пів	пів	NUM	Mlc-a	Case=Acc|NumType=Card|Orth=Alt|Uninflect=Yes	30	nummod	_	Id=38wv
+30	року	рік	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	Id=38ww
+31	,	,	PUNCT	U	_	36	punct	_	Id=37q2
+32	тепер	тепер	ADV	Pd------r	PronType=Dem	36	advmod	_	Id=37q3
+33	же	же	PART	Q	_	32	discourse	_	Id=37q4
+34	у	у	ADP	Spsg	Case=Gen	35	case	_	Id=37q5
+35	нас	ми	PRON	Pp-1-ypgn	Animacy=Anim|Case=Gen|Number=Plur|Person=1|PronType=Prs	36	obl	_	Id=37q6
+36	є	бути	VERB	Vapip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	Id=37q7
+37	цілий	цілий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	38	amod	_	Id=37q8
+38	рік	рік	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	Id=37q9|SpaceAfter=No
+39	.	.	PUNCT	U	_	19	punct	_	Id=37qa
 
 # sent_id = 37qb
 # text = Аеропорти та готелі готові приймати гостей.
