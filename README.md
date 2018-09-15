@@ -36,10 +36,10 @@ You can also browse the entire treebank in [Brat](https://lab.mova.institute/bra
 
 | set   | sentences | ~tokens |
 | ----- |----------:| -------:|
-| train |    4519   |    75K  |
-| dev   |     577   |    10K  |
-| test  |     787   |    15K  |
-| TOTAL |    5883   |   100K  |
+| train |    5214   |    87K  |
+| dev   |     637   |    12K  |
+| test  |     857   |    16K  |
+| TOTAL |    6708   |   115K  |
 
 See [stats.xml](stats.xml) for more detail.
 
@@ -62,6 +62,7 @@ UD Ukrainian data conforms to [CoNLL-U](http://universaldependencies.org/format.
   * Document boundaries are present as `# newdoc id = xxxx`.
   * Sentence-level paragraph boundaries are present as `# newpar id = xxxx`.
   * Document titles are present as `# doc_title = Назва`.
+  * Czech-like translit is present as `# translit = …`.
   * Gaps in the text are marked on the sentences following the gap as:
     * `# annotation_gap` for sentences not exported to CoNLL-U because annotator was unable to parse it with confidence (new guidelines need to be created etc.);
     * `# gap` for intentional gaps in texts (selected fragments).
@@ -71,6 +72,7 @@ UD Ukrainian data conforms to [CoNLL-U](http://universaldependencies.org/format.
   * Token-level paragraph boundaries are present as `NewPar=Yes`.
   * Token ids are present as `Id=xxxx`.
   * `SpaceAfter=No` markers are present.
+  * Form (`Translit`) and lemma (`LTranslit`) transliterations are present, except for token `Id=1mnf`, see [issue #569](https://github.com/UniversalDependencies/docs/issues/569).
 * Document, paragraph, sentence, and token ids are 4-character base-32 numbers. They survive treebank updates.
 
 
@@ -89,12 +91,18 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
 
 ### Changelog
 
-* upcoming release
-  * Readme updated with more description, links.
+* upcoming **v2.3** release
+  * Added all types of enhanced dependencies except for case-marking (see [issue #566](https://github.com/UniversalDependencies/docs/issues/566)). Manually annotated were: null nodes for elided predicates, the distinction of shared/private dependents of the first conjunct, `xcomp` subjects, `ref`s for relative clauses.
+  * Introduced multitokens for _ні́кого_, _ні́де_ etc.
+  * Split words with fused _пів-_ numerals (e.g. _півкласу_) to multitokens.
+  * Fixed ~350 annotation errors including _його/її/їх_ `PRON` vs `DET` ambiguity.
   * Removed `:pass` subtype from relations as it currently can be inferred from the morphology.
-  * Fixed some annotation errors including _його/її/їх_ `PRON` vs `DET` ambiguity by utilizing a valency dictionary.
-  * Closed some annotation holes (added more sentences).
-  * Introduced multitokens for ні́де, ні́як.
+  * Specified `acl:relcl`.
+  * Introduced `flat:rcp`, `flat:pack`, `flat:range`.
+  * Added transliteration.
+  * Closed some annotation gaps and added new texts: 100→115K.
+  * Fixed missing `# annotation_gap`s.
+  * Readme updated with more description, links.
 
 * 2018-04-15 **v2.2**
   * Repository renamed from UD_Ukrainian to UD_Ukrainian-IU to match the new UD naming convention.
