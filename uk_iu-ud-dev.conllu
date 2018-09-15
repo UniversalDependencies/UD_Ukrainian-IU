@@ -55,7 +55,7 @@
 9	»	»	PUNCT	U	PunctType=Quot	8	punct	_	Id=02uw|SpaceAfter=No
 10	,	,	PUNCT	U	_	14	punct	_	Id=02ux
 11	хоч	хоч	SCONJ	Css	_	14	mark	_	Id=02uy
-12	усі	усі	PRON	Pg---ypna	Animacy=Anim|Case=Nom|Number=Ptan|PronType=Tot	14	nsubj	_	Id=02uz
+12	усі	увесь	DET	Pg----pna	Case=Nom|Number=Ptan|PronType=Tot	14	nsubj	_	Id=02uz
 13	й	й	PART	Q	_	14	discourse	_	Id=02v0
 14	мовчали	мовчати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	5	conj	_	Id=02v1|SpaceAfter=No
 15	.	.	PUNCT	U	_	5	punct	_	Id=02v2
@@ -78,7 +78,7 @@
 6	,	,	PUNCT	U	_	7	punct	_	Id=02vf
 7	навпаки	навпаки	ADV	R	_	10	advmod	_	Id=02vg|SpaceAfter=No
 8	,	,	PUNCT	U	_	7	punct	_	Id=02vh
-9	всі	всі	PRON	Pg---ypna	Animacy=Anim|Case=Nom|Number=Ptan|PronType=Tot	10	nsubj	_	Id=02vi
+9	всі	весь	DET	Pg----pna	Case=Nom|Number=Ptan|PronType=Tot	10	nsubj	_	Id=02vi
 10	перейнялися	перейнятися	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	5	parataxis	_	Id=02vj
 11	до	до	ADP	Spsg	Case=Gen	12	case	_	Id=02vk
 12	нього	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	Id=02vl
@@ -393,7 +393,47 @@
 13	металу	метал	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	Id=0or7|SpaceAfter=No
 14	.	.	PUNCT	U	_	2	punct	_	Id=0or8
 
-# annotation_gap
+# sent_id = 0or9
+# text = Побутові прилади й космічні кораблі, велосипеди та автомобілі, домашні меблі й архітектурні споруди тощо — усе це має в своєму складі деталі з металу, які виготовлено за допомогою різноманітних електрифікованих інструментів та верстатного обладнання.
+1	Побутові	побутовий	ADJ	Ao--pns	Case=Nom|Number=Plur	2	amod	_	Id=0ora
+2	прилади	прилад	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	Id=0orb
+3	й	й	CCONJ	Ccs	_	5	cc	_	Id=0orc
+4	космічні	космічний	ADJ	Ao--pns	Case=Nom|Number=Plur	5	amod	_	Id=0ord
+5	кораблі	корабель	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	Id=0ore|SpaceAfter=No
+6	,	,	PUNCT	U	_	7	punct	_	Id=0orf
+7	велосипеди	велосипед	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	Id=0org
+8	та	та	CCONJ	Ccs	_	9	cc	_	Id=0orh
+9	автомобілі	автомобіль	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	conj	_	Id=0ori|SpaceAfter=No
+10	,	,	PUNCT	U	_	12	punct	_	Id=0orj
+11	домашні	домашній	ADJ	Ao--pns	Case=Nom|Number=Plur	12	amod	_	Id=0ork
+12	меблі	меблі	NOUN	Nc-pnn	Animacy=Inan|Case=Nom|Number=Ptan	2	conj	_	Id=0orl
+13	й	й	CCONJ	Ccs	_	15	cc	_	Id=0orm
+14	архітектурні	архітектурний	ADJ	Ao--pns	Case=Nom|Number=Plur	15	amod	_	Id=0orn
+15	споруди	споруда	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	conj	_	Id=0oro
+16	тощо	тощо	PART	Q	_	2	discourse	_	Id=0orp
+17	—	—	PUNCT	U	PunctType=Dash	19	punct	_	Id=0orq
+18	усе	увесь	DET	Pg--n-sna	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	19	det	_	Id=0orr
+19	це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	appos	_	Id=0ors
+20	має	мати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=0ort
+21	в	в	ADP	Spsl	Case=Loc	23	case	_	Id=0oru
+22	своєму	свій	DET	Ppp-m-sla	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	23	det	_	Id=0orv
+23	складі	склад	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	Id=0orw
+24	деталі	деталь	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	Id=0orx
+25	з	з	ADP	Spsg	Case=Gen	26	case	_	Id=0ory
+26	металу	метал	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	Id=0orz|SpaceAfter=No
+27	,	,	PUNCT	U	_	29	punct	_	Id=0os0
+28	які	який	DET	Pr---npaa	Animacy=Inan|Case=Acc|Number=Plur|PronType=Rel	29	obj	_	Id=0os1
+29	виготовлено	виготовити	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	24	acl	_	Id=0os2
+30	за	за	ADP	Spsi	Case=Ins	31	case	_	Id=0os3
+31	допомогою	допомога	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	obl	_	Id=0os4
+32	різноманітних	різноманітний	ADJ	Afp-pgf	Case=Gen|Degree=Pos|Number=Plur	34	amod	_	Id=0os5
+33	електрифікованих	електрифікований	ADJ	Ap--pgf-ep	Aspect=Perf|Case=Gen|Number=Plur|VerbForm=Part|Voice=Pass	34	amod	_	Id=0os6
+34	інструментів	інструмент	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	Id=0os7
+35	та	та	CCONJ	Ccs	_	37	cc	_	Id=0os8
+36	верстатного	верстатний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	37	amod	_	Id=0os9
+37	обладнання	обладнання	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	34	conj	_	Id=0osa|SpaceAfter=No
+38	.	.	PUNCT	U	_	20	punct	_	Id=0osb
+
 # newpar id = 0osd
 # sent_id = 0ose
 # text = Конструктори, удосконалюючи існуючі знаряддя праці, проектують різноманітні металообробні верстати та електрифіковані ручні інструменти, які відрізняються різними параметрами та якістю обробки.
@@ -584,7 +624,7 @@
 9	утворюється	утворюватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=0oya
 10	650	650	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	13	nummod:gov	_	Id=0oyb|SpaceAfter=No
 11	–	–	PUNCT	U	PunctType=Ndash	12	punct	_	Id=0oyc|SpaceAfter=No
-12	700	700	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	10	conj	_	Id=0oyd
+12	700	700	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	10	flat:range	_	Id=0oyd
 13	кг	кг	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Uninflect=Yes	9	nsubj	_	Id=0oye
 14	твердих	твердий	ADJ	Afp-pgf	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	Id=0oyf
 15	відходів	відхід	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	Id=0oyg
@@ -757,7 +797,7 @@
 
 # sent_id = 0p3e
 # text = Учені та технологи всього світу розвивають технології майбутнього, що можуть стати ключем до розв’язання проблем економіки, навколишнього середовища та енергетики.
-1	Учені	учений	NOUN	Ap-mpns-pp	Animacy=Anim|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Voice=Pass	6	nsubj	_	Id=0p3f
+1	Учені	учений	NOUN	Ap-mpns-	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	Id=0p3f
 2	та	та	CCONJ	Ccs	_	3	cc	_	Id=0p3g
 3	технологи	технолог	NOUN	Ncmpny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	Id=0p3h
 4	всього	весь	DET	Pg--m-sga	Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	5	det	_	Id=0p3i
@@ -1201,30 +1241,7 @@
 19	м’ячем	м’яч	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	Id=11tn|SpaceAfter=No
 20	.	.	PUNCT	U	_	6	punct	_	Id=11to
 
-# sent_id = 11tp
-# text = На річкових або морських пляжах замість м’яча був великий тяжкий камінь, який треба було і докинути, і зловити.
-1	На	на	ADP	Spsl	Case=Loc	5	case	_	Id=11tq
-2	річкових	річковий	ADJ	Ao--plf	Case=Loc|Number=Plur	5	amod	_	Id=11tr
-3	або	або	CCONJ	Ccs	_	4	cc	_	Id=11ts
-4	морських	морський	ADJ	Ao--plf	Case=Loc|Number=Plur	2	conj	_	Id=11tt
-5	пляжах	пляж	NOUN	Ncmpln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	Id=11tu
-6	замість	замість	ADP	Spsg	Case=Gen	7	case	_	Id=11tv
-7	м’яча	м’яч	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	Id=11tw
-8	був	бути	AUX	Vapis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	11	cop	_	Id=11tx
-9	великий	великий	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	Id=11ty
-10	тяжкий	тяжкий	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	Id=11tz
-11	камінь	камінь	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	Id=11u0|Promoted=Yes|SpaceAfter=No
-12	,	,	PUNCT	U	_	14	punct	_	Id=11u1
-13	який	який	DET	Pr--mnsaa	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	17	obj	_	Id=11u2
-14	треба	треба	ADV	R	_	11	acl	_	Id=11u3
-15	було	бути	AUX	Vapis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	cop	_	Id=11u4
-16	і	і	CCONJ	Ccs	_	17	cc	_	Id=11u5
-17	докинути	докинути	VERB	Vmen	Aspect=Perf|VerbForm=Inf	14	csubj	_	Id=11u6|SpaceAfter=No
-18	,	,	PUNCT	U	_	20	punct	_	Id=11u7
-19	і	і	CCONJ	Ccs	_	20	cc	_	Id=11u8
-20	зловити	зловити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	17	conj	_	Id=11u9|SpaceAfter=No
-21	.	.	PUNCT	U	_	11	punct	_	Id=11ua
-
+# annotation_gap
 # sent_id = 11ub
 # text = Приблизно так само ми вчили літати нашу ворону Галю.
 1	Приблизно	приблизно	ADV	Rp	Degree=Pos	2	advmod	_	Id=11uc
@@ -1401,7 +1418,7 @@
 # text = Пес Рудько сам оселився коло нашої хати.
 1	Пес	пес	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Id=11za
 2	Рудько	Рудько	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat:title	_	Id=11zb
-3	сам	сам	DET	Px--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	1	det	_	Id=11zc
+3	сам	сам	DET	Px--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	4	obl	_	Id=11zc
 4	оселився	оселитися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=11zd
 5	коло	коло	ADP	Spsg	Case=Gen	7	case	_	Id=11ze
 6	нашої	наш	DET	Ppp1f-sga	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	det	_	Id=11zf
@@ -1443,7 +1460,7 @@
 31	і	і	CCONJ	Ccs	_	33	cc	_	Id=120d
 32	страшенно	страшенно	ADV	R	_	33	advmod	_	Id=120e
 33	гриз	гризти	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	30	conj	_	Id=120f
-34	своїх	свої	PRON	Ppp--ypaa	Animacy=Anim|Case=Acc|Number=Ptan|Poss=Yes|PronType=Prs|Reflex=Yes	33	obj	_	Id=120g|SpaceAfter=No
+34	своїх	свій	DET	Ppp--ypaa	Animacy=Anim|Case=Acc|Number=Ptan|Poss=Yes|PronType=Prs|Reflex=Yes	33	obj	_	Id=120g|SpaceAfter=No
 35	,	,	PUNCT	U	_	37	punct	_	Id=120h
 36	але	але	CCONJ	Ccs	_	37	cc	_	Id=120i
 37	боявся	боятися	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	30	conj	_	Id=120j
@@ -1557,7 +1574,7 @@
 10	до	до	ADP	Spsg	Case=Gen	11	case	_	Id=1233
 11	рук	рука	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	Id=1234
 12	мобілізаційній	мобілізаційний	ADJ	Ao-fsdf	Case=Dat|Gender=Fem|Number=Sing	13	amod	_	Id=1235
-13	комісії	комісія	NOUN	Ncfsdn	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	Id=1236|SpaceAfter=No
+13	комісії	комісія	NOUN	Ncfsdn	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obj	_	Id=1236|SpaceAfter=No
 14	,	,	PUNCT	U	_	16	punct	_	Id=1237
 15	яка	який	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	16	nsubj	_	Id=1238
 16	йшла	йти	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	acl	_	Id=1239
@@ -1616,7 +1633,7 @@
 2	демобілізації	демобілізація	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	Id=124k
 3	у	у	ADP	Spsl	Case=Loc	5	case	_	Id=124l
 4	сорок	сорок	NUM	Mlc-n	Case=Nom|NumType=Card	5	compound	_	Id=124m
-5	шостому	шостий	NOUN	Mlomsl	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	2	nmod	_	Id=124n|Promoted=Yes
+5	шостому	шостий	NOUN	Ao-mslf	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	Id=124n|Promoted=Yes
 6	дзядзьо	дзядзьо	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Id=124o
 7	Михась	Михась	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	6	flat:title	_	Id=124p
 8	добував	добувати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=124q
@@ -1752,13 +1769,14 @@
 21	його	він	PRON	Pp-3m-san	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	Id=1280
 22	чекають	чекати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	Id=1281|SpaceAfter=No
 23	,	,	PUNCT	U	_	25	punct	_	Id=1282
-24	далі	далі	ADV	R	_	25	advmod	_	Id=1283
-25	докори	докір	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	conj	_	Id=1284|Promoted=Yes|SpaceAfter=No
+24	далі	далі	ADV	R	_	25	orphan	_	Id=1283
+24.1	отримував	отримувати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	_	_	_	Id=3cd5
+25	докори	докір	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	parataxis	_	Id=1284|Promoted=Yes|SpaceAfter=No
 26	,	,	PUNCT	U	_	27	punct	_	Id=1285
 27	звинувачення	звинувачення	NOUN	Ncnpan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	conj	_	Id=1286
 28	і	і	CCONJ	Ccs	_	29	cc	_	Id=1287
 29	прощання	прощання	NOUN	Ncnpan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	conj	_	Id=1288|SpaceAfter=No
-30	.	.	PUNCT	U	_	4	punct	_	Id=1289
+30	.	.	PUNCT	U	_	25	punct	_	Id=1289
 
 # sent_id = 128a
 # text = Бабцю Зоню заарештували під час розробки спецоперації з ліквідації Роберта, визначного керівника УПА.
@@ -1855,14 +1873,15 @@
 9	,	,	PUNCT	U	_	12	punct	_	Id=12al
 10	а	а	CCONJ	Ccs	_	12	cc	_	Id=12am
 11	мого	мій	DET	Ppp1mysaa	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	_	Id=12an
-12	тата	тато	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	Id=12ao|Promoted=Yes|SpaceAfter=No
+12	тата	тато	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	Id=12ao|SpaceAfter=No
 13	,	,	PUNCT	U	_	15	punct	_	Id=12ap
 14	свого	свій	DET	Ppp-mysaa	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	Id=12aq
 15	сина	син	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	appos	_	Id=12ar|SpaceAfter=No
 16	,	,	PUNCT	U	_	15	punct	_	Id=12as
+16.1	пережила	пережити	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	_	_	_	Id=3cbb
 17	на	на	ADP	Spsa	Case=Acc	19	case	_	Id=12at
 18	три	три	NUM	Mlc-a	Case=Acc|NumType=Card	19	nummod	_	Id=12au
-19	тижні	тиждень	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obl	_	Id=12av|SpaceAfter=No
+19	тижні	тиждень	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	orphan	_	Id=12av|SpaceAfter=No
 20	.	.	PUNCT	U	_	3	punct	_	Id=12aw
 
 # sent_id = 12ax
@@ -1930,7 +1949,7 @@
 7	посаджена	посаджений	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	amod	_	Id=12cc
 8	у	у	ADP	Spsl	Case=Loc	10	case	_	Id=12cd
 9	п’ятдесят	п’ятдесят	NUM	Mlc-a	Case=Acc|NumType=Card	10	compound	_	Id=12ce
-10	шостому	шостий	NOUN	Mlomsl	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	7	obl	_	Id=12cf|SpaceAfter=No
+10	шостому	шостий	NOUN	Ao-mslf	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	Id=12cf|SpaceAfter=No
 11	.	.	PUNCT	U	_	3	punct	_	Id=12cg
 
 # sent_id = 12ch
@@ -2278,7 +2297,7 @@
 10	опікуйся	опікуватися	VERB	Vmpm-2s	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	conj	_	Id=13w6|SpaceAfter=No
 11	,	,	PUNCT	U	_	15	punct	_	Id=13w7
 12	щоб	щоб	SCONJ	Css	_	15	mark	_	Id=13w8
-13	самому	сам	DET	Px--m-sda	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	15	obj	_	Id=13w9
+13	самому	сам	DET	Px--m-sda	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	15	obl	_	Id=13w9
 14	бути	бути	AUX	Vapn	Aspect=Imp|VerbForm=Inf	15	cop	_	Id=13wa
 15	корисним	корисний	ADJ	Afpmsif	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	ccomp	_	Id=13wb|SpaceAfter=No
 16	.	.	PUNCT	U	_	3	punct	_	Id=13wc
@@ -2321,10 +2340,11 @@
 # sent_id = 13x5
 # text = У записах старого багато молитов і настанов у євангельському дусі.
 1	У	у	ADP	Spsl	Case=Loc	2	case	_	Id=13x6
-2	записах	запис	NOUN	Ncmpln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	Id=13x7
+2	записах	запис	NOUN	Ncmpln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	orphan	_	Id=13x7
 3	старого	старий	NOUN	Ao-msgf	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Id=13x8
+3.1	міститься	міститися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	Id=3cdg
 4	багато	багато	DET	Mlc-n	Case=Nom|NumType=Card|PronType=Ind	5	det:numgov	_	Id=13x9
-5	молитов	молитва	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	root	_	Id=13xa|Promoted=Yes
+5	молитов	молитва	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	root	_	Id=13xa
 6	і	і	CCONJ	Ccs	_	7	cc	_	Id=13xb
 7	настанов	настанова	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	conj	_	Id=13xc
 8	у	у	ADP	Spsl	Case=Loc	10	case	_	Id=13xd
@@ -2334,10 +2354,10 @@
 
 # sent_id = 13xh
 # text = То не вичитані думки, а вистраждані істини й вироблений спосіб життя в ладі з природою і з Божим Законом.
-1	То	то	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	Id=13xi
+1	То	то	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	Id=13xi
 2	не	не	PART	Q	Polarity=Neg	3	advmod	_	Id=13xj
 3	вичитані	вичитаний	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	4	amod	_	Id=13xk
-4	думки	думка	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	Id=13xl|SpaceAfter=No
+4	думки	думка	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	Id=13xl|SpaceAfter=No
 5	,	,	PUNCT	U	_	8	punct	_	Id=13xm
 6	а	а	CCONJ	Ccs	_	8	cc	_	Id=13xn
 7	вистраждані	вистражданий	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	8	amod	_	Id=13xo
@@ -2354,7 +2374,7 @@
 18	з	з	ADP	Spsi	Case=Ins	20	case	_	Id=13xz
 19	Божим	божий	ADJ	Ao-msif	Case=Ins|Gender=Masc|Number=Sing	20	amod	_	Id=13y0
 20	Законом	закон	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	conj	_	Id=13y1|SpaceAfter=No
-21	.	.	PUNCT	U	_	1	punct	_	Id=13y2
+21	.	.	PUNCT	U	_	4	punct	_	Id=13y2
 
 # newpar id = 13y4
 # sent_id = 13y5
@@ -2399,7 +2419,7 @@
 3	лікувати	лікувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	2	xcomp	_	Id=13z1
 4	й	й	CCONJ	Ccs	_	5	cc	_	Id=13z2
 5	рятував	рятувати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	conj	_	Id=13z3
-6	усякого	усякий	PRON	Pg--mysaa	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	5	obj	_	Id=13z4|SpaceAfter=No
+6	усякого	усякий	DET	Pg--mysaa	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	5	obj	_	Id=13z4|SpaceAfter=No
 7	.	.	PUNCT	U	_	2	punct	_	Id=13z5
 
 # newpar id = 13z7
@@ -2650,7 +2670,7 @@
 # sent_id = 145b
 # text = Це подарунок долі для того, хто запитує себе: «Хто я, звідки я, для чого я?
 1	Це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	Id=145c
-2	подарунок	подарунок	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	Id=145d|Promoted=Yes
+2	подарунок	подарунок	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	Id=145d
 3	долі	доля	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	Id=145e
 4	для	для	ADP	Spsg	Case=Gen	5	case	_	Id=145f
 5	того	той	DET	Pd--m-sga	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	2	nmod	_	Id=145g|SpaceAfter=No
@@ -2658,18 +2678,18 @@
 7	хто	хто	PRON	Pr--mysnn	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	Id=145i
 8	запитує	запитувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	Id=145j
 9	себе	себе	PRON	Px-----an	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	Id=145k|SpaceAfter=No
-10	:	:	PUNCT	U	_	13	punct	_	Id=145l
-11	«	«	PUNCT	U	PunctType=Quot	13	punct	_	Id=145m|SpaceAfter=No
-12	Хто	хто	PRON	Pq--mysnn	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int	13	nsubj	_	Id=145n
-13	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	parataxis	_	Id=145o|Promoted=Yes|SpaceAfter=No
-14	,	,	PUNCT	U	_	16	punct	_	Id=145p
-15	звідки	звідки	ADV	Pq------r	PronType=Int	16	advmod	_	Id=145q
-16	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	13	parataxis	_	Id=145r|Promoted=Yes|SpaceAfter=No
-17	,	,	PUNCT	U	_	20	punct	_	Id=145s
+10	:	:	PUNCT	U	_	12	punct	_	Id=145l
+11	«	«	PUNCT	U	PunctType=Quot	12	punct	_	Id=145m|SpaceAfter=No
+12	Хто	хто	PRON	Pq--mysnn	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Int	8	parataxis	_	Id=145n
+13	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Id=145o|SpaceAfter=No
+14	,	,	PUNCT	U	_	15	punct	_	Id=145p
+15	звідки	звідки	ADV	Pq------r	PronType=Int	12	parataxis	_	Id=145q
+16	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	Id=145r|SpaceAfter=No
+17	,	,	PUNCT	U	_	19	punct	_	Id=145s
 18	для	для	ADP	Spsg	Case=Gen	19	case	_	Id=145t
-19	чого	що	PRON	Pq--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Int	20	obl	_	Id=145u
-20	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	13	parataxis	_	Id=145v|Promoted=Yes|SpaceAfter=No
-21	?	?	PUNCT	U	_	13	punct	_	Id=145w
+19	чого	що	PRON	Pq--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Int	12	parataxis	_	Id=145u
+20	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	Id=145v|SpaceAfter=No
+21	?	?	PUNCT	U	_	12	punct	_	Id=145w
 
 # sent_id = 145x
 # text = І куди я йду?»
@@ -2852,11 +2872,12 @@
 1	Але	але	CCONJ	Ccs	_	8	cc	_	Id=14a9
 2	у	у	ADP	Spsl	Case=Loc	4	case	_	Id=14aa
 3	«	«	PUNCT	U	PunctType=Quot	4	punct	_	Id=14ab|SpaceAfter=No
-4	Вічнику	Вічник	PROPN	Npmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	Id=14ac|SpaceAfter=No
+4	Вічнику	Вічник	PROPN	Npmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	orphan	_	Id=14ac|SpaceAfter=No
 5	»	»	PUNCT	U	PunctType=Quot	4	punct	_	Id=14ad
+5.1	міститься	міститися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	Id=3cdh
 6	не	не	PART	Q	Polarity=Neg	8	advmod	_	Id=14ae
 7	«	«	PUNCT	U	PunctType=Quot	8	punct	_	Id=14af|SpaceAfter=No
-8	забарвлення	забарвлення	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	Id=14ag|Promoted=Yes|SpaceAfter=No
+8	забарвлення	забарвлення	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	Id=14ag|SpaceAfter=No
 9	»	»	PUNCT	U	PunctType=Quot	8	punct	_	Id=14ah|SpaceAfter=No
 10	,	,	PUNCT	U	_	13	punct	_	Id=14ai
 11	а	а	CCONJ	Ccs	_	13	cc	_	Id=14aj
@@ -2958,7 +2979,28 @@
 19	містифікацією	містифікація	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	conj	_	Id=14cw|SpaceAfter=No
 20	.	.	PUNCT	U	_	5	punct	_	Id=14cx
 
-# annotation_gap
+# sent_id = 14cy
+# text = Те, що в основі її лежать записи, є безперечним: ніхто не здатен таких речей підробити.
+1	Те	те	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	Id=14cz|SpaceAfter=No
+2	,	,	PUNCT	U	_	7	punct	_	Id=14d0
+3	що	що	SCONJ	Css	_	7	mark	_	Id=14d1
+4	в	в	ADP	Spsl	Case=Loc	5	case	_	Id=14d2
+5	основі	основа	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	Id=14d3
+6	її	вона	PRON	Pp-3f-sgn	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod	_	Id=14d4
+7	лежать	лежати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	Id=14d5
+8	записи	запис	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	Id=14d6|SpaceAfter=No
+9	,	,	PUNCT	U	_	7	punct	_	Id=14d7
+10	є	бути	AUX	Vapip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	Id=14d8
+11	безперечним	безперечний	ADJ	Ao-nsif	Case=Ins|Gender=Neut|Number=Sing	0	root	_	Id=14d9|SpaceAfter=No
+12	:	:	PUNCT	U	_	15	punct	_	Id=14da
+13	ніхто	ніхто	PRON	Pz---y-nn	Animacy=Anim|Case=Nom|PronType=Neg	15	nsubj	_	Id=14db
+14	не	не	PART	Q	Polarity=Neg	15	advmod	_	Id=14dc
+15	здатен	здатний	ADJ	Ao-msns	Case=Nom|Gender=Masc|Number=Sing|Variant=Short	11	parataxis	_	Id=14dd
+16	таких	такий	DET	Pd----pga	Case=Gen|Number=Plur|PronType=Dem	17	det	_	Id=14de
+17	речей	річ	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	obj	_	Id=14df
+18	підробити	підробити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	15	xcomp	_	Id=14dg|SpaceAfter=No
+19	.	.	PUNCT	U	_	15	punct	_	Id=14dh
+
 # newpar id = 14dj
 # sent_id = 14dk
 # text = Автор заслуговує високої нагороди за те, що зрозумів, що потрапило йому до рук.
@@ -3021,7 +3063,7 @@
 # newpar id = 14f1
 # sent_id = 14f2
 # text = Одне можна сказати певно: ця наука життя не застаріє, й цей твір буде представляти вічний дух України.
-1	Одне	одне	PRON	Pd--nnsaa	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	Id=14f3
+1	Одне	одне	DET	Pd--n-saa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	Id=14f3
 2	можна	можна	ADV	R	_	0	root	_	Id=14f4
 3	сказати	сказати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	csubj	_	Id=14f5
 4	певно	певно	ADV	Rp	Degree=Pos	3	advmod	_	Id=14f6|SpaceAfter=No
@@ -3187,6 +3229,7 @@
 15	рівня	рівень	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	Id=1fd7|SpaceAfter=No
 16	.	.	PUNCT	U	_	8	punct	_	Id=1fd8
 
+# annotation_gap
 # sent_id = 2sy6
 # text = В окремих випадках період нечутливості може скоротитися вполовину (на малюнку позначено фігурною дужкою та буквою Н — нечутливість), після чого крива повторно видряпується до оргазму і вже остаточно спадає.
 1	В	в	ADP	Spsl	Case=Loc	3	case	_	Id=1fdp
@@ -3467,12 +3510,70 @@
 8	побіжно	побіжно	ADV	R	_	9	advmod	_	Id=1fnj
 9	спинитись	спинитися	VERB	Vmen	Aspect=Perf|VerbForm=Inf	7	xcomp	_	Id=1fnk
 10	на	на	ADP	Spsl	Case=Loc	13	case	_	Id=1fnl
-11	ще	ще	PART	Q	_	12	advmod	_	Id=1fnm
+11	ще	ще	ADV	R	_	12	advmod	_	Id=1fnm
 12	одному	один	NUM	Mlcnsl	Case=Loc|Gender=Neut|NumType=Card	13	nummod	_	Id=1fnn
 13	питанні	питання	NOUN	Ncnsln	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	Id=1fno|SpaceAfter=No
 14	.	.	PUNCT	U	_	7	punct	_	Id=1fnp
 
 # annotation_gap
+# newpar id = 38r2
+# sent_id = 2syo
+# text = Мабуть, існує ще якийсь додатковий невідомий чинник.
+1	Мабуть	мабуть	ADV	R	_	3	discourse	_	Id=1fp7|SpaceAfter=No
+2	,	,	PUNCT	U	_	1	punct	_	Id=1fp8
+3	існує	існувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1fp9
+4	ще	ще	ADV	R	_	3	advmod	_	Id=1fpa
+5	якийсь	якийсь	DET	Pi--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	8	det	_	Id=1fpb
+6	додатковий	додатковий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	Id=1fpc
+7	невідомий	невідомий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	Id=1fpd
+8	чинник	чинник	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Id=1fpe|SpaceAfter=No
+9	.	.	PUNCT	U	_	3	punct	_	Id=1fpf
+
+# sent_id = 2syp
+# text = Можна б його назвати статевою підхожістю або як давніше це називали — покликом ста́ті.
+1	Можна	можна	ADV	R	_	0	root	_	Id=1fpg
+2	б	б	AUX	Q	Mood=Cnd	1	aux	_	Id=1fph
+3	його	він	PRON	Pp-3m-san	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	Id=1fpi
+4	назвати	назвати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	1	csubj	_	Id=1fpj
+5	статевою	статевий	ADJ	Ao-fsif	Case=Ins|Gender=Fem|Number=Sing	6	amod	_	Id=1fpk
+6	підхожістю	підхожість	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	xcomp:sp	_	Id=1fpl
+7	або	або	CCONJ	Ccs	_	13	cc	_	Id=1fpm
+8	як	як	SCONJ	Css	_	11	mark	_	Id=1fpn
+9	давніше	давніше	ADV	Rc	Degree=Cmp	11	advmod	_	Id=1fpo
+10	це	це	PRON	Pd--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obj	_	Id=1fpp
+11	називали	називати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	13	acl	_	Id=1fpq
+12	—	—	PUNCT	U	PunctType=Dash	11	punct	_	Id=1fpr
+13	покликом	поклик	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	conj	_	Id=1fps
+14	ста́ті	стать	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	Id=1fpt|SpaceAfter=No
+15	.	.	PUNCT	U	_	1	punct	_	Id=1fpu
+
+# sent_id = 2syq
+# text = Цей чинник діє на віддалі, викликаючи інтерес статевого відповідника з допомогою “біополя”, як назвала то одна з моїх відвідувачок.
+1	Цей	цей	DET	Pd--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	Id=1fpv
+2	чинник	чинник	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Id=1fpw
+3	діє	діяти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1fpx
+4	на	на	ADP	Spsl	Case=Loc	5	case	_	Id=1fpy
+5	віддалі	віддаль	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	Id=1fpz|SpaceAfter=No
+6	,	,	PUNCT	U	_	7	punct	_	Id=1fq0
+7	викликаючи	викликати	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	3	advcl	_	Id=1fq1
+8	інтерес	інтерес	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	Id=1fq2
+9	статевого	статевий	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	10	amod	_	Id=1fq3
+10	відповідника	відповідник	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	Id=1fq4
+11	з	з	ADP	Spsi	Case=Ins	12	case	_	Id=1fq5
+12	допомогою	допомога	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	Id=1fq6
+13	“	“	PUNCT	U	PunctType=Quot	14	punct	_	Id=1fq7|SpaceAfter=No
+14	біополя	біополе	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	Id=1fq8|SpaceAfter=No
+15	”	”	PUNCT	U	PunctType=Quot	14	punct	_	Id=1fq9|SpaceAfter=No
+16	,	,	PUNCT	U	_	18	punct	_	Id=1fqa
+17	як	як	SCONJ	Css	_	18	mark	_	Id=1fqb
+18	назвала	назвати	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	acl	_	Id=1fqc
+19	то	то	PRON	Pd--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	18	obj	_	Id=1fqd
+20	одна	один	DET	Pi--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	18	nsubj	_	Id=1fqe|Promoted=Yes
+21	з	з	ADP	Spsg	Case=Gen	23	case	_	Id=1fqf
+22	моїх	мій	DET	Ppp1--pga	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	det	_	Id=1fqg
+23	відвідувачок	відвідувачка	NOUN	Ncfpgy	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	Id=1fqh|SpaceAfter=No
+24	.	.	PUNCT	U	_	3	punct	_	Id=1fqi
+
 # sent_id = 2syr
 # text = Розповідала мені, що зуміє звернути на себе увагу незнайомого чоловіка, який її статево цікавить, навіть коли той і не дивиться у її бік.
 1	Розповідала	розповідати	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=1fqj
@@ -3494,7 +3595,7 @@
 17	,	,	PUNCT	U	_	16	punct	_	Id=1fqz
 18	навіть	навіть	PART	Q	_	23	discourse	_	Id=1fr0
 19	коли	коли	SCONJ	Css	_	23	mark	_	Id=1fr1
-20	той	той	PRON	Pd--mysna	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	23	nsubj	_	Id=1fr2
+20	той	той	DET	Pd--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	23	nsubj	_	Id=1fr2
 21	і	і	PART	Q	_	23	discourse	_	Id=1fr3
 22	не	не	PART	Q	Polarity=Neg	23	advmod	_	Id=1fr4
 23	дивиться	дивитися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	Id=1fr5
@@ -4009,12 +4110,12 @@
 69	медичного	медичний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	70	amod	_	Id=2l5p
 70	призначення	призначення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	68	nmod	_	Id=2l5q|SpaceAfter=No
 71	"	"	PUNCT	U	PunctType=Quot	60	punct	_	Id=2l5r
-72	(	(	PUNCT	U	_	73	punct	_	Id=2l5s|SpaceAfter=No
-73	далі	далі	ADV	R	_	41	parataxis	_	Id=2l5t
+72	(	(	PUNCT	U	_	76	punct	_	Id=2l5s|SpaceAfter=No
+73	далі	далі	ADV	R	_	76	advmod	_	Id=2l5t
 74	-	-	PUNCT	U	PunctType=Dash	76	punct	_	Id=2l5u
 75	Національний	національний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	76	amod	_	Id=2l5v
-76	перелік	перелік	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	73	parataxis	_	Id=2l5w|SpaceAfter=No
-77	)	)	PUNCT	U	_	73	punct	_	Id=2l5x|SpaceAfter=No
+76	перелік	перелік	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	41	acl	_	Id=2l5w|SpaceAfter=No
+77	)	)	PUNCT	U	_	76	punct	_	Id=2l5x|SpaceAfter=No
 78	,	,	PUNCT	U	_	34	punct	_	Id=2l5y
 79	та	та	CCONJ	Ccs	_	81	cc	_	Id=2l5z
 80	лікарських	лікарський	ADJ	Ao--pgf	Case=Gen|Number=Plur	81	amod	_	Id=2l60
@@ -4088,7 +4189,7 @@
 # text = Аналіз статистичних даних захворюваності у регіоні обслуговування або виписаних із стаціонару пацієнтів за нозологічними формами проводиться окремо у кожному відділенні закладу охорони здоров’я (за результатами річного звіту відділень) з метою визначення переліку всіх захворювань та патологічних станів у першу чергу найбільш поширених та соціально значущих, які становлять 70-80% обсягу ліжко-днів у структурі захворюваності.
 1	Аналіз	аналіз	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	Id=2lft
 2	статистичних	статистичний	ADJ	Ao--pgf	Case=Gen|Number=Plur	3	amod	_	Id=2lfu
-3	даних	дані	NOUN	Ap--pgf-ep	Animacy=Inan|Aspect=Perf|Case=Gen|Number=Ptan|Voice=Pass	1	nmod	_	Id=2lfv
+3	даних	дані	NOUN	Ap--pgf-	Animacy=Inan|Case=Gen|Number=Ptan	1	nmod	_	Id=2lfv
 4	захворюваності	захворюваність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Id=2lfw
 5	у	у	ADP	Spsl	Case=Loc	6	case	_	Id=2lfx
 6	регіоні	регіон	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	Id=2lfy
@@ -4138,7 +4239,7 @@
 50	становлять	становити	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	acl	_	Id=2lh6
 51	70	70	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	54	nummod:gov	_	Id=2lh7|SpaceAfter=No
 52	-	-	PUNCT	U	PunctType=Ndash	53	punct	_	Id=2lh8|SpaceAfter=No
-53	80	80	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	51	conj	_	Id=2lh9|SpaceAfter=No
+53	80	80	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	51	flat:range	_	Id=2lh9|SpaceAfter=No
 54	%	%	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Uninflect=Yes	50	obj	_	Id=2lha
 55	обсягу	обсяг	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	54	nmod	_	Id=2lhb
 56	ліжко	ліжко	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	58	compound	_	Id=2lhc|SpaceAfter=No
@@ -4146,7 +4247,7 @@
 58	днів	день	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	55	nmod	_	Id=2lhe
 59	у	у	ADP	Spsl	Case=Loc	60	case	_	Id=2lhf
 60	структурі	структура	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	55	nmod	_	Id=2lhg
-61	захворюваності	захворюваність	NOUN	Ncfsdn	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	60	nmod	_	Id=2lhh|SpaceAfter=No
+61	захворюваності	захворюваність	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	60	nmod	_	Id=2lhh|SpaceAfter=No
 62	.	.	PUNCT	U	_	16	punct	_	Id=2lhi
 
 # newpar id = 2lhk
@@ -4351,7 +4452,7 @@
 # text = Good deal по-українському: купити айфон на ebay із доставкою через сервіс з віртуальною адресою в Штатах.
 1	Good	Good	X	X	Foreign=Yes	0	root	_	Id=1l47
 2	deal	deal	X	X	Foreign=Yes	1	flat:foreign	_	Id=1l48
-3	по-українському	по-українському	ADV	R	_	1	advmod	_	Id=1l49|SpaceAfter=No
+3	по-українському	по-українському	ADV	R	_	1	acl:adv	_	Id=1l49|SpaceAfter=No
 4	:	:	PUNCT	U	_	5	punct	_	Id=1l4a
 5	купити	купити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	1	parataxis	_	Id=1l4b
 6	айфон	айфон	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Id=1l4c
@@ -4415,7 +4516,7 @@
 4	,	,	PUNCT	U	_	8	punct	_	Id=1l5o
 5	коли	коли	SCONJ	Css	_	8	mark	_	Id=1l5p
 6	серед	серед	ADP	Spsg	Case=Gen	7	case	_	Id=1l5q
-7	мобілізованих	мобілізований	NOUN	Ap-mpgf-ep	Animacy=Anim|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Voice=Pass	8	obl	_	Id=1l5r
+7	мобілізованих	мобілізований	NOUN	Ap-mpgf-	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	Id=1l5r
 8	виявлялися	виявлятися	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	csubj	_	Id=1l5s
 9	ІТ	ІТ	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Nom|Number=Ptan|Uninflect=Yes	11	compound	_	Id=1l5t|SpaceAfter=No
 10	-	-	PUNCT	U	PunctType=Hyph	9	punct	_	Id=1l5u|SpaceAfter=No
@@ -4431,7 +4532,7 @@
 20	грамотно	грамотно	ADV	Rp	Degree=Pos	21	advmod	_	Id=1l64
 21	сформулювати	сформулювати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	15	conj	_	Id=1l65
 22	питання	питання	NOUN	Ncnpan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	21	obj	_	Id=1l66
-23	постачальнику	постачальник	NOUN	Ncmsdy	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	22	nmod	_	Id=1l67
+23	постачальнику	постачальник	NOUN	Ncmsdy	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	21	iobj	_	Id=1l67
 24	або	або	CCONJ	Ccs	_	25	cc	_	Id=1l68
 25	нагуглити	нагуглити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	15	conj	_	Id=1l69
 26	відповіді	відповідь	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	obj	_	Id=1l6a|SpaceAfter=No
@@ -5037,7 +5138,7 @@
 5	в	в	ADP	Spsl	Case=Loc	6	case	_	Id=1llc
 6	ефірі	ефір	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	Id=1lld
 7	Fox	Fox	X	X	Foreign=Yes	6	nmod	_	Id=1lle
-8	News	News	X	X	Foreign=Yes	7	flat	_	Id=1llf|SpaceAfter=No
+8	News	News	X	X	Foreign=Yes	7	flat:foreign	_	Id=1llf|SpaceAfter=No
 9	.	.	PUNCT	U	_	4	punct	_	Id=1llg
 
 # newpar id = 1lli
@@ -5115,7 +5216,7 @@
 29	передають	передавати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	Id=1lne
 30	"	"	PUNCT	U	PunctType=Quot	31	punct	_	Id=1lnf|SpaceAfter=No
 31	РИА	РИА	X	X	Foreign=Yes	29	nsubj	_	Id=1lng
-32	Новости	Новости	X	X	Foreign=Yes	31	flat	_	Id=1lnh|SpaceAfter=No
+32	Новости	Новости	X	X	Foreign=Yes	31	flat:foreign	_	Id=1lnh|SpaceAfter=No
 33	"	"	PUNCT	U	PunctType=Quot	31	punct	_	Id=1lni|SpaceAfter=No
 34	.	.	PUNCT	U	_	8	punct	_	Id=1lnj
 
@@ -5154,11 +5255,11 @@
 # sent_id = 1lod
 # text = У нас є багато вбивць.
 1	У	у	ADP	Spsg	Case=Gen	2	case	_	Id=1loe
-2	нас	ми	PRON	Pp-1-ypgn	Animacy=Anim|Case=Gen|Number=Plur|Person=1|PronType=Prs	0	root	_	Id=1lof
-3	є	бути	AUX	Vapip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	Id=1log
+2	нас	ми	PRON	Pp-1-ypgn	Animacy=Anim|Case=Gen|Number=Plur|Person=1|PronType=Prs	3	obl	_	Id=1lof
+3	є	бути	VERB	Vapip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1log
 4	багато	багато	DET	Mlc-n	Case=Nom|NumType=Card|PronType=Ind	5	det:numgov	_	Id=1loh
-5	вбивць	вбивця	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	Id=1loi|SpaceAfter=No
-6	.	.	PUNCT	U	_	2	punct	_	Id=1loj
+5	вбивць	вбивця	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	Id=1loi|SpaceAfter=No
+6	.	.	PUNCT	U	_	3	punct	_	Id=1loj
 
 # sent_id = 1lok
 # text = А ви думаєте, наша країна така безневинна?".
@@ -5168,7 +5269,7 @@
 4	,	,	PUNCT	U	_	8	punct	_	Id=1loo
 5	наша	наш	DET	Ppp1f-sna	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	Id=1lop
 6	країна	країна	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	Id=1loq
-7	така	такий	DET	Pd--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	Id=1lor
+7	така	такий	DET	Pd--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	advmod	_	Id=1lor
 8	безневинна	безневинний	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	ccomp	_	Id=1los|SpaceAfter=No
 9	?	?	PUNCT	U	_	3	punct	_	Id=1lot|SpaceAfter=No
 10	"	"	PUNCT	U	PunctType=Quot	3	punct	_	Id=1lou|SpaceAfter=No
@@ -5187,7 +5288,7 @@
 6	на	на	ADP	Spsa	Case=Acc	10	case	_	Id=1lp5
 7	наступний	наступний	ADJ	Ao-msafn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	amod	_	Id=1lp6|SpaceAfter=No
 8	,	,	PUNCT	U	_	9	punct	_	Id=1lp7
-9	2017	2017	ADJ	Mlomsa	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	7	conj	_	Id=1lp8
+9	2017	2017	ADJ	Mlomsa	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	7	appos	_	Id=1lp8
 10	рік	рік	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	Id=1lp9|SpaceAfter=No
 11	.	.	PUNCT	U	_	5	punct	_	Id=1lpa
 
@@ -5195,7 +5296,7 @@
 # text = 18-25 серпня у Львові має пройти фестиваль LvivMozArt, який вона організує вкупі з «мистецькими та бізнесовими колами Львова» (так зазначено на сторінці фестивалю).
 1	18	18	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	8	obl	_	Id=1lpc|Promoted=Yes|SpaceAfter=No
 2	-	-	PUNCT	U	PunctType=Ndash	3	punct	_	Id=1lpd|SpaceAfter=No
-3	25	25	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	1	conj	_	Id=1lpe
+3	25	25	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	1	flat:range	_	Id=1lpe
 4	серпня	серпень	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Id=1lpf
 5	у	у	ADP	Spsl	Case=Loc	6	case	_	Id=1lpg
 6	Львові	Львів	PROPN	Npmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	Id=1lph
@@ -5552,7 +5653,7 @@
 # sent_id = 1lyg
 # text = У 2006-му велика американська компанія General Dynamics дістала завдання дослідити це питання (хоча в листі не фігурувало слово «торпеда», йшлося лише про «підводний транспорт») від Агентства передових оборонних дослідницьких проектів США.
 1	У	у	ADP	Spsl	Case=Loc	2	case	_	Id=1lyh
-2	2006-му	2006-ий	NOUN	Mlomsl	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	8	obl	_	Id=1lyi
+2	2006-му	2006-ий	NOUN	Ao-mslf	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	Id=1lyi
 3	велика	великий	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	Id=1lyj
 4	американська	американський	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	Id=1lyk
 5	компанія	компанія	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	Id=1lyl
@@ -5701,7 +5802,7 @@
 7	в	в	ADP	Spsl	Case=Loc	8	case	_	Id=1m26
 8	Америці	Америка	PROPN	Npfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	Id=1m27
 9	закінчилися	закінчитися	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	Id=1m28
-10	2012-го	2012-ий	NOUN	Mlomsg	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	9	obl	_	Id=1m29|SpaceAfter=No
+10	2012-го	2012-ий	NOUN	Ao-msgf	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	Id=1m29|SpaceAfter=No
 11	,	,	PUNCT	U	_	26	punct	_	Id=1m2a
 12	хоча	хоча	SCONJ	Css	_	26	mark	_	Id=1m2b
 13	повідомлень	повідомлення	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	26	obj	_	Id=1m2c
@@ -5795,7 +5896,7 @@
 # sent_id = 1m4k
 # text = За даними порталу публічних фінансів України Е-data, «Полтаваелектроавтотранс» заплатив ще не усю суму — тільки 9,8 млн грн.
 1	За	за	ADP	Spsi	Case=Ins	2	case	_	Id=1m4l
-2	даними	дані	NOUN	Ap--pif-ep	Animacy=Inan|Aspect=Perf|Case=Ins|Number=Ptan|Voice=Pass	14	parataxis:discourse	_	Id=1m4m
+2	даними	дані	NOUN	Ap--pif-	Animacy=Inan|Case=Ins|Number=Ptan	14	parataxis:discourse	_	Id=1m4m
 3	порталу	портал	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Id=1m4n
 4	публічних	публічний	ADJ	Ao--pgf	Case=Gen|Number=Plur	5	amod	_	Id=1m4o
 5	фінансів	фінанси	NOUN	Nc-pgn	Animacy=Inan|Case=Gen|Number=Ptan	3	nmod	_	Id=1m4p
@@ -5820,6 +5921,141 @@
 24	млн	млн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card|Uninflect=Yes	18	appos	_	Id=1m56
 25	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	24	nmod	_	Id=1m57|SpaceAfter=No
 26	.	.	PUNCT	U	_	14	punct	_	Id=1m58
+
+# annotation_gap
+# newpar id = 1gzy
+# sent_id = 1gzz
+# text = Комплекси — дуже тяжка штука для життя , але дуже непоганий мотиватор для творчости .
+1	Комплекси	комплекс	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Id=1h00
+2	—	—	PUNCT	U	PunctType=Dash	5	punct	_	Id=1h01
+3	дуже	дуже	ADV	Rp	Degree=Pos	4	advmod	_	Id=1h02
+4	тяжка	тяжкий	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	Id=1h03
+5	штука	штука	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	Id=1h04
+6	для	для	ADP	Spsg	Case=Gen	7	case	_	Id=1h05
+7	життя	життя	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	Id=1h06
+8	,	,	PUNCT	U	_	12	punct	_	Id=1h07
+9	але	але	CCONJ	Ccs	_	12	cc	_	Id=1h08
+10	дуже	дуже	ADV	Rp	Degree=Pos	11	advmod	_	Id=1h09
+11	непоганий	непоганий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	Id=1h0a
+12	мотиватор	мотиватор	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	Id=1h0b
+13	для	для	ADP	Spsg	Case=Gen	14	case	_	Id=1h0c
+14	творчости	творчість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Orth=Alt	12	nmod	_	Id=1h0d
+15	.	.	PUNCT	U	_	5	punct	_	Id=1h0e
+
+# sent_id = 1h0f
+# text = Українському булґакознавству пора всього-навсього перестати потурати комплексам покійного Булґакова так , ніби він і досі живий , — і тоді й його творчість відкриється новими ( цікавезними ! ) гранями .
+1	Українському	український	ADJ	Ao-nsdf	Case=Dat|Gender=Neut|Number=Sing	2	amod	_	Id=1h0g
+2	булґакознавству	булґакознавство	NOUN	Ncnsdn	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obj	_	Id=1h0h
+3	пора	пора	ADV	R	_	0	root	_	Id=1h0i
+4	всього-навсього	всього-навсього	PART	Q	_	5	discourse	_	Id=1h0j
+5	перестати	перестати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	csubj	_	Id=1h0k
+6	потурати	потурати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	5	xcomp	_	Id=1h0l
+7	комплексам	комплекс	NOUN	Ncmpdn	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	obj	_	Id=1h0m
+8	покійного	покійний	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	9	amod	_	Id=1h0n
+9	Булґакова	Булґаков	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	7	nmod	_	Id=1h0o
+10	так	так	ADV	Pd------r	PronType=Dem	6	advmod	_	Id=1h0p
+11	,	,	PUNCT	U	_	16	punct	_	Id=1h0q
+12	ніби	ніби	SCONJ	Css	_	16	mark	_	Id=1h0r
+13	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	case	_	Id=1h0s
+14	і	і	PART	Q	_	16	discourse	_	Id=1h0t
+15	досі	досі	ADV	Pd------r	PronType=Dem	16	advmod	_	Id=1h0u
+16	живий	живий	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	advcl	_	Id=1h0v
+17	,	,	PUNCT	U	_	24	punct	_	Id=1h0w
+18	—	—	PUNCT	U	PunctType=Dash	24	punct	_	Id=1h0x
+19	і	і	CCONJ	Ccs	_	24	cc	_	Id=1h0y
+20	тоді	тоді	ADV	Pd------r	PronType=Dem	24	advmod	_	Id=1h0z
+21	й	й	PART	Q	_	23	discourse	_	Id=1h10
+22	його	його	DET	Ppp-f-sna	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Uninflect=Yes	23	det	_	Id=1h11
+23	творчість	творчість	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	Id=1h12
+24	відкриється	відкритися	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	Id=1h13
+25	новими	новий	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	30	amod	_	Id=1h14
+26	(	(	PUNCT	U	_	27	punct	_	Id=1h15
+27	цікавезними	цікавезний	ADJ	Ao--pif	Case=Ins|Number=Plur	30	amod	_	Id=1h16
+28	!	!	PUNCT	U	_	27	punct	_	Id=1h17
+29	)	)	PUNCT	U	_	27	punct	_	Id=1h18
+30	гранями	грань	NOUN	Ncfpin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	24	obl	_	Id=1h19
+31	.	.	PUNCT	U	_	3	punct	_	Id=1h1a
+
+# annotation_gap
+# sent_id = 1h21
+# text = « Український слід » у російській культурі глибочезний і для доль її таки вирішальний — і ні з Москви , ні з Пітера ніхто його світові на яв не покаже : самі - самі …
+1	«	«	PUNCT	U	PunctType=Quot	3	punct	_	Id=1h22
+2	Український	український	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	Id=1h23
+3	слід	слід	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Id=1h24
+4	»	»	PUNCT	U	PunctType=Quot	3	punct	_	Id=1h25
+5	у	у	ADP	Spsl	Case=Loc	7	case	_	Id=1h26
+6	російській	російський	ADJ	Ao-fslf	Case=Loc|Gender=Fem|Number=Sing	7	amod	_	Id=1h27
+7	культурі	культура	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	Id=1h28
+8	глибочезний	глибочезний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Id=1h29
+9	і	і	CCONJ	Ccs	_	14	cc	_	Id=1h2a
+10	для	для	ADP	Spsg	Case=Gen	11	case	_	Id=1h2b
+11	доль	доля	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	obl	_	Id=1h2c
+12	її	вона	PRON	Pp-3f-sgn	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nmod	_	Id=1h2d
+13	таки	таки	PART	Q	_	14	discourse	_	Id=1h2e
+14	вирішальний	вирішальний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	Id=1h2f
+15	—	—	PUNCT	U	PunctType=Dash	30	punct	_	Id=1h2g
+16	і	і	CCONJ	Ccs	_	30	cc	_	Id=1h2h
+17	ні	ні	CCONJ	Ccs	_	19	cc	_	Id=1h2i
+18	з	з	ADP	Spsg	Case=Gen	19	case	_	Id=1h2j
+19	Москви	Москва	PROPN	Npfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	obl	_	Id=1h2k
+20	,	,	PUNCT	U	_	23	punct	_	Id=1h2l
+21	ні	ні	CCONJ	Ccs	_	23	cc	_	Id=1h2m
+22	з	з	ADP	Spsg	Case=Gen	23	case	_	Id=1h2n
+23	Пітера	Пітер	PROPN	Npmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	conj	_	Id=1h2o
+24	ніхто	ніхто	PRON	Pz---y-nn	Animacy=Anim|Case=Nom|PronType=Neg	30	nsubj	_	Id=1h2p
+25	його	він	PRON	Pp-3m-san	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	Id=1h2q
+26	світові	світ	NOUN	Ncmsdn	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	30	iobj	_	Id=1h2r
+27	на	на	ADP	Spsa	Case=Acc	28	case	_	Id=1h2s
+28	яв	яв	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	Id=1h2t
+29	не	не	PART	Q	Polarity=Neg	30	advmod	_	Id=1h2u
+30	покаже	показати	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	conj	_	Id=1h2v
+31	:	:	PUNCT	U	_	32	punct	_	Id=1h2w
+32	самі	сам	DET	Px----pna	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	30	parataxis	_	Id=1h2x
+33	-	-	PUNCT	U	_	34	punct	_	Id=1h2y
+34	самі	сам	DET	Px----pna	Case=Nom|Number=Plur|PronType=Prs|Reflex=Yes	32	flat:repeat	_	Id=1h2z
+35	…	…	PUNCT	U	_	32	punct	_	Id=1h30
+
+# annotation_gap
+# sent_id = 1h3c
+# text = І не плутати місцями господарів — і квартирантів .
+1	І	і	CCONJ	Ccs	_	3	cc	_	Id=1h3d
+2	не	не	PART	Q	Polarity=Neg	3	advmod	_	Id=1h3e
+3	плутати	плутати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	0	root	_	Id=1h3f
+4	місцями	місце	NOUN	Ncnpin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	3	obl	_	Id=1h3g
+5	господарів	господар	NOUN	Ncmpay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	Id=1h3h
+6	—	—	PUNCT	U	PunctType=Dash	8	punct	_	Id=1h3i
+7	і	і	CCONJ	Ccs	_	8	cc	_	Id=1h3j
+8	квартирантів	квартирант	NOUN	Ncmpay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	conj	_	Id=1h3k
+9	.	.	PUNCT	U	_	3	punct	_	Id=1h3l
+
+# newpar id = 1h3n
+# sent_id = 1h3o
+# text = А Василеві Листовничому пора нам , дорогі кияни , для початку хоча б меморіальну дошку повісити .
+1	А	а	CCONJ	Ccs	_	4	cc	_	Id=1h3p
+2	Василеві	Василь	PROPN	Npmsdy	Animacy=Anim|Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	16	iobj	_	Id=1h3q
+3	Листовничому	Листовничий	PROPN	Npmsdy	Animacy=Anim|Case=Dat|Gender=Masc|NameType=Sur|Number=Sing	2	flat:name	_	Id=1h3r
+4	пора	пора	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	Id=1h3s
+5	нам	ми	PRON	Pp-1-ypdn	Animacy=Anim|Case=Dat|Number=Plur|Person=1|PronType=Prs	4	obj	_	Id=1h3t
+6	,	,	PUNCT	U	_	8	punct	_	Id=1h3u
+7	дорогі	дорогий	ADJ	Afp-pvf	Case=Voc|Degree=Pos|Number=Plur	8	amod	_	Id=1h3v
+8	кияни	киянин	NOUN	Ncmpvy	Animacy=Anim|Case=Voc|Gender=Masc|Number=Plur	4	vocative	_	Id=1h3w
+9	,	,	PUNCT	U	_	8	punct	_	Id=1h3x
+10	для	для	ADP	Spsg	Case=Gen	11	case	_	Id=1h3y
+11	початку	початок	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	Id=1h3z
+12	хоча	хоча	PART	Q	_	16	discourse	_	Id=1h40
+13	б	б	PART	Q	_	12	fixed	_	Id=1h41
+14	меморіальну	меморіальний	ADJ	Ao-fsas	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	Id=1h42
+15	дошку	дошка	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	Id=1h43
+16	повісити	повісити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	4	csubj	_	Id=1h44
+17	.	.	PUNCT	U	_	4	punct	_	Id=1h45
+
+# newpar id = 1h47
+# sent_id = 1h48
+# text = На ЙОГО домі .
+1	На	на	ADP	Spsl	Case=Loc	3	case	_	Id=1h49
+2	ЙОГО	його	DET	Ppp-m-sla	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Uninflect=Yes	3	det	_	Id=1h4a
+3	домі	дім	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	Id=1h4b
+4	.	.	PUNCT	U	_	3	punct	_	Id=1h4c
 
 # doc_title = [Гарний кліп]
 # newdoc id = 1txj
@@ -5887,9 +6123,52 @@
 8	до	до	ADP	Spsg	Case=Gen	12	case	_	Id=1tz2
 9	12	12	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	12	nummod	_	Id=1tz3|SpaceAfter=No
 10	-	-	PUNCT	U	PunctType=Ndash	11	punct	_	Id=1tz4|SpaceAfter=No
-11	14	14	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	9	conj	_	Id=1tz5
+11	14	14	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	9	flat:range	_	Id=1tz5
 12	днів	день	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	ccomp	_	Id=1tz6|SpaceAfter=No
 13	.	.	PUNCT	U	_	1	punct	_	Id=1tz7
+
+# annotation_gap
+# sent_id = 1u06
+# text = Після 14 днів більшість діток починає турбувати животик, вони стають більш чутливими і звичайно, це впливає на різноманітність та тривалість зйомки.
+1	Після	після	ADP	Spsg	Case=Gen	3	case	_	Id=1u07
+2	14	14	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	3	nummod	_	Id=1u08
+3	днів	день	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	Id=1u09
+4	більшість	більшість	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Id=1u0a
+5	діток	дітки	NOUN	Nc-pgy	Animacy=Anim|Case=Gen|Number=Ptan	4	nmod	_	Id=1u0b
+6	починає	починати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1u0c
+7	турбувати	турбувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	6	xcomp	_	Id=1u0d
+8	животик	животик	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Id=1u0e|SpaceAfter=No
+9	,	,	PUNCT	U	_	11	punct	_	Id=1u0f
+10	вони	вони	PRON	Pp-3--pnn	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	Id=1u0g
+11	стають	ставати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	Id=1u0h
+12	більш	більш	ADV	Rc	Degree=Cmp	13	advmod	_	Id=1u0i
+13	чутливими	чутливий	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	11	xcomp:sp	_	Id=1u0j
+14	і	і	CCONJ	Ccs	_	18	cc	_	Id=1u0k
+15	звичайно	звичайно	ADV	Rp	Degree=Pos	18	discourse	_	Id=1u0l|SpaceAfter=No
+16	,	,	PUNCT	U	_	15	punct	_	Id=1u0m
+17	це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	18	nsubj	_	Id=1u0n
+18	впливає	впливати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	Id=1u0o
+19	на	на	ADP	Spsa	Case=Acc	20	case	_	Id=1u0p
+20	різноманітність	різноманітність	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	Id=1u0q
+21	та	та	CCONJ	Ccs	_	22	cc	_	Id=1u0r
+22	тривалість	тривалість	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	conj	_	Id=1u0s
+23	зйомки	зйомка	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	Id=1u0t|SpaceAfter=No
+24	.	.	PUNCT	U	_	6	punct	_	Id=1u0u
+
+# doc_title = [зима прикрашає все довкола, тільки…]
+# newdoc id = 1u0w
+# newpar id = 1u0x
+# sent_id = 1u0y
+# text = зима прикрашає все довкола, тільки не дарницю.
+1	зима	зима	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	Id=1u0z
+2	прикрашає	прикрашати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1u10
+3	все	все	PRON	Pg--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	2	obj	_	Id=1u11
+4	довкола	довкола	ADV	R	_	3	acl:adv	_	Id=1u12|SpaceAfter=No
+5	,	,	PUNCT	U	_	8	punct	_	Id=1u13
+6	тільки	тільки	CCONJ	Ccs	_	8	cc	_	Id=1u14
+7	не	не	PART	Q	Polarity=Neg	8	advmod	_	Id=1u15
+8	дарницю	Дарниця	PROPN	Npfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	conj	_	Id=1u16|SpaceAfter=No
+9	.	.	PUNCT	U	_	2	punct	_	Id=1u17
 
 # doc_title = Без Обмежень – Дихаю тобою (Альбом)
 # newdoc id = 1u2h
@@ -6042,7 +6321,7 @@
 # annotation_gap
 # sent_id = 1u7s
 # text = Ті, хто уважно слідкує за новинами українського музичного простору може згадати, що близько року тому учасники гурту «ФлайzZzа» спільно з Тарасом Тополею з «Антитіл» вже оприлюднювали трек «Двоє» у якості окремого інтернет-синглу, а наразі музиканти луцької команди підготували до нього офіційний супровідний відеоряд.
-1	Ті	той	PRON	Pd--mnpna	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	11	nsubj	_	Id=1u7t|SpaceAfter=No
+1	Ті	той	DET	Pd----pna	Case=Nom|Number=Plur|PronType=Dem	11	nsubj	_	Id=1u7t|SpaceAfter=No
 2	,	,	PUNCT	U	_	5	punct	_	Id=1u7u
 3	хто	хто	PRON	Pr--mysnn	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	Id=1u7v
 4	уважно	уважно	ADV	Rp	Degree=Pos	5	advmod	_	Id=1u7w
@@ -6235,7 +6514,7 @@
 3	,	,	PUNCT	U	_	4	punct	_	Id=1ws8
 4	20	20	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	37	obl	_	Id=1ws9|Promoted=Yes|SpaceAfter=No
 5	-	-	PUNCT	U	PunctType=Ndash	6	punct	_	Id=1wsa|SpaceAfter=No
-6	23	23	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	4	conj	_	Id=1wsb
+6	23	23	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	4	flat:range	_	Id=1wsb
 7	лютого	лютий	NOUN	Ao-msgf	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Id=1wsc|SpaceAfter=No
 8	,	,	PUNCT	U	_	10	punct	_	Id=1wsd
 9	у	у	ADP	Spsl	Case=Loc	10	case	_	Id=1wse
@@ -6275,7 +6554,7 @@
 43	,	,	PUNCT	U	_	44	punct	_	Id=2ep0|SpaceAfter=No
 44	5	5	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	42	compound	_	Id=2ep1|SpaceAfter=No
 45	-	-	PUNCT	U	PunctType=Ndash	46	punct	_	Id=1wtc|SpaceAfter=No
-46	1	1	NUM	Mlc-pa	Case=Acc|Number=Plur|NumType=Card|Uninflect=Yes	42	conj	_	Id=1wtd|SpaceAfter=No
+46	1	1	NUM	Mlc-pa	Case=Acc|Number=Plur|NumType=Card|Uninflect=Yes	42	flat:range	_	Id=1wtd|SpaceAfter=No
 47	,	,	PUNCT	U	_	48	punct	_	Id=2ep2|SpaceAfter=No
 48	5	5	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	46	compound	_	Id=2ep3
 49	м	м	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Uninflect=Yes	38	nmod	_	Id=1wte
@@ -6284,7 +6563,7 @@
 52	,	,	PUNCT	U	_	54	punct	_	Id=1wth
 53	які	який	DET	Pr----pna	Case=Nom|Number=Plur|PronType=Rel	54	nsubj	_	Id=1wti
 54	були	бути	VERB	Vapis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	51	acl	_	Id=1wtj
-55	8	8	NOUN	Mlofsg	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|NumType=Ord|Uninflect=Yes	54	obl	_	Id=1wtk
+55	8	8	NOUN	Ao-fsgf	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Uninflect=Yes	54	obl	_	Id=1wtk
 56	ранку	ранок	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	55	nmod	_	Id=1wtl
 57	17	17	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	56	nmod	_	Id=1wtm|Promoted=Yes
 58	лютого	лютий	NOUN	Ao-msgf	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	57	nmod	_	Id=1wtn|SpaceAfter=No
@@ -6325,7 +6604,7 @@
 8	ще	ще	ADV	R	_	11	advmod	_	Id=1wui
 9	хід	хід	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	Id=1wuj
 10	не	не	PART	Q	Polarity=Neg	11	advmod	_	Id=1wuk
-11	набрала	набрати	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	ccomp	_	Id=1wul|SpaceAfter=No
+11	набрала	набрати	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	csubj	_	Id=1wul|SpaceAfter=No
 12	,	,	PUNCT	U	_	21	punct	_	Id=1wum
 13	тому	тому	ADV	Pd------r	PronType=Dem	21	advmod	_	Id=1wun
 14	відігратися	відігратися	VERB	Vmen	Aspect=Perf|VerbForm=Inf	21	csubj	_	Id=1wuo
@@ -6522,9 +6801,10 @@
 3	ліга	ліга	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	Id=1wzh|SpaceAfter=No
 4	.	.	PUNCT	U	_	3	punct	_	Id=1wzi
 
+# annotation_gap
 # sent_id = 1wzn
 # text = Чорноморець обіграв Карпати, Зірка і Дніпро зіграли внічию.
-1	Чорноморець	Чорноморець	PROPN	Npfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	Id=1wzo
+1	Чорноморець	Чорноморець	PROPN	Npmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Id=1wzo
 2	обіграв	обіграти	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=1wzp
 3	Карпати	Карпати	PROPN	Np-pan	Animacy=Inan|Case=Acc|Number=Ptan	2	obj	_	Id=1wzq|SpaceAfter=No
 4	,	,	PUNCT	U	_	8	punct	_	Id=1wzr
@@ -6668,7 +6948,33 @@
 24	Європи	Європа	PROPN	Npfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	Id=1x55|SpaceAfter=No
 25	.	.	PUNCT	U	_	9	punct	_	Id=1x56
 
-# annotation_gap
+# newpar id = 1x58
+# sent_id = 1x59
+# text = В останньому поєдинку проти Сербії залишається з’ясувати, з якого місця наша команда потрапить на жеребкування Євробаскету: з першого чи другого.
+1	В	в	ADP	Spsl	Case=Loc	3	case	_	Id=1x5a
+2	останньому	останній	ADJ	Afpmslf	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	Id=1x5b
+3	поєдинку	поєдинок	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	Id=1x5c
+4	проти	проти	ADP	Spsg	Case=Gen	5	case	_	Id=1x5d
+5	Сербії	Сербія	PROPN	Npfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Id=1x5e
+6	залишається	залишатися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1x5f
+7	з’ясувати	з’ясувати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	6	csubj	_	Id=1x5g|SpaceAfter=No
+8	,	,	PUNCT	U	_	14	punct	_	Id=1x5h
+9	з	з	ADP	Spsg	Case=Gen	11	case	_	Id=1x5i
+10	якого	який	DET	Pr--n-sga	Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	11	det	_	Id=1x5j
+11	місця	місце	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	Id=1x5k
+12	наша	наш	DET	Ppp1f-sna	Case=Nom|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	det	_	Id=1x5l
+13	команда	команда	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	Id=1x5m
+14	потрапить	потрапити	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	ccomp	_	Id=1x5n
+15	на	на	ADP	Spsa	Case=Acc	16	case	_	Id=1x5o
+16	жеребкування	жеребкування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	Id=1x5p
+17	Євробаскету	Євробаскет	PROPN	Npmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	Id=1x5q|SpaceAfter=No
+18	:	:	PUNCT	U	_	20	punct	_	Id=1x5r
+19	з	з	ADP	Spsg	Case=Gen	20	case	_	Id=1x5s
+20	першого	перший	ADJ	Mlonsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	14	dislocated	_	Id=1x5t
+21	чи	чи	CCONJ	Ccs	_	22	cc	_	Id=1x5u
+22	другого	другий	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord	20	conj	_	Id=1x5v|SpaceAfter=No
+23	.	.	PUNCT	U	_	6	punct	_	Id=1x5w
+
 # sent_id = 1x5x
 # text = Заключний матч кваліфікації збірна України зіграє 23 листопада у Сербії.
 1	Заключний	заключний	ADJ	Ao-msafn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	amod	_	Id=1x5y
@@ -7018,7 +7324,28 @@
 33	Рябцев	Рябцев	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	32	flat:name	_	Id=1xfk|SpaceAfter=No
 34	.	.	PUNCT	U	_	14	punct	_	Id=1xfl
 
-# annotation_gap
+# sent_id = 1xfm
+# text = — Нині ж нам заявляють, що вугілля настільки бракує, що за два тижні можливе віялове відключення.
+1	—	—	PUNCT	U	PunctType=Dash	5	punct	_	Id=1xfn
+2	Нині	нині	ADV	R	_	5	advmod	_	Id=1xfo
+3	ж	ж	PART	Q	_	2	discourse	_	Id=1xfp
+4	нам	ми	PRON	Pp-1-ypdn	Animacy=Anim|Case=Dat|Number=Plur|Person=1|PronType=Prs	5	iobj	_	Id=1xfq
+5	заявляють	заявляти	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1xfr|SpaceAfter=No
+6	,	,	PUNCT	U	_	10	punct	_	Id=1xfs
+7	що	що	SCONJ	Css	_	10	mark	_	Id=1xft
+8	вугілля	вугілля	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obj	_	Id=1xfu
+9	настільки	настільки	ADV	Pd------r	PronType=Dem	10	advmod	_	Id=1xfv
+10	бракує	бракувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	Id=1xfw|SpaceAfter=No
+11	,	,	PUNCT	U	_	16	punct	_	Id=1xfx
+12	що	що	SCONJ	Css	_	16	mark	_	Id=1xfy
+13	за	за	ADP	Spsa	Case=Acc	15	case	_	Id=1xfz
+14	два	два	NUM	Mlcmsa	Case=Acc|Gender=Masc|NumType=Card	15	nummod	_	Id=1xg0
+15	тижні	тиждень	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obl	_	Id=1xg1
+16	можливе	можливий	ADJ	Ao-nsns	Case=Nom|Gender=Neut|Number=Sing	9	advcl	_	Id=1xg2
+17	віялове	віяловий	ADJ	Ao-nsns	Case=Nom|Gender=Neut|Number=Sing	18	amod	_	Id=1xg3
+18	відключення	відключення	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	Id=1xg4|SpaceAfter=No
+19	.	.	PUNCT	U	_	5	punct	_	Id=1xg5
+
 # sent_id = 1xg6
 # text = А це означає, що взагалі не можна буде збалансувати нестачу теплової енергії в межах усієї об’єднаної енергетичної системи України.
 1	А	а	CCONJ	Ccs	_	3	cc	_	Id=1xg7
@@ -7090,7 +7417,7 @@
 16	(	(	PUNCT	U	_	20	punct	_	Id=1xhy|SpaceAfter=No
 17	чи	чи	CCONJ	Ccs	_	20	cc	_	Id=1xhz
 18	навіть	навіть	PART	Q	_	20	discourse	_	Id=1xi0
-19	сама	сам	DET	Px--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	20	advcl:sp	_	Id=1xi1
+19	сама	сам	DET	Px--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	20	obl	_	Id=1xi1
 20	організувала	організувати	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	11	conj	_	Id=1xi2
 21	його	воно	PRON	Pp-3n-san	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	Id=1xi3|SpaceAfter=No
 22	)	)	PUNCT	U	_	20	punct	_	Id=1xi4|SpaceAfter=No
@@ -7233,7 +7560,7 @@
 12	сезону	сезон	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	Id=1xm7
 13	2017	2017	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	16	amod	_	Id=1xm8|SpaceAfter=No
 14	-	-	PUNCT	U	PunctType=Ndash	15	punct	_	Id=1xm9|SpaceAfter=No
-15	18	18	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	13	conj	_	Id=1xma
+15	18	18	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	13	flat:range	_	Id=1xma
 16	років	рік	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	Id=1xmb|SpaceAfter=No
 17	.	.	PUNCT	U	_	3	punct	_	Id=1xmc
 
@@ -7337,7 +7664,41 @@
 12	обмеження	обмеження	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	conj	_	Id=1xow|SpaceAfter=No
 13	.	.	PUNCT	U	_	5	punct	_	Id=1xox
 
-# annotation_gap
+# newpar id = 1xoz
+# sent_id = 1xp0
+# text = Простіше кажучи, регулятор встановлює високі тарифи для холдингу відомого олігарха (для цього й створюють умови на кшталт «Роттердама+) і низькі — для державної структури.
+1	Простіше	простіше	ADV	Rc	Degree=Cmp	2	advmod	_	Id=1xp1
+2	кажучи	казати	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	5	parataxis:discourse	_	Id=1xp2|SpaceAfter=No
+3	,	,	PUNCT	U	_	2	punct	_	Id=1xp3
+4	регулятор	регулятор	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Id=1xp4
+5	встановлює	встановлювати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1xp5
+6	високі	високий	ADJ	Afp-pasn	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	Id=1xp6
+7	тарифи	тариф	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	Id=1xp7
+8	для	для	ADP	Spsg	Case=Gen	9	case	_	Id=1xp8
+9	холдингу	холдинг	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	Id=1xp9
+10	відомого	відомий	ADJ	Afpmsgf	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	Id=1xpa
+11	олігарха	олігарх	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	Id=1xpb
+12	(	(	PUNCT	U	_	16	punct	_	Id=1xpc|SpaceAfter=No
+13	для	для	ADP	Spsg	Case=Gen	14	case	_	Id=1xpd
+14	цього	це	PRON	Pd--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	16	obl	_	Id=1xpe
+15	й	й	PART	Q	_	16	discourse	_	Id=1xpf
+16	створюють	створювати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	Id=1xpg
+17	умови	умова	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	Id=1xph
+18	на	на	ADP	Spsa	Case=Acc	19	case	_	Id=1xpi
+19	кшталт	кшталт	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	Id=1xpj
+20	«	«	PUNCT	U	PunctType=Quot	21	punct	_	Id=1xpk|SpaceAfter=No
+21	Роттердама	Роттердам	PROPN	Npmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	Id=1xpl|SpaceAfter=No
+22	+	+	SYM	X	_	21	amod	_	Id=1xpm|SpaceAfter=No
+23	)	)	PUNCT	U	_	16	punct	_	Id=1xpn
+24	і	і	CCONJ	Ccs	_	25	cc	_	Id=1xpo
+24.1	встановлює	встановлювати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	Id=3c9y
+25	низькі	низький	ADJ	Afp-pasn	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	conj	_	Id=1xpp
+26	—	—	PUNCT	U	PunctType=Dash	29	punct	_	Id=1xpq
+27	для	для	ADP	Spsg	Case=Gen	29	case	_	Id=1xpr
+28	державної	державний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	29	amod	_	Id=1xps
+29	структури	структура	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	orphan	_	Id=1xpt|SpaceAfter=No
+30	.	.	PUNCT	U	_	5	punct	_	Id=1xpu
+
 # sent_id = 1xpv
 # text = «З 1 січня 2017 року тариф знову зменшено.
 1	«	«	PUNCT	U	PunctType=Quot	9	punct	_	Id=1xpw|SpaceAfter=No
@@ -7351,7 +7712,36 @@
 9	зменшено	зменшити	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	0	root	_	Id=1xq4|SpaceAfter=No
 10	.	.	PUNCT	U	_	9	punct	_	Id=1xq5
 
-# annotation_gap
+# sent_id = 1xq6
+# text = На сьогоднішній день АЕС мають найнижчий тариф серед інших генерацій електроенергії у розмірі 46,6 коп. кВт-год, — каже Ольга Кошарна.
+1	На	на	ADP	Spsa	Case=Acc	3	case	_	Id=1xq7
+2	сьогоднішній	сьогоднішній	ADJ	Ao-msafn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	amod	_	Id=1xq8
+3	день	день	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	Id=1xq9
+4	АЕС	АЕС	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur|Uninflect=Yes	5	nsubj	_	Id=1xqa
+5	мають	мати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1xqb
+6	найнижчий	найнижчий	ADJ	Afsmsafn	Animacy=Inan|Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	7	amod	_	Id=1xqc
+7	тариф	тариф	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Id=1xqd
+8	серед	серед	ADP	Spsg	Case=Gen	10	case	_	Id=1xqe
+9	інших	інший	DET	Pi----pga	Case=Gen|Number=Plur|PronType=Ind	10	det	_	Id=1xqf
+10	генерацій	генерація	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	Id=1xqg
+11	електроенергії	електроенергія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	Id=1xqh
+12	у	у	ADP	Spsl	Case=Loc	13	case	_	Id=1xqi
+13	розмірі	розмір	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	appos	_	Id=1xqj
+14	46	46	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	17	nummod:gov	_	Id=1xqk|SpaceAfter=No
+15	,	,	PUNCT	U	_	16	punct	_	Id=2ep6|SpaceAfter=No
+16	6	6	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	14	compound	_	Id=2ep7
+17	коп	коп.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Uninflect=Yes	13	flat:title	_	Id=1xql|SpaceAfter=No
+18	.	.	PUNCT	U	_	17	punct	_	Id=1xqm
+19	кВт	кВт	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	21	compound	_	Id=1xqn|SpaceAfter=No
+20	-	-	PUNCT	U	PunctType=Hyph	19	punct	_	Id=1xqo|SpaceAfter=No
+21	год	год.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing|Uninflect=Yes	17	nmod	_	Id=1xqp|SpaceAfter=No
+22	,	,	PUNCT	U	_	24	punct	_	Id=1xqq
+23	—	—	PUNCT	U	PunctType=Dash	24	punct	_	Id=1xqr
+24	каже	казати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	Id=1xqs
+25	Ольга	Ольга	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	24	nsubj	_	Id=1xqt
+26	Кошарна	Кошарна	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Sur|Number=Sing	25	flat:name	_	Id=1xqu|SpaceAfter=No
+27	.	.	PUNCT	U	_	5	punct	_	Id=1xqv
+
 # sent_id = 1xqw
 # text = — Його знизили із 51,2 коп.
 1	—	—	PUNCT	U	PunctType=Dash	3	punct	_	Id=1xqx
@@ -7423,7 +7813,7 @@
 13	енергетикою	енергетика	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	Id=1xsh|SpaceAfter=No
 14	,	,	PUNCT	U	_	16	punct	_	Id=1xsi
 15	яка	який	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	16	nsubj	_	Id=1xsj
-16	зафіксована	зафіксований	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	advcl	_	Id=1xsk
+16	зафіксована	зафіксований	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	Id=1xsk
 17	наприкінці	наприкінці	ADP	Spsg	Case=Gen	19	case	_	Id=1xsl
 18	2016	2016	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	19	amod	_	Id=1xsm
 19	року	рік	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	Id=1xsn|SpaceAfter=No
@@ -7488,7 +7878,7 @@
 40	сказав	сказати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	10	parataxis	_	Id=1xu8
 41	представник	представник	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	Id=1xu9
 42	відомства	відомство	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	41	nmod	_	Id=1xua
-43	журналісту	журналіст	NOUN	Ncmsdy	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	41	obj	_	Id=1xub
+43	журналісту	журналіст	NOUN	Ncmsdy	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	40	obj	_	Id=1xub
 44	агентства	агентство	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	43	nmod	_	Id=1xuc
 45	РБК	РБК	PROPN	Y	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	44	flat:title	_	Id=1xud|SpaceAfter=No
 46	-	-	PUNCT	U	PunctType=Hyph	47	punct	_	Id=1xue|SpaceAfter=No
@@ -7647,6 +8037,7 @@
 22	;	;	PUNCT	U	_	24	punct	_	Id=1xyf
 23	18	18	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	24	nummod:gov	_	Id=1xyg
 24	разів	раз	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	parataxis	_	Id=1xyh
+24.1	визнавали	визнавати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	_	_	_	Id=3cbu
 25	—	—	PUNCT	U	PunctType=Dash	27	punct	_	Id=1xyi
 26	«	«	PUNCT	U	PunctType=Quot	27	punct	_	Id=1xyj|SpaceAfter=No
 27	Критики	критика	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	orphan	_	Id=1xyk|SpaceAfter=No
@@ -7726,7 +8117,7 @@
 21	смаколиків	смаколик	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	Id=1y0i|SpaceAfter=No
 22	»	»	PUNCT	U	PunctType=Quot	21	punct	_	Id=1y0j|SpaceAfter=No
 23	,	,	PUNCT	U	_	25	punct	_	Id=1y0k
-24	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	25	mark	_	Id=1y0l
+24	що	що	SCONJ	Css	_	25	mark	_	Id=1y0l
 25	живуть	жити	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	Id=1y0m
 26	власним	власний	ADJ	Ao-nsif	Case=Ins|Gender=Neut|Number=Sing	27	amod	_	Id=1y0n
 27	життям	життя	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	obl	_	Id=1y0o|SpaceAfter=No
@@ -7823,9 +8214,9 @@
 14	якості	якість	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	Id=1y3q
 15	перекладів	переклад	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	Id=1y3r
 16	і	і	CCONJ	Ccs	_	17	cc	_	Id=1y3s
-17	видань	видання	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	conj	_	Id=1y3t
+17	видань	видання	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	conj	_	Id=1y3t
 18	художніх	художній	ADJ	Ao--pgf	Case=Gen|Number=Plur	19	amod	_	Id=1y3u
-19	творів	твір	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	Id=1y3v|SpaceAfter=No
+19	творів	твір	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	Id=1y3v|SpaceAfter=No
 20	.	.	PUNCT	U	_	3	punct	_	Id=1y3w
 
 # sent_id = 1y3x
@@ -8228,7 +8619,7 @@
 3	іноді	іноді	ADV	Pi------r	PronType=Ind	4	advmod	_	Id=1yee
 4	виникає	виникати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=1yef
 5	в	в	ADP	Spsg	Case=Gen	6	case	_	Id=1yeg
-6	тих	той	PRON	Pd--mypga	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	4	obl	_	Id=1yeh|SpaceAfter=No
+6	тих	той	DET	Pd----pga	Case=Gen|Number=Plur|PronType=Dem	4	obl	_	Id=1yeh|SpaceAfter=No
 7	,	,	PUNCT	U	_	9	punct	_	Id=1yei
 8	хто	хто	PRON	Pr--mysnn	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	Id=1yej
 9	полюбляє	полюбляти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	Id=1yek
@@ -8292,7 +8683,21 @@
 14	Маалокс	Маалокс	PROPN	Npmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	Id=1yg3|SpaceAfter=No
 15	.	.	PUNCT	U	_	1	punct	_	Id=1yg4
 
-# annotation_gap
+# sent_id = 1yg5
+# text = Народні засоби не є такими ефективними і дають тільки короткочасне полегшення.
+1	Народні	народний	ADJ	Ao--pns	Case=Nom|Number=Plur	2	amod	_	Id=1yg6
+2	засоби	засіб	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Id=1yg7
+3	не	не	PART	Q	Polarity=Neg	4	advmod	_	Id=1yg8
+4	є	бути	AUX	Vapip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	Id=1yg9
+5	такими	такий	DET	Pd----pia	Case=Ins|Number=Plur|PronType=Dem	0	root	_	Id=1yga
+6	ефективними	ефективний	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	5	flat:pack	_	Id=1ygb
+7	і	і	CCONJ	Ccs	_	8	cc	_	Id=1ygc
+8	дають	давати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	Id=1ygd
+9	тільки	тільки	PART	Q	_	10	discourse	_	Id=1yge
+10	короткочасне	короткочасний	ADJ	Ao-nsas	Case=Acc|Gender=Neut|Number=Sing	11	amod	_	Id=1ygf
+11	полегшення	полегшення	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	Id=1ygg|SpaceAfter=No
+12	.	.	PUNCT	U	_	5	punct	_	Id=1ygh
+
 # sent_id = 1ygi
 # text = Харчова сода — найвідоміший засіб для «швидкої допомоги» від печії — часто викликає подразнення слизової оболонки шлунка та порушення кислотно-лужного балансу в організмі.
 1	Харчова	харчовий	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	Id=1ygj
@@ -8348,7 +8753,7 @@
 # sent_id = 1ykp
 # text = За даними Оксфордського словника (Oxford English Dictionary) слово mneme з'явилося в англійській мові у 1921 році, коли книгу Р. Семона було перекладено Л. Сімоном англійською під назвою «The Mneme».
 1	За	за	ADP	Spsi	Case=Ins	2	case	_	Id=1ykq
-2	даними	дані	NOUN	Ap--pif-ep	Animacy=Inan|Aspect=Perf|Case=Ins|Number=Ptan|Voice=Pass	12	obl	_	Id=1ykr
+2	даними	дані	NOUN	Ap--pif-	Animacy=Inan|Case=Ins|Number=Ptan	12	obl	_	Id=1ykr
 3	Оксфордського	оксфордський	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	Id=1yks
 4	словника	словник	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Id=1ykt
 5	(	(	PUNCT	U	_	6	punct	_	Id=1yku|SpaceAfter=No
@@ -8769,7 +9174,7 @@
 11	1	1	NUM	Mlc-pn	Case=Nom|Number=Plur|NumType=Card|Uninflect=Yes	10	appos	_	Id=28c6|Promoted=Yes|SpaceAfter=No
 12	,	,	PUNCT	U	_	13	punct	_	Id=2eqo|SpaceAfter=No
 13	2	2	NUM	Mlc-pn	Case=Nom|Number=Plur|NumType=Card|Uninflect=Yes	11	compound	_	Id=2eqp
-14	тис	тис.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|NumType=Card|Uninflect=Yes	11	flat	_	Id=28c7|SpaceAfter=No
+14	тис	тис.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|NumType=Card|Uninflect=Yes	11	flat:title	_	Id=28c7|SpaceAfter=No
 15	.	.	PUNCT	U	_	14	punct	_	Id=28c8|SpaceAfter=No
 16	,	,	PUNCT	U	_	30	punct	_	Id=28c9
 17	а	а	CCONJ	Ccs	_	30	cc	_	Id=28ca
@@ -8812,6 +9217,15 @@
 11	8	8	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	9	compound	_	Id=28d7|SpaceAfter=No
 12	%	%	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Uninflect=Yes	8	obj	_	Id=28d8|SpaceAfter=No
 13	.	.	PUNCT	U	_	3	punct	_	Id=28d9
+
+# sent_id = 28da
+# text = Тобто все одно частка зростає.
+1	Тобто	тобто	SCONJ	Css	_	5	mark	_	Id=28db
+2	все	все	ADV	R	_	5	advmod	_	Id=28dc
+3	одно	одно	ADV	R	_	2	fixed	_	Id=28dd
+4	частка	частка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Id=28de
+5	зростає	зростати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=28df|SpaceAfter=No
+6	.	.	PUNCT	U	_	5	punct	_	Id=28dg
 
 # annotation_gap
 # sent_id = 28e1
@@ -8914,7 +9328,7 @@
 1	Туди	туди	ADV	Pd------r	PronType=Dem	2	advmod	_	Id=28hu
 2	входять	входити	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=28hv
 3	усі	увесь	DET	Pg----pna	Case=Nom|Number=Plur|PronType=Tot	4	det	_	Id=28hw
-4	комплектуючі	комплектуючі	NOUN	Ap--pns-pap	Animacy=Inan|Aspect=Imp|Case=Nom|Number=Ptan|Tense=Pres|Voice=Act	2	nsubj	_	Id=28hx|SpaceAfter=No
+4	комплектуючі	комплектуючі	NOUN	Ap--pns-p	Animacy=Inan|Case=Nom|Number=Ptan|Tense=Pres	2	nsubj	_	Id=28hx|SpaceAfter=No
 5	,	,	PUNCT	U	_	6	punct	_	Id=28hy
 6	послуги	послуга	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	conj	_	Id=28hz
 7	таксі	таксі	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur|Uninflect=Yes	6	nmod	_	Id=28i0
@@ -9052,6 +9466,41 @@
 20	життя	життя	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	Id=28lx|SpaceAfter=No
 21	.	.	PUNCT	U	_	6	punct	_	Id=28ly
 
+# sent_id = 28lz
+# text = Вони ростуть настільки швидко, що потрібно ловити кожен момент.
+1	Вони	вони	PRON	Pp-3--pnn	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Id=28m0
+2	ростуть	рости	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=28m1
+3	настільки	настільки	ADV	Pd------r	PronType=Dem	4	advmod	_	Id=28m2
+4	швидко	швидко	ADV	Rp	Degree=Pos	2	advmod	_	Id=28m3|SpaceAfter=No
+5	,	,	PUNCT	U	_	7	punct	_	Id=28m4
+6	що	що	SCONJ	Css	_	7	mark	_	Id=28m5
+7	потрібно	потрібно	ADV	Rp	Degree=Pos	4	advcl	_	Id=28m6
+8	ловити	ловити	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	7	csubj	_	Id=28m7
+9	кожен	кожний	DET	Pg--mnsaa	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot|Variant=Short	10	det	_	Id=28m8
+10	момент	момент	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Id=28m9|SpaceAfter=No
+11	.	.	PUNCT	U	_	2	punct	_	Id=28ma
+
+# sent_id = 28mb
+# text = І встигнути все закарбувати в пам'яті: кожен день, кожен місяць ... "- поділилася Катерина.
+1	І	і	CCONJ	Ccs	_	2	cc	_	Id=28mc
+2	встигнути	встигнути	VERB	Vmen	Aspect=Perf|VerbForm=Inf	0	root	_	Id=28md
+3	все	все	PRON	Pg--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	4	obj	_	Id=28me
+4	закарбувати	закарбувати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	xcomp	_	Id=28mf
+5	в	в	ADP	Spsl	Case=Loc	6	case	_	Id=28mg
+6	пам'яті	пам’ять	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	Id=28mh|SpaceAfter=No
+7	:	:	PUNCT	U	_	9	punct	_	Id=28mi
+8	кожен	кожний	DET	Pg--mnsaa	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot|Variant=Short	9	det	_	Id=28mj
+9	день	день	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	appos	_	Id=28mk|SpaceAfter=No
+10	,	,	PUNCT	U	_	12	punct	_	Id=28ml
+11	кожен	кожний	DET	Pg--mnsaa	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot|Variant=Short	12	det	_	Id=28mm
+12	місяць	місяць	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	conj	_	Id=28mn
+13	...	...	PUNCT	U	_	9	punct	_	Id=28mo
+14	"	"	PUNCT	U	PunctType=Quot	2	punct	_	Id=28mp|SpaceAfter=No
+15	-	-	PUNCT	U	PunctType=Dash	16	punct	_	Id=28mq
+16	поділилася	поділитися	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	parataxis	_	Id=28mr
+17	Катерина	Катерина	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	16	nsubj	_	Id=28ms|SpaceAfter=No
+18	.	.	PUNCT	U	_	16	punct	_	Id=28mt
+
 # doc_title = День пам’яті: Джамала показала жінок свого роду. ФОТО
 # newdoc id = 28mv
 # newpar id = 28mw
@@ -9114,9 +9563,36 @@
 23	-	-	PUNCT	U	PunctType=Dash	24	punct	_	Id=28oc
 24	написала	написати	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	parataxis	_	Id=28od
 25	Джамала	Джамала	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	24	nsubj	_	Id=28oe|SpaceAfter=No
-26	.	.	PUNCT	U	_	2	punct	_	Id=28of
+26	.	.	PUNCT	U	_	24	punct	_	Id=28of
 
-# annotation_gap
+# doc_title = ЩоЗаШоу — Холістичне детективне агентство Дірка Джентлі
+# newdoc id = 28oh
+# newpar id = 28oi
+# sent_id = 28oj
+# text = Дуґлас Адамс та його серія сатиричних романів “Путівник Галактикою” в свій час зазнали небувалої слави серед прихильників наукової фантастики.
+1	Дуґлас	Дуґлас	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	15	nsubj	_	Id=28ok
+2	Адамс	Адамс	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	1	flat:name	_	Id=28ol
+3	та	та	CCONJ	Ccs	_	5	cc	_	Id=28om
+4	його	його	DET	Ppp3f-sna	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	5	det	_	Id=28on
+5	серія	серія	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Id=28oo
+6	сатиричних	сатиричний	ADJ	Ao--pgf	Case=Gen|Number=Plur	7	amod	_	Id=28op
+7	романів	роман	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	Id=28oq
+8	“	“	PUNCT	U	PunctType=Quot	9	punct	_	Id=28or|SpaceAfter=No
+9	Путівник	путівник	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	flat:title	_	Id=28os
+10	Галактикою	галактика	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	Id=28ot|SpaceAfter=No
+11	”	”	PUNCT	U	PunctType=Quot	9	punct	_	Id=28ou
+12	в	в	ADP	Spsa	Case=Acc	14	case	_	Id=28ov
+13	свій	свій	DET	Ppp-mnsaa	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	Id=28ow
+14	час	час	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	Id=28ox
+15	зазнали	зазнати	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	Id=28oy
+16	небувалої	небувалий	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	17	amod	_	Id=28oz
+17	слави	слава	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obj	_	Id=28p0
+18	серед	серед	ADP	Spsg	Case=Gen	19	case	_	Id=28p1
+19	прихильників	прихильник	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	Id=28p2
+20	наукової	науковий	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	Id=28p3
+21	фантастики	фантастика	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	Id=28p4|SpaceAfter=No
+22	.	.	PUNCT	U	_	15	punct	_	Id=28p5
+
 # sent_id = 28p6
 # text = Взявши свій початок у форматі звичайної радіоп’єси, вже за кілька років “путівник” перетворився в небувалих масштабів всесвіт, з п’ятьма книгами та кіноекранізацією.
 1	Взявши	взяти	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	16	advcl	_	Id=28p7
@@ -9162,7 +9638,7 @@
 10	свій	свій	DET	Ppp-mnsaa	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	Id=28qx
 11	початок	початок	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	Id=28qy
 12	в	в	ADP	Spsl	Case=Loc	13	case	_	Id=28qz
-13	1987	1987	NOUN	Mlomsl	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	9	obl	_	Id=28r0
+13	1987	1987	NOUN	Ao-mslf	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Uninflect=Yes	9	obl	_	Id=28r0
 14	(	(	PUNCT	U	_	17	punct	_	Id=28r1|SpaceAfter=No
 15	за	за	ADP	Spsa	Case=Acc	17	case	_	Id=28r2
 16	8	8	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	17	nummod:gov	_	Id=28r3
@@ -9250,7 +9726,33 @@
 21	мотивами	мотив	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	19	obl	_	Id=28tb|SpaceAfter=No
 22	.	.	PUNCT	U	_	8	punct	_	Id=28tc
 
-# annotation_gap
+# newpar id = 28te
+# sent_id = 28tf
+# text = За результатами перших тижнів трансляції, шоу не викликало необхідного ажіотажу у критиків, отримавши всього 68% позитивних рецензій на RottenTomatoes.
+1	За	за	ADP	Spsi	Case=Ins	2	case	_	Id=28tg
+2	результатами	результат	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	Id=28th
+3	перших	перший	ADJ	Mlo-pg	Case=Gen|Degree=Pos|Number=Plur|NumType=Ord	4	amod	_	Id=28ti
+4	тижнів	тиждень	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	Id=28tj
+5	трансляції	трансляція	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	Id=28tk|SpaceAfter=No
+6	,	,	PUNCT	U	_	2	punct	_	Id=28tl
+7	шоу	шоу	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|Uninflect=Yes	9	nsubj	_	Id=28tm
+8	не	не	PART	Q	Polarity=Neg	9	advmod	_	Id=28tn
+9	викликало	викликати	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=28to
+10	необхідного	необхідний	ADJ	Afpmsgf	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	Id=28tp
+11	ажіотажу	ажіотаж	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obj	_	Id=28tq
+12	у	у	ADP	Spsg	Case=Gen	13	case	_	Id=28tr
+13	критиків	критик	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	Id=28ts|SpaceAfter=No
+14	,	,	PUNCT	U	_	15	punct	_	Id=28tt
+15	отримавши	отримати	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	9	advcl	_	Id=28tu
+16	всього	всього	PART	Q	_	18	discourse	_	Id=28tv
+17	68	68	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	18	nummod:gov	_	Id=28tw|SpaceAfter=No
+18	%	%	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Uninflect=Yes	15	obj	_	Id=28tx
+19	позитивних	позитивний	ADJ	Afp-pgf	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	Id=28ty
+20	рецензій	рецензія	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	Id=28tz
+21	на	на	ADP	Spsl	Case=Loc	22	case	_	Id=28u0
+22	RottenTomatoes	RottenTomatoes	X	X	Foreign=Yes	15	obl	_	Id=28u1|SpaceAfter=No
+23	.	.	PUNCT	U	_	9	punct	_	Id=28u2
+
 # sent_id = 28u3
 # text = Та, як це часто буває з непересічними проектами, публіка швидко виправила помилки своїх старших та досвідченіших колег, піднявши глядацький рейтинг до 97%.
 1	Та	та	CCONJ	Ccs	_	13	cc	_	Id=28u4|SpaceAfter=No
@@ -9281,6 +9783,21 @@
 26	%	%	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Uninflect=Yes	21	obl	_	Id=28ut|SpaceAfter=No
 27	.	.	PUNCT	U	_	13	punct	_	Id=28uu
 
+# sent_id = 28uv
+# text = І вже за кілька перших серій знаходиться просте пояснення цьому феномену.
+1	І	і	CCONJ	Ccs	_	7	cc	_	Id=28uw
+2	вже	вже	ADV	R	_	7	advmod	_	Id=28ux
+3	за	за	ADP	Spsa	Case=Acc	6	case	_	Id=28uy
+4	кілька	кілька	DET	Mlc-a	Case=Acc|NumType=Card|PronType=Ind	6	det:numgov	_	Id=28uz
+5	перших	перший	ADJ	Mlo-pg	Case=Gen|Degree=Pos|Number=Plur|NumType=Ord	6	amod	_	Id=28v0
+6	серій	серія	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	Id=28v1
+7	знаходиться	знаходитися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=28v2
+8	просте	простий	ADJ	Afpnsns	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	Id=28v3
+9	пояснення	пояснення	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	Id=28v4
+10	цьому	цей	DET	Pd--m-sda	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	Id=28v5
+11	феномену	феномен	NOUN	Ncmsdn	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obj	_	Id=28v6|SpaceAfter=No
+12	.	.	PUNCT	U	_	7	punct	_	Id=28v7
+
 # doc_title = [Класний серіал]
 # newdoc id = 28v9
 # newpar id = 28va
@@ -9301,6 +9818,594 @@
 # sent_id = 28vl
 # text = :)
 1	:)	:)	SYM	X	_	0	root	_	Id=28vm
+
+# sent_id = 28vn
+# text = Дивитись все одно приємно, не зважаючи на дивакуватість, майже все, окрім отої серії, де Дірк і Тодд по лабіринту лазять (останній скріншот в статті як раз з тої серії ).
+1	Дивитись	дивитися	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	4	csubj	_	Id=28vo
+2	все	все	ADV	R	_	4	advmod	_	Id=28vp
+3	одно	одно	ADV	R	_	2	fixed	_	Id=28vq
+4	приємно	приємно	ADV	Rp	Degree=Pos	0	root	_	Id=28vr|SpaceAfter=No
+5	,	,	PUNCT	U	_	7	punct	_	Id=28vs
+6	не	не	PART	Q	Polarity=Neg	7	advmod	_	Id=28vt
+7	зважаючи	зважати	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	4	advcl	_	Id=28vu
+8	на	на	ADP	Spsa	Case=Acc	9	case	_	Id=28vv
+9	дивакуватість	дивакуватість	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	Id=28vw|SpaceAfter=No
+10	,	,	PUNCT	U	_	7	punct	_	Id=28vx
+11	майже	майже	ADV	R	_	12	advmod	_	Id=28vy
+12	все	все	PRON	Pg--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	1	obj	_	Id=28vz|SpaceAfter=No
+13	,	,	PUNCT	U	_	16	punct	_	Id=28w0
+14	окрім	окрім	ADP	Spsg	Case=Gen	16	case	_	Id=28w1
+15	отої	отой	DET	Pd--f-sga	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	Id=28w2
+16	серії	серія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	Id=28w3|SpaceAfter=No
+17	,	,	PUNCT	U	_	24	punct	_	Id=28w4
+18	де	де	ADV	Pr------r	PronType=Rel	24	advmod	_	Id=28w5
+19	Дірк	Дірк	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Uninflect=Yes	24	nsubj	_	Id=28w6
+20	і	і	CCONJ	Ccs	_	21	cc	_	Id=28w7
+21	Тодд	Тодд	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	19	conj	_	Id=28w8
+22	по	по	ADP	Spsl	Case=Loc	23	case	_	Id=28w9
+23	лабіринту	лабіринт	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	Id=28wa
+24	лазять	лазити	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	Id=28wb
+25	(	(	PUNCT	U	_	34	punct	_	Id=28wc|SpaceAfter=No
+26	останній	останній	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	Id=28wd
+27	скріншот	скріншот	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	Id=28we
+28	в	в	ADP	Spsl	Case=Loc	29	case	_	Id=28wf
+29	статті	стаття	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	nmod	_	Id=28wg
+30	як	як	SCONJ	Css	_	34	discourse	_	Id=28wh
+31	раз	раз	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	goeswith	_	Id=28wi
+32	з	з	ADP	Spsg	Case=Gen	34	case	_	Id=28wj
+33	тої	той	DET	Pd--f-sga	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	34	det	_	Id=28wk
+34	серії	серія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	parataxis	_	Id=28wl
+35	)	)	PUNCT	U	_	34	punct	_	Id=28wm|SpaceAfter=No
+36	.	.	PUNCT	U	_	4	punct	_	Id=28wn
+
+# sent_id = 28wo
+# text = Як мінімум з минулорічних серіалів цей серіал мені сподобався значно більше ніж марудний "Westworld", який усі так хвалять, і в якому окрім останньої 10-ї серії дивитись майже нічого.
+1	Як	як	SCONJ	Css	_	2	mark	_	Id=28wp
+2	мінімум	мінімум	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	advcl	_	Id=28wq
+3	з	з	ADP	Spsg	Case=Gen	5	case	_	Id=28wr
+4	минулорічних	минулорічний	ADJ	Ao--pgf	Case=Gen|Number=Plur	5	amod	_	Id=28ws
+5	серіалів	серіал	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	Id=28wt
+6	цей	цей	DET	Pd--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	Id=28wu
+7	серіал	серіал	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Id=28wv
+8	мені	я	PRON	Pp-1-ysdn	Animacy=Anim|Case=Dat|Number=Sing|Person=1|PronType=Prs	9	obj	_	Id=28ww
+9	сподобався	сподобатися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=28wx
+10	значно	значно	ADV	Rp	Degree=Pos	11	advmod	_	Id=28wy
+11	більше	більше	ADV	Rc	Degree=Cmp	9	advmod	_	Id=28wz
+12	ніж	ніж	SCONJ	Css	_	15	mark	_	Id=28x0
+13	марудний	марудний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	Id=28x1
+14	"	"	PUNCT	U	PunctType=Quot	15	punct	_	Id=3c9s|SpaceAfter=No
+15	Westworld	Westworld	X	X	Foreign=Yes	11	advcl	_	Id=28x2|SpaceAfter=No
+16	"	"	PUNCT	U	PunctType=Quot	15	punct	_	Id=3c9t|SpaceAfter=No
+17	,	,	PUNCT	U	_	21	punct	_	Id=28x3
+18	який	який	DET	Pr--mnsaa	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	21	obj	_	Id=28x4
+19	усі	увесь	DET	Pg----pna	Case=Nom|Number=Ptan|PronType=Tot	21	nsubj	_	Id=28x5
+20	так	так	ADV	Pd------r	PronType=Dem	21	advmod	_	Id=28x6
+21	хвалять	хвалити	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	Id=28x7|SpaceAfter=No
+22	,	,	PUNCT	U	_	32	punct	_	Id=28x8
+23	і	і	CCONJ	Ccs	_	32	cc	_	Id=28x9
+24	в	в	ADP	Spsl	Case=Loc	25	case	_	Id=28xa
+25	якому	який	DET	Pr--m-sla	Case=Loc|Gender=Masc|Number=Sing|PronType=Rel	32	obl	_	Id=28xb
+26	окрім	окрім	ADP	Spsg	Case=Gen	29	case	_	Id=28xc
+27	останньої	останній	ADJ	Afpfsgf	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	Id=28xd
+28	10-ї	10-й	ADJ	Mlofsg	Case=Gen|Gender=Fem|Number=Sing|NumType=Ord	29	amod	_	Id=28xe
+29	серії	серія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	Id=28xf
+30	дивитись	дивитися	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	33	acl	_	Id=28xg
+31	майже	майже	ADV	R	_	32	advmod	_	Id=28xh
+32-33	нічого	_	_	_	_	_	_	_	SpaceAfter=No
+32	немає	немати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	21	conj	_	Id=38w5
+33	чого	що	PRON	Pr--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	32	obj	_	Id=38w6
+34	.	.	PUNCT	U	_	9	punct	_	Id=28xj
+
+# sent_id = 28xk
+# text = Бо перші 9 серій практично на 90% - дарма витрачений час, з якого ні інформації для роздумів, ні естетичного задоволення не вдається витиснути.
+1	Бо	бо	SCONJ	Css	_	12	mark	_	Id=28xl
+2	перші	перший	ADJ	Mlo-pn	Case=Nom|Degree=Pos|Number=Plur|NumType=Ord	4	amod	_	Id=28xm
+3	9	9	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	4	nummod:gov	_	Id=28xn
+4	серій	серія	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nsubj	_	Id=28xo
+5	практично	практично	ADV	Rp	Degree=Pos	8	advmod	_	Id=28xp
+6	на	на	ADP	Spsl	Case=Loc	8	case	_	Id=28xq
+7	90	90	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	8	nummod:gov	_	Id=28xr|SpaceAfter=No
+8	%	%	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Uninflect=Yes	12	obl	_	Id=28xs
+9	-	-	PUNCT	U	PunctType=Dash	12	punct	_	Id=28xt
+10	дарма	дарма	ADV	R	_	11	advmod	_	Id=28xu
+11	витрачений	витрачений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	amod	_	Id=28xv
+12	час	час	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	Id=28xw|SpaceAfter=No
+13	,	,	PUNCT	U	_	25	punct	_	Id=28xx
+14	з	з	ADP	Spsg	Case=Gen	15	case	_	Id=28xy
+15	якого	який	DET	Pr--m-sga	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	26	obl	_	Id=28xz
+16	ні	ні	CCONJ	Ccs	_	17	cc	_	Id=28y0
+17	інформації	інформація	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	obj	_	Id=28y1
+18	для	для	ADP	Spsg	Case=Gen	19	case	_	Id=28y2
+19	роздумів	роздум	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	Id=28y3|SpaceAfter=No
+20	,	,	PUNCT	U	_	23	punct	_	Id=28y4
+21	ні	ні	CCONJ	Ccs	_	23	cc	_	Id=28y5
+22	естетичного	естетичний	ADJ	Afpnsgf	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	Id=28y6
+23	задоволення	задоволення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	conj	_	Id=28y7
+24	не	не	PART	Q	Polarity=Neg	25	advmod	_	Id=28y8
+25	вдається	вдаватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	Id=28y9
+26	витиснути	витиснути	VERB	Vmen	Aspect=Perf|VerbForm=Inf	25	xcomp	_	Id=28ya|SpaceAfter=No
+27	.	.	PUNCT	U	_	12	punct	_	Id=28yb
+
+# doc_title = Чутки про нову Assassin’s Creed: Origins
+# newdoc id = 28yd
+# newpar id = 28ye
+# sent_id = 28yf
+# text = Безліч інформації ширилося мережею про нову Assassin’s Creed, але лише зараз стало відомо купу цікавих подробиць.
+1	Безліч	безліч	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	Id=28yg
+2	інформації	інформація	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	Id=28yh
+3	ширилося	ширитися	VERB	Vmpis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=28yi
+4	мережею	мережа	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	Id=28yj
+5	про	про	ADP	Spsa	Case=Acc	7	case	_	Id=28yk
+6	нову	новий	ADJ	Afpfsas	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	Id=28yl
+7	Assassin’s	Assassin’s	X	X	Foreign=Yes	2	nmod	_	Id=28ym
+8	Creed	Creed	X	X	Foreign=Yes	7	flat:foreign	_	Id=28yn|SpaceAfter=No
+9	,	,	PUNCT	U	_	13	punct	_	Id=28yo
+10	але	але	CCONJ	Ccs	_	13	cc	_	Id=28yp
+11	лише	лише	PART	Q	_	12	discourse	_	Id=28yq
+12	зараз	зараз	ADV	Pd------r	PronType=Dem	13	advmod	_	Id=28yr
+13	стало	стати	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	conj	_	Id=28ys
+14	відомо	відомо	ADV	Rp	Degree=Pos	13	advmod	_	Id=28yt
+15	купу	купа	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	Id=28yu
+16	цікавих	цікавий	ADJ	Afp-pgf	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	Id=28yv
+17	подробиць	подробиця	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	Id=28yw|SpaceAfter=No
+18	.	.	PUNCT	U	_	3	punct	_	Id=28yx
+
+# sent_id = 28yy
+# text = Раніше авторитетне видання Kotaku заявляло, що наступна частина серії матиме підзаголовок Empire, а події гри розгортатимуться в древньому Єгипті.
+1	Раніше	раніше	ADV	Rc	Degree=Cmp	5	advmod	_	Id=28yz
+2	авторитетне	авторитетний	ADJ	Afpnsns	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	Id=28z0
+3	видання	видання	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Id=28z1
+4	Kotaku	Kotaku	X	X	Foreign=Yes	3	flat:title	_	Id=28z2
+5	заявляло	заявляти	VERB	Vmpis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=28z3|SpaceAfter=No
+6	,	,	PUNCT	U	_	11	punct	_	Id=28z4
+7	що	що	SCONJ	Css	_	11	mark	_	Id=28z5
+8	наступна	наступний	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	Id=28z6
+9	частина	частина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	Id=28z7
+10	серії	серія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	Id=28z8
+11	матиме	мати	VERB	Vmpif3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	ccomp	_	Id=28z9
+12	підзаголовок	підзаголовок	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	Id=28za
+13	Empire	Empire	X	X	Foreign=Yes	12	flat:title	_	Id=28zb|SpaceAfter=No
+14	,	,	PUNCT	U	_	18	punct	_	Id=28zc
+15	а	а	CCONJ	Ccs	_	18	cc	_	Id=28zd
+16	події	подія	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	Id=28ze
+17	гри	гра	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	Id=28zf
+18	розгортатимуться	розгортатися	VERB	Vmpif3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	conj	_	Id=28zg
+19	в	в	ADP	Spsl	Case=Loc	21	case	_	Id=28zh
+20	древньому	древній	ADJ	Afpmslf	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	Id=28zi
+21	Єгипті	Єгипет	PROPN	Npmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	Id=28zj|SpaceAfter=No
+22	.	.	PUNCT	U	_	5	punct	_	Id=28zk
+
+# sent_id = 28zl
+# text = Втім, сьогодні хлопці з allgamesdelta повідомили про зовсім іншу приставку — Origins.
+1	Втім	втім	ADV	R	_	7	discourse	_	Id=28zm|SpaceAfter=No
+2	,	,	PUNCT	U	_	1	punct	_	Id=28zn
+3	сьогодні	сьогодні	ADV	R	_	7	advmod	_	Id=28zo
+4	хлопці	хлопець	NOUN	Ncmpny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	Id=28zp
+5	з	з	ADP	Spsg	Case=Gen	6	case	_	Id=28zq
+6	allgamesdelta	allgamesdelta	X	X	Foreign=Yes	4	nmod	_	Id=28zr
+7	повідомили	повідомити	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	Id=28zs
+8	про	про	ADP	Spsa	Case=Acc	11	case	_	Id=28zt
+9	зовсім	зовсім	ADV	R	_	10	advmod	_	Id=28zu
+10	іншу	інший	DET	Pi--f-saa	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	11	det	_	Id=28zv
+11	приставку	приставка	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	Id=28zw
+12	—	—	PUNCT	U	PunctType=Dash	13	punct	_	Id=28zx
+13	Origins	Origins	X	X	Foreign=Yes	11	appos	_	Id=28zy|SpaceAfter=No
+14	.	.	PUNCT	U	_	7	punct	_	Id=28zz
+
+# doc_title = Огляд фільму “Ла-Ла Ленд”
+# newdoc id = 290c
+# newpar id = 290d
+# sent_id = 290e
+# text = Весь фільм – уклін старому кіно.
+1	Весь	весь	DET	Pg--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	Id=290f
+2	фільм	фільм	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Id=290g
+3	–	–	PUNCT	U	PunctType=Dash	4	punct	_	Id=290h
+4	уклін	уклін	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	Id=290i
+5	старому	старий	ADJ	Afpnsdf	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	Id=290j
+6	кіно	кіно	NOUN	Ncnsdn	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing|Uninflect=Yes	4	nmod	_	Id=290k|SpaceAfter=No
+7	.	.	PUNCT	U	_	4	punct	_	Id=290l
+
+# sent_id = 290m
+# text = Він переповнений алюзіями на американські та французькі чорно-білі картини, але не повторює, а бережно інтерпретує їх.
+1	Він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Id=290n
+2	переповнений	переповнений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=290o
+3	алюзіями	алюзія	NOUN	Ncfpin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obj	_	Id=290p
+4	на	на	ADP	Spsa	Case=Acc	11	case	_	Id=290q
+5	американські	американський	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	11	amod	_	Id=290r
+6	та	та	CCONJ	Ccs	_	7	cc	_	Id=290s
+7	французькі	французький	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	5	conj	_	Id=290t
+8	чорно	чорний	ADJ	A	Hyph=Yes	10	compound	_	Id=290u|SpaceAfter=No
+9	-	-	PUNCT	U	PunctType=Hyph	8	punct	_	Id=290v|SpaceAfter=No
+10	білі	білий	ADJ	Afp-pasn	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	Id=290w
+11	картини	картина	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	Id=290x|SpaceAfter=No
+12	,	,	PUNCT	U	_	15	punct	_	Id=290y
+13	але	але	CCONJ	Ccs	_	15	cc	_	Id=290z
+14	не	не	PART	Q	Polarity=Neg	15	advmod	_	Id=2910
+15	повторює	повторювати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Id=2911|SpaceAfter=No
+16	,	,	PUNCT	U	_	19	punct	_	Id=2912
+17	а	а	CCONJ	Ccs	_	19	cc	_	Id=2913
+18	бережно	бережно	ADV	R	_	19	advmod	_	Id=2914
+19	інтерпретує	інтерпретувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	Id=2915
+20	їх	вони	PRON	Pp-3--pan	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	_	Id=2916|SpaceAfter=No
+21	.	.	PUNCT	U	_	2	punct	_	Id=2917
+
+# sent_id = 2918
+# text = Це відображено в самій історії головного героя, який молиться на ікон джазу, але мусить осучаснити свою музику, щоб бути актуальним сьогодні.
+1	Це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	Id=2919
+2	відображено	відобразити	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	0	root	_	Id=291a
+3	в	в	ADP	Spsl	Case=Loc	5	case	_	Id=291b
+4	самій	сам	DET	Px--f-sla	Case=Loc|Gender=Fem|Number=Sing|PronType=Prs|Reflex=Yes	5	det	_	Id=291c
+5	історії	історія	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	Id=291d
+6	головного	головний	ADJ	Afpmsgf	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	Id=291e
+7	героя	герой	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Id=291f|SpaceAfter=No
+8	,	,	PUNCT	U	_	10	punct	_	Id=291g
+9	який	який	DET	Pr--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	10	nsubj	_	Id=291h
+10	молиться	молитися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	Id=291i
+11	на	на	ADP	Spsa	Case=Acc	12	case	_	Id=291j
+12	ікон	ікона	NOUN	Ncfpay	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	10	obl	_	Id=291k
+13	джазу	джаз	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	Id=291l|SpaceAfter=No
+14	,	,	PUNCT	U	_	16	punct	_	Id=291m
+15	але	але	CCONJ	Ccs	_	16	cc	_	Id=291n
+16	мусить	мусити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	Id=291o
+17	осучаснити	осучаснити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	16	xcomp	_	Id=291p
+18	свою	свій	DET	Ppp-f-saa	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	19	det	_	Id=291q
+19	музику	музика	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	Id=291r|SpaceAfter=No
+20	,	,	PUNCT	U	_	23	punct	_	Id=291s
+21	щоб	щоб	SCONJ	Css	_	23	mark	_	Id=291t
+22	бути	бути	AUX	Vapn	Aspect=Imp|VerbForm=Inf	23	cop	_	Id=291u
+23	актуальним	актуальний	ADJ	Afpmsif	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	advcl	_	Id=291v
+24	сьогодні	сьогодні	ADV	R	_	23	advmod	_	Id=291w|SpaceAfter=No
+25	.	.	PUNCT	U	_	2	punct	_	Id=291x
+
+# doc_title = Огляд фільму «Чому він?»
+# newdoc id = 291z
+# newpar id = 2920
+# sent_id = 2921
+# text = Головному героєві, мільйонеру, власникові ІТ-бізнесу відверто потурають усі навколо, підлизуючи йому де не ліньки, але попри це герой не поводить себе зверхньо та грубо.
+1	Головному	головний	ADJ	Afpmsdf	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	Id=2922
+2	героєві	герой	NOUN	Ncmsdy	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	obj	_	Id=2923|SpaceAfter=No
+3	,	,	PUNCT	U	_	4	punct	_	Id=2924
+4	мільйонеру	мільйонер	NOUN	Ncmsdy	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	appos	_	Id=2925|SpaceAfter=No
+5	,	,	PUNCT	U	_	6	punct	_	Id=2926
+6	власникові	власник	NOUN	Ncmsdy	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	appos	_	Id=2927
+7	ІТ	ІТ	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Number=Ptan|Uninflect=Yes	9	compound	_	Id=2928|SpaceAfter=No
+8	-	-	PUNCT	U	PunctType=Hyph	7	punct	_	Id=2929|SpaceAfter=No
+9	бізнесу	бізнес	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	Id=292a
+10	відверто	відверто	ADV	Rp	Degree=Pos	11	advmod	_	Id=292b
+11	потурають	потурати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=292c
+12	усі	увесь	DET	Pg----pna	Case=Nom|Number=Plur|PronType=Tot	11	nsubj	_	Id=292d
+13	навколо	навколо	ADV	R	_	12	acl:adv	_	Id=292e|SpaceAfter=No
+14	,	,	PUNCT	U	_	15	punct	_	Id=292f
+15	підлизуючи	підлизувати	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	11	advcl	_	Id=292g
+16	йому	він	PRON	Pp-3m-sdn	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	Id=292h
+17	де	де	ADV	Pr------r	PronType=Rel	19	advmod	_	Id=292i
+18	не	не	PART	Q	Polarity=Neg	19	advmod	_	Id=292j
+19	ліньки	ліньки	ADV	R	_	15	advcl	_	Id=292k|SpaceAfter=No
+20	,	,	PUNCT	U	_	26	punct	_	Id=292l
+21	але	але	CCONJ	Ccs	_	26	cc	_	Id=292m
+22	попри	попри	ADP	Spsa	Case=Acc	23	case	_	Id=292n
+23	це	це	PRON	Pd--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	26	obl	_	Id=292o
+24	герой	герой	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	Id=292p
+25	не	не	PART	Q	Polarity=Neg	26	advmod	_	Id=292q
+26	поводить	поводити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	Id=292r
+27	себе	себе	PRON	Px-----an	Case=Acc|PronType=Prs|Reflex=Yes	26	obj	_	Id=292s
+28	зверхньо	зверхньо	ADV	R	_	26	advmod	_	Id=292t
+29	та	та	CCONJ	Ccs	_	30	cc	_	Id=292u
+30	грубо	грубо	ADV	Rp	Degree=Pos	28	conj	_	Id=292v|SpaceAfter=No
+31	.	.	PUNCT	U	_	11	punct	_	Id=292w
+
+# sent_id = 292x
+# text = Істинна картинка програмера-генія, яку змальовують сьогодні для нас біографії Возняка, Джобса та Ґейтса.
+1	Істинна	істинний	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	Id=292y
+2	картинка	картинка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	Id=292z
+3	програмера	програмер	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Id=2930|SpaceAfter=No
+4	-	-	PUNCT	U	PunctType=Hyph	5	punct	_	Id=2931|SpaceAfter=No
+5	генія	геній	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	appos	_	Id=2932|SpaceAfter=No
+6	,	,	PUNCT	U	_	8	punct	_	Id=2933
+7	яку	який	DET	Pr--f-saa	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	8	obj	_	Id=2934
+8	змальовують	змальовувати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	Id=2935
+9	сьогодні	сьогодні	ADV	R	_	8	advmod	_	Id=2936
+10	для	для	ADP	Spsg	Case=Gen	11	case	_	Id=2937
+11	нас	ми	PRON	Pp-1-ypgn	Animacy=Anim|Case=Gen|Number=Plur|Person=1|PronType=Prs	8	obl	_	Id=2938
+12	біографії	біографія	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	Id=2939
+13	Возняка	Возняк	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	12	nmod	_	Id=293a|SpaceAfter=No
+14	,	,	PUNCT	U	_	15	punct	_	Id=293b
+15	Джобса	Джобс	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	13	conj	_	Id=293c
+16	та	та	CCONJ	Ccs	_	17	cc	_	Id=293d
+17	Ґейтса	Ґейтс	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	13	conj	_	Id=293e|SpaceAfter=No
+18	.	.	PUNCT	U	_	2	punct	_	Id=293f
+
+# annotation_gap
+# newpar id = 294f
+# sent_id = 294g
+# text = Дуже яскраво показане ставлення старого покоління підприємців до нового на межі індустріальної та постіндустріальної епохи.
+1	Дуже	дуже	ADV	Rp	Degree=Pos	2	advmod	_	Id=294h
+2	яскраво	яскраво	ADV	Rp	Degree=Pos	3	advmod	_	Id=294i
+3	показане	показаний	ADJ	Ap-nsns-ep	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=294j
+4	ставлення	ставлення	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Id=294k
+5	старого	старий	ADJ	Afpnsgf	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	Id=294l
+6	покоління	покоління	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	Id=294m
+7	підприємців	підприємець	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Id=294n
+8	до	до	ADP	Spsg	Case=Gen	9	case	_	Id=294o
+9	нового	новий	ADJ	Afpmsgf	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	nmod	_	Id=294p|Promoted=Yes
+10	на	на	ADP	Spsl	Case=Loc	11	case	_	Id=294q
+11	межі	межа	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	Id=294r
+12	індустріальної	індустріальний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	15	amod	_	Id=294s
+13	та	та	CCONJ	Ccs	_	14	cc	_	Id=294t
+14	постіндустріальної	постіндустріальний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	12	conj	_	Id=294u
+15	епохи	епоха	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	Id=294v|SpaceAfter=No
+16	.	.	PUNCT	U	_	3	punct	_	Id=294w
+
+# sent_id = 294x
+# text = Батько, що володіє друкарською фабрикою, відверто зневажає та звинувачує молодого хлопчину за те, що він “дурить людей”, “торгує повітрям”, “весь цей бізнес – афера, яка от-от загнеться” і все в такому ж стилі.
+1	Батько	батько	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Id=294y|SpaceAfter=No
+2	,	,	PUNCT	U	_	4	punct	_	Id=294z
+3	що	що	SCONJ	Css	_	4	mark	_	Id=2950
+4	володіє	володіти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	Id=2951
+5	друкарською	друкарський	ADJ	Ao-fsif	Case=Ins|Gender=Fem|Number=Sing	6	amod	_	Id=2952
+6	фабрикою	фабрика	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obj	_	Id=2953|SpaceAfter=No
+7	,	,	PUNCT	U	_	4	punct	_	Id=2954
+8	відверто	відверто	ADV	Rp	Degree=Pos	9	advmod	_	Id=2955
+9	зневажає	зневажати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=2956
+10	та	та	CCONJ	Ccs	_	11	cc	_	Id=2957
+11	звинувачує	звинувачувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	Id=2958
+12	молодого	молодий	ADJ	Afpmsafy	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	Id=2959
+13	хлопчину	хлопчина	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	Id=295a
+14	за	за	ADP	Spsa	Case=Acc	15	case	_	Id=295b
+15	те	те	PRON	Pd--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	Id=295c|SpaceAfter=No
+16	,	,	PUNCT	U	_	20	punct	_	Id=295d
+17	що	що	SCONJ	Css	_	20	mark	_	Id=295e
+18	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	Id=295f
+19	“	“	PUNCT	U	PunctType=Quot	20	punct	_	Id=295g|SpaceAfter=No
+20	дурить	дурити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	Id=295h
+21	людей	людина	NOUN	Ncfpay	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	Id=295i|SpaceAfter=No
+22	”	”	PUNCT	U	PunctType=Quot	20	punct	_	Id=295j|SpaceAfter=No
+23	,	,	PUNCT	U	_	25	punct	_	Id=295k
+24	“	“	PUNCT	U	PunctType=Quot	25	punct	_	Id=295l|SpaceAfter=No
+25	торгує	торгувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	Id=295m
+26	повітрям	повітря	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	obl	_	Id=295n|SpaceAfter=No
+27	”	”	PUNCT	U	PunctType=Quot	25	punct	_	Id=295o|SpaceAfter=No
+28	,	,	PUNCT	U	_	34	punct	_	Id=295p
+29	“	“	PUNCT	U	PunctType=Quot	34	punct	_	Id=295q|SpaceAfter=No
+30	весь	весь	DET	Pg--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	32	det	_	Id=295r
+31	цей	цей	DET	Pd--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	32	det	_	Id=295s
+32	бізнес	бізнес	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	Id=295t
+33	–	–	PUNCT	U	PunctType=Dash	34	punct	_	Id=295u
+34	афера	афера	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	conj	_	Id=295v|SpaceAfter=No
+35	,	,	PUNCT	U	_	40	punct	_	Id=295w
+36	яка	який	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	40	nsubj	_	Id=295x
+37	от	от	ADV	R	_	40	advmod	_	Id=295y|SpaceAfter=No
+38	-	-	PUNCT	U	PunctType=Hyph	39	punct	_	Id=295z|SpaceAfter=No
+39	от	от	ADV	R	_	37	flat:repeat	_	Id=2960
+40	загнеться	загнутися	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	34	acl	_	Id=2961|SpaceAfter=No
+41	”	”	PUNCT	U	PunctType=Quot	34	punct	_	Id=2962
+42	і	і	CCONJ	Ccs	_	43	cc	_	Id=2963
+43	все	все	PRON	Pg--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	20	conj	_	Id=2964
+44	в	в	ADP	Spsl	Case=Loc	47	case	_	Id=2965
+45	такому	такий	DET	Pd--m-sla	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	47	det	_	Id=2966
+46	ж	ж	PART	Q	_	45	discourse	_	Id=2967
+47	стилі	стиль	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	43	nmod	_	Id=2968|SpaceAfter=No
+48	.	.	PUNCT	U	_	9	punct	_	Id=2969
+
+# sent_id = 296a
+# text = Сцени фільму нагнітають контраст між купами офісних папірців — і безпаперовим побутом, японським унітазом зі сенсорним змивом та розумним будинком із Сірі.
+1	Сцени	сцена	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	Id=296b
+2	фільму	фільм	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Id=296c
+3	нагнітають	нагнітати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=296d
+4	контраст	контраст	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	Id=296e
+5	між	між	ADP	Spsi	Case=Ins	6	case	_	Id=296f
+6	купами	купа	NOUN	Ncfpin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	4	nmod	_	Id=296g
+7	офісних	офісний	ADJ	Ao--pgf	Case=Gen|Number=Plur	8	amod	_	Id=296h
+8	папірців	папірець	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Id=296i
+9	—	—	PUNCT	U	PunctType=Dash	12	punct	_	Id=296j
+10	і	і	CCONJ	Ccs	_	12	cc	_	Id=296k
+11	безпаперовим	безпаперовий	ADJ	Ao-msif	Case=Ins|Gender=Masc|Number=Sing	12	amod	_	Id=296l
+12	побутом	побут	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	conj	_	Id=296m|SpaceAfter=No
+13	,	,	PUNCT	U	_	15	punct	_	Id=296n
+14	японським	японський	ADJ	Ao-msif	Case=Ins|Gender=Masc|Number=Sing	15	amod	_	Id=296o
+15	унітазом	унітаз	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	conj	_	Id=296p
+16	зі	зі	ADP	Spsi	Case=Ins	18	case	_	Id=296q
+17	сенсорним	сенсорний	ADJ	Ao-msif	Case=Ins|Gender=Masc|Number=Sing	18	amod	_	Id=296r
+18	змивом	змив	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	Id=296s
+19	та	та	CCONJ	Ccs	_	21	cc	_	Id=296t
+20	розумним	розумний	ADJ	Afpmsif	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	Id=296u
+21	будинком	будинок	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	conj	_	Id=296v
+22	із	із	ADP	Spsi	Case=Ins	23	case	_	Id=296w
+23	Сірі	Сірі	PROPN	Npfsiy	Animacy=Anim|Case=Ins|Gender=Fem|NameType=Giv|Number=Sing|Uninflect=Yes	21	nmod	_	Id=296x|SpaceAfter=No
+24	.	.	PUNCT	U	_	3	punct	_	Id=296y
+
+# doc_title = [скучив за асасінами]
+# newdoc id = 2970
+# newpar id = 2971
+# sent_id = 2972
+# text = Їм треба частіше робити такі перерви між іграми серії.
+1	Їм	вони	PRON	Pp-3--pdn	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	obj	_	Id=2973
+2	треба	треба	ADV	R	_	0	root	_	Id=2974
+3	частіше	частіше	ADV	Rc	Degree=Cmp	4	advmod	_	Id=2975
+4	робити	робити	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	2	csubj	_	Id=2976
+5	такі	такий	DET	Pd---npaa	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	6	det	_	Id=2977
+6	перерви	перерва	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	Id=2978
+7	між	між	ADP	Spsi	Case=Ins	8	case	_	Id=2979
+8	іграми	гра	NOUN	Ncfpin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	6	nmod	_	Id=297a
+9	серії	серія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	Id=297b|SpaceAfter=No
+10	.	.	PUNCT	U	_	2	punct	_	Id=297c
+
+# sent_id = 297d
+# text = Зазвичай ти просто бачиш нову частину і кажеш - окей, візьму якось зі знижкою.
+1	Зазвичай	зазвичай	ADV	R	_	4	advmod	_	Id=297e
+2	ти	ти	PRON	Pp-2-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	Id=297f
+3	просто	просто	PART	Q	_	4	discourse	_	Id=297g
+4	бачиш	бачити	VERB	Vmpip2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Id=297h
+5	нову	новий	ADJ	Afpfsas	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	Id=297i
+6	частину	частина	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	Id=297j
+7	і	і	CCONJ	Ccs	_	8	cc	_	Id=297k
+8	кажеш	казати	VERB	Vmpip2s	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	Id=297l
+9	-	-	PUNCT	U	PunctType=Dash	12	punct	_	Id=297m
+10	окей	окей	INTJ	I	_	12	discourse	_	Id=297n|SpaceAfter=No
+11	,	,	PUNCT	U	_	10	punct	_	Id=297o
+12	візьму	взяти	VERB	Vmeif1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	8	parataxis	_	Id=297p
+13	якось	якось	ADV	Pi------r	PronType=Ind	12	advmod	_	Id=297q
+14	зі	зі	ADP	Spsi	Case=Ins	15	case	_	Id=297r
+15	знижкою	знижка	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	Id=297s|SpaceAfter=No
+16	.	.	PUNCT	U	_	12	punct	_	Id=297t
+
+# sent_id = 297u
+# text = А після перерви хочеться брати гру зразу на релізі.
+1	А	а	CCONJ	Ccs	_	4	cc	_	Id=297v
+2	після	після	ADP	Spsg	Case=Gen	3	case	_	Id=297w
+3	перерви	перерва	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	Id=297x
+4	хочеться	хотітися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=297y
+5	брати	брати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	4	xcomp	_	Id=297z
+6	гру	гра	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	Id=2980
+7	зразу	зразу	ADV	R	_	9	advmod	_	Id=2981
+8	на	на	ADP	Spsl	Case=Loc	9	case	_	Id=2982
+9	релізі	реліз	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	Id=2983|SpaceAfter=No
+10	.	.	PUNCT	U	_	4	punct	_	Id=2984
+
+# sent_id = 2985
+# text = Дивно це казати, але скучив за асасінами.
+1	Дивно	дивно	ADV	Rp	Degree=Pos	0	root	_	Id=2986
+2	це	це	PRON	Pd--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	Id=2987
+3	казати	казати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	1	csubj	_	Id=2988|SpaceAfter=No
+4	,	,	PUNCT	U	_	6	punct	_	Id=2989
+5	але	але	CCONJ	Ccs	_	6	cc	_	Id=298a
+6	скучив	скучити	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	conj	_	Id=298b
+7	за	за	ADP	Spsi	Case=Ins	8	case	_	Id=298c
+8	асасінами	асасін	NOUN	Ncmpiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	Id=298d|SpaceAfter=No
+9	.	.	PUNCT	U	_	1	punct	_	Id=298e
+
+# doc_title = [вважаю Tekken 3 — еталоном]
+# newdoc id = 298g
+# newpar id = 298h
+# sent_id = 298i
+# text = Механіка не змінюється, а це головне.
+1	Механіка	механіка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Id=298j
+2	не	не	PART	Q	Polarity=Neg	3	advmod	_	Id=298k
+3	змінюється	змінюватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=298l|SpaceAfter=No
+4	,	,	PUNCT	U	_	7	punct	_	Id=298m
+5	а	а	CCONJ	Ccs	_	7	cc	_	Id=298n
+6	це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	Id=298o
+7	головне	головний	ADJ	Afpnsns	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	Id=298p|SpaceAfter=No
+8	.	.	PUNCT	U	_	3	punct	_	Id=298q
+
+# sent_id = 298r
+# text = Після третьої мене особисто бісили інтерактивні елементи оточення, які нах не впали, але це дрібниці.
+1	Після	після	ADP	Spsg	Case=Gen	2	case	_	Id=298s
+2	третьої	третя	NOUN	Ao-fsgf	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	Id=298t
+3	мене	я	PRON	Pp-1-ysan	Animacy=Anim|Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	Id=298u
+4	особисто	особисто	ADV	Rp	Degree=Pos	3	advmod	_	Id=298v
+5	бісили	бісити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	Id=298w
+6	інтерактивні	інтерактивний	ADJ	Ao--pns	Case=Nom|Number=Plur	7	amod	_	Id=298x
+7	елементи	елемент	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Id=298y
+8	оточення	оточення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	Id=298z|SpaceAfter=No
+9	,	,	PUNCT	U	_	13	punct	_	Id=2990
+10	які	який	DET	Pr----pna	Case=Nom|Number=Plur|PronType=Rel	13	nsubj	_	Id=2991
+11	нах	нах	ADV	R	_	13	advmod	_	Id=2992
+12	не	не	PART	Q	Polarity=Neg	13	advmod	_	Id=2993
+13	впали	впасти	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	7	acl	_	Id=2994|SpaceAfter=No
+14	,	,	PUNCT	U	_	17	punct	_	Id=2995
+15	але	але	CCONJ	Ccs	_	17	cc	_	Id=2996
+16	це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	17	nsubj	_	Id=2997
+17	дрібниці	дрібниця	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	conj	_	Id=2998|SpaceAfter=No
+18	.	.	PUNCT	U	_	5	punct	_	Id=2999
+
+# sent_id = 299a
+# text = Плюс кожна нова частина вводила нових персонажів, не всі з них вдалі, на мою думку, але загалом рівень не падав.
+1	Плюс	плюс	CCONJ	Ccs	_	5	cc	_	Id=299b
+2	кожна	кожний	DET	Pg--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	4	det	_	Id=299c
+3	нова	новий	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	Id=299d
+4	частина	частина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Id=299e
+5	вводила	вводити	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=299f
+6	нових	новий	ADJ	Afp-pafy	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	Id=299g
+7	персонажів	персонаж	NOUN	Ncmpay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	Id=299h|SpaceAfter=No
+8	,	,	PUNCT	U	_	13	punct	_	Id=299i
+9	не	не	PART	Q	Polarity=Neg	10	advmod	_	Id=299j
+10	всі	весь	DET	Pg----pna	Case=Nom|Number=Plur|PronType=Tot	13	nsubj	_	Id=299k
+11	з	з	ADP	Spsg	Case=Gen	12	case	_	Id=299l
+12	них	вони	PRON	Pp-3--pgn	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	nmod	_	Id=299m
+13	вдалі	вдалий	ADJ	Afp-pns	Case=Nom|Degree=Pos|Number=Plur	5	parataxis	_	Id=299n|SpaceAfter=No
+14	,	,	PUNCT	U	_	17	punct	_	Id=299o
+15	на	на	ADP	Spsa	Case=Acc	17	case	_	Id=299p
+16	мою	мій	DET	Ppp1f-saa	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	det	_	Id=299q
+17	думку	думка	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	parataxis:discourse	_	Id=299r|SpaceAfter=No
+18	,	,	PUNCT	U	_	17	punct	_	Id=299s
+19	але	але	CCONJ	Ccs	_	23	cc	_	Id=299t
+20	загалом	загалом	ADV	R	_	23	advmod	_	Id=299u
+21	рівень	рівень	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	Id=299v
+22	не	не	PART	Q	Polarity=Neg	23	advmod	_	Id=299w
+23	падав	падати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	conj	_	Id=299x|SpaceAfter=No
+24	.	.	PUNCT	U	_	13	punct	_	Id=299y
+
+# doc_title = [Найголовніше, щоб була роздільна хрестовина]
+# newdoc id = 29a0
+# newpar id = 29a1
+# sent_id = 29a2
+# text = Найголовніше, щоб була роздільна хрестовина.
+1	Найголовніше	найголовніше	ADV	Rs	Degree=Sup	0	root	_	Id=29a3|SpaceAfter=No
+2	,	,	PUNCT	U	_	4	punct	_	Id=29a4
+3	щоб	щоб	SCONJ	Css	_	4	mark	_	Id=29a5
+4	була	бути	VERB	Vapis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	csubj	_	Id=29a6
+5	роздільна	роздільний	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	Id=29a7
+6	хрестовина	хрестовина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	Id=29a8|SpaceAfter=No
+7	.	.	PUNCT	U	_	1	punct	_	Id=29a9
+
+# sent_id = 29aa
+# text = Боївка передбачає використання багатьох комбінацій рухів ←, →, ↑, ↓ і їх комбінаторики на 45 градусів.
+1	Боївка	боївка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	Id=29ab
+2	передбачає	передбачати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=29ac
+3	використання	використання	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	Id=29ad
+4	багатьох	багато	DET	Mlc-g	Case=Gen|NumType=Card|PronType=Ind	5	det:nummod	_	Id=29ae
+5	комбінацій	комбінація	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	Id=29af
+6	рухів	рух	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	Id=29ag
+7	←	←	SYM	X	_	6	flat:title	_	Id=29ah|SpaceAfter=No
+8	,	,	PUNCT	U	_	9	punct	_	Id=29ai
+9	→	→	SYM	X	_	7	conj	_	Id=29aj|SpaceAfter=No
+10	,	,	PUNCT	U	_	11	punct	_	Id=29ak
+11	↑	↑	SYM	X	_	7	conj	_	Id=29al|SpaceAfter=No
+12	,	,	PUNCT	U	_	13	punct	_	Id=29am
+13	↓	↓	SYM	X	_	7	conj	_	Id=29an
+14	і	і	CCONJ	Ccs	_	16	cc	_	Id=29ao
+15	їх	вони	PRON	Pp-3--pgn	Case=Gen|Number=Plur|Person=3|PronType=Prs	16	nmod	_	Id=29ap
+16	комбінаторики	комбінаторика	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	Id=29aq
+17	на	на	ADP	Spsa	Case=Acc	19	case	_	Id=29ar
+18	45	45	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	19	nummod:gov	_	Id=29as
+19	градусів	градус	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	Id=29at|SpaceAfter=No
+20	.	.	PUNCT	U	_	2	punct	_	Id=29au
+
+# sent_id = 29av
+# text = На контролері Xbox 360, до прикладу, хрестовина суцільна, дуже важко точно вибирати потрібний напрямок, адже вона часто фіксує "ліві" натискання, що тригерить непотрібну комбінацію.
+1	На	на	ADP	Spsl	Case=Loc	2	case	_	Id=29aw
+2	контролері	контролер	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	Id=29ax
+3	Xbox	Xbox	X	X	Foreign=Yes	2	flat:title	_	Id=29ay
+4	360	360	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	3	flat:title	_	Id=29az|SpaceAfter=No
+5	,	,	PUNCT	U	_	7	punct	_	Id=29b0
+6	до	до	ADP	Spsg	Case=Gen	7	case	_	Id=29b1
+7	прикладу	приклад	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	parataxis:discourse	_	Id=29b2|SpaceAfter=No
+8	,	,	PUNCT	U	_	7	punct	_	Id=29b3
+9	хрестовина	хрестовина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	Id=29b4
+10	суцільна	суцільний	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Id=29b5|SpaceAfter=No
+11	,	,	PUNCT	U	_	13	punct	_	Id=29b6
+12	дуже	дуже	ADV	Rp	Degree=Pos	13	advmod	_	Id=29b7
+13	важко	важко	ADV	Rp	Degree=Pos	10	parataxis	_	Id=29b8
+14	точно	точно	ADV	Rp	Degree=Pos	15	advmod	_	Id=29b9
+15	вибирати	вибирати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	13	csubj	_	Id=29ba
+16	потрібний	потрібний	ADJ	Afpmsafn	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	Id=29bb
+17	напрямок	напрямок	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	Id=29bc|SpaceAfter=No
+18	,	,	PUNCT	U	_	22	punct	_	Id=29bd
+19	адже	адже	SCONJ	Css	_	22	mark	_	Id=29be
+20	вона	вона	PRON	Pp-3f-snn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	Id=29bf
+21	часто	часто	ADV	Rp	Degree=Pos	22	advmod	_	Id=29bg
+22	фіксує	фіксувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	Id=29bh
+23	"	"	PUNCT	U	PunctType=Quot	24	punct	_	Id=29bi|SpaceAfter=No
+24	ліві	лівий	ADJ	Afp-pasn	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	Id=29bj|SpaceAfter=No
+25	"	"	PUNCT	U	PunctType=Quot	24	punct	_	Id=29bk
+26	натискання	натискання	NOUN	Ncnpan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	22	obj	_	Id=29bl|SpaceAfter=No
+27	,	,	PUNCT	U	_	29	punct	_	Id=29bm
+28	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	29	nsubj	_	Id=29bn
+29	тригерить	тригерити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	_	Id=29bo
+30	непотрібну	непотрібний	ADJ	Ao-fsas	Case=Acc|Gender=Fem|Number=Sing	31	amod	_	Id=29bp
+31	комбінацію	комбінація	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	Id=29bq|SpaceAfter=No
+32	.	.	PUNCT	U	_	13	punct	_	Id=29br
 
 # sent_id = 29bs
 # text = Тekken в першу чергу ексклюзив PS і завжди орієнтувався на відповідні контролери.
@@ -9453,7 +10558,41 @@
 19	рапаміцину	рапаміцин	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	Id=2aex|SpaceAfter=No
 20	.	.	PUNCT	U	_	2	punct	_	Id=2aey
 
-# annotation_gap
+# sent_id = 2aez
+# text = mTOR комплекс 1 — TORC1, що містить білок raptor, стимулює ріст клітин шляхом пришвидшення біогенезу рибосом і трансляції, сповільнення деградації білків і активації захоплення поживних речовин із середовища.
+1	mTOR	mTOR	X	X	Foreign=Yes	2	compound	_	Id=2af0
+2	комплекс	комплекс	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	Id=2af1
+3	1	1	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Uninflect=Yes	2	flat:title	_	Id=2af2
+4	—	—	PUNCT	U	PunctType=Dash	5	punct	_	Id=2af3
+5	TORC1	TORC1	X	X	Foreign=Yes	2	appos	_	Id=2af4|SpaceAfter=No
+6	,	,	PUNCT	U	_	8	punct	_	Id=2af5
+7	що	що	SCONJ	Css	_	8	mark	_	Id=2af6
+8	містить	містити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	Id=2af7
+9	білок	білок	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Id=2af8
+10	raptor	raptor	X	X	Foreign=Yes	9	flat:title	_	Id=2af9|SpaceAfter=No
+11	,	,	PUNCT	U	_	8	punct	_	Id=2afa
+12	стимулює	стимулювати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=2afb
+13	ріст	ріст	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	Id=2afc
+14	клітин	клітина	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	Id=2afd
+15	шляхом	шляхом	ADP	Spsg	Case=Gen	16	case	_	Id=2afe
+16	пришвидшення	пришвидшення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	Id=2aff
+17	біогенезу	біогенез	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	Id=2afg
+18	рибосом	рибосома	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	Id=2afh
+19	і	і	CCONJ	Ccs	_	20	cc	_	Id=2afi
+20	трансляції	трансляція	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	Id=2afj|SpaceAfter=No
+21	,	,	PUNCT	U	_	22	punct	_	Id=2afk
+22	сповільнення	сповільнення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	conj	_	Id=2afl
+23	деградації	деградація	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	Id=2afm
+24	білків	білок	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	Id=2afn
+25	і	і	CCONJ	Ccs	_	26	cc	_	Id=2afo
+26	активації	активація	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	conj	_	Id=2afp
+27	захоплення	захоплення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	Id=2afq
+28	поживних	поживний	ADJ	Afp-pgf	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	Id=2afr
+29	речовин	речовина	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	Id=2afs
+30	із	із	ADP	Spsg	Case=Gen	31	case	_	Id=2aft
+31	середовища	середовище	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	Id=2afu|SpaceAfter=No
+32	.	.	PUNCT	U	_	12	punct	_	Id=2afv
+
 # sent_id = 2afw
 # text = TORC1 чутливий до рапаміцину.
 1	TORC1	TORC1	X	X	Foreign=Yes	2	nsubj	_	Id=2afx
@@ -9461,6 +10600,35 @@
 3	до	до	ADP	Spsg	Case=Gen	4	case	_	Id=2afz
 4	рапаміцину	рапаміцин	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	Id=2ag0|SpaceAfter=No
 5	.	.	PUNCT	U	_	2	punct	_	Id=2ag1
+
+# sent_id = 2ag2
+# text = До складу TORC2 (mTOR комплекс 2) входить білок rictor, цей комплекс регулює цитоскелет через родину ГТФаз Rho і допомагає активувати кіназу Akt.
+1	До	до	ADP	Spsg	Case=Gen	2	case	_	Id=2ag3
+2	складу	склад	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	Id=2ag4
+3	TORC2	TORC2	X	X	Foreign=Yes	2	nmod	_	Id=2ag5
+4	(	(	PUNCT	U	_	6	punct	_	Id=2ag6|SpaceAfter=No
+5	mTOR	mTOR	X	X	Foreign=Yes	6	compound	_	Id=2ag7
+6	комплекс	комплекс	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	Id=2ag8
+7	2	2	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Uninflect=Yes	6	flat:title	_	Id=2ag9|SpaceAfter=No
+8	)	)	PUNCT	U	_	6	punct	_	Id=2aga
+9	входить	входити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=2agb
+10	білок	білок	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Id=2agc
+11	rictor	rictor	X	X	Foreign=Yes	10	flat:title	_	Id=2agd|SpaceAfter=No
+12	,	,	PUNCT	U	_	15	punct	_	Id=2age
+13	цей	цей	DET	Pd--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	Id=2agf
+14	комплекс	комплекс	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	Id=2agg
+15	регулює	регулювати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	Id=2agh
+16	цитоскелет	цитоскелет	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	Id=2agi
+17	через	через	ADP	Spsa	Case=Acc	18	case	_	Id=2agj
+18	родину	родина	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	Id=2agk
+19	ГТФаз	ГТФаза	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	Id=2agl
+20	Rho	Rho	X	X	Foreign=Yes	18	flat:title	_	Id=2agm
+21	і	і	CCONJ	Ccs	_	22	cc	_	Id=2agn
+22	допомагає	допомагати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	Id=2ago
+23	активувати	активувати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	22	xcomp	_	Id=2agp
+24	кіназу	кіназа	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	Id=2agq
+25	Akt	Akt	X	X	Foreign=Yes	24	flat:title	_	Id=2agr|SpaceAfter=No
+26	.	.	PUNCT	U	_	15	punct	_	Id=2ags
 
 # doc_title = Проект НАТО–Україна «Запобігання повеням в Україні»
 # newdoc id = 2agu
@@ -9559,7 +10727,26 @@
 35	он-лайн	он-лайн	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	flat:title	_	Id=2aj8|SpaceAfter=No
 36	.	.	PUNCT	U	_	2	punct	_	Id=2aj9
 
-# annotation_gap
+# sent_id = 2aja
+# text = У майбутньому буде легко додати інші вимірювальні прибори, наприклад, для моніторингу за ядерними ізотопами.
+1	У	у	ADP	Spsl	Case=Loc	2	case	_	Id=2ajb
+2	майбутньому	майбутнє	NOUN	Ao-nslf	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	Id=2ajc
+3	буде	бути	AUX	Vapif3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	Id=2ajd
+4	легко	легко	ADV	Rp	Degree=Pos	0	root	_	Id=2aje
+5	додати	додати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	4	csubj	_	Id=2ajf
+6	інші	інший	DET	Pi---npaa	Animacy=Inan|Case=Acc|Number=Plur|PronType=Ind	8	det	_	Id=2ajg
+7	вимірювальні	вимірювальний	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	8	amod	_	Id=2ajh
+8	прибори	прибор	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	Id=2aji|SpaceAfter=No
+9	,	,	PUNCT	U	_	13	punct	_	Id=2ajj
+10	наприклад	наприклад	ADV	R	_	13	discourse	_	Id=2ajk|SpaceAfter=No
+11	,	,	PUNCT	U	_	10	punct	_	Id=2ajl
+12	для	для	ADP	Spsg	Case=Gen	13	case	_	Id=2ajm
+13	моніторингу	моніторинг	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	appos	_	Id=2ajn
+14	за	за	ADP	Spsi	Case=Ins	16	case	_	Id=2ajo
+15	ядерними	ядерний	ADJ	Ao--pif	Case=Ins|Number=Plur	16	amod	_	Id=2ajp
+16	ізотопами	ізотоп	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	nmod	_	Id=2ajq|SpaceAfter=No
+17	.	.	PUNCT	U	_	4	punct	_	Id=2ajr
+
 # sent_id = 2ajs
 # text = Якщо вода підніметься суттєво, можна буде здійснювати негайні запобіжні заходи і попередити мешканців цих регіонів.
 1	Якщо	якщо	SCONJ	Css	_	3	mark	_	Id=2ajt
@@ -9585,7 +10772,7 @@
 1	Маючи	мати	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	5	advcl	_	Id=2akb
 2	постійний	постійний	ADJ	Afpmsafn	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	Id=2akc
 3	потік	потік	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	Id=2akd
-4	даних	дані	NOUN	Ap--pgf-ep	Animacy=Inan|Aspect=Perf|Case=Gen|Number=Ptan|Voice=Pass	3	nmod	_	Id=2ake
+4	даних	дані	NOUN	Ap--pgf-	Animacy=Inan|Case=Gen|Number=Ptan	3	nmod	_	Id=2ake
 5	легше	легше	ADV	Rc	Degree=Cmp	0	root	_	Id=2akf
 6	також	також	ADV	R	_	5	advmod	_	Id=2akg
 7	виявляти	виявляти	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	5	csubj	_	Id=2akh
@@ -9700,7 +10887,70 @@
 53	руків'я	руків’я	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	52	nmod	_	Id=2ane|SpaceAfter=No
 54	.	.	PUNCT	U	_	9	punct	_	Id=2anf
 
-# annotation_gap
+# doc_title = Ан-132
+# newdoc id = 2anh
+# newpar id = 2ani
+# sent_id = 2anj
+# text = Літак створений як багатоцільовий сухопутний всеаеродромний близько- та середньомагістральний дводвигунний турбогвинтовий однофюзеляжний дозвуковий легкий транспортний моно-високоплан нормальної схеми 3-го класу.
+1	Літак	літак	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Id=2ank
+2	створений	створений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Id=2anl
+3	як	як	SCONJ	Css	_	19	mark	_	Id=2anm
+4	багатоцільовий	багатоцільовий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	Id=2ann
+5	сухопутний	сухопутний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	Id=2ano
+6	всеаеродромний	всеаеродромний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	Id=2anp
+7	близько	близькомагістальний	ADJ	A	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	Id=2anq|SpaceAfter=No
+8	-	-	PUNCT	U	PunctType=Hyph	7	punct	_	Id=2anr
+9	та	та	CCONJ	Ccs	_	10	cc	_	Id=2ans
+10	середньомагістральний	середньомагістральний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	Id=2ant
+11	дводвигунний	дводвигунний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	Id=2anu
+12	турбогвинтовий	турбогвинтовий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	Id=2anv
+13	однофюзеляжний	однофюзеляжний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	Id=2anw
+14	дозвуковий	дозвуковий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	Id=2anx
+15	легкий	легкий	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	Id=2any
+16	транспортний	транспортний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	_	Id=2anz
+17	моно	моноплан	NOUN	A	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	compound	_	Id=2ao0|SpaceAfter=No
+18	-	-	PUNCT	U	PunctType=Hyph	17	punct	_	Id=2ao1|SpaceAfter=No
+19	високоплан	високоплан	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	xcomp:sp	_	Id=2ao2
+20	нормальної	нормальний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	Id=2ao3
+21	схеми	схема	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	Id=2ao4
+22	3-го	3-ій	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	23	amod	_	Id=2ao5
+23	класу	клас	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	Id=2ao6|SpaceAfter=No
+24	.	.	PUNCT	U	_	2	punct	_	Id=2ao7
+
+# newpar id = 2ao9
+# sent_id = 2aoa
+# text = Експлуатація літака в транспортному варіанті передбачає повну автономність при базуванні на слабко- та не підготовлених аеродромах завдяки вбудованому комплексу завантаження/розвантаження та із застосуванням допоміжної силової установки.
+1	Експлуатація	експлуатація	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Id=2aob
+2	літака	літак	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Id=2aoc
+3	в	в	ADP	Spsl	Case=Loc	5	case	_	Id=2aod
+4	транспортному	транспортний	ADJ	Ao-mslf	Case=Loc|Gender=Masc|Number=Sing	5	amod	_	Id=2aoe
+5	варіанті	варіант	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	Id=2aof
+6	передбачає	передбачати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=2aog
+7	повну	повний	ADJ	Afpfsas	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	Id=2aoh
+8	автономність	автономність	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	Id=2aoi
+9	при	при	ADP	Spsl	Case=Loc	10	case	_	Id=2aoj
+10	базуванні	базування	NOUN	Ncnsln	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	Id=2aok
+11	на	на	ADP	Spsl	Case=Loc	17	case	_	Id=2aol
+12	слабко	слабко	ADV	Rp	Degree=Pos	16	advmod	_	Id=2aom|SpaceAfter=No
+13	-	-	PUNCT	U	PunctType=Hyph	12	punct	_	Id=2aon
+14	та	та	CCONJ	Ccs	_	15	cc	_	Id=2aoo
+15	не	не	PART	Q	Polarity=Neg	12	conj	_	Id=2aop
+16	підготовлених	підготовлений	ADJ	Ap--plf-ep	Aspect=Perf|Case=Loc|Number=Plur|VerbForm=Part|Voice=Pass	17	amod	_	Id=2aoq
+17	аеродромах	аеродром	NOUN	Ncmpln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	nmod	_	Id=2aor
+18	завдяки	завдяки	ADP	Spsd	Case=Dat	20	case	_	Id=2aos
+19	вбудованому	вбудований	ADJ	Ap-msdf-ep	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	amod	_	Id=2aot
+20	комплексу	комплекс	NOUN	Ncmsdn	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	Id=2aou
+21	завантаження	завантаження	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	Id=2aov|SpaceAfter=No
+22	/	/	PUNCT	U	_	23	punct	_	Id=2aow|SpaceAfter=No
+23	розвантаження	розвантаження	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	conj	_	Id=2aox
+24	та	та	CCONJ	Ccs	_	26	cc	_	Id=2aoy
+25	із	із	ADP	Spsi	Case=Ins	26	case	_	Id=2aoz
+26	застосуванням	застосування	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	conj	_	Id=2ap0
+27	допоміжної	допоміжний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	29	amod	_	Id=2ap1
+28	силової	силовий	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	29	amod	_	Id=2ap2
+29	установки	установка	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	Id=2ap3|SpaceAfter=No
+30	.	.	PUNCT	U	_	6	punct	_	Id=2ap4
+
 # newpar id = 2ap6
 # sent_id = 2ap7
 # text = Ан-132 також може виконувати повітряне десантування вантажів на парашутних платформах та парашутистів, перевозити людей, транспортувати хворих та поранених в умовах надзвичайних ситуацій.
@@ -9725,7 +10975,7 @@
 19	транспортувати	транспортувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	6	conj	_	Id=2apq
 20	хворих	хворий	NOUN	Ao-mpafy	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	Id=2apr
 21	та	та	CCONJ	Ccs	_	22	cc	_	Id=2aps
-22	поранених	поранений	NOUN	Ap-mpafyep	Animacy=Anim|Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Voice=Pass	20	conj	_	Id=2apt
+22	поранених	поранений	NOUN	Ap-mpafy	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	20	conj	_	Id=2apt
 23	в	в	ADP	Spsl	Case=Loc	24	case	_	Id=2apu
 24	умовах	умова	NOUN	Ncfpln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	19	obl	_	Id=2apv
 25	надзвичайних	надзвичайний	ADJ	Ao--pgf	Case=Gen|Number=Plur	26	amod	_	Id=2apw
@@ -10518,8 +11768,8 @@
 21	в	в	ADP	Spsg	Case=Gen	22	case	_	Id=2oi7
 22	них	вони	PRON	Pp-3--pgn	Case=Gen|Number=Plur|Person=3|PronType=Prs	23	obl	_	Id=2oi8
 23	налічується	налічуватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	Id=2oi9
-24	понад	понад	ADV	R	_	26	case	_	Id=2oia
-25	20	20	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	26	nummod	_	Id=2oib
+24	понад	понад	ADP	Spsa	Case=Acc	26	case	_	Id=2oia
+25	20	20	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	26	nummod:gov	_	Id=2oib
 26	сіл	село	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	nsubj	_	Id=2oic|SpaceAfter=No
 27	.	.	PUNCT	U	_	6	punct	_	Id=2oid
 
@@ -10642,7 +11892,7 @@
 9	пити	пити	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	8	xcomp	_	Id=2gt4
 10	та	та	CCONJ	Ccs	_	11	cc	_	Id=2gt5
 11	пригадувати	пригадувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	9	conj	_	Id=2gt6
-12	загиблих	загиблий	NOUN	Ap-mpafyea	Animacy=Anim|Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Voice=Act	11	obj	_	Id=2gt7|SpaceAfter=No
+12	загиблих	загиблий	NOUN	Ap-mpafy	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	Id=2gt7|SpaceAfter=No
 13	.	.	PUNCT	U	_	2	punct	_	Id=2gt8
 
 # annotation_gap
@@ -10674,9 +11924,10 @@
 3	з	з	ADP	Spsa	Case=Acc	4	case	_	Id=2guh
 4	рік	рік	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	Id=2gui|SpaceAfter=No
 5	,	,	PUNCT	U	_	6	punct	_	Id=2guj
-6	хтось	хтось	PRON	Pi---y-nn	Animacy=Anim|Case=Nom|PronType=Ind	2	parataxis	_	Id=2guk|Promoted=Yes
+6	хтось	хтось	PRON	Pi---y-nn	Animacy=Anim|Case=Nom|PronType=Ind	2	parataxis	_	Id=2guk
+6.1	протримався	протриматися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	_	_	_	Id=3cay
 7	—	—	PUNCT	U	PunctType=Dash	8	punct	_	Id=2gul
-8	місяць	місяць	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Id=2gum|SpaceAfter=No
+8	місяць	місяць	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	orphan	_	Id=2gum|SpaceAfter=No
 9	.	.	PUNCT	U	_	6	punct	_	Id=2gun
 
 # sent_id = 2guo
@@ -10758,6 +12009,19 @@
 6	»	»	PUNCT	U	PunctType=Quot	5	punct	_	Id=2gwx|SpaceAfter=No
 7	.	.	PUNCT	U	_	5	punct	_	Id=2gwy
 
+# sent_id = 2gwz
+# text = Оце «оце» найяскравіша ілюстрація всіх мотивів зараз.
+1	Оце	оцей	DET	Pd--n-sna	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	Id=2gx0
+2	«	«	PUNCT	U	PunctType=Quot	3	punct	_	Id=2gx1|SpaceAfter=No
+3	оце	оцей	DET	Pd--n-sna	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	Graft=Yes|Id=2gx2|SpaceAfter=No
+4	»	»	PUNCT	U	PunctType=Quot	3	punct	_	Id=2gx3
+5	найяскравіша	найяскравіший	ADJ	Afsfsns	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	6	amod	_	Id=2gx4
+6	ілюстрація	ілюстрація	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	Id=2gx5
+7	всіх	весь	DET	Pg----pga	Case=Gen|Number=Plur|PronType=Tot	8	det	_	Id=2gx6
+8	мотивів	мотив	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Id=2gx7
+9	зараз	зараз	ADV	Pd------r	PronType=Dem	8	acl:adv	_	Id=2gx8|SpaceAfter=No
+10	.	.	PUNCT	U	_	6	punct	_	Id=2gx9
+
 # doc_title = Як із фундаментальних досліджень виростає наше сьогодення
 # newdoc id = 2gxb
 # newpar id = 2gxc
@@ -10809,6 +12073,15 @@
 8	ізолятори	ізолятор	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	conj	_	Id=2gzu|SpaceAfter=No
 9	.	.	PUNCT	U	_	4	punct	_	Id=2gzv
 
+# sent_id = 2gzw
+# text = Казна що, одним словом!
+1	Казна	казна	PART	Q	_	2	discourse	_	Id=2gzx
+2	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	0	root	_	Id=2gzy|SpaceAfter=No
+3	,	,	PUNCT	U	_	5	punct	_	Id=2gzz
+4	одним	один	NUM	Mlcnsi	Case=Ins|Gender=Neut|NumType=Card	5	nummod	_	Id=2h00
+5	словом	слово	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	parataxis:discourse	_	Id=2h01|SpaceAfter=No
+6	!	!	PUNCT	U	_	2	punct	_	Id=2h02
+
 # sent_id = 2h03
 # text = Після того ж, як завдяки квантовій фізиці вдалося розгадати фізичну суть цих матеріалів, що привело до винайдення транзистора, почався бум напівпровідникової електроніки, якою користуємося ми всі.
 1	Після	після	ADP	Spsg	Case=Gen	2	case	_	Id=2h04
@@ -10847,7 +12120,7 @@
 # sent_id = 2h0z
 # text = У 1905-му Альберт Айнштайн використав нещодавно розроблену концепцію квантів для опису фотоефекту — явища, коли світло вибиває електрони з металів.
 1	У	у	ADP	Spsl	Case=Loc	2	case	_	Id=2h11
-2	1905-му	1905-ий	NOUN	Mlomsl	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	5	obl	_	Id=2h12
+2	1905-му	1905-ий	NOUN	Ao-mslf	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	Id=2h12
 3	Альберт	Альберт	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	5	nsubj	_	Id=2h13
 4	Айнштайн	Айнштайн	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	3	flat:name	_	Id=2h14
 5	використав	використати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=2h15
@@ -10937,7 +12210,19 @@
 25	бачення	бачення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	Id=2h3b|SpaceAfter=No
 26	.	.	PUNCT	U	_	2	punct	_	Id=2h3c
 
-# annotation_gap
+# sent_id = 2h3d
+# text = Навіть звукове кіно стало можливим лише з використанням фотоефекту.
+1	Навіть	навіть	PART	Q	_	3	discourse	_	Id=2h3e
+2	звукове	звуковий	ADJ	Ao-nsns	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	Id=2h3f
+3	кіно	кіно	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|Uninflect=Yes	4	nsubj	_	Id=2h3g
+4	стало	стати	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=2h3h
+5	можливим	можливий	ADJ	Ao-nsif	Case=Ins|Gender=Neut|Number=Sing	4	xcomp:sp	_	Id=2h3i
+6	лише	лише	PART	Q	_	8	discourse	_	Id=2h3j
+7	з	з	ADP	Spsi	Case=Ins	8	case	_	Id=2h3k
+8	використанням	використання	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	Id=2h3l
+9	фотоефекту	фотоефект	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	Id=2h3m|SpaceAfter=No
+10	.	.	PUNCT	U	_	4	punct	_	Id=2h3n
+
 # newpar id = 2h3p
 # sent_id = 2h3o
 # text = «То яка ж користь від вашої теорії відносності? — запитаєте ви.
@@ -11018,7 +12303,7 @@
 18	за	за	ADP	Spsa	Case=Acc	19	case	_	Id=2h5y
 19	тиждень	тиждень	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	Id=2h5z|SpaceAfter=No
 20	-	-	PUNCT	U	PunctType=Hyph	21	punct	_	Id=2h60|SpaceAfter=No
-21	два	два	NUM	Mlcmsa	Case=Acc|Gender=Masc|NumType=Card	19	conj	_	Id=2h61|SpaceAfter=No
+21	два	два	NUM	Mlcmsa	Case=Acc|Gender=Masc|NumType=Card	19	flat:range	_	Id=2h61|SpaceAfter=No
 22	,	,	PUNCT	U	_	23	punct	_	Id=2h62
 23	перебуваючи	перебувати	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	30	advcl	_	Id=2h63
 24	на	на	ADP	Spsl	Case=Loc	25	case	_	Id=2h64
@@ -11167,6 +12452,7 @@
 7	подобатися	подобатися	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	4	xcomp	_	Id=2hbe|SpaceAfter=No
 8	.	.	PUNCT	U	_	4	punct	_	Id=2hbf
 
+# annotation_gap
 # sent_id = 2hc2
 # text = Із кола 50 я обрала 12 осіб, яких планувала фільмувати.
 1	Із	із	ADP	Spsg	Case=Gen	2	case	_	Id=2hc3
@@ -11404,9 +12690,9 @@
 2	більше	більше	ADV	Rc	Degree=Cmp	4	advmod	_	Id=2hkn
 3	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Id=2hko
 4	відтворюю	відтворювати	VERB	Vmpip1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Id=2hkp
-5	побачене	побачене	NOUN	Ap-nsas-ep	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Voice=Pass	4	obj	_	Id=2hkq
+5	побачене	побачене	NOUN	Ap-nsas-	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	Id=2hkq
 6	й	й	CCONJ	Ccs	_	7	cc	_	Id=2hkr
-7	почуте	почуте	NOUN	Ap-nsas-ep	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Voice=Pass	5	conj	_	Id=2hks|SpaceAfter=No
+7	почуте	почуте	NOUN	Ap-nsas-	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	conj	_	Id=2hks|SpaceAfter=No
 8	,	,	PUNCT	U	_	11	punct	_	Id=2hkt
 9	є	бути	AUX	Vapip1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	Id=2hku
 10	своєрідним	своєрідний	ADJ	Afpmsif	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	Id=2hkv
@@ -11478,6 +12764,54 @@
 11	висловитися	висловитися	VERB	Vmen	Aspect=Perf|VerbForm=Inf	9	acl	_	Id=2hmi|SpaceAfter=No
 12	.	.	PUNCT	U	_	4	punct	_	Id=2hmj
 
+# doc_title = Відвідання Президентом тренувань представників національної збірної команди України для участі у змаганнях «Ігри нескорених»
+# newdoc id = 37r5
+# newpar id = 37r6
+# sent_id = 37r7
+# text = 12 вересня о 13:00 Президент України Петро Порошенко відвідає тренування представників національної збірної команди України для участі у змаганнях «Ігри нескорених» (стадіон «Спартак», вул. Кирилівська, 105, м. Київ).
+1	12	12	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	11	obl	_	Id=37r8|Promoted=Yes
+2	вересня	вересень	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Id=37r9
+3	о	о	ADP	Spsl	Case=Loc	4	case	_	Id=37ra
+4	13	13	ADJ	Mlofsl	Case=Loc|Gender=Fem|Number=Sing|NumType=Ord|Uninflect=Yes	11	obl	_	Id=37rb|SpaceAfter=No
+5	:	:	PUNCT	U	_	6	punct	_	Id=37rc|SpaceAfter=No
+6	00	00	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	4	compound	_	Id=37rd
+7	Президент	президент	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Id=37re
+8	України	Україна	PROPN	Npfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	Id=37rf
+9	Петро	Петро	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	7	flat:title	_	Id=37rg
+10	Порошенко	Порошенко	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	9	flat:name	_	Id=37rh
+11	відвідає	відвідати	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	Id=37ri
+12	тренування	тренування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	Id=37rj
+13	представників	представник	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	Id=37rk
+14	національної	національний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	16	amod	_	Id=37rl
+15	збірної	збірний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	16	amod	_	Id=37rm
+16	команди	команда	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	Id=37rn
+17	України	Україна	PROPN	Npfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	Id=37ro
+18	для	для	ADP	Spsg	Case=Gen	19	case	_	Id=37rp
+19	участі	участь	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	Id=37rq
+20	у	у	ADP	Spsl	Case=Loc	21	case	_	Id=37rr
+21	змаганнях	змагання	NOUN	Ncnpln	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	19	nmod	_	Id=37rs
+22	«	«	PUNCT	U	PunctType=Quot	23	punct	_	Id=37rt|SpaceAfter=No
+23	Ігри	гра	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	21	flat:title	_	Id=37ru
+24	нескорених	нескорений	ADJ	Ap--pgf-ep	Aspect=Perf|Case=Gen|Number=Plur|VerbForm=Part|Voice=Pass	23	nmod	_	Id=37rv|SpaceAfter=No
+25	»	»	PUNCT	U	PunctType=Quot	23	punct	_	Id=37rw
+26	(	(	PUNCT	U	_	27	punct	_	Id=37rx|SpaceAfter=No
+27	стадіон	стадіон	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	Id=37ry
+28	«	«	PUNCT	U	PunctType=Quot	29	punct	_	Id=37rz|SpaceAfter=No
+29	Спартак	Спартак	PROPN	Npmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	flat:title	_	Id=37s0|SpaceAfter=No
+30	»	»	PUNCT	U	PunctType=Quot	29	punct	_	Id=37s1|SpaceAfter=No
+31	,	,	PUNCT	U	_	32	punct	_	Id=37s2
+32	вул	вул.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing|Uninflect=Yes	27	list	_	Id=37s3|SpaceAfter=No
+33	.	.	PUNCT	U	_	32	punct	_	Id=37s4
+34	Кирилівська	кирилівський	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	32	amod	_	Id=37s5|SpaceAfter=No
+35	,	,	PUNCT	U	_	36	punct	_	Id=37s6
+36	105	105	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	27	list	_	Id=37s7|SpaceAfter=No
+37	,	,	PUNCT	U	_	38	punct	_	Id=37s8
+38	м	м	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	27	list	_	Id=37s9|SpaceAfter=No
+39	.	.	PUNCT	U	_	38	punct	_	Id=37sa
+40	Київ	Київ	PROPN	Npmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	38	flat:title	_	Id=37sb|SpaceAfter=No
+41	)	)	PUNCT	U	_	27	punct	_	Id=37sc|SpaceAfter=No
+42	.	.	PUNCT	U	_	11	punct	_	Id=37sd
+
 # annotation_gap
 # newpar id = 37tb
 # sent_id = 37ta
@@ -11494,13 +12828,13 @@
 
 # sent_id = 38pd
 # text = Вхід за редакційним посвідченням та паспортом.
-1	Вхід	вхід	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	Id=37tl
+1	Вхід	вхід	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Id=37tl
 2	за	за	ADP	Spsi	Case=Ins	4	case	_	Id=37tm
 3	редакційним	редакційний	ADJ	Ao-nsif	Case=Ins|Gender=Neut|Number=Sing	4	amod	_	Id=37tn
-4	посвідченням	посвідчення	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	nmod	_	Id=37to
+4	посвідченням	посвідчення	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	root	_	Id=37to
 5	та	та	CCONJ	Ccs	_	6	cc	_	Id=37tp
 6	паспортом	паспорт	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	conj	_	Id=37tq|SpaceAfter=No
-7	.	.	PUNCT	U	_	1	punct	_	Id=37tr
+7	.	.	PUNCT	U	_	4	punct	_	Id=37tr
 
 # doc_title = Зазирнути в майбутнє. Як характер інвестицій дає змогу зробити економічний прогноз
 # newdoc id = 37tt
@@ -11531,7 +12865,7 @@
 11	«	«	PUNCT	U	PunctType=Quot	12	punct	_	Id=37uf|SpaceAfter=No
 12	докризовому	докризовий	ADJ	Ao-mslf	Case=Loc|Gender=Masc|Number=Sing	14	amod	_	Id=37ug|SpaceAfter=No
 13	»	»	PUNCT	U	PunctType=Quot	12	punct	_	Id=37uh|SpaceAfter=No
-14	2013-му	2013-ий	ADJ	Mlomsl	Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	7	advcl	_	Id=37uj
+14	2013-му	2013-ий	ADJ	Mlomsl	Case=Loc|Gender=Masc|Number=Sing|NumType=Ord	7	advcl	_	Id=37uj|Promoted=Yes
 15	на	на	ADP	Spsa	Case=Acc	19	case	_	Id=37uk
 16	10	10	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	19	nummod:gov	_	Id=37ul|SpaceAfter=No
 17	,	,	PUNCT	U	_	18	punct	_	Id=37um|SpaceAfter=No
@@ -11600,6 +12934,7 @@
 18	а	а	CCONJ	Ccs	_	20	cc	_	Id=37w9
 19	в	в	ADP	Spsa	Case=Acc	20	case	_	Id=37wa
 20	промисловість	промисловість	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	conj	_	Id=37wb
+20.1	збільшився	збільшитися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	_	_	_	Id=3c9e
 21	—	—	PUNCT	U	PunctType=Dash	26	punct	_	Id=37wc
 22	на	на	ADP	Spsa	Case=Acc	26	case	_	Id=37wd
 23	29	29	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	26	nummod:gov	_	Id=37we|SpaceAfter=No
@@ -11708,6 +13043,48 @@
 10	.	.	PUNCT	U	_	1	punct	_	Id=37yv
 
 # annotation_gap
+# sent_id = 37zi
+# text = На сьогодні капітальні інвестиції в нього становлять 16,7% їх загального обсягу в країні (одну шосту!), хоча 2013-го їхня частка не перевищувала 4,8% (менш як одна двадцята).
+1	На	на	ADP	Spsa	Case=Acc	2	case	_	Id=37zj
+2	сьогодні	сьогодні	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|Uninflect=Yes	7	obl	_	Id=37zk
+3	капітальні	капітальний	ADJ	Ao--pns	Case=Nom|Number=Plur	4	amod	_	Id=37zl
+4	інвестиції	інвестиція	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	Id=37zm
+5	в	в	ADP	Spsa	Case=Acc	6	case	_	Id=37zn
+6	нього	воно	PRON	Pp-3n-san	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nmod	_	Id=37zo
+7	становлять	становити	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Id=37zp
+8	16	16	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	11	nummod:gov	_	Id=37zq|SpaceAfter=No
+9	,	,	PUNCT	U	_	10	punct	_	Id=37zr|SpaceAfter=No
+10	7	7	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	8	compound	_	Id=37zs|SpaceAfter=No
+11	%	%	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Uninflect=Yes	7	obj	_	Id=37zt
+12	їх	їх	DET	Ppp3m-sga	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	14	det	_	Id=37zu
+13	загального	загальний	ADJ	Afpmsgf	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	Id=37zv
+14	обсягу	обсяг	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	Id=37zw
+15	в	в	ADP	Spsl	Case=Loc	16	case	_	Id=37zx
+16	країні	країна	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	Id=37zy
+17	(	(	PUNCT	U	_	19	punct	_	Id=37zz|SpaceAfter=No
+18	одну	один	NUM	Mlcfsa	Case=Acc|Gender=Fem|NumType=Card	19	nummod	_	Id=3800
+19	шосту	шостий	ADJ	Mlofsa	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	11	appos	_	Id=3801|SpaceAfter=No
+20	!	!	PUNCT	U	_	19	punct	_	Id=3802|SpaceAfter=No
+21	)	)	PUNCT	U	_	19	punct	_	Id=3803|SpaceAfter=No
+22	,	,	PUNCT	U	_	28	punct	_	Id=3804
+23	хоча	хоча	SCONJ	Css	_	28	mark	_	Id=3805
+24	2013-го	2013-ій	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	28	obl	_	Id=3806
+25	їхня	їхній	DET	Ppp3f-sna	Case=Nom|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	det	_	Id=3807
+26	частка	частка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	Id=3808
+27	не	не	PART	Q	Polarity=Neg	28	advmod	_	Id=3809
+28	перевищувала	перевищувати	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	advcl	_	Id=380a
+29	4	4	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	32	nummod:gov	_	Id=380b|SpaceAfter=No
+30	,	,	PUNCT	U	_	31	punct	_	Id=380c|SpaceAfter=No
+31	8	8	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	29	compound	_	Id=380d|SpaceAfter=No
+32	%	%	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Uninflect=Yes	28	obj	_	Id=380e
+33	(	(	PUNCT	U	_	37	punct	_	Id=380f|SpaceAfter=No
+34	менш	менш	ADV	Rc	Degree=Cmp	37	advmod	_	Id=380g
+35	як	як	SCONJ	Css	_	34	fixed	_	Id=380h
+36	одна	один	NUM	Mlcfsn	Case=Nom|Gender=Fem|NumType=Card	37	nummod	_	Id=380i
+37	двадцята	двадцятий	ADJ	Mlofsn	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	32	appos	_	Id=380j|SpaceAfter=No
+38	)	)	PUNCT	U	_	37	punct	_	Id=380k|SpaceAfter=No
+39	.	.	PUNCT	U	_	7	punct	_	Id=380l
+
 # sent_id = 380m
 # text = Галузь динамічно розвивається, а інвестиції в неї протягом останніх двох років щокварталу зростають щонайменше в 1,5 раза у річному вимірі.
 1	Галузь	галузь	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Id=380n
@@ -11774,7 +13151,7 @@
 2	протягом	протягом	ADP	Spsg	Case=Gen	6	case	_	Id=382o
 3	2014	2014	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	6	amod	_	Id=382p|SpaceAfter=No
 4	–	–	PUNCT	U	PunctType=Ndash	5	punct	_	Id=382q|SpaceAfter=No
-5	2017	2017	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	3	conj	_	Id=382r
+5	2017	2017	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	3	flat:range	_	Id=382r
 6	років	рік	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	Id=382s
 7	інвестиції	інвестиція	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	Id=382t
 8	зростали	зростати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	_	Id=382u
@@ -11899,6 +13276,33 @@
 12	.	.	PUNCT	U	_	2	punct	_	Id=385v
 
 # annotation_gap
+# sent_id = 386o
+# text = Якщо говорити про промисловість, то найбільша динаміка інвестицій спостерігалася в деревообробці та суміжних сегментах: триразове зростання протягом 2014–2017 років.
+1	Якщо	якщо	SCONJ	Css	_	2	mark	_	Id=386p
+2	говорити	говорити	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	10	parataxis:discourse	_	Id=386q
+3	про	про	ADP	Spsa	Case=Acc	4	case	_	Id=386r
+4	промисловість	промисловість	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	Id=386s|SpaceAfter=No
+5	,	,	PUNCT	U	_	2	punct	_	Id=386t
+6	то	то	PART	Q	PartType=Conseq	10	discourse	_	Id=386u
+7	найбільша	найбільший	ADJ	Afsfsns	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	8	amod	_	Id=386v
+8	динаміка	динаміка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	Id=386w
+9	інвестицій	інвестиція	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	Id=386x
+10	спостерігалася	спостерігатися	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	Id=386y
+11	в	в	ADP	Spsl	Case=Loc	12	case	_	Id=386z
+12	деревообробці	деревообробка	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	Id=3870
+13	та	та	CCONJ	Ccs	_	15	cc	_	Id=3871
+14	суміжних	суміжний	ADJ	Ao--plf	Case=Loc|Number=Plur	15	amod	_	Id=3872
+15	сегментах	сегмент	NOUN	Ncmpln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	conj	_	Id=3873|SpaceAfter=No
+16	:	:	PUNCT	U	_	18	punct	_	Id=3874
+17	триразове	триразовий	ADJ	Ao-nsns	Case=Nom|Gender=Neut|Number=Sing	18	amod	_	Id=3875
+18	зростання	зростання	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	dislocated	_	Id=3876
+19	протягом	протягом	ADP	Spsg	Case=Gen	23	case	_	Id=3877
+20	2014	2014	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	23	amod	_	Id=3878|SpaceAfter=No
+21	–	–	PUNCT	U	PunctType=Ndash	22	punct	_	Id=3879|SpaceAfter=No
+22	2017	2017	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	20	flat:range	_	Id=387a
+23	років	рік	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	Id=387b|SpaceAfter=No
+24	.	.	PUNCT	U	_	10	punct	_	Id=387c
+
 # sent_id = 387d
 # text = Важко сказати, що саме визначило такий бурхливий розвиток галузі.
 1	Важко	важко	ADV	Rp	Degree=Pos	0	root	_	Id=387e
@@ -11943,7 +13347,7 @@
 14	українських	український	ADJ	Ao--pgf	Case=Gen|Number=Plur	15	amod	_	Id=388d
 15	матеріалів	матеріал	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	Id=388e
 16	та	та	CCONJ	Ccs	_	17	cc	_	Id=388f
-17	комплектуючих	комплектуючі	NOUN	Ap--pgf-pap	Animacy=Inan|Aspect=Imp|Case=Gen|Number=Ptan|Tense=Pres|Voice=Act	15	conj	_	Id=388g
+17	комплектуючих	комплектуючі	NOUN	Ap--pgf-p	Animacy=Inan|Case=Gen|Number=Ptan|Tense=Pres	15	conj	_	Id=388g
 18	у	у	ADP	Spsl	Case=Loc	19	case	_	Id=388h
 19	собівартості	собівартість	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	Id=388i
 20	кінцевої	кінцевий	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	Id=388j
@@ -11995,6 +13399,22 @@
 7	кризи	криза	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	Id=389p
 8	галузі	галузь	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	Id=389q|SpaceAfter=No
 9	.	.	PUNCT	U	_	3	punct	_	Id=389r
+
+# sent_id = 389s
+# text = Мине час — і в них почнуть інвестувати, обсяг виробництва відновиться.
+1	Мине	минути	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	Id=389t
+2	час	час	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	Id=389u
+3	—	—	PUNCT	U	PunctType=Dash	7	punct	_	Id=389v
+4	і	і	CCONJ	Ccs	_	7	cc	_	Id=389w
+5	в	в	ADP	Spsa	Case=Acc	6	case	_	Id=389x
+6	них	вони	PRON	Pp-3--pan	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obl	_	Id=389y
+7	почнуть	почати	VERB	Vmeif3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	Id=389z
+8	інвестувати	інвестувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	7	xcomp	_	Id=38a0|SpaceAfter=No
+9	,	,	PUNCT	U	_	12	punct	_	Id=38a1
+10	обсяг	обсяг	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	Id=38a2
+11	виробництва	виробництво	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	Id=38a3
+12	відновиться	відновитися	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	conj	_	Id=38a4|SpaceAfter=No
+13	.	.	PUNCT	U	_	1	punct	_	Id=38a5
 
 # annotation_gap
 # sent_id = 38cz
@@ -12114,7 +13534,29 @@
 26	говорити	говорити	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	24	xcomp	_	Id=38fw|SpaceAfter=No
 27	.	.	PUNCT	U	_	4	punct	_	Id=38fx
 
-# annotation_gap
+# sent_id = 38fy
+# text = «Людям дедалі важче дивитися одне одному в очі», — каже курдський активіст із Кельна Джахіт Базар.
+1	«	«	PUNCT	U	PunctType=Quot	4	punct	_	Id=38fz|SpaceAfter=No
+2	Людям	людина	NOUN	Ncfpdy	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur	4	obj	_	Id=38g0
+3	дедалі	дедалі	ADV	R	_	4	advmod	_	Id=38g1
+4	важче	важче	ADV	Rc	Degree=Cmp	0	root	_	Id=38g2
+5	дивитися	дивитися	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	4	csubj	_	Id=38g3
+6	одне	один	DET	Pi--n-sna	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	5	obj	_	Id=38g4
+7	одному	один	DET	Pi--m-sda	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	6	flat:rcp	_	Id=38g5
+8	в	в	ADP	Spsa	Case=Acc	9	case	_	Id=38g6
+9	очі	око	NOUN	Ncnpan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obl	_	Id=38g7|SpaceAfter=No
+10	»	»	PUNCT	U	PunctType=Quot	4	punct	_	Id=38g8|SpaceAfter=No
+11	,	,	PUNCT	U	_	13	punct	_	Id=38g9
+12	—	—	PUNCT	U	PunctType=Dash	13	punct	_	Id=38ga
+13	каже	казати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	Id=38gb
+14	курдський	курдський	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	Id=38gc
+15	активіст	активіст	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	Id=38gd
+16	із	із	ADP	Spsg	Case=Gen	17	case	_	Id=38ge
+17	Кельна	Кельн	PROPN	Npmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	Id=38gf
+18	Джахіт	Джахіт	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	15	flat:title	_	Id=38gg
+19	Базар	Базар	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	18	flat:name	_	Id=38gh|SpaceAfter=No
+20	.	.	PUNCT	U	_	13	punct	_	Id=38gi
+
 # newpar id = 38gk
 # sent_id = 38gj
 # text = Німецькі політики звинувачують у поглибленні такого розколу організації на кшталт DITIB (Турецько-ісламська спілка релігійних установ) — німецьке відгалуження турецького управління у справах релігії Діянет, засноване світськими урядами Туреччини в 1980-х для протидії більш консервативним організаціям.
@@ -12152,7 +13594,7 @@
 32	урядами	уряд	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	30	obl	_	Id=38hg
 33	Туреччини	Туреччина	PROPN	Npfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	Id=38hh
 34	в	в	ADP	Spsl	Case=Loc	35	case	_	Id=38hi
-35	1980-х	1980-й	NOUN	Mlo-pl	Animacy=Inan|Case=Loc|Number=Ptan|NumType=Ord	30	obl	_	Id=38hj
+35	1980-х	1980-й	NOUN	Ao--plf	Animacy=Inan|Case=Loc|Number=Ptan	30	obl	_	Id=38hj
 36	для	для	ADP	Spsg	Case=Gen	37	case	_	Id=38hk
 37	протидії	протидія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	obl	_	Id=38hl
 38	більш	більш	ADV	Rc	Degree=Cmp	39	advmod	_	Id=38hm
@@ -12360,7 +13802,7 @@
 45	й	й	CCONJ	Ccs	_	46	cc	_	Id=38mq
 46	бар’єри	бар’єр	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	44	conj	_	Id=38mr
 47	для	для	ADP	Spsg	Case=Gen	48	case	_	Id=38ms
-48	контактів	контакт	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	44	nmod	_	Id=38mt|SpaceAfter=No
+48	контактів	контакт	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	46	nmod	_	Id=38mt|SpaceAfter=No
 49	»	»	PUNCT	U	PunctType=Quot	43	punct	_	Id=38mu
 50	серед	серед	ADP	Spsg	Case=Gen	51	case	_	Id=38mv
 51	немусульман	немусульманин	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	43	obl	_	Id=38mw
@@ -12394,7 +13836,7 @@
 10	задовольняти	задовольняти	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	9	xcomp	_	Id=38nm
 11	потреби	потреба	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	Id=38nn
 12	не	не	PART	Q	Polarity=Neg	13	advmod	_	Id=38no
-13	настільки	настільки	ADV	R	_	14	advmod	_	Id=38np
+13	настільки	настільки	ADV	Pd------r	PronType=Dem	14	advmod	_	Id=38np
 14	впевненого	впевнений	ADJ	Ap-nsgf-ep	Aspect=Perf|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	15	amod	_	Id=38nq
 15	покоління	покоління	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	Id=38nr|SpaceAfter=No
 16	.	.	PUNCT	U	_	2	punct	_	Id=38ns
