@@ -100,7 +100,7 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
   * Specified `acl:relcl`.
   * Introduced `flat:rcp`, `flat:pack`, `flat:range`.
   * Added transliteration.
-  * Closed some annotation gaps and added new texts: 100→115K.
+  * Closed many annotation gaps and added new texts: 100→115K.
   * Fixed missing `# annotation_gap`s.
   * Readme updated with more description, links.
 

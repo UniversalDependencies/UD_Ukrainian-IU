@@ -866,7 +866,7 @@
 53	,	,	PUNCT	U	_	54	punct	54:punct	Id=2fke|LTranslit=,|Translit=,
 54	епізоотії	епізоотія	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	47	conj	39:appos|47:conj	Id=2fkf|LTranslit=epizootija|SpaceAfter=No|Translit=epizootiji
 55	,	,	PUNCT	U	_	56	punct	56:punct	Id=2fkg|LTranslit=,|Translit=,
-56	епіфітотії	епіфітотія	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	47	conj	39:appos|47:conj	Id=2fkh|LTranslit=epifitotija|Translit=epifitotiji
+56	епіфітотії	епіфітотія	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	47	conj	39:appos|47:conj	Id=2fkh|LTranslit=epifitotija|Translit=epifitotiji
 57	тощо	тощо	PART	Q	_	47	discourse	47:discourse	Id=2fki|LTranslit=toščo|SpaceAfter=No|Translit=toščo
 58	)	)	PUNCT	U	_	47	punct	47:punct	Id=2fkj|LTranslit=)|SpaceAfter=No|Translit=)
 59	,	,	PUNCT	U	_	60	punct	60:punct	Id=2fkk|LTranslit=,|Translit=,
@@ -1370,7 +1370,7 @@
 7	1943	1943	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	8	amod	8:amod	Id=185f|LTranslit=1943|Translit=1943
 8	р	р.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Uninflect=Yes	6	nmod	6:nmod	Id=185g|LTranslit=r.|SpaceAfter=No|Translit=r
 9	.	.	PUNCT	U	_	8	punct	8:punct	Id=185h|LTranslit=.|Translit=.
-10	I	І	ADJ	Mlofsn	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord|Uninflect=Yes	12	amod	12:amod	Id=185i|LTranslit=I|SpaceAfter=No|Translit=I
+10	I	I	ADJ	Mlofsn	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord|Uninflect=Yes	12	amod	12:amod	Id=185i|LTranslit=I|SpaceAfter=No|Translit=I
 11	.	.	PUNCT	U	_	10	punct	10:punct	Id=185j|LTranslit=.|Translit=.
 12	Конференція	конференція	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	Id=185k|LTranslit=konferencija|Translit=Konferencija
 13	Поневолених	поневолений	ADJ	Ap--pgf-ep	Aspect=Perf|Case=Gen|Number=Plur|VerbForm=Part|Voice=Pass	14	amod	14:amod	Id=185l|LTranslit=ponevolenyj|Translit=Ponevolenych
@@ -1659,7 +1659,7 @@
 13	з	з	ADP	Spsi	Case=Ins	14	case	14:case	Id=18cg|LTranslit=z|Translit=z
 14	пошаною	пошана	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	15:obl	Id=18ch|LTranslit=pošana|Translit=pošanoju
 15	спомяніть	спомянути	VERB	Vmem-2p	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	7	conj	0:root|7:conj	Id=18ci|LTranslit=spomаnuty|Translit=spomаniť
-16	усіх	увесь	DET	Pg---ypaa	Animacy=Anim|Case=Acc|Number=Ptan|PronType=Tot	15	obj	15:obj|22:nsubj:rel	Id=18cj|LTranslit=uveś|SpaceAfter=No|Translit=usich
+16	усіх	увесь	DET	Pg---ypaa	Animacy=Anim|Case=Acc|Number=Plur|PronType=Tot	15	obj	15:obj|22:nsubj:rel	Id=18cj|LTranslit=uveś|SpaceAfter=No|Translit=usich
 17	,	,	PUNCT	U	_	22	punct	22:punct	Id=18ck|LTranslit=,|Translit=,
 18	що	що	SCONJ	Css	_	22	mark	22:mark	Id=18cl|LTranslit=ščo|Translit=ščo
 19	посвятою	посвята	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	22:obl	Id=18cm|LTranslit=posvjata|Translit=posvjatoju
@@ -2700,7 +2700,7 @@
 15	і	і	CCONJ	Ccs	_	17	cc	17:cc	Id=1978|LTranslit=i|Translit=i
 16	не	не	PART	Q	Polarity=Neg	17	advmod	17:advmod	Id=1979|LTranslit=ne|Translit=ne
 17	утотожнювати	утотожнювати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	14	conj	0:root|14:conj	Id=197a|LTranslit=utotožńuvaty|Translit=utotožńuvaty
-18	цього	це	DET	Pd--n-sga	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	19	det	19:det	Id=197b|LTranslit=ce|Translit=ćoho
+18	цього	цей	DET	Pd--n-sga	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	19	det	19:det	Id=197b|LTranslit=cej|Translit=ćoho
 19	всього	все	PRON	Pg--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	17	obj	17:obj	Id=197c|LTranslit=vse|Translit=vśoho
 20	з	з	ADP	Spsi	Case=Ins	22	case	22:case	Id=197d|LTranslit=z|Translit=z
 21	російським	російський	ADJ	Ao-msif	Case=Ins|Gender=Masc|Number=Sing	22	amod	22:amod	Id=197e|LTranslit=rosijśkyj|Translit=rosijśkym
@@ -5043,7 +5043,7 @@
 # text = У той момент ми ще мали розмову, чи президент Азербайджану приєднається до нас, чи ні.
 # translit = U toj moment my šče maly rozmovu, čy prezydent Azerbajdžanu pryědnaěťśа do nas, čy ni.
 1	У	у	ADP	Spsa	Case=Acc	3	case	3:case	Id=1gx7|LTranslit=u|Translit=U
-2	той	той	DET	Pd--m-saa	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	3:det	Id=1gx8|LTranslit=toj|Translit=toj
+2	той	той	DET	Pd--mnsaa	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	3:det	Id=1gx8|LTranslit=toj|Translit=toj
 3	момент	момент	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	6:obl	Id=1gx9|LTranslit=moment|Translit=moment
 4	ми	ми	PRON	Pp-1-ypnn	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	6:nsubj	Id=1gxa|LTranslit=my|Translit=my
 5	ще	ще	ADV	R	_	6	advmod	6:advmod	Id=1gxb|LTranslit=šče|Translit=šče
@@ -10414,7 +10414,7 @@
 15	ДСНС	ДСНС	PROPN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Uninflect=Yes	17	orphan	15.1:obl	Id=1v4h|LTranslit=DSNS|Translit=DSNS
 15.1	залучено	залучити	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	_	_	3:parataxis	Id=3ccv|LTranslit=zalučyty|Translit=zalučeno
 16	4	4	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	17	nummod	17:nummod	Id=1v4i|LTranslit=4|Translit=4
-17	особи	особа	NOUN	Ncfpgy	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	3	parataxis	15.1:obj	Id=1v4j|LTranslit=osoba|Translit=osoby
+17	особи	особа	NOUN	Ncfpay	Animacy=Anim|Animacy[gram]=Inan|Case=Acc|Gender=Fem|Number=Plur	3	parataxis	15.1:obj	Id=1v4j|LTranslit=osoba|Translit=osoby
 18	та	та	CCONJ	Ccs	_	20	cc	20:cc	Id=1v4k|LTranslit=ta|Translit=ta
 19	13	13	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	20	nummod	20:nummod	Id=1v4l|LTranslit=13|Translit=13
 20	одиниць	одиниця	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	conj	15.1:obj|17:conj	Id=1v4m|LTranslit=odynyćа|Translit=odynyć
@@ -12094,7 +12094,7 @@
 # text = У 13-ти середні зарплати навіть з урахуванням інфляції вже відновилися до рівня 2014-го (сім регіонів із показником від -0,8 % до +0,6%) чи навіть перевищили його (ще шість регіонів із приростом від 2% до 9%).
 # translit = U 13-ty seredni zarplaty naviť z urachuvanńаm infľаciji vže vidnovylyśа do rivńа 2014-ho (sim rehioniv iz pokaznykom vid -0,8 % do +0,6%) čy naviť perevyščyly joho (šče šisť rehioniv iz pryrostom vid 2% do 9%).
 1	У	у	ADP	Spsl	Case=Loc	2	case	2:case	Id=2nm4|LTranslit=u|Translit=U
-2	13-ти	13	NUM	Mlc-pl	Case=Loc|Number=Plur|NumType=Card	10	obl	10:obl	Id=2nm5|LTranslit=13|Promoted=Yes|Translit=13-ty
+2	13-ти	13	NUM	Mlc-l	Case=Loc|NumType=Card	10	obl	10:obl	Id=2nm5|LTranslit=13|Promoted=Yes|Translit=13-ty
 3	середні	середній	ADJ	Ao--pns	Case=Nom|Number=Plur	4	amod	4:amod	Id=2nm8|LTranslit=serednij|Translit=seredni
 4	зарплати	зарплата	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	10:nsubj	Id=2nm9|LTranslit=zarplata|Translit=zarplaty
 5	навіть	навіть	PART	Q	_	7	discourse	7:discourse	Id=2nma|LTranslit=naviť|Translit=naviť

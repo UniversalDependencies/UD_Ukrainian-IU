@@ -60,7 +60,7 @@
 9	»	»	PUNCT	U	PunctType=Quot	8	punct	8:punct	Id=02uw|LTranslit=»|SpaceAfter=No|Translit=»
 10	,	,	PUNCT	U	_	14	punct	14:punct	Id=02ux|LTranslit=,|Translit=,
 11	хоч	хоч	SCONJ	Css	_	14	mark	14:mark	Id=02uy|LTranslit=choč|Translit=choč
-12	усі	увесь	DET	Pg----pna	Case=Nom|Number=Ptan|PronType=Tot	14	nsubj	14:nsubj	Id=02uz|LTranslit=uveś|Translit=usi
+12	усі	увесь	DET	Pg----pna	Case=Nom|Number=Plur|PronType=Tot	14	nsubj	14:nsubj	Id=02uz|LTranslit=uveś|Translit=usi
 13	й	й	PART	Q	_	14	discourse	14:discourse	Id=02v0|LTranslit=j|Translit=j
 14	мовчали	мовчати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	5	conj	0:root|5:conj	Id=02v1|LTranslit=movčaty|SpaceAfter=No|Translit=movčaly
 15	.	.	PUNCT	U	_	5	punct	5:punct	Id=02v2|LTranslit=.|Translit=.
@@ -85,7 +85,7 @@
 6	,	,	PUNCT	U	_	7	punct	7:punct	Id=02vf|LTranslit=,|Translit=,
 7	навпаки	навпаки	ADV	R	_	10	advmod	10:advmod	Id=02vg|LTranslit=navpaky|SpaceAfter=No|Translit=navpaky
 8	,	,	PUNCT	U	_	7	punct	7:punct|10:punct	Id=02vh|LTranslit=,|Translit=,
-9	всі	весь	DET	Pg----pna	Case=Nom|Number=Ptan|PronType=Tot	10	nsubj	10:nsubj	Id=02vi|LTranslit=veś|Translit=vsi
+9	всі	весь	DET	Pg----pna	Case=Nom|Number=Plur|PronType=Tot	10	nsubj	10:nsubj	Id=02vi|LTranslit=veś|Translit=vsi
 10	перейнялися	перейнятися	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	5	parataxis	5:parataxis	Id=02vj|LTranslit=perejńаtyśа|Translit=perejńаlyśа
 11	до	до	ADP	Spsg	Case=Gen	12	case	12:case	Id=02vk|LTranslit=do|Translit=do
 12	нього	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	10:obl	Id=02vl|LTranslit=vin|Translit=ńoho
@@ -1532,7 +1532,7 @@
 31	і	і	CCONJ	Ccs	_	33	cc	33:cc	Id=120d|LTranslit=i|Translit=i
 32	страшенно	страшенно	ADV	R	_	33	advmod	33:advmod	Id=120e|LTranslit=strašenno|Translit=strašenno
 33	гриз	гризти	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	30	conj	17:advcl|30:conj	Id=120f|LTranslit=hryzty|Translit=hryz
-34	своїх	свій	DET	Ppp--ypaa	Animacy=Anim|Case=Acc|Number=Ptan|Poss=Yes|PronType=Prs|Reflex=Yes	33	obj	33:obj	Id=120g|LTranslit=svij|SpaceAfter=No|Translit=svojich
+34	своїх	свій	DET	Ppp--ypaa	Animacy=Anim|Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	33	obj	33:obj	Id=120g|LTranslit=svij|SpaceAfter=No|Translit=svojich
 35	,	,	PUNCT	U	_	37	punct	37:punct	Id=120h|LTranslit=,|Translit=,
 36	але	але	CCONJ	Ccs	_	37	cc	37:cc	Id=120i|LTranslit=ale|Translit=ale
 37	боявся	боятися	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	30	conj	17:advcl|30:conj	Id=120j|LTranslit=bojatyśа|Translit=bojavśа
@@ -10336,7 +10336,7 @@
 16	"	"	PUNCT	U	PunctType=Quot	15	punct	15:punct	Id=3c9t|LTranslit="|SpaceAfter=No|Translit="
 17	,	,	PUNCT	U	_	21	punct	21:punct	Id=28x3|LTranslit=,|Translit=,
 18	який	який	DET	Pr--mnsaa	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	21	obj	21:obj	Id=28x4|LTranslit=jakyj|Translit=jakyj
-19	усі	увесь	DET	Pg----pna	Case=Nom|Number=Ptan|PronType=Tot	21	nsubj	21:nsubj	Id=28x5|LTranslit=uveś|Translit=usi
+19	усі	увесь	DET	Pg----pna	Case=Nom|Number=Plur|PronType=Tot	21	nsubj	21:nsubj	Id=28x5|LTranslit=uveś|Translit=usi
 20	так	так	ADV	Pd------r	PronType=Dem	21	advmod	21:advmod	Id=28x6|LTranslit=tak|Translit=tak
 21	хвалять	хвалити	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	15:acl	Id=28x7|LTranslit=chvalyty|SpaceAfter=No|Translit=chvaľаť
 22	,	,	PUNCT	U	_	32	punct	32:punct	Id=28x8|LTranslit=,|Translit=,
@@ -10362,7 +10362,7 @@
 3	9	9	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	4	nummod:gov	4:nummod:gov	Id=28xn|LTranslit=9|Translit=9
 4	серій	серія	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nsubj	12:nsubj	Id=28xo|LTranslit=serija|Translit=serij
 5	практично	практично	ADV	Rp	Degree=Pos	8	advmod	8:advmod	Id=28xp|LTranslit=praktyčno|Translit=praktyčno
-6	на	на	ADP	Spsl	Case=Loc	8	case	8:case	Id=28xq|LTranslit=na|Translit=na
+6	на	на	ADP	Spsa	Case=Acc	8	case	8:case	Id=28xq|LTranslit=na|Translit=na
 7	90	90	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	8	nummod:gov	8:nummod:gov	Id=28xr|LTranslit=90|SpaceAfter=No|Translit=90
 8	%	%	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Uninflect=Yes	12	obl	12:obl	Id=28xs|LTranslit=%|Translit=%
 9	-	-	PUNCT	U	PunctType=Dash	12	punct	12:punct	Id=28xt|LTranslit=-|Translit=-
