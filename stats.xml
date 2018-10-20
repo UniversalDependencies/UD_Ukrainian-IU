@@ -109,7 +109,7 @@
     <dep name="advcl:sp">61</dep>
     <dep name="advcl:svc">41</dep>
     <dep name="advmod">6066</dep>
-    <dep name="advmod:det">34</dep>
+    <dep name="advmod:det">37</dep>
     <dep name="amod">9222</dep>
     <dep name="appos">731</dep>
     <dep name="aux">235</dep>
@@ -122,7 +122,7 @@
     <dep name="conj:svc">6</dep>
     <dep name="cop">745</dep>
     <dep name="csubj">507</dep>
-    <dep name="det">2978</dep>
+    <dep name="det">2977</dep>
     <dep name="det:numgov">143</dep>
     <dep name="det:nummod">31</dep>
     <dep name="discourse">2088</dep>
@@ -132,7 +132,7 @@
     <dep name="flat">10</dep>
     <dep name="flat:foreign">199</dep>
     <dep name="flat:name">516</dep>
-    <dep name="flat:pack">42</dep>
+    <dep name="flat:pack">40</dep>
     <dep name="flat:range">93</dep>
     <dep name="flat:rcp">38</dep>
     <dep name="flat:repeat">58</dep>
