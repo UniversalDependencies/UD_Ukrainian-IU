@@ -9093,7 +9093,7 @@
 3	не	не	PART	Q	Polarity=Neg	4	advmod	4:advmod	Id=1yg8|LTranslit=ne|Translit=ne
 4	є	бути	AUX	Vapip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	Id=1yg9|LTranslit=buty|Translit=ě
 5	такими	такий	DET	Pd----pia	Case=Ins|Number=Plur|PronType=Dem	0	root	0:root	Id=1yga|LTranslit=takyj|Translit=takymy
-6	ефективними	ефективний	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	5	flat:pack	5:flat:pack	Id=1ygb|LTranslit=efektyvnyj|Translit=efektyvnymy
+6	ефективними	ефективний	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	5	flat:sibl	5:flat:sibl	Id=1ygb|LTranslit=efektyvnyj|Translit=efektyvnymy
 7	і	і	CCONJ	Ccs	_	8	cc	8:cc	Id=1ygc|LTranslit=i|Translit=i
 8	дають	давати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	0:root|5:conj	Id=1ygd|LTranslit=davaty|Translit=dajuť
 9	тільки	тільки	PART	Q	_	10	discourse	10:discourse	Id=1yge|LTranslit=tiľky|Translit=tiľky
@@ -14219,7 +14219,7 @@
 4	важче	важче	ADV	Rc	Degree=Cmp	0	root	0:root	Id=38g2|LTranslit=važče|Translit=važče
 5	дивитися	дивитися	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	4	csubj	4:csubj	Id=38g3|LTranslit=dyvytyśа|Translit=dyvytyśа
 6	одне	один	DET	Pi--n-sna	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	5	obj	5:iobj	Id=38g4|LTranslit=odyn|Translit=odne
-7	одному	один	DET	Pi--m-sda	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	6	flat:rcp	6:flat:rcp	Id=38g5|LTranslit=odyn|Translit=odnomu
+7	одному	один	DET	Pi--m-sda	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	6	flat:abs	6:flat:abs	Id=38g5|LTranslit=odyn|Translit=odnomu
 8	в	в	ADP	Spsa	Case=Acc	9	case	9:case	Id=38g6|LTranslit=v|Translit=v
 9	очі	око	NOUN	Ncnpan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obl	5:obl	Id=38g7|LTranslit=oko|SpaceAfter=No|Translit=oči
 10	»	»	PUNCT	U	PunctType=Quot	4	punct	4:punct	Id=38g8|LTranslit=»|SpaceAfter=No|Translit=»

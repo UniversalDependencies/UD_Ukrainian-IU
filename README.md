@@ -98,7 +98,7 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
   * Fixed ~350 annotation errors including _його/її/їх_ `PRON` vs `DET` ambiguity.
   * Removed `:pass` subtype from relations as it currently can be inferred from the morphology.
   * Specified `acl:relcl`.
-  * Introduced `flat:rcp`, `flat:pack`, `flat:range`.
+  * Introduced `flat:abs`, `flat:sibl`, `flat:range`.
   * Added transliteration.
   * Closed many annotation gaps and added new texts: 100→115K.
   * Fixed missing `# annotation_gap`s.

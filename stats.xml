@@ -130,12 +130,12 @@
     <dep name="expl">105</dep>
     <dep name="fixed">241</dep>
     <dep name="flat">10</dep>
+    <dep name="flat:abs">38</dep>
     <dep name="flat:foreign">199</dep>
     <dep name="flat:name">516</dep>
-    <dep name="flat:pack">40</dep>
     <dep name="flat:range">93</dep>
-    <dep name="flat:rcp">38</dep>
     <dep name="flat:repeat">58</dep>
+    <dep name="flat:sibl">40</dep>
     <dep name="flat:title">1021</dep>
     <dep name="goeswith">4</dep>
     <dep name="iobj">336</dep>

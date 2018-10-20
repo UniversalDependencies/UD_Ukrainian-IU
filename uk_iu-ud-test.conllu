@@ -3665,7 +3665,7 @@
 2	станцію	станція	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	6:obl	Id=1fvq|LTranslit=stancija|Translit=stanciju
 3	один	один	DET	Pi--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	6	obl	6:obl	Id=1fvr|LTranslit=odyn|Translit=odyn
 4	за	за	ADP	Spsi	Case=Ins	5	case	5:case	Id=1fvs|LTranslit=za|Translit=za
-5	одним	один	DET	Pi--m-sia	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind	3	flat:rcp	3:flat:rcp	Id=1fvt|LTranslit=odyn|Translit=odnym
+5	одним	один	DET	Pi--m-sia	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind	3	flat:abs	3:flat:abs	Id=1fvt|LTranslit=odyn|Translit=odnym
 6	проходили	проходити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1fvu|LTranslit=prochodyty|Translit=prochodyly
 7	товарняки	товарняк	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	6:nsubj	Id=1fvv|LTranslit=tovarńаk|SpaceAfter=No|Translit=tovarńаky
 8	,	,	PUNCT	U	_	11	punct	11:punct	Id=1fvw|LTranslit=,|Translit=,
@@ -4005,7 +4005,7 @@
 # text = Кінець кінцем там з нього вибили правду про табори, адже він мав номер із Освенцима.
 # translit = Kineć kincem tam z ńoho vybyly pravdu pro tabory, adže vin mav nomer iz Osvencyma.
 1	Кінець	кінець	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	obl	6:obl	Id=1g4t|LTranslit=kineć|Translit=Kineć
-2	кінцем	кінець	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	flat:rcp	1:flat:rcp	Id=1g4u|LTranslit=kineć|Translit=kincem
+2	кінцем	кінець	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	flat:abs	1:flat:abs	Id=1g4u|LTranslit=kineć|Translit=kincem
 3	там	там	ADV	Pd------r	PronType=Dem	6	advmod	6:advmod	Id=1g4v|LTranslit=tam|Translit=tam
 4	з	з	ADP	Spsg	Case=Gen	5	case	5:case	Id=1g4w|LTranslit=z|Translit=z
 5	нього	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	6:obl	Id=1g4x|LTranslit=vin|Translit=ńoho
@@ -4478,13 +4478,13 @@
 6	у	у	ADP	Spsg	Case=Gen	7	case	7:case	Id=1gfq|LTranslit=u|Translit=u
 7	нього	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	17:obl	Id=1gfr|LTranslit=vin|Translit=ńoho
 8	до	до	ADP	Spsg	Case=Gen	9	case	9:case	Id=1gfs|LTranslit=do|Translit=do
-9	американців	американець	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	flat:pack	7:flat:pack	Id=1gft|LTranslit=amerykaneć|SpaceAfter=No|Translit=amerykanciv
+9	американців	американець	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	flat:sibl	7:flat:sibl	Id=1gft|LTranslit=amerykaneć|SpaceAfter=No|Translit=amerykanciv
 10	,	,	PUNCT	U	_	13	punct	13:punct	Id=1gfu|LTranslit=,|Translit=,
 11	ані	ані	CCONJ	Ccs	_	13	cc	13:cc	Id=1gfv|LTranslit=ani|Translit=ani
 12	у	у	ADP	Spsg	Case=Gen	13	case	13:case	Id=1gfw|LTranslit=u|Translit=u
 13	американців	американець	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	conj	7:conj|17:obl	Id=1gfx|LTranslit=amerykaneć|Translit=amerykanciv
 14	до	до	ADP	Spsg	Case=Gen	15	case	15:case	Id=1gfy|LTranslit=do|Translit=do
-15	нього	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	flat:pack	13:flat:pack	Id=1gfz|LTranslit=vin|Translit=ńoho
+15	нього	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	flat:sibl	13:flat:sibl	Id=1gfz|LTranslit=vin|Translit=ńoho
 16	не	не	PART	Q	Polarity=Neg	17	advmod	17:advmod	Id=1gg0|LTranslit=ne|Translit=ne
 17	було	бути	VERB	Vapis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1gg1|LTranslit=buty|SpaceAfter=No|Translit=bulo
 18	.	.	PUNCT	U	_	17	punct	17:punct	Id=1gg2|LTranslit=.|Translit=.
@@ -4909,7 +4909,7 @@
 6	,	,	PUNCT	U	_	7	punct	7:punct	Id=1gql|LTranslit=,|Translit=,
 7	якась	якийсь	DET	Pi--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	5	conj	5:conj|10:det	Id=1gqm|LTranslit=jakyjś|Translit=jakaś
 8	дуже	дуже	ADV	Rp	Degree=Pos	9	advmod	9:advmod	Id=1gqn|LTranslit=duže|Translit=duže
-9	поетична	поетичний	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	7	flat:pack	7:flat:pack	Id=1gqo|LTranslit=poetyčnyj|Translit=poetyčna
+9	поетична	поетичний	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	7	flat:sibl	7:flat:sibl	Id=1gqo|LTranslit=poetyčnyj|Translit=poetyčna
 10	розмова	розмова	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	Id=1gqp|LTranslit=rozmova|SpaceAfter=No|Translit=rozmova
 11	,	,	PUNCT	U	_	16	punct	16:punct	Id=1gqq|LTranslit=,|Translit=,
 12	а	а	CCONJ	Ccs	_	16	cc	16:cc	Id=1gqr|LTranslit=a|Translit=a
@@ -5730,7 +5730,7 @@
 12	майнових	майновий	ADJ	Ao--pgf	Case=Gen|Number=Plur	16	amod	16:amod	Id=2jzn|LTranslit=majnovyj|Translit=majnovych
 13	та	та	CCONJ	Ccs	_	14	cc	14:cc	Id=2jzo|LTranslit=ta|Translit=ta
 14	особистих	особистий	ADJ	Afp-pgf	Case=Gen|Degree=Pos|Number=Plur	12	conj	12:conj|16:amod	Id=2jzp|LTranslit=osobystyj|Translit=osobystych
-15	немайнових	немайновий	ADJ	Ao--pgf	Case=Gen|Number=Plur	14	flat:pack	14:flat:pack	Id=2jzq|LTranslit=nemajnovyj|Translit=nemajnovych
+15	немайнових	немайновий	ADJ	Ao--pgf	Case=Gen|Number=Plur	14	flat:sibl	14:flat:sibl	Id=2jzq|LTranslit=nemajnovyj|Translit=nemajnovych
 16	прав	право	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	obj	11:obj	Id=2jzr|LTranslit=pravo|SpaceAfter=No|Translit=prav
 17	,	,	PUNCT	U	_	19	punct	19:punct	Id=2jzs|LTranslit=,|Translit=,
 18	бути	бути	AUX	Vapn	Aspect=Imp|VerbForm=Inf	19	cop	19:cop|21:cop	Id=2jzt|LTranslit=buty|Translit=buty
@@ -7459,7 +7459,7 @@
 70	липня	липень	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	69	nmod	69:nmod	Id=302o|LTranslit=lypeń|Translit=lypńа
 71	2015	2015	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	72	amod	72:amod	Id=302p|LTranslit=2015|Translit=2015
 72	року	рік	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	70	flat:title	70:flat:title	Id=302q|LTranslit=rik|Translit=roku
-73	№	№	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	69	flat:pack	69:flat:pack	Id=302r|LTranslit=№|Translit=№
+73	№	№	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	69	flat:sibl	69:flat:sibl	Id=302r|LTranslit=№|Translit=№
 74	433	433	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	73	flat:title	73:flat:title	Id=302s|LTranslit=433|SpaceAfter=No|Translit=433
 75	-	-	PUNCT	U	PunctType=Hyph	76	punct	76:punct	Id=302t|LTranslit=-|SpaceAfter=No|Translit=-
 76	од	од	PROPN	Npnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	74	compound	74:compound	Id=302u|LTranslit=od|Translit=od
@@ -7469,7 +7469,7 @@
 80	вересня	вересень	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	79	nmod	79:nmod	Id=302y|LTranslit=vereseń|Translit=veresńа
 81	2016	2016	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	82	amod	82:amod	Id=302z|LTranslit=2016|Translit=2016
 82	року	рік	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	80	nmod	80:nmod	Id=3030|LTranslit=rik|Translit=roku
-83	№	№	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	79	flat:pack	79:flat:pack	Id=3031|LTranslit=№|Translit=№
+83	№	№	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	79	flat:sibl	79:flat:sibl	Id=3031|LTranslit=№|Translit=№
 84	560	560	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	83	flat:title	83:flat:title	Id=3032|LTranslit=560|SpaceAfter=No|Translit=560
 85	-	-	PUNCT	U	PunctType=Hyph	86	punct	86:punct	Id=3033|LTranslit=-|SpaceAfter=No|Translit=-
 86	од	од	PROPN	Npnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	84	compound	84:compound	Id=3034|LTranslit=od|Translit=od
@@ -7886,15 +7886,15 @@
 13	Тернопільської	тернопільський	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	14	amod	14:amod	Id=30du|LTranslit=ternopiľśkyj|Translit=Ternopiľśkoji
 14	області	область	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	12:nmod	Id=30dv|LTranslit=oblasť|Translit=oblasti
 15	від	від	ADP	Spsg	Case=Gen	16	case	16:case	Id=30dw|LTranslit=vid|Translit=vid
-16	3	3	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	10	flat:pack	10:flat:pack	Id=30dx|LTranslit=3|Promoted=Yes|Translit=3
+16	3	3	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	10	flat:sibl	10:flat:sibl	Id=30dx|LTranslit=3|Promoted=Yes|Translit=3
 17	жовтня	жовтень	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	16:nmod	Id=30dy|LTranslit=žovteń|Translit=žovtńа
 18	2016	2016	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	19	amod	19:amod	Id=30dz|LTranslit=2016|Translit=2016
 19	року	рік	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	17:nmod	Id=30e0|LTranslit=rik|Translit=roku
-20	№	№	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	10	flat:pack	10:flat:pack	Id=30e1|LTranslit=№|Translit=№
+20	№	№	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	10	flat:sibl	10:flat:sibl	Id=30e1|LTranslit=№|Translit=№
 21	38	38	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	20	flat:title	20:flat:title	Id=30e2|LTranslit=38|Translit=38
 22	"	"	PUNCT	U	PunctType=Quot	24	punct	24:punct	Id=30e3|LTranslit="|SpaceAfter=No|Translit="
 23	Про	про	ADP	Spsa	Case=Acc	24	case	24:case	Id=30e4|LTranslit=pro|Translit=Pro
-24	скасування	скасування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	flat:pack	10:flat:pack	Id=30e5|LTranslit=skasuvanńа|Translit=skasuvanńа
+24	скасування	скасування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	flat:sibl	10:flat:sibl	Id=30e5|LTranslit=skasuvanńа|Translit=skasuvanńа
 25	рішення	рішення	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	nmod	24:nmod	Id=30e6|LTranslit=rišenńа|Translit=rišenńа
 26	сесії	сесія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	25:nmod	Id=30e7|LTranslit=sesija|Translit=sesiji
 27	сільської	сільський	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	28	amod	28:amod	Id=30e8|LTranslit=siľśkyj|Translit=siľśkoji
@@ -7902,7 +7902,7 @@
 29	"	"	PUNCT	U	PunctType=Quot	24	punct	24:punct	Id=30ea|LTranslit="|SpaceAfter=No|Translit="
 30	,	,	PUNCT	U	_	32	punct	32:punct	Id=30eb|LTranslit=,|Translit=,
 31	яким	який	DET	Pr--n-sia	Case=Ins|Gender=Neut|Number=Sing|PronType=Rel	32	obl	32:obl	Id=30ec|LTranslit=jakyj|Translit=jakym
-32	скасовано	скасувати	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	10	flat:pack	10:flat:pack	Id=30ed|LTranslit=skasuvaty|Translit=skasovano
+32	скасовано	скасувати	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	10	flat:sibl	10:flat:sibl	Id=30ed|LTranslit=skasuvaty|Translit=skasovano
 33	рішення	рішення	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obj	32:obj	Id=30ee|LTranslit=rišenńа|Translit=rišenńа
 34	вказаної	вказаний	ADJ	Ap-fsgf-ep	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	36	amod	36:amod	Id=30ef|LTranslit=vkazanyj|Translit=vkazanoji
 35	місцевої	місцевий	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	36	amod	36:amod	Id=30eg|LTranslit=miscevyj|Translit=miscevoji
@@ -7930,15 +7930,15 @@
 57	Тернопільської	тернопільський	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	58	amod	58:amod	Id=30f2|LTranslit=ternopiľśkyj|Translit=Ternopiľśkoji
 58	області	область	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	56	nmod	56:nmod	Id=30f3|LTranslit=oblasť|Translit=oblasti
 59	від	від	ADP	Spsg	Case=Gen	60	case	60:case	Id=30f4|LTranslit=vid|Translit=vid
-60	27	27	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	54	flat:pack	54:flat:pack	Id=30f5|LTranslit=27|Promoted=Yes|Translit=27
+60	27	27	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	54	flat:sibl	54:flat:sibl	Id=30f5|LTranslit=27|Promoted=Yes|Translit=27
 61	вересня	вересень	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	60	nmod	60:nmod	Id=30f6|LTranslit=vereseń|Translit=veresńа
 62	2016	2016	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	63	amod	63:amod	Id=30f7|LTranslit=2016|Translit=2016
 63	року	рік	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	61	nmod	61:nmod	Id=30f8|LTranslit=rik|Translit=roku
-64	№	№	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	54	flat:pack	54:flat:pack	Id=30f9|LTranslit=№|Translit=№
+64	№	№	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	54	flat:sibl	54:flat:sibl	Id=30f9|LTranslit=№|Translit=№
 65	64	64	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	64	flat:title	64:flat:title	Id=30fa|LTranslit=64|Translit=64
 66	"	"	PUNCT	U	PunctType=Quot	68	punct	68:punct	Id=30fb|LTranslit="|SpaceAfter=No|Translit="
 67	Про	про	ADP	Spsa	Case=Acc	68	case	68:case	Id=30fc|LTranslit=pro|Translit=Pro
-68	скасування	скасування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	54	flat:pack	54:flat:pack	Id=30fd|LTranslit=skasuvanńа|Translit=skasuvanńа
+68	скасування	скасування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	54	flat:sibl	54:flat:sibl	Id=30fd|LTranslit=skasuvanńа|Translit=skasuvanńа
 69	рішення	рішення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	68	nmod	68:nmod	Id=30fe|LTranslit=rišenńа|Translit=rišenńа
 70	сесії	сесія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	69	nmod	69:nmod	Id=30ff|LTranslit=sesija|Translit=sesiji
 71	Хмелівської	хмелівський	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	73	amod	73:amod	Id=30fg|LTranslit=chmelivśkyj|Translit=Chmelivśkoji
@@ -7947,7 +7947,7 @@
 74	"	"	PUNCT	U	PunctType=Quot	68	punct	68:punct	Id=30fj|LTranslit="|SpaceAfter=No|Translit="
 75	,	,	PUNCT	U	_	77	punct	77:punct	Id=30fk|LTranslit=,|Translit=,
 76	яким	який	DET	Pr--n-sia	Case=Ins|Gender=Neut|Number=Sing|PronType=Rel	77	obl	77:obl	Id=30fl|LTranslit=jakyj|Translit=jakym
-77	скасовано	скасувати	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	54	flat:pack	54:flat:pack	Id=30fm|LTranslit=skasuvaty|Translit=skasovano
+77	скасовано	скасувати	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	54	flat:sibl	54:flat:sibl	Id=30fm|LTranslit=skasuvaty|Translit=skasovano
 78	рішення	рішення	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	77	obj	77:obj	Id=30fn|LTranslit=rišenńа|Translit=rišenńа
 79	зазначеної	зазначений	ADJ	Ap-fsgf-ep	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	81	amod	81:amod	Id=30fo|LTranslit=zaznačenyj|Translit=zaznačenoji
 80	місцевої	місцевий	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	81	amod	81:amod	Id=30fp|LTranslit=miscevyj|Translit=miscevoji
@@ -7975,15 +7975,15 @@
 102	Тернопільської	тернопільський	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	103	amod	103:amod	Id=30gb|LTranslit=ternopiľśkyj|Translit=Ternopiľśkoji
 103	області	область	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	101	nmod	101:nmod	Id=30gc|LTranslit=oblasť|Translit=oblasti
 104	від	від	ADP	Spsg	Case=Gen	105	case	105:case	Id=30gd|LTranslit=vid|Translit=vid
-105	3	3	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	99	flat:pack	99:flat:pack	Id=30ge|LTranslit=3|Translit=3
+105	3	3	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	99	flat:sibl	99:flat:sibl	Id=30ge|LTranslit=3|Translit=3
 106	жовтня	жовтень	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	105	nmod	105:nmod	Id=30gf|LTranslit=žovteń|Translit=žovtńа
 107	2016	2016	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord|Uninflect=Yes	108	amod	108:amod	Id=30gg|LTranslit=2016|Translit=2016
 108	року	рік	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	106	nmod	106:nmod	Id=30gh|LTranslit=rik|Translit=roku
-109	№	№	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	99	flat:pack	99:flat:pack	Id=30gi|LTranslit=№|Translit=№
+109	№	№	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	99	flat:sibl	99:flat:sibl	Id=30gi|LTranslit=№|Translit=№
 110	48	48	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	109	flat:title	109:flat:title	Id=30gj|LTranslit=48|Translit=48
 111	"	"	PUNCT	U	PunctType=Quot	113	punct	113:punct	Id=30gk|LTranslit="|SpaceAfter=No|Translit="
 112	Про	про	ADP	Spsa	Case=Acc	113	case	113:case	Id=30gl|LTranslit=pro|Translit=Pro
-113	скасування	скасування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	99	flat:pack	99:flat:pack	Id=30gm|LTranslit=skasuvanńа|Translit=skasuvanńа
+113	скасування	скасування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	99	flat:sibl	99:flat:sibl	Id=30gm|LTranslit=skasuvanńа|Translit=skasuvanńа
 114	рішення	рішення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	113	nmod	113:nmod	Id=30gn|LTranslit=rišenńа|Translit=rišenńа
 115	сесії	сесія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	114	nmod	114:nmod	Id=30go|LTranslit=sesija|Translit=sesiji
 116	сільської	сільський	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	117	amod	117:amod	Id=30gp|LTranslit=siľśkyj|Translit=siľśkoji
@@ -7991,7 +7991,7 @@
 118	"	"	PUNCT	U	PunctType=Quot	113	punct	113:punct	Id=30gr|LTranslit="|SpaceAfter=No|Translit="
 119	,	,	PUNCT	U	_	121	punct	121:punct	Id=30gs|LTranslit=,|Translit=,
 120	яким	який	DET	Pr--n-sia	Case=Ins|Gender=Neut|Number=Sing|PronType=Rel	121	obl	121:obl	Id=30gt|LTranslit=jakyj|Translit=jakym
-121	скасовано	скасувати	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	99	flat:pack	99:flat:pack	Id=30gu|LTranslit=skasuvaty|Translit=skasovano
+121	скасовано	скасувати	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	99	flat:sibl	99:flat:sibl	Id=30gu|LTranslit=skasuvaty|Translit=skasovano
 122	рішення	рішення	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	121	obj	121:obj	Id=30gv|LTranslit=rišenńа|Translit=rišenńа
 123	цієї	цей	DET	Pd--f-sga	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	125	det	125:det	Id=30gw|LTranslit=cej|Translit=ciěji
 124	місцевої	місцевий	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	125	amod	125:amod	Id=30gx|LTranslit=miscevyj|Translit=miscevoji
@@ -12499,7 +12499,7 @@
 20	розчиняться	розчинитися	VERB	Vmeif3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	acl	10:acl	Id=2nxd|LTranslit=rozčynytyśа|Translit=rozčyńаťśа
 21	одна	один	DET	Pi--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	20	obl	20:obl	Id=2nxe|LTranslit=odyn|Translit=odna
 22	в	в	ADP	Spsl	Case=Loc	23	case	23:case	Id=2nxf|LTranslit=v|Translit=v
-23	одній	один	DET	Pi--f-sla	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind	21	flat:rcp	21:flat:rcp	Id=2nxg|LTranslit=odyn|Translit=odnij
+23	одній	один	DET	Pi--f-sla	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind	21	flat:abs	21:flat:abs	Id=2nxg|LTranslit=odyn|Translit=odnij
 24	на	на	ADP	Spsl	Case=Loc	25	case	25:case	Id=2nxh|LTranslit=na|Translit=na
 25	основі	основа	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	20:obl	Id=2nxi|LTranslit=osnova|Translit=osnovi
 26	категорій	категорія	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	25:nmod	Id=2nxj|LTranslit=katehorija|Translit=katehorij
@@ -15246,7 +15246,7 @@
 10	,	,	PUNCT	U	_	12	punct	12:punct	Id=2xij|LTranslit=,|Translit=,
 11	чи	чи	CCONJ	Ccs	_	12	cc	12:cc	Id=2xik|LTranslit=čy|Translit=čy
 12	який	який	DET	Pi--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	6	conj	5:det|6:conj	Id=2xil|LTranslit=jakyj|Translit=jakyj
-13	інший	інший	DET	Pi--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	12	flat:pack	12:flat:pack	Id=2xim|LTranslit=inšyj|SpaceAfter=No|Translit=inšyj
+13	інший	інший	DET	Pi--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	12	flat:sibl	12:flat:sibl	Id=2xim|LTranslit=inšyj|SpaceAfter=No|Translit=inšyj
 14	?	?	PUNCT	U	_	2	punct	2:punct	Id=2xin|LTranslit=?|Translit=?
 
 # sent_id = 2xio
