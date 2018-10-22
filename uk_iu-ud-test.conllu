@@ -15030,7 +15030,39 @@
 39	дружини	дружина	NOUN	Ncfsgy	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	38	nmod	38:nmod	Id=2x7l|LTranslit=družyna|SpaceAfter=No|Translit=družyny
 40	.	.	PUNCT	U	_	2	punct	2:punct	Id=2x7m|LTranslit=.|Translit=.
 
-# annotation_gap
+# sent_id = 2x7n
+# text = Ще б пак не зрадіти таким несподіваним гостям, коли тепер, після того, що сталось на чистці, ніхто з його співробітників не прийде до нього.
+# translit = Šče b pak ne zradity takym nespodivanym hosťаm, koly teper, pisľа toho, ščo staloś na čystci, nichto z joho spivrobitnykiv ne pryjde do ńoho.
+1	Ще	ще	PART	Q	_	5	discourse	5:discourse	Id=2x7o|LTranslit=šče|Translit=Šče
+2	б	б	PART	Q	_	1	fixed	1:fixed	Id=2x7p|LTranslit=b|Translit=b
+3	пак	пак	PART	Q	_	1	fixed	1:fixed	Id=2x7q|LTranslit=pak|Translit=pak
+4	не	не	PART	Q	Polarity=Neg	5	advmod	5:advmod	Id=2x7r|LTranslit=ne|Translit=ne
+5	зрадіти	зрадіти	VERB	Vmen	Aspect=Perf|VerbForm=Inf	0	root	0:root	Id=2x7s|LTranslit=zradity|Translit=zradity
+6	таким	такий	DET	Pd----pda	Case=Dat|Number=Plur|PronType=Dem	8	det	8:det	Id=2x7t|LTranslit=takyj|Translit=takym
+7	несподіваним	несподіваний	ADJ	Afp-pdf	Case=Dat|Degree=Pos|Number=Plur	8	amod	8:amod	Id=2x7u|LTranslit=nespodivanyj|Translit=nespodivanym
+8	гостям	гість	NOUN	Ncmpdy	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	obj	5:iobj	Id=2x7v|LTranslit=hisť|SpaceAfter=No|Translit=hosťаm
+9	,	,	PUNCT	U	_	26	punct	26:punct	Id=2x7w|LTranslit=,|Translit=,
+10	коли	коли	ADV	Pr------r	PronType=Rel	26	advmod	26:advmod	Id=2x7x|LTranslit=koly|Translit=koly
+11	тепер	тепер	ADV	Pd------r	PronType=Dem	26	advmod	26:advmod	Id=2x7y|LTranslit=teper|SpaceAfter=No|Translit=teper
+12	,	,	PUNCT	U	_	14	punct	14:punct	Id=2x7z|LTranslit=,|Translit=,
+13	після	після	ADP	Spsg	Case=Gen	14	case	14:case	Id=2x80|LTranslit=pisľа|Translit=pisľа
+14	того	те	PRON	Pd--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	11	appos	11:appos|17:nsubj:rel	Id=2x81|LTranslit=te|SpaceAfter=No|Translit=toho
+15	,	,	PUNCT	U	_	17	punct	17:punct	Id=2x82|LTranslit=,|Translit=,
+16	що	що	SCONJ	Css	_	17	mark	17:mark	Id=2x83|LTranslit=ščo|Translit=ščo
+17	сталось	статися	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	acl:relcl	14:acl:relcl	Id=2x84|LTranslit=statyśа|Translit=staloś
+18	на	на	ADP	Spsl	Case=Loc	19	case	19:case	Id=2x85|LTranslit=na|Translit=na
+19	чистці	чистець	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	17:obl	Id=2x86|LTranslit=čysteć|SpaceAfter=No|Translit=čystci
+20	,	,	PUNCT	U	_	14	punct	14:punct	Id=2x87|LTranslit=,|Translit=,
+21	ніхто	ніхто	PRON	Pz---y-nn	Animacy=Anim|Case=Nom|PronType=Neg	26	nsubj	26:nsubj	Id=2x88|LTranslit=nichto|Translit=nichto
+22	з	з	ADP	Spsg	Case=Gen	24	case	24:case	Id=2x89|LTranslit=z|Translit=z
+23	його	його	DET	Ppp3--pga	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	24	det	24:det	Id=2x8a|LTranslit=joho|Translit=joho
+24	співробітників	співробітник	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	21:nmod	Id=2x8b|LTranslit=spivrobitnyk|Translit=spivrobitnykiv
+25	не	не	PART	Q	Polarity=Neg	26	advmod	26:advmod	Id=2x8c|LTranslit=ne|Translit=ne
+26	прийде	прийти	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	advcl	5:advcl	Id=2x8d|LTranslit=pryjty|Translit=pryjde
+27	до	до	ADP	Spsg	Case=Gen	28	case	28:case	Id=2x8e|LTranslit=do|Translit=do
+28	нього	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obl	26:obl	Id=2x8f|LTranslit=vin|SpaceAfter=No|Translit=ńoho
+29	.	.	PUNCT	U	_	5	punct	5:punct	Id=2x8g|LTranslit=.|Translit=.
+
 # sent_id = 2x8h
 # text = Боятимуться, як боялись відвідати родини Качеровського й Титаренка.
 # translit = Bojatymuťśа, jak bojalyś vidvidaty rodyny Kačerovśkoho j Tytarenka.
@@ -15121,6 +15153,50 @@
 36	.	.	PUNCT	U	_	35	punct	35:punct	Id=2xc1|LTranslit=.|Translit=.
 37	д	д.	ADV	Y	Abbr=Yes	28	conj	26:nmod|28:conj|31:nsubj:rel	Id=2xc2|LTranslit=d.|SpaceAfter=No|Translit=d
 38	.	.	PUNCT	U	_	4	punct	4:punct	Id=2xc3|LTranslit=.|Translit=.
+
+# sent_id = 2xc4
+# text = Коли в творі даного автора показано ті причини, то критик користується ними і дякує автора, коли ні, то чіпається його, як, мовляв, ти смів вивести таку людину, не показавши причин її існування?
+# translit = Koly v tvori danoho avtora pokazano ti pryčyny, to krytyk korystuěťśа nymy i ďаkuě avtora, koly ni, to čipaěťśа joho, jak, movľаv, ty smiv vyvesty taku ľudynu, ne pokazavšy pryčyn jiji isnuvanńа?
+1	Коли	коли	SCONJ	Css	_	6	mark	6:mark	Id=2xc5|LTranslit=koly|Translit=Koly
+2	в	в	ADP	Spsl	Case=Loc	3	case	3:case	Id=2xc6|LTranslit=v|Translit=v
+3	творі	твір	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	6:obl	Id=2xc7|LTranslit=tvir|Translit=tvori
+4	даного	даний	ADJ	Ap-msgf-ep	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	amod	5:amod	Id=2xc8|LTranslit=danyj|Translit=danoho
+5	автора	автор	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	3:nmod	Id=2xc9|LTranslit=avtor|Translit=avtora
+6	показано	показати	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	12	advcl	12:advcl	Id=2xca|LTranslit=pokazaty|Translit=pokazano
+7	ті	той	DET	Pd---npaa	Animacy=Inan|Case=Acc|Number=Plur|PronType=Dem	8	det	8:det	Id=2xcb|LTranslit=toj|Translit=ti
+8	причини	причина	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	6:obj	Id=2xcc|LTranslit=pryčyna|SpaceAfter=No|Translit=pryčyny
+9	,	,	PUNCT	U	_	6	punct	6:punct	Id=2xcd|LTranslit=,|Translit=,
+10	то	то	PART	Q	PartType=Conseq	12	discourse	12:discourse	Id=2xce|LTranslit=to|Translit=to
+11	критик	критик	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	12:nsubj	Id=2xcf|LTranslit=krytyk|Translit=krytyk
+12	користується	користуватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=2xcg|LTranslit=korystuvatyśа|Translit=korystuěťśа
+13	ними	вони	PRON	Pp-3--pin	Case=Ins|Number=Plur|Person=3|PronType=Prs	12	obl	12:obl	Id=2xch|LTranslit=vony|Translit=nymy
+14	і	і	CCONJ	Ccs	_	15	cc	15:cc	Id=2xci|LTranslit=i|Translit=i
+15	дякує	дякувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	0:root|12:conj	Id=2xcj|LTranslit=ďаkuvaty|Translit=ďаkuě
+16	автора	автор	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	obj	15:obj	Id=2xck|LTranslit=avtor|SpaceAfter=No|Translit=avtora
+17	,	,	PUNCT	U	_	22	punct	22:punct	Id=2xcl|LTranslit=,|Translit=,
+18	коли	коли	SCONJ	Css	_	19	mark	19:mark	Id=2xcm|LTranslit=koly|Translit=koly
+19	ні	ні	PART	Q	Polarity=Neg	22	advcl	22:advcl	Id=2xcn|LTranslit=ni|Promoted=Yes|SpaceAfter=No|Translit=ni
+20	,	,	PUNCT	U	_	19	punct	19:punct	Id=2xco|LTranslit=,|Translit=,
+21	то	то	PART	Q	PartType=Conseq	22	discourse	22:discourse	Id=2xcp|LTranslit=to|Translit=to
+22	чіпається	чіпатися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	0:root|12:conj	Id=2xcq|LTranslit=čipatyśа|Translit=čipaěťśа
+23	його	він	PRON	Pp-3m-sgn	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	22:obj	Id=2xcr|LTranslit=vin|SpaceAfter=No|Translit=joho
+24	,	,	PUNCT	U	_	30	punct	30:punct	Id=2xcs|LTranslit=,|Translit=,
+25	як	як	ADV	Pq------r	PronType=Int	30	advmod	30:advmod	Id=2xct|LTranslit=jak|SpaceAfter=No|Translit=jak
+26	,	,	PUNCT	U	_	27	punct	27:punct	Id=2xcu|LTranslit=,|Translit=,
+27	мовляв	мовляв	ADV	R	_	30	discourse	30:discourse	Id=2xcv|LTranslit=movľаv|SpaceAfter=No|Translit=movľаv
+28	,	,	PUNCT	U	_	27	punct	27:punct	Id=2xcw|LTranslit=,|Translit=,
+29	ти	ти	PRON	Pp-2-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	30	nsubj	30:nsubj|31:nsubj:x	Id=2xcx|LTranslit=ty|Translit=ty
+30	смів	сміти	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	22	parataxis	22:parataxis	Id=2xcy|LTranslit=smity|Translit=smiv
+31	вивести	вивести	VERB	Vmen	Aspect=Perf|VerbForm=Inf	30	xcomp	30:xcomp	Id=2xcz|LTranslit=vyvesty|Translit=vyvesty
+32	таку	такий	DET	Pd--f-saa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	33	det	33:det	Id=2xd0|LTranslit=takyj|Translit=taku
+33	людину	людина	NOUN	Ncfsay	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	31	obj	31:obj	Id=2xd1|LTranslit=ľudyna|SpaceAfter=No|Translit=ľudynu
+34	,	,	PUNCT	U	_	36	punct	36:punct	Id=2xd2|LTranslit=,|Translit=,
+35	не	не	PART	Q	Polarity=Neg	36	advmod	36:advmod	Id=2xd3|LTranslit=ne|Translit=ne
+36	показавши	показати	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	31	advcl	31:advcl	Id=2xd4|LTranslit=pokazaty|Translit=pokazavšy
+37	причин	причина	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	36	obj	36:obj	Id=2xd5|LTranslit=pryčyna|Translit=pryčyn
+38	її	її	DET	Ppp3n-sga	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	39	det	39:det	Id=2xd6|LTranslit=jiji|Translit=jiji
+39	існування	існування	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	37	nmod	37:nmod	Id=2xd7|LTranslit=isnuvanńа|SpaceAfter=No|Translit=isnuvanńа
+40	?	?	PUNCT	U	_	30	punct	30:punct	Id=2xd8|LTranslit=?|Translit=?
 
 # annotation_gap
 # sent_id = 2xe4
@@ -15333,6 +15409,30 @@
 28	літературної	літературний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	29	amod	29:amod	Id=2xkm|LTranslit=literaturnyj|Translit=literaturnoji
 29	критики	критика	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	27:nmod	Id=2xkn|LTranslit=krytyka|SpaceAfter=No|Translit=krytyky
 30	.	.	PUNCT	U	_	20	punct	20:punct	Id=2xko|LTranslit=.|Translit=.
+
+# sent_id = 2xkp
+# text = Як пропаганда вона мала своє велике значення; як літературна критика вона показалася далеко не на висоті своєї задачі.
+# translit = Jak propahanda vona mala svoě velyke značenńа; jak literaturna krytyka vona pokazalaśа daleko ne na vysoti svoěji zadači.
+1	Як	як	SCONJ	Css	_	2	mark	2:mark	Id=2xkq|LTranslit=jak|Translit=Jak
+2	пропаганда	пропаганда	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	advcl:sp	4:advcl:sp	Id=2xkr|LTranslit=propahanda|Translit=propahanda
+3	вона	вона	PRON	Pp-3f-snn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	2:nsubj:sp|4:nsubj	Id=2xks|LTranslit=vona|Translit=vona
+4	мала	мати	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=2xkt|LTranslit=maty|Translit=mala
+5	своє	свій	DET	Ppp-n-saa	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	7:det	Id=2xku|LTranslit=svij|Translit=svoě
+6	велике	великий	ADJ	Afpnsas	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	7:amod	Id=2xkv|LTranslit=velykyj|Translit=velyke
+7	значення	значення	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	4:obj	Id=2xkw|LTranslit=značenńа|SpaceAfter=No|Translit=značenńа
+8	;	;	PUNCT	U	_	13	punct	13:punct	Id=2xkx|LTranslit=;|Translit=;
+9	як	як	SCONJ	Css	_	11	mark	11:mark	Id=2xky|LTranslit=jak|Translit=jak
+10	літературна	літературний	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	11	amod	11:amod	Id=2xkz|LTranslit=literaturnyj|Translit=literaturna
+11	критика	критика	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	advcl:sp	13:advcl:sp	Id=2xl0|LTranslit=krytyka|Translit=krytyka
+12	вона	вона	PRON	Pp-3f-snn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	11:nsubj:sp|13:nsubj	Id=2xl1|LTranslit=vona|Translit=vona
+13	показалася	показатися	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	parataxis	4:parataxis	Id=2xl2|LTranslit=pokazatyśа|Translit=pokazalaśа
+14	далеко	далеко	ADV	Rp	Degree=Pos	17	advmod	17:advmod	Id=2xl3|LTranslit=daleko|Translit=daleko
+15	не	не	PART	Q	Polarity=Neg	17	advmod	17:advmod	Id=2xl4|LTranslit=ne|Translit=ne
+16	на	на	ADP	Spsl	Case=Loc	17	case	17:case	Id=2xl5|LTranslit=na|Translit=na
+17	висоті	висота	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	13:obl	Id=2xl6|LTranslit=vysota|Translit=vysoti
+18	своєї	свій	DET	Ppp-f-sga	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	19	det	19:det	Id=2xl7|LTranslit=svij|Translit=svoěji
+19	задачі	задача	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	17:nmod	Id=2xl8|LTranslit=zadača|SpaceAfter=No|Translit=zadači
+20	.	.	PUNCT	U	_	13	punct	13:punct	Id=2xl9|LTranslit=.|Translit=.
 
 # annotation_gap
 # sent_id = 2xm8
