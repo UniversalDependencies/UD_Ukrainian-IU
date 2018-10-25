@@ -6,7 +6,9 @@ Gold standard Universal Dependencies corpus for Ukrainian, developed for UD orig
 
 # Introduction
 
-UD Ukrainian comprises 100K tokens in 5882 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.
+UD Ukrainian comprises 115K tokens in 6764 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.
+
+We recommend using the [`dev` version](https://github.com/UniversalDependencies/UD_Ukrainian-IU/tree/dev) of the GitHub repo. It contains the latest stable improvements ([discussion](https://github.com/UniversalDependencies/docs/issues/520)).
 
 
 # Acknowledgments
@@ -36,10 +38,10 @@ You can also browse the entire treebank in [Brat](https://lab.mova.institute/bra
 
 | set   | sentences | ~tokens |
 | ----- |----------:| -------:|
-| train |    5214   |    87K  |
-| dev   |     637   |    12K  |
-| test  |     857   |    16K  |
-| TOTAL |    6708   |   115K  |
+| train |    5258   |    87K  |
+| dev   |     645   |    12K  |
+| test  |     861   |    16K  |
+| TOTAL |    6764   |   115K  |
 
 See [stats.xml](stats.xml) for more detail.
 
@@ -52,7 +54,7 @@ Consistency is further enforced by ~200 validation and autofix [rules](https://g
 
 ### Data split
 
-Data is split between train/dev/test linearly by hand at 75%/10%/15% to balance in genre and complexity. Some large documents are divided across datasets.
+Data is split between train/dev/test linearly by hand at 75%/10%/15% to balance in genre and complexity. One large document is divided across datasets.
 
 
 ### Format
@@ -67,13 +69,27 @@ UD Ukrainian data conforms to [CoNLL-U](http://universaldependencies.org/format.
     * `# annotation_gap` for sentences not exported to CoNLL-U because annotator was unable to parse it with confidence (new guidelines need to be created etc.);
     * `# gap` for intentional gaps in texts (selected fragments).
 * XPOSTAG column contains [MTE](http://nl.ijs.si/ME/V4/msd/html/msd-uk.html) tag with `U` for punctuation. UPOS+FEATS contain all the information in XPOSTAG and more. XPOSTAG is intended for legacy applications.
-* No enhanced dependencies or empty nodes present in DEPS column.
+* DEPS column contains [Enhanced Dependencies](#enhanced-dependencies).
 * MISC column:
   * Token-level paragraph boundaries are present as `NewPar=Yes`.
   * Token ids are present as `Id=xxxx`.
   * `SpaceAfter=No` markers are present.
   * Form (`Translit`) and lemma (`LTranslit`) transliterations are present, except for token `Id=1mnf`, see [issue #569](https://github.com/UniversalDependencies/docs/issues/569).
 * Document, paragraph, sentence, and token ids are 4-character base-32 numbers. They survive treebank updates.
+
+
+### Enhanced Dependencies
+
+<!-- [issue #566](https://github.com/UniversalDependencies/docs/issues/566))
+Manually annotated were: null nodes for elided predicates, the distinction of shared/private dependents of the first conjunct (no), `xcomp` subjects, `ref`s for relative clauses. 
+guesser
+-->
+
+- **Ellipsis.**
+- **Propagation of Conjuncts.**
+- **Controlled/raised subjects.**
+- **Relative clauses.** 
+- **Case Information.** We don’t case-mark relation names because it doesn’t carry any new information (see [the discussion](https://github.com/UniversalDependencies/docs/issues/566)).
 
 
 ### Development
@@ -85,30 +101,32 @@ Data files are built from sources at [mova-institute/zoloto](https://github.com/
 
 The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) and is free for non-commercial use. For a commercial license, please contact us at [org@mova.institute](mailto:org@mova.institute).
 
+
 ### Contact
 
 [org@mova.institute](mailto:org@mova.institute)
 
+
 ### Changelog
 
-* upcoming **v2.3** release
-  * Added all types of enhanced dependencies except for case-marking (see [issue #566](https://github.com/UniversalDependencies/docs/issues/566)). Manually annotated were: null nodes for elided predicates, the distinction of shared/private dependents of the first conjunct, `xcomp` subjects, `ref`s for relative clauses.
+* 2018-11-15 **v2.3**
+  * Added all types of enhanced dependencies except for case-marking, see [Enhanced Dependencies](#enhanced-dependencies) section.
+  * Closed many annotation gaps and added new texts: 100→115K.
+  * Fixed ~450 annotation errors including _його/її/їх_ `PRON` vs `DET` ambiguity.
   * Introduced multitokens for _ні́кого_, _ні́де_ etc.
   * Split words with fused _пів-_ numerals (e.g. _півкласу_) to multitokens.
-  * Fixed ~350 annotation errors including _його/її/їх_ `PRON` vs `DET` ambiguity.
-  * Removed `:pass` subtype from relations as it currently can be inferred from the morphology.
+  * Introduced [`flat:abs`](http://universaldependencies.org/uk/dep/flat-abs.html), [`flat:sibl`](http://universaldependencies.org/uk/dep/flat-sibl.html), [`flat:range`](http://universaldependencies.org/uk/dep/flat-range.html), [`advmod:det`](http://universaldependencies.org/uk/dep/advmod-det.html), [`acl:adv`](http://universaldependencies.org/uk/dep/acl-adv.html).
   * Specified `acl:relcl`.
-  * Introduced `flat:abs`, `flat:sibl`, `flat:range`.
+  * Removed `:pass` subtype from relations as it currently can be inferred from the morphology.
   * Added transliteration.
-  * Closed many annotation gaps and added new texts: 100→115K.
   * Fixed missing `# annotation_gap`s.
-  * Readme updated with more description, links.
+  * Updated readme with more description, links.
 
 * 2018-04-15 **v2.2**
-  * Repository renamed from UD_Ukrainian to UD_Ukrainian-IU to match the new UD naming convention.
-  * `Orth=Khark` feature renamed to `Orth=Alt`.
+  * Renamed the repository from UD_Ukrainian to UD_Ukrainian-IU to match the new UD naming convention.
   * Fixed some validation errors.
   * Added a couple of new sentences.
+  * `Orth=Khark` feature renamed to `Orth=Alt`.
 
 * 2017-11-15 **v2.1**
   * Quadrupled the amount of data up to 100K, mostly with nonfiction; improved consistency.
