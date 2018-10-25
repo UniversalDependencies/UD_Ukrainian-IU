@@ -115,7 +115,7 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
   * Fixed ~450 annotation errors including _його/її/їх_ `PRON` vs `DET` ambiguity.
   * Introduced multitokens for _ні́кого_, _ні́де_ etc.
   * Split words with fused _пів-_ numerals (e.g. _півкласу_) to multitokens.
-  * Introduced [`flat:abs`](http://universaldependencies.org/uk/dep/flat-abs.html), [`flat:sibl`](http://universaldependencies.org/uk/dep/flat-sibl.html), [`flat:range`](http://universaldependencies.org/uk/dep/flat-range.html), [`advmod:det`](http://universaldependencies.org/uk/dep/advmod-det.html), [`acl:adv`](http://universaldependencies.org/uk/dep/acl-adv.html).
+  * Introduced [`flat:abs`](http://universaldependencies.org/uk/dep/flat-abs.html), [`flat:sibl`](http://universaldependencies.org/uk/dep/flat-sibl.html), [`flat:range`](http://universaldependencies.org/uk/dep/flat-range.html), [`advmod:det`](http://universaldependencies.org/uk/dep/advmod-det.html), [`acl:adv`](http://universaldependencies.org/uk/dep/acl-adv.html), [`parataxis:rel`](http://universaldependencies.org/uk/dep/parataxis-rel.html).
   * Specified `acl:relcl`.
   * Removed `:pass` subtype from relations as it currently can be inferred from the morphology.
   * Added transliteration.

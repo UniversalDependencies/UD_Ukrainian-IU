@@ -101,7 +101,7 @@
     <feat name="Voice" value="Pass" upos="ADJ">1157</feat><!-- пов’язані, установленому, об’єднаної, затвердженого, вибраний, включені, населених, пов’язаних, виявлені, відкритим -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="56">
+  <deps unique="57">
     <dep name="acl">384</dep>
     <dep name="acl:adv">24</dep>
     <dep name="acl:relcl">1143</dep>
@@ -148,9 +148,10 @@
     <dep name="obj">5379</dep>
     <dep name="obl">8166</dep>
     <dep name="orphan">207</dep>
-    <dep name="parataxis">1321</dep>
+    <dep name="parataxis">1284</dep>
     <dep name="parataxis:discourse">190</dep>
     <dep name="parataxis:newsent">3</dep>
+    <dep name="parataxis:rel">37</dep>
     <dep name="punct">21749</dep>
     <dep name="reparandum">1</dep>
     <dep name="root">6764</dep>

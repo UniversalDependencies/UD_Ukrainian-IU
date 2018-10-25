@@ -10644,7 +10644,7 @@
 13	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	12	nmod	12:nmod	Id=1vb8|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 14	,	,	PUNCT	U	_	16	punct	16:punct	Id=1vb9|LTranslit=,|Translit=,
 15	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	16	nsubj	16:nsubj	Id=1vba|LTranslit=ščo|Translit=ščo
-16	нижче	нижче	ADV	Rc	Degree=Cmp	8	parataxis	8:parataxis	Id=1vbb|LTranslit=nyžče|Translit=nyžče
+16	нижче	нижче	ADV	Rc	Degree=Cmp	8	parataxis:rel	8:parataxis:rel	Id=1vbb|LTranslit=nyžče|Translit=nyžče
 17	від	від	ADP	Spsg	Case=Gen	19	case	19:case	Id=1vbc|LTranslit=vid|Translit=vid
 18	планового	плановий	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	19	amod	19:amod	Id=1vbd|LTranslit=planovyj|Translit=planovoho
 19	показника	показник	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	16:obl	Id=1vbe|LTranslit=pokaznyk|Translit=pokaznyka
@@ -11231,7 +11231,7 @@
 12	,	,	PUNCT	U	_	15	punct	15:punct	Id=1zm1|LTranslit=,|Translit=,
 13	що	що	PRON	Pr--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	15	obj	15:obj	Id=1zm2|LTranslit=ščo|Translit=ščo
 14	й	й	PART	Q	_	15	discourse	15:discourse	Id=1zm3|LTranslit=j|Translit=j
-15	робив	робити	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	parataxis	9:parataxis	Id=1zm4|LTranslit=robyty|SpaceAfter=No|Translit=robyv
+15	робив	робити	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	parataxis:rel	9:parataxis:rel	Id=1zm4|LTranslit=robyty|SpaceAfter=No|Translit=robyv
 16	.	.	PUNCT	U	_	2	punct	2:punct	Id=1zm5|LTranslit=.|Translit=.
 
 # sent_id = 1zm6
@@ -12047,7 +12047,7 @@
 21	)	)	PUNCT	U	_	20	punct	20:punct	Id=2nkx|LTranslit=)|SpaceAfter=No|Translit=)
 22	,	,	PUNCT	U	_	24	punct	24:punct	Id=2nky|LTranslit=,|Translit=,
 23	що	що	PRON	Pr--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	24	obj	24:obj	Id=2nkz|LTranslit=ščo|Translit=ščo
-24	пов’язано	пов’язати	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	8	parataxis	8:parataxis	Id=2nl0|LTranslit=povjazaty|Translit=povjazano
+24	пов’язано	пов’язати	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	8	parataxis:rel	8:parataxis:rel	Id=2nl0|LTranslit=povjazaty|Translit=povjazano
 25	головно	головно	ADV	Rp	Degree=Pos	24	advmod	24:advmod	Id=2nl1|LTranslit=holovno|Translit=holovno
 26	з	з	ADP	Spsi	Case=Ins	28	case	28:case	Id=2nl2|LTranslit=z|Translit=z
 27	різким	різкий	ADJ	Afpnsif	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	28	amod	28:amod	Id=2nl3|LTranslit=rizkyj|Translit=rizkym
@@ -14369,7 +14369,7 @@
 5	робочою	робочий	ADJ	Ao-fsif	Case=Ins|Gender=Fem|Number=Sing	0	root	0:root	Id=2wba|LTranslit=robočyj|SpaceAfter=No|Translit=robočoju
 6	,	,	PUNCT	U	_	8	punct	8:punct	Id=2wbb|LTranslit=,|Translit=,
 7	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nsubj	8:nsubj|9:nsubj:x	Id=2wbc|LTranslit=ščo|Translit=ščo
-8	дозволило	дозволити	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	parataxis	5:parataxis	Id=2wbd|LTranslit=dozvolyty|Translit=dozvolylo
+8	дозволило	дозволити	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	parataxis:rel	5:parataxis:rel	Id=2wbd|LTranslit=dozvolyty|Translit=dozvolylo
 9	полегшити	полегшити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	8	xcomp	8:xcomp	Id=2wbe|LTranslit=polehšyty|Translit=polehšyty
 10	конструкцію	конструкція	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	9:obj	Id=2wbf|LTranslit=konstrukcija|Translit=konstrukciju
 11	літака	літак	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	10:nmod	Id=2wbg|LTranslit=litak|SpaceAfter=No|Translit=litaka
@@ -14498,7 +14498,7 @@
 20	для	для	ADP	Spsg	Case=Gen	21	case	21:case	Id=2wej|LTranslit=dľа|Translit=dľа
 21	чого	що	PRON	Pr--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	23	obl	23:obl	Id=2wek|LTranslit=ščo|Translit=čoho
 22	льотчик	льотчик	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	23:nsubj	Id=2wel|LTranslit=ľotčyk|Translit=ľotčyk
-23	обертав	обертати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	parataxis	13:parataxis	Id=2wem|LTranslit=obertaty|Translit=obertav
+23	обертав	обертати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	parataxis:rel	13:parataxis:rel	Id=2wem|LTranslit=obertaty|Translit=obertav
 24	спеціальну	спеціальний	ADJ	Ao-fsas	Case=Acc|Gender=Fem|Number=Sing	25	amod	25:amod	Id=2wen|LTranslit=speciaľnyj|Translit=speciaľnu
 25	ручку	ручка	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	23:obj	Id=2weo|LTranslit=ručka|Translit=ručku
 26	(	(	PUNCT	U	_	27	punct	27:punct	Id=2wep|LTranslit=(|SpaceAfter=No|Translit=(
@@ -18285,7 +18285,7 @@
 20	у	у	ADP	Spsl	Case=Loc	22	case	22:case	Id=36fg|LTranslit=u|Translit=u
 21	тогочасному	тогочасний	ADJ	Ao-nslf	Case=Loc|Gender=Neut|Number=Sing	22	amod	22:amod	Id=36fh|LTranslit=tohočasnyj|Translit=tohočasnomu
 22	становищі	становище	NOUN	Ncnsln	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	23:obl	Id=36fi|LTranslit=stanovyšče|Translit=stanovyšči
-23	виглядало	виглядати	VERB	Vmpis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	parataxis	9:parataxis	Id=36fj|LTranslit=vyhľаdaty|Translit=vyhľаdalo
+23	виглядало	виглядати	VERB	Vmpis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	parataxis:rel	9:parataxis:rel	Id=36fj|LTranslit=vyhľаdaty|Translit=vyhľаdalo
 24	безглуздо	безглуздо	ADV	Rp	Degree=Pos	23	advmod	23:advmod	Id=36fk|LTranslit=bezhluzdo|SpaceAfter=No|Translit=bezhluzdo
 25	.	.	PUNCT	U	_	23	punct	23:punct	Id=36fl|LTranslit=.|Translit=.
 

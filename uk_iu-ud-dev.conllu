@@ -3489,7 +3489,7 @@
 23	чого	що	PRON	Pr--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	26	obl	26:obl	Id=1feb|LTranslit=ščo|Translit=čoho
 24	крива	крива	NOUN	Ao-fsns	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	26:nsubj	Id=1fec|LTranslit=kryva|Translit=kryva
 25	повторно	повторно	ADV	R	_	26	advmod	26:advmod	Id=1fed|LTranslit=povtorno|Translit=povtorno
-26	видряпується	видряпуватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	6:parataxis	Id=1fee|LTranslit=vydŕаpuvatyśа|Translit=vydŕаpuěťśа
+26	видряпується	видряпуватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis:rel	6:parataxis:rel	Id=1fee|LTranslit=vydŕаpuvatyśа|Translit=vydŕаpuěťśа
 27	до	до	ADP	Spsg	Case=Gen	28	case	28:case	Id=1fef|LTranslit=do|Translit=do
 28	оргазму	оргазм	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	obl	26:obl	Id=1feg|LTranslit=orhazm|Translit=orhazmu
 29	і	і	CCONJ	Ccs	_	32	cc	32:cc	Id=1feh|LTranslit=i|Translit=i
@@ -5039,7 +5039,7 @@
 29	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	32	nsubj	32:nsubj	Id=1l9o|LTranslit=ščo|Translit=ščo
 30	не	не	PART	Q	Polarity=Neg	31	advmod	31:advmod	Id=1l9p|LTranslit=ne|Translit=ne
 31	є	бути	AUX	Vapip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	32:cop	Id=1l9q|LTranslit=buty|Translit=ě
-32	правдою	правда	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	parataxis	22:parataxis	Id=1l9r|LTranslit=pravda|SpaceAfter=No|Translit=pravdoju
+32	правдою	правда	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	parataxis:rel	22:parataxis:rel	Id=1l9r|LTranslit=pravda|SpaceAfter=No|Translit=pravdoju
 33	)	)	PUNCT	U	_	32	punct	32:punct	Id=1l9s|LTranslit=)|SpaceAfter=No|Translit=)
 34	.	.	PUNCT	U	_	8	punct	8:punct	Id=1l9t|LTranslit=.|Translit=.
 
@@ -11062,7 +11062,7 @@
 26	натискання	натискання	NOUN	Ncnpan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	22	obj	22:obj	Id=29bl|LTranslit=natyskanńа|SpaceAfter=No|Translit=natyskanńа
 27	,	,	PUNCT	U	_	29	punct	29:punct	Id=29bm|LTranslit=,|Translit=,
 28	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	29	nsubj	29:nsubj	Id=29bn|LTranslit=ščo|Translit=ščo
-29	тригерить	тригерити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis	22:parataxis	Id=29bo|LTranslit=tryheryty|Translit=tryheryť
+29	тригерить	тригерити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	parataxis:rel	22:parataxis:rel	Id=29bo|LTranslit=tryheryty|Translit=tryheryť
 30	непотрібну	непотрібний	ADJ	Ao-fsas	Case=Acc|Gender=Fem|Number=Sing	31	amod	31:amod	Id=29bp|LTranslit=nepotribnyj|Translit=nepotribnu
 31	комбінацію	комбінація	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	29:obj	Id=29bq|LTranslit=kombinacija|SpaceAfter=No|Translit=kombinaciju
 32	.	.	PUNCT	U	_	13	punct	13:punct	Id=29br|LTranslit=.|Translit=.
@@ -11737,7 +11737,7 @@
 16	виробництва	виробництво	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	14:nmod	Id=2arx|LTranslit=vyrobnyctvo|SpaceAfter=No|Translit=vyrobnyctva
 17	,	,	PUNCT	U	_	19	punct	19:punct	Id=2ary|LTranslit=,|Translit=,
 18	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	19	nsubj	19:nsubj	Id=2arz|LTranslit=ščo|Translit=ščo
-19	дозволить	дозволити	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	parataxis	5:parataxis	Id=2as0|LTranslit=dozvolyty|Translit=dozvolyť
+19	дозволить	дозволити	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	parataxis:rel	5:parataxis:rel	Id=2as0|LTranslit=dozvolyty|Translit=dozvolyť
 20	екіпажу	екіпаж	NOUN	Ncmsdn	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	19	obj	19:iobj|21:nsubj:x	Id=2as1|LTranslit=ekipaž|Translit=ekipažu
 21	виконувати	виконувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	19	xcomp	19:xcomp	Id=2as2|LTranslit=vykonuvaty|Translit=vykonuvaty
 22	складніші	складніший	ADJ	Afc-pasn	Animacy=Inan|Case=Acc|Degree=Cmp|Number=Plur	23	amod	23:amod	Id=2as3|LTranslit=skladnišyj|Translit=skladniši
@@ -12836,7 +12836,7 @@
 14	матеріалів	матеріал	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	12:nmod	Id=2h0h|LTranslit=material|SpaceAfter=No|Translit=materialiv
 15	,	,	PUNCT	U	_	17	punct	17:punct	Id=2h0i|LTranslit=,|Translit=,
 16	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	17	nsubj	17:nsubj	Id=2h0j|LTranslit=ščo|Translit=ščo
-17	привело	привести	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	parataxis	9:parataxis	Id=2h0k|LTranslit=pryvesty|Translit=pryvelo
+17	привело	привести	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	parataxis:rel	9:parataxis:rel	Id=2h0k|LTranslit=pryvesty|Translit=pryvelo
 18	до	до	ADP	Spsg	Case=Gen	19	case	19:case	Id=2h0l|LTranslit=do|Translit=do
 19	винайдення	винайдення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	17:obl	Id=2h0m|LTranslit=vynajdenńа|Translit=vynajdenńа
 20	транзистора	транзистор	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	19:nmod	Id=2h0n|LTranslit=tranzystor|SpaceAfter=No|Translit=tranzystora
@@ -13373,7 +13373,7 @@
 9	практично	практично	ADV	Rp	Degree=Pos	10	advmod	10:advmod	Id=2hfx|LTranslit=praktyčno|Translit=praktyčno
 10	ніколи	ніколи	ADV	Pz------r	PronType=Neg	12	advmod	12:advmod	Id=2hfy|LTranslit=nikoly|Translit=nikoly
 11	не	не	PART	Q	Polarity=Neg	12	advmod	12:advmod	Id=2hfz|LTranslit=ne|Translit=ne
-12	робили	робити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	Id=2hg0|LTranslit=robyty|Translit=robyly
+12	робили	робити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	parataxis:rel	3:parataxis:rel	Id=2hg0|LTranslit=robyty|Translit=robyly
 13	до	до	ADP	Spsg	Case=Gen	14	case	14:case	Id=2hg1|LTranslit=do|Translit=do
 14	цього	це	PRON	Pd--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	12	obl	12:obl	Id=2hg2|LTranslit=ce|SpaceAfter=No|Translit=ćoho
 15	.	.	PUNCT	U	_	3	punct	3:punct	Id=2hg3|LTranslit=.|Translit=.
