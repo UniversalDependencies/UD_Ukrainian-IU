@@ -9326,17 +9326,17 @@
 # text = Народні засоби не є такими ефективними і дають тільки короткочасне полегшення.
 # translit = Narodni zasoby ne ě takymy efektyvnymy i dajuť tiľky korotkočasne polehšenńа.
 1	Народні	народний	ADJ	Ao--pns	Case=Nom|Number=Plur	2	amod	2:amod	Id=1yg6|LTranslit=narodnyj|Translit=Narodni
-2	засоби	засіб	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	5:nsubj	Id=1yg7|LTranslit=zasib|Translit=zasoby
+2	засоби	засіб	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	6:nsubj	Id=1yg7|LTranslit=zasib|Translit=zasoby
 3	не	не	PART	Q	Polarity=Neg	4	advmod	4:advmod	Id=1yg8|LTranslit=ne|Translit=ne
-4	є	бути	AUX	Vapip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	Id=1yg9|LTranslit=buty|Translit=ě
-5	такими	такий	DET	Pd----pia	Case=Ins|Number=Plur|PronType=Dem	0	root	0:root	Id=1yga|LTranslit=takyj|Translit=takymy
-6	ефективними	ефективний	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	5	flat:sibl	5:flat:sibl	Id=1ygb|LTranslit=efektyvnyj|Translit=efektyvnymy
+4	є	бути	AUX	Vapip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	Id=1yg9|LTranslit=buty|Translit=ě
+5	такими	такий	DET	Pd----pia	Case=Ins|Number=Plur|PronType=Dem	6	advmod:det	6:advmod:det	Id=1yga|LTranslit=takyj|Translit=takymy
+6	ефективними	ефективний	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	0	root	0:root	Id=1ygb|LTranslit=efektyvnyj|Translit=efektyvnymy
 7	і	і	CCONJ	Ccs	_	8	cc	8:cc	Id=1ygc|LTranslit=i|Translit=i
-8	дають	давати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	0:root|5:conj	Id=1ygd|LTranslit=davaty|Translit=dajuť
+8	дають	давати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	0:root|6:conj	Id=1ygd|LTranslit=davaty|Translit=dajuť
 9	тільки	тільки	PART	Q	_	10	discourse	10:discourse	Id=1yge|LTranslit=tiľky|Translit=tiľky
 10	короткочасне	короткочасний	ADJ	Ao-nsas	Case=Acc|Gender=Neut|Number=Sing	11	amod	11:amod	Id=1ygf|LTranslit=korotkočasnyj|Translit=korotkočasne
 11	полегшення	полегшення	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	8:obj	Id=1ygg|LTranslit=polehšenńа|SpaceAfter=No|Translit=polehšenńа
-12	.	.	PUNCT	U	_	5	punct	5:punct	Id=1ygh|LTranslit=.|Translit=.
+12	.	.	PUNCT	U	_	6	punct	6:punct	Id=1ygh|LTranslit=.|Translit=.
 
 # sent_id = 1ygi
 # text = Харчова сода — найвідоміший засіб для «швидкої допомоги» від печії — часто викликає подразнення слизової оболонки шлунка та порушення кислотно-лужного балансу в організмі.
@@ -13424,13 +13424,13 @@
 3	вдячні	вдячний	ADJ	Ao--pns	Case=Nom|Number=Plur	0	root	0:root	Id=2hfr|LTranslit=vďаčnyj|Translit=vďаčni
 4	за	за	ADP	Spsa	Case=Acc	5	case	5:case	Id=2hfs|LTranslit=za|Translit=za
 5	можливість	можливість	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	3:obl	Id=2hft|LTranslit=možlyvisť|Translit=možlyvisť
-6	висловитися	висловитися	VERB	Vmen	Aspect=Perf|VerbForm=Inf	5	acl	5:acl	Id=2hfu|LTranslit=vyslovytyśа|SpaceAfter=No|Translit=vyslovytyśа
+6	висловитися	висловитися	VERB	Vmen	Aspect=Perf|VerbForm=Inf	5	acl	5:acl|12:obj:rel	Id=2hfu|LTranslit=vyslovytyśа|SpaceAfter=No|Translit=vyslovytyśа
 7	,	,	PUNCT	U	_	12	punct	12:punct	Id=2hfv|LTranslit=,|Translit=,
-8	чого	що	PRON	Pr--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	12	obj	12:obj	Id=2hfw|LTranslit=ščo|Translit=čoho
+8	чого	що	PRON	Pr--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Rel	12	obj	6:ref|12:obj	Id=2hfw|LTranslit=ščo|Translit=čoho
 9	практично	практично	ADV	Rp	Degree=Pos	10	advmod	10:advmod	Id=2hfx|LTranslit=praktyčno|Translit=praktyčno
 10	ніколи	ніколи	ADV	Pz------r	PronType=Neg	12	advmod	12:advmod	Id=2hfy|LTranslit=nikoly|Translit=nikoly
 11	не	не	PART	Q	Polarity=Neg	12	advmod	12:advmod	Id=2hfz|LTranslit=ne|Translit=ne
-12	робили	робити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	3	parataxis:rel	3:parataxis:rel	Id=2hg0|LTranslit=robyty|Translit=robyly
+12	робили	робити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	acl:relcl	6:acl:relcl	Id=2hg0|LTranslit=robyty|Translit=robyly
 13	до	до	ADP	Spsg	Case=Gen	14	case	14:case	Id=2hg1|LTranslit=do|Translit=do
 14	цього	це	PRON	Pd--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	12	obl	12:obl	Id=2hg2|LTranslit=ce|SpaceAfter=No|Translit=ćoho
 15	.	.	PUNCT	U	_	3	punct	3:punct	Id=2hg3|LTranslit=.|Translit=.

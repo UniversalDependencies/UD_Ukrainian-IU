@@ -12605,7 +12605,7 @@
 14	,	,	PUNCT	U	_	15	punct	15:punct	Id=2nx7|LTranslit=,|Translit=,
 15	архітектура	архітектура	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	conj	13:conj|20:nsubj	Id=2nx8|LTranslit=architektura|SpaceAfter=No|Translit=architektura
 16	,	,	PUNCT	U	_	17	punct	17:punct	Id=2nx9|LTranslit=,|Translit=,
-17	музика	музика	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	parataxis	13:parataxis	Id=2nxa|LTranslit=muzyka|SpaceAfter=No|Translit=muzyka
+17	музика	музика	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	conj	13:conj|20:nsubj	Id=2nxa|LTranslit=muzyka|SpaceAfter=No|Translit=muzyka
 18	,	,	PUNCT	U	_	19	punct	19:punct	Id=2nxb|LTranslit=,|Translit=,
 19	поезія	поезія	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	conj	13:conj|20:nsubj	Id=2nxc|LTranslit=poezija|Translit=poezija
 20	розчиняться	розчинитися	VERB	Vmeif3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	acl	10:acl	Id=2nxd|LTranslit=rozčynytyśа|Translit=rozčyńаťśа
