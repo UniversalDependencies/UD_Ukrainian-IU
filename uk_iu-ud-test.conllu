@@ -19372,7 +19372,7 @@
 2	бути	бути	VERB	Vapn	Aspect=Imp|VerbForm=Inf	1	xcomp	1:xcomp	Id=372v|LTranslit=buty|Translit=buty
 3	добре	добре	ADV	Rp	Degree=Pos	4	advmod	4:advmod	Id=372w|LTranslit=dobre|Translit=dobre
 4	скоординований	скоординований	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	amod	5:amod	Id=372x|LTranslit=skoordynovanyj|Translit=skoordynovanyj
-5	механізм	механізм	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	1:nsubj|2:nsubj:sp|8:nsubj:rel	Id=372y|LTranslit=mechanizm|SpaceAfter=No|Translit=mechanizm
+5	механізм	механізм	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	1:nsubj|2:nsubj:x|8:nsubj:rel	Id=372y|LTranslit=mechanizm|SpaceAfter=No|Translit=mechanizm
 6	,	,	PUNCT	U	_	8	punct	8:punct	Id=372z|LTranslit=,|Translit=,
 7	що	що	SCONJ	Css	_	8	mark	8:mark	Id=3730|LTranslit=ščo|Translit=ščo
 8	включає	включати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	Id=3731|LTranslit=vkľučaty|Translit=vkľučaě

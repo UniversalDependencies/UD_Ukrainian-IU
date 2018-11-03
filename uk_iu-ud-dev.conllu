@@ -3854,7 +3854,7 @@
 20	хоча	хоча	SCONJ	Css	_	24	mark	24:mark	Id=1fo9|LTranslit=choča|Translit=choča
 21	й	й	PART	Q	_	23	discourse	23:discourse	Id=1foa|LTranslit=j|Translit=j
 22	ті	той	DET	Pd----pna	Case=Nom|Number=Plur|PronType=Dem	23	det	23:det	Id=1fob|LTranslit=toj|Translit=ti
-23	другі	другий	DET	Pi----pna	Case=Nom|Number=Plur|PronType=Ind	24	nsubj	24:nsubj|26:nsubj:sp	Id=1foc|LTranslit=druhyj|Promoted=Yes|Translit=druhi
+23	другі	другий	DET	Pi----pna	Case=Nom|Number=Plur|PronType=Ind	24	nsubj	24:nsubj|26:nsubj:x	Id=1foc|LTranslit=druhyj|Promoted=Yes|Translit=druhi
 24	здатні	здатний	ADJ	Ao--pns	Case=Nom|Number=Plur	11	advcl	11:advcl	Id=1fod|LTranslit=zdatnyj|Translit=zdatni
 25	нормально	нормально	ADV	R	_	26	advmod	26:advmod	Id=1foe|LTranslit=normaľno|Translit=normaľno
 26	відчувати	відчувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	24	xcomp	24:xcomp	Id=1fof|LTranslit=vidčuvaty|Translit=vidčuvaty
