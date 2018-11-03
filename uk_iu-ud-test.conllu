@@ -73,7 +73,7 @@
 9	Коли	коли	SCONJ	Css	_	14	mark	14:mark	Id=01sz|LTranslit=koly|Translit=Koly
 10	з	з	ADP	Spsg	Case=Gen	11	case	11:case	Id=01t0|LTranslit=z|Translit=z
 11	творця	творець	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	obl	14:obl	Id=01t1|LTranslit=tvoreć|Translit=tvorćа
-12	ти	ти	PRON	Pp-2-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	13:nsubj:x|14:nsubj	Id=01t2|LTranslit=ty|Translit=ty
+12	ти	ти	PRON	Pp-2-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=2|PronType=Prs	14	nsubj	13:nsubj:sp|14:nsubj	Id=01t2|LTranslit=ty|Translit=ty
 13	творивом	твориво	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	xcomp:sp	14:xcomp:sp	Id=01t3|LTranslit=tvoryvo|Translit=tvoryvom
 14	зробився	зробитися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	advcl	5:advcl	Id=01t4|LTranslit=zrobytyśа|SpaceAfter=No|Translit=zrobyvśа
 15	?	?	PUNCT	U	_	5	punct	5:punct	Id=01t5|LTranslit=?|Translit=?
@@ -824,7 +824,7 @@
 11	Договором	договір	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	9:obl	Id=2fj8|LTranslit=dohovir|Translit=Dohovorom
 12	вважаються	вважатися	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=2fj9|LTranslit=vvažatyśа|Translit=vvažajuťśа
 13	стихійні	стихійний	ADJ	Ao--pns	Case=Nom|Number=Plur	14	amod	14:amod	Id=2fja|LTranslit=stychijnyj|Translit=stychijni
-14	явища	явище	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	1:nsubj:x|12:nsubj	Id=2fjb|LTranslit=javyšče|Translit=javyšča
+14	явища	явище	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	1:nsubj:sp|12:nsubj	Id=2fjb|LTranslit=javyšče|Translit=javyšča
 15	природного	природний	ADJ	Afpmsgf	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	16:amod	Id=2fjc|LTranslit=pryrodnyj|Translit=pryrodnoho
 16	характеру	характер	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	14:nmod	Id=2fjd|LTranslit=charakter|Translit=charakteru
 17	(	(	PUNCT	U	_	18	punct	18:punct	Id=2fje|LTranslit=(|SpaceAfter=No|Translit=(
@@ -849,7 +849,7 @@
 36	лиха	лихо	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	conj	14:appos|18:conj	Id=2fjx|LTranslit=lycho|SpaceAfter=No|Translit=lycha
 37	)	)	PUNCT	U	_	18	punct	18:punct	Id=2fjy|LTranslit=)|SpaceAfter=No|Translit=)
 38	,	,	PUNCT	U	_	39	punct	39:punct	Id=2fjz|LTranslit=,|Translit=,
-39	лиха	лихо	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	conj	1:nsubj:x|12:nsubj|14:conj	Id=2fk0|LTranslit=lycho|Translit=lycha
+39	лиха	лихо	NOUN	Ncnpnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	conj	1:nsubj:sp|12:nsubj|14:conj	Id=2fk0|LTranslit=lycho|Translit=lycha
 40	біологічного	біологічний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	45	amod	45:amod	Id=2fk1|LTranslit=biolohičnyj|SpaceAfter=No|Translit=biolohičnoho
 41	,	,	PUNCT	U	_	42	punct	42:punct	Id=2fk2|LTranslit=,|Translit=,
 42	техногенного	техногенний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	40	conj	40:conj|45:amod	Id=2fk3|LTranslit=technohennyj|Translit=technohennoho
@@ -870,7 +870,7 @@
 57	тощо	тощо	PART	Q	_	47	discourse	47:discourse	Id=2fki|LTranslit=toščo|SpaceAfter=No|Translit=toščo
 58	)	)	PUNCT	U	_	47	punct	47:punct	Id=2fkj|LTranslit=)|SpaceAfter=No|Translit=)
 59	,	,	PUNCT	U	_	60	punct	60:punct	Id=2fkk|LTranslit=,|Translit=,
-60	обставини	обставина	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	conj	1:nsubj:x|12:nsubj|14:conj	Id=2fkl|LTranslit=obstavyna|Translit=obstavyny
+60	обставини	обставина	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	conj	1:nsubj:sp|12:nsubj|14:conj	Id=2fkl|LTranslit=obstavyna|Translit=obstavyny
 61	суспільного	суспільний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	62	amod	62:amod	Id=2fkm|LTranslit=suspiľnyj|Translit=suspiľnoho
 62	життя	життя	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	60	nmod	60:nmod	Id=2fkn|LTranslit=žytťа|Translit=žytťа
 63	(	(	PUNCT	U	_	64	punct	64:punct	Id=2fko|LTranslit=(|SpaceAfter=No|Translit=(
@@ -892,16 +892,16 @@
 79	тощо	тощо	PART	Q	_	64	discourse	64:discourse	Id=2fl4|LTranslit=toščo|SpaceAfter=No|Translit=toščo
 80	)	)	PUNCT	U	_	64	punct	64:punct	Id=2fl5|LTranslit=)|SpaceAfter=No|Translit=)
 81	,	,	PUNCT	U	_	82	punct	82:punct	Id=2fl6|LTranslit=,|Translit=,
-82	дії	дія	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	conj	1:nsubj:x|12:nsubj|14:conj	Id=2fl7|LTranslit=dija|Translit=diji
+82	дії	дія	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	conj	1:nsubj:sp|12:nsubj|14:conj	Id=2fl7|LTranslit=dija|Translit=diji
 83	або	або	CCONJ	Ccs	_	85	cc	85:cc	Id=2fl8|LTranslit=abo|Translit=abo
 84	нормативні	нормативний	ADJ	Ao--pns	Case=Nom|Number=Plur	85	amod	85:amod	Id=2fl9|LTranslit=normatyvnyj|Translit=normatyvni
-85	вимоги	вимога	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	82	conj	1:nsubj:x|12:nsubj|82:conj	Id=2fla|LTranslit=vymoha|Translit=vymohy
+85	вимоги	вимога	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	82	conj	1:nsubj:sp|12:nsubj|82:conj	Id=2fla|LTranslit=vymoha|Translit=vymohy
 86	органів	орган	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	82	nmod	82:nmod|85:nmod	Id=2flb|LTranslit=orhan|Translit=orhaniv
 87	державної	державний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	88	amod	88:amod	Id=2flc|LTranslit=deržavnyj|Translit=deržavnoji
 88	влади	влада	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	86	nmod	86:nmod	Id=2fld|LTranslit=vlada|Translit=vlady
 89	та	та	CCONJ	Ccs	_	91	cc	91:cc	Id=2fle|LTranslit=ta|Translit=ta
 90	інші	інший	DET	Pi----pna	Case=Nom|Number=Plur|PronType=Ind	91	det	91:det	Id=2flf|LTranslit=inšyj|Translit=inši
-91	обставини	обставина	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	conj	1:nsubj:x|12:nsubj|14:conj|94:nsubj:rel	Id=2flg|LTranslit=obstavyna|SpaceAfter=No|Translit=obstavyny
+91	обставини	обставина	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	conj	1:nsubj:sp|12:nsubj|14:conj|94:nsubj:rel	Id=2flg|LTranslit=obstavyna|SpaceAfter=No|Translit=obstavyny
 92	,	,	PUNCT	U	_	94	punct	94:punct	Id=2flh|LTranslit=,|Translit=,
 93	що	що	SCONJ	Css	_	94	mark	94:mark	Id=2fli|LTranslit=ščo|Translit=ščo
 94	перебувають	перебувати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	91	acl:relcl	91:acl:relcl	Id=2flj|LTranslit=perebuvaty|Translit=perebuvajuť
@@ -7317,7 +7317,7 @@
 6	чинність	чинність	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	5:obj	Id=2zwd|LTranslit=čynnisť|SpaceAfter=No|Translit=čynnisť
 7	,	,	PUNCT	U	_	5	punct	5:punct	Id=2zwe|LTranslit=,|Translit=,
 8	деякі	деякий	DET	Pi---npaa	Animacy=Inan|Case=Acc|Number=Plur|PronType=Ind	9	det	9:det	Id=2zwf|LTranslit=dejakyj|Translit=dejaki
-9	накази	наказ	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	1:obj|2:nsubj:x	Id=2zwg|LTranslit=nakaz|Translit=nakazy
+9	накази	наказ	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	1:obj|2:nsubj:sp	Id=2zwg|LTranslit=nakaz|Translit=nakazy
 10	Міністерства	міністерство	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	9:nmod	Id=2zwh|LTranslit=ministerstvo|Translit=Ministerstva
 11	культури	культура	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	10:nmod	Id=2zwi|LTranslit=kuľtura|Translit=kuľtury
 12	і	і	CCONJ	Ccs	_	13	cc	13:cc	Id=2zwj|LTranslit=i|Translit=i
@@ -8150,7 +8150,7 @@
 28	"	"	PUNCT	U	PunctType=Quot	27	punct	27:punct	Id=30i8|LTranslit="|Translit="
 29	зазначено	зазначити	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	0	root	0:root	Id=30i9|LTranslit=zaznačyty|Translit=zaznačeno
 30	"	"	PUNCT	U	PunctType=Quot	31	punct	31:punct	Id=30ia|LTranslit="|SpaceAfter=No|Translit="
-31	селище	селище	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obj	23:nsubj:x|29:obj	Id=30ib|LTranslit=selyšče|Translit=selyšče
+31	селище	селище	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obj	23:nsubj:sp|29:obj	Id=30ib|LTranslit=selyšče|Translit=selyšče
 32	Товсте	Товсте	PROPN	Npnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	flat:title	31:flat:title	Id=30ic|LTranslit=Tovste|SpaceAfter=No|Translit=Tovste
 33	"	"	PUNCT	U	PunctType=Quot	31	punct	31:punct	Id=30id|LTranslit="|Translit="
 34	без	без	ADP	Spsg	Case=Gen	35	case	35:case	Id=30ie|LTranslit=bez|Translit=bez

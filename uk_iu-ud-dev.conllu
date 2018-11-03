@@ -381,7 +381,7 @@
 # sent_id = 0oon
 # text = Руйнування металів і сплавів унаслідок взаємодії їх з навколишнім середовищем називають корозією (мал. 8).
 # translit = Rujnuvanńа metaliv i splaviv unaslidok vzaěmodiji jich z navkolyšnim seredovyščem nazyvajuť koroziěju (mal. 8).
-1	Руйнування	руйнування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	11:obj|12:nsubj:x	Id=0ooo|LTranslit=rujnuvanńа|Translit=Rujnuvanńа
+1	Руйнування	руйнування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	11:obj|12:nsubj:sp	Id=0ooo|LTranslit=rujnuvanńа|Translit=Rujnuvanńа
 2	металів	метал	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	1:nmod	Id=0oop|LTranslit=metal|Translit=metaliv
 3	і	і	CCONJ	Ccs	_	4	cc	4:cc	Id=0ooq|LTranslit=i|Translit=i
 4	сплавів	сплав	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	conj	1:nmod|2:conj	Id=0oor|LTranslit=splav|Translit=splaviv
@@ -921,7 +921,7 @@
 # translit = Biomimetykoju nazyvajuť haluź zastosuvanńа najkraščych charakterystyk žyvych orhanizmiv u rozrobci novitnich materialiv.
 1	Біоміметикою	біоміметика	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	xcomp:sp	2:xcomp:sp	Id=0p45|LTranslit=biomimetyka|Translit=Biomimetykoju
 2	називають	називати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=0p46|LTranslit=nazyvaty|Translit=nazyvajuť
-3	галузь	галузь	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	1:nsubj:x|2:obj	Id=0p47|LTranslit=haluź|Translit=haluź
+3	галузь	галузь	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	1:nsubj:sp|2:obj	Id=0p47|LTranslit=haluź|Translit=haluź
 4	застосування	застосування	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	3:nmod	Id=0p48|LTranslit=zastosuvanńа|Translit=zastosuvanńа
 5	найкращих	найкращий	ADJ	Afs-pgf	Case=Gen|Degree=Sup|Number=Plur	6	amod	6:amod	Id=0p49|LTranslit=najkraščyj|Translit=najkraščych
 6	характеристик	характеристика	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	4:nmod	Id=0p4a|LTranslit=charakterystyka|Translit=charakterystyk
@@ -1027,7 +1027,7 @@
 # sent_id = 0p6u
 # text = Спосіб термічного декорування деревини називається піротипією.
 # translit = Sposib termičnoho dekoruvanńа derevyny nazyvaěťśа pirotypiěju.
-1	Спосіб	спосіб	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj|6:nsubj:x	Id=0p6v|LTranslit=sposib|Translit=Sposib
+1	Спосіб	спосіб	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj|6:nsubj:sp	Id=0p6v|LTranslit=sposib|Translit=Sposib
 2	термічного	термічний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	3	amod	3:amod	Id=0p6w|LTranslit=termičnyj|Translit=termičnoho
 3	декорування	декорування	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	1:nmod	Id=0p6x|LTranslit=dekoruvanńа|Translit=dekoruvanńа
 4	деревини	деревина	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	3:nmod	Id=0p6y|LTranslit=derevyna|Translit=derevyny
