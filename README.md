@@ -6,7 +6,7 @@ Gold standard Universal Dependencies corpus for Ukrainian, developed for UD orig
 
 # Introduction
 
-UD Ukrainian comprises 115K tokens in 6800 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.
+UD Ukrainian comprises 122K tokens in 7000 sentences of fiction, news, opinion articles, Wikipedia, legal documents, letters, posts, and comments — from the last 15 years, as well as from the first half of the 20th century.
 
 Consider using [the latest version](https://github.com/UniversalDependencies/UD_Ukrainian-IU/tree/dev) at ‘dev’ branch on GitHub. It contains the latest stable improvements while the official releases are up to 6 month old [[discussion](https://github.com/UniversalDependencies/docs/issues/520)].
 
@@ -38,10 +38,10 @@ You can also browse the entire treebank in [Brat](https://lab.mova.institute/bra
 
 | set   | sentences | ~tokens |
 | ----- |----------:| -------:|
-| train |    5290   |    88K  |
-| dev   |     647   |    12K  |
-| test  |     864   |    16K  |
-| TOTAL |    6801   |   116K  |
+| train |    5496   |    92K  |
+| dev   |     672   |    13K  |
+| test  |     892   |    17K  |
+| TOTAL |    7060   |   122K  |
 
 See [stats.xml](https://github.com/UniversalDependencies/UD_Ukrainian-IU/blob/dev/stats.xml) for detail.
 
