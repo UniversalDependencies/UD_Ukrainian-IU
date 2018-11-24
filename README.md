@@ -74,7 +74,8 @@ UD Ukrainian data conforms to [CoNLL-U](http://universaldependencies.org/format.
   * Token-level paragraph boundaries are present as `NewPar=Yes`.
   * Token ids are present as `Id=xxxx`.
   * `SpaceAfter=No` markers are present.
-  * Form (`Translit`) and lemma (`LTranslit`) transliterations are present, except for token `Id=1mnf`, see [issue #569](https://github.com/UniversalDependencies/docs/issues/569).
+  * Form (`Translit`) and lemma (`LTranslit`) transliterations are present
+  * The pipe (`|`) character is escaped with `\p`. Backslash is `\\`. See [issue #569](https://github.com/UniversalDependencies/docs/issues/569).
 * Document, paragraph, sentence, and token ids are 4-character base-32 numbers. They survive treebank updates.
 
 
@@ -103,6 +104,16 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
 
 
 ### Changelog
+
+* Current version (upcoming **v2.4**)
+  * Closed many annotaion gaps: 116K→122K.
+  * Fixed annotation errors.
+  * Shared more dependents of a first conjunct.
+  * Improved consistency by extending annotation guidelines to rarer phenomena.
+  * Switched from `ccomp` to `xcomp` where `nsubj:x` is a phantom object.
+  * Made clauses with `ADV` relativizers `:relcl`.
+  * Added `Polarity=Neg` for conjunctions.
+  * Escaped the pipe (`|`) character in `MISC` as `\p`. `\\` is now a backslash.
 
 * 2018-11-15 **v2.3**
   * Added all types of enhanced dependencies except for case-marking, see [Enhanced Dependencies](#enhanced-dependencies) section.
