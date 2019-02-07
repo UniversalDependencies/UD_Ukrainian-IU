@@ -11770,8 +11770,8 @@
 11	.	.	PUNCT	U	_	4	punct	4:punct	Id=1vm6|LTranslit=.|Translit=.
 
 # sent_id = 1vm7
-# text = Звертаємо увагу, що на Android в багатьох дистрибутивах Сhrome не є браузером за замовчуванням.
-# translit = Zvertaěmo uvahu, ščo na Android v bahaťoch dystrybutyvach Shrome ne ě brauzerom za zamovčuvanńаm.
+# text = Звертаємо увагу, що на Android в багатьох дистрибутивах Chrome не є браузером за замовчуванням.
+# translit = Zvertaěmo uvahu, ščo na Android v bahaťoch dystrybutyvach Chrome ne ě brauzerom za zamovčuvanńаm.
 1	Звертаємо	звертати	VERB	Vmpip1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=1vm8|LTranslit=zvertaty|Translit=Zvertaěmo
 2	увагу	увага	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	1:obj	Id=1vm9|LTranslit=uvaha|SpaceAfter=No|Translit=uvahu
 3	,	,	PUNCT	U	_	13	punct	13:punct	Id=1vma|LTranslit=,|Translit=,
@@ -11781,7 +11781,7 @@
 7	в	в	ADP	Spsl	Case=Loc	9	case	9:case	Id=1vme|LTranslit=v|Translit=v
 8	багатьох	багато	DET	Mlc-l	Case=Loc|NumType=Card|PronType=Ind	9	det:nummod	9:det:nummod	Id=1vmf|LTranslit=bahato|Translit=bahaťoch
 9	дистрибутивах	дистрибутив	NOUN	Ncmpln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	13:obl	Id=1vmg|LTranslit=dystrybutyv|Translit=dystrybutyvach
-10	Сhrome	Сhrome	X	X	Foreign=Yes	13	nsubj	13:nsubj	Id=1vmh|LTranslit=Shrome|Translit=Shrome
+10	Chrome	Сhrome	X	X	Foreign=Yes	13	nsubj	13:nsubj	Id=1vmh|LTranslit=Shrome|Translit=Chrome
 11	не	не	PART	Q	Polarity=Neg	13	advmod	13:advmod	Id=1vmi|LTranslit=ne|Translit=ne
 12	є	бути	AUX	Vapip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	Id=1vmj|LTranslit=buty|Translit=ě
 13	браузером	браузер	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	advcl	1:advcl	Id=1vmk|LTranslit=brauzer|Translit=brauzerom
@@ -16938,7 +16938,7 @@
 37	.	.	PUNCT	U	_	3	punct	3:punct	Id=34md|LTranslit=.|Translit=.
 
 # sent_id = 34me
-# text = У Довженко-Центрі в новому просторі театральної платформи "Сцена 6" покажуть спектакль "Stop Being the Poor" норвезького Proxy Тheatre.
+# text = У Довженко-Центрі в новому просторі театральної платформи "Сцена 6" покажуть спектакль "Stop Being the Poor" норвезького Proxy Theatre.
 # translit = U Dovženko-Centri v novomu prostori teatraľnoji platformy "Scena 6" pokažuť spektakľ "Stop Being the Poor" norveźkoho Proxy Theatre.
 1	У	у	ADP	Spsl	Case=Loc	4	case	4:case	Id=34mf|LTranslit=u|Translit=U
 2	Довженко	Довженко	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	4	compound	4:compound	Id=34mg|LTranslit=Dovženko|SpaceAfter=No|Translit=Dovženko
@@ -16963,7 +16963,7 @@
 21	"	"	PUNCT	U	PunctType=Quot	17	punct	17:punct	Id=36vp|LTranslit="|Translit="
 22	норвезького	норвезький	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	23	amod	23:amod	Id=34my|LTranslit=norveźkyj|Translit=norveźkoho
 23	Proxy	Proxy	X	X	Foreign=Yes	15	nmod	15:nmod	Id=34mz|LTranslit=Proxy|Translit=Proxy
-24	Тheatre	Тheatre	X	X	Foreign=Yes	23	flat:foreign	23:flat:foreign	Id=34n0|LTranslit=Theatre|SpaceAfter=No|Translit=Theatre
+24	Theatre	Тheatre	X	X	Foreign=Yes	23	flat:foreign	23:flat:foreign	Id=34n0|LTranslit=Theatre|SpaceAfter=No|Translit=Theatre
 25	.	.	PUNCT	U	_	14	punct	14:punct	Id=34n1|LTranslit=.|Translit=.
 
 # sent_id = 34n2

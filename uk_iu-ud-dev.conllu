@@ -11555,9 +11555,9 @@
 32	.	.	PUNCT	U	_	13	punct	13:punct	Id=29br|LTranslit=.|Translit=.
 
 # sent_id = 29bs
-# text = Тekken в першу чергу ексклюзив PS і завжди орієнтувався на відповідні контролери.
+# text = Tekken в першу чергу ексклюзив PS і завжди орієнтувався на відповідні контролери.
 # translit = Tekken v peršu čerhu ekskľuzyv PS i zavždy oriěntuvavśа na vidpovidni kontrolery.
-1	Тekken	Тekken	X	X	Foreign=Yes	5	nsubj	5:nsubj	Id=29bt|LTranslit=Tekken|Translit=Tekken
+1	Tekken	Тekken	X	X	Foreign=Yes	5	nsubj	5:nsubj	Id=29bt|LTranslit=Tekken|Translit=Tekken
 2	в	в	ADP	Spsa	Case=Acc	4	case	4:case	Id=29bu|LTranslit=v|Translit=v
 3	першу	перший	ADJ	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	4	amod	4:amod	Id=29bv|LTranslit=peršyj|Translit=peršu
 4	чергу	черга	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	5:obl	Id=29bw|LTranslit=čerha|Translit=čerhu
