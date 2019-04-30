@@ -105,7 +105,7 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
 
 ### Changelog
 
-* Current version (upcoming **v2.4**)
+* 2019-05-15 **v2.4**
   * Closed many annotaion gaps: 116K→122K.
   * Fixed annotation errors.
   * Shared more dependents of a first conjunct.

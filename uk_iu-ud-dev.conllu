@@ -3483,7 +3483,7 @@
 
 # sent_id = 2sxz
 # text = Такі любовні хвороби мають особливо важкий перебіг у багаторічних терпців та людей, що доти схо́дили за малозбудливих, поки враз не наскочили на людину, яка їм абсолютно статево відповідає.
-# translit = Taki ľubovni chvoroby majuť osoblyvo važkyj perebih u bahatoričnych terpciv ta ľudej, ščo doty schódyly za malozbudlyvych, poky vraz ne naskočyly na ľudynu, jaka jim absoľutno statevo vidpovidaě.
+# translit = Taki ľubovni chvoroby majuť osoblyvo važkyj perebih u bahatoričnych terpciv ta ľudej, ščo doty schodyly za malozbudlyvych, poky vraz ne naskočyly na ľudynu, jaka jim absoľutno statevo vidpovidaě.
 1	Такі	такий	DET	Pd----pna	Case=Nom|Number=Plur|PronType=Dem	3	det	3:det	Id=1f8y|LTranslit=takyj|Translit=Taki
 2	любовні	любовний	ADJ	Ao--pns	Case=Nom|Number=Plur	3	amod	3:amod	Id=1f8z|LTranslit=ľubovnyj|Translit=ľubovni
 3	хвороби	хвороба	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	4:nsubj	Id=1f90|LTranslit=chvoroba|Translit=chvoroby
@@ -3499,7 +3499,7 @@
 13	,	,	PUNCT	U	_	16	punct	16:punct	Id=1f9a|LTranslit=,|Translit=,
 14	що	що	SCONJ	Css	_	16	mark	16:mark	Id=1f9b|LTranslit=ščo|Translit=ščo
 15	доти	доти	ADV	Pd------r	PronType=Dem	16	advmod	16:advmod	Id=1f9c|LTranslit=doty|Translit=doty
-16	схо́дили	сходити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	Id=1f9d|LTranslit=schodyty|Translit=schódyly
+16	схо́дили	сходити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	12	acl:relcl	12:acl:relcl	Id=1f9d|LTranslit=schodyty|Translit=schodyly
 17	за	за	ADP	Spsa	Case=Acc	18	case	18:case	Id=1f9e|LTranslit=za|Translit=za
 18	малозбудливих	малозбудливий	ADJ	Ao--pafy	Animacy=Anim|Case=Acc|Number=Plur	16	obl	16:obl	Id=1f9f|LTranslit=malozbudlyvyj|Promoted=Yes|SpaceAfter=No|Translit=malozbudlyvych
 19	,	,	PUNCT	U	_	23	punct	23:punct	Id=1f9g|LTranslit=,|Translit=,
@@ -3820,7 +3820,7 @@
 
 # sent_id = 2syd
 # text = Переривчастою рискою на кривій А позначено можливість появи повторного оргазму, що розпочинається, як крива після першого оргазму спаде до рівня стадії плато́.
-# translit = Pereryvčastoju ryskoju na kryvij A poznačeno možlyvisť pojavy povtornoho orhazmu, ščo rozpočynaěťśа, jak kryva pisľа peršoho orhazmu spade do rivńа stadiji plató.
+# translit = Pereryvčastoju ryskoju na kryvij A poznačeno možlyvisť pojavy povtornoho orhazmu, ščo rozpočynaěťśа, jak kryva pisľа peršoho orhazmu spade do rivńа stadiji plato.
 1	Переривчастою	переривчастий	ADJ	Ao-fsif	Case=Ins|Gender=Fem|Number=Sing	2	amod	2:amod	Id=1fh6|LTranslit=pereryvčastyj|Translit=Pereryvčastoju
 2	рискою	риска	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	6:obl	Id=1fh7|LTranslit=ryska|Translit=ryskoju
 3	на	на	ADP	Spsl	Case=Loc	4	case	4:case	Id=1fh8|LTranslit=na|Translit=na
@@ -3844,7 +3844,7 @@
 21	до	до	ADP	Spsg	Case=Gen	22	case	22:case	Id=1fhq|LTranslit=do|Translit=do
 22	рівня	рівень	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	20:obl	Id=1fhr|LTranslit=riveń|Translit=rivńа
 23	стадії	стадія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	22:nmod	Id=1fhs|LTranslit=stadija|Translit=stadiji
-24	плато́	плато	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|Uninflect=Yes	23	nmod	23:nmod	Id=1fht|LTranslit=plato|SpaceAfter=No|Translit=plató
+24	плато́	плато	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|Uninflect=Yes	23	nmod	23:nmod	Id=1fht|LTranslit=plato|SpaceAfter=No|Translit=plato
 25	.	.	PUNCT	U	_	6	punct	6:punct	Id=1fhu|LTranslit=.|Translit=.
 
 # annotation_gap
@@ -3869,7 +3869,7 @@
 
 # sent_id = 2syg
 # text = Стадія збудження рівна, підноситься дуже мляво, переходячи хвилястою лінією — яка показує дрібні коливання статевої напруги — у стадію плато́, що триває більш-менш довго, але, не досягши оргазму, неквапно опускається до вихідного стану.
-# translit = Stadija zbudženńа rivna, pidnosyťśа duže mľаvo, perechoďаčy chvyľаstoju liniěju — jaka pokazuě dribni kolyvanńа statevoji napruhy — u stadiju plató, ščo tryvaě biľš-menš dovho, ale, ne dośаhšy orhazmu, nekvapno opuskaěťśа do vychidnoho stanu.
+# translit = Stadija zbudženńа rivna, pidnosyťśа duže mľаvo, perechoďаčy chvyľаstoju liniěju — jaka pokazuě dribni kolyvanńа statevoji napruhy — u stadiju plato, ščo tryvaě biľš-menš dovho, ale, ne dośаhšy orhazmu, nekvapno opuskaěťśа do vychidnoho stanu.
 1	Стадія	стадія	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	Id=1fir|LTranslit=stadija|Translit=Stadija
 2	збудження	збудження	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	1:nmod	Id=1fis|LTranslit=zbudženńа|Translit=zbudženńа
 3	рівна	рівний	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	0:root	Id=1fit|LTranslit=rivnyj|SpaceAfter=No|Translit=rivna
@@ -3891,7 +3891,7 @@
 19	—	—	PUNCT	U	PunctType=Dash	14	punct	14:punct	Id=1fj9|LTranslit=—|Translit=—
 20	у	у	ADP	Spsa	Case=Acc	21	case	21:case	Id=1fja|LTranslit=u|Translit=u
 21	стадію	стадія	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	9:obl|25:nsubj:rel	Id=1fjb|LTranslit=stadija|Translit=stadiju
-22	плато́	плато	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|Uninflect=Yes	21	nmod	21:nmod	Id=1fjc|LTranslit=plato|SpaceAfter=No|Translit=plató
+22	плато́	плато	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|Uninflect=Yes	21	nmod	21:nmod	Id=1fjc|LTranslit=plato|SpaceAfter=No|Translit=plato
 23	,	,	PUNCT	U	_	25	punct	25:punct	Id=1fjd|LTranslit=,|Translit=,
 24	що	що	SCONJ	Css	_	25	mark	25:mark	Id=1fje|LTranslit=ščo|Translit=ščo
 25	триває	тривати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	21:acl:relcl	Id=1fjf|LTranslit=tryvaty|Translit=tryvaě
@@ -3915,7 +3915,7 @@
 
 # sent_id = 2syh
 # text = Ця крива показує перебіг статевого акту у жінки з виключно кліторною вразливістю, як також при перерваному акті; піднесення зростає у міру пестощів та подразнення клітора; як тільки акт розпочинається і з клітора припиняється передача подразників, то починає спадати і переходить прямо у стадію відпруження, котра́ може затягтися, як я вже казала у розділі про кровообіг, на добу і довше.
-# translit = Ćа kryva pokazuě perebih statevoho aktu u žinky z vykľučno klitornoju vrazlyvisťu, jak takož pry perervanomu akti; pidnesenńа zrostaě u miru pestoščiv ta podraznenńа klitora; jak tiľky akt rozpočynaěťśа i z klitora prypyńаěťśа peredača podraznykiv, to počynaě spadaty i perechodyť pŕаmo u stadiju vidpruženńа, kotrá može zaťаhtyśа, jak ja vže kazala u rozdili pro krovoobih, na dobu i dovše.
+# translit = Ćа kryva pokazuě perebih statevoho aktu u žinky z vykľučno klitornoju vrazlyvisťu, jak takož pry perervanomu akti; pidnesenńа zrostaě u miru pestoščiv ta podraznenńа klitora; jak tiľky akt rozpočynaěťśа i z klitora prypyńаěťśа peredača podraznykiv, to počynaě spadaty i perechodyť pŕаmo u stadiju vidpruženńа, kotra može zaťаhtyśа, jak ja vže kazala u rozdili pro krovoobih, na dobu i dovše.
 1	Ця	цей	DET	Pd--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	2:det	Id=1fjx|LTranslit=cej|Translit=Ćа
 2	крива	крива	NOUN	Ao-fsns	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	Id=1fjy|LTranslit=kryva|Translit=kryva
 3	показує	показувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=1fjz|LTranslit=pokazuvaty|Translit=pokazuě
@@ -3965,7 +3965,7 @@
 47	стадію	стадія	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	44	obl	44:obl|51:nsubj:rel|52:nsubj:x	Id=1fl7|LTranslit=stadija|Translit=stadiju
 48	відпруження	відпруження	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	47	nmod	47:nmod	Id=1fl8|LTranslit=vidpruženńа|SpaceAfter=No|Translit=vidpruženńа
 49	,	,	PUNCT	U	_	51	punct	51:punct	Id=1fl9|LTranslit=,|Translit=,
-50	котра́	котрий	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	51	nsubj	47:ref|51:nsubj|52:nsubj:x	Id=1fla|LTranslit=kotryj|Translit=kotrá
+50	котра́	котрий	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	51	nsubj	47:ref|51:nsubj|52:nsubj:x	Id=1fla|LTranslit=kotryj|Translit=kotra
 51	може	могти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	acl:relcl	47:acl:relcl	Id=1flb|LTranslit=mohty|Translit=može
 52	затягтися	затягтися	VERB	Vmen	Aspect=Perf|VerbForm=Inf	51	xcomp	51:xcomp	Id=1flc|LTranslit=zaťаhtyśа|SpaceAfter=No|Translit=zaťаhtyśа
 53	,	,	PUNCT	U	_	57	punct	57:punct	Id=1fld|LTranslit=,|Translit=,
@@ -4003,14 +4003,14 @@
 # annotation_gap
 # sent_id = 2syk
 # text = Оргазм надбігає, з лету проскочивши плато́, прямо зі стадії збудження, після чого напруга круто спадає.
-# translit = Orhazm nadbihaě, z letu proskočyvšy plató, pŕаmo zi stadiji zbudženńа, pisľа čoho napruha kruto spadaě.
+# translit = Orhazm nadbihaě, z letu proskočyvšy plato, pŕаmo zi stadiji zbudženńа, pisľа čoho napruha kruto spadaě.
 1	Оргазм	оргазм	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj	Id=1fml|LTranslit=orhazm|Translit=Orhazm
 2	надбігає	надбігати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=1fmm|LTranslit=nadbihaty|SpaceAfter=No|Translit=nadbihaě
 3	,	,	PUNCT	U	_	6	punct	6:punct	Id=1fmn|LTranslit=,|Translit=,
 4	з	з	ADP	Spsg	Case=Gen	5	case	5:case	Id=1fmo|LTranslit=z|Translit=z
 5	лету	літ	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	6:obl	Id=1fmp|LTranslit=lit|Translit=letu
 6	проскочивши	проскочити	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	2	advcl	2:advcl	Id=1fmq|LTranslit=proskočyty|Translit=proskočyvšy
-7	плато́	плато	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|Uninflect=Yes	6	obj	6:obj	Id=1fmr|LTranslit=plato|SpaceAfter=No|Translit=plató
+7	плато́	плато	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|Uninflect=Yes	6	obj	6:obj	Id=1fmr|LTranslit=plato|SpaceAfter=No|Translit=plato
 8	,	,	PUNCT	U	_	6	punct	6:punct	Id=1fms|LTranslit=,|Translit=,
 9	прямо	прямо	PART	Q	_	11	discourse	11:discourse	Id=1fmt|LTranslit=pŕаmo|Translit=pŕаmo
 10	зі	зі	ADP	Spsg	Case=Gen	11	case	11:case	Id=1fmu|LTranslit=zi|Translit=zi
@@ -4128,7 +4128,7 @@
 
 # sent_id = 2syp
 # text = Можна б його назвати статевою підхожістю або як давніше це називали — покликом ста́ті.
-# translit = Možna b joho nazvaty statevoju pidchožisťu abo jak davniše ce nazyvaly — poklykom státi.
+# translit = Možna b joho nazvaty statevoju pidchožisťu abo jak davniše ce nazyvaly — poklykom stati.
 1	Можна	можна	ADV	R	_	0	root	0:root	Id=1fpg|LTranslit=možna|Translit=Možna
 2	б	б	AUX	Q	Mood=Cnd	1	aux	1:aux	Id=1fph|LTranslit=b|Translit=b
 3	його	він	PRON	Pp-3m-san	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	4:obj|6:nsubj:sp	Id=1fpi|LTranslit=vin|Translit=joho
@@ -4142,7 +4142,7 @@
 11	називали	називати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	13	acl	13:acl	Id=1fpq|LTranslit=nazyvaty|Translit=nazyvaly
 12	—	—	PUNCT	U	PunctType=Dash	11	punct	11:punct	Id=1fpr|LTranslit=—|Translit=—
 13	покликом	поклик	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	conj	4:xcomp:sp|6:conj	Id=1fps|LTranslit=poklyk|Translit=poklykom
-14	ста́ті	стать	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	13:nmod	Id=1fpt|LTranslit=stať|SpaceAfter=No|Translit=státi
+14	ста́ті	стать	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	13:nmod	Id=1fpt|LTranslit=stať|SpaceAfter=No|Translit=stati
 15	.	.	PUNCT	U	_	1	punct	1:punct	Id=1fpu|LTranslit=.|Translit=.
 
 # sent_id = 2syq
