@@ -5,7 +5,7 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>7060</sentences><tokens>122044</tokens><words>122093</words><fused>49</fused></total>
+    <total><sentences>7060</sentences><tokens>122042</tokens><words>122091</words><fused>49</fused></total>
   </size>
   <lemmas unique="18095" /><!-- ,, ., і, на, у, в, з, не, що, бути, та, —, до, -, він -->
   <forms unique="31547" /><!-- ,, ., і, на, у, в, з, не, що, та, —, до, -, а, « -->
@@ -21,12 +21,12 @@
     <tag name="INTJ">123</tag><!-- так, ні, ой, йой, о, га, дзяв, е, ма-у, ну -->
     <tag name="NOUN">29307</tag><!-- рік, час, людина, день, мова, раз, чоловік, життя, %, місце -->
     <tag name="NUM">1638</tag><!-- два, 1, 2, один, 5, три, 3, 7, 4, 10 -->
-    <tag name="PART">3525</tag><!-- не, й, і, ж, то, навіть, тільки, лише, саме, чи -->
+    <tag name="PART">3524</tag><!-- не, й, і, ж, то, навіть, тільки, лише, саме, чи -->
     <tag name="PRON">5046</tag><!-- він, я, це, вони, ми, вона, те, що, ви, себе -->
     <tag name="PROPN">3504</tag><!-- Україна, Київ, США, Львів, Марія, Європа, Росія, Міра, Андрій, Вінстон -->
-    <tag name="PUNCT">23121</tag><!-- ,, ., —, -, «, », ), (, ", : -->
+    <tag name="PUNCT">23117</tag><!-- ,, ., —, -, «, », ), (, ", : -->
     <tag name="SCONJ">2329</tag><!-- що, як, щоб, бо, якщо, коли, ніж, щоби, оскільки, адже -->
-    <tag name="SYM">105</tag><!-- ), :), #, )), +, ;), ))), ;)), *, :rolleyes: -->
+    <tag name="SYM">108</tag><!-- ), :), #, )), +, ;), *, ))), ;)), :rolleyes: -->
     <tag name="VERB">12842</tag><!-- бути, мати, могти, казати, знати, стати, робити, сказати, хотіти, зробити -->
     <tag name="X">596</tag><!-- Office, the, Windows, Amazon, DITIB, cyanus, Centaurea, GFP, mneme, n -->
   </tags>
@@ -83,7 +83,7 @@
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">726</feat><!-- всі, все, всіх, завжди, усі, усіх, кожен, кожного, весь, усе -->
     <feat name="PunctType" value="Bull" upos="PUNCT">8</feat><!-- —, ✓, - -->
     <feat name="PunctType" value="Dash" upos="PUNCT">1437</feat><!-- —, -, –, – -->
-    <feat name="PunctType" value="Hyph" upos="PUNCT">523</feat><!-- -, –, − -->
+    <feat name="PunctType" value="Hyph" upos="PUNCT">522</feat><!-- -, –, − -->
     <feat name="PunctType" value="Ndash" upos="PUNCT">76</feat><!-- -, –, — -->
     <feat name="PunctType" value="Quot" upos="PUNCT">2136</feat><!-- «, », ", ”, “, „, ' -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">706</feat><!-- собі, себе, свою, свого, сам, свої, свій, своїх, самі, собою -->
@@ -111,14 +111,14 @@
     <dep name="advmod">6522</dep>
     <dep name="advmod:det">43</dep>
     <dep name="amod">9711</dep>
-    <dep name="appos">849</dep>
+    <dep name="appos">850</dep>
     <dep name="aux">253</dep>
     <dep name="case">10988</dep>
     <dep name="cc">4812</dep>
     <dep name="ccomp">616</dep>
     <dep name="compound">513</dep>
     <dep name="compound:svc">10</dep>
-    <dep name="conj">6308</dep>
+    <dep name="conj">6307</dep>
     <dep name="conj:svc">6</dep>
     <dep name="cop">802</dep>
     <dep name="csubj">551</dep>
@@ -137,7 +137,7 @@
     <dep name="flat:repeat">77</dep>
     <dep name="flat:sibl">69</dep>
     <dep name="flat:title">1067</dep>
-    <dep name="goeswith">6</dep>
+    <dep name="goeswith">5</dep>
     <dep name="iobj">345</dep>
     <dep name="list">18</dep>
     <dep name="mark">2299</dep>
@@ -152,7 +152,7 @@
     <dep name="parataxis:discourse">223</dep>
     <dep name="parataxis:newsent">4</dep>
     <dep name="parataxis:rel">44</dep>
-    <dep name="punct">23118</dep>
+    <dep name="punct">23117</dep>
     <dep name="reparandum">1</dep>
     <dep name="root">7060</dep>
     <dep name="vocative">101</dep>

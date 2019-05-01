@@ -11622,9 +11622,9 @@
 43	управління	управління	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	41	nmod	41:nmod	Id=2acm|LTranslit=upravlinńа|Translit=upravlinńа
 44	акціями	акція	NOUN	Ncfpin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	43	nmod	43:nmod|52:nsubj:rel	Id=2acn|LTranslit=akcija|Translit=akcijamy
 45	(	(	PUNCT	U	_	46	punct	46:punct	Id=2aco|LTranslit=(|SpaceAfter=No|Translit=(
-46	частками	частка	NOUN	Ncfpin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	44	conj	43:nmod|44:conj|52:nsubj:rel	Id=2acp|LTranslit=častka|SpaceAfter=No|Translit=častkamy
+46	частками	частка	NOUN	Ncfpin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	44	appos	44:appos	Id=2acp|LTranslit=častka|SpaceAfter=No|Translit=častkamy
 47	,	,	PUNCT	U	_	48	punct	48:punct	Id=2acq|LTranslit=,|Translit=,
-48	паями	пай	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	44	conj	43:nmod|44:conj|52:nsubj:rel	Id=2acr|LTranslit=paj|SpaceAfter=No|Translit=pajamy
+48	паями	пай	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	46	conj	44:appos|46:conj	Id=2acr|LTranslit=paj|SpaceAfter=No|Translit=pajamy
 49	)	)	PUNCT	U	_	46	punct	46:punct	Id=2acs|LTranslit=)|SpaceAfter=No|Translit=)
 50	,	,	PUNCT	U	_	52	punct	52:punct	Id=2act|LTranslit=,|Translit=,
 51	що	що	SCONJ	Css	_	52	mark	52:mark	Id=2acu|LTranslit=ščo|Translit=ščo
