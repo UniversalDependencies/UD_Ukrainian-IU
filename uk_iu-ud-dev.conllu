@@ -84,7 +84,7 @@
 5	гнівався	гніватися	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=02ve|LTranslit=hnivatyśа|SpaceAfter=No|Translit=hnivavśа
 6	,	,	PUNCT	U	_	7	punct	7:punct	Id=02vf|LTranslit=,|Translit=,
 7	навпаки	навпаки	ADV	R	_	10	advmod	10:advmod	Id=02vg|LTranslit=navpaky|SpaceAfter=No|Translit=navpaky
-8	,	,	PUNCT	U	_	7	punct	7:punct|10:punct	Id=02vh|LTranslit=,|Translit=,
+8	,	,	PUNCT	U	_	10	punct	10:punct	Id=02vh|LTranslit=,|Translit=,
 9	всі	весь	DET	Pg----pna	Case=Nom|Number=Plur|PronType=Tot	10	nsubj	10:nsubj	Id=02vi|LTranslit=veś|Translit=vsi
 10	перейнялися	перейнятися	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	5	parataxis	5:parataxis	Id=02vj|LTranslit=perejńаtyśа|Translit=perejńаlyśа
 11	до	до	ADP	Spsg	Case=Gen	12	case	12:case	Id=02vk|LTranslit=do|Translit=do
@@ -3418,7 +3418,7 @@
 16	підозри	підозра	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	14:obj	Id=14ep|LTranslit=pidozra|Translit=pidozry
 17	в	в	ADP	Spsl	Case=Loc	18	case	18:case	Id=14eq|LTranslit=v|Translit=v
 18	містифікації	містифікація	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	16:nmod	Id=14er|LTranslit=mistyfikacija|SpaceAfter=No|Translit=mistyfikaciji
-19	,	,	PUNCT	U	_	4	punct	4:punct|14:punct	Id=14es|LTranslit=,|Translit=,
+19	,	,	PUNCT	U	_	14	punct	14:punct	Id=14es|LTranslit=,|Translit=,
 20	то	то	PART	Q	PartType=Conseq	24	discourse	24:discourse	Id=14et|LTranslit=to|Translit=to
 21	це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	24	nsubj	24:nsubj	Id=14eu|LTranslit=ce|Translit=ce
 22	висока	високий	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	24	amod	24:amod	Id=14ev|LTranslit=vysokyj|Translit=vysoka
@@ -4627,7 +4627,7 @@
 11	Р	Р.	PROPN	Y	Abbr=Yes|Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing|Uninflect=Yes	10	flat:name	10:flat:name	Id=2l35|LTranslit=R.|SpaceAfter=No|Translit=R
 12	.	.	PUNCT	U	_	11	punct	11:punct	Id=2l36|LTranslit=.|SpaceAfter=No|Translit=.
 13	Р	Р.	PROPN	Y	Abbr=Yes|Animacy=Anim|Case=Acc|Gender=Masc|NameType=Pat|Number=Sing|Uninflect=Yes	10	flat:name	10:flat:name	Id=2l37|LTranslit=R.|SpaceAfter=No|Translit=R
-14	.	.	PUNCT	U	_	13	punct	6:punct|13:punct	Id=2l38|LTranslit=.|Translit=.
+14	.	.	PUNCT	U	_	13	punct	13:punct	Id=2l38|LTranslit=.|Translit=.
 
 # newpar id = 2l3a
 # sent_id = 2l39
@@ -7045,7 +7045,7 @@
 22	раніше	раніше	ADV	Rc	Degree=Cmp	23	advmod	23:advmod	Id=1u4o|LTranslit=raniše|Translit=raniše
 23	відзнято	відзняти	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	8	acl:relcl	8:acl:relcl	Id=1u4p|LTranslit=vidzńаty|Translit=vidzńаto
 24	відеокліпи	відеокліп	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obj	23:obj	Id=1u4q|LTranslit=videoklip|SpaceAfter=No|Translit=videoklipy
-25	,	,	PUNCT	U	_	23	punct	23:punct|28:punct	Id=1u4r|LTranslit=,|Translit=,
+25	,	,	PUNCT	U	_	28	punct	28:punct	Id=1u4r|LTranslit=,|Translit=,
 26	а	а	CCONJ	Ccs	_	28	cc	28:cc	Id=1u4s|LTranslit=a|Translit=a
 27	також	також	ADV	R	_	26	fixed	26:fixed	Id=1u4t|LTranslit=takož|Translit=takož
 28	композиція	композиція	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	7:nsubj|8:conj|41:obj:rel	Id=1u4u|LTranslit=kompozycija|Translit=kompozycija
@@ -7058,7 +7058,7 @@
 35	героям	герой	NOUN	Ncmpdy	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	34	obj	34:obj	Id=1u51|LTranslit=heroj|Translit=herojam
 36	Небесної	небесний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	37	amod	37:amod	Id=1u52|LTranslit=nebesnyj|Translit=Nebesnoji
 37	Сотні	сотня	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	35:nmod	Id=1u53|LTranslit=sotńа|SpaceAfter=No|Translit=Sotni
-38	,	,	PUNCT	U	_	41	punct	34:punct|41:punct	Id=1u54|LTranslit=,|Translit=,
+38	,	,	PUNCT	U	_	41	punct	41:punct	Id=1u54|LTranslit=,|Translit=,
 39	яку	який	DET	Pr--f-saa	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	41	obj	28:ref|41:obj	Id=1u55|LTranslit=jakyj|Translit=jaku
 40	було	бути	AUX	Vapis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	41	aux	41:aux	Id=1u56|LTranslit=buty|Translit=bulo
 41	оприлюднено	оприлюднити	VERB	Vmeo	Aspect=Perf|Mood=Ind|Person=0|VerbForm=Fin	28	acl:relcl	28:acl:relcl	Id=1u57|LTranslit=opryľudnyty|Translit=opryľudneno
@@ -7365,7 +7365,7 @@
 5	-	-	PUNCT	U	PunctType=Ndash	6	punct	6:punct	Id=1wsa|LTranslit=-|SpaceAfter=No|Translit=-
 6	23	23	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	4	flat:range	4:flat:range	Id=1wsb|LTranslit=23|Translit=23
 7	лютого	лютий	NOUN	Ao-msgf	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	4:nmod	Id=1wsc|LTranslit=ľutyj|SpaceAfter=No|Translit=ľutoho
-8	,	,	PUNCT	U	_	10	punct	4:punct|10:punct	Id=1wsd|LTranslit=,|Translit=,
+8	,	,	PUNCT	U	_	10	punct	10:punct	Id=1wsd|LTranslit=,|Translit=,
 9	у	у	ADP	Spsl	Case=Loc	10	case	10:case	Id=1wse|LTranslit=u|Translit=u
 10	зв'язку	зв’язок	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	37	obl	37:obl	Id=1wsf|LTranslit=zvjazok|Translit=zvjazku
 11	з	з	ADP	Spsi	Case=Ins	12	case	12:case|14:case	Id=1wsg|LTranslit=z|Translit=z
@@ -10240,7 +10240,7 @@
 30	становитиме	становити	VERB	Vmpif3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	conj	2:ccomp|6:conj	Id=28cn|LTranslit=stanovyty|Translit=stanovytyme
 31	63	63	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	32	nummod	32:nummod	Id=28co|LTranslit=63|Translit=63
 32	тис	тис.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur|NumType=Card|Uninflect=Yes	30	obj	30:obj	Id=28cp|LTranslit=tys.|SpaceAfter=No|Translit=tys
-33	.	.	PUNCT	U	_	32	punct	2:punct|32:punct	Id=28cq|LTranslit=.|Translit=.
+33	.	.	PUNCT	U	_	32	punct	32:punct	Id=28cq|LTranslit=.|Translit=.
 
 # sent_id = 28cr
 # text = Тобто 2%.
@@ -11472,7 +11472,7 @@
 15	на	на	ADP	Spsa	Case=Acc	17	case	17:case	Id=299p|LTranslit=na|Translit=na
 16	мою	мій	DET	Pps1f-saa	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	det	17:det	Id=299q|LTranslit=mij|Translit=moju
 17	думку	думка	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	parataxis:discourse	13:parataxis:discourse	Id=299r|LTranslit=dumka|SpaceAfter=No|Translit=dumku
-18	,	,	PUNCT	U	_	17	punct	17:punct|23:punct	Id=299s|LTranslit=,|Translit=,
+18	,	,	PUNCT	U	_	23	punct	23:punct	Id=299s|LTranslit=,|Translit=,
 19	але	але	CCONJ	Ccs	_	23	cc	23:cc	Id=299t|LTranslit=ale|Translit=ale
 20	загалом	загалом	ADV	R	_	23	advmod	23:advmod	Id=299u|LTranslit=zahalom|Translit=zahalom
 21	рівень	рівень	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	23:nsubj	Id=299v|LTranslit=riveń|Translit=riveń
@@ -11873,7 +11873,7 @@
 24	Бресті	Брест	PROPN	Npmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	conj	17:nmod|19:conj	Id=2aix|LTranslit=Brest|SpaceAfter=No|Translit=Bresti
 25	,	,	PUNCT	U	_	26	punct	26:punct	Id=2aiy|LTranslit=,|Translit=,
 26	Білорусь	Білорусь	PROPN	Npfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	appos	24:appos	Id=2aiz|LTranslit=Biloruś|SpaceAfter=No|Translit=Biloruś
-27	,	,	PUNCT	U	_	26	punct	26:punct|30:punct	Id=2aj0|LTranslit=,|Translit=,
+27	,	,	PUNCT	U	_	30	punct	30:punct	Id=2aj0|LTranslit=,|Translit=,
 28	і	і	CCONJ	Ccs	_	30	cc	30:cc	Id=2aj1|LTranslit=i|Translit=i
 29	водночас	водночас	ADV	R	_	30	advmod	30:advmod	Id=2aj2|LTranslit=vodnočas|Translit=vodnočas
 30	розміщувати	розміщувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	2	conj	0:root|2:conj	Id=2aj3|LTranslit=rozmiščuvaty|Translit=rozmiščuvaty
@@ -13282,7 +13282,7 @@
 3	що	що	SCONJ	Css	_	5	mark	5:mark	Id=2gv7|LTranslit=ščo|Translit=ščo
 4	вони	вони	PRON	Pp-3--pnn	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj	Id=2gv8|LTranslit=vony|Translit=vony
 5	вимагають	вимагати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	1:acl:relcl	Id=2gv9|LTranslit=vymahaty|SpaceAfter=No|Translit=vymahajuť
-6	,	,	PUNCT	U	_	5	punct	5:punct|7:punct	Id=2gva|LTranslit=,|Translit=,
+6	,	,	PUNCT	U	_	7	punct	7:punct	Id=2gva|LTranslit=,|Translit=,
 7	може	може	ADV	R	_	9	discourse	9:discourse	Id=2gvb|LTranslit=može|SpaceAfter=No|Translit=može
 8	,	,	PUNCT	U	_	7	punct	7:punct	Id=2gvc|LTranslit=,|Translit=,
 9	нормально	нормально	ADV	R	_	0	root	0:root	Id=2gvd|LTranslit=normaľno|Translit=normaľno
