@@ -14309,7 +14309,7 @@
 # text = Стосовно ж далекозорого КДБ, то ця делікатна служба намагалася навернути поета “на шлях істини” настільки неделікатно, що Михайло не скорився, був змушений перейти на заочне відділення сільгоспінституту, а потім і дременути з Полтави”.
 # translit = Stosovno ž dalekozoroho KDB, to ćа delikatna služba namahalaśа navernuty poeta “na šľаch istyny” nastiľky nedelikatno, ščo Mychajlo ne skoryvśа, buv zmušenyj perejty na zaočne viddilenńа siľhospinstytutu, a potim i dremenuty z Poltavy”.
 1	Стосовно	стосовно	ADP	Spsg	Case=Gen	4	case	4:case	Id=2s2p|LTranslit=stosovno|Translit=Stosovno
-2	ж	ж	PART	Q	_	1	discourse	1:discourse	Id=2s2q|LTranslit=ž|Translit=ž
+2	ж	ж	PART	Q	_	4	discourse	4:discourse	Id=2s2q|LTranslit=ž|Translit=ž
 3	далекозорого	далекозорий	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	4	amod	4:amod	Id=2s2r|LTranslit=dalekozoryj|Translit=dalekozoroho
 4	КДБ	КДБ	PROPN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Uninflect=Yes	10	parataxis:discourse	10:parataxis:discourse	Id=2s2s|LTranslit=KDB|SpaceAfter=No|Translit=KDB
 5	,	,	PUNCT	U	_	4	punct	4:punct	Id=2s2t|LTranslit=,|Translit=,
@@ -17462,8 +17462,8 @@
 20	та	та	CCONJ	Ccs	_	22	cc	22:cc	Id=3508|LTranslit=ta|Translit=ta
 21	лінійної	лінійний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	22	amod	22:amod	Id=3509|LTranslit=linijnyj|Translit=linijnoji
 22	комбінації	комбінація	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	conj	17:nmod|19:conj	Id=350a|LTranslit=kombinacija|Translit=kombinaciji
-23	n	n	X	X	Foreign=Yes	24	nummod	24:nummod	Id=350b|LTranslit=n|Translit=n
-24	розв'язків	розв’язок	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	22:nmod	Id=350c|LTranslit=rozvjazok|Translit=rozvjazkiv
+23	n	n	X	X	Foreign=Yes	22	nmod	22:nmod	Id=350b|LTranslit=n|Translit=n
+24	розв'язків	розв’язок	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	23:nmod	Id=350c|LTranslit=rozvjazok|Translit=rozvjazkiv
 25	однорідного	однорідний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	27	amod	27:amod	Id=350d|LTranslit=odnoridnyj|Translit=odnoridnoho
 26	диференційного	диференційний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	27	amod	27:amod	Id=350e|LTranslit=dyferencijnyj|Translit=dyferencijnoho
 27	рівняння	рівняння	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	24:nmod	Id=350f|LTranslit=rivńаnńа|SpaceAfter=No|Translit=rivńаnńа
