@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Ukrainian-IU:
-commit 23096deac8fe265ea617e06df6ad9d44c0a073b5
+commit 758bdd3a506c285e2d115b552d13e282e0f37ea6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:48:57 2019 +0100
+Date:   Sun May 10 18:48:25 2020 +0200
 Size: counted 122091 of 122091 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.60953333665246.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,18 +24,19 @@ Udapi: worst expected case (threshold) is one bug per 10 words. There are 122091
 Genres: found 10 out of 17 known.
 validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-dev.conllu
 [Line 2931 Sent 142p Node 26]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [31]
+[Line 11957 Sent 2akw Node 1]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [4]
 [Line 12549 Sent 2o79 Node 12]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (12:наче:mark --> 13:б:discourse)
 [Line 12962 Sent 2ohm Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:як:mark --> 15:от:discourse)
 [Line 13440 Sent 2gy9 Node 26]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (26:як:mark --> 28:от:discourse)
-Syntax errors: 4
-*** FAILED *** with 4 errors
+Syntax errors: 5
+*** FAILED *** with 5 errors
 Exit code: 1
 validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-test.conllu
 [Line 334 Sent 01z1 Node 51]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (51:a:mark --> 52:la:flat)
 [Line 1318 Sent 180v Node 11]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (11:як:mark --> 12:от:discourse)
 [Line 2510 Sent 18x1 Node 16]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (16:хоч:mark --> 17:би:discourse)
 [Line 2731 Sent 193i Node 1]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (1:Коли:mark --> 2:ж:discourse)
-[Line 13745 Sent 2rn8 Node 50]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]
+[Line 13745 Sent 2rn8 Node 50]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
 [Line 17483 Sent 350h Node 8]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'X'
 [Line 18093 Sent 35gv Node 7]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (7:коли:mark --> 8:б:discourse)
 Syntax errors: 7
@@ -45,7 +46,7 @@ validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-train.conllu
 [Line 1028 Sent 00pt Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:як:mark --> 15:от:discourse)
 [Line 1443 Sent 010f Node 1]: [L3 Syntax leaf-cc] 'cc' not expected to have children (1:Тільки:cc --> 2:от:discourse)
 [Line 2263 Sent 01kw Node 13]: [L3 Syntax leaf-cc] 'cc' not expected to have children (13:але:cc --> 14:ж:discourse)
-[Line 2390 Sent 01nn Node 30]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+[Line 2390 Sent 01nn Node 30]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
 [Line 2567 Sent 029g Node 17]: [L3 Syntax leaf-cc] 'cc' not expected to have children (17:та:cc --> 18:й:discourse)
 [Line 8079 Sent 3165 Node 9]: [L3 Syntax leaf-cc] 'cc' not expected to have children (9:але:cc --> 10:ж:discourse)
 [Line 12719 Sent 09hb Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:хіба:mark --> 14:що:discourse)
