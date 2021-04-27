@@ -11954,7 +11954,7 @@
 # sent_id = 2akw
 # text = «Наприклад, може виявитися, що розширення певних заливних територій для того, щоб вони поглинали більше води, зменшить загальний рівень повеней і завдану шкоду», – каже Міхаеліс.
 # translit = «Napryklad, može vyjavytyśа, ščo rozšyrenńа pevnych zalyvnych terytorij dľа toho, ščob vony pohlynaly biľše vody, zmenšyť zahaľnyj riveń povenej i zavdanu škodu», – kaže Michaelis.
-1	«	«	PUNCT	U	PunctType=Quot	5	punct	5:punct	Id=2akx|LTranslit=«|SpaceAfter=No|Translit=«
+1	«	«	PUNCT	U	PunctType=Quot	4	punct	4:punct	Id=2akx|LTranslit=«|SpaceAfter=No|Translit=«
 2	Наприклад	наприклад	ADV	R	_	5	discourse	5:discourse	Id=2aky|LTranslit=napryklad|SpaceAfter=No|Translit=Napryklad
 3	,	,	PUNCT	U	_	2	punct	2:punct	Id=2akz|LTranslit=,|Translit=,
 4	може	могти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=2al0|LTranslit=mohty|Translit=može
