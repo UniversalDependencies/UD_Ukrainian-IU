@@ -13627,7 +13627,7 @@
 54	із	із	ADP	Spsi	Case=Ins	55	case	55:case	Id=2rlj|LTranslit=iz|Translit=iz
 55	зазначенням	зазначення	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	nmod	11:nmod	Id=2rlk|LTranslit=zaznačenńа|SpaceAfter=No|Translit=zaznačenńаm
 56	:	:	PUNCT	U	_	58	punct	58:punct	Id=2rll|LTranslit=:|Translit=:
-57	—	—	PUNCT	U	PunctType=Bull	58	punct	58:punct	Id=2rln|LTranslit=—|NewPar=Yes|Translit=—
+57	—	—	PUNCT	U	PunctType=Dash	58	punct	58:punct	Id=2rln|LTranslit=—|NewPar=Yes|Translit=—
 58	ПІБ	ПІБ	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur|Uninflect=Yes	55	nmod	55:nmod	Id=2rlo|LTranslit=PIB|Translit=PIB
 59	журналістів	журналіст	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	58	nmod	58:nmod	Id=2rlp|LTranslit=žurnalist|SpaceAfter=No|Translit=žurnalistiv
 60	,	,	PUNCT	U	_	62	punct	62:punct	Id=2rlq|LTranslit=,|Translit=,
@@ -13638,14 +13638,14 @@
 65	секторів	сектор	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	62	appos	62:appos	Id=2rlv|LTranslit=sektor|SpaceAfter=No|Translit=sektoriv
 66	)	)	PUNCT	U	_	65	punct	65:punct	Id=2rlw|LTranslit=)|SpaceAfter=No|Translit=)
 67	;	;	PUNCT	U	_	69	punct	69:punct	Id=2rlx|LTranslit=;|Translit=;
-68	—	—	PUNCT	U	PunctType=Bull	69	punct	69:punct	Id=2rlz|LTranslit=—|NewPar=Yes|Translit=—
+68	—	—	PUNCT	U	PunctType=Dash	69	punct	69:punct	Id=2rlz|LTranslit=—|NewPar=Yes|Translit=—
 69	марки	марка	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	58	conj	55:nmod|58:conj	Id=2rm0|LTranslit=marka|Translit=marky
 70	і	і	CCONJ	Ccs	_	72	cc	72:cc	Id=2rm1|LTranslit=i|Translit=i
 71	державних	державний	ADJ	Ao--pgf	Case=Gen|Number=Plur	72	amod	72:amod	Id=2rm2|LTranslit=deržavnyj|Translit=deržavnych
 72	номерів	номер	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	69	conj	55:nmod|69:conj	Id=2rm3|LTranslit=nomer|Translit=nomeriv
 73	автомобілів	автомобіль	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	72	nmod	72:nmod	Id=2rm4|LTranslit=avtomobiľ|SpaceAfter=No|Translit=avtomobiliv
 74	;	;	PUNCT	U	_	76	punct	76:punct	Id=2rm5|LTranslit=;|Translit=;
-75	—	—	PUNCT	U	PunctType=Bull	76	punct	76:punct	Id=2rm7|LTranslit=—|NewPar=Yes|Translit=—
+75	—	—	PUNCT	U	PunctType=Dash	76	punct	76:punct	Id=2rm7|LTranslit=—|NewPar=Yes|Translit=—
 76	номерів	номер	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	58	conj	55:nmod|58:conj	Id=2rm8|LTranslit=nomer|Translit=nomeriv
 77	прес	пресовий	ADJ	A	_	79	compound	79:compound	Id=2rm9|LTranslit=presovyj|SpaceAfter=No|Translit=pres
 78	-	-	PUNCT	U	PunctType=Dash	77	punct	77:punct	Id=2rma|LTranslit=-|SpaceAfter=No|Translit=-
