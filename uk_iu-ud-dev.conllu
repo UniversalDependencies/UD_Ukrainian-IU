@@ -2928,7 +2928,7 @@
 23	тих	той	DET	Pd----pga	Case=Gen|Number=Plur|PronType=Dem	25	det	25:det	Id=143c|LTranslit=toj|Translit=tych
 24	великих	великий	ADJ	Afp-pgf	Case=Gen|Degree=Pos|Number=Plur	25	amod	25:amod	Id=143d|LTranslit=velykyj|Translit=velykych
 25	клопіт	клопіт	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	20:obl	Id=143e|LTranslit=klopit|SpaceAfter=No|Translit=klopit
-26	»	»	PUNCT	U	PunctType=Quot	20	punct	20:punct	Id=143f|LTranslit=»|Translit=»
+26	»	»	PUNCT	U	PunctType=Quot	25	punct	20:punct	Id=143f|LTranslit=»|Translit=»
 27	(	(	PUNCT	U	_	31	punct	31:punct	Id=143g|LTranslit=(|SpaceAfter=No|Translit=(
 28	тобто	тобто	SCONJ	Css	_	31	mark	31:mark	Id=143h|LTranslit=tobto|Translit=tobto
 29	до	до	ADP	Spsg	Case=Gen	31	case	31:case	Id=143i|LTranslit=do|Translit=do
