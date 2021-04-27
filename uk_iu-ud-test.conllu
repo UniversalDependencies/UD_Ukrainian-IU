@@ -17480,9 +17480,9 @@
 5	,	,	PUNCT	U	_	4	punct	4:punct	Id=350n|LTranslit=,|Translit=,
 6	ми	ми	PRON	Pp-1-ypnn	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	7:nsubj	Id=350o|LTranslit=my|Translit=my
 7	маємо	мати	VERB	Vmpip1p	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=350p|LTranslit=maty|Translit=maěmo
-8	n	n	X	X	Foreign=Yes	10	nummod:gov	10:nummod:gov	Id=350q|LTranslit=n|Translit=n
+8	n	n	X	X	Foreign=Yes	7	obj	7:obj	Id=350q|LTranslit=n|Translit=n
 9	різних	різний	ADJ	Ao--pgf	Case=Gen|Number=Plur	10	amod	10:amod	Id=350r|LTranslit=riznyj|Translit=riznych
-10	розв'язків	розв’язок	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obj	7:obj	Id=350s|LTranslit=rozvjazok|Translit=rozvjazkiv
+10	розв'язків	розв’язок	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	8:nmod	Id=350s|LTranslit=rozvjazok|Translit=rozvjazkiv
 11	диференціального	диференціальний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	12	amod	12:amod	Id=350t|LTranslit=dyferenciaľnyj|Translit=dyferenciaľnoho
 12	рівняння	рівняння	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	10:nmod	Id=350u|LTranslit=rivńаnńа|SpaceAfter=No|Translit=rivńаnńа
 13	.	.	PUNCT	U	_	7	punct	7:punct	Id=350v|LTranslit=.|Translit=.
