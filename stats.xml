@@ -141,10 +141,10 @@
     <dep name="iobj">345</dep>
     <dep name="list">18</dep>
     <dep name="mark">2299</dep>
-    <dep name="nmod">9547</dep>
+    <dep name="nmod">9548</dep>
     <dep name="nsubj">7682</dep>
     <dep name="nummod">490</dep>
-    <dep name="nummod:gov">432</dep>
+    <dep name="nummod:gov">431</dep>
     <dep name="obj">5681</dep>
     <dep name="obl">8594</dep>
     <dep name="orphan">256</dep>
