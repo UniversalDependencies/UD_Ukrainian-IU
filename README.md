@@ -105,6 +105,9 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
 
 ### Changelog
 
+* 2021-05-15 **v2.8**
+  * Undocumented PunctType=Ndash|Hyph|Bull converted to PuncType=Dash.
+
 * 2019-05-15 **v2.4**
   * Closed many annotaion gaps: 116K→122K.
   * Fixed annotation errors.
