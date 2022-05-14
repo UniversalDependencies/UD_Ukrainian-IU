@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Ukrainian-IU:
-commit 83491104dd61f3156ff8963dca77ba14a6f06439
+commit b4f888da8fef86b4272689b38251324c103997c6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 10:02:36 2021 +0200
+Date:   Wed Nov 3 17:08:19 2021 +0100
 Size: counted 122091 of 122091 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.60953333665246.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,22 +25,82 @@ Udapi: found 82 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 122091 words.
 Genres: found 10 out of 17 known.
 validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-dev.conllu
+[Line 9 Sent 02to]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:rel' in '5:nsubj:rel'
+
+The following 62 enhanced relations are currently permitted in language [uk]:
+acl, acl:adv, acl:relcl, advcl, advcl:sp, advcl:svc, advmod, advmod:det, amod, appos, aux, case, cc, ccomp, clf, compound, compound:svc, conj, conj:svc, cop, csubj, csubj:xsubj, dep, det, det:numgov, det:nummod, discourse, dislocated, expl, fixed, flat, flat:abs, flat:foreign, flat:name, flat:range, flat:repeat, flat:sibl, flat:title, goeswith, iobj, list, mark, nmod, nsubj, nsubj:xsubj, nummod, nummod:gov, obj, obl, orphan, parataxis, parataxis:discourse, parataxis:newsent, parataxis:rel, punct, ref, reparandum, root, vocative, vocative:cl, xcomp, xcomp:sp
+See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_edeprel.pl for details.
+
+[Line 101 Sent 02vp]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obj:rel' in '12:obj:rel'
+[Line 175 Sent 0oiy]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '7:nsubj:x'
+[Line 384 Sent 0oon]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '12:nsubj:sp'
+[Line 461 Sent 0oqu]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl:rel' in '10:obl:rel'
+[Line 498 Sent 0or9]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obj:rel' in '29:obj:rel'
+[Line 528 Sent 0ose]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:rel' in '18:nsubj:rel'
+[Line 662 Sent 0ovx]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '10:nsubj:sp'
+[Line 816 Sent 0p1h]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obj:rel' in '4:obj:rel'
+...suppressing further errors regarding Enhanced
+[Line 10977 Sent 28vn Node 30]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 10978 Sent 28vn Node 31]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 10978 Sent 28vn Node 31]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 10978 Sent 28vn Node 31]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
 [Line 12549 Sent 2o79 Node 12]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (12:наче:mark --> 13:б:discourse)
 [Line 12962 Sent 2ohm Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:як:mark --> 15:от:discourse)
 [Line 13440 Sent 2gy9 Node 26]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (26:як:mark --> 28:от:discourse)
+Enhanced errors: 316
+Morpho errors: 4
 Syntax errors: 3
-*** FAILED *** with 3 errors
+*** FAILED *** with 323 errors
 Exit code: 1
 validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-test.conllu
+[Line 51 Sent 01s7]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl:rel' in '14:obl:rel'
+
+The following 62 enhanced relations are currently permitted in language [uk]:
+acl, acl:adv, acl:relcl, advcl, advcl:sp, advcl:svc, advmod, advmod:det, amod, appos, aux, case, cc, ccomp, clf, compound, compound:svc, conj, conj:svc, cop, csubj, csubj:xsubj, dep, det, det:numgov, det:nummod, discourse, dislocated, expl, fixed, flat, flat:abs, flat:foreign, flat:name, flat:range, flat:repeat, flat:sibl, flat:title, goeswith, iobj, list, mark, nmod, nsubj, nsubj:xsubj, nummod, nummod:gov, obj, obl, orphan, parataxis, parataxis:discourse, parataxis:newsent, parataxis:rel, punct, ref, reparandum, root, vocative, vocative:cl, xcomp, xcomp:sp
+See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_edeprel.pl for details.
+
+[Line 76 Sent 38va]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '13:nsubj:sp'
+[Line 216 Sent 01wz]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '2:nsubj:sp'
+[Line 222 Sent 01wz]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl:rel' in '29:obl:rel'
+[Line 315 Sent 01z1]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:rel' in '36:nsubj:rel'
 [Line 334 Sent 01z1 Node 51]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (51:a:mark --> 52:la:flat)
+[Line 530 Sent 023b]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '88:nsubj:x'
+[Line 567 Sent 026h]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '7:nsubj:x'
+[Line 616 Sent 027o]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl:rel' in '7:obl:rel'
+[Line 662 Sent 08h3]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '3:nsubj:x'
+...suppressing further errors regarding Enhanced
 [Line 1318 Sent 180v Node 11]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (11:як:mark --> 12:от:discourse)
+[Line 1945 Sent 18g6 Node 21]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 1946 Sent 18g6 Node 22]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 1946 Sent 18g6 Node 22]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 1946 Sent 18g6 Node 22]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
 [Line 2510 Sent 18x1 Node 16]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (16:хоч:mark --> 17:би:discourse)
 [Line 2731 Sent 193i Node 1]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (1:Коли:mark --> 2:ж:discourse)
+[Line 9150 Sent 1mkd Node 16]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 9151 Sent 1mkd Node 17]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 9151 Sent 1mkd Node 17]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
 [Line 18093 Sent 35gv Node 7]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (7:коли:mark --> 8:б:discourse)
+Enhanced errors: 277
+Morpho errors: 7
 Syntax errors: 5
-*** FAILED *** with 5 errors
+*** FAILED *** with 289 errors
 Exit code: 1
 validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-train.conllu
+[Line 95 Sent 001z]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '11:nsubj:sp'
+
+The following 62 enhanced relations are currently permitted in language [uk]:
+acl, acl:adv, acl:relcl, advcl, advcl:sp, advcl:svc, advmod, advmod:det, amod, appos, aux, case, cc, ccomp, clf, compound, compound:svc, conj, conj:svc, cop, csubj, csubj:xsubj, dep, det, det:numgov, det:nummod, discourse, dislocated, expl, fixed, flat, flat:abs, flat:foreign, flat:name, flat:range, flat:repeat, flat:sibl, flat:title, goeswith, iobj, list, mark, nmod, nsubj, nsubj:xsubj, nummod, nummod:gov, obj, obl, orphan, parataxis, parataxis:discourse, parataxis:newsent, parataxis:rel, punct, ref, reparandum, root, vocative, vocative:cl, xcomp, xcomp:sp
+See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_edeprel.pl for details.
+
+[Line 107 Sent 001z]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '24:nsubj:x'
+[Line 137 Sent 0038]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '5:nsubj:sp'
+[Line 152 Sent 003l]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:rel' in '5:nsubj:rel'
+[Line 171 Sent 003l]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '23:nsubj:x'
+[Line 266 Sent 0069]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '13:nsubj:x'
+[Line 266 Sent 0069]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '15:nsubj:sp'
+[Line 314 Sent 007k]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '7:nsubj:sp'
+[Line 388 Sent 008c]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '55:nsubj:sp'
+...suppressing further errors regarding Enhanced
 [Line 1028 Sent 00pt Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:як:mark --> 15:от:discourse)
 [Line 1443 Sent 010f Node 1]: [L3 Syntax leaf-cc] 'cc' not expected to have children (1:Тільки:cc --> 2:от:discourse)
 [Line 2263 Sent 01kw Node 13]: [L3 Syntax leaf-cc] 'cc' not expected to have children (13:але:cc --> 14:ж:discourse)
@@ -51,8 +111,16 @@ validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-train.conllu
 [Line 23946 Sent 0h7q Node 7]: [L3 Syntax leaf-cc] 'cc' not expected to have children (7:та:cc --> 8:й:discourse)
 [Line 26826 Sent 2u7d Node 9]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (9:як:mark --> 11:от:discourse)
 ...suppressing further errors regarding Syntax
+[Line 81126 Sent 1oy2 Node 47]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 81127 Sent 1oy2 Node 48]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 103135 Sent 2a2i Node 12]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 103136 Sent 2a2i Node 13]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 103136 Sent 2a2i Node 13]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 103136 Sent 2a2i Node 13]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+Enhanced errors: 1803
+Morpho errors: 6
 Syntax errors: 39
-*** FAILED *** with 39 errors
+*** FAILED *** with 1848 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
