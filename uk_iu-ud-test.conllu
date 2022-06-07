@@ -1942,8 +1942,8 @@
 18	культурного	культурний	ADJ	Afpmsgf	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	24:amod	Id=18go|LTranslit=kuľturnyj|Translit=kuľturnoho
 19	і	і	CCONJ	Ccs	_	20	cc	20:cc	Id=18gp|LTranslit=i|Translit=i
 20	лицарського	лицарський	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	18	conj	18:conj|24:amod	Id=18gq|LTranslit=lycarśkyj|Translit=lycarśkoho
-21	45-ти	45	NUM	Mlc-pg	Case=Gen|Number=Plur|NumType=Card	24	amod	24:amod	Id=18gr|LTranslit=45|Translit=45-ty
-22	мільйонового	мільйоновий	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	21	goeswith	21:goeswith	Id=18gs|LTranslit=miľjonovyj|Translit=miľjonovoho
+21	45-ти	45-тимільйоновий	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing|Typo=Yes	24	amod	24:amod	Id=18gr|LTranslit=45-tymiľjonovyj|Translit=45-ty
+22	мільйонового	_	X	X	_	21	goeswith	21:goeswith	Id=18gs|Translit=miľjonovoho
 23	українського	український	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	24	amod	24:amod	Id=18gt|LTranslit=ukrajinśkyj|Translit=ukrajinśkoho
 24	народу	народ	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	17:nmod	Id=18gu|LTranslit=narod|Translit=narodu
 25	та	та	CCONJ	Ccs	_	26	cc	26:cc	Id=18gv|LTranslit=ta|Translit=ta
@@ -9147,8 +9147,8 @@
 13	Pizza	Pizza	X	X	Foreign=Yes	12	flat:foreign	12:flat:foreign	Id=1mkq|LTranslit=Pizza|Translit=Pizza
 14	Tracker	Tracker	X	X	Foreign=Yes	12	flat:foreign	12:flat:foreign	Id=1mkr|LTranslit=Tracker|SpaceAfter=No|Translit=Tracker
 15	,	,	PUNCT	U	_	19	punct	19:punct	Id=1mks|LTranslit=,|Translit=,
-16	що	що	SCONJ	Css	_	19	mark	19:mark	Id=1mkt|LTranslit=ščo|Translit=ščo
-17	б	б	PART	Q	_	16	goeswith	16:goeswith	Id=1mku|LTranslit=b|Translit=b
+16	що	щоб	SCONJ	Css	Typo=Yes	19	mark	19:mark	Id=1mkt|LTranslit=ščob|Translit=ščo
+17	б	_	X	X	_	16	goeswith	16:goeswith	Id=1mku|Translit=b
 18	Ви	ви	PRON	Pp-2-ypnn	Animacy=Anim|Case=Nom|Number=Plur|Person=2|PronType=Prs	19	nsubj	19:nsubj|20:nsubj:x	Id=1mkv|LTranslit=vy|Translit=Vy
 19	могли	могти	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	11	advcl	11:advcl	Id=1mkw|LTranslit=mohty|Translit=mohly
 20	відслідковувати	відслідковувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	19	xcomp	19:xcomp	Id=1mkx|LTranslit=vidslidkovuvaty|Translit=vidslidkovuvaty

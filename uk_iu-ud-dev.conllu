@@ -10974,8 +10974,8 @@
 27	скріншот	скріншот	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	nsubj	34:nsubj	Id=28we|LTranslit=skrinšot|Translit=skrinšot
 28	в	в	ADP	Spsl	Case=Loc	29	case	29:case	Id=28wf|LTranslit=v|Translit=v
 29	статті	стаття	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	nmod	27:nmod	Id=28wg|LTranslit=statťа|Translit=statti
-30	як	як	SCONJ	Css	_	34	discourse	34:discourse	Id=28wh|LTranslit=jak|Translit=jak
-31	раз	раз	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	goeswith	30:goeswith	Id=28wi|LTranslit=raz|Translit=raz
+30	як	якраз	PART	Q	Typo=Yes	34	discourse	34:discourse	Id=28wh|LTranslit=jakraz|Translit=jak
+31	раз	_	X	X	_	30	goeswith	30:goeswith	Id=28wi|Translit=raz
 32	з	з	ADP	Spsg	Case=Gen	34	case	34:case	Id=28wj|LTranslit=z|Translit=z
 33	тої	той	DET	Pd--f-sga	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	34	det	34:det	Id=28wk|LTranslit=toj|Translit=toji
 34	серії	серія	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	parataxis	4:parataxis	Id=28wl|LTranslit=serija|Translit=seriji

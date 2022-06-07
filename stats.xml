@@ -10,7 +10,7 @@
     <dev><sentences>672</sentences><tokens>12573</tokens><words>12574</words><fused>1</fused></dev>
     <test><sentences>892</sentences><tokens>17114</tokens><words>17116</words><fused>2</fused></test>
   </size>
-  <lemmas unique="18095" /><!-- ,, ., і, на, у, в, з, не, що, бути, та, —, до, -, він -->
+  <lemmas unique="18096" /><!-- ,, ., і, на, у, в, з, не, що, бути, та, —, до, -, він -->
   <forms unique="31547" /><!-- ,, ., і, на, у, в, з, не, що, та, —, до, -, а, « -->
   <fusions unique="24" /><!-- нікому, ніколи, ніде, нікуди, нічим, півгодини, півроку, ніким, ніяк, півдороги, нізвідки, нікого, нічого, пів'ярда, півгарнізона -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -22,32 +22,32 @@
     <tag name="CCONJ">4782</tag><!-- і, та, а, але, й, або, чи, ні, проте, то -->
     <tag name="DET">4649</tag><!-- який, цей, той, свій, такий, весь, інший, один, його, наш -->
     <tag name="INTJ">123</tag><!-- так, ні, ой, йой, о, га, дзяв, е, ма-у, ну -->
-    <tag name="NOUN">29307</tag><!-- рік, час, людина, день, мова, раз, чоловік, життя, %, місце -->
-    <tag name="NUM">1638</tag><!-- два, 1, 2, один, 5, три, 3, 7, 4, 10 -->
+    <tag name="NOUN">29306</tag><!-- рік, час, людина, день, мова, чоловік, раз, життя, %, місце -->
+    <tag name="NUM">1636</tag><!-- два, 1, 2, один, 5, три, 3, 7, 4, 10 -->
     <tag name="PART">3524</tag><!-- не, й, і, ж, то, навіть, тільки, лише, саме, чи -->
     <tag name="PRON">5046</tag><!-- він, я, це, вони, ми, вона, те, що, ви, себе -->
     <tag name="PROPN">3504</tag><!-- Україна, Київ, США, Львів, Марія, Європа, Росія, Міра, Андрій, Вінстон -->
     <tag name="PUNCT">23117</tag><!-- ,, ., —, -, «, », ), (, ", : -->
-    <tag name="SCONJ">2329</tag><!-- що, як, щоб, бо, якщо, коли, ніж, щоби, оскільки, адже -->
+    <tag name="SCONJ">2328</tag><!-- що, як, щоб, бо, якщо, коли, ніж, щоби, оскільки, адже -->
     <tag name="SYM">108</tag><!-- ), :), #, )), +, ;), *, ))), ;)), :rolleyes: -->
     <tag name="VERB">12842</tag><!-- бути, мати, могти, казати, знати, стати, робити, сказати, хотіти, зробити -->
-    <tag name="X">596</tag><!-- Office, the, Windows, Amazon, DITIB, cyanus, Centaurea, GFP, mneme, n -->
+    <tag name="X">600</tag><!-- Office, the, Windows, Amazon, DITIB, _, cyanus, Centaurea, GFP, mneme -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="64">
+  <feats unique="65">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,VERB">838</feat><!-- р, грн, ст, т, м, млрд, УПА, тис, млн, с -->
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,X">8188</feat><!-- я, ми, мене, нас, ви, мені, ти, хто, людей, вам -->
-    <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,X">29551</feat><!-- це, україни, час, що, року, те, %, того, років, все -->
+    <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,X">29550</feat><!-- це, україни, час, що, року, те, %, того, років, все -->
     <feat name="Animacy[gram]" value="Anim" upos="NOUN">35</feat><!-- листа, дуба, носа, воза, рота, човна, вимикача, возика, гвера, герба -->
     <feat name="Animacy[gram]" value="Inan" upos="NOUN">12</feat><!-- чорти, Гетьмани, академіки, гості, дармоїди, дівки, конячки, куми, мікроби, особи -->
     <feat name="Aspect" value="Imp" upos="ADJ,ADV,AUX,VERB">9053</feat><!-- було, є, був, була, були, буде, бути, може, має, каже -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB">6048</feat><!-- зробити, почав, сказав, почали, став, стало, сказати, знайти, стала, пішов -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">14143</feat><!-- на, про, в, за, у, його, час, через, її, їх -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">1388</feat><!-- мені, йому, собі, вам, нам, їй, їм, тобі, завдяки, кому -->
-    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">21422</feat><!-- до, з, для, від, україни, у, року, після, того, із -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,X">21421</feat><!-- до, з, для, від, україни, у, року, після, того, із -->
     <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">6269</feat><!-- з, за, із, під, між, перед, тим, над, ним, зі -->
-    <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">7720</feat><!-- у, в, на, по, при, Україні, році, тому, цьому, разі -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,X">15911</feat><!-- він, я, це, ми, вона, вони, які, ви, ти, яка -->
+    <feat name="Case" value="Loc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">7719</feat><!-- у, в, на, по, при, Україні, році, тому, цьому, разі -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,X">15910</feat><!-- він, я, це, ми, вона, вони, які, ви, ти, яка -->
     <feat name="Case" value="Voc" upos="ADJ,DET,NOUN,PRON,PROPN">158</feat><!-- дівко, дядечку, дорогий, Соню, друже, чоловіче, Господи, боже, дочко, мамо -->
     <feat name="Degree" value="Abs" upos="ADV">20</feat><!-- щонайменше, якнайбільш, щонайбільше, щонайгірше, щонайширше, якнайбільше, якнайменше, якнайочевидніше, якнайповніше, якнайпорядніше -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">497</feat><!-- більше, більш, краще, раніше, пізніше, менше, менш, вище, швидше, старший -->
@@ -55,7 +55,7 @@
     <feat name="Degree" value="Sup" upos="ADJ,ADV">232</feat><!-- найбільше, найбільш, найкращих, найчастіше, найбільша, найкращий, найбільших, найважливіші, найближчими, найближчого -->
     <feat name="Foreign" value="Yes" upos="X">593</feat><!-- Office, the, Windows, Amazon, DITIB, cyanus, Centaurea, GFP, mneme, n -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">18756</feat><!-- вона, україни, була, її, яка, Україні, його, неї, людей, свою -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">23028</feat><!-- він, його, був, час, року, який, йому, %, років, один -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">23026</feat><!-- він, його, був, час, року, який, йому, %, років, один -->
     <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">8833</feat><!-- це, було, що, те, все, того, життя, його, щось, цього -->
     <feat name="Hyph" value="Yes" upos="ADJ">141</feat><!-- науково, південно, військово, медико, визвольно, греко, дослідно, жовто, яскраво, історично -->
     <feat name="Mood" value="Cnd" upos="AUX">108</feat><!-- б, би -->
@@ -64,10 +64,10 @@
     <feat name="NameType" value="Giv" upos="PROPN">1012</feat><!-- Міра, Вінстон, Гнат, Марія, Михась, Мотря, Андрій, Михайло, джон, микола -->
     <feat name="NameType" value="Pat" upos="PROPN">60</feat><!-- Василівна, І, О, Степанович, П, Іларіонович, Васильовича, Василівни, Г, Григоровичу -->
     <feat name="NameType" value="Sur" upos="PROPN">921</feat><!-- Лі, Манафорта, Поттера, Трампа, Щербачов, Дудаєва, Гольдштейна, Морріс, Сосницький, Українки -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">17888</feat><!-- ми, вони, які, їх, були, нас, всі, ви, них, років -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">17887</feat><!-- ми, вони, які, їх, були, нас, всі, ви, них, років -->
     <feat name="Number" value="Ptan" upos="NOUN,PROPN">548</feat><!-- США, грошей, даних, виборів, гроші, двері, дані, коштів, ЗМІ, даними -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB,X">46217</feat><!-- він, це, я, його, було, вона, україни, її, був, є -->
-    <feat name="NumType" value="Card" upos="DET,NOUN,NUM">1936</feat><!-- 1, кілька, 2, 5, 3, багато, 7, 4, три, двох -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB,X">46216</feat><!-- він, це, я, його, було, вона, україни, її, був, є -->
+    <feat name="NumType" value="Card" upos="DET,NOUN,NUM">1934</feat><!-- 1, кілька, 2, 5, 3, багато, 7, 4, три, двох -->
     <feat name="NumType" value="Ord" upos="ADJ">845</feat><!-- 2017, 2016, перших, перший, першого, 2015, перші, другий, 27, першим -->
     <feat name="Orth" value="Alt" upos="ADJ,ADV,NOUN,NUM,PROPN">129</feat><!-- пів, матеріял, большевицької, большевицького, Европи, матеріялу, смерти, Всенароднім, Всенародніми, Народніх -->
     <feat name="PartType" value="Conseq" upos="PART">122</feat><!-- то, так -->
@@ -90,6 +90,7 @@
     <feat name="Tense" value="Fut" upos="AUX,VERB">832</feat><!-- буде, будуть, будемо, буду, вийде, матиме, піду, доведеться, зроблю, прийде -->
     <feat name="Tense" value="Past" upos="AUX,VERB">5932</feat><!-- було, був, була, були, мав, міг, мали, почав, сказав, почали -->
     <feat name="Tense" value="Pres" upos="ADJ,AUX,NOUN,VERB">4200</feat><!-- є, може, має, каже, немає, можуть, мають, нема, здається, маю -->
+    <feat name="Typo" value="Yes" upos="ADJ,NOUN,PART,SCONJ">5</feat><!-- 2014, 45-ти, двох, що, як -->
     <feat name="Uninflect" value="Yes" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,X">3494</feat><!-- його, 1, %, її, 2, 3, 5, 7, №, р -->
     <feat name="Variant" value="Short" upos="ADJ,DET">50</feat><!-- кожен, повинен, здатен, годен, жоден, згоден, винен, всяк, дністро, дубо -->
     <feat name="Variant" value="Uncontr" upos="ADJ,NOUN">5</feat><!-- дорогая, Красную, бідная, грішнії -->
