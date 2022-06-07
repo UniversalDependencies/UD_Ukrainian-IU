@@ -381,7 +381,7 @@
 # sent_id = 0oon
 # text = Руйнування металів і сплавів унаслідок взаємодії їх з навколишнім середовищем називають корозією (мал. 8).
 # translit = Rujnuvanńа metaliv i splaviv unaslidok vzaěmodiji jich z navkolyšnim seredovyščem nazyvajuť koroziěju (mal. 8).
-1	Руйнування	руйнування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	11:obj|12:nsubj:sp	Id=0ooo|LTranslit=rujnuvanńа|Translit=Rujnuvanńа
+1	Руйнування	руйнування	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	11:obj|12:nsubj	Id=0ooo|LTranslit=rujnuvanńа|Translit=Rujnuvanńа
 2	металів	метал	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	1:nmod	Id=0oop|LTranslit=metal|Translit=metaliv
 3	і	і	CCONJ	Ccs	_	4	cc	4:cc	Id=0ooq|LTranslit=i|Translit=i
 4	сплавів	сплав	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	conj	1:nmod|2:conj	Id=0oor|LTranslit=splav|Translit=splaviv
@@ -392,7 +392,7 @@
 9	навколишнім	навколишній	ADJ	Ao-nsif	Case=Ins|Gender=Neut|Number=Sing	10	amod	10:amod	Id=0oow|LTranslit=navkolyšnij|Translit=navkolyšnim
 10	середовищем	середовище	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	nmod	6:nmod	Id=0oox|LTranslit=seredovyšče|Translit=seredovyščem
 11	називають	називати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=0ooy|LTranslit=nazyvaty|Translit=nazyvajuť
-12	корозією	корозія	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	xcomp:sp	11:xcomp:sp	Id=0ooz|LTranslit=korozija|Translit=koroziěju
+12	корозією	корозія	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	xcomp:sp	11:xcomp	Id=0ooz|LTranslit=korozija|Translit=koroziěju
 13	(	(	PUNCT	U	_	14	punct	14:punct	Id=0op0|LTranslit=(|SpaceAfter=No|Translit=(
 14	мал	мал.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Uninflect=Yes	11	parataxis	11:parataxis	Id=0op1|LTranslit=mal.|SpaceAfter=No|Translit=mal
 15	.	.	PUNCT	U	_	14	punct	14:punct	Id=0op2|LTranslit=.|Translit=.
@@ -659,14 +659,14 @@
 # translit = Tiľky deśаta častyna z nych zastosovuěťśа jak vtorynni materiaľni resursy, a rešta potrapľаě u schovyšča, šlamonakopyčuvači, terykony.
 1	Тільки	тільки	PART	Q	_	3	discourse	3:discourse	Id=0ovy|LTranslit=tiľky|Translit=Tiľky
 2	десята	десятий	ADJ	Mlofsn	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	3	amod	3:amod	Id=0ovz|LTranslit=deśаtyj|Translit=deśаta
-3	частина	частина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj|10:nsubj:sp	Id=0ow0|LTranslit=častyna|Translit=častyna
+3	частина	частина	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj|10:nsubj	Id=0ow0|LTranslit=častyna|Translit=častyna
 4	з	з	ADP	Spsg	Case=Gen	5	case	5:case	Id=0ow1|LTranslit=z|Translit=z
 5	них	вони	PRON	Pp-3--pgn	Case=Gen|Number=Plur|Person=3|PronType=Prs	3	nmod	3:nmod	Id=0ow2|LTranslit=vony|Translit=nych
 6	застосовується	застосовуватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=0ow3|LTranslit=zastosovuvatyśа|Translit=zastosovuěťśа
 7	як	як	SCONJ	Css	_	10	mark	10:mark	Id=0ow4|LTranslit=jak|Translit=jak
 8	вторинні	вторинний	ADJ	Ao--pns	Case=Nom|Number=Plur	10	amod	10:amod	Id=0ow5|LTranslit=vtorynnyj|Translit=vtorynni
 9	матеріальні	матеріальний	ADJ	Ao--pns	Case=Nom|Number=Plur	10	amod	10:amod	Id=0ow6|LTranslit=materiaľnyj|Translit=materiaľni
-10	ресурси	ресурс	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	xcomp:sp	6:xcomp:sp	Id=0ow7|LTranslit=resurs|SpaceAfter=No|Translit=resursy
+10	ресурси	ресурс	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	xcomp:sp	6:xcomp	Id=0ow7|LTranslit=resurs|SpaceAfter=No|Translit=resursy
 11	,	,	PUNCT	U	_	14	punct	14:punct	Id=0ow8|LTranslit=,|Translit=,
 12	а	а	CCONJ	Ccs	_	14	cc	14:cc	Id=0ow9|LTranslit=a|Translit=a
 13	решта	решта	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	14:nsubj	Id=0owa|LTranslit=rešta|Translit=rešta
@@ -897,13 +897,13 @@
 4	всього	весь	DET	Pg--m-sga	Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	5	det	5:det	Id=0p3i|LTranslit=veś|Translit=vśoho
 5	світу	світ	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	1:nmod	Id=0p3j|LTranslit=svit|Translit=svitu
 6	розвивають	розвивати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=0p3k|LTranslit=rozvyvaty|Translit=rozvyvajuť
-7	технології	технологія	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	6:obj|11:nsubj|12:nsubj:xsubj|13:nsubj:sp	Id=0p3l|LTranslit=technolohija|Translit=technolohiji
+7	технології	технологія	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	6:obj|11:nsubj|12:nsubj:xsubj|13:nsubj	Id=0p3l|LTranslit=technolohija|Translit=technolohiji
 8	майбутнього	майбутнє	NOUN	Ao-nsgf	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	7:nmod	Id=0p3m|LTranslit=majbutńе|SpaceAfter=No|Translit=majbutńoho
 9	,	,	PUNCT	U	_	11	punct	11:punct	Id=0p3n|LTranslit=,|Translit=,
 10	що	що	SCONJ	Css	_	11	mark	11:mark	Id=0p3o|LTranslit=ščo|Translit=ščo
 11	можуть	могти	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	7:acl:relcl	Id=0p3p|LTranslit=mohty|Translit=možuť
 12	стати	стати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	11	xcomp	11:xcomp	Id=0p3q|LTranslit=staty|Translit=staty
-13	ключем	ключ	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	xcomp:sp	12:xcomp:sp	Id=0p3r|LTranslit=kľuč|Translit=kľučem
+13	ключем	ключ	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	xcomp:sp	12:xcomp	Id=0p3r|LTranslit=kľuč|Translit=kľučem
 14	до	до	ADP	Spsg	Case=Gen	15	case	15:case	Id=0p3s|LTranslit=do|Translit=do
 15	розв’язання	розв’язання	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	13:nmod	Id=0p3t|LTranslit=rozvjazanńа|Translit=rozvjazanńа
 16	проблем	проблема	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	15:nmod	Id=0p3u|LTranslit=problema|Translit=problem
@@ -919,9 +919,9 @@
 # sent_id = 0p44
 # text = Біоміметикою називають галузь застосування найкращих характеристик живих організмів у розробці новітніх матеріалів.
 # translit = Biomimetykoju nazyvajuť haluź zastosuvanńа najkraščych charakterystyk žyvych orhanizmiv u rozrobci novitnich materialiv.
-1	Біоміметикою	біоміметика	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	xcomp:sp	2:xcomp:sp	Id=0p45|LTranslit=biomimetyka|Translit=Biomimetykoju
+1	Біоміметикою	біоміметика	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	xcomp:sp	2:xcomp	Id=0p45|LTranslit=biomimetyka|Translit=Biomimetykoju
 2	називають	називати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=0p46|LTranslit=nazyvaty|Translit=nazyvajuť
-3	галузь	галузь	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	1:nsubj:sp|2:obj	Id=0p47|LTranslit=haluź|Translit=haluź
+3	галузь	галузь	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	1:nsubj|2:obj	Id=0p47|LTranslit=haluź|Translit=haluź
 4	застосування	застосування	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	3:nmod	Id=0p48|LTranslit=zastosuvanńа|Translit=zastosuvanńа
 5	найкращих	найкращий	ADJ	Afs-pgf	Case=Gen|Degree=Sup|Number=Plur	6	amod	6:amod	Id=0p49|LTranslit=najkraščyj|Translit=najkraščych
 6	характеристик	характеристика	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	4:nmod	Id=0p4a|LTranslit=charakterystyka|Translit=charakterystyk
@@ -1027,12 +1027,12 @@
 # sent_id = 0p6u
 # text = Спосіб термічного декорування деревини називається піротипією.
 # translit = Sposib termičnoho dekoruvanńа derevyny nazyvaěťśа pirotypiěju.
-1	Спосіб	спосіб	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj|6:nsubj:sp	Id=0p6v|LTranslit=sposib|Translit=Sposib
+1	Спосіб	спосіб	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj|6:nsubj	Id=0p6v|LTranslit=sposib|Translit=Sposib
 2	термічного	термічний	ADJ	Ao-nsgf	Case=Gen|Gender=Neut|Number=Sing	3	amod	3:amod	Id=0p6w|LTranslit=termičnyj|Translit=termičnoho
 3	декорування	декорування	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	1:nmod	Id=0p6x|LTranslit=dekoruvanńа|Translit=dekoruvanńа
 4	деревини	деревина	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	3:nmod	Id=0p6y|LTranslit=derevyna|Translit=derevyny
 5	називається	називатися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=0p6z|LTranslit=nazyvatyśа|Translit=nazyvaěťśа
-6	піротипією	піротипія	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	xcomp:sp	5:xcomp:sp	Id=0p70|LTranslit=pirotypija|SpaceAfter=No|Translit=pirotypiěju
+6	піротипією	піротипія	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	xcomp:sp	5:xcomp	Id=0p70|LTranslit=pirotypija|SpaceAfter=No|Translit=pirotypiěju
 7	.	.	PUNCT	U	_	5	punct	5:punct	Id=0p71|LTranslit=.|Translit=.
 
 # newpar id = 0p73
@@ -1190,8 +1190,8 @@
 2	часом	час	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	3:obl	Id=0pav|LTranslit=čas|Translit=časom
 3	стало	стати	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=0paw|LTranslit=staty|Translit=stalo
 4	дуже	дуже	ADV	Rp	Degree=Pos	5	advmod	5:advmod	Id=0pax|LTranslit=duže|Translit=duže
-5	популярно	популярно	ADV	Rp	Degree=Pos	3	xcomp:sp	3:xcomp:sp	Id=0pay|LTranslit=popuľаrno|Translit=popuľаrno
-6	декорувати	декорувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	csubj	3:csubj|5:csubj:sp	Id=0paz|LTranslit=dekoruvaty|Translit=dekoruvaty
+5	популярно	популярно	ADV	Rp	Degree=Pos	3	xcomp:sp	3:xcomp	Id=0pay|LTranslit=popuľаrno|Translit=popuľаrno
+6	декорувати	декорувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	csubj	3:csubj|5:csubj	Id=0paz|LTranslit=dekoruvaty|Translit=dekoruvaty
 7	предмети	предмет	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	6:obj	Id=0pb0|LTranslit=predmet|Translit=predmety
 8	інтер’єру	інтер’єр	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	7:nmod	Id=0pb1|LTranslit=interěr|Translit=interěru
 9	за	за	ADP	Spsi	Case=Ins	10	case	10:case	Id=0pb2|LTranslit=za|Translit=za
@@ -1338,13 +1338,13 @@
 # text = Готовий виріб можна використовувати як картину, вставку тощо.
 # translit = Hotovyj vyrib možna vykorystovuvaty jak kartynu, vstavku toščo.
 1	Готовий	готовий	ADJ	Ao-msafn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	amod	2:amod	Id=0peh|LTranslit=hotovyj|Translit=Hotovyj
-2	виріб	виріб	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	4:obj|6:nsubj:sp	Id=0pei|LTranslit=vyrib|Translit=vyrib
+2	виріб	виріб	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	4:obj|6:nsubj	Id=0pei|LTranslit=vyrib|Translit=vyrib
 3	можна	можна	ADV	R	_	0	root	0:root	Id=0pej|LTranslit=možna|Translit=možna
 4	використовувати	використовувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	3	csubj	3:csubj	Id=0pek|LTranslit=vykorystovuvaty|Translit=vykorystovuvaty
 5	як	як	SCONJ	Css	_	6	mark	6:mark	Id=0pel|LTranslit=jak|Translit=jak
-6	картину	картина	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	xcomp:sp	4:xcomp:sp	Id=0pem|LTranslit=kartyna|SpaceAfter=No|Translit=kartynu
+6	картину	картина	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	xcomp:sp	4:xcomp	Id=0pem|LTranslit=kartyna|SpaceAfter=No|Translit=kartynu
 7	,	,	PUNCT	U	_	8	punct	8:punct	Id=0pen|LTranslit=,|Translit=,
-8	вставку	вставка	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	conj	4:xcomp:sp|6:conj	Id=0peo|LTranslit=vstavka|Translit=vstavku
+8	вставку	вставка	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	conj	4:xcomp|6:conj	Id=0peo|LTranslit=vstavka|Translit=vstavku
 9	тощо	тощо	PART	Q	_	6	discourse	6:discourse	Id=0pep|LTranslit=toščo|SpaceAfter=No|Translit=toščo
 10	.	.	PUNCT	U	_	3	punct	3:punct	Id=0peq|LTranslit=.|Translit=.
 
@@ -2289,11 +2289,11 @@
 1	Книжки	книжка	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	0:root	Id=13oe|LTranslit=knyžka|Translit=Knyžky
 2	про	про	ADP	Spsa	Case=Acc	4	case	4:case	Id=13of|LTranslit=pro|Translit=pro
 3	українську	український	ADJ	Ao-fsas	Case=Acc|Gender=Fem|Number=Sing	4	amod	4:amod	Id=13og|LTranslit=ukrajinśkyj|Translit=ukrajinśku
-4	людину	людина	NOUN	Ncfsay	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	1	nmod	1:nmod|7:nsubj|8:nsubj:sp	Id=13oh|LTranslit=ľudyna|SpaceAfter=No|Translit=ľudynu
+4	людину	людина	NOUN	Ncfsay	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	1	nmod	1:nmod|7:nsubj|8:nsubj	Id=13oh|LTranslit=ľudyna|SpaceAfter=No|Translit=ľudynu
 5	,	,	PUNCT	U	_	7	punct	7:punct	Id=13oi|LTranslit=,|Translit=,
-6	яка	який	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	7	nsubj	4:ref|7:nsubj|8:nsubj:sp	Id=13oj|LTranslit=jakyj|Translit=jaka
+6	яка	який	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	7	nsubj	4:ref|7:nsubj|8:nsubj	Id=13oj|LTranslit=jakyj|Translit=jaka
 7	залишається	залишатися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	Id=13ok|LTranslit=zalyšatyśа|Translit=zalyšaěťśа
-8	собою	себе	PRON	Px-----in	Case=Ins|PronType=Prs|Reflex=Yes	7	xcomp:sp	7:xcomp:sp	Id=13ol|LTranslit=sebe|Translit=soboju
+8	собою	себе	PRON	Px-----in	Case=Ins|PronType=Prs|Reflex=Yes	7	xcomp:sp	7:xcomp	Id=13ol|LTranslit=sebe|Translit=soboju
 9	на	на	ADP	Spsl	Case=Loc	10	case	10:case	Id=13om|LTranslit=na|Translit=na
 10	бездоріжжях	бездоріжжя	NOUN	Ncnpln	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	obl	7:obl	Id=13on|LTranslit=bezdorižžа|Translit=bezdorižžаch
 11	XX	XX	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	12	amod	12:amod	Id=13oo|LTranslit=XX|Translit=XX
@@ -2534,9 +2534,9 @@
 # text = Недарма його назвали срібним.
 # translit = Nedarma joho nazvaly sribnym.
 1	Недарма	недарма	ADV	R	_	3	advmod	3:advmod	Id=13ud|LTranslit=nedarma|Translit=Nedarma
-2	його	воно	PRON	Pp-3n-san	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj|4:nsubj:sp	Id=13ue|LTranslit=vono|Translit=joho
+2	його	воно	PRON	Pp-3n-san	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	3:obj|4:nsubj	Id=13ue|LTranslit=vono|Translit=joho
 3	назвали	назвати	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	Id=13uf|LTranslit=nazvaty|Translit=nazvaly
-4	срібним	срібний	ADJ	Ao-nsif	Case=Ins|Gender=Neut|Number=Sing	3	xcomp:sp	3:xcomp:sp	Id=13ug|LTranslit=sribnyj|SpaceAfter=No|Translit=sribnym
+4	срібним	срібний	ADJ	Ao-nsif	Case=Ins|Gender=Neut|Number=Sing	3	xcomp:sp	3:xcomp	Id=13ug|LTranslit=sribnyj|SpaceAfter=No|Translit=sribnym
 5	.	.	PUNCT	U	_	3	punct	3:punct	Id=13uh|LTranslit=.|Translit=.
 
 # sent_id = 13ui
@@ -2772,12 +2772,12 @@
 5	,	,	PUNCT	U	_	12	punct	12:punct	Id=13zl|LTranslit=,|Translit=,
 6	де	де	SCONJ	Css	_	12	mark	12:mark	Id=13zm|LTranslit=de|Translit=de
 7	зранений	зранений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	amod	8:amod	Id=13zn|LTranslit=zranenyj|Translit=zranenyj
-8	чоловік	чоловік	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	12:nsubj|13:nsubj:sp|20:nsubj:xsubj	Id=13zo|LTranslit=čolovik|Translit=čolovik
+8	чоловік	чоловік	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	12:nsubj|13:nsubj|20:nsubj:xsubj	Id=13zo|LTranslit=čolovik|Translit=čolovik
 9	у	у	ADP	Spsl	Case=Loc	11	case	11:case	Id=13zp|LTranslit=u|Translit=u
 10	Чорному	чорний	ADJ	Afpmslf	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	11:amod	Id=13zq|LTranslit=čornyj|Translit=Čornomu
 11	лісі	ліс	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	12:obl	Id=13zr|LTranslit=lis|Translit=lisi
 12	жив	жити	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	acl	4:acl	Id=13zs|LTranslit=žyty|Translit=žyv
-13	одинокий	одинокий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	12	advcl:sp	12:advcl:sp	Id=13zt|LTranslit=odynokyj|SpaceAfter=No|Translit=odynokyj
+13	одинокий	одинокий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	12	advcl:sp	12:advcl	Id=13zt|LTranslit=odynokyj|SpaceAfter=No|Translit=odynokyj
 14	,	,	PUNCT	U	_	16	punct	16:punct	Id=13zu|LTranslit=,|Translit=,
 15	як	як	SCONJ	Css	_	16	mark	16:mark	Id=13zv|LTranslit=jak|Translit=jak
 16	Робінзон	Робінзон	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	13	advcl	13:advcl	Id=13zw|LTranslit=Robinzon|SpaceAfter=No|Translit=Robinzon
@@ -3284,8 +3284,8 @@
 # translit = «Probudyvśа ja holodnyj, jak kradenyj kiń».
 1	«	«	PUNCT	U	PunctType=Quot	2	punct	2:punct	Id=14bj|LTranslit=«|SpaceAfter=No|Translit=«
 2	Пробудився	пробудитися	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=14bk|LTranslit=probudytyśа|Translit=Probudyvśа
-3	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|4:nsubj:sp	Id=14bl|LTranslit=ja|Translit=ja
-4	голодний	голодний	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	advcl:sp	2:advcl:sp	Id=14bm|LTranslit=holodnyj|SpaceAfter=No|Translit=holodnyj
+3	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj|4:nsubj	Id=14bl|LTranslit=ja|Translit=ja
+4	голодний	голодний	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	advcl:sp	2:advcl	Id=14bm|LTranslit=holodnyj|SpaceAfter=No|Translit=holodnyj
 5	,	,	PUNCT	U	_	8	punct	8:punct	Id=14bn|LTranslit=,|Translit=,
 6	як	як	SCONJ	Css	_	8	mark	8:mark	Id=14bo|LTranslit=jak|Translit=jak
 7	крадений	крадений	ADJ	Ap-msnf-pp	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	amod	8:amod	Id=14bp|LTranslit=kradenyj|Translit=kradenyj
@@ -4131,17 +4131,17 @@
 # translit = Možna b joho nazvaty statevoju pidchožisťu abo jak davniše ce nazyvaly — poklykom stati.
 1	Можна	можна	ADV	R	_	0	root	0:root	Id=1fpg|LTranslit=možna|Translit=Možna
 2	б	б	AUX	Q	Mood=Cnd	1	aux	1:aux	Id=1fph|LTranslit=b|Translit=b
-3	його	він	PRON	Pp-3m-san	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	4:obj|6:nsubj:sp	Id=1fpi|LTranslit=vin|Translit=joho
+3	його	він	PRON	Pp-3m-san	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	4:obj|6:nsubj	Id=1fpi|LTranslit=vin|Translit=joho
 4	назвати	назвати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	1	csubj	1:csubj	Id=1fpj|LTranslit=nazvaty|Translit=nazvaty
 5	статевою	статевий	ADJ	Ao-fsif	Case=Ins|Gender=Fem|Number=Sing	6	amod	6:amod	Id=1fpk|LTranslit=statevyj|Translit=statevoju
-6	підхожістю	підхожість	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	xcomp:sp	4:xcomp:sp	Id=1fpl|LTranslit=pidchožisť|Translit=pidchožisťu
+6	підхожістю	підхожість	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	xcomp:sp	4:xcomp	Id=1fpl|LTranslit=pidchožisť|Translit=pidchožisťu
 7	або	або	CCONJ	Ccs	_	13	cc	13:cc	Id=1fpm|LTranslit=abo|Translit=abo
 8	як	як	SCONJ	Css	_	11	mark	11:mark	Id=1fpn|LTranslit=jak|Translit=jak
 9	давніше	давніше	ADV	Rc	Degree=Cmp	11	advmod	11:advmod	Id=1fpo|LTranslit=davniše|Translit=davniše
 10	це	це	PRON	Pd--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	obj	11:obj	Id=1fpp|LTranslit=ce|Translit=ce
 11	називали	називати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	13	acl	13:acl	Id=1fpq|LTranslit=nazyvaty|Translit=nazyvaly
 12	—	—	PUNCT	U	PunctType=Dash	11	punct	11:punct	Id=1fpr|LTranslit=—|Translit=—
-13	покликом	поклик	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	conj	4:xcomp:sp|6:conj	Id=1fps|LTranslit=poklyk|Translit=poklykom
+13	покликом	поклик	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	conj	4:xcomp|6:conj	Id=1fps|LTranslit=poklyk|Translit=poklykom
 14	ста́ті	стать	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	13:nmod	Id=1fpt|LTranslit=stať|SpaceAfter=No|Translit=stati
 15	.	.	PUNCT	U	_	1	punct	1:punct	Id=1fpu|LTranslit=.|Translit=.
 
@@ -5499,10 +5499,10 @@
 # sent_id = 1ldx
 # text = Театр я вбачаю гіперболою подібного методу збільшення квадратного метражу подільських будинків.
 # translit = Teatr ja vbačaju hiperboloju podibnoho metodu zbiľšenńа kvadratnoho metražu podiľśkych budynkiv.
-1	Театр	театр	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	3:obj|4:nsubj:sp	Id=1ldy|LTranslit=teatr|Translit=Teatr
+1	Театр	театр	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	3:obj|4:nsubj	Id=1ldy|LTranslit=teatr|Translit=Teatr
 2	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	Id=1ldz|LTranslit=ja|Translit=ja
 3	вбачаю	вбачати	VERB	Vmpip1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=1le0|LTranslit=vbačaty|Translit=vbačaju
-4	гіперболою	гіпербола	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	xcomp:sp	3:xcomp:sp	Id=1le1|LTranslit=hiperbola|Translit=hiperboloju
+4	гіперболою	гіпербола	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	xcomp:sp	3:xcomp	Id=1le1|LTranslit=hiperbola|Translit=hiperboloju
 5	подібного	подібний	ADJ	Afpmsgf	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	6:amod	Id=1le2|LTranslit=podibnyj|Translit=podibnoho
 6	методу	метод	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	4:nmod	Id=1le3|LTranslit=metod|Translit=metodu
 7	збільшення	збільшення	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	6:nmod	Id=1le4|LTranslit=zbiľšenńа|Translit=zbiľšenńа
@@ -5873,10 +5873,10 @@
 12	що	що	SCONJ	Css	_	14	mark	14:mark	Id=1lmx|LTranslit=ščo|Translit=ščo
 13	Кремль	кремль	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	14:nsubj|25:nsubj|26:nsubj:xsubj	Id=1lmy|LTranslit=kremľ|Translit=Kremľ
 14	вважає	вважати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	10:acl	Id=1lmz|LTranslit=vvažaty|Translit=vvažaě
-15	неприпустимими	неприпустимий	ADJ	Ao--pif	Case=Ins|Number=Plur	14	xcomp:sp	14:xcomp:sp	Id=1ln0|LTranslit=neprypustymyj|Translit=neprypustymymy
+15	неприпустимими	неприпустимий	ADJ	Ao--pif	Case=Ins|Number=Plur	14	xcomp:sp	14:xcomp	Id=1ln0|LTranslit=neprypustymyj|Translit=neprypustymymy
 16	і	і	CCONJ	Ccs	_	17	cc	17:cc	Id=1ln1|LTranslit=i|Translit=i
-17	образливими	образливий	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	15	conj	14:xcomp:sp|15:conj	Id=1ln2|LTranslit=obrazlyvyj|Translit=obrazlyvymy
-18	висловлювання	висловлювання	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	14:obj|15:nsubj:sp	Id=1ln3|LTranslit=vyslovľuvanńа|Translit=vyslovľuvanńа
+17	образливими	образливий	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	15	conj	14:xcomp|15:conj	Id=1ln2|LTranslit=obrazlyvyj|Translit=obrazlyvymy
+18	висловлювання	висловлювання	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	14:obj|15:nsubj	Id=1ln3|LTranslit=vyslovľuvanńа|Translit=vyslovľuvanńа
 19	журналіста	журналіст	NOUN	Ncmsgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	18:nmod	Id=1ln4|LTranslit=žurnalist|Translit=žurnalista
 20	на	на	ADP	Spsa	Case=Acc	21	case	21:case	Id=1ln5|LTranslit=na|Translit=na
 21	адресу	адреса	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	nmod	18:nmod	Id=1ln6|LTranslit=adresa|Translit=adresu
@@ -5910,8 +5910,8 @@
 10	О'Райлі	О’Райлі	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Uninflect=Yes	9	flat:name	9:flat:name	Id=1lnw|LTranslit=O’Rajli|Translit=O'Rajli
 11	назвав	назвати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1lnx|LTranslit=nazvaty|Translit=nazvav
 12	російського	російський	ADJ	Ao-msafy	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	amod	13:amod	Id=1lny|LTranslit=rosijśkyj|Translit=rosijśkoho
-13	президента	президент	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	11:obj|14:nsubj:sp	Id=1lnz|LTranslit=prezydent|Translit=prezydenta
-14	вбивцею	вбивця	NOUN	Ncmsiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	xcomp:sp	11:xcomp:sp	Id=1lo0|LTranslit=vbyvćа|SpaceAfter=No|Translit=vbyvceju
+13	президента	президент	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obj	11:obj|14:nsubj	Id=1lnz|LTranslit=prezydent|Translit=prezydenta
+14	вбивцею	вбивця	NOUN	Ncmsiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	xcomp:sp	11:xcomp	Id=1lo0|LTranslit=vbyvćа|SpaceAfter=No|Translit=vbyvceju
 15	.	.	PUNCT	U	_	11	punct	11:punct	Id=1lo1|LTranslit=.|Translit=.
 
 # sent_id = 1lo2
@@ -6009,13 +6009,13 @@
 # sent_id = 1lq7
 # text = Захід має стати тим самим омріяним містком, розпочати нову музичну традицію як наймолодший із моцартівських фестивалів у Європі (присвячений він, як і спадає на думку, Моцарту, але не Вольфгангу Амадею, а наймолодшому з його синів, композитору Францу Ксаверу Моцарту).
 # translit = Zachid maě staty tym samym omrijanym mistkom, rozpočaty novu muzyčnu tradyciju jak najmolodšyj iz mocartivśkych festyvaliv u Ěvropi (prysvjačenyj vin, jak i spadaě na dumku, Mocartu, ale ne Voľfhanhu Amadeju, a najmolodšomu z joho syniv, kompozytoru Francu Ksaveru Mocartu).
-1	Захід	захід	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj|3:nsubj:xsubj|7:nsubj:sp	Id=1lq8|LTranslit=zachid|Translit=Zachid
+1	Захід	захід	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj|3:nsubj:xsubj|7:nsubj	Id=1lq8|LTranslit=zachid|Translit=Zachid
 2	має	мати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=1lq9|LTranslit=maty|Translit=maě
 3	стати	стати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	2	xcomp	2:xcomp	Id=1lqa|LTranslit=staty|Translit=staty
 4	тим	той	DET	Pd--m-sia	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	7	det	7:det	Id=1lqb|LTranslit=toj|Translit=tym
 5	самим	самий	DET	Px--m-sia	Case=Ins|Gender=Masc|Number=Sing|PronType=Prs|Reflex=Yes	7	det	7:det	Id=1lqc|LTranslit=samyj|Translit=samym
 6	омріяним	омріяний	ADJ	Ap-msif-ep	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	amod	7:amod	Id=1lqd|LTranslit=omrijanyj|Translit=omrijanym
-7	містком	місток	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	xcomp:sp	3:xcomp:sp	Id=1lqe|LTranslit=mistok|SpaceAfter=No|Translit=mistkom
+7	містком	місток	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	xcomp:sp	3:xcomp	Id=1lqe|LTranslit=mistok|SpaceAfter=No|Translit=mistkom
 8	,	,	PUNCT	U	_	9	punct	9:punct	Id=1lqf|LTranslit=,|Translit=,
 9	розпочати	розпочати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	conj	2:xcomp|3:conj	Id=1lqg|LTranslit=rozpočaty|Translit=rozpočaty
 10	нову	новий	ADJ	Afpfsas	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	12:amod	Id=1lqh|LTranslit=novyj|Translit=novu
@@ -6513,9 +6513,9 @@
 16	,	,	PUNCT	U	_	20	punct	20:punct	Id=1m2f|LTranslit=,|Translit=,
 17	які	який	DET	Pr----pna	Case=Nom|Number=Plur|PronType=Rel	19	det	19:det	Id=1m2g|LTranslit=jakyj|Translit=jaki
 18	конкретно	конкретно	ADV	Rp	Degree=Pos	19	advmod	19:advmod	Id=1m2h|LTranslit=konkretno|Translit=konkretno
-19	проблеми	проблема	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj	20:nsubj|21:nsubj:sp	Id=1m2i|LTranslit=problema|Translit=problemy
+19	проблеми	проблема	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj	20:nsubj|21:nsubj	Id=1m2i|LTranslit=problema|Translit=problemy
 20	виявилися	виявитися	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	15	acl	15:acl	Id=1m2j|LTranslit=vyjavytyśа|Translit=vyjavylyśа
-21	нездоланними	нездоланний	ADJ	Ao--pif	Case=Ins|Number=Plur	20	xcomp:sp	20:xcomp:sp	Id=1m2k|LTranslit=nezdolannyj|SpaceAfter=No|Translit=nezdolannymy
+21	нездоланними	нездоланний	ADJ	Ao--pif	Case=Ins|Number=Plur	20	xcomp:sp	20:xcomp	Id=1m2k|LTranslit=nezdolannyj|SpaceAfter=No|Translit=nezdolannymy
 22	,	,	PUNCT	U	_	20	punct	20:punct	Id=1m2l|LTranslit=,|Translit=,
 23	так	так	PART	Q	_	26	discourse	26:discourse	Id=1m2m|LTranslit=tak|Translit=tak
 24	і	і	PART	Q	_	23	fixed	23:fixed	Id=1m2n|LTranslit=i|Translit=i
@@ -6922,10 +6922,10 @@
 7	турбувати	турбувати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	6	xcomp	6:xcomp	Id=1u0d|LTranslit=turbuvaty|Translit=turbuvaty
 8	животик	животик	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	6:nsubj|7:nsubj:xsubj	Id=1u0e|LTranslit=žyvotyk|SpaceAfter=No|Translit=žyvotyk
 9	,	,	PUNCT	U	_	11	punct	11:punct	Id=1u0f|LTranslit=,|Translit=,
-10	вони	вони	PRON	Pp-3--pnn	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	11:nsubj|13:nsubj:sp	Id=1u0g|LTranslit=vony|Translit=vony
+10	вони	вони	PRON	Pp-3--pnn	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	11:nsubj|13:nsubj	Id=1u0g|LTranslit=vony|Translit=vony
 11	стають	ставати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	0:root|6:conj	Id=1u0h|LTranslit=stavaty|Translit=stajuť
 12	більш	більш	ADV	Rc	Degree=Cmp	13	advmod	13:advmod	Id=1u0i|LTranslit=biľš|Translit=biľš
-13	чутливими	чутливий	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	11	xcomp:sp	11:xcomp:sp	Id=1u0j|LTranslit=čutlyvyj|Translit=čutlyvymy
+13	чутливими	чутливий	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	11	xcomp:sp	11:xcomp	Id=1u0j|LTranslit=čutlyvyj|Translit=čutlyvymy
 14	і	і	CCONJ	Ccs	_	18	cc	18:cc	Id=1u0k|LTranslit=i|Translit=i
 15	звичайно	звичайно	ADV	Rp	Degree=Pos	18	discourse	18:discourse	Id=1u0l|LTranslit=zvyčajno|SpaceAfter=No|Translit=zvyčajno
 16	,	,	PUNCT	U	_	15	punct	15:punct	Id=1u0m|LTranslit=,|Translit=,
@@ -8290,9 +8290,9 @@
 2	словами	слово	NOUN	Ncnpin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	parataxis:discourse	6:parataxis:discourse	Id=1xhk|LTranslit=slovo|SpaceAfter=No|Translit=slovamy
 3	,	,	PUNCT	U	_	6	punct	6:punct	Id=1xhl|LTranslit=,|Translit=,
 4	цілком	цілком	ADV	R	_	5	advmod	5:advmod	Id=1xhm|LTranslit=cilkom|Translit=cilkom
-5	реальною	реальний	ADJ	Afpfsif	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	xcomp:sp	6:xcomp:sp	Id=1xhn|LTranslit=reaľnyj|Translit=reaľnoju
+5	реальною	реальний	ADJ	Afpfsif	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	xcomp:sp	6:xcomp	Id=1xhn|LTranslit=reaľnyj|Translit=reaľnoju
 6	виглядає	виглядати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=1xho|LTranslit=vyhľаdaty|Translit=vyhľаdaě
-7	версія	версія	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	5:nsubj:sp|6:nsubj	Id=1xhp|LTranslit=versija|SpaceAfter=No|Translit=versija
+7	версія	версія	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	5:nsubj|6:nsubj	Id=1xhp|LTranslit=versija|SpaceAfter=No|Translit=versija
 8	,	,	PUNCT	U	_	11	punct	11:punct	Id=1xhq|LTranslit=,|Translit=,
 9	що	що	SCONJ	Css	_	11	mark	11:mark	Id=1xhr|LTranslit=ščo|Translit=ščo
 10	влада	влада	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	11:nsubj|20:nsubj	Id=1xhs|LTranslit=vlada|Translit=vlada
@@ -8681,11 +8681,11 @@
 # translit = «Taryfnym čempionom» tradycijno staly teplovyky iz taryfom 1,4 hrn. za kVt-hod».
 1	«	«	PUNCT	U	PunctType=Quot	3	punct	3:punct	Id=1xrm|LTranslit=«|SpaceAfter=No|Translit=«
 2	Тарифним	тарифний	ADJ	Ao-msif	Case=Ins|Gender=Masc|Number=Sing	3	amod	3:amod	Id=1xrn|LTranslit=taryfnyj|Translit=Taryfnym
-3	чемпіоном	чемпіон	NOUN	Ncmsiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	xcomp:sp	6:xcomp:sp	Id=1xro|LTranslit=čempion|SpaceAfter=No|Translit=čempionom
+3	чемпіоном	чемпіон	NOUN	Ncmsiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	xcomp:sp	6:xcomp	Id=1xro|LTranslit=čempion|SpaceAfter=No|Translit=čempionom
 4	»	»	PUNCT	U	PunctType=Quot	3	punct	3:punct	Id=1xrp|LTranslit=»|Translit=»
 5	традиційно	традиційно	ADV	Rp	Degree=Pos	6	advmod	6:advmod	Id=1xrq|LTranslit=tradycijno|Translit=tradycijno
 6	стали	стати	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1xrr|LTranslit=staty|Translit=staly
-7	тепловики	тепловик	NOUN	Ncmpny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	3:nsubj:sp|6:nsubj	Id=1xrs|LTranslit=teplovyk|Translit=teplovyky
+7	тепловики	тепловик	NOUN	Ncmpny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	3:nsubj|6:nsubj	Id=1xrs|LTranslit=teplovyk|Translit=teplovyky
 8	із	із	ADP	Spsi	Case=Ins	9	case	9:case	Id=1xrt|LTranslit=iz|Translit=iz
 9	тарифом	тариф	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	6:obl	Id=1xru|LTranslit=taryf|Translit=taryfom
 10	1	1	NUM	Mlc-pn	Case=Nom|Number=Plur|NumType=Card|Uninflect=Yes	13	nummod:gov	13:nummod:gov	Id=1xrv|LTranslit=1|SpaceAfter=No|Translit=1
@@ -8874,10 +8874,10 @@
 5	історію	історія	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	9:obl	Id=1xwh|LTranslit=istorija|Translit=istoriju
 6	рейтинґу	рейтинґ	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	5:nmod	Id=1xwi|LTranslit=rejtyng|Translit=rejtyngu
 7	його	його	DET	Pps3--pia	Case=Ins|Number=Plur|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	8	det	8:det	Id=1xwj|LTranslit=joho|Translit=joho
-8	лавреатами	лавреат	NOUN	Ncmpiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Orth=Alt	9	xcomp:sp	9:xcomp:sp	Id=1xwk|LTranslit=lavreat|Translit=lavreatamy
+8	лавреатами	лавреат	NOUN	Ncmpiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Orth=Alt	9	xcomp:sp	9:xcomp	Id=1xwk|LTranslit=lavreat|Translit=lavreatamy
 9	ставали	ставати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1xwl|LTranslit=stavaty|Translit=stavaly
 10	118	118	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	11	nummod:gov	11:nummod:gov	Id=1xwm|LTranslit=118|Translit=118
-11	видавництв	видавництво	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nsubj	8:nsubj:sp|9:nsubj	Id=1xwn|LTranslit=vydavnyctvo|SpaceAfter=No|Translit=vydavnyctv
+11	видавництв	видавництво	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nsubj	8:nsubj|9:nsubj	Id=1xwn|LTranslit=vydavnyctvo|SpaceAfter=No|Translit=vydavnyctv
 12	.	.	PUNCT	U	_	9	punct	9:punct	Id=1xwo|LTranslit=.|Translit=.
 
 # newpar id = 1xwq
@@ -8939,9 +8939,9 @@
 13	;	;	PUNCT	U	_	17	punct	17:punct	Id=1xy6|LTranslit=;|Translit=;
 14	21	21	NUM	Mlcmsa	Case=Acc|Gender=Masc|NumType=Card|Uninflect=Yes	15	nummod	15:nummod	Id=1xy7|LTranslit=21|Translit=21
 15	раз	раз	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	17:obl	Id=1xy8|LTranslit=raz|Translit=raz
-16	лавреатами	лавреат	NOUN	Ncmpiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Orth=Alt	17	xcomp:sp	17:xcomp:sp	Id=1xy9|LTranslit=lavreat|Translit=lavreatamy
+16	лавреатами	лавреат	NOUN	Ncmpiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Orth=Alt	17	xcomp:sp	17:xcomp	Id=1xy9|LTranslit=lavreat|Translit=lavreatamy
 17	визнавали	визнавати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	7	parataxis	7:parataxis	Id=1xya|LTranslit=vyznavaty|Translit=vyznavaly
-18	книжки	книжка	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	16:nsubj:sp|17:obj	Id=1xyb|LTranslit=knyžka|Translit=knyžky
+18	книжки	книжка	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	16:nsubj|17:obj	Id=1xyb|LTranslit=knyžka|Translit=knyžky
 19	«	«	PUNCT	U	PunctType=Quot	20	punct	20:punct	Id=1xyc|LTranslit=«|SpaceAfter=No|Translit=«
 20	Темпори	Темпора	PROPN	Npfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	18:nmod	Id=1xyd|LTranslit=Tempora|SpaceAfter=No|Translit=Tempory
 21	»	»	PUNCT	U	PunctType=Quot	20	punct	20:punct	Id=1xye|LTranslit=»|SpaceAfter=No|Translit=»
@@ -9162,7 +9162,7 @@
 22	,	,	PUNCT	U	_	23	punct	23:punct	Id=1y4j|LTranslit=,|Translit=,
 23	записана	записаний	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	15	amod	15:amod	Id=1y4k|LTranslit=zapysanyj|Translit=zapysana
 24	як	як	SCONJ	Css	_	25	mark	25:mark	Id=1y4l|LTranslit=jak|Translit=jak
-25	фрилансер	фрилансер	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	xcomp:sp	23:xcomp:sp	Id=1y4m|LTranslit=frylanser|Translit=frylanser
+25	фрилансер	фрилансер	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	xcomp:sp	23:xcomp	Id=1y4m|LTranslit=frylanser|Translit=frylanser
 26	зі	зі	ADP	Spsg	Case=Gen	27	case	27:case	Id=1y4n|LTranslit=zi|Translit=zi
 27	Львова	Львів	PROPN	Npmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	25:nmod	Id=1y4o|LTranslit=Ľviv|SpaceAfter=No|Translit=Ľvova
 28	.	.	PUNCT	U	_	11	punct	11:punct	Id=1y4p|LTranslit=.|Translit=.
@@ -9233,13 +9233,13 @@
 # sent_id = 1y6c
 # text = Одним з ключових приводів стали жартівливі дискусії про введення інституту «мовних патрулів» на розвиток проекту «Закону про державну мову» № 5670, поданого на розгляд парламенту 19 січня.
 # translit = Odnym z kľučovych pryvodiv staly žartivlyvi dyskusiji pro vvedenńа instytutu «movnych patruliv» na rozvytok proektu «Zakonu pro deržavnu movu» № 5670, podanoho na rozhľаd parlamentu 19 sičńа.
-1	Одним	один	DET	Pi--m-sia	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind	5	xcomp:sp	5:xcomp:sp	Id=1y6d|LTranslit=odyn|Promoted=Yes|Translit=Odnym
+1	Одним	один	DET	Pi--m-sia	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind	5	xcomp:sp	5:xcomp	Id=1y6d|LTranslit=odyn|Promoted=Yes|Translit=Odnym
 2	з	з	ADP	Spsg	Case=Gen	4	case	4:case	Id=1y6e|LTranslit=z|Translit=z
 3	ключових	ключовий	ADJ	Ao--pgf	Case=Gen|Number=Plur	4	amod	4:amod	Id=1y6f|LTranslit=kľučovyj|Translit=kľučovych
 4	приводів	привід	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	1:nmod	Id=1y6g|LTranslit=pryvid|Translit=pryvodiv
 5	стали	стати	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1y6h|LTranslit=staty|Translit=staly
 6	жартівливі	жартівливий	ADJ	Ao--pns	Case=Nom|Number=Plur	7	amod	7:amod	Id=1y6i|LTranslit=žartivlyvyj|Translit=žartivlyvi
-7	дискусії	дискусія	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	1:nsubj:sp|5:nsubj	Id=1y6j|LTranslit=dyskusija|Translit=dyskusiji
+7	дискусії	дискусія	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	1:nsubj|5:nsubj	Id=1y6j|LTranslit=dyskusija|Translit=dyskusiji
 8	про	про	ADP	Spsa	Case=Acc	9	case	9:case	Id=1y6k|LTranslit=pro|Translit=pro
 9	введення	введення	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	nmod	7:nmod	Id=1y6l|LTranslit=vvedenńа|Translit=vvedenńа
 10	інституту	інститут	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	9:nmod	Id=1y6m|LTranslit=instytut|Translit=instytutu
@@ -9300,7 +9300,7 @@
 27	2017	2017	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	23	compound	23:compound	Id=1y83|LTranslit=2017|SpaceAfter=No|Translit=2017
 28	)	)	PUNCT	U	_	21	punct	21:punct	Id=1y84|LTranslit=)|SpaceAfter=No|Translit=)
 29	:	:	PUNCT	U	_	49	punct	49:punct	Id=1y85|LTranslit=:|Translit=:
-30	першим	перший	ADJ	Mlomsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	49	xcomp:sp	49:xcomp:sp	Id=1y86|LTranslit=peršyj|SpaceAfter=No|Translit=peršym
+30	першим	перший	ADJ	Mlomsi	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	49	xcomp:sp	49:xcomp	Id=1y86|LTranslit=peršyj|SpaceAfter=No|Translit=peršym
 31	,	,	PUNCT	U	_	33	punct	33:punct	Id=1y87|LTranslit=,|Translit=,
 32	хто	хто	PRON	Pr--mysnn	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	33	nsubj	33:nsubj	Id=1y88|LTranslit=chto|Translit=chto
 33	звернув	звернути	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	30	advcl	30:advcl	Id=1y89|LTranslit=zvernuty|Translit=zvernuv
@@ -9320,7 +9320,7 @@
 47	»	»	PUNCT	U	PunctType=Quot	46	punct	46:punct	Id=1y8n|LTranslit=»|SpaceAfter=No|Translit=»
 48	,	,	PUNCT	U	_	33	punct	33:punct	Id=1y8o|LTranslit=,|Translit=,
 49	став	стати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	6	parataxis	6:parataxis	Id=1y8p|LTranslit=staty|Translit=stav
-50	консультант	консультант	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	49	nsubj	30:nsubj:sp|49:nsubj	Id=1y8q|LTranslit=konsuľtant|Translit=konsuľtant
+50	консультант	консультант	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	49	nsubj	30:nsubj|49:nsubj	Id=1y8q|LTranslit=konsuľtant|Translit=konsuľtant
 51	книгарні	книгарня	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	50	nmod	50:nmod	Id=1y8r|LTranslit=knyharńа|Translit=knyharni
 52	«	«	PUNCT	U	PunctType=Quot	53	punct	53:punct	Id=1y8s|LTranslit=«|SpaceAfter=No|Translit=«
 53	Є	Є	PROPN	Np--nn	Animacy=Inan|Case=Nom	51	flat:title	51:flat:title	Id=1y8t|LTranslit=Ě|SpaceAfter=No|Translit=Ě
@@ -9470,11 +9470,11 @@
 # sent_id = 1yci
 # text = Що ж найчастіше стає причиною такого дискомфорту?
 # translit = Ščo ž najčastiše staě pryčynoju takoho dyskomfortu?
-1	Що	що	PRON	Pq--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	4:nsubj|5:nsubj:sp	Id=1ycj|LTranslit=ščo|Translit=Ščo
+1	Що	що	PRON	Pq--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Int	4	nsubj	4:nsubj|5:nsubj	Id=1ycj|LTranslit=ščo|Translit=Ščo
 2	ж	ж	PART	Q	_	1	discourse	1:discourse	Id=1yck|LTranslit=ž|Translit=ž
 3	найчастіше	найчастіше	ADV	Rs	Degree=Sup	4	advmod	4:advmod	Id=1ycl|LTranslit=najčastiše|Translit=najčastiše
 4	стає	ставати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=1ycm|LTranslit=stavaty|Translit=staě
-5	причиною	причина	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	xcomp:sp	4:xcomp:sp	Id=1ycn|LTranslit=pryčyna|Translit=pryčynoju
+5	причиною	причина	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	xcomp:sp	4:xcomp	Id=1ycn|LTranslit=pryčyna|Translit=pryčynoju
 6	такого	такий	DET	Pd--m-sga	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	7	det	7:det	Id=1yco|LTranslit=takyj|Translit=takoho
 7	дискомфорту	дискомфорт	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	5:nmod	Id=1ycp|LTranslit=dyskomfort|SpaceAfter=No|Translit=dyskomfortu
 8	?	?	PUNCT	U	_	4	punct	4:punct	Id=1ycq|LTranslit=?|Translit=?
@@ -10044,9 +10044,9 @@
 2	же	же	PART	Q	_	1	discourse	1:discourse	Id=21xy|LTranslit=že|Translit=že
 3	пропонується	пропонуватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=21xz|LTranslit=proponuvatyśа|Translit=proponuěťśа
 4	й	й	PART	Q	_	5	discourse	5:discourse	Id=21y0|LTranslit=j|Translit=j
-5	примітка	примітка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj|9:nsubj|15:nsubj:xsubj|16:nsubj:sp	Id=21y1|LTranslit=prymitka|SpaceAfter=No|Translit=prymitka
+5	примітка	примітка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj|9:nsubj|15:nsubj:xsubj|16:nsubj	Id=21y1|LTranslit=prymitka|SpaceAfter=No|Translit=prymitka
 6	,	,	PUNCT	U	_	9	punct	9:punct	Id=21y2|LTranslit=,|Translit=,
-7	яка	який	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	9	nsubj	5:ref|9:nsubj|15:nsubj:xsubj|16:nsubj:sp	Id=21y3|LTranslit=jakyj|Translit=jaka
+7	яка	який	DET	Pr--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	9	nsubj	5:ref|9:nsubj|15:nsubj:xsubj|16:nsubj	Id=21y3|LTranslit=jakyj|Translit=jaka
 8	ширше	ширше	ADV	Rc	Degree=Cmp	9	advmod	9:advmod	Id=21y4|LTranslit=šyrše|Translit=šyrše
 9	привідкриває	привідкривати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	Id=21y5|LTranslit=pryvidkryvaty|Translit=pryvidkryvaě
 10	історичну	історичний	ADJ	Ao-fsas	Case=Acc|Gender=Fem|Number=Sing	11	amod	11:amod	Id=21y6|LTranslit=istoryčnyj|Translit=istoryčnu
@@ -10055,7 +10055,7 @@
 13	навіть	навіть	PART	Q	_	14	discourse	14:discourse	Id=21y9|LTranslit=naviť|Translit=naviť
 14	може	могти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	5:acl:relcl|9:conj	Id=21ya|LTranslit=mohty|Translit=može
 15	послугувати	послугувати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	14	xcomp	14:xcomp	Id=21yb|LTranslit=posluhuvaty|Translit=posluhuvaty
-16	ключем	ключ	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	xcomp:sp	15:xcomp:sp	Id=21yc|LTranslit=kľuč|Translit=kľučem
+16	ключем	ключ	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	xcomp:sp	15:xcomp	Id=21yc|LTranslit=kľuč|Translit=kľučem
 17	до	до	ADP	Spsg	Case=Gen	19	case	19:case	Id=21yd|LTranslit=do|Translit=do
 18	подальшої	подальший	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	19	amod	19:amod	Id=21ye|LTranslit=podaľšyj|Translit=podaľšoji
 19	начитки	начитка	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	16:nmod	Id=21yf|LTranslit=načytka|SpaceAfter=No|Translit=načytky
@@ -10332,9 +10332,9 @@
 # translit = I vvažajuť ce čudovym pokaznykom.
 1	І	і	CCONJ	Ccs	_	2	cc	2:cc	Id=28en|LTranslit=i|Translit=I
 2	вважають	вважати	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=28eo|LTranslit=vvažaty|Translit=vvažajuť
-3	це	це	PRON	Pd--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	2:obj|5:nsubj:sp	Id=28ep|LTranslit=ce|Translit=ce
+3	це	це	PRON	Pd--nnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	2:obj|5:nsubj	Id=28ep|LTranslit=ce|Translit=ce
 4	чудовим	чудовий	ADJ	Afpmsif	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	5:amod	Id=28eq|LTranslit=čudovyj|Translit=čudovym
-5	показником	показник	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	xcomp:sp	2:xcomp:sp	Id=28er|LTranslit=pokaznyk|SpaceAfter=No|Translit=pokaznykom
+5	показником	показник	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	xcomp:sp	2:xcomp	Id=28er|LTranslit=pokaznyk|SpaceAfter=No|Translit=pokaznykom
 6	.	.	PUNCT	U	_	2	punct	2:punct	Id=28es|LTranslit=.|Translit=.
 
 # annotation_gap
@@ -10474,11 +10474,11 @@
 11	приватні	приватний	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	12	amod	12:amod	Id=28jg|LTranslit=pryvatnyj|Translit=pryvatni
 12	інвестиції	інвестиція	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	conj	4:obj|9:conj	Id=28jh|LTranslit=investycija|SpaceAfter=No|Translit=investyciji
 13	,	,	PUNCT	U	_	15	punct	15:punct	Id=28ji|LTranslit=,|Translit=,
-14	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	15	nsubj	15:nsubj|16:nsubj:xsubj|18:nsubj:sp	Id=28jj|LTranslit=ščo|Translit=ščo
+14	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	15	nsubj	15:nsubj|16:nsubj:xsubj|18:nsubj	Id=28jj|LTranslit=ščo|Translit=ščo
 15	може	могти	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis:rel	4:parataxis	Id=28jk|LTranslit=mohty|Translit=može
 16	стати	стати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	15	xcomp	15:xcomp	Id=28jl|LTranslit=staty|Translit=staty
 17	певним	певний	ADJ	Afpmsif	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	18:amod	Id=28jm|LTranslit=pevnyj|Translit=pevnym
-18	локомотивом	локомотив	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	xcomp:sp	16:xcomp:sp	Id=28jn|LTranslit=lokomotyv|SpaceAfter=No|Translit=lokomotyvom
+18	локомотивом	локомотив	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	xcomp:sp	16:xcomp	Id=28jn|LTranslit=lokomotyv|SpaceAfter=No|Translit=lokomotyvom
 19	.	.	PUNCT	U	_	15	punct	15:punct	Id=28jo|LTranslit=.|Translit=.
 
 # doc_title = Осадча з маленьким сином прикрасила обкладинку глянцю
@@ -10773,7 +10773,7 @@
 29	”	”	PUNCT	U	PunctType=Quot	25	punct	25:punct	Id=28rg|LTranslit=”|SpaceAfter=No|Translit=”
 30	)	)	PUNCT	U	_	17	punct	17:punct	Id=28rh|LTranslit=)|Translit=)
 31	з	з	ADP	Spsi	Case=Ins	32	case	32:case	Id=28ri|LTranslit=z|Translit=z
-32	романом	роман	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	9:obl|43:nsubj|53:nsubj:sp	Id=28rj|LTranslit=roman|Translit=romanom
+32	романом	роман	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	9:obl|43:nsubj|53:nsubj	Id=28rj|LTranslit=roman|Translit=romanom
 33	“	“	PUNCT	U	PunctType=Quot	36	punct	36:punct	Id=28rk|LTranslit=“|SpaceAfter=No|Translit=“
 34	Холістичне	холістичний	ADJ	Ao-nsns	Case=Nom|Gender=Neut|Number=Sing	36	amod	36:amod	Id=28rl|LTranslit=cholistyčnyj|Translit=Cholistyčne
 35	детективне	детективний	ADJ	Ao-nsns	Case=Nom|Gender=Neut|Number=Sing	36	amod	36:amod	Id=28rm|LTranslit=detektyvnyj|Translit=detektyvne
@@ -10794,7 +10794,7 @@
 50	,	,	PUNCT	U	_	48	punct	48:punct	Id=28s1|LTranslit=,|Translit=,
 51	як	як	SCONJ	Css	_	53	mark	53:mark	Id=28s2|LTranslit=jak|Translit=jak
 52	“	“	PUNCT	U	PunctType=Quot	53	punct	53:punct	Id=28s3|LTranslit=“|SpaceAfter=No|Translit=“
-53	щось	щось	PRON	Pi--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	43	xcomp:sp	43:xcomp:sp	Id=28s4|LTranslit=ščoś|Translit=ščoś
+53	щось	щось	PRON	Pi--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	43	xcomp:sp	43:xcomp	Id=28s4|LTranslit=ščoś|Translit=ščoś
 54	типу	тип	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	53	nmod	53:nmod	Id=28s5|LTranslit=typ|Translit=typu
 55	привидо	привидовий	ADJ	A	Hyph=Yes	63	compound	63:compound	Id=28s6|LTranslit=pryvydovyj|SpaceAfter=No|Translit=pryvydo
 56	-	-	PUNCT	U	PunctType=Dash	55	punct	55:punct	Id=28s7|LTranslit=-|SpaceAfter=No|Translit=-
@@ -12055,7 +12055,7 @@
 # sent_id = 2anj
 # text = Літак створений як багатоцільовий сухопутний всеаеродромний близько- та середньомагістральний дводвигунний турбогвинтовий однофюзеляжний дозвуковий легкий транспортний моно-високоплан нормальної схеми 3-го класу.
 # translit = Litak stvorenyj jak bahatociľovyj suchoputnyj vseaerodromnyj blyźko- ta seredńomahistraľnyj dvodvyhunnyj turbohvyntovyj odnofjuzeľаžnyj dozvukovyj lehkyj transportnyj mono-vysokoplan normaľnoji schemy 3-ho klasu.
-1	Літак	літак	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj|19:nsubj:sp	Id=2ank|LTranslit=litak|Translit=Litak
+1	Літак	літак	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj|19:nsubj	Id=2ank|LTranslit=litak|Translit=Litak
 2	створений	створений	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	0:root	Id=2anl|LTranslit=stvorenyj|Translit=stvorenyj
 3	як	як	SCONJ	Css	_	19	mark	19:mark	Id=2anm|LTranslit=jak|Translit=jak
 4	багатоцільовий	багатоцільовий	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	19:amod	Id=2ann|LTranslit=bahatociľovyj|Translit=bahatociľovyj
@@ -12073,7 +12073,7 @@
 16	транспортний	транспортний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	19	amod	19:amod	Id=2anz|LTranslit=transportnyj|Translit=transportnyj
 17	моно	моноплан	NOUN	A	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	compound	19:compound	Id=2ao0|LTranslit=monoplan|SpaceAfter=No|Translit=mono
 18	-	-	PUNCT	U	PunctType=Dash	17	punct	17:punct	Id=2ao1|LTranslit=-|SpaceAfter=No|Translit=-
-19	високоплан	високоплан	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	xcomp:sp	2:xcomp:sp	Id=2ao2|LTranslit=vysokoplan|Translit=vysokoplan
+19	високоплан	високоплан	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	xcomp:sp	2:xcomp	Id=2ao2|LTranslit=vysokoplan|Translit=vysokoplan
 20	нормальної	нормальний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	21	amod	21:amod	Id=2ao3|LTranslit=normaľnyj|Translit=normaľnoji
 21	схеми	схема	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	19:nmod	Id=2ao4|LTranslit=schema|Translit=schemy
 22	3-го	3-ій	ADJ	Mlomsg	Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	23	amod	23:amod	Id=2ao5|LTranslit=3-ij|Translit=3-ho
@@ -12411,7 +12411,7 @@
 7	чому	чому	ADV	Pr------r	PronType=Rel	9	advmod	9:advmod	Id=2o4b|LTranslit=čomu|Translit=čomu
 8	не	не	PART	Q	Polarity=Neg	9	advmod	9:advmod	Id=2o4c|LTranslit=ne|Translit=ne
 9	став	стати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	acl	5:acl	Id=2o4d|LTranslit=staty|Translit=stav
-10	медиком	медик	NOUN	Ncmsiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	xcomp:sp	9:xcomp:sp	Id=2o4e|LTranslit=medyk|SpaceAfter=No|Translit=medykom
+10	медиком	медик	NOUN	Ncmsiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	xcomp:sp	9:xcomp	Id=2o4e|LTranslit=medyk|SpaceAfter=No|Translit=medykom
 11	.	.	PUNCT	U	_	3	punct	3:punct	Id=2o4f|LTranslit=.|Translit=.
 
 # newpar id = 2o4g
@@ -12481,9 +12481,9 @@
 # translit = I tak ja stav svjaščenykom.
 1	І	і	CCONJ	Ccs	_	4	cc	4:cc	Id=2o60|LTranslit=i|Translit=I
 2	так	так	ADV	Pd------r	PronType=Dem	4	advmod	4:advmod	Id=2o61|LTranslit=tak|Translit=tak
-3	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:sp	Id=2o62|LTranslit=ja|Translit=ja
+3	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj|5:nsubj	Id=2o62|LTranslit=ja|Translit=ja
 4	став	стати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=2o63|LTranslit=staty|Translit=stav
-5	священиком	священик	NOUN	Ncmsiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	xcomp:sp	4:xcomp:sp	Id=2o64|LTranslit=svjaščenyk|SpaceAfter=No|Translit=svjaščenykom
+5	священиком	священик	NOUN	Ncmsiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	xcomp:sp	4:xcomp	Id=2o64|LTranslit=svjaščenyk|SpaceAfter=No|Translit=svjaščenykom
 6	.	.	PUNCT	U	_	4	punct	4:punct	Id=2o65|LTranslit=.|Translit=.
 
 # sent_id = 2o66
@@ -12541,8 +12541,8 @@
 5	,	,	PUNCT	U	_	4	punct	4:punct	Id=2o7e|LTranslit=,|Translit=,
 6	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	Id=2o7f|LTranslit=vin|Translit=vin
 7	робить	робити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=2o7g|LTranslit=robyty|Translit=robyť
-8	нас	ми	PRON	Pp-1-ypan	Animacy=Anim|Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obj	7:obj|9:nsubj:sp	Id=2o7h|LTranslit=my|Translit=nas
-9	гнилими	гнилий	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	7	xcomp:sp	7:xcomp:sp	Id=2o7i|LTranslit=hnylyj|Translit=hnylymy
+8	нас	ми	PRON	Pp-1-ypan	Animacy=Anim|Case=Acc|Number=Plur|Person=1|PronType=Prs	7	obj	7:obj|9:nsubj	Id=2o7h|LTranslit=my|Translit=nas
+9	гнилими	гнилий	ADJ	Afp-pif	Case=Ins|Degree=Pos|Number=Plur	7	xcomp:sp	7:xcomp	Id=2o7i|LTranslit=hnylyj|Translit=hnylymy
 10	так	так	ADV	Pd------r	PronType=Dem	7	advmod	7:advmod	Id=2o7j|LTranslit=tak|SpaceAfter=No|Translit=tak
 11	,	,	PUNCT	U	_	17	punct	17:punct	Id=2o7k|LTranslit=,|Translit=,
 12	наче	наче	SCONJ	Css	_	17	mark	17:mark	Id=2o7l|LTranslit=nače|Translit=nače
@@ -12570,8 +12570,8 @@
 12	бо	бо	SCONJ	Css	_	14	mark	14:mark	Id=2o84|LTranslit=bo|Translit=bo
 13	воно	воно	PRON	Pp-3n-snn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Id=2o85|LTranslit=vono|Translit=vono
 14	робить	робити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl	Id=2o86|LTranslit=robyty|Translit=robyť
-15	тебе	ти	PRON	Pp-2-ysan	Animacy=Anim|Case=Acc|Number=Sing|Person=2|PronType=Prs	14	obj	14:obj|16:nsubj:sp	Id=2o87|LTranslit=ty|Translit=tebe
-16	багатшою	багатший	ADJ	Afcfsif	Case=Ins|Degree=Cmp|Gender=Fem|Number=Sing	14	xcomp:sp	14:xcomp:sp	Id=2o88|LTranslit=bahatšyj|Translit=bahatšoju
+15	тебе	ти	PRON	Pp-2-ysan	Animacy=Anim|Case=Acc|Number=Sing|Person=2|PronType=Prs	14	obj	14:obj|16:nsubj	Id=2o87|LTranslit=ty|Translit=tebe
+16	багатшою	багатший	ADJ	Afcfsif	Case=Ins|Degree=Cmp|Gender=Fem|Number=Sing	14	xcomp:sp	14:xcomp	Id=2o88|LTranslit=bahatšyj|Translit=bahatšoju
 17	за	за	ADP	Spsa	Case=Acc	19	case	19:case	Id=2o89|LTranslit=za|Translit=za
 18	все	весь	DET	Pg--n-saa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	19	det	19:det	Id=2o8a|LTranslit=veś|Translit=vse
 19	інше	інше	PRON	Pi--nnsaa	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	16	obl	16:obl	Id=2o8b|LTranslit=inše|SpaceAfter=No|Translit=inše
@@ -12627,15 +12627,15 @@
 6	мене	я	PRON	Pp-1-ysgn	Animacy=Anim|Case=Gen|Number=Sing|Person=1|PronType=Prs	7	obl	7:obl	Id=2oa2|LTranslit=ja|Translit=mene
 7	звертався	звертатися	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=2oa3|LTranslit=zvertatyśа|Translit=zvertavśа
 8	голова	голова	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj	Id=2oa4|LTranslit=holova|Translit=holova
-9	Новосельського	Новосельський	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	8	nmod	8:nmod|15:nsubj|16:nsubj:xsubj|17:nsubj:sp	Id=2oa5|LTranslit=Novoseľśkyj|SpaceAfter=No|Translit=Novoseľśkoho
+9	Новосельського	Новосельський	PROPN	Npmsgy	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing	8	nmod	8:nmod|15:nsubj|16:nsubj:xsubj|17:nsubj	Id=2oa5|LTranslit=Novoseľśkyj|SpaceAfter=No|Translit=Novoseľśkoho
 10	,	,	PUNCT	U	_	15	punct	15:punct	Id=2oa6|LTranslit=,|Translit=,
-11	яке	який	DET	Pr--n-sna	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	15	nsubj	9:ref|15:nsubj|16:nsubj:xsubj|17:nsubj:sp	Id=2oa7|LTranslit=jakyj|Translit=jake
+11	яке	який	DET	Pr--n-sna	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	15	nsubj	9:ref|15:nsubj|16:nsubj:xsubj|17:nsubj	Id=2oa7|LTranslit=jakyj|Translit=jake
 12	згідно	згідно	ADV	R	_	15	advmod	15:advmod	Id=2oa8|LTranslit=zhidno|Translit=zhidno
 13	з	з	ADP	Spsi	Case=Ins	14	case	14:case	Id=2oa9|LTranslit=z|Translit=z
 14	планом	план	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	12:obl	Id=2oaa|LTranslit=plan|Translit=planom
 15	має	мати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	Id=2oab|LTranslit=maty|Translit=maě
 16	стати	стати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	15	xcomp	15:xcomp	Id=2oac|LTranslit=staty|Translit=staty
-17	центром	центр	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	xcomp:sp	16:xcomp:sp	Id=2oad|LTranslit=centr|Translit=centrom
+17	центром	центр	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	xcomp:sp	16:xcomp	Id=2oad|LTranslit=centr|Translit=centrom
 18	громади	громада	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	17:nmod	Id=2oae|LTranslit=hromada|SpaceAfter=No|Translit=hromady
 19	.	.	PUNCT	U	_	7	punct	7:punct	Id=2oaf|LTranslit=.|Translit=.
 
@@ -12776,9 +12776,9 @@
 9	,	,	PUNCT	U	_	13	punct	13:punct	Id=2odj|LTranslit=,|Translit=,
 10	оскільки	оскільки	SCONJ	Css	_	13	mark	13:mark	Id=2odk|LTranslit=oskiľky|Translit=oskiľky
 11	саме	саме	PART	Q	_	12	discourse	12:discourse	Id=2odl|LTranslit=same|Translit=same
-12	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj|14:nsubj:sp	Id=2odm|LTranslit=vin|Translit=vin
+12	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj|14:nsubj	Id=2odm|LTranslit=vin|Translit=vin
 13	виступав	виступати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	advcl	7:advcl	Id=2odn|LTranslit=vystupaty|Translit=vystupav
-14	координатором	координатор	NOUN	Ncmsiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	xcomp:sp	13:xcomp:sp	Id=2odo|LTranslit=koordynator|Translit=koordynatorom
+14	координатором	координатор	NOUN	Ncmsiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	13	xcomp:sp	13:xcomp	Id=2odo|LTranslit=koordynator|Translit=koordynatorom
 15	будівельного	будівельний	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	16	amod	16:amod	Id=2odp|LTranslit=budiveľnyj|Translit=budiveľnoho
 16	проекту	проект	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	14:nmod	Id=2odq|LTranslit=proekt|Translit=proektu
 17	поромної	поромний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	18	amod	18:amod	Id=2odr|LTranslit=poromnyj|Translit=poromnoji
@@ -12867,9 +12867,9 @@
 1	Водночас	водночас	ADV	R	_	5	advmod	5:advmod	Id=2ofn|LTranslit=vodnočas|Translit=Vodnočas
 2	серед	серед	ADP	Spsg	Case=Gen	3	case	3:case	Id=2ofo|LTranslit=sered|Translit=sered
 3	чиновників	чиновник	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	5:obl	Id=2ofp|LTranslit=čynovnyk|Translit=čynovnykiv
-4	популярною	популярний	ADJ	Afpfsif	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	xcomp:sp	5:xcomp:sp	Id=2ofq|LTranslit=popuľаrnyj|Translit=popuľаrnoju
+4	популярною	популярний	ADJ	Afpfsif	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	xcomp:sp	5:xcomp	Id=2ofq|LTranslit=popuľаrnyj|Translit=popuľаrnoju
 5	стає	ставати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=2ofr|LTranslit=stavaty|Translit=staě
-6	пропозиція	пропозиція	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	4:nsubj:sp|5:nsubj	Id=2ofs|LTranslit=propozycija|Translit=propozycija
+6	пропозиція	пропозиція	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	4:nsubj|5:nsubj	Id=2ofs|LTranslit=propozycija|Translit=propozycija
 7	зберегти	зберегти	VERB	Vmen	Aspect=Perf|VerbForm=Inf	6	acl	6:acl	Id=2oft|LTranslit=zberehty|Translit=zberehty
 8	район	район	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	7:obj	Id=2ofu|LTranslit=rajon|Translit=rajon
 9	у	у	ADP	Spsl	Case=Loc	11	case	11:case	Id=2ofv|LTranslit=u|Translit=u
@@ -13037,11 +13037,11 @@
 9	безробіття	безробіття	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	8:nmod	Id=2gob|LTranslit=bezrobitťа|Translit=bezrobitťа
 10	почне	почати	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	Id=2goc|LTranslit=počaty|Translit=počne
 11	розглядати	розглядати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	10	xcomp	10:xcomp	Id=2god|LTranslit=rozhľаdaty|Translit=rozhľаdaty
-12	її	вона	PRON	Pp-3f-san	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	11:obj|16:nsubj:sp	Id=2goe|LTranslit=vona|Translit=jiji
+12	її	вона	PRON	Pp-3f-san	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	11:obj|16:nsubj	Id=2goe|LTranslit=vona|Translit=jiji
 13	як	як	SCONJ	Css	_	16	mark	16:mark	Id=2gof|LTranslit=jak|Translit=jak
 14	єдиний	єдиний	ADJ	Ao-msafn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	amod	16:amod	Id=2gog|LTranslit=ědynyj|Translit=ědynyj
 15	нормальний	нормальний	ADJ	Ao-msafn	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	amod	16:amod	Id=2goh|LTranslit=normaľnyj|Translit=normaľnyj
-16	варіант	варіант	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	xcomp:sp	11:xcomp:sp	Id=2goi|LTranslit=variant|Translit=variant
+16	варіант	варіант	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	xcomp:sp	11:xcomp	Id=2goi|LTranslit=variant|Translit=variant
 17	роботи	робота	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	16:nmod	Id=2goj|LTranslit=robota|Translit=roboty
 18	в	в	ADP	Spsl	Case=Loc	19	case	19:case	Id=2gok|LTranslit=v|Translit=v
 19	місті	місто	NOUN	Ncnsln	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	16:nmod	Id=2gol|LTranslit=misto|SpaceAfter=No|Translit=misti
@@ -13100,10 +13100,10 @@
 14	,	,	PUNCT	U	_	22	punct	22:punct	Id=2gqg|LTranslit=,|Translit=,
 15	бо	бо	SCONJ	Css	_	22	mark	22:mark	Id=2gqh|LTranslit=bo|Translit=bo
 16	привозити	привозити	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	22	csubj	22:csubj	Id=2gqi|LTranslit=pryvozyty|Translit=pryvozyty
-17	суми	сума	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	16:obj|20:nsubj:sp	Id=2gqj|LTranslit=suma|Translit=sumy
+17	суми	сума	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	16:obj|20:nsubj	Id=2gqj|LTranslit=suma|Translit=sumy
 18	в	в	ADP	Spsl	Case=Loc	20	case	20:case	Id=2gqk|LTranslit=v|Translit=v
 19	цій	цей	DET	Pd--f-sla	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	20	det	20:det	Id=2gql|LTranslit=cej|Translit=cij
-20	валюті	валюта	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	advcl:sp	22:advcl:sp	Id=2gqm|LTranslit=vaľuta|Translit=vaľuti
+20	валюті	валюта	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	advcl:sp	22:advcl	Id=2gqm|LTranslit=vaľuta|Translit=vaľuti
 21	було	бути	AUX	Vapis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	22	cop	22:cop	Id=2gqn|LTranslit=buty|Translit=bulo
 22	легше	легше	ADV	Rc	Degree=Cmp	12	advcl	12:advcl	Id=2gqo|LTranslit=lehše|SpaceAfter=No|Translit=lehše
 23	.	.	PUNCT	U	_	12	punct	12:punct	Id=2gqp|LTranslit=.|Translit=.
@@ -13415,7 +13415,7 @@
 3	років	рік	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	39	obl	39:obl	Id=2gyc|LTranslit=rik|Translit=rokiv
 4	минулого	минулий	ADJ	Ap-nsgf-ea	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Act	5	amod	5:amod	Id=2gyd|LTranslit=mynulyj|Translit=mynuloho
 5	століття	століття	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	3:nmod	Id=2gye|LTranslit=stolitťа|Translit=stolitťа
-6	напівпровідники	напівпровідник	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	39	obj	39:obj|40:nsubj:sp	Id=2gyf|LTranslit=napivprovidnyk|SpaceAfter=No|Translit=napivprovidnyky
+6	напівпровідники	напівпровідник	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	39	obj	39:obj|40:nsubj	Id=2gyf|LTranslit=napivprovidnyk|SpaceAfter=No|Translit=napivprovidnyky
 7	,	,	PUNCT	U	_	9	punct	9:punct	Id=2gyg|LTranslit=,|Translit=,
 8	тобто	тобто	SCONJ	Css	_	9	mark	9:mark	Id=2gyh|LTranslit=tobto|Translit=tobto
 9	матеріали	матеріал	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	appos	6:appos|12:nsubj|13:nsubj:xsubj	Id=2gyi|LTranslit=material|SpaceAfter=No|Translit=materialy
@@ -13449,7 +13449,7 @@
 37	рік	рік	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	nmod	32:nmod	Id=2gza|LTranslit=rik|SpaceAfter=No|Translit=rik
 38	)	)	PUNCT	U	_	29	punct	29:punct	Id=2gzb|LTranslit=)|Translit=)
 39	вважали	вважати	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	Id=2gzc|LTranslit=vvažaty|Translit=vvažaly
-40	непорозумінням	непорозуміння	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	39	xcomp:sp	39:xcomp:sp|45:nsubj	Id=2gzd|LTranslit=neporozuminńа|SpaceAfter=No|Translit=neporozuminńаm
+40	непорозумінням	непорозуміння	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	39	xcomp:sp	39:xcomp|45:nsubj	Id=2gzd|LTranslit=neporozuminńа|SpaceAfter=No|Translit=neporozuminńаm
 41	,	,	PUNCT	U	_	45	punct	45:punct	Id=2gze|LTranslit=,|Translit=,
 42	яке	який	DET	Pr--n-sna	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	45	nsubj	40:ref|45:nsubj	Id=2gzf|LTranslit=jakyj|Translit=jake
 43	ніколи	ніколи	ADV	Pz------r	PronType=Neg	45	advmod	45:advmod	Id=2gzg|LTranslit=nikoly|Translit=nikoly
@@ -13620,9 +13620,9 @@
 # translit = Naviť zvukove kino stalo možlyvym lyše z vykorystanńаm fotoefektu.
 1	Навіть	навіть	PART	Q	_	3	discourse	3:discourse	Id=2h3e|LTranslit=naviť|Translit=Naviť
 2	звукове	звуковий	ADJ	Ao-nsns	Case=Nom|Gender=Neut|Number=Sing	3	amod	3:amod	Id=2h3f|LTranslit=zvukovyj|Translit=zvukove
-3	кіно	кіно	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|Uninflect=Yes	4	nsubj	4:nsubj|5:nsubj:sp	Id=2h3g|LTranslit=kino|Translit=kino
+3	кіно	кіно	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|Uninflect=Yes	4	nsubj	4:nsubj|5:nsubj	Id=2h3g|LTranslit=kino|Translit=kino
 4	стало	стати	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=2h3h|LTranslit=staty|Translit=stalo
-5	можливим	можливий	ADJ	Ao-nsif	Case=Ins|Gender=Neut|Number=Sing	4	xcomp:sp	4:xcomp:sp	Id=2h3i|LTranslit=možlyvyj|Translit=možlyvym
+5	можливим	можливий	ADJ	Ao-nsif	Case=Ins|Gender=Neut|Number=Sing	4	xcomp:sp	4:xcomp	Id=2h3i|LTranslit=možlyvyj|Translit=možlyvym
 6	лише	лише	PART	Q	_	8	discourse	8:discourse	Id=2h3j|LTranslit=lyše|Translit=lyše
 7	з	з	ADP	Spsi	Case=Ins	8	case	8:case	Id=2h3k|LTranslit=z|Translit=z
 8	використанням	використання	NOUN	Ncnsin	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	4:obl	Id=2h3l|LTranslit=vykorystanńа|Translit=vykorystanńаm
@@ -14283,11 +14283,11 @@
 11	композитором	композитор	NOUN	Ncmsiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	conj	0:root|4:conj	Id=2hkw|LTranslit=kompozytor|Translit=kompozytorom
 12	того	те	PRON	Pd--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	11	nmod	11:nmod|15:nsubj	Id=2hkx|LTranslit=te|SpaceAfter=No|Translit=toho
 13	,	,	PUNCT	U	_	15	punct	15:punct	Id=2hky|LTranslit=,|Translit=,
-14	що	що	SCONJ	Css	_	15	mark	15:mark|18:nsubj:sp	Id=2hkz|LTranslit=ščo|Translit=ščo
+14	що	що	SCONJ	Css	_	15	mark	15:mark|18:nsubj	Id=2hkz|LTranslit=ščo|Translit=ščo
 15	втілиться	втілитися	VERB	Vmeif3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	acl:relcl	12:acl:relcl	Id=2hl0|LTranslit=vtilytyśа|Translit=vtilyťśа
 16	як	як	SCONJ	Css	_	18	mark	18:mark	Id=2hl1|LTranslit=jak|Translit=jak
 17	мистецький	мистецький	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	18	amod	18:amod	Id=2hl2|LTranslit=mystećkyj|Translit=mystećkyj
-18	твір	твір	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	xcomp:sp	15:xcomp:sp	Id=2hl3|LTranslit=tvir|SpaceAfter=No|Translit=tvir
+18	твір	твір	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	xcomp:sp	15:xcomp	Id=2hl3|LTranslit=tvir|SpaceAfter=No|Translit=tvir
 19	.	.	PUNCT	U	_	4	punct	4:punct	Id=2hl4|LTranslit=.|Translit=.
 
 # sent_id = 2hl5
@@ -15600,9 +15600,9 @@
 3	не	не	PART	Q	Polarity=Neg	4	advmod	4:advmod	Id=38nw|LTranslit=ne|Translit=ne
 4	можу	могти	VERB	Vmpip1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=38nx|LTranslit=mohty|Translit=možu
 5	уявити	уявити	VERB	Vmen	Aspect=Perf|VerbForm=Inf	4	xcomp	4:xcomp	Id=38ny|LTranslit=ujavyty|Translit=ujavyty
-6	Німеччину	Німеччина	PROPN	Npfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	5:obj|8:nsubj:sp	Id=38nz|LTranslit=Nimeččyna|Translit=Nimeččynu
+6	Німеччину	Німеччина	PROPN	Npfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	5:obj|8:nsubj	Id=38nz|LTranslit=Nimeččyna|Translit=Nimeččynu
 7	своєю	свій	DET	Pps-f-sia	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	8:det	Id=38o0|LTranslit=svij|Translit=svoěju
-8	батьківщиною	батьківщина	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	xcomp:sp	5:xcomp:sp	Id=38o1|LTranslit=baťkivščyna|SpaceAfter=No|Translit=baťkivščynoju
+8	батьківщиною	батьківщина	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	xcomp:sp	5:xcomp	Id=38o1|LTranslit=baťkivščyna|SpaceAfter=No|Translit=baťkivščynoju
 9	»	»	PUNCT	U	PunctType=Quot	4	punct	4:punct	Id=38o2|LTranslit=»|SpaceAfter=No|Translit=»
 10	,	,	PUNCT	U	_	12	punct	12:punct	Id=38o3|LTranslit=,|Translit=,
 11	—	—	PUNCT	U	PunctType=Dash	12	punct	12:punct	Id=38o4|LTranslit=—|Translit=—
