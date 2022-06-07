@@ -1,7 +1,6 @@
 # Summary
 
-Gold standard Universal Dependencies corpus for Ukrainian, developed for UD originally, by [Institute for Ukrainian](https://mova.institute), NGO.  
-[[українською](https://mova.institute/золотий_стандарт)]
+Gold standard Universal Dependencies corpus for Ukrainian, developed for UD originally, by [Institute for Ukrainian](https://mova.institute), NGO.   [[українською](https://mova.institute/золотий_стандарт)]
 
 
 # Introduction
