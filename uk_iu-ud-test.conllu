@@ -331,7 +331,7 @@
 49	антиартистичний	антиартистичний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	47	conj	19:appos|47:conj	Id=020e|LTranslit=antyartystyčnyj|Translit=antyartystyčnyj
 50	(	(	PUNCT	U	_	53	punct	53:punct	Id=020f|LTranslit=(|SpaceAfter=No|Translit=(
 51	a	a	X	X	Foreign=Yes	53	mark	53:mark	Id=020g|LTranslit=a|Translit=a
-52	la	la	X	X	Foreign=Yes	51	flat:foreign	51:flat:foreign	Id=020h|LTranslit=la|Translit=la
+52	la	la	X	X	Foreign=Yes	51	fixed	51:flat:foreign	Id=020h|LTranslit=la|Translit=la
 53	Чернишевський	Чернишевський	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	47	appos	47:appos	Id=020i|LTranslit=Černyševśkyj|SpaceAfter=No|Translit=Černyševśkyj
 54	,	,	PUNCT	U	_	55	punct	55:punct	Id=020j|LTranslit=,|Translit=,
 55	Писарєв	Писарєв	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	53	conj	47:appos|53:conj	Id=020k|LTranslit=Pysaŕеv|Translit=Pysaŕеv
@@ -1315,7 +1315,7 @@
 9	окупантів	окупант	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	8:nmod	Id=1814|LTranslit=okupant|SpaceAfter=No|Translit=okupantiv
 10	,	,	PUNCT	U	_	14	punct	14:punct	Id=1815|LTranslit=,|Translit=,
 11	як	як	SCONJ	Css	_	14	mark	14:mark	Id=1816|LTranslit=jak|Translit=jak
-12	от	от	PART	Q	_	11	discourse	11:discourse	Id=1817|LTranslit=ot|SpaceAfter=No|Translit=ot
+12	от	от	PART	Q	_	14	discourse	11:discourse	Id=1817|LTranslit=ot|SpaceAfter=No|Translit=ot
 13	:	:	PUNCT	U	_	14	punct	14:punct	Id=1818|LTranslit=:|Translit=:
 14	шефа	шеф	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	appos	8:appos	Id=1819|LTranslit=šef|Translit=šefa
 15	СА	СА	PROPN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|Uninflect=Yes	14	nmod	14:nmod	Id=181a|LTranslit=SA|Translit=SA
@@ -2507,7 +2507,7 @@
 14	славою	слава	NOUN	Ncfsin	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	conj	8:obl|12:conj	Id=18xf|LTranslit=slava|SpaceAfter=No|Translit=slavoju
 15	,	,	PUNCT	U	_	19	punct	19:punct	Id=18xg|LTranslit=,|Translit=,
 16	хоч	хоч	SCONJ	Css	_	19	mark	19:mark	Id=18xh|LTranslit=choč|Translit=choč
-17	би	би	PART	Q	_	16	discourse	16:discourse	Id=18xi|LTranslit=by|Translit=by
+17	би	би	PART	Q	_	19	discourse	16:discourse	Id=18xi|LTranslit=by|Translit=by
 18	це	це	PRON	Pd--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	nsubj	19:nsubj	Id=18xj|LTranslit=ce|Translit=ce
 19	коштувало	коштувати	VERB	Vmpis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	advcl	7:advcl	Id=18xk|LTranslit=koštuvaty|Translit=koštuvalo
 20	нам	ми	PRON	Pp-1-ypdn	Animacy=Anim|Case=Dat|Number=Plur|Person=1|PronType=Prs	19	iobj	19:iobj	Id=18xl|LTranslit=my|Translit=nam
@@ -2728,7 +2728,7 @@
 # text = Коли ж стрілець зобов'язаний вести пропаганду, а якщо не може, з огляду на слабе вироблення, вести розмови на політичні теми, тоді повинен розповідати про свої боєві пригоди і про життя УПА.
 # translit = Koly ž strileć zobovjazanyj vesty propahandu, a jakščo ne može, z ohľаdu na slabe vyroblenńа, vesty rozmovy na polityčni temy, todi povynen rozpovidaty pro svoji boěvi pryhody i pro žytťа UPA.
 1	Коли	коли	SCONJ	Css	_	4	mark	4:mark	Id=193j|LTranslit=koly|Translit=Koly
-2	ж	ж	PART	Q	_	1	discourse	1:discourse	Id=193k|LTranslit=ž|Translit=ž
+2	ж	ж	PART	Q	_	4	discourse	1:discourse	Id=193k|LTranslit=ž|Translit=ž
 3	стрілець	стрілець	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj|5:nsubj:x|19:nsubj:x	Id=193l|LTranslit=strileć|Translit=strileć
 4	зобов'язаний	зобов’язаний	ADJ	Ap-msnf-ep	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	26	advcl	26:advcl	Id=193m|LTranslit=zobovjazanyj|Translit=zobovjazanyj
 5	вести	вести	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	4	xcomp	4:xcomp	Id=193n|LTranslit=vesty|Translit=vesty
@@ -18090,7 +18090,7 @@
 5	марксизмом	марксизм	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	0:root	Id=35h0|LTranslit=marksyzm|SpaceAfter=No|Translit=marksyzmom
 6	,	,	PUNCT	U	_	11	punct	11:punct	Id=35h1|LTranslit=,|Translit=,
 7	коли	коли	SCONJ	Css	_	11	mark	11:mark	Id=35h2|LTranslit=koly|Translit=koly
-8	б	б	PART	Q	_	7	discourse	7:discourse	Id=35h3|LTranslit=b|Translit=b
+8	б	б	PART	Q	_	11	discourse	7:discourse	Id=35h3|LTranslit=b|Translit=b
 9	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	Id=35h4|LTranslit=vin|Translit=vin
 10	не	не	PART	Q	Polarity=Neg	11	advmod	11:advmod	Id=35h5|LTranslit=ne|Translit=ne
 11	будував	будувати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	advcl	5:advcl	Id=35h6|LTranslit=buduvaty|Translit=buduvav

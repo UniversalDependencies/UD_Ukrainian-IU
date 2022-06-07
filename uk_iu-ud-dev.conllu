@@ -12546,7 +12546,7 @@
 10	так	так	ADV	Pd------r	PronType=Dem	7	advmod	7:advmod	Id=2o7j|LTranslit=tak|SpaceAfter=No|Translit=tak
 11	,	,	PUNCT	U	_	17	punct	17:punct	Id=2o7k|LTranslit=,|Translit=,
 12	наче	наче	SCONJ	Css	_	17	mark	17:mark	Id=2o7l|LTranslit=nače|Translit=nače
-13	б	б	PART	Q	_	12	discourse	12:discourse	Id=2o7m|LTranslit=b|Translit=b
+13	б	б	PART	Q	_	17	discourse	12:discourse	Id=2o7m|LTranslit=b|Translit=b
 14	ми	ми	PRON	Pp-1-ypnn	Animacy=Anim|Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	17:nsubj	Id=2o7n|LTranslit=my|Translit=my
 15	вже	вже	ADV	R	_	17	advmod	17:advmod	Id=2o7o|LTranslit=vže|Translit=vže
 16	були	бути	AUX	Vapis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	17	cop	17:cop	Id=2o7p|LTranslit=buty|Translit=buly
@@ -12959,7 +12959,7 @@
 12	,	,	PUNCT	U	_	16	punct	16:punct	Id=2ohy|LTranslit=,|Translit=,
 13	як	як	SCONJ	Css	_	16	mark	16:mark	Id=2ohz|LTranslit=jak|SpaceAfter=No|Translit=jak
 14	-	-	PUNCT	U	PunctType=Dash	15	punct	15:punct	Id=2oi0|LTranslit=-|SpaceAfter=No|Translit=-
-15	от	от	PART	Q	_	13	discourse	13:discourse	Id=2oi1|LTranslit=ot|Translit=ot
+15	от	от	PART	Q	_	16	discourse	13:discourse	Id=2oi1|LTranslit=ot|Translit=ot
 16	Болградський	болградський	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	11	appos	11:appos	Id=2oi2|LTranslit=bolhradśkyj|Translit=Bolhradśkyj
 17	чи	чи	CCONJ	Ccs	_	18	cc	18:cc	Id=2oi3|LTranslit=čy|Translit=čy
 18	Ізмаїльський	ізмаїльський	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	16	conj	11:appos|16:conj	Id=2oi4|LTranslit=izmajiľśkyj|SpaceAfter=No|Translit=Izmajiľśkyj
@@ -13437,7 +13437,7 @@
 25	(	(	PUNCT	U	_	29	punct	29:punct	Id=2gyy|LTranslit=(|SpaceAfter=No|Translit=(
 26	як	як	SCONJ	Css	_	29	mark	29:mark	Id=2gyz|LTranslit=jak|SpaceAfter=No|Translit=jak
 27	-	-	PUNCT	U	PunctType=Dash	28	punct	28:punct	Id=2gz0|LTranslit=-|SpaceAfter=No|Translit=-
-28	от	от	PART	Q	_	26	discourse	26:discourse	Id=2gz1|LTranslit=ot|Translit=ot
+28	от	от	PART	Q	_	29	discourse	26:discourse	Id=2gz1|LTranslit=ot|Translit=ot
 29	Вольфґанґ	Вольфґанґ	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	24	appos	24:appos	Id=2gz2|LTranslit=Voľfgang|Translit=Voľfgang
 30	Паулі	Паулі	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Uninflect=Yes	29	flat:name	29:flat:name	Id=2gz3|LTranslit=Pauli|SpaceAfter=No|Translit=Pauli
 31	,	,	PUNCT	U	_	32	punct	32:punct	Id=2gz4|LTranslit=,|Translit=,
