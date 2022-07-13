@@ -6741,11 +6741,11 @@
 25	.	.	PUNCT	U	_	3	punct	3:punct	Id=1h20|LTranslit=.|Translit=.
 
 # sent_id = 1h21
-# text = « Український слід » у російській культурі глибочезний і для доль її таки вирішальний — і ні з Москви , ні з Пітера ніхто його світові на яв не покаже : самі - самі …
-# translit = « Ukrajinśkyj slid » u rosijśkij kuľturi hlybočeznyj i dľа doľ jiji taky vyrišaľnyj — i ni z Moskvy , ni z Pitera nichto joho svitovi na jav ne pokaže : sami - sami …
-1	«	«	PUNCT	U	PunctType=Quot	3	punct	3:punct	Id=1h22|LTranslit=«|Translit=«
+# text = «Український слід» у російській культурі глибочезний і для доль її таки вирішальний — і ні з Москви , ні з Пітера ніхто його світові на яв не покаже : самі - самі …
+# translit = «Ukrajinśkyj slid» u rosijśkij kuľturi hlybočeznyj i dľа doľ jiji taky vyrišaľnyj — i ni z Moskvy , ni z Pitera nichto joho svitovi na jav ne pokaže : sami - sami …
+1	«	«	PUNCT	U	PunctType=Quot	3	punct	3:punct	Id=1h22|LTranslit=«|SpaceAfter=No|Translit=«
 2	Український	український	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	3	amod	3:amod	Id=1h23|LTranslit=ukrajinśkyj|Translit=Ukrajinśkyj
-3	слід	слід	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	8:nsubj	Id=1h24|LTranslit=slid|Translit=slid
+3	слід	слід	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	8:nsubj	Id=1h24|LTranslit=slid|SpaceAfter=No|Translit=slid
 4	»	»	PUNCT	U	PunctType=Quot	3	punct	3:punct	Id=1h25|LTranslit=»|Translit=»
 5	у	у	ADP	Spsl	Case=Loc	7	case	7:case	Id=1h26|LTranslit=u|Translit=u
 6	російській	російський	ADJ	Ao-fslf	Case=Loc|Gender=Fem|Number=Sing	7	amod	7:amod	Id=1h27|LTranslit=rosijśkyj|Translit=rosijśkij
