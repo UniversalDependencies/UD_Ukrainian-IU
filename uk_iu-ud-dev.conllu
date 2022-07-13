@@ -3121,7 +3121,7 @@
 # sent_id = 147v
 # text = Цінності його духовні, традиційні, віра — органічна.
 # translit = Cinnosti joho duchovni, tradycijni, vira — orhanična.
-1	Цінності	цінність	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	3:nsubj	Id=147w|LTranslit=cinnisť|Translit=Cinnosti
+1	Цінності	цінність	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	3:nsubj|5:nsubj	Id=147w|LTranslit=cinnisť|Translit=Cinnosti
 2	його	його	DET	Pps3--pna	Case=Nom|Number=Plur|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes	1	det	1:det	Id=147x|LTranslit=joho|Translit=joho
 3	духовні	духовний	ADJ	Ao--pns	Case=Nom|Number=Plur	0	root	0:root	Id=147y|LTranslit=duchovnyj|SpaceAfter=No|Translit=duchovni
 4	,	,	PUNCT	U	_	5	punct	5:punct	Id=147z|LTranslit=,|Translit=,
@@ -3135,9 +3135,9 @@
 # sent_id = 1486
 # text = Вона піднесла його на висоту й утримує на висоті все життя.
 # translit = Vona pidnesla joho na vysotu j utrymuě na vysoti vse žytťа.
-1	Вона	вона	PRON	Pp-3f-snn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Id=1487|LTranslit=vona|Translit=Vona
+1	Вона	вона	PRON	Pp-3f-snn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|7:nsubj	Id=1487|LTranslit=vona|Translit=Vona
 2	піднесла	піднести	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1488|LTranslit=pidnesty|Translit=pidnesla
-3	його	він	PRON	Pp-3m-san	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	2:obj	Id=1489|LTranslit=vin|Translit=joho
+3	його	він	PRON	Pp-3m-san	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	2:obj|7:obj	Id=1489|LTranslit=vin|Translit=joho
 4	на	на	ADP	Spsa	Case=Acc	5	case	5:case	Id=148a|LTranslit=na|Translit=na
 5	висоту	висота	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	2:obl	Id=148b|LTranslit=vysota|Translit=vysotu
 6	й	й	CCONJ	Ccs	_	7	cc	7:cc	Id=148c|LTranslit=j|Translit=j
@@ -3196,7 +3196,7 @@
 3	мова	мова	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	Id=149i|LTranslit=mova|Translit=mova
 4	і	і	CCONJ	Ccs	_	5	cc	5:cc	Id=149j|LTranslit=i|Translit=i
 5	стиль	стиль	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	2:nsubj|3:conj	Id=149k|LTranslit=styľ|Translit=styľ
-6	книжки	книжка	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	3:nmod	Id=149l|LTranslit=knyžka|SpaceAfter=No|Translit=knyžky
+6	книжки	книжка	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	3:nmod|5:nmod	Id=149l|LTranslit=knyžka|SpaceAfter=No|Translit=knyžky
 7	.	.	PUNCT	U	_	2	punct	2:punct	Id=149m|LTranslit=.|Translit=.
 
 # sent_id = 149n
@@ -3329,9 +3329,9 @@
 6	,	,	PUNCT	U	_	13	punct	13:punct	Id=14cj|LTranslit=,|Translit=,
 7	чи	чи	SCONJ	Css	_	13	mark	13:mark	Id=14ck|LTranslit=čy|Translit=čy
 8	та	той	DET	Pd--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	det	9:det	Id=14cl|LTranslit=toj|Translit=ta
-9	книга	книга	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	13:nsubj	Id=14cm|LTranslit=knyha|Translit=knyha
+9	книга	книга	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	13:nsubj|19:nsubj	Id=14cm|LTranslit=knyha|Translit=knyha
 10	справді	справді	ADV	R	_	13	advmod	13:advmod	Id=14cn|LTranslit=spravdi|Translit=spravdi
-11	є	бути	AUX	Vapip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	Id=14co|LTranslit=buty|Translit=ě
+11	є	бути	AUX	Vapip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop|19:cop	Id=14co|LTranslit=buty|Translit=ě
 12	впорядкованими	впорядкований	ADJ	Ap--pif-ep	Aspect=Perf|Case=Ins|Number=Plur|VerbForm=Part|Voice=Pass	13	amod	13:amod	Id=14cp|LTranslit=vpoŕаdkovanyj|Translit=vpoŕаdkovanymy
 13	записами	запис	NOUN	Ncmpin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	ccomp	5:ccomp	Id=14cq|LTranslit=zapys|Translit=zapysamy
 14	столітнього	столітній	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	15	amod	15:amod	Id=14cr|LTranslit=stolitnij|Translit=stolitńoho
@@ -15582,8 +15582,8 @@
 5	німецького	німецький	ADJ	Ao-msgf	Case=Gen|Gender=Masc|Number=Sing	6	amod	6:amod	Id=38nh|LTranslit=nimećkyj|Translit=nimećkoho
 6	ісламу	іслам	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	4:nmod	Id=38ni|LTranslit=islam|SpaceAfter=No|Translit=islamu
 7	,	,	PUNCT	U	_	9	punct	9:punct	Id=38nj|LTranslit=,|Translit=,
-8	хоча	хоча	CCONJ	Ccs	_	9	cc	9:cc	Id=38nk|LTranslit=choča|Translit=choča
-9	покликана	покликаний	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	conj	0:root|2:conj	Id=38nl|LTranslit=poklykanyj|Translit=poklykana
+8	хоча	хоча	SCONJ	Css	_	9	mark	9:mark	Id=38nk|LTranslit=choča|Translit=choča
+9	покликана	покликаний	ADJ	Ap-fsns-ep	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	2	advcl	2:advcl	Id=38nl|LTranslit=poklykanyj|Translit=poklykana
 10	задовольняти	задовольняти	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	9	xcomp	9:xcomp	Id=38nm|LTranslit=zadovoľńаty|Translit=zadovoľńаty
 11	потреби	потреба	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	10:obj	Id=38nn|LTranslit=potreba|Translit=potreby
 12	не	не	PART	Q	Polarity=Neg	13	advmod	13:advmod	Id=38no|LTranslit=ne|Translit=ne

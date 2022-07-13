@@ -15594,6 +15594,15 @@
 12	.	.	PUNCT	U	_	3	punct	3:punct	Id=2wmv|LTranslit=.|Translit=.
 
 # annotation_gap
+# sent_id = 2wn7
+# text = (Зітхає.)
+# translit = (Zitchaě.)
+1	(	(	PUNCT	U	_	2	punct	2:punct	Id=2wn8|LTranslit=(|SpaceAfter=No|Translit=(
+2	Зітхає	зітхати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=2wn9|LTranslit=zitchaty|SpaceAfter=No|Translit=Zitchaě
+3	.	.	PUNCT	U	_	2	punct	2:punct	Id=2wna|LTranslit=.|SpaceAfter=No|Translit=.
+4	)	)	PUNCT	U	_	2	punct	2:punct	Id=2wnb|LTranslit=)|Translit=)
+
+# annotation_gap
 # sent_id = 2wp8
 # text = (Співа.)
 # translit = (Spiva.)
@@ -15663,6 +15672,16 @@
 5	.	.	PUNCT	U	_	3	punct	3:punct	Id=2wqz|LTranslit=.|Translit=.
 
 # annotation_gap
+# sent_id = 2wsk
+# text = (Глянувши у вікно.)
+# translit = (Hľаnuvšy u vikno.)
+1	(	(	PUNCT	U	_	2	punct	2:punct	Id=2wsl|LTranslit=(|SpaceAfter=No|Translit=(
+2	Глянувши	глянути	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	0	root	0:root	Id=2wsm|LTranslit=hľаnuty|Translit=Hľаnuvšy
+3	у	у	ADP	Spsa	Case=Acc	4	case	4:case	Id=2wsn|LTranslit=u|Translit=u
+4	вікно	вікно	NOUN	Ncnsan	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	2:obl	Id=2wso|LTranslit=vikno|SpaceAfter=No|Translit=vikno
+5	.	.	PUNCT	U	_	2	punct	2:punct	Id=2wsp|LTranslit=.|SpaceAfter=No|Translit=.
+6	)	)	PUNCT	U	_	2	punct	2:punct	Id=2wsq|LTranslit=)|Translit=)
+
 # sent_id = 2wsr
 # text = Іде.
 # translit = Ide.
@@ -15691,6 +15710,16 @@
 17	.	.	PUNCT	U	_	2	punct	2:punct	Id=2wtb|LTranslit=.|SpaceAfter=No|Translit=.
 18	)	)	PUNCT	U	_	2	punct	2:punct	Id=2wtc|LTranslit=)|Translit=)
 
+# newpar id = 2wte
+# sent_id = 2wtd
+# text = Варка (підходить).
+# translit = Varka (pidchodyť).
+1	Варка	варка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	Id=2wtf|LTranslit=varka|Translit=Varka
+2	(	(	PUNCT	U	_	3	punct	3:punct	Id=2wtg|LTranslit=(|SpaceAfter=No|Translit=(
+3	підходить	підходити	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	1:parataxis	Id=2wth|LTranslit=pidchodyty|SpaceAfter=No|Translit=pidchodyť
+4	)	)	PUNCT	U	_	3	punct	3:punct	Id=2wti|LTranslit=)|SpaceAfter=No|Translit=)
+5	.	.	PUNCT	U	_	1	punct	1:punct	Id=2wtj|LTranslit=.|Translit=.
+
 # annotation_gap
 # sent_id = 2wtw
 # text = Ох!
@@ -15704,6 +15733,18 @@
 # translit = Pobačymo!
 1	Побачимо	побачити	VERB	Vmeif1p	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	0:root	Id=2wv4|LTranslit=pobačyty|SpaceAfter=No|Translit=Pobačymo
 2	!	!	PUNCT	U	_	1	punct	1:punct	Id=2wv5|LTranslit=!|Translit=!
+
+# sent_id = 2wv6
+# text = Щастя куце, я вже його спізнала!
+# translit = Ščasťа kuce, ja vže joho spiznala!
+1	Щастя	щастя	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nmod	2:nmod	Id=2wv7|LTranslit=ščasťа|Translit=Ščasťа
+2	куце	куций	ADJ	Afpnsns	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	0:root	Id=2wv8|LTranslit=kucyj|SpaceAfter=No|Translit=kuce
+3	,	,	PUNCT	U	_	7	punct	7:punct	Id=2wv9|LTranslit=,|Translit=,
+4	я	я	PRON	Pp-1-ysnn	Animacy=Anim|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	Id=2wva|LTranslit=ja|Translit=ja
+5	вже	вже	ADV	R	_	7	advmod	7:advmod	Id=2wvb|LTranslit=vže|Translit=vže
+6	його	воно	PRON	Pp-3n-san	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	7:obj	Id=2wvc|LTranslit=vono|Translit=joho
+7	спізнала	спізнати	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	2	parataxis	2:parataxis	Id=2wvd|LTranslit=spiznaty|SpaceAfter=No|Translit=spiznala
+8	!	!	PUNCT	U	_	7	punct	7:punct	Id=2wve|LTranslit=!|Translit=!
 
 # annotation_gap
 # sent_id = 2wvv
