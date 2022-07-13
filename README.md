@@ -107,11 +107,12 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
 ### Changelog
 
 * 2022-11-15 **v2.9** (upcoming)
+  * Brought back `Hyph` and `Bull` `PunctType`s
   * Fixed several errors.
   * Added new sentenses.
 
 * 2021-05-15 **v2.8**
-  * Undocumented `PunctType`=`Ndash|Hyph|Bull` converted to PuncType=Dash.
+  * Undocumented `PunctType` `Ndash`, `Hyph`, `Bull` converted to `Dash`.
 
 * 2019-05-15 **v2.4**
   * Closed many annotaion gaps: 116K→122K.

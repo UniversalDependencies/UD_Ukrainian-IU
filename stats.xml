@@ -34,7 +34,7 @@
     <tag name="X">600</tag><!-- Office, the, Windows, Amazon, DITIB, _, cyanus, Centaurea, GFP, mneme -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="65">
+  <feats unique="67">
     <feat name="Abbr" value="Yes" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,VERB">838</feat><!-- р, грн, ст, т, м, млрд, УПА, тис, млн, с -->
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,X">8200</feat><!-- я, ми, мене, нас, ви, мені, ти, хто, людей, вам -->
     <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,X">29565</feat><!-- це, україни, час, що, року, те, %, того, років, все -->
@@ -84,7 +84,9 @@
     <feat name="PronType" value="Prs" upos="ADV,DET,PART,PRON,X">4857</feat><!-- він, його, я, ми, вона, її, вони, їх, мене, нас -->
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">1341</feat><!-- коли, які, який, що, де, як, яка, яких, хто, яку -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">726</feat><!-- всі, все, всіх, завжди, усі, усіх, кожен, кожного, весь, усе -->
-    <feat name="PunctType" value="Dash" upos="PUNCT">2045</feat><!-- —, -, –, –, −, ✓ -->
+    <feat name="PunctType" value="Bull" upos="PUNCT">8</feat><!-- —, ✓, - -->
+    <feat name="PunctType" value="Dash" upos="PUNCT">1515</feat><!-- —, -, –, – -->
+    <feat name="PunctType" value="Hyph" upos="PUNCT">522</feat><!-- -, –, − -->
     <feat name="PunctType" value="Quot" upos="PUNCT">2136</feat><!-- «, », ", ”, “, „, ' -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">706</feat><!-- собі, себе, свою, свого, сам, свої, свій, своїх, самі, собою -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">832</feat><!-- буде, будуть, будемо, буду, вийде, матиме, піду, доведеться, зроблю, прийде -->
