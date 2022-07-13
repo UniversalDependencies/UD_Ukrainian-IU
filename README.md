@@ -60,18 +60,20 @@ Data is split between train/dev/test linearly by hand at 75%/10%/15% to balance 
 
 UD Ukrainian data conforms to [CoNLL-U](http://universaldependencies.org/format.html) format with the following specifics:
 * Sentence-level comments:
-  * Document boundaries are present as `# newdoc id = xxxx`.
-  * Sentence-level paragraph boundaries are present as `# newpar id = xxxx`.
-  * Document titles are present as `# doc_title = Назва`.
-  * Czech-like translit is present as `# translit = …`.
+  * Document boundaries as `# newdoc id = ...`.
+  * Sentence-level paragraph boundaries as `# newpar id = ...`.
+  * Document titles as `# doc_title = ...`.
+  * Document authors as `# author = ...`.
+  * Document sources as `# source = ...`.
+  * Czech-like translit is present as `# translit = ...`.
   * Gaps in the text are marked on the sentences following the gap as:
     * `# annotation_gap` for sentences not exported to CoNLL-U because annotator was unable to parse it with confidence (e.g. new guidelines need to be created);
     * `# gap` for intentional gaps in texts (selected fragments).
 * XPOSTAG column contains [MTE](http://nl.ijs.si/ME/V4/msd/html/msd-uk.html) tag with `U` for punctuation. UPOS+FEATS contain all the information in XPOSTAG and more. XPOSTAG is intended for legacy applications.
 * DEPS column contains [Enhanced Dependencies](#enhanced-dependencies).
 * MISC column:
-  * Token-level paragraph boundaries are present as `NewPar=Yes`.
-  * Token ids are present as `Id=xxxx`.
+  * Token-level paragraph boundaries as `NewPar=Yes`.
+  * Token ids as `Id=xxxx`.
   * `SpaceAfter=No` markers are present.
   * Form (`Translit`) and lemma (`LTranslit`) transliterations are present
   * The pipe (`|`) character is escaped with `\p`. Backslash is `\\`. See [issue #569](https://github.com/UniversalDependencies/docs/issues/569).

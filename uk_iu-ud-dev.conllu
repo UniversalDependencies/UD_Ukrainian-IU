@@ -1,3 +1,4 @@
+# author = Багряний Іван
 # doc_title = Сад Гетсиманський
 # newdoc id = 028g
 # newpar id = 02tb
@@ -162,6 +163,7 @@
 37	спокійний	спокійний	ADJ	Afpmsnf	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	conj	0:root|34:conj	Id=02xe|LTranslit=spokijnyj|SpaceAfter=No|Translit=spokijnyj
 38	.	.	PUNCT	U	_	8	punct	8:punct	Id=02xf|LTranslit=.|Translit=.
 
+# author = Гащак В.; Дятленко С.; Терещук Б.; Тименко В.; Туташинський В.
 # doc_title = Трудове навчання (технічні види праці). Підручник для 8 класу загальноосвітніх навчальних закладів
 # newdoc id = 0oiw
 # newpar id = 0oix
@@ -1413,6 +1415,7 @@
 21	)	)	PUNCT	U	_	18	punct	18:punct	Id=0pga|LTranslit=)|SpaceAfter=No|Translit=)
 22	.	.	PUNCT	U	_	6	punct	6:punct	Id=0pgb|LTranslit=.|Translit=.
 
+# author = Прохасько Тарас
 # doc_title = З цього можна зробити кілька оповідань
 # newdoc id = 0qra
 # newpar id = 38r3
@@ -2267,10 +2270,12 @@
 12	тягаря	тягар	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	11:nmod	Id=12ct|LTranslit=ťаhar|SpaceAfter=No|Translit=ťаhaŕа
 13	...	...	PUNCT	U	_	3	punct	3:punct	Id=12cu|LTranslit=...|Translit=...
 
+# author = Сверстюк Євген
 # doc_title = Про книжку Мирослава Дочинця «Вічник»
 # newdoc id = 13o1
 # newpar id = 13o2
 # sent_id = 13o3
+# source = https://day.kyiv.ua/uk/article/ukrayinci-chitayte/mudrist-sercya
 # text = Такої книжки давно бракує в українському культурному просторі.
 # translit = Takoji knyžky davno brakuě v ukrajinśkomu kuľturnomu prostori.
 1	Такої	такий	DET	Pd--f-sga	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	2	det	2:det	Id=13o4|LTranslit=takyj|Translit=Takoji
@@ -4208,6 +4213,7 @@
 # newdoc id = 2ksv
 # newpar id = 2ksw
 # sent_id = 30mp
+# source = http://zakon3.rada.gov.ua/laws/show/467-2017-р
 # text = Скасувати як таке, що не реалізоване, розпорядження Кабінету Міністрів України від 21 грудня 2016 р. № 991 “Про передачу цілісного майнового комплексу державного підприємства “Дослідне господарство “Шарівка” Інституту сільського господарства Західного Полісся Національної академії аграрних наук України” у відання Національної академії наук”.
 # translit = Skasuvaty jak take, ščo ne realizovane, rozpoŕаdženńа Kabinetu Ministriv Ukrajiny vid 21 hrudńа 2016 r. № 991 “Pro peredaču cilisnoho majnovoho kompleksu deržavnoho pidpryěmstva “Doslidne hospodarstvo “Šarivka” Instytutu siľśkoho hospodarstva Zachidnoho Polisśа Nacionaľnoji akademiji ahrarnych nauk Ukrajiny” u vidanńа Nacionaľnoji akademiji nauk”.
 1	Скасувати	скасувати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	0	root	0:root	Id=2ksx|LTranslit=skasuvaty|Translit=Skasuvaty
@@ -4267,6 +4273,7 @@
 # newdoc id = 2kue
 # newpar id = 2kuf
 # sent_id = 30mq
+# source = http://zakon3.rada.gov.ua/laws/show/500-2017-р
 # text = Внести зміни до розпорядження Кабінету Міністрів України від 26 квітня 2017 р. № 325 “Про виділення коштів для здійснення заходів з ліквідації наслідків надзвичайної ситуації, що склалася 23 березня 2017 р. у м. Балаклії Харківської області”, доповнивши назву та абзац перший пункту 1 після слова “для” словами “придбання житла мешканцям, які потребують відселення з аварійних житлових будинків, та”.
 # translit = Vnesty zminy do rozpoŕаdženńа Kabinetu Ministriv Ukrajiny vid 26 kvitńа 2017 r. № 325 “Pro vydilenńа koštiv dľа zdijsnenńа zachodiv z likvidaciji naslidkiv nadzvyčajnoji sytuaciji, ščo sklalaśа 23 berezńа 2017 r. u m. Balakliji Charkivśkoji oblasti”, dopovnyvšy nazvu ta abzac peršyj punktu 1 pisľа slova “dľа” slovamy “prydbanńа žytla meškanćаm, jaki potrebujuť vidselenńа z avarijnych žytlovych budynkiv, ta”.
 1	Внести	внести	VERB	Vmen	Aspect=Perf|VerbForm=Inf	0	root	0:root	Id=2kug|LTranslit=vnesty|Translit=Vnesty
@@ -4346,6 +4353,7 @@
 # newdoc id = 2kwh
 # newpar id = 2kwi
 # sent_id = 30mr
+# source = http://zakon3.rada.gov.ua/laws/show/z0851-17
 # text = Відповідно до абзацу другого пункту 1-1 постанови Кабінету Міністрів України від 25 березня 2009 року № 333 "Деякі питання державного регулювання цін на лікарські засоби і вироби медичного призначення", з метою раціонального планування потреби закладів охорони здоров’я, що повністю або частково фінансуються з державного та місцевих бюджетів, та ефективності витрат бюджетних коштів при закупівлі та відшкодуванні вартості лікарських засобів НАКАЗУЮ:
 # translit = Vidpovidno do abzacu druhoho punktu 1-1 postanovy Kabinetu Ministriv Ukrajiny vid 25 berezńа 2009 roku № 333 "Dejaki pytanńа deržavnoho rehuľuvanńа cin na likarśki zasoby i vyroby medyčnoho pryznačenńа", z metoju racionaľnoho planuvanńа potreby zakladiv ochorony zdorovja, ščo povnisťu abo častkovo finansujuťśа z deržavnoho ta miscevych budžetiv, ta efektyvnosti vytrat budžetnych koštiv pry zakupivli ta vidškoduvanni vartosti likarśkych zasobiv NAKAZUJu:
 1	Відповідно	відповідно	ADV	Rp	Degree=Pos	67	advmod	67:advmod	Id=2kwj|LTranslit=vidpovidno|Translit=Vidpovidno
@@ -5016,10 +5024,12 @@
 17	виконується	виконуватися	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=2lkz|LTranslit=vykonuvatyśа|SpaceAfter=No|Translit=vykonuěťśа
 18	.	.	PUNCT	U	_	17	punct	17:punct	Id=2ll0|LTranslit=.|Translit=.
 
+# author = Трояновський Михайло
 # doc_title = [Сесія "вгадай мелодію"]
 # newdoc id = 1l2o
 # newpar id = 1l2p
 # sent_id = 1l2q
+# source = https://www.facebook.com/m.troianovskyi/posts/1378470928892208
 # text = Сесія "вгадай мелодію".
 # translit = Sesija "vhadaj melodiju".
 1	Сесія	сесія	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	Id=1l2r|LTranslit=sesija|Translit=Sesija
@@ -5077,10 +5087,12 @@
 12	Gran	Gran	X	X	Foreign=Yes	9	flat:foreign	9:flat:foreign	Id=1l41|LTranslit=Gran|Translit=Gran
 13	Vals	Vals	X	X	Foreign=Yes	9	flat:foreign	9:flat:foreign	Id=1l42|LTranslit=Vals|Translit=Vals
 
+# author = Трояновський Михайло
 # doc_title = [Good deal по-українському]
 # newdoc id = 1l44
 # newpar id = 1l45
 # sent_id = 1l46
+# source = https://www.facebook.com/m.troianovskyi/posts/1310325005706801
 # text = Good deal по-українському: купити айфон на ebay із доставкою через сервіс з віртуальною адресою в Штатах.
 # translit = Good deal po-ukrajinśkomu: kupyty ajfon na ebay iz dostavkoju čerez servis z virtuaľnoju adresoju v Štatach.
 1	Good	Good	X	X	Foreign=Yes	0	root	0:root	Id=1l47|LTranslit=Good|Translit=Good
@@ -5142,10 +5154,12 @@
 1	PROFIT	PROFIT	X	X	Foreign=Yes	0	root	0:root	Id=1l5f|LTranslit=PROFIT|SpaceAfter=No|Translit=PROFIT
 2	!!!	!!!	PUNCT	U	_	1	punct	1:punct	Id=1l5g|LTranslit=!!!|Translit=!!!
 
+# author = Трояновський Михайло
 # doc_title = [І добре, коли серед мобілізованих виявлялися ІТ-спеціалісти]
 # newdoc id = 1l5i
 # newpar id = 1l5j
 # sent_id = 1l5k
+# source = https://www.facebook.com/m.troianovskyi/posts/1308290352576933
 # text = "І добре, коли серед мобілізованих виявлялися ІТ-спеціалісти, які могли розібратись у складній документації, грамотно сформулювати питання постачальнику або нагуглити відповіді.
 # translit = "I dobre, koly sered mobilizovanych vyjavľаlyśа IT-specialisty, jaki mohly rozibratyś u skladnij dokumentaciji, hramotno sformuľuvaty pytanńа postačaľnyku abo nahuhlyty vidpovidi.
 1	"	"	PUNCT	U	PunctType=Quot	3	punct	3:punct	Id=1l5l|LTranslit="|SpaceAfter=No|Translit="
@@ -5207,10 +5221,12 @@
 11	.	.	PUNCT	U	_	10	punct	10:punct	Id=1l70|LTranslit=.|SpaceAfter=No|Translit=.
 12	"	"	PUNCT	U	PunctType=Quot	10	punct	10:punct	Id=1l71|LTranslit="|Translit="
 
+# author = Трояновський Михайло
 # doc_title = [Київське яблуко архітектурного розбрату]
 # newdoc id = 1l73
 # newpar id = 1l74
 # sent_id = 1l75
+# source = https://www.facebook.com/photo.php?fbid=1287723734633595&set=a.394326333973344.90879.100001879425451&type=3
 # text = Київське яблуко архітектурного розбрату.
 # translit = Kyjivśke jabluko architekturnoho rozbratu.
 1	Київське	київський	ADJ	Ao-nsns	Case=Nom|Gender=Neut|Number=Sing	2	amod	2:amod	Id=1l76|LTranslit=kyjivśkyj|Translit=Kyjivśke
@@ -5240,10 +5256,12 @@
 6	сторіччя	сторіччя	NOUN	Ncnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	1:nmod	Id=1l7o|LTranslit=storiččа|SpaceAfter=No|Translit=storiččа
 7	.	.	PUNCT	U	_	1	punct	1:punct	Id=1l7p|LTranslit=.|Translit=.
 
+# author = Трояновський Михайло
 # doc_title = [Отже, апдейт]
 # newdoc id = 1l7r
 # newpar id = 1l7s
 # sent_id = 1l7t
+# source = https://www.facebook.com/m.troianovskyi/posts/1287723897966912?comment_id=1289324097806892&comment_tracking=%7B%22tn%22%3A%22R%22%7D
 # text = Отже, апдейт.
 # translit = Otže, apdejt.
 1	Отже	отже	PART	Q	_	3	discourse	3:discourse	Id=1l7u|LTranslit=otže|SpaceAfter=No|Translit=Otže
@@ -5512,10 +5530,12 @@
 11	будинків	будинок	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	9:nmod	Id=1le8|LTranslit=budynok|SpaceAfter=No|Translit=budynkiv
 12	.	.	PUNCT	U	_	3	punct	3:punct	Id=1le9|LTranslit=.|Translit=.
 
+# author = Трояновський Михайло
 # doc_title = [Зняти кліп за 4,2 секунди?]
 # newdoc id = 1leb
 # newpar id = 1lec
 # sent_id = 30n2
+# source = https://www.facebook.com/m.troianovskyi/posts/1278793102193325
 # text = Зняти кліп за 4,2 секунди?
 # translit = Zńаty klip za 4,2 sekundy?
 1	Зняти	зняти	VERB	Vmen	Aspect=Perf|VerbForm=Inf	0	root	0:root	Id=1led|LTranslit=zńаty|Translit=Zńаty
@@ -5546,6 +5566,7 @@
 # newdoc id = 1lex
 # newpar id = 1ley
 # sent_id = 1lez
+# source = http://zik.ua/news/2017/02/06/na_rivnenshchyni_pravoohorontsi_vykryly_grupu_nepovnolitnih_vykradachiv_1038713
 # text = 14 кролів протягом трьох днів викрали 14-річні мешканці Млинівського району в приватних господарствах сіл регіону.
 # translit = 14 kroliv proťаhom tŕoch dniv vykraly 14-rični meškanci Mlynivśkoho rajonu v pryvatnych hospodarstvach sil rehionu.
 1	14	14	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	2	nummod:gov	2:nummod:gov	Id=1lf0|LTranslit=14|Translit=14
@@ -5764,6 +5785,7 @@
 # newdoc id = 1lk7
 # newpar id = 1lk8
 # sent_id = 1lk9
+# source = http://www.pravda.com.ua/news/2017/02/7/7134646/
 # text = Ведучий американського телеканалу Fox News, журналіст Білл О'Райлі заявив, що може вибачитися за свої слова про те, що президент Росії Володимир Путін вбивця, в 2023 році.
 # translit = Vedučyj amerykanśkoho telekanalu Fox News, žurnalist Bill O'Rajli zajavyv, ščo može vybačytyśа za svoji slova pro te, ščo prezydent Rosiji Volodymyr Putin vbyvćа, v 2023 roci.
 1	Ведучий	ведучий	NOUN	Ao-msnf	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	10:nsubj	Id=1lka|LTranslit=vedučyj|Translit=Vedučyj
@@ -5953,10 +5975,12 @@
 10	"	"	PUNCT	U	PunctType=Quot	3	punct	3:punct	Id=1lou|LTranslit="|SpaceAfter=No|Translit="
 11	.	.	PUNCT	U	_	3	punct	3:punct	Id=1lov|LTranslit=.|Translit=.
 
+# author = Кухар Олена
 # doc_title = Класичні маргінали. Як українці підкорюють європейські сцени
 # newdoc id = 1lox
 # newpar id = 1loy
 # sent_id = 1loz
+# source = http://tyzhden.ua/Culture/184917
 # text = Оксана Линів багато надій покладає на наступний, 2017 рік.
 # translit = Oksana Lyniv bahato nadij pokladaě na nastupnyj, 2017 rik.
 1	Оксана	Оксана	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	5	nsubj	5:nsubj	Id=1lp0|LTranslit=Oksana|Translit=Oksana
@@ -6137,6 +6161,7 @@
 # newdoc id = 1ltf
 # newpar id = 1ltg
 # sent_id = 1lth
+# source = http://tyzhden.ua/World/183947
 # text = Утім, у «Шквала» є трояка проблема.
 # translit = Utim, u «Škvala» ě trojaka problema.
 1	Утім	утім	ADV	R	_	7	discourse	7:discourse	Id=1lti|LTranslit=utim|SpaceAfter=No|Translit=Utim
@@ -6523,10 +6548,12 @@
 26	було	бути	VERB	Vapis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	advcl	9:advcl	Id=1m2p|LTranslit=buty|SpaceAfter=No|Translit=bulo
 27	.	.	PUNCT	U	_	9	punct	9:punct	Id=1m2q|LTranslit=.|Translit=.
 
+# author = Синицька Дарина
 # doc_title = НА 12-МУ МАРШРУТІ У ПОЛТАВІ ЗАПУСТЯТЬ 5 НОВИХ ТРОЛЕЙБУСІВ «БОГДАН»
 # newdoc id = 1m2s
 # newpar id = 1m2t
 # sent_id = 1m2u
+# source = http://poltava.to/news/41742/
 # text = Таким чином, усі п’ять нових тролейбусів «Богдан», як і планувалося, їздитимуть кам’янкою.
 # translit = Takym čynom, usi pjať novych trolejbusiv «Bohdan», jak i planuvalośа, jizdytymuť kamjankoju.
 1	Таким	такий	DET	Pd--m-sia	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	2	det	2:det	Id=1m2v|LTranslit=takyj|Translit=Takym
@@ -6797,10 +6824,12 @@
 3	домі	дім	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	0:root	Id=1h4b|LTranslit=dim|Translit=domi
 4	.	.	PUNCT	U	_	3	punct	3:punct	Id=1h4c|LTranslit=.|Translit=.
 
+# author = Львівська брама @ youtube.com
 # doc_title = [Гарний кліп]
 # newdoc id = 1txj
 # newpar id = 1txk
 # sent_id = 1txl
+# source = https://www.youtube.com/watch?v=f1PVMKtsTZE&lc=z12gznurgtj4xppgu04cjvfjaqvkdps5wfs
 # text = Чудова режисерська і операторська робота.
 # translit = Čudova režyserśka i operatorśka robota.
 1	Чудова	чудовий	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	5:amod	Id=1txm|LTranslit=čudovyj|Translit=Čudova
@@ -6853,10 +6882,12 @@
 7	супер	супер	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing|Uninflect=Yes	0	root	0:root	Id=1typ|LTranslit=super|SpaceAfter=No|Translit=super
 8	!...	!...	PUNCT	U	_	7	punct	7:punct	Id=1tyq|LTranslit=!...|Translit=!...
 
+# author = Тужанська Росана
 # doc_title = Крихітна краса: Ксенія Пинзеник про зйомку немовлят та усі тонкощі цієї роботи
 # newdoc id = 1tys
 # newpar id = 1tyt
 # sent_id = 1tyu
+# source = http://varosh.com.ua/all/post/ludyshow/krihitna-krasa-kseniya-pinzenik-pro-zjomku-nemovlyat-ta-usi-tonkoshhi-cii-roboti#.WKYGoRh7Htc
 # text = Відзначу, що найкращий час для зйомки до 12-14 днів.
 # translit = Vidznaču, ščo najkraščyj čas dľа zjomky do 12-14 dniv.
 1	Відзначу	відзначити	VERB	Vmeif1s	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	0:root	Id=1tyv|LTranslit=vidznačyty|SpaceAfter=No|Translit=Vidznaču
@@ -6942,6 +6973,7 @@
 # newdoc id = 1u0w
 # newpar id = 1u0x
 # sent_id = 1u0y
+# source = https://www.instagram.com/p/BObuxmPFgaMOirdtJu9RoAkY1EONtpDT8FPYcM0/?taken-by=mapeach_es
 # text = зима прикрашає все довкола, тільки не дарницю.
 # translit = zyma prykrašaě vse dovkola, tiľky ne darnyću.
 1	зима	зима	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	Id=1u0z|LTranslit=zyma|Translit=zyma
@@ -6954,10 +6986,12 @@
 8	дарницю	Дарниця	PROPN	Npfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	conj	2:obj|3:conj	Id=1u16|LTranslit=Darnyćа|SpaceAfter=No|Translit=darnyću
 9	.	.	PUNCT	U	_	2	punct	2:punct	Id=1u17|LTranslit=.|Translit=.
 
+# author = Воронін Влад
 # doc_title = Без Обмежень – Дихаю тобою (Альбом)
 # newdoc id = 1u2h
 # newpar id = 1u2i
 # sent_id = 1u2j
+# source = http://notatky.com.ua/bez-obmezhen-dyhayu-toboyu-albom/
 # text = Якісна музика обмежень не знає – ще раз довівши це старе твердження, музиканти столичного гурту Without Limits (Без Обмежень) презентували свою нову студійну платівку під назвою «#DИХАЮТОБОЮ».
 # translit = Jakisna muzyka obmežeń ne znaě – šče raz dovivšy ce stare tverdženńа, muzykanty stolyčnoho hurtu Without Limits (Bez Obmežeń) prezentuvaly svoju novu studijnu plativku pid nazvoju «#DYChAJuTOBOJu».
 1	Якісна	якісний	ADJ	Afpfsns	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	2:amod	Id=1u2k|LTranslit=jakisnyj|Translit=Jakisna
@@ -7106,10 +7140,12 @@
 34	році	рік	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	21:obl	Id=1u6a|LTranslit=rik|SpaceAfter=No|Translit=roci
 35	.	.	PUNCT	U	_	2	punct	2:punct	Id=1u6b|LTranslit=.|Translit=.
 
+# author = Воронін Влад
 # doc_title = ФлайzZzа – Двоє (Кліп)
 # newdoc id = 1u6d
 # newpar id = 1u6e
 # sent_id = 1u6f
+# source = http://notatky.com.ua/flajzzza-dvoje-clip/
 # text = «Чорно-білі дні в календарі»: презентуємо вам цікаву кавер-версію одного дуже відомого свого часу хіта, ні, не авторства гурту Amatory, як дехто з вас міг подумати, а значно старшого твору українського гурту «Фантом-2».
 # translit = «Čorno-bili dni v kalendari»: prezentuěmo vam cikavu kaver-versiju odnoho duže vidomoho svoho času chita, ni, ne avtorstva hurtu Amatory, jak dechto z vas mih podumaty, a značno staršoho tvoru ukrajinśkoho hurtu «Fantom-2».
 1	«	«	PUNCT	U	PunctType=Quot	5	punct	5:punct	Id=1u6g|LTranslit=«|SpaceAfter=No|Translit=«
@@ -7220,10 +7256,12 @@
 54	відеоряд	відеоряд	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	49	obj	49:obj	Id=1u9a|LTranslit=videoŕаd|SpaceAfter=No|Translit=videoŕаd
 55	.	.	PUNCT	U	_	11	punct	11:punct	Id=1u9b|LTranslit=.|Translit=.
 
+# author = brdo.ukraine @ facebook.com
 # doc_title = [Чи допомагає розвитку]
 # newdoc id = 1u9d
 # newpar id = 1u9e
 # sent_id = 1u9f
+# source = https://www.facebook.com/brdo.ukraine/photos/a.134037196955365.1073741828.126623734363378/378144455877970/?type=3
 # text = Чи допомагає розвитку інфраструктури "податок" на інвестиції, яким фактично є пайова участь?
 # translit = Čy dopomahaě rozvytku infrastruktury "podatok" na investyciji, jakym faktyčno ě pajova učasť?
 1	Чи	чи	PART	Q	_	2	discourse	2:discourse	Id=1u9g|LTranslit=čy|Translit=Čy
@@ -7356,6 +7394,7 @@
 # newdoc id = 1ws3
 # newpar id = 1ws4
 # sent_id = 1ws5
+# source = http://www.pravda.com.ua/news/2017/02/17/7135663/
 # text = Крім того, 20-23 лютого, у зв'язку з відлигою й сніготаненням, на річках басейнів Сяну, Дністра (Львівська, Івано-Франківська області), Західного Бугу (Львівська, Волинська області) очікується підйом рівнів води на 0,5-1,5 м над рівнями, які були 8 ранку 17 лютого.
 # translit = Krim toho, 20-23 ľutoho, u zvjazku z vidlyhoju j snihotanenńаm, na ričkach basejniv Śаnu, Dnistra (Ľvivśka, Ivano-Frankivśka oblasti), Zachidnoho Buhu (Ľvivśka, Volynśka oblasti) očikuěťśа pidjom rivniv vody na 0,5-1,5 m nad rivńаmy, jaki buly 8 ranku 17 ľutoho.
 1	Крім	крім	ADP	Spsg	Case=Gen	2	case	2:case	Id=1ws6|LTranslit=krim|Translit=Krim
@@ -7422,6 +7461,7 @@
 # newdoc id = 1wtq
 # newpar id = 1wtr
 # sent_id = 1wts
+# source = http://www.champion.com.ua/football/2017/02/24/678978/
 # text = Під завершення матчу другу жовту картку на додачу отримав Опанасенко і Зоря взагалі залишилася у меншості.
 # translit = Pid zaveršenńа matču druhu žovtu kartku na dodaču otrymav Opanasenko i Zoŕа vzahali zalyšylaśа u menšosti.
 1	Під	під	ADP	Spsa	Case=Acc	2	case	2:case	Id=1wtt|LTranslit=pid|Translit=Pid
@@ -7516,10 +7556,12 @@
 21	зіграли	зіграти	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	9	conj	0:root|9:conj	Id=1ww1|LTranslit=zihraty|SpaceAfter=No|Translit=zihraly
 22	.	.	PUNCT	U	_	9	punct	9:punct	Id=1ww2|LTranslit=.|Translit=.
 
+# author = Салівон Максим
 # doc_title = Кадар як з неба дар?.. Представлення новачка киян
 # newdoc id = 1ww4
 # newpar id = 1ww5
 # sent_id = 1ww6
+# source = http://www.champion.com.ua/football/2017/02/24/679083/
 # text = Тамаш Кадар народився 14 березня 1990-го року в угорському місті Веспрем.
 # translit = Tamaš Kadar narodyvśа 14 berezńа 1990-ho roku v uhorśkomu misti Vesprem.
 1	Тамаш	Тамаш	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	3	nsubj	3:nsubj	Id=1ww7|LTranslit=Tamaš|Translit=Tamaš
@@ -7653,6 +7695,7 @@
 # newdoc id = 1wzc
 # newpar id = 1wzd
 # sent_id = 1wze
+# source = http://www.champion.com.ua/football/2017/02/26/679196/
 # text = Прем`єр-ліга.
 # translit = Preměr-liha.
 1	Прем`єр	прем’єрний	ADJ	A	_	3	compound	3:compound	Id=1wzf|LTranslit=preměrnyj|SpaceAfter=No|Translit=Preměr
@@ -7785,6 +7828,7 @@
 # newdoc id = 1x4f
 # newpar id = 1x4g
 # sent_id = 1x4h
+# source = http://www.champion.com.ua/basketball/2016/11/19/670735/
 # text = П’ята перемога в п’яти відбірних матчах чемпіонату Європи зберігає за збірною України лідерство у групі D та гарантує участь у фінальному турнірі чемпіонату Європи.
 # translit = Pjata peremoha v pjaty vidbirnych matčach čempionatu Ěvropy zberihaě za zbirnoju Ukrajiny liderstvo u hrupi D ta harantuě učasť u finaľnomu turniri čempionatu Ěvropy.
 1	П’ята	п’ятий	ADJ	Mlofsn	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	2	amod	2:amod	Id=1x4i|LTranslit=pjatyj|Translit=Pjata
@@ -7860,6 +7904,7 @@
 # newdoc id = 1x6a
 # newpar id = 1x6b
 # sent_id = 1x6c
+# source = http://www.champion.com.ua/autosport/2017/02/15/678210/
 # text = У Ferrari не поспішають продовжувати контракт із Феттелем
 # translit = U Ferrari ne pospišajuť prodovžuvaty kontrakt iz Fettelem
 1	У	у	ADP	Spsg	Case=Gen	2	case	2:case	Id=1x6d|LTranslit=u|Translit=U
@@ -7901,6 +7946,7 @@
 # newdoc id = 1x7a
 # newpar id = 1x7b
 # sent_id = 1x7c
+# source = http://umoloda.kiev.ua/number/3125/188/109016/
 # text = Як виявилося, представники Генпрокуратури приїхали провести санкціонований обшук і вилучити документи, пов’язані з діяльністю створеного комунального підприємства «Волиньприродресурс», яке й мало видобувати на території Волині бурштин і не тільки.
 # translit = Jak vyjavylośа, predstavnyky Henprokuratury pryjichaly provesty sankcionovanyj obšuk i vylučyty dokumenty, povjazani z dijaľnisťu stvorenoho komunaľnoho pidpryěmstva «Volyńpryrodresurs», jake j malo vydobuvaty na terytoriji Volyni burštyn i ne tiľky.
 1	Як	як	SCONJ	Css	_	2	mark	2:mark	Id=1x7d|LTranslit=jak|Translit=Jak
@@ -8166,10 +8212,12 @@
 17	»	»	PUNCT	U	PunctType=Quot	3	punct	3:punct	Id=1xei|LTranslit=»|SpaceAfter=No|Translit=»
 18	.	.	PUNCT	U	_	3	punct	3:punct	Id=1xej|LTranslit=.|Translit=.
 
+# author = Патиківський Юрій
 # doc_title = ОСТАННЯ НАДІЯ ГРОЙСМАНА
 # newdoc id = 1xel
 # newpar id = 1xem
 # sent_id = 1xen
+# source = http://umoloda.kiev.ua/number/3123/159/108935/
 # text = «Коли ТЕС готуються до опалювального сезону, то запаси вугілля чи газу дозволяють працювати у форс-мажорних обставинах щонайменше півтора, а то й два місяці, — стверджує Геннадій Рябцев.
 # translit = «Koly TES hotujuťśа do opaľuvaľnoho sezonu, to zapasy vuhilľа čy hazu dozvoľаjuť praćuvaty u fors-mažornych obstavynach ščonajmenše pivtora, a to j dva miśаci, — stverdžuě Hennadij Ŕаbcev.
 1	«	«	PUNCT	U	PunctType=Quot	14	punct	14:punct	Id=1xeo|LTranslit=«|SpaceAfter=No|Translit=«
@@ -8740,6 +8788,7 @@
 # newdoc id = 1xt2
 # newpar id = 1xt3
 # sent_id = 1xt4
+# source = http://umoloda.kiev.ua/number/0/180/109004/
 # text = «Напрямок, який буде вести Наталія – це євроінтеграція, відповідно всі вимоги щодо Третього енергопакету, щодо асоціації з Євросоюзом, а також співпраця з міжнародними партнерами – ЄБРР, Світовим банком, донорами», – сказав представник відомства журналісту агентства РБК-Україна у середу.
 # translit = «Napŕаmok, jakyj bude vesty Natalija – ce ěvrointehracija, vidpovidno vsi vymohy ščodo Treťoho enerhopaketu, ščodo asociaciji z Ěvrosojuzom, a takož spivpraćа z mižnarodnymy partneramy – ĚBRR, Svitovym bankom, donoramy», – skazav predstavnyk vidomstva žurnalistu ahentstva RBK-Ukrajina u seredu.
 1	«	«	PUNCT	U	PunctType=Quot	10	punct	10:punct	Id=1xt5|LTranslit=«|SpaceAfter=No|Translit=«
@@ -8793,10 +8842,12 @@
 49	середу	середа	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	40	obl	40:obl	Id=1xuh|LTranslit=sereda|SpaceAfter=No|Translit=seredu
 50	.	.	PUNCT	U	_	10	punct	10:punct	Id=1xui|LTranslit=.|Translit=.
 
+# author = Устиловська Інна
 # doc_title = ЯК КОРОБКА ПАЗЛІВ: ЧОМУ ВАРТО ПОДИВИТИСЯ СТРІЧКУ-ЗІРКУ КАННСЬКОГО КІНОФЕСТИВАЛЮ «ПАТЕРСОН»
 # newdoc id = 1xuk
 # newpar id = 1xul
 # sent_id = 30n6
+# source = http://umoloda.kiev.ua/number/3124/164/108965/
 # text = ЯК КОРОБКА ПАЗЛІВ: ЧОМУ ВАРТО ПОДИВИТИСЯ СТРІЧКУ-ЗІРКУ КАННСЬКОГО КІНОФЕСТИВАЛЮ «ПАТЕРСОН»
 # translit = JaK KOROBKA PAZLIV: ČOMU VARTO PODYVYTYŚА STRIČKU-ZIRKU KANNŚKOHO KINOFESTYVAĽU «PATERSON»
 1	ЯК	як	SCONJ	Css	_	2	mark	2:mark	Id=1xum|LTranslit=jak|Translit=JaK
@@ -8815,10 +8866,12 @@
 14	ПАТЕРСОН	Патерсон	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	8	flat:title	8:flat:title	Id=1xuz|LTranslit=Paterson|SpaceAfter=No|Translit=PATERSON
 15	»	»	PUNCT	U	PunctType=Quot	14	punct	14:punct	Id=1xv0|LTranslit=»|Translit=»
 
+# author = Родик Костянтин
 # doc_title = ЧИТАЙ ТВОРИ, ЩО СТАЛИ ПОДІЄЮ: УКРАЇНСЬКИЙ КНИЖКОВИЙ «ОСКАР» ФІНІШУВАВ
 # newdoc id = 1xv2
 # newpar id = 1xv3
 # sent_id = 1xv4
+# source = http://umoloda.kiev.ua/number/3124/164/108969/
 # text = Утім, вручено 22 дипломи (за кількістю підномінацій); видавництва «Дух і Літера», «Кліо», «Темпора», «А-БА-БА-ГА-ЛА-МА-ГА» та «Фоліо» відзначені за перемогу у двох рубриках кожне.
 # translit = Utim, vručeno 22 dyplomy (za kiľkisťu pidnominacij); vydavnyctva «Duch i Litera», «Klio», «Tempora», «A-BA-BA-HA-LA-MA-HA» ta «Folio» vidznačeni za peremohu u dvoch rubrykach kožne.
 1	Утім	утім	ADV	R	_	3	discourse	3:discourse	Id=1xv5|LTranslit=utim|SpaceAfter=No|Translit=Utim
@@ -8968,6 +9021,7 @@
 # newdoc id = 1xyx
 # newpar id = 1xyy
 # sent_id = 1xyz
+# source = https://uk.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BF%D0%BE%D0%B7%D0%B1%D1%83%D0%B2%D0%BD%D0%B0_%D0%B1%D0%B5%D0%BD%D1%82%D0%B5%D0%B3%D0%B0_(%D0%BC%D0%B5%D0%BC)
 # text = Непозбувна бентега — мем, що набув значного поширення у 2017 році після перекладу роману «Маг» Джона Фаулза видавництвом «Клуб сімейного дозвілля» (перекладач — Олег Король).
 # translit = Nepozbuvna benteha — mem, ščo nabuv značnoho pošyrenńа u 2017 roci pisľа perekladu romanu «Mah» Džona Faulza vydavnyctvom «Klub simejnoho dozvilľа» (perekladač — Oleh Koroľ).
 1	Непозбувна	непозбувний	ADJ	Ao-fsns	Case=Nom|Gender=Fem|Number=Sing	2	amod	2:amod	Id=1xz0|LTranslit=nepozbuvnyj|Translit=Nepozbuvna
@@ -9399,10 +9453,12 @@
 55	»	»	PUNCT	U	PunctType=Quot	51	punct	51:punct	Id=1yas|LTranslit=»|SpaceAfter=No|Translit=»
 56	.	.	PUNCT	U	_	7	punct	7:punct	Id=1yat|LTranslit=.|Translit=.
 
+# author = Крук Мирослава
 # doc_title = «ПЕКЕЛЬНЕ» ЛИХО
 # newdoc id = 1yav
 # newpar id = 1yaw
 # sent_id = 1yax
+# source = http://umoloda.kiev.ua/number/3110/218/107996/
 # text = Як заспокоїти бунтівливий шлунок
 # translit = Jak zaspokojity buntivlyvyj šlunok
 1	Як	як	ADV	Pq------r	PronType=Int	2	advmod	2:advmod	Id=1yay|LTranslit=jak|Translit=Jak
@@ -9903,6 +9959,7 @@
 # newdoc id = 21up
 # newpar id = 21uq
 # sent_id = 21ur
+# source = http://rabarbar.com.ua/books/mellops-go-diving-for-treasure
 # text = Пан Меллоп знаходить стару запилюжену скриню на горищі.
 # translit = Pan Mellop znachodyť staru zapyľuženu skryńu na horyšči.
 1	Пан	пан	NOUN	Ncmsny	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	Id=21us|LTranslit=pan|Translit=Pan
@@ -9976,10 +10033,12 @@
 5	скарби	скарб	NOUN	Ncmpan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	2:obj	Id=21we|LTranslit=skarb|SpaceAfter=No|Translit=skarby
 6	?	?	PUNCT	U	_	2	punct	2:punct	Id=21wf|LTranslit=?|Translit=?
 
+# author = Лущевська Оксана
 # doc_title = «Майя та її мами»: розмаїті моделі сімей
 # newdoc id = 21wh
 # newpar id = 21wi
 # sent_id = 21wj
+# source = http://www.chytomo.com/issued/majya-ta-iiii-mami-rozmaiiti-modeli-simej
 # text = Кримський татарин Раїс – ще один персонаж, про якого важливо згадати.
 # translit = Krymśkyj tataryn Rajis – šče odyn personaž, pro jakoho važlyvo zhadaty.
 1	Кримський	кримський	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	2	amod	2:amod	Id=21wk|LTranslit=krymśkyj|Translit=Krymśkyj
@@ -10111,6 +10170,7 @@
 # newdoc id = 220m
 # newpar id = 220n
 # sent_id = 220o
+# source = https://uk.wikipedia.org/wiki/Щоголева_Радмила_Валентинівна
 # text = Народилася 23 березня 1974 р. в Києві в театральній родині.
 # translit = Narodylaśа 23 berezńа 1974 r. v Kyěvi v teatraľnij rodyni.
 1	Народилася	народитися	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=220p|LTranslit=narodytyśа|Translit=Narodylaśа
@@ -10170,6 +10230,7 @@
 # newdoc id = 28b0
 # newpar id = 28b1
 # sent_id = 28b2
+# source = http://tyzhden.ua/Auto/181472
 # text = Ви казали про 1,2 тис. проданих електричних авто.
 # translit = Vy kazaly pro 1,2 tys. prodanych elektryčnych avto.
 1	Ви	ви	PRON	Pp-2-ypnn	Animacy=Anim|Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	2:nsubj	Id=28b3|LTranslit=vy|Translit=Vy
@@ -10485,6 +10546,7 @@
 # newdoc id = 28jq
 # newpar id = 28jr
 # sent_id = 28js
+# source = http://tabloid.pravda.com.ua/lounge/5922834282ba9/
 # text = "Народити в дев'ятнадцять років і в тридцять три роки - це абсолютно різний досвід", - зауважила Осадча в інтерв’ю виданню.
 # translit = "Narodyty v devjatnadćаť rokiv i v trydćаť try roky - ce absoľutno riznyj dosvid", - zauvažyla Osadča v intervju vydanńu.
 1	"	"	PUNCT	U	PunctType=Quot	15	punct	15:punct	Id=28jt|LTranslit="|SpaceAfter=No|Translit="
@@ -10615,6 +10677,7 @@
 # newdoc id = 28mv
 # newpar id = 28mw
 # sent_id = 28mx
+# source = http://tabloid.pravda.com.ua/focus/591d5bf35aee8/
 # text = "Жінки роду Джемалятдінових (прізвище походить від імені мого прадіда Джемалятдіна) дуже сміливі та сильні.
 # translit = "Žinky rodu Džemaľаtdinovych (prizvyšče pochodyť vid imeni moho pradida Džemaľаtdina) duže smilyvi ta syľni.
 1	"	"	PUNCT	U	PunctType=Quot	15	punct	15:punct	Id=28my|LTranslit="|SpaceAfter=No|Translit="
@@ -10678,10 +10741,12 @@
 25	Джамала	Джамала	PROPN	Npfsny	Animacy=Anim|Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	24	nsubj	24:nsubj	Id=28oe|LTranslit=Džamala|SpaceAfter=No|Translit=Džamala
 26	.	.	PUNCT	U	_	24	punct	24:punct	Id=28of|LTranslit=.|Translit=.
 
+# author = Рябий Олександр
 # doc_title = ЩоЗаШоу — Холістичне детективне агентство Дірка Джентлі
 # newdoc id = 28oh
 # newpar id = 28oi
 # sent_id = 28oj
+# source = http://playua.net/shhozashou-holistychne-detektyvne-agentstvo-dirka-dzhentli/
 # text = Дуґлас Адамс та його серія сатиричних романів “Путівник Галактикою” в свій час зазнали небувалої слави серед прихильників наукової фантастики.
 # translit = Duglas Adams ta joho serija satyryčnych romaniv “Putivnyk Halaktykoju” v svij čas zaznaly nebuvaloji slavy sered prychyľnykiv naukovoji fantastyky.
 1	Дуґлас	Дуґлас	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	15	nsubj	15:nsubj	Id=28ok|LTranslit=Duglas|Translit=Duglas
@@ -10918,10 +10983,12 @@
 11	феномену	феномен	NOUN	Ncmsdn	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obj	7:obj	Id=28v6|LTranslit=fenomen|SpaceAfter=No|Translit=fenomenu
 12	.	.	PUNCT	U	_	7	punct	7:punct	Id=28v7|LTranslit=.|Translit=.
 
+# author = jaguar_arx @ disqus.com
 # doc_title = [Класний серіал]
 # newdoc id = 28v9
 # newpar id = 28va
 # sent_id = 28vb
+# source = http://playua.net/shhozashou-holistychne-detektyvne-agentstvo-dirka-dzhentli/#comment-3134977884
 # text = Класний серіал.
 # translit = Klasnyj serial.
 1	Класний	класний	ADJ	Ao-msnf	Case=Nom|Gender=Masc|Number=Sing	2	amod	2:amod	Id=28vc|LTranslit=klasnyj|Translit=Klasnyj
@@ -11052,10 +11119,12 @@
 26	витиснути	витиснути	VERB	Vmen	Aspect=Perf|VerbForm=Inf	25	xcomp	25:xcomp	Id=28ya|LTranslit=vytysnuty|SpaceAfter=No|Translit=vytysnuty
 27	.	.	PUNCT	U	_	12	punct	12:punct	Id=28yb|LTranslit=.|Translit=.
 
+# author = Вітовський Володимир
 # doc_title = Чутки про нову Assassin’s Creed: Origins
 # newdoc id = 28yd
 # newpar id = 28ye
 # sent_id = 28yf
+# source = http://playua.net/chutky-pro-novu-assassin-s-creed-origins/
 # text = Безліч інформації ширилося мережею про нову Assassin’s Creed, але лише зараз стало відомо купу цікавих подробиць.
 # translit = Bezlič informaciji šyrylośа merežeju pro novu Assassin’s Creed, ale lyše zaraz stalo vidomo kupu cikavych podrobyć.
 1	Безліч	безліч	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	3:obj	Id=28yg|LTranslit=bezlič|Translit=Bezlič
@@ -11121,10 +11190,12 @@
 13	Origins	Origins	X	X	Foreign=Yes	11	appos	11:appos	Id=28zy|LTranslit=Origins|SpaceAfter=No|Translit=Origins
 14	.	.	PUNCT	U	_	7	punct	7:punct	Id=28zz|LTranslit=.|Translit=.
 
+# author = Зозуляк Данило
 # doc_title = Огляд фільму “Ла-Ла Ленд”
 # newdoc id = 290c
 # newpar id = 290d
 # sent_id = 290e
+# source = http://playua.net/oglyad-filmu-la-la-land/
 # text = Весь фільм – уклін старому кіно.
 # translit = Veś fiľm – uklin staromu kino.
 1	Весь	весь	DET	Pg--m-sna	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	det	2:det	Id=290f|LTranslit=veś|Translit=Veś
@@ -11189,10 +11260,12 @@
 24	сьогодні	сьогодні	ADV	R	_	23	advmod	23:advmod	Id=291w|LTranslit=śohodni|SpaceAfter=No|Translit=śohodni
 25	.	.	PUNCT	U	_	2	punct	2:punct	Id=291x|LTranslit=.|Translit=.
 
+# author = Корчевський Олексій
 # doc_title = Огляд фільму «Чому він?»
 # newdoc id = 291z
 # newpar id = 2920
 # sent_id = 2921
+# source = http://playua.net/oglyad-filmu-chomu-vin/
 # text = Головному героєві, мільйонеру, власникові ІТ-бізнесу відверто потурають усі навколо, підлизуючи йому де не ліньки, але попри це герой не поводить себе зверхньо та грубо.
 # translit = Holovnomu heroěvi, miľjoneru, vlasnykovi IT-biznesu vidverto poturajuť usi navkolo, pidlyzujučy jomu de ne lińky, ale popry ce heroj ne povodyť sebe zverchńo ta hrubo.
 1	Головному	головний	ADJ	Afpmsdf	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	2	amod	2:amod	Id=2922|LTranslit=holovnyj|Translit=Holovnomu
@@ -11351,10 +11424,12 @@
 23	Сірі	Сірі	PROPN	Npfsiy	Animacy=Anim|Case=Ins|Gender=Fem|NameType=Giv|Number=Sing|Uninflect=Yes	21	nmod	21:nmod	Id=296x|LTranslit=Siri|SpaceAfter=No|Translit=Siri
 24	.	.	PUNCT	U	_	3	punct	3:punct	Id=296y|LTranslit=.|Translit=.
 
+# author = yuriyburda @ disqus.com
 # doc_title = [скучив за асасінами]
 # newdoc id = 2970
 # newpar id = 2971
 # sent_id = 2972
+# source = http://playua.net/chutky-pro-novu-assassin-s-creed-origins/#comment-3294375711
 # text = Їм треба частіше робити такі перерви між іграми серії.
 # translit = Jim treba častiše robyty taki perervy miž ihramy seriji.
 1	Їм	вони	PRON	Pp-3--pdn	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	obj	2:obj	Id=2973|LTranslit=vony|Translit=Jim
@@ -11415,10 +11490,12 @@
 8	асасінами	асасін	NOUN	Ncmpiy	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	6	obl	6:obl	Id=298d|LTranslit=asasin|SpaceAfter=No|Translit=asasinamy
 9	.	.	PUNCT	U	_	1	punct	1:punct	Id=298e|LTranslit=.|Translit=.
 
+# author = yuralupul @ disqus.com
 # doc_title = [вважаю Tekken 3 — еталоном]
 # newdoc id = 298g
 # newpar id = 298h
 # sent_id = 298i
+# source = http://playua.net/systemni-vymogy-tekken-7/#comment-3320381814
 # text = Механіка не змінюється, а це головне.
 # translit = Mechanika ne zmińuěťśа, a ce holovne.
 1	Механіка	механіка	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	Id=298j|LTranslit=mechanika|Translit=Mechanika
@@ -11480,10 +11557,12 @@
 23	падав	падати	VERB	Vmpis-sm	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	conj	13:conj	Id=299x|LTranslit=padaty|SpaceAfter=No|Translit=padav
 24	.	.	PUNCT	U	_	13	punct	13:punct	Id=299y|LTranslit=.|Translit=.
 
+# author = yuralupul @ disqus.com
 # doc_title = [Найголовніше, щоб була роздільна хрестовина]
 # newdoc id = 29a0
 # newpar id = 29a1
 # sent_id = 29a2
+# source = http://playua.net/systemni-vymogy-tekken-7/#comment-3320385913
 # text = Найголовніше, щоб була роздільна хрестовина.
 # translit = Najholovniše, ščob bula rozdiľna chrestovyna.
 1	Найголовніше	найголовніше	ADV	Rs	Degree=Sup	0	root	0:root	Id=29a3|LTranslit=najholovniše|SpaceAfter=No|Translit=Najholovniše
@@ -11575,6 +11654,7 @@
 # newdoc id = 2abd
 # newpar id = 2abe
 # sent_id = 2abf
+# source = https://uk.wikipedia.org/wiki/Державний_службовець
 # text = Особа, яка вступає на державну службу, зобов'язана до призначення на посаду державної служби вийти зі складу виконавчого органу чи наглядової ради підприємства або організації, що має на меті одержання прибутку (крім випадків, коли особа здійснює функції з управління акціями (частками, паями), що належать державі або територіальній громаді, та представляє інтереси держави або територіальної громади в раді товариства (спостережній раді), ревізійній комісії господарського товариства), припинити іншу оплачувану або підприємницьку діяльність, крім викладацької, наукової і творчої діяльності, медичної практики, інструкторської та суддівської практики із спорту.
 # translit = Osoba, jaka vstupaě na deržavnu službu, zobovjazana do pryznačenńа na posadu deržavnoji služby vyjty zi skladu vykonavčoho orhanu čy nahľаdovoji rady pidpryěmstva abo orhanizaciji, ščo maě na meti oderžanńа prybutku (krim vypadkiv, koly osoba zdijsńuě funkciji z upravlinńа akcijamy (častkamy, pajamy), ščo naležať deržavi abo terytoriaľnij hromadi, ta predstavľаě interesy deržavy abo terytoriaľnoji hromady v radi tovarystva (sposterežnij radi), revizijnij komisiji hospodarśkoho tovarystva), prypynyty inšu oplačuvanu abo pidpryěmnyćku dijaľnisť, krim vykladaćkoji, naukovoji i tvorčoji dijaľnosti, medyčnoji praktyky, instruktorśkoji ta suddivśkoji praktyky iz sportu.
 1	Особа	особа	NOUN	Ncfsny	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	4:nsubj|9:nsubj|16:nsubj:xsubj	Id=2abg|LTranslit=osoba|SpaceAfter=No|Translit=Osoba
@@ -11685,6 +11765,7 @@
 # newdoc id = 2aec
 # newpar id = 2aed
 # sent_id = 2aee
+# source = https://uk.wikipedia.org/wiki/MTOR
 # text = mTOR входить до складу двох мультимерних білкових комплексів, що відрізняються активаторами, мішенями, та чутливістю до рапаміцину.
 # translit = mTOR vchodyť do skladu dvoch muľtymernych bilkovych kompleksiv, ščo vidrizńаjuťśа aktyvatoramy, mišeńаmy, ta čutlyvisťu do rapamicynu.
 1	mTOR	mTOR	X	X	Foreign=Yes	2	nsubj	2:nsubj	Id=2aef|LTranslit=mTOR|Translit=mTOR
@@ -11787,6 +11868,7 @@
 # newdoc id = 2agu
 # newpar id = 2agv
 # sent_id = 2agw
+# source = https://uk.wikipedia.org/wiki/Проект_НАТО–Україна_«Запобігання_повеням_в_Україні»
 # text = За проектом передбачається встановити і об'єднати у мережу сім автоматичних станцій у 2012 році.
 # translit = Za proektom peredbačaěťśа vstanovyty i obědnaty u merežu sim avtomatyčnych stancij u 2012 roci.
 1	За	за	ADP	Spsi	Case=Ins	2	case	2:case	Id=2agx|LTranslit=za|Translit=Za
@@ -11992,6 +12074,7 @@
 # newdoc id = 2alv
 # newpar id = 2alw
 # sent_id = 2alx
+# source = https://uk.wikipedia.org/wiki/Пістолетне_руків%27я
 # text = Наприклад, пістолетне руків'я автомату АК-74 виготовлене з бакеліту та складається з обойми у верхній частині для запобігання розколювання руків'я від ударів, гнізда для приміщення підстави пістолетного руків'я, лазу для приміщення спускової скоби і гнізда для шайби гвинта в нижній частині, що кріпить крізний гвинт в каналі руків'я.
 # translit = Napryklad, pistoletne rukivja avtomatu AK-74 vyhotovlene z bakelitu ta skladaěťśа z obojmy u verchnij častyni dľа zapobihanńа rozkoľuvanńа rukivja vid udariv, hnizda dľа prymiščenńа pidstavy pistoletnoho rukivja, lazu dľа prymiščenńа spuskovoji skoby i hnizda dľа šajby hvynta v nyžnij častyni, ščo kripyť kriznyj hvynt v kanali rukivja.
 1	Наприклад	наприклад	ADV	R	_	9	discourse	9:discourse	Id=2aly|LTranslit=napryklad|SpaceAfter=No|Translit=Napryklad
@@ -12053,6 +12136,7 @@
 # newdoc id = 2anh
 # newpar id = 2ani
 # sent_id = 2anj
+# source = https://uk.wikipedia.org/wiki/Ан-132
 # text = Літак створений як багатоцільовий сухопутний всеаеродромний близько- та середньомагістральний дводвигунний турбогвинтовий однофюзеляжний дозвуковий легкий транспортний моно-високоплан нормальної схеми 3-го класу.
 # translit = Litak stvorenyj jak bahatociľovyj suchoputnyj vseaerodromnyj blyźko- ta seredńomahistraľnyj dvodvyhunnyj turbohvyntovyj odnofjuzeľаžnyj dozvukovyj lehkyj transportnyj mono-vysokoplan normaľnoji schemy 3-ho klasu.
 1	Літак	літак	NOUN	Ncmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	2:nsubj|19:nsubj	Id=2ank|LTranslit=litak|Translit=Litak
@@ -12276,10 +12360,12 @@
 22	літак	літак	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	nmod	20:nmod	Id=2ata|LTranslit=litak|SpaceAfter=No|Translit=litak
 23	.	.	PUNCT	U	_	4	punct	4:punct	Id=2atb|LTranslit=.|Translit=.
 
+# author = Мороз Володимир
 # doc_title = Їй належав увесь світ: Далекі обрії Софії Яблонської
 # newdoc id = 2o17
 # newpar id = 2o18
 # sent_id = 30na
+# source = http://tyzhden.ua/History/191825
 # text = Ці спогади зафіксовані у «Книзі про батька».
 # translit = Ci spohady zafiksovani u «Knyzi pro baťka».
 1	Ці	цей	DET	Pd----pna	Case=Nom|Number=Plur|PronType=Dem	2	det	2:det	Id=2o19|LTranslit=cej|Translit=Ci
@@ -12613,10 +12699,12 @@
 22	нидіти	нидіти	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	21	advcl:svc	21:advcl:svc	Id=2o9s|LTranslit=nydity|SpaceAfter=No|Translit=nydity
 23	…	…	PUNCT	U	_	5	punct	5:punct	Id=2o9t|LTranslit=…|Translit=…
 
+# author = Козлюк Станіслав
 # doc_title = Придунайські князівства. Децентралізація на Одещині
 # newdoc id = 2o9v
 # newpar id = 2o9w
 # sent_id = 30nb
+# source = http://tyzhden.ua/Society/191038
 # text = «Близько року тому до мене звертався голова Новосельського, яке згідно з планом має стати центром громади.
 # translit = «Blyźko roku tomu do mene zvertavśа holova Novoseľśkoho, jake zhidno z planom maě staty centrom hromady.
 1	«	«	PUNCT	U	PunctType=Quot	7	punct	7:punct	Id=2o9x|LTranslit=«|SpaceAfter=No|Translit=«
@@ -12973,10 +13061,12 @@
 26	сіл	село	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	nsubj	23:nsubj	Id=2oic|LTranslit=selo|SpaceAfter=No|Translit=sil
 27	.	.	PUNCT	U	_	6	punct	6:punct	Id=2oid|LTranslit=.|Translit=.
 
+# author = Малишева Вікторія
 # doc_title = «Годувальники»
 # newdoc id = 2gmw
 # newpar id = 2gmx
 # sent_id = 30ma
+# source = http://tyzhden.ua/Society/197205
 # text = Зараз варіантів роботи для чоловіків у «республіці» кілька.
 # translit = Zaraz variantiv roboty dľа čolovikiv u «respublici» kiľka.
 1	Зараз	зараз	ADV	Pd------r	PronType=Dem	10	advmod	10:advmod	Id=2gmy|LTranslit=zaraz|Translit=Zaraz
@@ -13367,10 +13457,12 @@
 9	зараз	зараз	ADV	Pd------r	PronType=Dem	8	acl:adv	8:acl:adv	Id=2gx8|LTranslit=zaraz|SpaceAfter=No|Translit=zaraz
 10	.	.	PUNCT	U	_	6	punct	6:punct	Id=2gx9|LTranslit=.|Translit=.
 
+# author = Фея Олег
 # doc_title = Як із фундаментальних досліджень виростає наше сьогодення
 # newdoc id = 2gxb
 # newpar id = 2gxc
 # sent_id = 30nc
+# source = http://tyzhden.ua/Society/197189
 # text = Якщо ви поділяєте думку дівчини з моєї лекції, раджу придивитися до будь-якого девайса.
 # translit = Jakščo vy podiľаěte dumku divčyny z moěji lekciji, radžu prydyvytyśа do buď-jakoho devajsa.
 1	Якщо	якщо	SCONJ	Css	_	3	mark	3:mark	Id=2gxd|LTranslit=jakščo|Translit=Jakščo
@@ -13909,10 +14001,12 @@
 7	подобатися	подобатися	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	4	xcomp	4:xcomp	Id=2hbe|LTranslit=podobatyśа|SpaceAfter=No|Translit=podobatyśа
 8	.	.	PUNCT	U	_	4	punct	4:punct	Id=2hbf|LTranslit=.|Translit=.
 
+# author = Трегуб Ганна
 # doc_title = Катрін Ґфеллер: «Мовчання творців сучасного мистецтва — це легкодухість, брак здібностей»
 # newdoc id = 2hbh
 # newpar id = 2hbi
 # sent_id = 30nd
+# source = http://tyzhden.ua/Culture/196797
 # text = Якщо говорити про проблеми, то багато хто із сучасної арт-спільноти відмовився зніматися в цій стрічці.
 # translit = Jakščo hovoryty pro problemy, to bahato chto iz sučasnoji art-spiľnoty vidmovyvśа znimatyśа v cij stričci.
 1	Якщо	якщо	SCONJ	Css	_	2	mark	2:mark	Id=2hbj|LTranslit=jakščo|Translit=Jakščo
@@ -14355,6 +14449,7 @@
 # newdoc id = 37r5
 # newpar id = 37r6
 # sent_id = 37r7
+# source = http://www.president.gov.ua/press-office/vidvidannya-prezidentom-trenuvan-predstavnikiv-nacionalnoyi-1962
 # text = 12 вересня о 13:00 Президент України Петро Порошенко відвідає тренування представників національної збірної команди України для участі у змаганнях «Ігри нескорених» (стадіон «Спартак», вул. Кирилівська, 105, м. Київ).
 # translit = 12 veresńа o 13:00 Prezydent Ukrajiny Petro Porošenko vidvidaě trenuvanńа predstavnykiv nacionaľnoji zbirnoji komandy Ukrajiny dľа učasti u zmahanńаch «Ihry neskorenych» (stadion «Spartak», vul. Kyrylivśka, 105, m. Kyjiv).
 1	12	12	ADJ	Mlonsg	Case=Gen|Gender=Neut|Number=Sing|NumType=Ord|Uninflect=Yes	11	obl	11:obl	Id=37r8|LTranslit=12|Promoted=Yes|Translit=12
@@ -14426,10 +14521,12 @@
 6	паспортом	паспорт	NOUN	Ncmsin	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	conj	0:root|4:conj	Id=37tq|LTranslit=pasport|SpaceAfter=No|Translit=pasportom
 7	.	.	PUNCT	U	_	4	punct	4:punct	Id=37tr|LTranslit=.|Translit=.
 
+# author = Шавалюк Любомир
 # doc_title = Зазирнути в майбутнє. Як характер інвестицій дає змогу зробити економічний прогноз
 # newdoc id = 37tt
 # newpar id = 37tu
 # sent_id = 37tv
+# source = http://tyzhden.ua/Economics/197939
 # text = Сьогодні динаміка інвестицій дає привід для оптимізму.
 # translit = Śohodni dynamika investycij daě pryvid dľа optymizmu.
 1	Сьогодні	сьогодні	ADV	R	_	4	advmod	4:advmod	Id=37tw|LTranslit=śohodni|Translit=Śohodni
@@ -15191,6 +15288,7 @@
 # newdoc id = 38du
 # newpar id = 38dv
 # sent_id = 38dw
+# source = http://tyzhden.ua/World/199502
 # text = Європейські країни бояться не просто підтримки Ердогана своїми турецькими громадами, а імпорту патологій Туреччини.
 # translit = Ěvropejśki krajiny bojaťśа ne prosto pidtrymky Erdohana svojimy turećkymy hromadamy, a importu patolohij Tureččyny.
 1	Європейські	європейський	ADJ	Ao--pns	Case=Nom|Number=Plur	2	amod	2:amod	Id=38dx|LTranslit=ěvropejśkyj|Translit=Ěvropejśki
