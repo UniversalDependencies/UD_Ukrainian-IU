@@ -61,9 +61,9 @@
     <feat name="Mood" value="Cnd" upos="AUX">108</feat><!-- б, би -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">295</feat><!-- див, будь, давай, дивіться, дай, одведи, підкажіть, скажімо, скажіть, слухайте -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">10713</feat><!-- було, є, був, була, були, буде, може, має, каже, немає -->
-    <feat name="NameType" value="Giv" upos="PROPN">1012</feat><!-- Міра, Вінстон, Гнат, Марія, Михась, Мотря, Андрій, Михайло, джон, микола -->
+    <feat name="NameType" value="Giv" upos="PROPN">1011</feat><!-- Міра, Вінстон, Гнат, Марія, Михась, Мотря, Андрій, Михайло, джон, микола -->
     <feat name="NameType" value="Pat" upos="PROPN">60</feat><!-- Василівна, І, О, Степанович, П, Іларіонович, Васильовича, Василівни, Г, Григоровичу -->
-    <feat name="NameType" value="Sur" upos="PROPN">921</feat><!-- Лі, Манафорта, Поттера, Трампа, Щербачов, Дудаєва, Гольдштейна, Морріс, Сосницький, Українки -->
+    <feat name="NameType" value="Sur" upos="PROPN">922</feat><!-- Лі, Манафорта, Поттера, Трампа, Щербачов, Дудаєва, Гольдштейна, Морріс, Сосницький, Українки -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">17892</feat><!-- ми, вони, які, їх, були, нас, всі, ви, них, років -->
     <feat name="Number" value="Ptan" upos="NOUN,PROPN">548</feat><!-- США, грошей, даних, виборів, гроші, двері, дані, коштів, ЗМІ, даними -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB,X">46263</feat><!-- він, це, я, його, було, вона, україни, її, був, є -->
@@ -108,8 +108,8 @@
     <dep name="acl">453</dep>
     <dep name="acl:adv">28</dep>
     <dep name="acl:relcl">1154</dep>
-    <dep name="advcl">1514</dep>
-    <dep name="advcl:sp">51</dep>
+    <dep name="advcl">1515</dep>
+    <dep name="advcl:pred">51</dep>
     <dep name="advcl:svc">47</dep>
     <dep name="advmod">6527</dep>
     <dep name="advmod:det">43</dep>
@@ -121,7 +121,7 @@
     <dep name="ccomp">617</dep>
     <dep name="compound">513</dep>
     <dep name="compound:svc">10</dep>
-    <dep name="conj">6311</dep>
+    <dep name="conj">6310</dep>
     <dep name="conj:svc">6</dep>
     <dep name="cop">802</dep>
     <dep name="csubj">551</dep>
@@ -161,6 +161,6 @@
     <dep name="vocative">101</dep>
     <dep name="vocative:cl">1</dep>
     <dep name="xcomp">1031</dep>
-    <dep name="xcomp:sp">335</dep>
+    <dep name="xcomp:pred">335</dep>
   </deps>
 </treebank>

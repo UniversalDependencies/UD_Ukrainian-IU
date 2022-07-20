@@ -108,7 +108,8 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
 ### Changelog
 
 * 2022-11-15 **v2.9** (upcoming)
-  * Brought back `Hyph` and `Bull` `PunctType`s
+  * Brought back `Hyph` and `Bull` `PunctType`s.
+  * Renamed `:sp` relation subtypes to `:pred`.
   * Fixed several errors.
   * Added new sentenses.
 
