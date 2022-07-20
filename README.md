@@ -85,7 +85,7 @@ UD Ukrainian data conforms to [CoNLL-U](http://universaldependencies.org/format.
 1. **Empty (null) nodes for elided predicates.** Elided predicates are manually reconstructed with word forms and full morphological info. _Coverage: only ~200 instances done._
 1. **Propagation of incoming dependencies to conjuncts.** Propagated automatically. For heterogeneous conjuncts, a relation guesser is employed. _Coverage: full._
 1. **Propagation of outgoing dependencies from conjuncts.**  Dependents of first conjuncts are propagated only if they are manually marked as shared. _Coverage: ~75% of the sentences._
-1. **Additional subject relations for control and raising constructions.** All `xcomp` subjects are annotated manually as [`nsubj:x`](http://universaldependencies.org/uk/dep/nsubj-x.html)/[`csubj:x`](http://universaldependencies.org/uk/dep/csubj-x.html). Subjects of [`xcomp:sp`](http://universaldependencies.org/uk/dep/xcomp-sp.html) (secondary predication) are [`nsubj:sp`](http://universaldependencies.org/uk/dep/nsubj-sp.html)/[`csubj:sp`](http://universaldependencies.org/uk/dep/csubj-sp.html). The latter are also used for the subjects of [`advcl:sp`](http://universaldependencies.org/uk/dep/advcl-sp.html) (see [#476](https://github.com/UniversalDependencies/docs/issues/476)). _Coverage: full._
+1. **Additional subject relations for control and raising constructions.** All `xcomp` subjects are annotated manually as [`nsubj:xsubj`](http://universaldependencies.org/uk/dep/nsubj-x.html)/[`csubj:x`](http://universaldependencies.org/uk/dep/csubj-x.html). Subjects of [`xcomp:sp`](http://universaldependencies.org/uk/dep/xcomp-sp.html) (secondary predication) are [`nsubj:sp`](http://universaldependencies.org/uk/dep/nsubj-sp.html)/[`csubj:sp`](http://universaldependencies.org/uk/dep/csubj-sp.html). The latter are also used for the subjects of [`advcl:sp`](http://universaldependencies.org/uk/dep/advcl-sp.html) (see [#476](https://github.com/UniversalDependencies/docs/issues/476)). _Coverage: full._
 1. **Coreference in relative clause constructions.** All relative clauses are manually annotated with enhanced dependencies. This includes all types mentioned in the [universal docs](http://universaldependencies.org/u/overview/enhanced-syntax.html#relative-clauses) plus Ukrainian clauses that use personal pronouns as relativizers: _вузол, що його не переріжеш_ “the-knot, that it.Acc not you-can-cut”. _Coverage: full._
 1. **Case information.** We don’t case-mark relation names because this doesn’t bring any new information [[discussion](https://github.com/UniversalDependencies/docs/issues/566)].
 
@@ -121,7 +121,7 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
   * Fixed annotation errors.
   * Shared more dependents of a first conjunct.
   * Improved consistency by extending annotation guidelines to rarer phenomena.
-  * Switched from `ccomp` to `xcomp` where `nsubj:x` is a phantom object.
+  * Switched from `ccomp` to `xcomp` where `nsubj:xsubj` is a phantom object.
   * Made clauses with `ADV` relativizers `:relcl`.
   * Added `Polarity=Neg` for conjunctions.
   * Escaped the pipe (`|`) character in `MISC` as `\p`. `\\` is now a backslash.
