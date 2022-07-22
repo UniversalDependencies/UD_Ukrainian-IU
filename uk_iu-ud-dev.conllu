@@ -6681,7 +6681,7 @@
 # translit = Ukrajinśkomu bulgakoznavstvu pora vśoho-navśoho perestaty poturaty kompleksam pokijnoho Bulgakova tak , niby vin i dosi žyvyj , — i todi j joho tvorčisť vidkryěťśа novymy ( cikaveznymy ! ) hrańаmy .
 1	Українському	український	ADJ	Ao-nsdf	Case=Dat|Gender=Neut|Number=Sing	2	amod	2:amod	Id=1h0g|LTranslit=ukrajinśkyj|Translit=Ukrajinśkomu
 2	булґакознавству	булґакознавство	NOUN	Ncnsdn	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obj	3:obj	Id=1h0h|LTranslit=bulgakoznavstvo|Translit=bulgakoznavstvu
-3	пора	пора	ADV	R	_	0	root	0:root	Id=1h0i|LTranslit=pora|Translit=pora
+3	пора	пора	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	Id=1h0i|LTranslit=pora|Translit=pora
 4	всього-навсього	всього-навсього	PART	Q	_	5	discourse	5:discourse	Id=1h0j|LTranslit=vśoho-navśoho|Translit=vśoho-navśoho
 5	перестати	перестати	VERB	Vmen	Aspect=Perf|VerbForm=Inf	3	csubj	3:csubj	Id=1h0k|LTranslit=perestaty|Translit=perestaty
 6	потурати	потурати	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	5	xcomp	5:xcomp	Id=1h0l|LTranslit=poturaty|Translit=poturaty
