@@ -4438,8 +4438,8 @@
 6	музеї	музей	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	2:obl	Id=1g9a|LTranslit=muzej|SpaceAfter=No|Translit=muzeji
 7	:	:	PUNCT	U	_	11	punct	11:punct	Id=1g9b|LTranslit=:|Translit=:
 8	кілька	кілька	DET	Mlc-n	Case=Nom|NumType=Card|PronType=Ind	9	det:numgov	9:det:numgov	Id=1g9c|LTranslit=kiľka|Translit=kiľka
-9	тисяч	тисяча	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card	11	nsubj	11:nsubj	Id=1g9d|LTranslit=tyśаča|Translit=tyśаč
-10	людей	людина	NOUN	Ncfpgy	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	9	nmod	9:nmod	Id=1g9e|LTranslit=ľudyna|Translit=ľudej
+9	тисяч	тисяча	NUM	Mlc-pg	Case=Gen|Number=Plur|NumType=Card	10	nummod:gov	10:nummod:gov	Id=1g9d|LTranslit=tyśаča|Translit=tyśаč
+10	людей	людина	NOUN	Ncfpgy	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	11	nsubj	11:nsubj	Id=1g9e|LTranslit=ľudyna|Translit=ľudej
 11	стоять	стояти	VERB	Vmpip3p	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	Id=1g9f|LTranslit=stojaty|Translit=stojať
 12	на	на	ADP	Spsl	Case=Loc	13	case	13:case	Id=1g9g|LTranslit=na|Translit=na
 13	плацу	плац	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	11:obl	Id=1g9h|LTranslit=plac|Translit=placu
@@ -4489,10 +4489,10 @@
 3	тому	той	DET	Pd--m-sla	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	4	det	4:det	Id=1gah|LTranslit=toj|Translit=tomu
 4	таборі	табір	NOUN	Ncmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	5:obl	Id=1gai|LTranslit=tabir|Translit=tabori
 5	вижило	вижити	VERB	Vmeis-sn	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1gaj|LTranslit=vyžyty|Translit=vyžylo
-6	близько	близько	ADP	Spsg	Case=Gen	7	case	7:case	Id=1gak|LTranslit=blyźko|Translit=blyźko
+6	близько	близько	ADP	Spsg	Case=Gen	8	case	8:case	Id=1gak|LTranslit=blyźko|Translit=blyźko
 7	півтори	півтори	NUM	Mlcfsg	Case=Gen|Gender=Fem|NumType=Card|Uninflect=Yes	8	nummod	8:nummod	Id=1gal|LTranslit=pivtory|Translit=pivtory
-8	тисячі	тисяча	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|NumType=Card	5	nsubj	5:nsubj	Id=1gam|LTranslit=tyśаča|Translit=tyśаči
-9	в’язнів	в’язень	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	8:nmod	Id=1gan|LTranslit=vjazeń|SpaceAfter=No|Translit=vjazniv
+8	тисячі	тисяча	NUM	Mlc-g	Case=Gen|NumType=Card	9	nummod:gov	9:nummod:gov	Id=1gam|LTranslit=tyśаča|Translit=tyśаči
+9	в’язнів	в’язень	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	5:nsubj	Id=1gan|LTranslit=vjazeń|SpaceAfter=No|Translit=vjazniv
 10	.	.	PUNCT	U	_	5	punct	5:punct	Id=1gao|LTranslit=.|Translit=.
 
 # sent_id = 1gap
@@ -4508,9 +4508,9 @@
 8	табору	табір	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	7:nmod	Id=1gax|LTranslit=tabir|Translit=taboru
 9	більше	більше	ADV	Rc	Degree=Cmp	11	advmod	11:advmod	Id=1gay|LTranslit=biľše|Translit=biľše
 10	10	10	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	11	nummod	11:nummod	Id=1gaz|LTranslit=10|Translit=10
-11	тисяч	тисяча	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card	14	nsubj	14:nsubj	Id=1gb0|LTranslit=tyśаča|Translit=tyśаč
-12	бранців	бранець	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	11:nmod	Id=1gb1|LTranslit=braneć|Translit=branciv
-13	були	бути	AUX	Vapis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	14	cop	14:cop	Id=1gb2|LTranslit=buty|Translit=buly
+11	тисяч	тисяча	NUM	Mlc-pg	Case=Gen|Number=Plur|NumType=Card	12	nummod:gov	12:nummod:gov	Id=1gb0|LTranslit=tyśаča|Translit=tyśаč
+12	бранців	бранець	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nsubj	14:nsubj	Id=1gb1|LTranslit=braneć|Translit=branciv
+13	були	бути	AUX	Vapis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	14	cop	14:cop|19:cop	Id=1gb2|LTranslit=buty|Translit=buly
 14	вивезені	вивезений	ADJ	Ap--pns-ep	Aspect=Perf|Case=Nom|Number=Plur|VerbForm=Part|Voice=Pass	3	acl	3:acl	Id=1gb3|LTranslit=vyvezenyj|Translit=vyvezeni
 15	СС	СС	PROPN	Y	Abbr=Yes|Animacy=Inan|Case=Ins|Number=Plur|Uninflect=Yes	14	obl	14:obl	Id=1gb4|LTranslit=SS|Translit=SS
 16	на	на	ADP	Spsa	Case=Acc	17	case	17:case	Id=1gb5|LTranslit=na|Translit=na
@@ -9991,10 +9991,10 @@
 1	“	“	PUNCT	U	PunctType=Quot	3	punct	3:punct	Id=1n3v|LTranslit=“|SpaceAfter=No|Translit=“
 2	Учора	учора	ADV	R	_	3	advmod	3:advmod	Id=1n3w|LTranslit=učora|Translit=Učora
 3	обмежили	обмежити	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1n3x|LTranslit=obmežyty|Translit=obmežyly
-4	до	до	ADP	Spsg	Case=Gen	6	case	6:case	Id=1n3y|LTranslit=do|Translit=do
+4	до	до	ADP	Spsg	Case=Gen	7	case	7:case	Id=1n3y|LTranslit=do|Translit=do
 5	2	2	NUM	Mlc-pg	Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	6	nummod	6:nummod	Id=1n3z|LTranslit=2|Translit=2
-6	тисяч	тисяча	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card	3	obl	3:obl	Id=1n40|LTranslit=tyśаča|Translit=tyśаč
-7	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	6	nmod	6:nmod	Id=1n41|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+6	тисяч	тисяча	NUM	Mlc-pg	Case=Gen|Number=Plur|NumType=Card	7	nummod	7:nummod	Id=1n40|LTranslit=tyśаča|Translit=tyśаč
+7	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	3	obl	3:obl	Id=1n41|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 8	.	.	PUNCT	U	_	7	punct	7:punct	Id=1n42|LTranslit=.|SpaceAfter=No|Translit=.
 9	,	,	PUNCT	U	_	12	punct	10.1:punct	Id=1n43|LTranslit=,|Translit=,
 10	сьогодні	сьогодні	ADV	R	_	12	orphan	10.1:advmod	Id=1n44|LTranslit=śohodni|Translit=śohodni
@@ -10017,8 +10017,8 @@
 3	учора	учора	ADV	R	_	4	advmod	4:advmod	Id=1n4h|LTranslit=učora|Translit=učora
 4	зняла	зняти	VERB	Vmeis-sf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1n4i|LTranslit=zńаty|Translit=zńаla
 5	20	20	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	6	nummod:gov	6:nummod:gov	Id=1n4j|LTranslit=20|Translit=20
-6	тисяч	тисяча	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card	4	obj	4:obj	Id=1n4k|LTranslit=tyśаča|Translit=tyśаč
-7	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	6	nmod	6:nmod	Id=1n4l|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+6	тисяч	тисяча	NUM	Mlc-pg	Case=Gen|Number=Plur|NumType=Card	7	nummod:gov	7:nummod:gov	Id=1n4k|LTranslit=tyśаča|Translit=tyśаč
+7	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	4	obj	4:obj	Id=1n4l|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 8	.	.	PUNCT	U	_	7	punct	7:punct	Id=1n4m|LTranslit=.|Translit=.
 9	на	на	ADP	Spsl	Case=Loc	10	case	10:case	Id=1n4n|LTranslit=na|Translit=na
 10	С	С.	PROPN	Y	Abbr=Yes|Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing|Uninflect=Yes	4	obl	4:obl	Id=1n4o|LTranslit=S.|SpaceAfter=No|Translit=S
@@ -10748,9 +10748,9 @@
 22	допомогу	допомога	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	24:obl	Id=1utt|LTranslit=dopomoha|Translit=dopomohu
 23	Україні	Україна	PROPN	Npfsdn	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	22	nmod	22:nmod	Id=1utu|LTranslit=Ukrajina|Translit=Ukrajini
 24	виділялося	виділятися	VERB	Vmpis-sn	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	11	acl:relcl	11:acl:relcl	Id=1utv|LTranslit=vydiľаtyśа|Translit=vydiľаlośа
-25	$	$	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Uninflect=Yes	27	nmod	27:nmod	Id=1utw|LTranslit=$|SpaceAfter=No|Translit=$
+25	$	$	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Uninflect=Yes	24	obj	24:obj	Id=1utw|LTranslit=$|SpaceAfter=No|Translit=$
 26	350	350	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	27	nummod:gov	27:nummod:gov	Id=1utx|LTranslit=350|Translit=350
-27	млн	млн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|Uninflect=Yes	24	obj	24:obj	Id=1uty|LTranslit=mln|SpaceAfter=No|Translit=mln
+27	млн	млн	NUM	Y	Abbr=Yes|Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	25	nummod:gov	25:nummod:gov	Id=1uty|LTranslit=mln|SpaceAfter=No|Translit=mln
 28	.	.	PUNCT	U	_	1	punct	1:punct	Id=1utz|LTranslit=.|Translit=.
 
 # sent_id = 1uu0
@@ -10762,9 +10762,9 @@
 4	ця	цей	DET	Pd--f-sna	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	5:det	Id=1uu4|LTranslit=cej|Translit=ćа
 5	сума	сума	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	Id=1uu5|LTranslit=suma|Translit=suma
 6	становила	становити	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1uu6|LTranslit=stanovyty|Translit=stanovyla
-7	$	$	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Uninflect=Yes	9	nmod	9:nmod	Id=1uu7|LTranslit=$|SpaceAfter=No|Translit=$
+7	$	$	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Uninflect=Yes	6	obj	6:obj	Id=1uu7|LTranslit=$|SpaceAfter=No|Translit=$
 8	300	300	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	9	nummod:gov	9:nummod:gov	Id=1uu8|LTranslit=300|Translit=300
-9	млн	млн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|Uninflect=Yes	6	obj	6:obj	Id=1uu9|LTranslit=mln|SpaceAfter=No|Translit=mln
+9	млн	млн	NUM	Y	Abbr=Yes|Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	7	nummod:gov	7:nummod:gov	Id=1uu9|LTranslit=mln|SpaceAfter=No|Translit=mln
 10	.	.	PUNCT	U	_	6	punct	6:punct	Id=1uua|LTranslit=.|Translit=.
 
 # doc_title = Депутатка Заліщук показала квартиру та розповіла, як живе на 12 тисяч
@@ -10851,8 +10851,8 @@
 6	3	3	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	9	nummod:gov	9:nummod:gov	Id=1uwc|LTranslit=3|SpaceAfter=No|Translit=3
 7	,	,	PUNCT	U	_	8	punct	8:punct	Id=2eo4|LTranslit=,|SpaceAfter=No|Translit=,
 8	5	5	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	6	compound	6:compound	Id=2eo5|LTranslit=5|Translit=5
-9	мільйона	мільйон	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card	5	obj	5:obj	Id=1uwd|LTranslit=miľjon|Translit=miľjona
-10	гривень	гривня	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	9:nmod	Id=1uwe|LTranslit=hryvńа|SpaceAfter=No|Translit=hryveń
+9	мільйона	мільйон	NUM	Mlc-g	Case=Gen|NumType=Card	10	nummod:gov	10:nummod:gov	Id=1uwd|LTranslit=miľjon|Translit=miľjona
+10	гривень	гривня	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obj	5:obj	Id=1uwe|LTranslit=hryvńа|SpaceAfter=No|Translit=hryveń
 11	.	.	PUNCT	U	_	5	punct	5:punct	Id=1uwf|LTranslit=.|Translit=.
 
 # newpar id = 1uwh
@@ -11200,8 +11200,8 @@
 3	рік	рік	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	4:obl	Id=1v50|LTranslit=rik|Translit=rik
 4	позичив	позичити	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=1v51|LTranslit=pozyčyty|Translit=pozyčyv
 5	308	308	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	6	nummod:gov	6:nummod:gov	Id=1v52|LTranslit=308|Translit=308
-6	мільярдів	мільярд	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card	4	obj	4:obj	Id=1v53|LTranslit=miľjard|Translit=miľjardiv
-7	гривень	гривня	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	6:nmod	Id=1v54|LTranslit=hryvńа|Translit=hryveń
+6	мільярдів	мільярд	NUM	Mlc-pg	Case=Gen|Number=Plur|NumType=Card	7	nummod:gov	7:nummod:gov	Id=1v53|LTranslit=miľjard|Translit=miľjardiv
+7	гривень	гривня	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obj	4:obj	Id=1v54|LTranslit=hryvńа|Translit=hryveń
 
 # newpar id = 1v56
 # sent_id = 1v57
@@ -11221,12 +11221,12 @@
 12	внутрішньої	внутрішній	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	14	amod	14:amod	Id=1v5j|LTranslit=vnutrišnij|Translit=vnutrišńoji
 13	державної	державний	ADJ	Ao-fsgf	Case=Gen|Gender=Fem|Number=Sing	14	amod	14:amod	Id=1v5k|LTranslit=deržavnyj|Translit=deržavnoji
 14	позики	позика	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	11:nmod	Id=1v5l|LTranslit=pozyka|Translit=pozyky
-15	на	на	ADP	Spsa	Case=Acc	19	case	19:case	Id=1v5m|LTranslit=na|Translit=na
+15	на	на	ADP	Spsa	Case=Acc	20	case	20:case	Id=1v5m|LTranslit=na|Translit=na
 16	129	129	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	19	nummod:gov	19:nummod:gov	Id=1v5n|LTranslit=129|SpaceAfter=No|Translit=129
 17	,	,	PUNCT	U	_	18	punct	18:punct	Id=2eo6|LTranslit=,|SpaceAfter=No|Translit=,
 18	2	2	NUM	Mlc-pa	Case=Acc|Number=Plur|NumType=Card|Uninflect=Yes	16	compound	16:compound	Id=2eo7|LTranslit=2|Translit=2
-19	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card|Uninflect=Yes	11	nmod	11:nmod	Id=1v5o|LTranslit=mlrd|Translit=mlrd
-20	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	19	nmod	19:nmod	Id=1v5p|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+19	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	20	nummod:gov	20:nummod:gov	Id=1v5o|LTranslit=mlrd|Translit=mlrd
+20	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	11	nmod	11:nmod	Id=1v5p|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 21	.	.	PUNCT	U	_	10	punct	10:punct	Id=1v5q|LTranslit=.|Translit=.
 
 # newpar id = 1v5s
@@ -11270,8 +11270,8 @@
 13	117	117	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	16	nummod:gov	16:nummod:gov	Id=1v89|LTranslit=117|SpaceAfter=No|Translit=117
 14	,	,	PUNCT	U	_	15	punct	15:punct	Id=2eoc|LTranslit=,|SpaceAfter=No|Translit=,
 15	2	2	NUM	Mlc-pa	Case=Acc|Number=Plur|NumType=Card|Uninflect=Yes	13	compound	13:compound	Id=2eod|LTranslit=2|Translit=2
-16	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|Uninflect=Yes	12	obj	12:obj	Id=1v8a|LTranslit=mlrd|Translit=mlrd
-17	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	16	nmod	16:nmod	Id=1v8b|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+16	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	17	nummod:gov	17:nummod:gov	Id=1v8a|LTranslit=mlrd|Translit=mlrd
+17	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	12	obj	12:obj	Id=1v8b|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 18	.	.	PUNCT	U	_	12	punct	12:punct	Id=1v8c|LTranslit=.|Translit=.
 
 # newpar id = 1v8e
@@ -11292,8 +11292,8 @@
 12	307	307	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	15	nummod:gov	15:nummod:gov	Id=1v8r|LTranslit=307|SpaceAfter=No|Translit=307
 13	,	,	PUNCT	U	_	14	punct	14:punct	Id=2eoe|LTranslit=,|SpaceAfter=No|Translit=,
 14	7	7	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	12	compound	12:compound	Id=2eof|LTranslit=7|Translit=7
-15	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card|Uninflect=Yes	11	flat:title	11:flat:title	Id=1v8s|LTranslit=mlrd|Translit=mlrd
-16	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	15	nmod	15:nmod	Id=1v8t|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+15	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	16	nummod:gov	16:nummod:gov	Id=1v8s|LTranslit=mlrd|Translit=mlrd
+16	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	11	flat:title	11:flat:title	Id=1v8t|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 17	,	,	PUNCT	U	_	21	punct	21:punct	Id=1v8u|LTranslit=,|Translit=,
 18	зокрема	зокрема	ADV	R	_	21	discourse	21:discourse	Id=1v8v|LTranslit=zokrema|Translit=zokrema
 19	зовнішні	зовнішній	ADJ	Ao--pns	Case=Nom|Number=Plur	20	amod	20:amod	Id=1v8w|LTranslit=zovnišnij|Translit=zovnišni
@@ -11302,17 +11302,17 @@
 22	61	61	NUM	Mlc-pa	Case=Acc|Number=Plur|NumType=Card|Uninflect=Yes	25	nummod:gov	25:nummod:gov	Id=1v8z|LTranslit=61|SpaceAfter=No|Translit=61
 23	,	,	PUNCT	U	_	24	punct	24:punct	Id=2eog|LTranslit=,|SpaceAfter=No|Translit=,
 24	3	3	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	22	compound	22:compound	Id=2eoh|LTranslit=3|Translit=3
-25	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card|Uninflect=Yes	21	obj	21:obj	Id=1v90|LTranslit=mlrd|Translit=mlrd
-26	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	25	nmod	25:nmod	Id=1v91|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+25	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	26	nummod:gov	26:nummod:gov	Id=1v90|LTranslit=mlrd|Translit=mlrd
+26	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	21	obj	21:obj	Id=1v91|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 27	,	,	PUNCT	U	_	28	punct	28.1:punct	Id=1v92|LTranslit=,|Translit=,
 28	внутрішні	внутрішній	ADJ	Ao--pns	Case=Nom|Number=Plur	21	parataxis	28.1:nsubj	Id=1v93|LTranslit=vnutrišnij|Translit=vnutrišni
 28.1	становили	становити	VERB	Vmpis-p	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	_	_	21:parataxis	Id=3cbs|LTranslit=stanovyty|Translit=stanovyly
-29	-	-	PUNCT	U	PunctType=Dash	33	punct	33:punct	Id=1v94|LTranslit=-|Translit=-
+29	-	-	PUNCT	U	PunctType=Dash	34	punct	34:punct	Id=1v94|LTranslit=-|Translit=-
 30	246	246	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	33	nummod:gov	33:nummod:gov	Id=1v95|LTranslit=246|SpaceAfter=No|Translit=246
 31	,	,	PUNCT	U	_	32	punct	32:punct	Id=2eoi|LTranslit=,|SpaceAfter=No|Translit=,
 32	4	4	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	30	compound	30:compound	Id=2eoj|LTranslit=4|Translit=4
-33	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card|Uninflect=Yes	28	orphan	28.1:obj	Id=1v96|LTranslit=mlrd|Translit=mlrd
-34	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	33	nmod	33:nmod	Id=1v97|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+33	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	34	nummod:gov	34:nummod:gov	Id=1v96|LTranslit=mlrd|Translit=mlrd
+34	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	28	orphan	28.1:obj	Id=1v97|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 35	.	.	PUNCT	U	_	6	punct	6:punct	Id=1v98|LTranslit=.|Translit=.
 
 # newpar id = 1v9a
@@ -11363,13 +11363,13 @@
 17	,	,	PUNCT	U	_	18	punct	18:punct	Id=2eom|LTranslit=,|SpaceAfter=No|Translit=,
 18	3	3	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	16	compound	16:compound	Id=2eon|LTranslit=3|SpaceAfter=No|Translit=3
 19	%	%	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Uninflect=Yes	14	obl	14:obl	Id=1vad|LTranslit=%|Translit=%
-20	-	-	PUNCT	U	PunctType=Dash	25	punct	25:punct	Id=1vae|LTranslit=-|Translit=-
-21	до	до	ADP	Spsg	Case=Gen	25	case	25:case	Id=1vaf|LTranslit=do|Translit=do
+20	-	-	PUNCT	U	PunctType=Dash	26	punct	26:punct	Id=1vae|LTranslit=-|Translit=-
+21	до	до	ADP	Spsg	Case=Gen	26	case	26:case	Id=1vaf|LTranslit=do|Translit=do
 22	616	616	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	25	nummod	25:nummod	Id=1vag|LTranslit=616|SpaceAfter=No|Translit=616
 23	,	,	PUNCT	U	_	24	punct	24:punct	Id=2eoo|LTranslit=,|SpaceAfter=No|Translit=,
 24	3	3	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	22	compound	22:compound	Id=2eop|LTranslit=3|Translit=3
-25	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card|Uninflect=Yes	19	appos	19:appos	Id=1vah|LTranslit=mlrd|Translit=mlrd
-26	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	25	nmod	25:nmod	Id=1vai|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+25	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	26	nummod	26:nummod	Id=1vah|LTranslit=mlrd|Translit=mlrd
+26	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	19	appos	19:appos	Id=1vai|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 27	,	,	PUNCT	U	_	28	punct	28.1:punct	Id=1vaj|LTranslit=,|Translit=,
 28	видатки	видаток	NOUN	Ncmpnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	conj	28.1:nsubj	Id=1vak|LTranslit=vydatok|Translit=vydatky
 28.1	зросли	зрости	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	_	_	2:ccomp|14:conj	Id=3cbt|LTranslit=zrosty|Translit=zrosly
@@ -11379,13 +11379,13 @@
 32	,	,	PUNCT	U	_	33	punct	33:punct	Id=2eoq|LTranslit=,|SpaceAfter=No|Translit=,
 33	7	7	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	31	compound	31:compound	Id=2eor|LTranslit=7|SpaceAfter=No|Translit=7
 34	%	%	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Uninflect=Yes	28	orphan	28.1:obl	Id=1vao|LTranslit=%|SpaceAfter=No|Translit=%
-35	,	,	PUNCT	U	_	40	punct	40:punct	Id=1vap|LTranslit=,|Translit=,
-36	до	до	ADP	Spsg	Case=Gen	40	case	40:case	Id=1vaq|LTranslit=do|Translit=do
+35	,	,	PUNCT	U	_	41	punct	41:punct	Id=1vap|LTranslit=,|Translit=,
+36	до	до	ADP	Spsg	Case=Gen	41	case	41:case	Id=1vaq|LTranslit=do|Translit=do
 37	684	684	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	40	nummod	40:nummod	Id=1var|LTranslit=684|SpaceAfter=No|Translit=684
 38	,	,	PUNCT	U	_	39	punct	39:punct	Id=2eos|LTranslit=,|SpaceAfter=No|Translit=,
 39	9	9	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	37	compound	37:compound	Id=2eot|LTranslit=9|Translit=9
-40	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card|Uninflect=Yes	34	appos	34:appos	Id=1vas|LTranslit=mlrd|Translit=mlrd
-41	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	40	nmod	40:nmod	Id=1vat|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+40	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	41	nummod	41:nummod	Id=1vas|LTranslit=mlrd|Translit=mlrd
+41	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	34	appos	34:appos	Id=1vat|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 42	.	.	PUNCT	U	_	2	punct	2:punct	Id=1vau|LTranslit=.|Translit=.
 
 # newpar id = 1vaw
@@ -11403,8 +11403,8 @@
 9	70	70	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	12	nummod:gov	12:nummod:gov	Id=1vb6|LTranslit=70|SpaceAfter=No|Translit=70
 10	,	,	PUNCT	U	_	11	punct	11:punct	Id=2eou|LTranslit=,|SpaceAfter=No|Translit=,
 11	3	3	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	9	compound	9:compound	Id=2eov|LTranslit=3|Translit=3
-12	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card|Uninflect=Yes	8	obj	8:obj	Id=1vb7|LTranslit=mlrd|Translit=mlrd
-13	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	12	nmod	12:nmod	Id=1vb8|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+12	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	13	nummod:gov	13:nummod:gov	Id=1vb7|LTranslit=mlrd|Translit=mlrd
+13	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	8	obj	8:obj	Id=1vb8|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 14	,	,	PUNCT	U	_	16	punct	16:punct	Id=1vb9|LTranslit=,|Translit=,
 15	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	16	nsubj	16:nsubj	Id=1vba|LTranslit=ščo|Translit=ščo
 16	нижче	нижче	ADV	Rc	Degree=Cmp	8	parataxis:rel	8:parataxis	Id=1vbb|LTranslit=nyžče|Translit=nyžče
@@ -11416,8 +11416,8 @@
 22	87	87	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	25	nummod	25:nummod	Id=1vbh|LTranslit=87|SpaceAfter=No|Translit=87
 23	,	,	PUNCT	U	_	24	punct	24:punct	Id=2eow|LTranslit=,|SpaceAfter=No|Translit=,
 24	2	2	NUM	Mlc-pg	Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	22	compound	22:compound	Id=2eox|LTranslit=2|Translit=2
-25	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card|Uninflect=Yes	21	nmod	21:nmod	Id=1vbi|LTranslit=mlrd|Translit=mlrd
-26	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	25	nmod	25:nmod	Id=1vbj|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+25	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	26	nummod:gov	26:nummod:gov	Id=1vbi|LTranslit=mlrd|Translit=mlrd
+26	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	21	nmod	21:nmod	Id=1vbj|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 27	.	.	PUNCT	U	_	8	punct	8:punct	Id=1vbk|LTranslit=.|Translit=.
 
 # sent_id = 1vbl
@@ -12695,25 +12695,25 @@
 33	,	,	PUNCT	U	_	28	punct	28:punct	Id=2ne7|LTranslit=,|Translit=,
 34	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	35:nsubj	Id=2ne8|LTranslit=vin|Translit=vin
 35	зріс	зрости	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	19	csubj	19:csubj	Id=2ne9|LTranslit=zrosty|Translit=zris
-36	із	із	ADP	Spsg	Case=Gen	41	case	41:case	Id=2nea|LTranslit=iz|Translit=iz
-37	€	€	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur|Uninflect=Yes	41	nmod	41:nmod	Id=2neb|LTranslit=€|SpaceAfter=No|Translit=€
+36	із	із	ADP	Spsg	Case=Gen	37	case	37:case	Id=2nea|LTranslit=iz|Translit=iz
+37	€	€	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur|Uninflect=Yes	35	obl	35:obl	Id=2neb|LTranslit=€|SpaceAfter=No|Translit=€
 38	7	7	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	41	nummod	41:nummod	Id=2nec|LTranslit=7|SpaceAfter=No|Translit=7
 39	,	,	PUNCT	U	_	40	punct	40:punct	Id=2ned|LTranslit=,|SpaceAfter=No|Translit=,
 40	92	92	NUM	Mlcmsg	Case=Gen|Gender=Masc|NumType=Card|Uninflect=Yes	38	compound	38:compound	Id=2nee|LTranslit=92|Translit=92
-41	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card|Uninflect=Yes	35	obl	35:obl	Id=2nef|LTranslit=mlrd|Translit=mlrd
-42	до	до	ADP	Spsg	Case=Gen	47	case	47:case	Id=2neg|LTranslit=do|Translit=do
-43	€	€	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur|Uninflect=Yes	47	nmod	47:nmod	Id=2neh|LTranslit=€|SpaceAfter=No|Translit=€
+41	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	37	nummod	37:nummod	Id=2nef|LTranslit=mlrd|Translit=mlrd
+42	до	до	ADP	Spsg	Case=Gen	43	case	43:case	Id=2neg|LTranslit=do|Translit=do
+43	€	€	NOUN	Ncnpgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur|Uninflect=Yes	37	flat:range	37:flat:range	Id=2neh|LTranslit=€|SpaceAfter=No|Translit=€
 44	8	8	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	47	nummod	47:nummod	Id=2nei|LTranslit=8|SpaceAfter=No|Translit=8
 45	,	,	PUNCT	U	_	46	punct	46:punct	Id=2nej|LTranslit=,|SpaceAfter=No|Translit=,
 46	72	72	NUM	Mlcmsg	Case=Gen|Gender=Masc|NumType=Card|Uninflect=Yes	44	compound	44:compound	Id=2nek|LTranslit=72|Translit=72
-47	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Card|Uninflect=Yes	41	flat:range	41:flat:range	Id=2nel|LTranslit=mlrd|SpaceAfter=No|Translit=mlrd
+47	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	43	nummod	43:nummod	Id=2nel|LTranslit=mlrd|SpaceAfter=No|Translit=mlrd
 48	,	,	PUNCT	U	_	54	punct	54:punct	Id=2nem|LTranslit=,|Translit=,
 49	тобто	тобто	SCONJ	Css	_	54	mark	54:mark	Id=2nen|LTranslit=tobto|Translit=tobto
 50	на	на	ADP	Spsa	Case=Acc	54	case	54:case	Id=2neo|LTranslit=na|Translit=na
 51	10	10	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	54	nummod:gov	54:nummod:gov	Id=2nep|LTranslit=10|SpaceAfter=No|Translit=10
 52	,	,	PUNCT	U	_	53	punct	53:punct	Id=2neq|LTranslit=,|SpaceAfter=No|Translit=,
 53	1	1	NUM	Mlcmsa	Case=Acc|Gender=Masc|NumType=Card|Uninflect=Yes	51	compound	51:compound	Id=2ner|LTranslit=1|SpaceAfter=No|Translit=1
-54	%	%	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Uninflect=Yes	41	appos	41:appos	Id=2nes|LTranslit=%|SpaceAfter=No|Translit=%
+54	%	%	NOUN	Ncmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Uninflect=Yes	37	appos	37:appos	Id=2nes|LTranslit=%|SpaceAfter=No|Translit=%
 55	.	.	PUNCT	U	_	19	punct	19:punct	Id=2net|LTranslit=.|Translit=.
 
 # sent_id = 2neu
@@ -14776,9 +14776,9 @@
 6	трохи	трохи	ADV	R	_	7	advmod	7:advmod	Id=2sde|LTranslit=trochy|Translit=trochy
 7	більше	більше	ADV	Rc	Degree=Cmp	9	advmod	9:advmod	Id=2sdf|LTranslit=biľše|Translit=biľše
 8	10	10	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	9	nummod	9:nummod	Id=2sdg|LTranslit=10|Translit=10
-9	тис	тис.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card|Uninflect=Yes	1	obj	1:obj	Id=2sdh|LTranslit=tys.|SpaceAfter=No|Translit=tys
+9	тис	тис.	NUM	Y	Abbr=Yes|Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	11	nummod:gov	11:nummod:gov	Id=2sdh|LTranslit=tys.|SpaceAfter=No|Translit=tys
 10	.	.	PUNCT	U	_	9	punct	9:punct	Id=2sdi|LTranslit=.|Translit=.
-11	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	9	nmod	9:nmod	Id=2sdj|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+11	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	1	obj	1:obj	Id=2sdj|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 12	.	.	PUNCT	U	_	11	punct	11:punct	Id=2sdk|LTranslit=.|Translit=.
 13	на	на	ADP	Spsa	Case=Acc	14	case	14:case	Id=2sdl|LTranslit=na|Translit=na
 14	рік	рік	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	1:obl	Id=2sdm|LTranslit=rik|SpaceAfter=No|Translit=rik
@@ -14795,9 +14795,9 @@
 25	віддаватиму	віддавати	VERB	Vmpif1s	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	1	conj	0:root|1:conj	Id=2sdv|LTranslit=viddavaty|Translit=viddavatymu
 26	десь	десь	ADV	Pi------r	PronType=Ind	28	advmod	28:advmod	Id=2sdw|LTranslit=deś|Translit=deś
 27	30	30	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	28	nummod:gov	28:nummod:gov	Id=2sdx|LTranslit=30|Translit=30
-28	тис	тис.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card|Uninflect=Yes	25	obj	25:obj	Id=2sdy|LTranslit=tys.|SpaceAfter=No|Translit=tys
+28	тис	тис.	NUM	Y	Abbr=Yes|Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	30	nummod:gov	30:nummod:gov	Id=2sdy|LTranslit=tys.|SpaceAfter=No|Translit=tys
 29	.	.	PUNCT	U	_	28	punct	28:punct	Id=2sdz|LTranslit=.|Translit=.
-30	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	28	nmod	28:nmod	Id=2se0|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+30	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	25	obj	25:obj	Id=2se0|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 31	.	.	PUNCT	U	_	25	punct	25:punct	Id=2se1|LTranslit=.|Translit=.
 
 # doc_title = СПЕЧЕНІ ОВОЧІ. ЯКИМ БУДЕ ВРОЖАЙ ТА ЦІНИ НА НЬОГО
@@ -14872,12 +14872,40 @@
 7	області	область	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	5:nmod	Id=2sfp|LTranslit=oblasť|Translit=oblasti
 8	потрібно	потрібно	ADV	Rp	Degree=Pos	0	root	0:root	Id=2sfq|LTranslit=potribno|Translit=potribno
 9	454	454	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	10	nummod:gov	10:nummod:gov	Id=2sfr|LTranslit=454|Translit=454
-10	тис	тис.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card|Uninflect=Yes	8	obj	8:obj	Id=2sfs|LTranslit=tys.|SpaceAfter=No|Translit=tys
+10	тис	тис.	NUM	Y	Abbr=Yes|Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	12	nummod:gov	12:nummod:gov	Id=2sfs|LTranslit=tys.|SpaceAfter=No|Translit=tys
 11	.	.	PUNCT	U	_	10	punct	10:punct	Id=2sft|LTranslit=.|Translit=.
-12	тонн	тонна	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	10:nmod	Id=2sfu|LTranslit=tonna|SpaceAfter=No|Translit=tonn
+12	тонн	тонна	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obj	8:obj	Id=2sfu|LTranslit=tonna|SpaceAfter=No|Translit=tonn
 13	.	.	PUNCT	U	_	8	punct	8:punct	Id=2sfv|LTranslit=.|Translit=.
 
-# annotation_gap
+# sent_id = 2sfw
+# text = Цього цілком достатньо, враховуючи, що по овочевих культурах виробництво складає понад 600 тис. тонн, що повністю забезпечує наші внутрішні потреби.
+# translit = Ćoho cilkom dostatńo, vrachovujučy, ščo po ovočevych kuľturach vyrobnyctvo skladaě ponad 600 tys. tonn, ščo povnisťu zabezpečuě naši vnutrišni potreby.
+1	Цього	це	PRON	Pd--nnsgn	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	obj	3:obj	Id=2sfx|LTranslit=ce|Translit=Ćoho
+2	цілком	цілком	ADV	R	_	3	advmod	3:advmod	Id=2sfy|LTranslit=cilkom|Translit=cilkom
+3	достатньо	достатньо	ADV	R	_	0	root	0:root	Id=2sfz|LTranslit=dostatńo|SpaceAfter=No|Translit=dostatńo
+4	,	,	PUNCT	U	_	5	punct	5:punct	Id=2sg0|LTranslit=,|Translit=,
+5	враховуючи	враховувати	VERB	Vmpgp	Aspect=Imp|Tense=Pres|VerbForm=Conv	3	advcl	3:advcl	Id=2sg1|LTranslit=vrachovuvaty|SpaceAfter=No|Translit=vrachovujučy
+6	,	,	PUNCT	U	_	12	punct	12:punct	Id=2sg2|LTranslit=,|Translit=,
+7	що	що	SCONJ	Css	_	12	mark	12:mark	Id=2sg3|LTranslit=ščo|Translit=ščo
+8	по	по	ADP	Spsl	Case=Loc	10	case	10:case	Id=2sg4|LTranslit=po|Translit=po
+9	овочевих	овочевий	ADJ	Ao--plf	Case=Loc|Number=Plur	10	amod	10:amod	Id=2sg5|LTranslit=ovočevyj|Translit=ovočevych
+10	культурах	культура	NOUN	Ncfpln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	12:obl	Id=2sg6|LTranslit=kuľtura|Translit=kuľturach
+11	виробництво	виробництво	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	12:nsubj	Id=2sg7|LTranslit=vyrobnyctvo|Translit=vyrobnyctvo
+12	складає	складати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	Id=2sg8|LTranslit=skladaty|Translit=skladaě
+13	понад	понад	ADP	Spsa	Case=Acc	15	case	15:case	Id=2sg9|LTranslit=ponad|Translit=ponad
+14	600	600	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	15	nummod:gov	15:nummod:gov	Id=2sga|LTranslit=600|Translit=600
+15	тис	тис.	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	17	nummod:gov	17:nummod:gov	Id=2sgb|LTranslit=tys.|SpaceAfter=No|Translit=tys
+16	.	.	PUNCT	U	_	15	punct	15:punct	Id=2sgc|LTranslit=.|Translit=.
+17	тонн	тонна	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	obj	12:obj	Id=2sgd|LTranslit=tonna|SpaceAfter=No|Translit=tonn
+18	,	,	PUNCT	U	_	21	punct	21:punct	Id=2sge|LTranslit=,|Translit=,
+19	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	21	nsubj	21:nsubj	Id=2sgf|LTranslit=ščo|Translit=ščo
+20	повністю	повністю	ADV	R	_	21	advmod	21:advmod	Id=2sgg|LTranslit=povnisťu|Translit=povnisťu
+21	забезпечує	забезпечувати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis:rel	12:parataxis	Id=2sgh|LTranslit=zabezpečuvaty|Translit=zabezpečuě
+22	наші	наш	DET	Pps1-npaa	Animacy=Inan|Case=Acc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	24	det	24:det	Id=2sgi|LTranslit=naš|Translit=naši
+23	внутрішні	внутрішній	ADJ	Ao--pasn	Animacy=Inan|Case=Acc|Number=Plur	24	amod	24:amod	Id=2sgj|LTranslit=vnutrišnij|Translit=vnutrišni
+24	потреби	потреба	NOUN	Ncfpan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	obj	21:obj	Id=2sgk|LTranslit=potreba|SpaceAfter=No|Translit=potreby
+25	.	.	PUNCT	U	_	3	punct	3:punct	Id=2sgl|LTranslit=.|Translit=.
+
 # newpar id = 2sgn
 # sent_id = 2sgm
 # text = До речі, овочів закритого ґрунту у 2016-му виробили 71,3 тис. тонн, що на 29,6 % більше проти 2015-го.
@@ -14894,9 +14922,9 @@
 10	71	71	NUM	Mlc-pa	Case=Acc|Number=Plur|NumType=Card|Uninflect=Yes	13	nummod:gov	13:nummod:gov	Id=2sgx|LTranslit=71|SpaceAfter=No|Translit=71
 11	,	,	PUNCT	U	_	12	punct	12:punct	Id=30lq|LTranslit=,|SpaceAfter=No|Translit=,
 12	3	3	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	10	compound	10:compound	Id=30lr|LTranslit=3|Translit=3
-13	тис	тис.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|NumType=Card|Uninflect=Yes	9	obj	9:obj	Id=2sgy|LTranslit=tys.|SpaceAfter=No|Translit=tys
+13	тис	тис.	NUM	Y	Abbr=Yes|Case=Gen|NumType=Card|Uninflect=Yes	15	nummod:gov	15:nummod:gov	Id=2sgy|LTranslit=tys.|SpaceAfter=No|Translit=tys
 14	.	.	PUNCT	U	_	13	punct	13:punct	Id=2sgz|LTranslit=.|Translit=.
-15	тонн	тонна	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	13:nmod	Id=2sh0|LTranslit=tonna|SpaceAfter=No|Translit=tonn
+15	тонн	тонна	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obj	9:obj	Id=2sh0|LTranslit=tonna|SpaceAfter=No|Translit=tonn
 16	,	,	PUNCT	U	_	23	punct	23:punct	Id=2sh1|LTranslit=,|Translit=,
 17	що	що	PRON	Pr--nnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	23	nsubj	23:nsubj	Id=2sh2|LTranslit=ščo|Translit=ščo
 18	на	на	ADP	Spsa	Case=Acc	22	case	22:case	Id=2sh3|LTranslit=na|Translit=na
@@ -16913,14 +16941,14 @@
 12	Дроздов	Дроздов	PROPN	Npmsny	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	11	flat:name	11:flat:name	Id=34i8|LTranslit=Drozdov|Translit=Drozdov
 13	називає	називати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	1:parataxis	Id=34i9|LTranslit=nazyvaty|Translit=nazyvaě
 14	цифру	цифра	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	13:obj	Id=34ia|LTranslit=cyfra|Translit=cyfru
-15	«	«	PUNCT	U	PunctType=Quot	19	punct	19:punct	Id=34ib|LTranslit=«|SpaceAfter=No|Translit=«
+15	«	«	PUNCT	U	PunctType=Quot	21	punct	21:punct	Id=34ib|LTranslit=«|SpaceAfter=No|Translit=«
 16	5	5	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	19	nummod:gov	19:nummod:gov	Id=34ic|LTranslit=5|SpaceAfter=No|Translit=5
 17	-	-	PUNCT	U	PunctType=Dash	18	punct	18:punct	Id=34id|LTranslit=-|SpaceAfter=No|Translit=-
 18	7	7	NUM	Mlc-n	Case=Nom|NumType=Card|Uninflect=Yes	16	flat:range	16:flat:range	Id=34ie|LTranslit=7|Translit=7
-19	млн	млн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|Uninflect=Yes	14	flat:title	14:flat:title	Id=34if|LTranslit=mln|Translit=mln
+19	млн	млн	NUM	Y	Abbr=Yes|Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	21	nummod:gov	21:nummod:gov	Id=34if|LTranslit=mln|Translit=mln
 20	американських	американський	ADJ	Ao--pgf	Case=Gen|Number=Plur	21	amod	21:amod	Id=34ig|LTranslit=amerykanśkyj|Translit=amerykanśkych
-21	доларів	долар	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	19:nmod	Id=34ih|LTranslit=dolar|SpaceAfter=No|Translit=dolariv
-22	»	»	PUNCT	U	PunctType=Quot	19	punct	19:punct	Id=34ii|LTranslit=»|SpaceAfter=No|Translit=»
+21	доларів	долар	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	flat:title	14:flat:title	Id=34ih|LTranslit=dolar|SpaceAfter=No|Translit=dolariv
+22	»	»	PUNCT	U	PunctType=Quot	21	punct	21:punct	Id=34ii|LTranslit=»|SpaceAfter=No|Translit=»
 23	,	,	PUNCT	U	_	35	punct	35:punct	Id=34ij|LTranslit=,|Translit=,
 24	видання	видання	NOUN	Ncnsnn	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	35	nsubj	31:nsubj|35:nsubj	Id=34ik|LTranslit=vydanńа|Translit=vydanńа
 25	DT.UA	DT.UA	X	X	Foreign=Yes	24	flat:title	24:flat:title	Id=34il|LTranslit=DT.UA|SpaceAfter=No|Translit=DT.UA
@@ -16946,10 +16974,10 @@
 45	виділили	виділити	VERB	Vmeis-p	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	35	ccomp	35:ccomp	Id=34j7|LTranslit=vydilyty|Translit=vydilyly
 46	на	на	ADP	Spsa	Case=Acc	47	case	47:case	Id=34j8|LTranslit=na|Translit=na
 47	будову	будова	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	obl	45:obl	Id=34j9|LTranslit=budova|Translit=budovu
-48	понад	понад	ADP	Spsa	Case=Acc	49	case	49:case	Id=34ja|LTranslit=ponad|Translit=ponad
+48	понад	понад	ADP	Spsa	Case=Acc	50	case	50:case	Id=34ja|LTranslit=ponad|Translit=ponad
 49	30	30	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	50	nummod:gov	50:nummod:gov	Id=34jb|LTranslit=30|Translit=30
-50	млн	млн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|Uninflect=Yes	45	obj	45:obj	Id=34jc|LTranslit=mln|Translit=mln
-51	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	50	nmod	50:nmod	Id=34jd|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+50	млн	млн	NUM	Y	Abbr=Yes|Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	51	nummod:gov	51:nummod:gov	Id=34jc|LTranslit=mln|Translit=mln
+51	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	45	obj	45:obj	Id=34jd|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 52	»	»	PUNCT	U	PunctType=Quot	45	punct	45:punct	Id=34je|LTranslit=»|SpaceAfter=No|Translit=»
 53	.	.	PUNCT	U	_	35	punct	35:punct	Id=34jf|LTranslit=.|Translit=.
 
@@ -17026,8 +17054,8 @@
 10	проект	проект	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	7:nmod	Id=34l3|LTranslit=proekt|Translit=proekt
 11	становитиме	становити	VERB	Vmpif3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	flat:title	4:flat:title	Graft=Yes|Id=34l4|LTranslit=stanovyty|Translit=stanovytyme
 12	165	165	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	13	nummod:gov	13:nummod:gov	Id=34l5|LTranslit=165|Translit=165
-13	млн	млн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|Uninflect=Yes	11	obj	11:obj	Id=34l6|LTranslit=mln|Translit=mln
-14	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	13	nmod	13:nmod	Id=34l7|LTranslit=hrn|SpaceAfter=No|Translit=hrn
+13	млн	млн	NUM	Y	Abbr=Yes|Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	14	nummod:gov	14:nummod:gov	Id=34l6|LTranslit=mln|Translit=mln
+14	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	11	obj	11:obj	Id=34l7|LTranslit=hrn|SpaceAfter=No|Translit=hrn
 15	.	.	PUNCT	U	_	3	punct	3:punct	Id=34l8|LTranslit=.|Translit=.
 
 # doc_title = Ювілейний ГОГОЛЬfest 2017
@@ -19924,8 +19952,8 @@
 4	приблизно	приблизно	ADV	Rp	Degree=Pos	5	advmod	5:advmod	Id=36nh|LTranslit=pryblyzno|Translit=pryblyzno
 5	складала	складати	VERB	Vmpis-sf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=36ni|LTranslit=skladaty|Translit=skladala
 6	1	1	NUM	Mlcmsa	Case=Acc|Gender=Masc|NumType=Card|Uninflect=Yes	7	nummod	7:nummod	Id=36nj|LTranslit=1|Translit=1
-7	мільйон	мільйон	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Card	5	obj	5:obj	Id=36nk|LTranslit=miľjon|Translit=miľjon
-8	доларів	долар	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	7:nmod	Id=36nl|LTranslit=dolar|SpaceAfter=No|Translit=dolariv
+7	мільйон	мільйон	NUM	Mlc-a	Case=Acc|NumType=Card	8	nummod:gov	8:nummod:gov	Id=36nk|LTranslit=miľjon|Translit=miľjon
+8	доларів	долар	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obj	5:obj	Id=36nl|LTranslit=dolar|SpaceAfter=No|Translit=dolariv
 9	.	.	PUNCT	U	_	5	punct	5:punct	Id=36nm|LTranslit=.|Translit=.
 
 # sent_id = 36nn
@@ -20070,8 +20098,8 @@
 1	Набравши	набрати	VERB	Vmegs	Aspect=Perf|Tense=Past|VerbForm=Conv	8	advcl	8:advcl	Id=36qv|LTranslit=nabraty|Translit=Nabravšy
 2	висоту	висота	NOUN	Ncfsan	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	1:obj	Id=36qw|LTranslit=vysota|Translit=vysotu
 3	22	22	NUM	Mlcfsn	Case=Nom|Gender=Fem|NumType=Card|Uninflect=Yes	4	nummod	4:nummod	Id=36qx|LTranslit=22|Translit=22
-4	тисячі	тисяча	NOUN	Ncfpnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur|NumType=Card	2	flat:title	2:flat:title	Id=36qy|LTranslit=tyśаča|Translit=tyśаči
-5	метрів	метр	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	4:nmod	Id=36qz|LTranslit=metr|SpaceAfter=No|Translit=metriv
+4	тисячі	тисяча	NUM	Mlc-pn	Case=Nom|Number=Plur|NumType=Card	5	nummod:gov	5:nummod:gov	Id=36qy|LTranslit=tyśаča|Translit=tyśаči
+5	метрів	метр	NOUN	Ncmpgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	flat:title	2:flat:title	Id=36qz|LTranslit=metr|SpaceAfter=No|Translit=metriv
 6	,	,	PUNCT	U	_	1	punct	1:punct	Id=36r0|LTranslit=,|Translit=,
 7	він	він	PRON	Pp-3m-snn	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj|9:nsubj:xsubj	Id=36r1|LTranslit=vin|Translit=vin
 8	почав	почати	VERB	Vmeis-sm	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	0:root	Id=36r2|LTranslit=počaty|Translit=počav
@@ -20992,14 +21020,14 @@
 2	Держава	держава	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	Id=37ed|LTranslit=deržava|Translit=Deržava
 3	витрачає	витрачати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=37ee|LTranslit=vytračaty|Translit=vytračaě
 4	7	7	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	5	nummod:gov	5:nummod:gov	Id=37ef|LTranslit=7|Translit=7
-5	млрд	млрд	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumType=Card|Uninflect=Yes	3	obj	3:obj	Id=37eg|LTranslit=mlrd|Translit=mlrd
-6	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	5	nmod	5:nmod	Id=37eh|LTranslit=hrn|Translit=hrn
+5	млрд	млрд	NUM	Y	Abbr=Yes|Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	6	nummod:gov	6:nummod:gov	Id=37eg|LTranslit=mlrd|Translit=mlrd
+6	грн	грн	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|Uninflect=Yes	3	obj	3:obj	Id=37eh|LTranslit=hrn|Translit=hrn
 7	у	у	ADP	Spsa	Case=Acc	8	case	8:case	Id=37ei|LTranslit=u|Translit=u
 8	рік	рік	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	3:obl	Id=37ej|LTranslit=rik|Translit=rik
-9	на	на	ADP	Spsa	Case=Acc	11	case	11:case	Id=37ek|LTranslit=na|Translit=na
+9	на	на	ADP	Spsa	Case=Acc	12	case	12:case	Id=37ek|LTranslit=na|Translit=na
 10	106	106	NUM	Mlc-a	Case=Acc|NumType=Card|Uninflect=Yes	11	nummod:gov	11:nummod:gov	Id=37el|LTranslit=106|Translit=106
-11	тисяч	тисяча	NOUN	Ncfpgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card	3	obl	3:obl	Id=37em|LTranslit=tyśаča|Translit=tyśаč
-12	дітей	дитина	NOUN	Ncfpgy	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	11	nmod	11:nmod|20:obj	Id=37en|LTranslit=dytyna|SpaceAfter=No|Translit=ditej
+11	тисяч	тисяча	NUM	Mlc-pg	Case=Gen|Number=Plur|NumType=Card	12	nummod:gov	12:nummod:gov	Id=37em|LTranslit=tyśаča|Translit=tyśаč
+12	дітей	дитина	NOUN	Ncfpgy	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	3	obl	3:obl|20:obj	Id=37en|LTranslit=dytyna|SpaceAfter=No|Translit=ditej
 13	,	,	PUNCT	U	_	14	punct	14:punct	Id=37eo|LTranslit=,|Translit=,
 14	ізольованих	ізольований	ADJ	Ap--pgf-ep	Aspect=Perf|Case=Gen|Number=Plur|VerbForm=Part|Voice=Pass	12	amod	12:amod	Id=37ep|LTranslit=izoľovanyj|Translit=izoľovanych
 15	у	у	ADP	Spsl	Case=Loc	17	case	17:case	Id=37eq|LTranslit=u|Translit=u
@@ -21363,12 +21391,12 @@
 12	Вельсу	Вельс	PROPN	Npmsgn	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	11:nmod	Id=37oj|LTranslit=Veľs|Translit=Veľsu
 13	Кардіффі	Кардіфф	PROPN	Npmsln	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	flat:title	11:flat:title	Id=37ok|LTranslit=Kardiff|Translit=Kardiffi
 14	відвідають	відвідати	VERB	Vmeif3p	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	1	ccomp	1:ccomp	Id=37ol|LTranslit=vidvidaty|Translit=vidvidajuť
-15	до	до	ADP	Spsg	Case=Gen	16	case	16:case	Id=37om|LTranslit=do|Translit=do
+15	до	до	ADP	Spsg	Case=Gen	17	case	17:case	Id=37om|LTranslit=do|Translit=do
 16	170	170	NUM	Mlc-g	Case=Gen|NumType=Card|Uninflect=Yes	17	nummod	17:nummod	Id=37on|LTranslit=170|Translit=170
-17	тис	тис.	NOUN	Y	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur|NumType=Card|Uninflect=Yes	14	nsubj	14:nsubj	Id=37oo|LTranslit=tys.|SpaceAfter=No|Translit=tys
+17	тис	тис.	NUM	Y	Abbr=Yes|Case=Gen|Number=Plur|NumType=Card|Uninflect=Yes	20	nummod:gov	20:nummod:gov	Id=37oo|LTranslit=tys.|SpaceAfter=No|Translit=tys
 18	.	.	PUNCT	U	_	17	punct	17:punct	Id=37op|LTranslit=.|Translit=.
 19	іноземних	іноземний	ADJ	Ao--pgf	Case=Gen|Number=Plur	20	amod	20:amod	Id=37oq|LTranslit=inozemnyj|Translit=inozemnych
-20	вболівальників	вболівальник	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	17:nmod	Id=37or|LTranslit=vbolivaľnyk|SpaceAfter=No|Translit=vbolivaľnykiv
+20	вболівальників	вболівальник	NOUN	Ncmpgy	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nsubj	14:nsubj	Id=37or|LTranslit=vbolivaľnyk|SpaceAfter=No|Translit=vbolivaľnykiv
 21	.	.	PUNCT	U	_	1	punct	1:punct	Id=37os|LTranslit=.|Translit=.
 
 # sent_id = 37ot

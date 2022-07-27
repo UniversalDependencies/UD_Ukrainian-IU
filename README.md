@@ -108,10 +108,11 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
 ### Changelog
 
 * 2022-11-15 **v2.9** (upcoming)
+  * Reanalyze large numerals like thousand, million, and above. See the [discussion](https://github.com/UniversalDependencies/docs/issues/198).
   * Brought back `Hyph` and `Bull` `PunctType`s.
   * Renamed `:sp` relation subtypes to `:pred`.
-  * Fixed several errors.
-  * Added new sentenses.
+  * Fixed errors.
+  * Added sentenses.
 
 * 2021-05-15 **v2.8**
   * Undocumented `PunctType` `Ndash`, `Hyph`, `Bull` converted to `Dash`.
