@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Ukrainian-IU:
-commit b4f888da8fef86b4272689b38251324c103997c6
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 17:08:19 2021 +0100
-Size: counted 122091 of 122091 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.60953333665246.
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Ukrainian-IU:
+commit 7787daed9d57ad0a7266fbd54ff14b1621c81055
+Merge: c6db89b dd951f6
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Size: counted 122750 of 122750 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.62029953334926.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,122 +15,30 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 90608 out of 122091 total words have one or more features.
+Features: 91082 out of 122750 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         82
-Udapi: found 82 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 122091 words.
+               TOTAL         54
+Udapi: found 54 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 122750 words.
 Genres: found 10 out of 17 known.
 validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-dev.conllu
-[Line 9 Sent 02to]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:rel' in '5:nsubj:rel'
-
-The following 62 enhanced relations are currently permitted in language [uk]:
-acl, acl:adv, acl:relcl, advcl, advcl:sp, advcl:svc, advmod, advmod:det, amod, appos, aux, case, cc, ccomp, clf, compound, compound:svc, conj, conj:svc, cop, csubj, csubj:xsubj, dep, det, det:numgov, det:nummod, discourse, dislocated, expl, fixed, flat, flat:abs, flat:foreign, flat:name, flat:range, flat:repeat, flat:sibl, flat:title, goeswith, iobj, list, mark, nmod, nsubj, nsubj:xsubj, nummod, nummod:gov, obj, obl, orphan, parataxis, parataxis:discourse, parataxis:newsent, parataxis:rel, punct, ref, reparandum, root, vocative, vocative:cl, xcomp, xcomp:sp
-See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_edeprel.pl for details.
-
-[Line 101 Sent 02vp]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obj:rel' in '12:obj:rel'
-[Line 175 Sent 0oiy]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '7:nsubj:x'
-[Line 384 Sent 0oon]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '12:nsubj:sp'
-[Line 461 Sent 0oqu]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl:rel' in '10:obl:rel'
-[Line 498 Sent 0or9]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obj:rel' in '29:obj:rel'
-[Line 528 Sent 0ose]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:rel' in '18:nsubj:rel'
-[Line 662 Sent 0ovx]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '10:nsubj:sp'
-[Line 816 Sent 0p1h]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obj:rel' in '4:obj:rel'
-...suppressing further errors regarding Enhanced
-[Line 10977 Sent 28vn Node 30]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
-[Line 10978 Sent 28vn Node 31]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
-[Line 10978 Sent 28vn Node 31]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
-[Line 10978 Sent 28vn Node 31]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
-[Line 12549 Sent 2o79 Node 12]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (12:наче:mark --> 13:б:discourse)
-[Line 12962 Sent 2ohm Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:як:mark --> 15:от:discourse)
-[Line 13440 Sent 2gy9 Node 26]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (26:як:mark --> 28:от:discourse)
-Enhanced errors: 316
-Morpho errors: 4
-Syntax errors: 3
-*** FAILED *** with 323 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-test.conllu
-[Line 51 Sent 01s7]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl:rel' in '14:obl:rel'
-
-The following 62 enhanced relations are currently permitted in language [uk]:
-acl, acl:adv, acl:relcl, advcl, advcl:sp, advcl:svc, advmod, advmod:det, amod, appos, aux, case, cc, ccomp, clf, compound, compound:svc, conj, conj:svc, cop, csubj, csubj:xsubj, dep, det, det:numgov, det:nummod, discourse, dislocated, expl, fixed, flat, flat:abs, flat:foreign, flat:name, flat:range, flat:repeat, flat:sibl, flat:title, goeswith, iobj, list, mark, nmod, nsubj, nsubj:xsubj, nummod, nummod:gov, obj, obl, orphan, parataxis, parataxis:discourse, parataxis:newsent, parataxis:rel, punct, ref, reparandum, root, vocative, vocative:cl, xcomp, xcomp:sp
-See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_edeprel.pl for details.
-
-[Line 76 Sent 38va]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '13:nsubj:sp'
-[Line 216 Sent 01wz]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '2:nsubj:sp'
-[Line 222 Sent 01wz]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl:rel' in '29:obl:rel'
-[Line 315 Sent 01z1]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:rel' in '36:nsubj:rel'
-[Line 334 Sent 01z1 Node 51]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (51:a:mark --> 52:la:flat)
-[Line 530 Sent 023b]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '88:nsubj:x'
-[Line 567 Sent 026h]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '7:nsubj:x'
-[Line 616 Sent 027o]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'obl:rel' in '7:obl:rel'
-[Line 662 Sent 08h3]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '3:nsubj:x'
-...suppressing further errors regarding Enhanced
-[Line 1318 Sent 180v Node 11]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (11:як:mark --> 12:от:discourse)
-[Line 1945 Sent 18g6 Node 21]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
-[Line 1946 Sent 18g6 Node 22]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
-[Line 1946 Sent 18g6 Node 22]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
-[Line 1946 Sent 18g6 Node 22]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
-[Line 2510 Sent 18x1 Node 16]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (16:хоч:mark --> 17:би:discourse)
-[Line 2731 Sent 193i Node 1]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (1:Коли:mark --> 2:ж:discourse)
-[Line 9150 Sent 1mkd Node 16]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
-[Line 9151 Sent 1mkd Node 17]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
-[Line 9151 Sent 1mkd Node 17]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
-[Line 18093 Sent 35gv Node 7]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (7:коли:mark --> 8:б:discourse)
-Enhanced errors: 277
-Morpho errors: 7
-Syntax errors: 5
-*** FAILED *** with 289 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-train.conllu
-[Line 95 Sent 001z]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '11:nsubj:sp'
-
-The following 62 enhanced relations are currently permitted in language [uk]:
-acl, acl:adv, acl:relcl, advcl, advcl:sp, advcl:svc, advmod, advmod:det, amod, appos, aux, case, cc, ccomp, clf, compound, compound:svc, conj, conj:svc, cop, csubj, csubj:xsubj, dep, det, det:numgov, det:nummod, discourse, dislocated, expl, fixed, flat, flat:abs, flat:foreign, flat:name, flat:range, flat:repeat, flat:sibl, flat:title, goeswith, iobj, list, mark, nmod, nsubj, nsubj:xsubj, nummod, nummod:gov, obj, obl, orphan, parataxis, parataxis:discourse, parataxis:newsent, parataxis:rel, punct, ref, reparandum, root, vocative, vocative:cl, xcomp, xcomp:sp
-See https://quest.ms.mff.cuni.cz/udvalidator/cgi-bin/unidep/langspec/specify_edeprel.pl for details.
-
-[Line 107 Sent 001z]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '24:nsubj:x'
-[Line 137 Sent 0038]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '5:nsubj:sp'
-[Line 152 Sent 003l]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:rel' in '5:nsubj:rel'
-[Line 171 Sent 003l]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '23:nsubj:x'
-[Line 266 Sent 0069]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:x' in '13:nsubj:x'
-[Line 266 Sent 0069]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '15:nsubj:sp'
-[Line 314 Sent 007k]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '7:nsubj:sp'
-[Line 388 Sent 008c]: [L4 Enhanced unknown-edeprel] Unknown enhanced relation type 'nsubj:sp' in '55:nsubj:sp'
-...suppressing further errors regarding Enhanced
-[Line 1028 Sent 00pt Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:як:mark --> 15:от:discourse)
-[Line 1443 Sent 010f Node 1]: [L3 Syntax leaf-cc] 'cc' not expected to have children (1:Тільки:cc --> 2:от:discourse)
-[Line 2263 Sent 01kw Node 13]: [L3 Syntax leaf-cc] 'cc' not expected to have children (13:але:cc --> 14:ж:discourse)
-[Line 2567 Sent 029g Node 17]: [L3 Syntax leaf-cc] 'cc' not expected to have children (17:та:cc --> 18:й:discourse)
-[Line 8079 Sent 3165 Node 9]: [L3 Syntax leaf-cc] 'cc' not expected to have children (9:але:cc --> 10:ж:discourse)
-[Line 12719 Sent 09hb Node 13]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (13:хіба:mark --> 14:що:discourse)
-[Line 12793 Sent 09jc Node 6]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (6:хоча:mark --> 7:і:discourse)
-[Line 23946 Sent 0h7q Node 7]: [L3 Syntax leaf-cc] 'cc' not expected to have children (7:та:cc --> 8:й:discourse)
-[Line 26826 Sent 2u7d Node 9]: [L3 Syntax leaf-mark-case] 'mark' not expected to have children (9:як:mark --> 11:от:discourse)
-...suppressing further errors regarding Syntax
-[Line 81126 Sent 1oy2 Node 47]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
-[Line 81127 Sent 1oy2 Node 48]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
-[Line 103135 Sent 2a2i Node 12]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
-[Line 103136 Sent 2a2i Node 13]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
-[Line 103136 Sent 2a2i Node 13]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
-[Line 103136 Sent 2a2i Node 13]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
-Enhanced errors: 1803
-Morpho errors: 6
-Syntax errors: 39
-*** FAILED *** with 1848 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.588235294117647) = 0.0452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.695561216962251) = 0.178349029990321
+(weight=0.256410256410256) * (score{size}=0.696340500265002) = 0.178548846221795
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.993283698225094) = 0.305625753300029
+(weight=0.307692307692308) * (score{udapi}=0.995600814663951) = 0.306338712204293
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.884040006884985) * (availability=1) * (validity=0.01) = 0.00884040006884985
-STARS = 0
-UD_Ukrainian-IU	0.00884040006884985	0
+(TOTAL score=0.884952782020723) * (availability=1) * (validity=1) = 0.884952782020723
+STARS = 4.5
+UD_Ukrainian-IU	0.884952782020723	4.5
