@@ -1,7 +1,6 @@
 # Summary
 
-Gold standard Universal Dependencies corpus for Ukrainian, developed for UD originally, by [Institute for Ukrainian](https://mova.institute), NGO.  
-[[українською](https://mova.institute/золотий_стандарт)]
+Gold standard Universal Dependencies corpus for Ukrainian, developed for UD originally, by [Institute for Ukrainian](https://mova.institute), NGO.   [[українською](https://mova.institute/золотий_стандарт)]
 
 
 # Introduction
@@ -61,18 +60,20 @@ Data is split between train/dev/test linearly by hand at 75%/10%/15% to balance 
 
 UD Ukrainian data conforms to [CoNLL-U](http://universaldependencies.org/format.html) format with the following specifics:
 * Sentence-level comments:
-  * Document boundaries are present as `# newdoc id = xxxx`.
-  * Sentence-level paragraph boundaries are present as `# newpar id = xxxx`.
-  * Document titles are present as `# doc_title = Назва`.
-  * Czech-like translit is present as `# translit = …`.
+  * Document boundaries as `# newdoc id = ...`.
+  * Sentence-level paragraph boundaries as `# newpar id = ...`.
+  * Document titles as `# doc_title = ...`.
+  * Document authors as `# author = ...`.
+  * Document sources as `# source = ...`.
+  * Czech-like translit is present as `# translit = ...`.
   * Gaps in the text are marked on the sentences following the gap as:
     * `# annotation_gap` for sentences not exported to CoNLL-U because annotator was unable to parse it with confidence (e.g. new guidelines need to be created);
     * `# gap` for intentional gaps in texts (selected fragments).
 * XPOSTAG column contains [MTE](http://nl.ijs.si/ME/V4/msd/html/msd-uk.html) tag with `U` for punctuation. UPOS+FEATS contain all the information in XPOSTAG and more. XPOSTAG is intended for legacy applications.
 * DEPS column contains [Enhanced Dependencies](#enhanced-dependencies).
 * MISC column:
-  * Token-level paragraph boundaries are present as `NewPar=Yes`.
-  * Token ids are present as `Id=xxxx`.
+  * Token-level paragraph boundaries as `NewPar=Yes`.
+  * Token ids as `Id=xxxx`.
   * `SpaceAfter=No` markers are present.
   * Form (`Translit`) and lemma (`LTranslit`) transliterations are present
   * The pipe (`|`) character is escaped with `\p`. Backslash is `\\`. See [issue #569](https://github.com/UniversalDependencies/docs/issues/569).
@@ -81,10 +82,11 @@ UD Ukrainian data conforms to [CoNLL-U](http://universaldependencies.org/format.
 
 ### [Enhanced Dependencies](http://universaldependencies.org/u/overview/enhanced-syntax.html)
 
-1. **Ellipsis.** Elided predicates are manually reconstructed with word forms and full morphological info. The TB currently contains ~200 of them.
-1. **Propagation of conjuncts.** Conjoined modifiers are propagated automatically. For heterogeneous conjuncts, a relation guesser is employed. Dependents of first conjuncts are propagated only if they are manually marked as shared (40% of such annotation is done).
-1. **Controlled/raised subjects.** All `xcomp` subjects are annotated manually as [`nsubj:x`](http://universaldependencies.org/uk/dep/nsubj-x.html)/[`csubj:x`](http://universaldependencies.org/uk/dep/csubj-x.html). Subjects of [`xcomp:sp`](http://universaldependencies.org/uk/dep/xcomp-sp.html) (secondary predication) are [`nsubj:sp`](http://universaldependencies.org/uk/dep/nsubj-sp.html)/[`csubj:sp`](http://universaldependencies.org/uk/dep/csubj-sp.html). The latter are also used for the subjects of [`advcl:sp`](http://universaldependencies.org/uk/dep/advcl-sp.html) (see [#476](https://github.com/UniversalDependencies/docs/issues/476)).
-1. **Relative clauses.** All relative clauses are manually annotated with enhanced dependencies. This includes all types mentioned in the [universal docs](http://universaldependencies.org/u/overview/enhanced-syntax.html#relative-clauses) plus Ukrainian clauses that use personal pronouns as relativizers: _вузол, що його не переріжеш_ “the-knot, that it.Acc not you-can-cut”.
+1. **Empty (null) nodes for elided predicates.** Elided predicates are manually reconstructed with word forms and full morphological info. _Coverage: only ~200 instances done._
+1. **Propagation of incoming dependencies to conjuncts.** Propagated automatically. For heterogeneous conjuncts, a relation guesser is employed. _Coverage: full._
+1. **Propagation of outgoing dependencies from conjuncts.**  Dependents of first conjuncts are propagated only if they are manually marked as shared. _Coverage: ~75% of the sentences._
+1. **Additional subject relations for control and raising constructions.** All `xcomp` subjects are annotated manually as [`nsubj:xsubj`](http://universaldependencies.org/uk/dep/nsubj-x.html)/[`csubj:x`](http://universaldependencies.org/uk/dep/csubj-x.html). Subjects of [`xcomp:pred`](http://universaldependencies.org/uk/dep/xcomp-pred.html) (secondary predication) are [`nsubj:pred`](http://universaldependencies.org/uk/dep/nsubj-pred.html)/[`csubj:pred`](http://universaldependencies.org/uk/dep/csubj-pred.html). The latter are also used for the subjects of [`advcl:pred`](http://universaldependencies.org/uk/dep/advcl-pred.html) (see [#476](https://github.com/UniversalDependencies/docs/issues/476)). _Coverage: full._
+1. **Coreference in relative clause constructions.** All relative clauses are manually annotated with enhanced dependencies. This includes all types mentioned in the [universal docs](http://universaldependencies.org/u/overview/enhanced-syntax.html#relative-clauses) plus Ukrainian clauses that use personal pronouns as relativizers: _вузол, що його не переріжеш_ “the-knot, that it.Acc not you-can-cut”. _Coverage: full._
 1. **Case information.** We don’t case-mark relation names because this doesn’t bring any new information [[discussion](https://github.com/UniversalDependencies/docs/issues/566)].
 
 
@@ -105,15 +107,22 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
 
 ### Changelog
 
+* 2022-11-15 **v2.9** (upcoming)
+  * Reanalyze large numerals like thousand, million, and above. See the [discussion](https://github.com/UniversalDependencies/docs/issues/198).
+  * Brought back `Hyph` and `Bull` `PunctType`s.
+  * Renamed `:sp` relation subtypes to `:pred`.
+  * Fixed errors.
+  * Added sentenses.
+
 * 2021-05-15 **v2.8**
-  * Undocumented PunctType=Ndash|Hyph|Bull converted to PuncType=Dash.
+  * Undocumented `PunctType` `Ndash`, `Hyph`, `Bull` converted to `Dash`.
 
 * 2019-05-15 **v2.4**
   * Closed many annotaion gaps: 116K→122K.
   * Fixed annotation errors.
   * Shared more dependents of a first conjunct.
   * Improved consistency by extending annotation guidelines to rarer phenomena.
-  * Switched from `ccomp` to `xcomp` where `nsubj:x` is a phantom object.
+  * Switched from `ccomp` to `xcomp` where `nsubj:xsubj` is a phantom object.
   * Made clauses with `ADV` relativizers `:relcl`.
   * Added `Polarity=Neg` for conjunctions.
   * Escaped the pipe (`|`) character in `MISC` as `\p`. `\\` is now a backslash.
