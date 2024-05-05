@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Ukrainian-IU:
-commit 7f59c73a78081842e1529e32f0eed7192d9832d2
+commit faf562c9d4fa805c3950bd1d257789f035009cd5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 12:30:35 2023 +0200
+Date:   Mon Nov 6 13:12:11 2023 +0100
 Size: counted 122750 of 122750 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.62029953334926.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,13 +20,17 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         54
-Udapi: found 54 bugs.
+               TOTAL         44
+Udapi: found 44 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 122750 words.
 Genres: found 10 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-test.conllu
+[Line 427 Sent 022c Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 427 Sent 022c Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 427 Sent 022c Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-train.conllu
 *** PASSED ***
@@ -37,8 +41,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.696340500265002) = 0.178548846221795
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.995600814663951) = 0.306338712204293
+(weight=0.307692307692308) * (score{udapi}=0.996415478615071) = 0.306589378035407
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.884952782020723) * (availability=1) * (validity=1) = 0.884952782020723
+(TOTAL score=0.885203447851837) * (availability=1) * (validity=1) = 0.885203447851837
 STARS = 4.5
-UD_Ukrainian-IU	0.884952782020723	4.5
+UD_Ukrainian-IU	0.885203447851837	4.5
