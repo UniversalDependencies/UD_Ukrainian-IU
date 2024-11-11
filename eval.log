@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Ukrainian-IU:
-commit faf562c9d4fa805c3950bd1d257789f035009cd5
+commit ab871d50928796511f0fde8d83971caefb632037
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 13:12:11 2023 +0100
+Date:   Sun May 5 13:38:03 2024 +0200
 Size: counted 122750 of 122750 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.62029953334926.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -30,9 +30,16 @@ Genres: found 10 out of 17 known.
 [Line 427 Sent 022c Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 427 Sent 022c Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 427 Sent 022c Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-Warnings: 3
+[Line 3889 Sent 1fvc Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:таких:det --> 7:він:advcl)
+Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-train.conllu
+[Line 35034 Sent 0qmx Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:таку:det --> 39:згадує:advcl)
+[Line 78273 Sent 2erj Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:всі:det --> 8:виключаючи:advcl)
+[Line 80634 Sent 1ocu Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Такий:det --> 2:собі:expl)
+[Line 109649 Sent 2jji Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:така:det --> 15:треба:advcl)
+[Line 117291 Sent 341v Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:таких:det --> 5:ви:acl)
+Warnings: 5
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
