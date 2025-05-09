@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Ukrainian-IU:
-commit ab871d50928796511f0fde8d83971caefb632037
+commit b4e72e59e56341d5ab48b5f873d3631d401407ae
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:38:03 2024 +0200
+Date:   Mon Nov 11 16:47:43 2024 +0100
 Size: counted 122750 of 122750 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.62029953334926.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,36 +20,78 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         44
-Udapi: found 44 bugs.
+               TOTAL          0
+Udapi: found 0 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 122750 words.
-Genres: found 10 out of 17 known.
+Genres: found 10 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-dev.conllu
+[Line 1475 Sent 11ub Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'так само' does not have the 'ExtPos' feature
+[Line 3264 Sent 14ay Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Так і' does not have the 'ExtPos' feature
+[Line 3937 Sent 2syh Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'як також' does not have the 'ExtPos' feature
+[Line 3952 Sent 2syh Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'як тільки' does not have the 'ExtPos' feature
+[Line 4098 Sent 2syn Node 33]: [L3 Warning fixed-without-extpos] Fixed expression 'як також' does not have the 'ExtPos' feature
+[Line 5505 Sent 1lcz Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'все одно' does not have the 'ExtPos' feature
+[Line 6500 Sent 1m1g Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'так і' does not have the 'ExtPos' feature
+[Line 6545 Sent 1m1z Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'так і' does not have the 'ExtPos' feature
+[Line 6811 Sent 1h3o Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'хоча б' does not have the 'ExtPos' feature
+[Line 7083 Sent 1u42 Node 26]: [L3 Warning fixed-without-extpos] Fixed expression 'а також' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 28
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-test.conllu
+[Line 335 Sent 01z1 Node 51]: [L3 Warning fixed-without-extpos] Fixed expression 'a la' does not have the 'ExtPos' feature
 [Line 427 Sent 022c Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 427 Sent 022c Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 427 Sent 022c Node 18]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3889 Sent 1fvc Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:таких:det --> 7:він:advcl)
-Warnings: 4
-*** PASSED ***
+[Line 496 Sent 023b Node 49]: [L3 Warning fixed-without-extpos] Fixed expression 'що про' does not have the 'ExtPos' feature
+[Line 496 Sent 023b Node 49]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON' word 'що'
+[Line 2063 Sent 18jq Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Коли б' does not have the 'ExtPos' feature
+[Line 2744 Sent 193i Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'а якщо' does not have the 'ExtPos' feature
+[Line 3889 Sent 1fvc Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:таких:det --> 7:він:advcl)
+[Line 3946 Sent 1fxw Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'чи то' does not have the 'ExtPos' feature
+[Line 3950 Sent 1fxw Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'чи то' does not have the 'ExtPos' feature
+[Line 5255 Sent 1gua Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'менше ніж' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Syntax errors: 2
+Warnings: 36
+*** FAILED *** with 2 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-train.conllu
-[Line 35034 Sent 0qmx Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:таку:det --> 39:згадує:advcl)
-[Line 78273 Sent 2erj Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:всі:det --> 8:виключаючи:advcl)
-[Line 80634 Sent 1ocu Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Такий:det --> 2:собі:expl)
-[Line 109649 Sent 2jji Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:така:det --> 15:треба:advcl)
-[Line 117291 Sent 341v Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:таких:det --> 5:ви:acl)
-Warnings: 5
-*** PASSED ***
-Validity: 1
+[Line 117 Sent 001z Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'до того ж' does not have the 'ExtPos' feature
+[Line 192 Sent 004l Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Мало не' does not have the 'ExtPos' feature
+[Line 239 Sent 005i Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'і то' does not have the 'ExtPos' feature
+[Line 249 Sent 005i Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'хоча б' does not have the 'ExtPos' feature
+[Line 287 Sent 0069 Node 30]: [L3 Warning fixed-without-extpos] Fixed expression 'et cetera' does not have the 'ExtPos' feature
+[Line 514 Sent 00cb Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'тоді як' does not have the 'ExtPos' feature
+[Line 1483 Sent 010t Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'та й то' does not have the 'ExtPos' feature
+[Line 1525 Sent 011m Node 33]: [L3 Warning fixed-without-extpos] Fixed expression 'а то' does not have the 'ExtPos' feature
+[Line 1886 Sent 01bc Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'між тим' does not have the 'ExtPos' feature
+[Line 3199 Sent 02oi Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Будь ласка' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 7444 Sent 08cx Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'все'
+[Line 7576 Sent 30pl Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'Усе'
+[Line 14848 Sent 0a22 Node 14]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'все'
+[Line 26039 Sent 2fpk Node 45]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'як'
+[Line 35034 Sent 0qmx Node 27]: [L3 Syntax leaf-det] 'det' not expected to have children (27:таку:det --> 39:згадує:advcl)
+[Line 57276 Sent 1333 Node 49]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'такими'
+[Line 78273 Sent 2erj Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:всі:det --> 8:виключаючи:advcl)
+[Line 80634 Sent 1ocu Node 1]: [L3 Syntax leaf-det] 'det' not expected to have children (1:Такий:det --> 2:собі:expl)
+[Line 105209 Sent 2cf1 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'таких'
+[Line 109649 Sent 2jji Node 12]: [L3 Syntax leaf-det] 'det' not expected to have children (12:така:det --> 15:треба:advcl)
+...suppressing further errors regarding Syntax
+Syntax errors: 12
+Warnings: 202
+*** FAILED *** with 12 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.588235294117647) = 0.0452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.555555555555556) = 0.0427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.696340500265002) = 0.178548846221795
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.996415478615071) = 0.306589378035407
+(weight=0.307692307692308) * (score{udapi}=1) = 0.307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.885203447851837) * (availability=1) * (validity=1) = 0.885203447851837
-STARS = 4.5
-UD_Ukrainian-IU	0.885203447851837	4.5
+(TOTAL score=0.883792551465501) * (availability=1) * (validity=0.01) = 0.00883792551465501
+STARS = 0
+UD_Ukrainian-IU	0.00883792551465501	0
