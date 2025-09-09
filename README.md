@@ -164,6 +164,7 @@ The data is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/license
 Data available since: UD v1.4
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: blog email fiction grammar-examples legal news reviews social web wiki
 Lemmas: manual native
 UPOS: manual native
