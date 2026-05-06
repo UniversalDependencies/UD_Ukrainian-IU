@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Ukrainian-IU:
-commit 2a3e30764b799bf7d13c236329e8620c95fce242
-Merge: 7c15549 0d5ed08
+commit 012afa5f3000d434d4a0bc49f292b4f285b9ed8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:59:31 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'uk_iu'
 Language code (from CoNLL-U file name) = 'uk'
@@ -25,63 +25,66 @@ Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 10 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-dev.conllu
-[Line 1475 Sent 11ub]: [L3 Warning fixed-without-extpos] Fixed expression 'так само' does not have the 'ExtPos' feature
-[Line 3264 Sent 14ay]: [L3 Warning fixed-without-extpos] Fixed expression 'Так і' does not have the 'ExtPos' feature
-[Line 3937 Sent 2syh]: [L3 Warning fixed-without-extpos] Fixed expression 'як також' does not have the 'ExtPos' feature
-[Line 3952 Sent 2syh]: [L3 Warning fixed-without-extpos] Fixed expression 'як тільки' does not have the 'ExtPos' feature
-[Line 4098 Sent 2syn]: [L3 Warning fixed-without-extpos] Fixed expression 'як також' does not have the 'ExtPos' feature
-[Line 5505 Sent 1lcz]: [L3 Warning fixed-without-extpos] Fixed expression 'все одно' does not have the 'ExtPos' feature
-[Line 6500 Sent 1m1g]: [L3 Warning fixed-without-extpos] Fixed expression 'так і' does not have the 'ExtPos' feature
-[Line 6545 Sent 1m1z]: [L3 Warning fixed-without-extpos] Fixed expression 'так і' does not have the 'ExtPos' feature
-[Line 6811 Sent 1h3o]: [L3 Warning fixed-without-extpos] Fixed expression 'хоча б' does not have the 'ExtPos' feature
-[Line 7083 Sent 1u42]: [L3 Warning fixed-without-extpos] Fixed expression 'а також' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
+[Line 1475 Sent 11ub]: [L3 WARNING fixed-without-extpos] Fixed expression 'так само' does not have the 'ExtPos' feature
+[Line 3264 Sent 14ay]: [L3 WARNING fixed-without-extpos] Fixed expression 'Так і' does not have the 'ExtPos' feature
+[Line 3937 Sent 2syh]: [L3 WARNING fixed-without-extpos] Fixed expression 'як також' does not have the 'ExtPos' feature
+[Line 3952 Sent 2syh]: [L3 WARNING fixed-without-extpos] Fixed expression 'як тільки' does not have the 'ExtPos' feature
+[Line 4098 Sent 2syn]: [L3 WARNING fixed-without-extpos] Fixed expression 'як також' does not have the 'ExtPos' feature
+[Line 5505 Sent 1lcz]: [L3 WARNING fixed-without-extpos] Fixed expression 'все одно' does not have the 'ExtPos' feature
+[Line 6500 Sent 1m1g]: [L3 WARNING fixed-without-extpos] Fixed expression 'так і' does not have the 'ExtPos' feature
+[Line 6545 Sent 1m1z]: [L3 WARNING fixed-without-extpos] Fixed expression 'так і' does not have the 'ExtPos' feature
+[Line 6811 Sent 1h3o]: [L3 WARNING fixed-without-extpos] Fixed expression 'хоча б' does not have the 'ExtPos' feature
+[Line 7083 Sent 1u42]: [L3 WARNING fixed-without-extpos] Fixed expression 'а також' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
 Warnings: 28
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-test.conllu
-[Line 335 Sent 01z1]: [L3 Warning fixed-without-extpos] Fixed expression 'a la' does not have the 'ExtPos' feature
-[Line 427 Sent 022c]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 427 Sent 022c]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 427 Sent 022c]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 496 Sent 023b]: [L3 Warning fixed-without-extpos] Fixed expression 'що про' does not have the 'ExtPos' feature
-[Line 496 Sent 023b]: [L3 Syntax rel-upos-case] 'case' should not be 'PRON' ('що ščo')
-[Line 2063 Sent 18jq]: [L3 Warning fixed-without-extpos] Fixed expression 'Коли б' does not have the 'ExtPos' feature
-[Line 2744 Sent 193i]: [L3 Warning fixed-without-extpos] Fixed expression 'а якщо' does not have the 'ExtPos' feature
-[Line 3889 Sent 1fvc]: [L3 Syntax leaf-det] 'det' not expected to have children (4:таких:det --> 7:він:advcl)
-[Line 3946 Sent 1fxw]: [L3 Warning fixed-without-extpos] Fixed expression 'чи то' does not have the 'ExtPos' feature
-[Line 3950 Sent 1fxw]: [L3 Warning fixed-without-extpos] Fixed expression 'чи то' does not have the 'ExtPos' feature
-[Line 5255 Sent 1gua]: [L3 Warning fixed-without-extpos] Fixed expression 'менше ніж' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Syntax errors: 2
+[Line 335 Sent 01z1]: [L3 WARNING fixed-without-extpos] Fixed expression 'a la' does not have the 'ExtPos' feature
+[Line 427 Sent 022c]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 427 Sent 022c]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 427 Sent 022c]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 496 Sent 023b]: [L3 WARNING fixed-without-extpos] Fixed expression 'що про' does not have the 'ExtPos' feature
+[Line 496 Sent 023b]: [L3 SYNTAX rel-upos-case] 'case' should not be 'PRON' ('що ščo')
+[Line 2063 Sent 18jq]: [L3 WARNING fixed-without-extpos] Fixed expression 'Коли б' does not have the 'ExtPos' feature
+[Line 2744 Sent 193i]: [L3 WARNING fixed-without-extpos] Fixed expression 'а якщо' does not have the 'ExtPos' feature
+[Line 3889 Sent 1fvc]: [L3 SYNTAX leaf-det] 'det' not expected to have children (4:таких:det --> 7:він:advcl)
+[Line 3946 Sent 1fxw]: [L3 WARNING fixed-without-extpos] Fixed expression 'чи то' does not have the 'ExtPos' feature
+[Line 3950 Sent 1fxw]: [L3 WARNING fixed-without-extpos] Fixed expression 'чи то' does not have the 'ExtPos' feature
+[Line 5255 Sent 1gua]: [L3 WARNING fixed-without-extpos] Fixed expression 'менше ніж' does not have the 'ExtPos' feature
+[Line 5435 Sent 1gz3]: [L3 WARNING fixed-without-extpos] Fixed expression 'І ось' does not have the 'ExtPos' feature
+[Line 5945 Sent 2jw3]: [L3 WARNING fixed-without-extpos] Fixed expression 'а також' does not have the 'ExtPos' feature
+[Line 6039 Sent 2jxt]: [L3 WARNING fixed-without-extpos] Fixed expression 'а також' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
 Warnings: 36
+SYNTAX errors: 2
 *** FAILED *** with 2 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang uk --max-err=10 UD_Ukrainian-IU/uk_iu-ud-train.conllu
-[Line 117 Sent 001z]: [L3 Warning fixed-without-extpos] Fixed expression 'до того ж' does not have the 'ExtPos' feature
-[Line 192 Sent 004l]: [L3 Warning fixed-without-extpos] Fixed expression 'Мало не' does not have the 'ExtPos' feature
-[Line 239 Sent 005i]: [L3 Warning fixed-without-extpos] Fixed expression 'і то' does not have the 'ExtPos' feature
-[Line 249 Sent 005i]: [L3 Warning fixed-without-extpos] Fixed expression 'хоча б' does not have the 'ExtPos' feature
-[Line 287 Sent 0069]: [L3 Warning fixed-without-extpos] Fixed expression 'et cetera' does not have the 'ExtPos' feature
-[Line 514 Sent 00cb]: [L3 Warning fixed-without-extpos] Fixed expression 'тоді як' does not have the 'ExtPos' feature
-[Line 1483 Sent 010t]: [L3 Warning fixed-without-extpos] Fixed expression 'та й то' does not have the 'ExtPos' feature
-[Line 1525 Sent 011m]: [L3 Warning fixed-without-extpos] Fixed expression 'а то' does not have the 'ExtPos' feature
-[Line 1886 Sent 01bc]: [L3 Warning fixed-without-extpos] Fixed expression 'між тим' does not have the 'ExtPos' feature
-[Line 3199 Sent 02oi]: [L3 Warning fixed-without-extpos] Fixed expression 'Будь ласка' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 7444 Sent 08cx]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('все vse')
-[Line 7576 Sent 30pl]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('Усе Use')
-[Line 14848 Sent 0a22]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('все vse')
-[Line 26039 Sent 2fpk]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('як jak')
-[Line 35034 Sent 0qmx]: [L3 Syntax leaf-det] 'det' not expected to have children (27:таку:det --> 39:згадує:advcl)
-[Line 57276 Sent 1333]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('такими takymy')
-[Line 78273 Sent 2erj]: [L3 Syntax leaf-det] 'det' not expected to have children (4:всі:det --> 8:виключаючи:advcl)
-[Line 80634 Sent 1ocu]: [L3 Syntax leaf-det] 'det' not expected to have children (1:Такий:det --> 2:собі:expl)
-[Line 105209 Sent 2cf1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('таких takych')
-[Line 109649 Sent 2jji]: [L3 Syntax leaf-det] 'det' not expected to have children (12:така:det --> 15:треба:advcl)
-...suppressing further errors regarding Syntax
-Syntax errors: 12
-Warnings: 204
-*** FAILED *** with 12 errors
+[Line 117 Sent 001z]: [L3 WARNING fixed-without-extpos] Fixed expression 'до того ж' does not have the 'ExtPos' feature
+[Line 192 Sent 004l]: [L3 WARNING fixed-without-extpos] Fixed expression 'Мало не' does not have the 'ExtPos' feature
+[Line 239 Sent 005i]: [L3 WARNING fixed-without-extpos] Fixed expression 'і то' does not have the 'ExtPos' feature
+[Line 249 Sent 005i]: [L3 WARNING fixed-without-extpos] Fixed expression 'хоча б' does not have the 'ExtPos' feature
+[Line 287 Sent 0069]: [L3 WARNING fixed-without-extpos] Fixed expression 'et cetera' does not have the 'ExtPos' feature
+[Line 514 Sent 00cb]: [L3 WARNING fixed-without-extpos] Fixed expression 'тоді як' does not have the 'ExtPos' feature
+[Line 1483 Sent 010t]: [L3 WARNING fixed-without-extpos] Fixed expression 'та й то' does not have the 'ExtPos' feature
+[Line 1525 Sent 011m]: [L3 WARNING fixed-without-extpos] Fixed expression 'а то' does not have the 'ExtPos' feature
+[Line 1886 Sent 01bc]: [L3 WARNING fixed-without-extpos] Fixed expression 'між тим' does not have the 'ExtPos' feature
+[Line 3199 Sent 02oi]: [L3 WARNING fixed-without-extpos] Fixed expression 'Будь ласка' does not have the 'ExtPos' feature
+[Line 4174 Sent 03e4]: [L3 SYNTAX obl-should-be-nmod] The parent (node [42] 'ним nym') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 7444 Sent 08cx]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('все vse')
+[Line 7576 Sent 30pl]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('Усе Use')
+[Line 14848 Sent 0a22]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('все vse')
+[Line 26039 Sent 2fpk]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('як jak')
+[Line 35034 Sent 0qmx]: [L3 SYNTAX leaf-det] 'det' not expected to have children (27:таку:det --> 39:згадує:advcl)
+[Line 57276 Sent 1333]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('такими takymy')
+[Line 78273 Sent 2erj]: [L3 SYNTAX leaf-det] 'det' not expected to have children (4:всі:det --> 8:виключаючи:advcl)
+[Line 80634 Sent 1ocu]: [L3 SYNTAX leaf-det] 'det' not expected to have children (1:Такий:det --> 2:собі:expl)
+[Line 103454 Sent 29ow]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'загиблих zahyblych') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 202
+SYNTAX errors: 14
+*** FAILED *** with 14 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
