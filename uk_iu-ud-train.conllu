@@ -4171,7 +4171,7 @@
 37	та	та	CCONJ	Ccs	_	38	cc	38:cc	Id=03f5|LTranslit=ta|Translit=ta
 38	пилюки	пилюка	NOUN	Ncfsgn	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	conj	34:nmod|36:conj	Id=03f6|LTranslit=pyľuka|Translit=pyľuky
 39	увійти	увійти	VERB	Vmen	Aspect=Perf|VerbForm=Inf	33	xcomp	33:xcomp	Id=03f7|LTranslit=uvijty|Translit=uvijty
-40	разом	разом	ADV	R	_	42	obl	42:obl	Id=03f8|LTranslit=razom|Translit=razom
+40	разом	разом	ADV	R	_	42	advmod	42:advmod	Id=03f8|LTranslit=razom|Translit=razom
 41	з	з	ADP	Spsi	Case=Ins	42	case	42:case	Id=03f9|LTranslit=z|Translit=z
 42	ним	він	PRON	Pp-3m-sin	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	obl	39:obl	Id=03fa|LTranslit=vin|SpaceAfter=No|Translit=nym
 43	.	.	PUNCT	U	_	15	punct	15:punct	Id=03fb|LTranslit=.|Translit=.
@@ -103451,7 +103451,7 @@
 2	кількість	кількість	NOUN	Ncfsnn	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	7:nsubj	Id=29oy|LTranslit=kiľkisť|Translit=kiľkisť
 3	загиблих	загиблі	NOUN	Ap--pgf-	Animacy=Anim|Case=Gen|Number=Ptan	2	nmod	2:nmod	Id=29oz|LTranslit=zahybli|Translit=zahyblych
 4	у	у	ADP	Spsl	Case=Loc	5	case	5:case	Id=29p0|LTranslit=u|Translit=u
-5	провінції	провінція	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	3:obl	Id=29p1|LTranslit=provincija|Translit=provinciji
+5	провінції	провінція	NOUN	Ncfsln	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	3:nmod	Id=29p1|LTranslit=provincija|Translit=provinciji
 6	Сінд	Сінд	PROPN	Npmsnn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	flat:title	5:flat:title	Id=29p2|LTranslit=Sind|Translit=Sind
 7	складає	складати	VERB	Vmpip3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Id=29p3|LTranslit=skladaty|Translit=skladaě
 8	від	від	ADP	Spsg	Case=Gen	9	case	9:case	Id=29p4|LTranslit=vid|Translit=vid
