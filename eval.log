@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Ukrainian-IU:
-commit 012afa5f3000d434d4a0bc49f292b4f285b9ed8d
+commit 0ca8044d9d4a9a3ca3661a07f0c198797114aeda
+Merge: 21f641b bcb3e6b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:59:31 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'uk_iu'
 Language code (from CoNLL-U file name) = 'uk'
@@ -70,7 +70,6 @@ Exit code: 1
 [Line 1525 Sent 011m]: [L3 WARNING fixed-without-extpos] Fixed expression 'а то' does not have the 'ExtPos' feature
 [Line 1886 Sent 01bc]: [L3 WARNING fixed-without-extpos] Fixed expression 'між тим' does not have the 'ExtPos' feature
 [Line 3199 Sent 02oi]: [L3 WARNING fixed-without-extpos] Fixed expression 'Будь ласка' does not have the 'ExtPos' feature
-[Line 4174 Sent 03e4]: [L3 SYNTAX obl-should-be-nmod] The parent (node [42] 'ним nym') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 ...suppressing further messages regarding WARNING/SYNTAX
 [Line 7444 Sent 08cx]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('все vse')
 [Line 7576 Sent 30pl]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' ('Усе Use')
@@ -80,11 +79,12 @@ Exit code: 1
 [Line 57276 Sent 1333]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('такими takymy')
 [Line 78273 Sent 2erj]: [L3 SYNTAX leaf-det] 'det' not expected to have children (4:всі:det --> 8:виключаючи:advcl)
 [Line 80634 Sent 1ocu]: [L3 SYNTAX leaf-det] 'det' not expected to have children (1:Такий:det --> 2:собі:expl)
-[Line 103454 Sent 29ow]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'загиблих zahyblych') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 105209 Sent 2cf1]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('таких takych')
+[Line 109649 Sent 2jji]: [L3 SYNTAX leaf-det] 'det' not expected to have children (12:така:det --> 15:треба:advcl)
 ...suppressing further messages regarding ERROR/SYNTAX
 Warnings: 202
-SYNTAX errors: 14
-*** FAILED *** with 14 errors
+SYNTAX errors: 12
+*** FAILED *** with 12 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
