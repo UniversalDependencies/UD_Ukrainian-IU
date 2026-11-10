@@ -111,7 +111,7 @@
     <dep name="advcl">1520</dep>
     <dep name="advcl:pred">51</dep>
     <dep name="advcl:svc">47</dep>
-    <dep name="advmod">6553</dep>
+    <dep name="advmod">6554</dep>
     <dep name="advmod:det">43</dep>
     <dep name="amod">9746</dep>
     <dep name="appos">861</dep>
@@ -144,12 +144,12 @@
     <dep name="iobj">346</dep>
     <dep name="list">25</dep>
     <dep name="mark">2315</dep>
-    <dep name="nmod">9516</dep>
+    <dep name="nmod">9517</dep>
     <dep name="nsubj">7722</dep>
     <dep name="nummod">509</dep>
     <dep name="nummod:gov">522</dep>
     <dep name="obj">5712</dep>
-    <dep name="obl">8630</dep>
+    <dep name="obl">8628</dep>
     <dep name="orphan">256</dep>
     <dep name="parataxis">1386</dep>
     <dep name="parataxis:discourse">226</dep>
